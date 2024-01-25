@@ -1,7 +1,7 @@
 import React from 'react';
-import Img1 from '../../assast/work1.png';
-import Img2 from '../../assast/work2.png';
-import Img3 from '../../assast/work3.png';
+import Img1 from '../../assets/work1.png';
+import Img2 from '../../assets/work2.png';
+import Img3 from '../../assets/work3.png';
 import { Button } from "@material-tailwind/react";
 
 const OurWork = () => {

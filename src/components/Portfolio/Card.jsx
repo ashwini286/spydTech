@@ -1,16 +1,16 @@
 import React, { useState } from "react";
-import Img1 from "../assast/webDesign1.jpg";
-import Img2 from "../assast/webDesign2.jpeg";
-import Img3 from "../assast/webDesign3.jpg";
-import Img4 from "../assast/phone6.png";
-import Img5 from "../assast/phone5.png";
-import Img6 from "../assast/phone4.png";
-import Img7 from "../assast/Desktop1.png";
-import Img8 from "../assast/Desktop2.jpg";
-import Img9 from "../assast/Desktop3.png";
-import Img10 from "../assast/webApp1.png";
-import Img11 from "../assast/webApp2.png";
-import Img12 from "../assast/webApp3.png";
+import Img1 from "../assets/webDesign1.jpg";
+import Img2 from "../assets/webDesign2.jpeg";
+import Img3 from "../assets/webDesign3.jpg";
+import Img4 from "../assets/phone6.png";
+import Img5 from "../assets/phone5.png";
+import Img6 from "../assets/phone4.png";
+import Img7 from "../assets/Desktop1.png";
+import Img8 from "../assets/Desktop2.jpg";
+import Img9 from "../assets/Desktop3.png";
+import Img10 from "../assets/webApp1.png";
+import Img11 from "../assets/webApp2.png";
+import Img12 from "../assets/webApp3.png";
 
 
 const Card = () => {
