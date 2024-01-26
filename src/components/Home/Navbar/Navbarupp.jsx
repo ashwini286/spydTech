@@ -35,44 +35,51 @@ import logo22 from './spylogo1.png';
 import LogoFull from './logo2.png';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import PhoneIphoneIcon from '@mui/icons-material/PhoneIphone';
+import DevicesIcon from '@mui/icons-material/Devices';
 import { Link } from "react-router-dom";
 const navListMenuItems = [
   {
     title: "Ecommerce",
     // description: "Find the perfect solution for your needs.",
     icon: ShoppingCartIcon,
+    color: 'blue',
+     // Add a color property for the icon
     Type1: "Magento eCommerce Development",
-    Type2: "Magento eCommerce Development",
-    Type3: "Magento eCommerce Development"
+    Type2: "Mobile Commerce (mCommerce)",
+    Type3: "eCommerce"
   },
   {
     title: "Frontend",
     // description: "Meet and learn about our dedication",
-    icon: PhoneIphoneIcon,
-    Type1: "Magento eCommerce Development",
-    Type2: "Magento eCommerce Development",
-    Type3: "Magento eCommerce Development"
+    icon: DevicesIcon,
+    color: 'orange',
+    Type1: "Angular JS",
+    Type2: "React JS",
+    Type3: "NEXT JS"
   },
   {
     title: "Mobile",
     // description: "Find the perfect solution for your needs.",
-    icon: Bars4Icon,
-    Type1: "Magento eCommerce Development",
-    Type2: "Magento eCommerce Development",
-    Type3: "Magento eCommerce Development"
+    icon: PhoneIphoneIcon,
+    color: 'green', // Add a color property for the icon
+    Type1: "Iphone Application",
+    Type2: "Android Application",
+    Type3: "Hybrid App"
   },
   {
     title: "Services",
     // description: "Learn how we can help you achieve your goals.",
     icon: SunIcon,
-    Type1: "Magento eCommerce Development",
-    Type2: "Magento eCommerce Development",
+    color: 'red', // Add a color property for the icon
+    Type1: "Mobile App",
+    Type2: "Amazon Web Services",
     Type3: "Magento eCommerce Development"
   },
   {
     title: "Support",
     // description: "Reach out to us for assistance or inquiries",
     icon: GlobeAmericasIcon,
+    color: 'purple', // Add a color property for the icon
     Type1: "Magento eCommerce Development",
     Type2: "Magento eCommerce Development",
     Type3: "Magento eCommerce Development"
@@ -81,6 +88,7 @@ const navListMenuItems = [
     title: "Contact",
     // description: "Find the perfect solution for your needs.",
     icon: PhoneIcon,
+    color: 'teal', // Add a color property for the icon
     Type1: "Magento eCommerce Development",
     Type2: "Magento eCommerce Development",
     Type3: "Magento eCommerce Development"
@@ -89,6 +97,7 @@ const navListMenuItems = [
     title: "News",
     // description: "Read insightful articles, tips, and expert opinions.",
     icon: NewspaperIcon,
+    color: 'pink', // Add a color property for the icon
     Type1: "Magento eCommerce Development",
     Type2: "Magento eCommerce Development",
     Type3: "Magento eCommerce Development"
@@ -97,32 +106,31 @@ const navListMenuItems = [
     title: "Products",
     // description: "Find the perfect solution for your needs.",
     icon: RectangleGroupIcon,
+    color: 'cyan', // Add a color property for the icon
     Type1: "Magento eCommerce Development",
     Type2: "Magento eCommerce Development",
     Type3: "Magento eCommerce Development"
   },
-
 ];
+
 
 function NavListMenu({ isSticky }) {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
-  const renderItems = navListMenuItems.map(
-    ({ icon, title, Type1, Type2, Type3 }, key) => (
-      <a href="#" key={key}>
-        <MenuItem className="flex items-center gap-3">
-          <div className="flex items-center justify-center rounded-lg !bg-blue-gray-50 p-2 ">
-            {" "}
-            {React.createElement(icon, {
-              strokeWidth: 2,
-              className: "h-6 text-blue-900 w-6",
-            })}
+  const renderItems = navListMenuItems.map(({ icon: IconComponent, title, Type1, Type2, Type3, color }, key) => (
+    <a href="#" key={key}>
+      <MenuItem className="flex items-center gap-0">
+        <div className={`flex items-center justify-center rounded-lg !bg-${color}-500 p-3`}>
+          {React.createElement(IconComponent, {
+            strokeWidth: 3,
+            className: `h-8 text-${color}-500 w-8`,
+          })}
           </div>
           <div>
             <Typography
               variant="h6"
               color="blue-gray"
-              className="flex items-center text-sm font-bold"
+              className="flex items-start text-xm font-light"
             >
               {title}
 
@@ -132,12 +140,12 @@ function NavListMenu({ isSticky }) {
           </div>
 
         </MenuItem>
-        <div className='px-6  '>
+        <div className='px-7'>
           <Typography
             variant="paragraph"
-            className="text-xs !font-medium text-blue-gray-500 leading-10"
+            className="text-xs !font-light text-gray-500  leading-10"
           >
-            <div className='flex justify-center items-center'>
+            <div className= "flex justify-start-col-blue-500 items-center">
               <div>
                 <FaAngleRight className='mr-3' />
               </div>
@@ -149,9 +157,9 @@ function NavListMenu({ isSticky }) {
           </Typography>
           <Typography
             variant="paragraph"
-            className="text-xs !font-medium text-blue-gray-500 leading-10"
+            className="text-xs !font-normal text-blue-gray-500 leading-10"
           >
-            <div className='flex justify-center items-center'>
+            <div className='flex justify-start items-center'>
               <div>
                 <FaAngleRight className='mr-3' />
               </div>
@@ -163,11 +171,11 @@ function NavListMenu({ isSticky }) {
           </Typography>
           <Typography
             variant="paragraph"
-            className="text-xs !font-medium text-blue-gray-500 leading-10"
+            className="text-xs !font-normal text-blue-gray-500 leading-10"
           >
 
 
-            <div className='flex justify-center items-center'>
+            <div className='flex justify-start items-center'>
               <div>
                 <FaAngleRight className='mr-3' />
               </div>
