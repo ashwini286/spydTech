@@ -1,5 +1,8 @@
 import React from 'react'
-import Navbarupp from '../../Home/Navbar/Navbarupp'
+import Navbarupp from '../../Home/Navbar/Navbarupp';
+import GetInTouch from '../GetInTouch/GetInTouch';
+import OurBranches from '../OurBranches/OurBranches';
+import LetsTalk from '../LetsTalk/LetsTalk';
 const Contact = () => {
   return (
     <>
@@ -17,6 +20,9 @@ const Contact = () => {
         referrerPolicy="no-referrer-when-downgrade"
       ></iframe>
     </div>
+    <GetInTouch />
+    <OurBranches />
+    <LetsTalk />
     </>
   )
 }
