@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 // import { useWindowScroll } from 'react-use';
+import { useLocation } from 'react-router-dom';
 import { FaAngleRight } from "react-icons/fa6";
 import {
   Navbar,
@@ -415,11 +416,13 @@ const Navbarupp = () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
+  const location = useLocation();
+  const path = location.pathname;
   return (
     <Navbar
       className='px-8 fixed top-0 w-full z-10 rounded-none py-0 max-w-screen-4xl'
-      color={isSticky ? "white" : "transparent"}
-    >
+      color={path === "/contact" ? "gray" : (isSticky ? "white" : "transparent")}
+    >
       <div className="flex items-center justify-between">
         <Typography
           as="a"
