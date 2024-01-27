@@ -120,7 +120,7 @@ const navListMenuItems = [
 
 function NavListMenu({ isSticky }) {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(true);
   const renderItems = navListMenuItems.map(({ icon: IconComponent, title, Type1, Type2, Type3, color }, key) => (
     <a href="#" key={key}>
       <MenuItem className="flex items-center gap-0">
