@@ -15,6 +15,7 @@ import Footer from '../Footer/Footer';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "react-slideshow-image/dist/styles.css";
+import images from './images/Image.jpeg'
 
 const Home = () => {
  
@@ -26,33 +27,27 @@ const Home = () => {
         <Carousel className="w-full mx-auto top-[-5px]">
           <div className="relative flex h-full items-center justify-center" >
             <img
-              src="https://cellularnews.com/wp-content/uploads/2023/07/10-best-laptop-privacy-screen-15-6-for-2023-1690616451.jpg"
+             src={images}
               className="h-full w-full object-cover"
               alt="Background 1"
             />
             <div className="absolute inset-0 grid h-full w-full items-end ">
-              <div className="w-3/4 pl-12 pb-12 md:w-2/4 md:pl-20 md:pb-20 lg:pl-32 lg:pb-32 ">
+              <div className="w-3/4 pl- pb-12 md:w-2/4 md:pl-20 md:pb-20 lg:pl-32 lg:pb-32 ">
                 <Typography
                   variant="h1"
                   color="white"
-                  className="mb-4 text-2xl md:text-4xl lg:text-4xl font-serif font-bold"
+                  className="mb-6  text-2x1 md:text-4xl lg:text-5x1 font-serif font-bold p-0"
                 >
-                  Enterprise &amp; Custom Application Development
+                  ERPNext &amp; Making Supply Chain
+                  Management efficient for Emerging Startup
+                  of Retail and Distribution Domain
                 </Typography>
-                <Typography
-                  variant="lead"
-                  color="white"
-                  className="mb-12 opacity-80 font-serif"
-                >
-                  SpY D possesses deep experience, expertise and exposure in
-                  design and developing enterprise and custom web applications
-                  catering to myriad Industries.
-                </Typography>
+               
                 <div className="flex gap-2">
                   <div>
                     <Button
                       size="lg"
-                      className="font-serif bg-[#5bc0de] rounded-none"
+                      className="font-serif bg-blue-500 rounded-none"
                     >
                       Explore
                     </Button>
@@ -60,7 +55,7 @@ const Home = () => {
                   <div>
                     <Button
                       size="lg"
-                      color="white"
+                      color="black"
                       variant="text"
                       className="border border-[#46b8da] font-serif rounded-none"
                     >

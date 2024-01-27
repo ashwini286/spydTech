@@ -40,8 +40,19 @@ import DevicesIcon from '@mui/icons-material/Devices';
 import LocalFireDepartmentIcon from '@mui/icons-material/LocalFireDepartment';
 import CloudQueueIcon from '@mui/icons-material/CloudQueue';
 import IntegrationInstructionsIcon from '@mui/icons-material/IntegrationInstructions';
+import { TbSquareLetterE } from "react-icons/tb";
 import { Link } from "react-router-dom";
 const navListMenuItems = [
+  {
+    title: "ERPNext TECHNOLOGY",
+    // description: "Read insightful articles, tips, and expert opinions.",
+    icon: TbSquareLetterE,
+    color: 'blue', // Add a color property for the icon
+    Type1: "Consulting",
+    Type2: "Implementation",
+    Type3: "Third-Party Integrations"
+   
+  },
   {
     title: "ECOMMERCE",
     // description: "Find the perfect solution for your needs.",
@@ -98,16 +109,7 @@ const navListMenuItems = [
     Type2: "ASP.NET Web Application",
     Type3: "PowerBI"
   },
-  {
-    title: "LAMP TECHNOLOGY",
-    // description: "Read insightful articles, tips, and expert opinions.",
-    icon: LocalFireDepartmentIcon,
-    color: 'pink', // Add a color property for the icon
-    Type1: "PHP Website Services",
-    Type2: "Custom Application",
-    Type3: "Linux"
-   
-  },
+  
   {
     title: "OTHER SERVICES",
     // description: "Find the perfect solution for your needs.",
