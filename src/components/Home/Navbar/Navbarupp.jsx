@@ -71,13 +71,13 @@ const navListMenuItems = [
     Type3: "Hybrid App"
   },
   {
-    title: "HIRE DEVELOPERS",
+    title: "BACKEND",
     // description: "Learn how we can help you achieve your goals.",
     icon: IntegrationInstructionsIcon,
     color: 'red', // Add a color property for the icon
-    Type1: "Mobile App",
-    Type2: "Amazon Web Services",
-    Type3: "Magento eCommerce Development"
+    Type1: "Java",
+    Type2: "PHP",
+    Type3: "Python"
   },
   {
     title: "DIGITAL MARKETING",
@@ -86,6 +86,7 @@ const navListMenuItems = [
     color: 'purple', // Add a color property for the icon
     Type1: "Seo Services",
     Type2: "PPC Management Services",
+    Type3: "SMM & Content Writing"
     
   },
   {
@@ -94,8 +95,8 @@ const navListMenuItems = [
     icon: MicrosoftIcon,
     color: 'teal', // Add a color property for the icon
     Type1: "Dynamics CRM ",
-    Type2: "ASP.NET web Application",
-   
+    Type2: "ASP.NET Web Application",
+    Type3: "PowerBI"
   },
   {
     title: "LAMP TECHNOLOGY",
@@ -104,6 +105,7 @@ const navListMenuItems = [
     color: 'pink', // Add a color property for the icon
     Type1: "PHP Website Services",
     Type2: "Custom Application",
+    Type3: "Linux"
    
   },
   {
@@ -112,7 +114,8 @@ const navListMenuItems = [
     icon: CloudQueueIcon,
     color: 'cyan', // Add a color property for the icon
     Type1: "Salesforce Development",
-    Type2: "Amazon Web Services",
+    Type2: "Cloud Technology",
+    Type3: ""
     
   },
 ];
@@ -122,8 +125,8 @@ function NavListMenu({ isSticky }) {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(true);
   const renderItems = navListMenuItems.map(({ icon: IconComponent, title, Type1, Type2, Type3, color }, key) => (
-    <a href="#" key={key}>
-      <MenuItem className="flex items-center gap-0">
+    <Link to={`/${title.toLowerCase()}`} key={key}>
+      <MenuItem className="flex items-center ">
         <div className={`flex items-center justify-center rounded-lg !bg-${color}-500 p-2`}>
           {React.createElement(IconComponent, {
             strokeWidth: 3,
@@ -147,13 +150,13 @@ function NavListMenu({ isSticky }) {
         <div className='px-7'>
           <Typography
             variant="paragraph"
-            className="text-xs !font-light text-gray-500  leading-10"
+            className="text-xs !font-normal text-blue-gray-500  leading-10"
           >
-            <div className= "flex justify-start-col-blue-500 items-center">
+            <div className='flex justify-start items-center'>
               <div>
                 <FaAngleRight className='mr-3' />
               </div>
-              <div>
+              <div className='mb-0'>
                 {Type1}
               </div>
             </div>
@@ -181,7 +184,7 @@ function NavListMenu({ isSticky }) {
 
             <div className='flex justify-start items-center'>
               <div>
-                <FaAngleRight className='mr-2' />
+                <FaAngleRight className='mr-3' />
               </div>
               <div>
                 {Type3}
@@ -191,7 +194,7 @@ function NavListMenu({ isSticky }) {
             <hr />
           </Typography>
         </div>
-      </a>
+      </Link>
     )
   );
 
