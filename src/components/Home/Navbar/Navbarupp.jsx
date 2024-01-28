@@ -35,11 +35,26 @@ import logo22 from '../../assets/spylogo1.png';
 import LogoFull from '../../assets/logo2.png';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import PhoneIphoneIcon from '@mui/icons-material/PhoneIphone';
+import MicrosoftIcon from '@mui/icons-material/Microsoft';
 import DevicesIcon from '@mui/icons-material/Devices';
+import LocalFireDepartmentIcon from '@mui/icons-material/LocalFireDepartment';
+import CloudQueueIcon from '@mui/icons-material/CloudQueue';
+import IntegrationInstructionsIcon from '@mui/icons-material/IntegrationInstructions';
+import { TbSquareLetterE } from "react-icons/tb";
 import { Link } from "react-router-dom";
 const navListMenuItems = [
   {
-    title: "Ecommerce",
+    title: "ERPNext TECHNOLOGY",
+    // description: "Read insightful articles, tips, and expert opinions.",
+    icon: TbSquareLetterE,
+    color: 'blue', // Add a color property for the icon
+    Type1: "Consulting",
+    Type2: "Implementation",
+    Type3: "Third-Party Integrations"
+   
+  },
+  {
+    title: "ECOMMERCE",
     // description: "Find the perfect solution for your needs.",
     icon: ShoppingCartIcon,
     color: 'blue',
@@ -49,7 +64,7 @@ const navListMenuItems = [
     Type3: "eCommerce"
   },
   {
-    title: "Frontend",
+    title: "FRONTEND",
     // description: "Meet and learn about our dedication",
     icon: DevicesIcon,
     color: 'orange',
@@ -58,69 +73,63 @@ const navListMenuItems = [
     Type3: "NEXT JS"
   },
   {
-    title: "Mobile",
+    title: "MOBILE",
     // description: "Find the perfect solution for your needs.",
     icon: PhoneIphoneIcon,
     color: 'green', // Add a color property for the icon
-    Type1: "Iphone Application",
+    Type1: "IOS Application",
     Type2: "Android Application",
     Type3: "Hybrid App"
   },
   {
-    title: "Services",
+    title: "BACKEND",
     // description: "Learn how we can help you achieve your goals.",
-    icon: SunIcon,
+    icon: IntegrationInstructionsIcon,
     color: 'red', // Add a color property for the icon
-    Type1: "Mobile App",
-    Type2: "Amazon Web Services",
-    Type3: "Magento eCommerce Development"
+    Type1: "Java",
+    Type2: "PHP",
+    Type3: "Python"
   },
   {
-    title: "Support",
+    title: "DIGITAL MARKETING",
     // description: "Reach out to us for assistance or inquiries",
     icon: GlobeAmericasIcon,
     color: 'purple', // Add a color property for the icon
-    Type1: "Magento eCommerce Development",
-    Type2: "Magento eCommerce Development",
-    Type3: "Magento eCommerce Development"
+    Type1: "Seo Services",
+    Type2: "PPC Management Services",
+    Type3: "SMM & Content Writing"
+    
   },
   {
-    title: "Contact",
+    title: "MICROSOFT TECHNOLOGY",
     // description: "Find the perfect solution for your needs.",
-    icon: PhoneIcon,
+    icon: MicrosoftIcon,
     color: 'teal', // Add a color property for the icon
-    Type1: "Magento eCommerce Development",
-    Type2: "Magento eCommerce Development",
-    Type3: "Magento eCommerce Development"
+    Type1: "Dynamics CRM ",
+    Type2: "ASP.NET Web Application",
+    Type3: "PowerBI"
   },
+  
   {
-    title: "News",
-    // description: "Read insightful articles, tips, and expert opinions.",
-    icon: NewspaperIcon,
-    color: 'pink', // Add a color property for the icon
-    Type1: "Magento eCommerce Development",
-    Type2: "Magento eCommerce Development",
-    Type3: "Magento eCommerce Development"
-  },
-  {
-    title: "Products",
+    title: "OTHER SERVICES",
     // description: "Find the perfect solution for your needs.",
-    icon: RectangleGroupIcon,
+    icon: CloudQueueIcon,
     color: 'cyan', // Add a color property for the icon
-    Type1: "Magento eCommerce Development",
-    Type2: "Magento eCommerce Development",
-    Type3: "Magento eCommerce Development"
+    Type1: "Salesforce Development",
+    Type2: "Cloud Technology",
+    Type3: ""
+    
   },
 ];
 
 
 function NavListMenu({ isSticky }) {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(true);
   const renderItems = navListMenuItems.map(({ icon: IconComponent, title, Type1, Type2, Type3, color }, key) => (
-    <a href="#" key={key}>
-      <MenuItem className="flex items-center gap-0">
-        <div className={`flex items-center justify-center rounded-lg !bg-${color}-500 p-3`}>
+    <Link to={`/${title.toLowerCase()}`} key={key}>
+      <MenuItem className="flex items-center ">
+        <div className={`flex items-center justify-center rounded-lg !bg-${color}-500 p-2`}>
           {React.createElement(IconComponent, {
             strokeWidth: 3,
             className: `h-8 text-${color}-500 w-8`,
@@ -143,16 +152,18 @@ function NavListMenu({ isSticky }) {
         <div className='px-7'>
           <Typography
             variant="paragraph"
-            className="text-xs !font-light text-gray-500  leading-10"
+            className="text-xs !font-normal text-blue-gray-500  leading-10"
           >
-            <div className= "flex justify-start-col-blue-500 items-center">
+           <Link to={`/${Type1.toLowerCase()}`} key={key}> 
+            <div className='flex justify-start items-center'>
               <div>
                 <FaAngleRight className='mr-3' />
               </div>
-              <div>
+              <div className='mb-0'>
                 {Type1}
               </div>
             </div>
+            </Link>
             <hr />
           </Typography>
           <Typography
@@ -187,7 +198,7 @@ function NavListMenu({ isSticky }) {
             <hr />
           </Typography>
         </div>
-      </a>
+      </Link>
     )
   );
 
