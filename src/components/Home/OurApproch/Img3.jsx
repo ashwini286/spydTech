@@ -1,5 +1,5 @@
 import React from 'react'
-import Img33 from './img3.png'
+import Img33 from '../../assets/img3.png'
 const Img3 = () => {
   return (
     <div>

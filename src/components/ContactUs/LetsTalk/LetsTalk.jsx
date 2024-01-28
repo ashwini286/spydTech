@@ -2,7 +2,23 @@ import React from 'react'
 
 const LetsTalk = () => {
   return (
-    <div>LetsTalk</div>
+    <>
+    <div>
+      <div>
+        <div>
+
+        </div>
+      </div>
+
+      <div>
+        <div>
+          
+        </div>
+      </div>
+
+    </div>
+    
+    </>
   )
 }
 
