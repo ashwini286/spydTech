@@ -32,16 +32,16 @@ const Home = () => {
               alt="Background 1"
             />
             <div className="absolute inset-0 grid h-full w-full items-end ">
-              <div className="w-3/4 pl- pb-12 md:w-2/4 md:pl-20 md:pb-20 lg:pl-32 lg:pb-32 ">
-                <Typography
-                  variant="h1"
-                  color="white"
-                  className="mb-6  text-2x1 md:text-4xl lg:text-5x1 font-serif font-bold p-0"
-                >
-                  ERPNext &amp; Making Supply Chain
-                  Management efficient for Emerging Startup
-                  of Retail and Distribution Domain
-                </Typography>
+              <div className="w-3/4 ml-10 pl- pb-12 md:w-2/4 md:pl-20 md:pb-20 lg:pl-32 lg:pb-32 ">
+              <Typography
+  variant="h1"
+  color="white"
+  className="mb-6 text-3xl md:text-4xl lg:text-4xl font-serif font-bold pl-15 flex items-end center-text"
+>
+  ERPNext:Making Supply Chain Management efficient for Emerging Startup
+  of Retail and Distribution Domain
+</Typography>
+
                
                 <div className="flex gap-2">
                   <div>

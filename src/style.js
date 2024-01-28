@@ -7,3 +7,12 @@ export const layout = {
   
     sectionInfo: `flex-1 flex justify-center items-start flex-col`,
   };
+  module.exports = {
+    theme: {
+      extend: {
+        fontFamily: {
+          calibri: ['Calibri', 'sans-serif'],
+        },
+      },
+    },
+  }
