@@ -1,5 +1,5 @@
 import React from 'react'
-import Person from './person.png'
+import Person from '../../assets/person.png'
 const Services1 = () => {
 
   const Services = [

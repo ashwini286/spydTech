@@ -31,8 +31,8 @@ import {
   TagIcon,
   UserGroupIcon,
 } from "@heroicons/react/24/solid";
-import logo22 from './spylogo1.png';
-import LogoFull from './logo2.png';
+import logo22 from '../../assets/spylogo1.png';
+import LogoFull from '../../assets/logo2.png';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import PhoneIphoneIcon from '@mui/icons-material/PhoneIphone';
 import DevicesIcon from '@mui/icons-material/Devices';

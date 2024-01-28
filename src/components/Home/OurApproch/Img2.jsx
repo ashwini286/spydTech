@@ -1,5 +1,5 @@
 import React from 'react'
-import Planning from './planning.png'
+import Planning from '../../assets/planning.png'
 const Img2 = () => {
   return (
     <div>
