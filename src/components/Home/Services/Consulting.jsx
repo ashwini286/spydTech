@@ -37,23 +37,13 @@ const Consulting = () => {
           </div>
         </div>
       </div>
-      <div 
-      className=''>
-        <Typography 
-        variant='h2'
-        className='w-1/2'
-        >
+      <div className='ml-6 mb-6'>
+        <Typography variant='h2' className='w-1/3'>
           {Title1}
-          
         </Typography>
-        <div
-        className='ml-50 mb-6'>
-        <Typography
-        className='ml-96 w-1/2 '
-        >
+        <Typography className='ml-96 mb-10 w-1/2'>
           {description}
         </Typography>
-        </div>
       </div>
       <Footer />
     </>
