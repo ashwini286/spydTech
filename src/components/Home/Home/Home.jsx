@@ -15,7 +15,7 @@ import Footer from '../Footer/Footer';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "react-slideshow-image/dist/styles.css";
-import images from './images/Image.jpeg'
+import images from '../../assets/HeroImg1.jpeg'
 
 const Home = () => {
  
@@ -28,26 +28,25 @@ const Home = () => {
           <div className="relative flex h-full items-center justify-center" >
             <img
              src={images}
+            // src="https://www.agilitypr.com/wp-content/uploads/2020/02/technology-1-1.jpg"
               className="h-full w-full object-cover"
               alt="Background 1"
             />
-            <div className="absolute inset-0 grid h-full w-full items-end ">
-              <div className="w-3/4 ml-10 pl- pb-12 md:w-2/4 md:pl-20 md:pb-20 lg:pl-32 lg:pb-32 ">
+            <div className="absolute inset-0 flex justify-center  h-full w-full items-center ">
+              <div className="w-3/4 ml-10 pb-12  ">
               <Typography
   variant="h1"
   color="white"
-  className="mb-6 text-3xl md:text-4xl lg:text-4xl font-serif font-bold pl-15 flex items-end center-text"
+  className="mb-6 text-3xl md:text-4xl lg:text-4xl font-serif font-bold pl-15 text-black"
 >
   ERPNext:Making Supply Chain Management efficient for Emerging Startup
   of Retail and Distribution Domain
-</Typography>
-
-               
+</Typography>             
                 <div className="flex gap-2">
                   <div>
                     <Button
                       size="lg"
-                      className="font-serif bg-blue-500 rounded-none"
+                      className="font-calibri bg-[#5bc0de] rounded-none"
                     >
                       Explore
                     </Button>
@@ -55,7 +54,7 @@ const Home = () => {
                   <div>
                     <Button
                       size="lg"
-                      color="black"
+                      color="white"
                       variant="text"
                       className="border border-[#46b8da] font-serif rounded-none"
                     >

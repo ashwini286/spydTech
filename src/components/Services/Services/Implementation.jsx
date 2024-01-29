@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, CardBody, CardHeader } from '@material-tailwind/react';
-import Navbarupp from '../Navbar/Navbarupp';
-import Footer from '../Footer/Footer';
+import Navbarupp from '../../Home/Navbar/Navbarupp';
+import Footer from '../../Home/Footer/Footer';
 
 const Implementation = () => {
   return (

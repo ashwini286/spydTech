@@ -4,9 +4,9 @@ import Portfolio from "./components/Portfolio/Portfolio";
 import Contact from "./components/ContactUs/ContactUs/Contact";
 import {Routes,Route,BrowserRouter} from 'react-router-dom'
 
-import AngularJS from "./components/Home/Services/AngularJS";
-import Consulting from "./components/Home/Services/Consulting";
-import Implementation from "./components/Home/Services/Implementation";
+import AngularJS from "./components/Services/Services/AngularJS";
+import Consulting from "./components/Services/Services/Consulting";
+import Implementation from "./components/Services/Services/Implementation";
 
 
 const App = () => {
@@ -22,9 +22,6 @@ const App = () => {
       <Route path="/Implementation" element={<Implementation />} />
       <Route path='/contact' element={ <Contact />} />
       </Routes>
-   
-    
-  {/* <Portfolio /> */}
       </BrowserRouter>
 
 

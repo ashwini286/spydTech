@@ -27,7 +27,7 @@ module.exports =withMT( {
 				tertiary: '#ffffff',
 			},
 			fontFamily: {
-				'montserrat': ['Montserrat', 'sans-serif'],
+				calibri: ['Calibri', 'sans-serif'],
 			  },
 		},
 	},
@@ -35,3 +35,7 @@ module.exports =withMT( {
 		require('flowbite/plugin'),
 	],
 });
+
+
+
+
