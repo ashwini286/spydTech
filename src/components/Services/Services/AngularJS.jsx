@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbarupp from "../Navbar/Navbarupp";
+import Navbarupp from "../../Home/Navbar/Navbarupp";
 
 
 function AngularJS() {

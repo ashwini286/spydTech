@@ -1,8 +1,8 @@
 import React from 'react';
 import { Card, CardBody, CardHeader } from '@material-tailwind/react';
-import Navbarupp from '../Navbar/Navbarupp';
-import Footer from '../Footer/Footer';
-import IMG from './IMG/Blue.webp';
+import Navbarupp from '../../Home/Navbar/Navbarupp';
+import Footer from '../../Home/Footer/Footer';
+import IMG from '../../assets/Blue.webp';
 import { Typography, Button } from "@material-tailwind/react";
 
 const Consulting = () => {
