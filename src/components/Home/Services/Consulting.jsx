@@ -41,7 +41,7 @@ const Consulting = () => {
         <Typography variant='h2' className='w-1/3'>
           {Title1}
         </Typography>
-        <Typography className='ml-96 mb-10 w-1/2'>
+        <Typography className='ml-96 mb-8 w-1/2'>
           {description}
         </Typography>
       </div>
