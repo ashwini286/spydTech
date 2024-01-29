@@ -3,6 +3,7 @@ import Navbarupp from '../../Home/Navbar/Navbarupp';
 import GetInTouch from '../GetInTouch/GetInTouch';
 import OurBranches from '../OurBranches/OurBranches';
 import LetsTalk from '../LetsTalk/LetsTalk';
+import Footer from '../../Home/Footer/Footer'
 const Contact = () => {
   return (
     <>
@@ -21,8 +22,9 @@ const Contact = () => {
       ></iframe>
     </div>
     <GetInTouch />
-    <OurBranches />
+    {/* <OurBranches /> */}
     <LetsTalk />
+    <Footer />
     </>
   )
 }

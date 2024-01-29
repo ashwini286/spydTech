@@ -1,5 +1,6 @@
 import React from "react";
 import { layout } from "../../../style";
+import Logo from '../../assets/logo.png'
 import {
   Card,
   Input,
@@ -10,7 +11,7 @@ import {
 import { FaLocationDot } from "react-icons/fa6";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdOutlineMarkEmailRead } from "react-icons/md";
-import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
+// import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
 const Approch = () => {
   return (
     <>
@@ -38,9 +39,15 @@ const Approch = () => {
               }}
             >
               <div className=" text-center  ">
+                <div className="flex justify-center items-center flex-row">
+                <div>
+                  <img src={Logo} alt="sorry" className="ml-8"/>
+                </div>
                 <div className="font-poppins xs:text-[18px] text-[30px] text-white xs:leading-[76.8px] leading-[86.8px] w-full">
                   Approach Us
                 </div>
+                </div>
+               
                 <div className="flex justify-center items-center flex-row font-poppins xs:text-[10px] text-[15px] text-white w-full">
                   <div className="text-[45px]">
                     <FaLocationDot />
