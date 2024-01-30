@@ -4,9 +4,9 @@ import Portfolio from "./components/Portfolio/Portfolio";
 import Contact from "./components/ContactUs/ContactUs/Contact";
 import {Routes,Route,BrowserRouter} from 'react-router-dom'
 
-import AngularJS from "./components/Services/Services/AngularJS";
-import Consulting from "./components/Services/Services/Consulting";
-import Implementation from "./components/Services/Services/Implementation";
+import AngularJS from "./components/Services/Angular/AngularJS";
+import Consulting from "./components/Services/Consulting/Consulting";
+import Implementation from "./components/Services/Implementation/Implementation";
 import ERPNext from "./components/Services/Services/ERPNext/ERPNext TECHNOLOGY";
 
 
