@@ -11,8 +11,9 @@ const Consulting = () => {
 
   return (
     <>
+     <div>
       <Navbarupp />
-      <div className="max-w-screen mx-auto min-h-screen h-screen relative">
+      </div>    <div className="max-w-screen mx-auto min-h-screen h-screen relative">
         <img
           src={IMG}
           className="w-full h-3/4 object-cover rounded-b-3xl rounded-b-16"

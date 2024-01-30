@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { layout } from "../../../style";
-import Logo from '../../assets/logo.png'
+import Logo from "../../assets/logo.png";
 import {
   Card,
   Input,
@@ -33,57 +33,67 @@ const Approch = () => {
             zIndex: 6,
           }}
         >
-          <section className={`${layout.section} max-w-full  w-full`}>
+          <section className={`${layout.section} max-w-full  w-ful`}>
             <div
               className={`${layout.sectionInfo} text-center`}
               style={{
                 backgroundColor: "rgba(0, 0, 0, 0.5)",
                 display: "flex",
                 alignItems: "center",
-                justifyContent: "center",
               }}
             >
               <div className=" text-center  ">
                 <div className="flex justify-center items-center flex-row">
-                <div data-aos="fade-right">
-                  <img src={Logo} alt="sorry" className="ml-8"/>
+                  <div data-aos="fade-right">
+                    <img src={Logo} alt="sorry" className="ml-8" />
+                  </div>
+                  <div
+                    className="font-poppins xs:text-[18px] text-[30px] text-white xs:leading-[76.8px] leading-[86.8px] w-full"
+                    data-aos="fade-right"
+                  >
+                    Approach Us
+                  </div>
                 </div>
-                <div className="font-poppins xs:text-[18px] text-[30px] text-white xs:leading-[76.8px] leading-[86.8px] w-full" data-aos="fade-right">
-                  Approach Us
-                </div>
-                </div>
-               
-                <div className="flex justify-center items-center flex-row font-poppins xs:text-[10px] text-[15px] text-white w-full" data-aos="fade-right">
+
+                <div
+                  className="flex justify-center items-center flex-row font-poppins xs:text-[10px] text-[15px] text-white w-full"
+                  data-aos="fade-right"
+                >
                   <div className="text-[45px]">
                     <FaLocationDot />
                   </div>
                   <div className="ml-3">REACH US</div>
                 </div>
-                <div data-aos="fade-right">
-                  <p className="text-white text-wrap text-left leading-[25.8px]  font-normal md:text-center sm:text-center">
-                   Meera complex Plot, No-852, 2nd floor <br />
+                <div data-aos="fade-right" className="mt-8">
+                  <p className="text-white text-wrap leading-[25.8px]  font-normal md:text-center sm:text-center">
+                    Meera complex Plot, No-852, 2nd floor <br />
                     Madhapur Hyderabad, Telangana - 500081
                   </p>
                 </div>
-                <div className="flex justify-center items-center flex-row font-poppins xs:text-[10px] text-[15px] text-white w-full leading-[86.8px]" data-aos="fade-right">
+                <div
+                  className="flex justify-center items-center flex-row font-poppins xs:text-[10px] text-[15px] text-white w-full leading-[86.8px]"
+                >
                   <div className="text-[20px]">
                     <FaPhoneAlt />
                   </div>
                   <div className="ml-3">040-43334849</div>
                 </div>
-                <div className="flex justify-center items-center flex-row font-poppins xs:text-[10px] text-[15px] text-white w-full" data-aos="fade-right">
+                <div
+                  className="flex justify-center items-center flex-row font-poppins xs:text-[10px] text-[15px] text-white w-full"
+                >
                   <div className="text-[20px]">
                     <MdOutlineMarkEmailRead />
                   </div>
                   <div className="ml-3">info@spyd.com</div>
                 </div>
-                <div className="flex justify-center items-center flex-row font-poppins xs:text-[10px] text-[15px] w-full py-10 text-light-blue-900" data-aos="fade-left">
+                <div
+                  className="flex justify-center items-center flex-row font-poppins xs:text-[10px] text-[15px] w-full py-10 text-light-blue-900"
+                >
                   <a
                     href="https://www.facebook.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {/* <FaFacebook size={30} style={{ marginRight: '10px' }} /> */}
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       x="0px"
@@ -118,7 +128,6 @@ const Approch = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {/* <FaTwitter size={30} style={{ marginRight: '10px' }} /> */}
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       x="0px"
@@ -149,7 +158,6 @@ const Approch = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {/* <FaLinkedin size={30} style={{ marginRight: '10px' }} /> */}
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       x="0px"
@@ -181,7 +189,6 @@ const Approch = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {/* <FaInstagram size={30} style={{ marginRight: '10px' }} /> */}
 
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -244,8 +251,8 @@ const Approch = () => {
               </div>
             </div>
 
-            <div className={layout.sectionImg} >
-              <Card color="transparent" shadow={false} >
+            <div className={layout.sectionImg}>
+              <Card color="transparent" shadow={false}>
                 <Typography
                   color="white"
                   className="mb-[-15px] font-normal text-[30px]"
@@ -253,21 +260,27 @@ const Approch = () => {
                   Request For Free Demo
                 </Typography>
                 <form className="mt-8 mb-2 w-80 max-w-screen-lg sm:w-80">
-                  <div className="mb-1 flex flex-col gap-6 " data-aos="fade-left">
+                  <div
+                    className="mb-1 flex flex-col gap-y-6"
+                  >
                     <Input color="white" label="Name" />
                     <Input color="white" label="Email" />
                     <Input color="white" label="Phone No" />
                     <div className="w-86 border-0">
-                    <Textarea color="blue" label="Message" variant="outlined"/>
+                      <Textarea
+                        color="blue"
+                        label="Message"
+                        variant="outlined"
+                      />
                     </div>
                   </div>
-                  <Button className="mt-6" fullWidth data-aos="fade-left">
+                  <Button className="mt-6 w-full">
                     Send Message
                   </Button>
                 </form>
               </Card>
             </div>
-          </section>  
+          </section>
         </div>
 
         {/* Background overlay */}

@@ -15,30 +15,36 @@ import "react-slideshow-image/dist/styles.css";
 import images from '../../assets/HeroImg1.jpeg'
 
 const Home = () => {
- 
+
 
   return (
     <>
+      
+    <div>
       <Navbarupp />
-      <div className="max-w-scrren-2xl mx-auto min-h-screen h-screen relative">
+      </div>
+  
+
+
+<div className="max-w-scrren-2xl mx-auto min-h-screen h-screen relative">
         <Carousel className="w-full mx-auto top-[-5px]">
           <div className="relative flex h-full items-center justify-center" >
             <img
-             src={images}
-            // src="https://www.agilitypr.com/wp-content/uploads/2020/02/technology-1-1.jpg"
+              src={images}
+              // src="https://www.agilitypr.com/wp-content/uploads/2020/02/technology-1-1.jpg"
               className="h-full w-full object-cover"
               alt="Background 1"
             />
             <div className="absolute inset-0 flex justify-center  h-full w-full items-center ">
-              <div className="w-3/4 ml-10 pb-12" >
-              <Typography
-  variant="h1"
-  color="white"
-  className="mb-6 text-3xl md:text-4xl lg:text-4xl font-serif font-bold pl-15 text-black"
->
-  ERPNext:Making Supply Chain Management efficient for Emerging Startup
-  of Retail and Distribution Domain
-</Typography>             
+              <div className="w-full ml-5 mt-[240px]" >
+                <Typography
+                  variant="h1"
+                  color="white"
+                  className="text-xl md:text-4xl font-serif font-bold pl-15 text-black mb-10 md:w-2/4"
+                >
+                  ERPNext:Making Supply Chain Management efficient for Emerging Startup
+                  of Retail and Distribution Domain
+                </Typography>
                 <div className="flex gap-2">
                   <div>
                     <Button
@@ -70,18 +76,18 @@ const Home = () => {
             />
             <div className="absolute inset-0 bg-black bg-opacity-25"></div>
             <div className="absolute inset-0 grid h-full w-full items-end ">
-              <div className="w-3/4 pl-12 pb-12 md:w-2/4 md:pl-20 md:pb-20 lg:pl-32 lg:pb-32">
+              <div className="w-full pl-12 pb-12 md:w-2/4 md:pl-20 md:pb-20 lg:pl-32 lg:pb-32">
                 <Typography
                   variant="h1"
                   color="white"
-                  className="mb-4 text-2xl md:text-4xl lg:text-4xl font-serif font-bold"
+                  className="mb-2 text-xl md:text-4xl font-bold"
                 >
                   Mobility Solutions with Cutting Edge &amp; Technologies
                 </Typography>
                 <Typography
                   variant="lead"
                   color="white"
-                  className="mb-12 opacity-80 font-serif"
+                  className="mb-10 opacity-80 text-sm md:text-xl"
                 >
                   Our Core Expertise is in ideating, conceptualizing, designing,
                   developing and deploying state-of-the-art mobile applications
@@ -114,19 +120,19 @@ const Home = () => {
             />
             <div className="absolute inset-0 bg-black bg-opacity-25"></div>
             <div className="absolute inset-0 grid h-full w-full items-end ">
-              <div className="w-3/4 pl-12 pb-12 md:w-2/4 md:pl-20 md:pb-20 lg:pl-32 lg:pb-32">
+              <div className="w-4/4 pl-12 pb-12 md:w-2/4 md:pl-20 md:pb-20 lg:pl-32 lg:pb-32">
                 <Typography
                   variant="h1"
                   color="white"
-                  className="mb-4 text-2xl md:text-4xl lg:text-4xl font-serif font-bold"
+                  className="mb-2 text-xl md:text-4xl lg:text-4xl font-serif font-bold"
                 >
-                  Full Service Digital Marketing <br className="z-1" />{" "}
-                  Campaigns Execution
+                  Full Service Digital Marketing 
+                 
                 </Typography>
                 <Typography
                   variant="lead"
                   color="white"
-                  className="mb-12 opacity-80 font-serif w-full"
+                  className="mb-10 opacity-80 font-serif w-full text-sm md:text-xl"
                 >
                   We ideate, conceptualize, and leverage diversified tools and
                   technologies to build flexible, scalable, and optimized CMS
@@ -155,12 +161,13 @@ const Home = () => {
         </Carousel>
       </div>
       <Services1 />
-    <OurApproch />
-    <OurWorks />
-    <WhatClientSay />
-    <Industry />
-    <ApprochUs />
-    <Footer />
+      <OurApproch />
+      <OurWorks />
+      <WhatClientSay />
+      <Industry />
+      <ApprochUs />
+      <Footer />
+
 
     </>
   );
