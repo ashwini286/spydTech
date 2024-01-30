@@ -7,6 +7,7 @@ import {Routes,Route,BrowserRouter} from 'react-router-dom'
 import AngularJS from "./components/Services/Services/AngularJS";
 import Consulting from "./components/Services/Services/Consulting";
 import Implementation from "./components/Services/Services/Implementation";
+import ERPNext from "./components/Services/Services/ERPNext/ERPNext TECHNOLOGY";
 
 
 const App = () => {
@@ -17,6 +18,8 @@ const App = () => {
       <Routes>
       <Route path='/' element={ <Home />} />
       <Route path='/portfolio' element={ <Portfolio />} />
+      {/* //services */}
+      <Route path="/ERPNext TECHNOLOGY" element={<ERPNext />} />
       <Route path="/Angular JS" element={<AngularJS />} />
       <Route path="/Consulting" element={<Consulting />} />
       <Route path="/Implementation" element={<Implementation />} />
