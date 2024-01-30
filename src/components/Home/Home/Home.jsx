@@ -9,9 +9,6 @@ import WhatClientSay from '../WhatClientSay/Client';
 import Industry from "../Industry/Industry";
 import ApprochUs from "../APProchUs/Approch";
 import Footer from '../Footer/Footer';
-
-
-
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "react-slideshow-image/dist/styles.css";
@@ -33,7 +30,7 @@ const Home = () => {
               alt="Background 1"
             />
             <div className="absolute inset-0 flex justify-center  h-full w-full items-center ">
-              <div className="w-3/4 ml-10 pb-12  ">
+              <div className="w-3/4 ml-10 pb-12" >
               <Typography
   variant="h1"
   color="white"
