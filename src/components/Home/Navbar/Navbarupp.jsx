@@ -214,7 +214,7 @@ function NavListMenu({ isSticky }) {
         <MenuHandler>
           <Typography as="div" variant="small" className="font-medium">
             <ListItem
-              className={`flex items-center gap-2 py-2 pr-4 font-medium text-${isSticky ? 'black' : 'white'}`}
+              className={`flex items-center gap-2 py-2 pr-4 font-medium text-${isSticky ? 'black' : 'white'} `}
               selected={isMenuOpen || isMobileMenuOpen}
               onClick={() => setIsMobileMenuOpen((cur) => !cur)}
             >
@@ -239,12 +239,13 @@ function NavListMenu({ isSticky }) {
         </MenuList>
       </Menu>
       <div className="block lg:hidden">
-        <Collapse open={isMobileMenuOpen}>
-          <div className="grid grid-cols-1 gap-y-2 md:grid-cols-2 lg:grid-cols-4 md:overflow-x-auto md:overflow-y-hidden sm:overflow-x-auto sm:overflow-y-hidden">
-            {renderItems}
-          </div>
-        </Collapse>
-      </div>
+  <Collapse open={isMobileMenuOpen}>
+    <div className="grid grid-cols-1 gap-y-2 md:grid-cols-2 lg:grid-cols-4 overflow-visible bg-white">
+      {renderItems}
+    </div>
+  </Collapse>
+</div>
+
     </React.Fragment>
   );
 }
@@ -339,7 +340,7 @@ function Company({ isSticky }) {
       </Menu>
       <div className="block lg:hidden">
         <Collapse open={isMobileMenuOpen}>
-          <div className="grid grid-cols-1 gap-y-2 md:grid-cols-2 lg:grid-cols-4 md:overflow-x-auto sm:overflow-x-auto">
+          <div className="grid grid-cols-1 gap-y-2 md:grid-cols-2 lg:grid-cols-4 md:overflow-y-auto bg-white">
             {renderItems}
           </div>
         </Collapse>
@@ -351,7 +352,7 @@ function Company({ isSticky }) {
 
 function NavList({ isSticky }) {
   return (
-    <List className="mt-4 mb-6 p-0 lg:mt-0 lg:mb-0 lg:flex-row lg:p-1">
+    <List className= "mt-4 mb-6 p-0 lg:mt-0 lg:mb-0 lg:flex-row lg:p-1 " >
       <Link to='/'>
         <Typography
           as="a"
@@ -434,7 +435,7 @@ const Navbarupp = () => {
       className='px-8 fixed top-0 w-full z-10 rounded-none py-0 max-w-screen-4xl'
       color={path === "/contact" ? "gray" : (isSticky ? "white" : "transparent")}
     >
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between" >
         <Typography
           as="a"
           href="#"
@@ -457,7 +458,7 @@ const Navbarupp = () => {
           className="lg:hidden"
           onClick={() => setOpenNav(!openNav)}
         >
-          {openNav ? <XMarkIcon className="h-6 w-6" strokeWidth={2} /> : <Bars3Icon className="h-6 w-6" strokeWidth={2} />}
+          {openNav ? <XMarkIcon className="h-6 w-6" strokeWidth={2}  /> : <Bars3Icon className="h-6 w-6 " strokeWidth={2} />}
         </IconButton>
       </div>
       <Collapse open={openNav}>

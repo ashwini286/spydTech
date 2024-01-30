@@ -41,8 +41,8 @@ const Services1 = () => {
           {
             Services.map(service => <div key={service.id} className='px-4 py-8 text-center md:w-[300px]
           mx-auto md:h-88 rounded-md shadow-2xl cursor-pointer hover:translate-y-5 hover:border-b-4
-hover:border-gray-800 transition-all duration-300 flex items-center justify-center h-full'>
-              <div data-aos="fade-right">
+hover:border-gray-800 transition-all duration-300 flex items-center justify-center h-full' data-aos="fade-right">
+              <div>
                 <div className=' mb-4 mx-auto rounded-tl-3xl rounded-br-3xl text-center'><img src={service.image} style={{backgroundColor:"none"}}/></div>   
                 {/* w-460 h-306 */}
                 <h4 className='text-2xl font-bold  mb-2 px-2 text-gray-800' >{service.title}</h4>
