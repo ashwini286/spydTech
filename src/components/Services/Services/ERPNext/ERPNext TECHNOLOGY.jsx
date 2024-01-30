@@ -31,10 +31,10 @@ function ERPNext () {
           <div className='flex justify-center items-center flex-col md:flex-row lg:h-[95%] h-[80%] text-center text-white' >
           <div  className="text-4xl font-bold ">  
             <h1 
-            className='mr-40 w-full'>Our Services</h1>
+            className='mr-32'>Our Services</h1>
         </div>
-         <div className="mt-8 lg:w-1/2 flex-start">
-            <p>Building Cost-Effective Digital Business Capabilities around the ERPNext, focusing on the right balance of Digitization, Flexibility, and Process mapping.</p>
+         <div className="mt-4 ml-4 w-1/3 flex-start text-justify">
+            <p className='tracking-wider  w-[140%]'>Building Cost-Effective Digital Business Capabilities around the ERPNext, focusing on the right balance of Digitization, Flexibility, and Process mapping.</p>
           </div>
           </div> 
         </div>
@@ -42,115 +42,129 @@ function ERPNext () {
       
      <UniqueTeam12 /> 
     
-       <h2 className="text-2xl font-bold text-center mt-8 lg:text-3xl">Our Services</h2>
+       
    {/* Add the card section */}
    <div className="mt-8 p-4 bg-white rounded-xl shadow-md overflow-x-auto">
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
           {/* Card 1 */}
-          <div className="bg-white p-4 rounded-lg">
+          <div className="bg-white p-4 rounded-lg transition-transform transform hover:scale-105">
           <img
           src={IMG12}
-          className="w-[100%]"
+          className="w-[85%]"
           alt="Background Image"
         />
-            <h3 className="text-xl font-bold mb-2 pb-5 pt-4">ERPNext Consulting</h3>
-            <p className="text-gray-600">Our Consultants gather all the necessary details about your company,
+            <h2 className="text-xl font-bold mb-2 p-5">ERPNext Consulting</h2>
+            <p className='w-[100%] ml-5 text-justify'>Our Consultants gather all the necessary details about your company,
                its business processes, business challenges, expected end goals, and more. 
                It is a very crucial stage as it lays a strong foundation. At Akhilam, 
                you are assured that you are working with an experienced, dedicated team of Consultants.</p>
-               <Button className='mt-4'>Read More</Button>
+               <button className="mt-4 ml-5 bg-blue-900 text-white font-bold py-2 px-4 rounded hover:bg-blue-700">
+              Learn More
+            </button>
           </div>
 
 
           {/* Card 2 */}
-          <div className="bg-white p-4 rounded-lg">
+          <div className="bg-white p-4 rounded-lg transition-transform transform hover:scale-105">
           <img
           src={IMG1}
-          className="w-[100%] lg:h-[67%]"
+          className="w-[90%]"
           alt="Background Image"
         />
-            <h2 className="text-xl font-bold mb-2 pb-5 pt-4">ERPNext Implementation</h2>
-            <p className="text-gray-600">We focus on organizing the overall structure and behavior of all the doctypes, 
+            <h2 className="text-xl font-bold mb-2 p-5">ERPNext Implementation</h2>
+            <p className='w-[100%] ml-5 text-justify'>We focus on organizing the overall structure and behavior of all the doctypes, 
               required reports, and required dashboards. 
               From a customization and custom development aspect our technology team ensures technical functionalities are defined, 
               and all pieces fit together perfectly; creating a larger picture of how items relate with each other within the system.</p>
-              <Button className='mt-4'>Read More</Button>
+              <button className="mt-4 bg-blue-900 ml-5 text-white font-bold py-2 px-4 rounded hover:bg-blue-700">
+              Learn More
+            </button>
           </div>
 
           {/* Card 3 */}
-          <div className="bg-white p-4 rounded-lg">
+          <div className="bg-white p-4 rounded-lg transition-transform transform hover:scale-105">
           <img
           src={IMG2}
-          className="w-[100%]"
+          className="w-[85%]"
           alt="Background Image"
         />
-            <h3 className="text-xl font-bold mb-2 pb-5">ERPNext Development</h3>
-            <p className="text-gray-600">For the out of box requirement, Our technical team prepares prototypes for clients, 
+            <h3 className="text-xl font-bold mb-2 p-5">ERPNext Development</h3>
+            <p className='w-[100%] ml-5 text-justify'>For the out of box requirement, Our technical team prepares prototypes for clients, 
               and clients have approved them, we now go ahead and do the coding. 
               We use the best coding tactics to ensure quality results. And, 
               our standard process allows clients to scale ERPNext solutions with the latest and future versions.</p>
-              <Button className='mt-4'>Read More</Button>
+              <button className="mt-4 ml-5 bg-blue-900 text-white font-bold py-2 px-4 rounded hover:bg-blue-700">
+              Learn More
+            </button>
           </div>
 
           {/* Card 4 */}
-          <div className="bg-white p-4 rounded-lg">
+          <div className="bg-white p-4 rounded-lg transition-transform transform hover:scale-105">
           <img
           src={IMG3}
-          className="w-[100%]"
+          className="w-[85%]"
           alt="Background Image"
         />
-            <h3 className="text-xl font-bold mb-2 pb-5">Website with ERPNext</h3>
-            <p className="text-gray-600">We help small businesses and NGOs to start their digital transformation journey and a presence in the digital world with a dynamic, 
+            <h2 className="text-xl font-bold mb-2 p-5">Website with ERPNext</h2>
+            <p className='w-[100%] ml-5 text-justify'>We help small businesses and NGOs to start their digital transformation journey and a presence in the digital world with a dynamic, 
               easy-to-update, interacting website at a minimal cost. 
               Also, it allows customizing the website's appearance and layout for any screen size with Bootstrap’s
                cutting-edge technology.</p>
-               <Button className='mt-4'>Read More</Button>
+               <button className="mt-4 ml-5 bg-blue-900 text-white font-bold py-2 px-4 rounded hover:bg-blue-700">
+              Learn More
+            </button>
           </div>
 
           {/* Card 5 */}
-          <div className="bg-white p-4 rounded-lg">
+          <div className="bg-white p-4 rounded-lg transition-transform transform hover:scale-105">
           <img
           src={IMG4}
-          className="w-[100%]"
+          className="w-[85%]"
           alt="Background Image"
         />
-            <h3 className="text-xl font-bold mb-2 pb-5 pt-3">Ecommerce with ERPNext</h3>
-            <p className="text-gray-600">We help in the seamless integration of the eCommerce store with a modern, 
+            <h2 className="text-xl font-bold mb-2 p-5">Ecommerce with ERPNext</h2>
+            <p className='w-[100%] ml-5 text-justify'>We help in the seamless integration of the eCommerce store with a modern, 
               cloud-based ERPNext solution. Together, they extend the company’s breadth and depth, 
               connecting processes and procedures for a cohesive, future-proofed operation. 
               And, it helps to centralize data on a single, unified data hub rather than silos.</p>
-              <Button className='mt-4'>Read More</Button>
+              <button className="mt-4 ml-5 bg-blue-900 text-white font-bold py-2 px-4 rounded hover:bg-blue-700">
+              Learn More
+            </button>
           </div>
 
           {/* Card 6 */}
-          <div className="bg-white p-4 rounded-lg">
+          <div className="bg-white p-4 rounded-lg transition-transform transform hover:scale-105">
           <img
           src={IMG5}
-          className="w-[100%]"
+          className="w-[85%]"
           alt="Background Image"
         />
-            <h3 className="text-xl font-bold mb-2 pb-5">Third-Party Integrations with ERPNext</h3>
-            <p className="text-gray-600">We are experts in any kind of third-party integration with ERPNext, 
+            <h2 className="text-xl font-bold mb-2 p-5">Third-Party Integrations with ERPNext</h2>
+            <p className='w-[100%] ml-5 text-justify'>We are experts in any kind of third-party integration with ERPNext, 
               and third-party integrations allow you to quickly add features and tools to business processes 
               that might take many months to develop own. By utilizing third-party integrations, 
               We incorporate superior features to your ERPNext.</p>
-              <Button className='mt-4'>Read More</Button>
+              <button className="mt-4 bg-blue-900 text-white font-bold py-2 px-4 rounded hover:bg-blue-700">
+              Learn More
+            </button>
           </div>
 
           {/* Card 7 */}
-          <div className="bg-white p-4 rounded-lg">
+          <div className="bg-white p-4 rounded-lg transition-transform transform hover:scale-105">
           <img
           src={IMG6}
-          className="w-[100%]"
+          className="w-[85%]"
           alt="Background Image"
         />
-            <h3 className="text-xl font-bold mb-2 pb-5">Data Analysis with BI Tools & ERPNext</h3>
-            <p className="text-gray-600">DATA is NEW OIL. And, Having real-time insights from each decision point, 
+            <h2 className="text-xl font-bold mb-2 p-5">Data Analysis with BI Tools & ERPNext</h2>
+            <p className='w-[100%] ml-5 text-justify'>DATA is NEW OIL. And, Having real-time insights from each decision point, 
               improves productivity and empowers informed decision-making. 
               We have been helping MSMEs to connect their ERPNext systems with powerful 
               tools like PowerBI, Tableau, and Metabase.</p>
-              <Button className='mt-4'>Read More</Button>
+              <button className="mt-4 ml-5 bg-blue-900 text-white font-bold py-2 px-4 rounded hover:bg-blue-700">
+              Learn More
+            </button>
           </div>
         </div>
       </div>
