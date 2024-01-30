@@ -5,10 +5,7 @@ import IMG from '../../assets/Blue.webp';
 import UniqueTeam from '../UniqueTeam/UniqueTeam';
 
 const Consulting = () => {
-  // Assuming Title1 and description are defined somewhere in your code
-  const Title1 = "Conceptualize, Design, and Deliver Exceptional Execution with";
-  const description = "Our ERPNext team provides state-of-the-art, standards & best practices, for Consultation, Implementation, and development, and, those are aimed at addressing all our client’s business challenges and business goals.";
-
+  
   return (
     <>
       <Navbarupp />
@@ -19,11 +16,12 @@ const Consulting = () => {
           alt="Background Image"
         />
         <div className="absolute inset-0 w-full ">
-          <div className='flex justify-center items-center flex-col md:flex-row h-[70%] text-center  text-white' >
+          <div className='flex justify-center items-center flex-col md:flex-row h-[95%] text-center  text-white' >
           <div  className="text-4xl font-bold">  
-            <h1>ERPNext Consultancy</h1>
+            <h1 
+            className='w-1/ mr-40'>ERPNext Consultancy</h1>
         </div>
-         <div className="mt-4">
+         <div className="mt-4 ml-10 w-1/2 items-start">
             <p>Building Cost-Effective Digital Business Capabilities around the ERPNext, focusing on the right balance of Digitization, Flexibility, and Process mapping.</p>
           </div>
           </div> 

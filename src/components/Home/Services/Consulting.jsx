@@ -22,7 +22,7 @@ const Consulting = () => {
         <div className="absolute inset-0 grid h-40 w-full items-end pt-10">
           <div className="mt-32 ml-10 pt-20 ">
             <Typography className="font-calibri text-white text-4xl">
-              ERPNext Consultancy
+              ERPNext Consultancy 
             </Typography>
           </div>
           <div className="absolute inset-0 grid h-40 w-full items-end pt-10 ml-10">
