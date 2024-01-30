@@ -19,7 +19,7 @@ function ERPNext () {
    {/* Add the card section */}
    <div className="mt-8 p-1 bg-white rounded-lg shadow-md overflow-x-auto">
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
           {/* Card 1 */}
           <div className="bg-gray-100 p-6 rounded-lg">
           <img
