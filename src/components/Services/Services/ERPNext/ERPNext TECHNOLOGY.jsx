@@ -45,26 +45,29 @@ function ERPNext () {
    {/* Add the card section */}
    <div className="mt-8 p-4 bg-white rounded-xl shadow-md overflow-x-auto">
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
           {/* Card 1 */}
-          <div className="bg-white p-4 rounded-lg">
+          <div className="bg-white p-4 rounded-lg shadow-md transition-transform transform hover:scale-105">
           <img
           src={IMG12}
-          className="w-[100%]"
+          className="w-[85%]"
           alt="Background Image"
         />
-            <h3 className="text-xl font-bold mb-2">ERPNext Consulting</h3>
-            <p>Our Consultants gather all the necessary details about your company,
+            <h2 className="text-xl font-bold mb-2">ERPNext Consulting</h2>
+            <p className='w-3/2'>Our Consultants gather all the necessary details about your company,
                its business processes, business challenges, expected end goals, and more. 
                It is a very crucial stage as it lays a strong foundation. At Akhilam, 
                you are assured that you are working with an experienced, dedicated team of Consultants.</p>
+               <button className="mt-4 bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-700">
+              Learn More
+            </button>
           </div>
 
           {/* Card 2 */}
-          <div className="bg-white p-4 rounded-lg">
+          <div className="bg-white p-4 rounded-lg shadow-md transition-transform transform hover:scale-105">
           <img
           src={IMG1}
-          className="w-[100%]"
+          className="w-[85%]"
           alt="Background Image"
         />
             <h2 className="text-xl font-bold mb-2">ERPNext Implementation</h2>
@@ -72,13 +75,16 @@ function ERPNext () {
               required reports, and required dashboards. 
               From a customization and custom development aspect our technology team ensures technical functionalities are defined, 
               and all pieces fit together perfectly; creating a larger picture of how items relate with each other within the system.</p>
+              <button className="mt-4 bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-700">
+              Learn More
+            </button>
           </div>
 
           {/* Card 3 */}
-          <div className="bg-white p-4 rounded-lg">
+          <div className="bg-white p-4 rounded-lg shadow-md transition-transform transform hover:scale-105">
           <img
           src={IMG2}
-          className="w-[100%]"
+          className="w-[85%]"
           alt="Background Image"
         />
             <h3 className="text-xl font-bold mb-2">ERPNext Development</h3>
@@ -86,62 +92,77 @@ function ERPNext () {
               and clients have approved them, we now go ahead and do the coding. 
               We use the best coding tactics to ensure quality results. And, 
               our standard process allows clients to scale ERPNext solutions with the latest and future versions.</p>
+              <button className="mt-4 bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-700">
+              Learn More
+            </button>
           </div>
 
           {/* Card 4 */}
-          <div className="bg-white p-4 rounded-lg">
+          <div className="bg-white p-4 rounded-lg shadow-md transition-transform transform hover:scale-105">
           <img
           src={IMG3}
-          className="w-[100%]"
+          className="w-[85%]"
           alt="Background Image"
         />
-            <h3 className="text-xl font-bold mb-2">Website with ERPNext</h3>
+            <h2 className="text-xl font-bold mb-2">Website with ERPNext</h2>
             <p>We help small businesses and NGOs to start their digital transformation journey and a presence in the digital world with a dynamic, 
               easy-to-update, interacting website at a minimal cost. 
               Also, it allows customizing the website's appearance and layout for any screen size with Bootstrap’s
                cutting-edge technology.</p>
+               <button className="mt-4 bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-700">
+              Learn More
+            </button>
           </div>
 
           {/* Card 5 */}
-          <div className="bg-white p-4 rounded-lg">
+          <div className="bg-white p-4 rounded-lg shadow-md transition-transform transform hover:scale-105">
           <img
           src={IMG4}
-          className="w-[100%]"
+          className="w-[85%]"
           alt="Background Image"
         />
-            <h3 className="text-xl font-bold mb-2">Ecommerce with ERPNext</h3>
+            <h2 className="text-xl font-bold mb-2">Ecommerce with ERPNext</h2>
             <p>We help in the seamless integration of the eCommerce store with a modern, 
               cloud-based ERPNext solution. Together, they extend the company’s breadth and depth, 
               connecting processes and procedures for a cohesive, future-proofed operation. 
               And, it helps to centralize data on a single, unified data hub rather than silos.</p>
+              <button className="mt-4 bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-700">
+              Learn More
+            </button>
           </div>
 
           {/* Card 6 */}
-          <div className="bg-white p-4 rounded-lg">
+          <div className="bg-white p-4 rounded-lg shadow-md transition-transform transform hover:scale-105">
           <img
           src={IMG5}
-          className="w-[100%]"
+          className="w-[85%]"
           alt="Background Image"
         />
-            <h3 className="text-xl font-bold mb-2">Third-Party Integrations with ERPNext</h3>
+            <h2 className="text-xl font-bold mb-2">Third-Party Integrations with ERPNext</h2>
             <p>We are experts in any kind of third-party integration with ERPNext, 
               and third-party integrations allow you to quickly add features and tools to business processes 
               that might take many months to develop own. By utilizing third-party integrations, 
               We incorporate superior features to your ERPNext.</p>
+              <button className="mt-4 bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-700">
+              Learn More
+            </button>
           </div>
 
           {/* Card 7 */}
-          <div className="bg-white p-4 rounded-lg">
+          <div className="bg-white p-4 rounded-lg shadow-md transition-transform transform hover:scale-105">
           <img
           src={IMG6}
-          className="w-[100%]"
+          className="w-[85%]"
           alt="Background Image"
         />
-            <h3 className="text-xl font-bold mb-2">Data Analysis with BI Tools & ERPNext</h3>
+            <h2 className="text-xl font-bold mb-2">Data Analysis with BI Tools & ERPNext</h2>
             <p>DATA is NEW OIL. And, Having real-time insights from each decision point, 
               improves productivity and empowers informed decision-making. 
               We have been helping MSMEs to connect their ERPNext systems with powerful 
               tools like PowerBI, Tableau, and Metabase.</p>
+              <button className="mt-4 bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-700">
+              Learn More
+            </button>
           </div>
         </div>
       </div>
