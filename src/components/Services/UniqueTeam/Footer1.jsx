@@ -9,16 +9,16 @@ function Footer1() {
           <div className="flex flex-wrap justify-start">
 
             {/* Logo Section */}
-            <div className="grid items-center sm:w-full md:w-1/2 lg:w-1/3 xl:w-1/4 mb-4">
-              <img src={LogoFull} alt="Your Logo" className="h-16 mr-4" />
-              <p className="text-sm">
+            <div className="grid items-center sm:w-full md:w-1/2 lg:w-1/3 xl:w-1/4">
+              <img src={LogoFull} alt="Your Logo" className="h-16 mr-4 " />
+              <p className="text-justify mb-24">
                 We make an impact, we live by it in everything we do.
                 Every work we do, project, and interaction we create must function smoothly, too. Obsessed with perfection.
               </p>
             </div>
-
+            <div className='flex ml-12'>
             {/* Main Section */}
-            <div className="w-full  sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 mb-4">
+            <div className="w-full  mb-4">
               <h2 className="text-xl font-bold mb-4">Main</h2>
               <ul>
                 <li className="mb-2">Home</li>
@@ -31,7 +31,7 @@ function Footer1() {
             </div>
 
             {/* Service Section */}
-            <div className="w-full sm:w-1/4 md:w-1/4 lg:w-1/4 xl:w-1/4 mb-4">
+            <div className="w-full mb-4">
               <h2 className="text-2xl font-bold mb-4">Service</h2>
               <ul>
                 <li className="mb-2">ERPNext</li>
@@ -42,9 +42,9 @@ function Footer1() {
             </div>
 
             {/* Focus Section */}
-            <div className="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 mb-4">
+            <div className="w-full mb-4 ml-auto text-left">
               <h2 className="text-2xl font-bold mb-4">Focus</h2>
-              <ul>
+              <ul className=''>
                 <li className="mb-2">ERPNext Consultation</li>
                 <li className="mb-2">ERPNext Implementation</li>
                 <li className="mb-2">ERPNext Development</li>
@@ -55,7 +55,7 @@ function Footer1() {
             </div>
 
             {/* Industry Section */}
-            <div className="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 mb-4">
+            <div className="w-full mb-4 ml-5">
               <h2 className="text-2xl font-bold mb-4">Industry</h2>
               <ul>
                 <li className="mb-2">Manufacturing</li>
@@ -66,6 +66,7 @@ function Footer1() {
                 <li className="mb-2">Automotive</li>
                 <li className="mb-2">Startup</li>
               </ul>
+            </div>
             </div>
           </div>
 
