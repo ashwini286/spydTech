@@ -2,7 +2,7 @@ import React from 'react';
 import Navbarupp from '../../../Home/Navbar/Navbarupp';
 import Footer from '../../../Home/Footer/Footer';
 import IMG from '../../../assets/Blue.webp';
-import UniqueTeam from '../../UniqueTeam/UniqueTeam';
+
 import IMG12 from '../../../assets/ERPNXT1.jpg';
 import IMG1 from '../../../assets/ERPNXT2.jpg';
 import IMG2 from '../../../assets/ERPNXT3.jpg';
@@ -11,7 +11,10 @@ import IMG4 from '../../../assets/ERPNXT5.jpg';
 import IMG5 from '../../../assets/ERPNXT6.jpg';
 import IMG6 from '../../../assets/ERPNXT7.jpg';
 import UniqueTeam12 from '../../UniqueTeam/UniqueTeam12';
-import  {Button}  from "@material-tailwind/react";
+import LatestPost from '../../UniqueTeam/LatestPost';
+import Footer1 from '../../UniqueTeam/Footer1';
+
+
 
 
 
@@ -145,7 +148,7 @@ function ERPNext () {
               and third-party integrations allow you to quickly add features and tools to business processes 
               that might take many months to develop own. By utilizing third-party integrations, 
               We incorporate superior features to your ERPNext.</p>
-              <button className="mt-4 bg-blue-900 text-white font-bold py-2 px-4 rounded hover:bg-blue-700">
+              <button className="mt-4 ml-5 bg-blue-900 text-white font-bold py-2 px-4 rounded hover:bg-blue-700">
               Learn More
             </button>
           </div>
@@ -170,8 +173,8 @@ function ERPNext () {
       </div>
 
       
-      
-      <Footer />
+    <LatestPost />
+      <Footer1 />
     </>
   )
 }
