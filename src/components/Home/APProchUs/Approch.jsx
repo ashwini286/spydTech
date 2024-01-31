@@ -46,7 +46,7 @@ const Approch = () => {
               <div className=" text-center ">
                 <div className="flex justify-center items-center flex-row">
                   <div data-aos="fade-right">
-                    <img src={Logo} alt="sorry" className="ml-8" />
+                    <img src={Logo} alt="sorry" className="ml-12 mt-10" />
                   </div>
                   <div
                     className="font-poppins xs:text-[18px] text-[30px] text-white xs:leading-[76.8px] leading-[86.8px] w-full"
@@ -66,7 +66,7 @@ const Approch = () => {
                   <div className="ml-3">REACH US</div>
                 </div>
                 <div data-aos="fade-right" className="mt-8">
-                  <p className="text-white text-wrap leading-[25.8px] w-1/3 ml-[54%] font-normal md:text-center sm:text-center text-justify">
+                  <p className="text-white text-wrap leading-[25.8px] text-left md:text-center w-1/3 ml-[54%] font-normal md:text-center sm:text-center ">
                     Meera complex Plot, No-852, 2nd floor 
                     Madhapur Hyderabad, Telangana - 500081
                   </p>

@@ -31,13 +31,13 @@ function ERPNext () {
           alt="Background Image"
         />
         <div className="absolute inset-0 w-full ">
-          <div className='flex justify-center items-center flex-col md:flex-row lg:h-[95%] h-[80%] text-center text-white' >
-          <div  className="text-4xl font-bold ">  
+        <div className='flex justify-center items-center flex-col md:flex-row lg:h-[95%] h-[80%] text-center text-white' >
+          <div  className="text-4xl font-bold">  
             <h1 
-            className='mr-32'>Our Services</h1>
+            className='mr-64 w-full text-left'>Our Services</h1>
         </div>
-         <div className="mt-4 ml-4 w-1/3 flex-start text-justify">
-            <p className='tracking-wider  w-[140%]'>Building Cost-Effective Digital Business Capabilities around the ERPNext, focusing on the right balance of Digitization, Flexibility, and Process mapping.</p>
+        <div className="mt-8 mr-10 lg:w-1/2 flex-start">
+            <p className='tracking-wider text-justify'>Building Cost-Effective Digital Business Capabilities around the ERPNext, focusing on the right balance of Digitization, Flexibility, and Process mapping.</p>
           </div>
           </div> 
         </div>
