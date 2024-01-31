@@ -23,12 +23,12 @@ const Portfolio = () => {
          
           <div className="relative flex h-full items-center justify-center">
             <img
-            src="https://burkdigital.com/wp-content/uploads/2023/09/Our-Work-Page.png"
+            src="https://wallpapers.com/images/hd/technology-pictures-f1l1n8hjo90vwz0l.jpg"
               // src="https://www.simplilearn.com/ice9/free_resources_article_thumb/Become_an_Enterprise_Architect.jpg"
               className="h-full w-full object-cover"
               alt="Background 2"
             />
-            <div className="absolute inset-0 bg-black bg-opacity-25"></div>
+            <div className="absolute inset-0 "></div>
             
           </div>
 

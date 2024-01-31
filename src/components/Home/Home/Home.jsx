@@ -30,8 +30,8 @@ const Home = () => {
         <Carousel className="w-full mx-auto top-[-5px]">
           <div className="relative flex h-full items-center justify-center" >
             <img
-              src={images}
-              // src="https://www.agilitypr.com/wp-content/uploads/2020/02/technology-1-1.jpg"
+              // src={images}
+              src="https://www.graduateinstitute.ch/sites/internet/files/2023-06/biotech%20platform%20static%20banner.jpg"
               className="h-full w-full object-cover"
               alt="Background 1"
             />
@@ -72,14 +72,14 @@ const Home = () => {
                 <Typography
                   variant="h1"
                   color="white"
-                  className="mb-2 text-xl md:text-4xl font-bold text-black"
+                  className="mb-2 text-xl md:text-4xl font-bold text-white"
                 >
                   Mobility Solutions with Cutting Edge &amp; Technologies
                 </Typography>
                 <Typography
                   variant="lead"
                   color="white"
-                  className="mb-10 opacity-80 text-sm md:text-xl text-black"
+                  className="mb-10 opacity-80 text-sm md:text-xl text-"
                 >
                  ERPNext:Making Supply Chain Management efficient for Emerging Startup
                   of Retail and Distribution Domain
@@ -105,7 +105,7 @@ const Home = () => {
           </div>
           <div className="relative flex h-full items-center justify-center">
             <img
-              src="https://images.thequint.com/thequint%2F2022-05%2Fee293e65-f3d0-4094-aed9-0c4b5473ce8c%2FiStock_532181848__1_.jpg?auto=format%2Ccompress&fmt=webp&width=120&w=1200"
+              src="https://www.gngroup.org/admin_assets/images/courseBranch/mbabanner.jpg"
               className="h-full w-full object-cover"
               alt="Background 2"
             />
