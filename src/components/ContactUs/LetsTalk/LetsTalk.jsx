@@ -30,6 +30,8 @@ const LetsTalk = () => {
               className={`${layout.sectionInfo} text-center`}
               style={{
                 display: "flex",
+                justifyContent: "center",
+                alignItems: "center"
               }}
             >
               <div className={layout.sectionImg}>

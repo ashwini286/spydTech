@@ -432,7 +432,8 @@ const Navbarupp = () => {
   const path = location.pathname;
   return (
     <Navbar
-      className='px-8 fixed top-0 w-full z-10 rounded-none py-0 max-w-screen-4xl'
+      className='fixed top-0 w-full z-10 rounded-none py-0 max-w-screen-4xl'
+      // style={{padding: "0px"}}
       color={path === "/contact" ? "gray" : (isSticky ? "white" : "transparent")}
     >
       <div className="flex items-center justify-between" >
@@ -461,15 +462,17 @@ const Navbarupp = () => {
           {openNav ? <XMarkIcon className="h-6 w-6" strokeWidth={2}  /> : <Bars3Icon className="h-6 w-6 " strokeWidth={2} />}
         </IconButton>
       </div>
-      <Collapse open={openNav}>
+      <div className='max-h-[80vh] overflow-y-scroll lg:overflow-hidden'>
+      <Collapse open={openNav}  className={isSticky ? "" : "bg-gray-400"}>
         <NavList isSticky={isSticky} />
-        <div className="flex w-full flex-nowrap items-center gap-2 lg:hidden text-white">
-
-          <Button variant="gradient" size="sm">
+        <div className="flex w-full flex-nowrap items-center gap-2 lg:hidden text-white pb-6 pl-2">
+          <Button variant="gradient" size="sm" >
             Try a Demo
           </Button>
         </div>
       </Collapse>
+      </div>
+      
     </Navbar>
   );
 };

@@ -8,20 +8,21 @@ const Consulting = () => {
   
   return (
     <>
+     <div>
       <Navbarupp />
-      <div className="max-w-screen mx-auto min-h-screen h-screen relative">
+      </div>    <div className="max-w-screen mx-auto min-h-screen h-screen relative">
         <img
           src={IMG}
-          className="w-full h-3/4 object-cover rounded-b-3xl rounded-b-16"
+          className="md:w-full h-3/4 object-cover rounded-bl-[15%] rounded-br-[15%] rounded"
           alt="Background Image"
         />
         <div className="absolute inset-0 w-full ">
-          <div className='flex justify-center items-center flex-col md:flex-row h-[95%] text-center  text-white' >
+          <div className='flex justify-center items-center flex-col md:flex-row lg:h-[95%] h-[80%] text-center text-white' >
           <div  className="text-4xl font-bold">  
             <h1 
-            className='w-1/ mr-40'>ERPNext Consultancy</h1>
+            className='mr-40 w-full'>ERPNext Consultancy</h1>
         </div>
-         <div className="mt-4 ml-10 w-1/2 items-start">
+         <div className="mt-8 lg:w-1/2 flex-start">
             <p>Building Cost-Effective Digital Business Capabilities around the ERPNext, focusing on the right balance of Digitization, Flexibility, and Process mapping.</p>
           </div>
           </div> 

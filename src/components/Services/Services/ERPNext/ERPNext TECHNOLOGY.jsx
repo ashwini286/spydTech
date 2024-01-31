@@ -11,7 +11,6 @@ import IMG4 from '../../../assets/ERPNXT5.jpg';
 import IMG5 from '../../../assets/ERPNXT6.jpg';
 import IMG6 from '../../../assets/ERPNXT7.jpg';
 import UniqueTeam12 from '../../UniqueTeam/UniqueTeam12';
-import LatestPost from './LatestPost';
 
 
 
@@ -19,17 +18,18 @@ import LatestPost from './LatestPost';
 function ERPNext () {
   return (
     <>
-       <Navbarupp />
-      <div className="max-w-screen mx-auto min-h-screen h-screen relative">
+      <div>
+      <Navbarupp />
+      </div>    <div className="max-w-screen mx-auto min-h-screen h-screen relative">
         
         <img
           src={IMG}
-          className="w-full h-3/4 object-cover  rounded-bl-[15%] rounded-br-[15%] rounded"
+          className="md:w-full h-3/4 object-cover rounded-bl-[15%] rounded-br-[15%] rounded"
           alt="Background Image"
         />
         <div className="absolute inset-0 w-full ">
-          <div className='flex justify-center items-center flex-col md:flex-row h-[95%] text-center  text-white' >
-          <div  className="text-4xl font-bold">  
+          <div className='flex justify-center items-center flex-col md:flex-row lg:h-[95%] h-[80%] text-center text-white' >
+          <div  className="text-4xl font-bold ">  
             <h1 
             className='mr-32'>Our Services</h1>
         </div>
@@ -63,6 +63,7 @@ function ERPNext () {
               Learn More
             </button>
           </div>
+
 
           {/* Card 2 */}
           <div className="bg-white p-4 rounded-lg transition-transform transform hover:scale-105">

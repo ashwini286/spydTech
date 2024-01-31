@@ -36,7 +36,7 @@ const OurWork = () => {
 
             <div className='text-center px-4 py-8 bg-white shadow-lg rounded-md
             md:w-3/4 mx-auto absolute left-0 right-0 -bottom-12 hover:-translate-y-4 transition-all duration-300
-            ' data-aos="fade-left">
+            ' >
               <h3>{pro.title}</h3>
             </div>
           </div>)
