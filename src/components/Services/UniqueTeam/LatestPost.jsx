@@ -3,7 +3,7 @@ import React from 'react'
 function LatestPost() {
   return (
     <>
-    <div className="flex justify-center">
+    <div className="grid lg:grid-cols-3 md:grid-cols-2 justify-center">
       {/* Card 1 */}
       <div className="max-w-sm rounded overflow-hidden shadow-lg m-4">
         <img className="w-full" src="card1-image.jpg" alt="Card 1" />

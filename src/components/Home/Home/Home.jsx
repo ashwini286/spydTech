@@ -30,13 +30,13 @@ const Home = () => {
         <Carousel className="w-full mx-auto top-[-5px]">
           <div className="relative flex h-full items-center justify-center" >
             <img
-              src={images}
-              // src="https://www.agilitypr.com/wp-content/uploads/2020/02/technology-1-1.jpg"
+              // src={images}
+              src="https://www.graduateinstitute.ch/sites/internet/files/2023-06/biotech%20platform%20static%20banner.jpg"
               className="h-full w-full object-cover"
               alt="Background 1"
             />
-            <div className="absolute inset-0 flex justify-center  h-full w-full items-center ">
-              <div className="w-full ml-5 mt-[240px]" >
+            <div className="absolute inset-0 grid h-full w-full items-end ">
+              {/* <div className="w-full ml-5 mt-[200px] lg:ml-28 lg:mt-16" >
                 <Typography
                   variant="h1"
                   color="white"
@@ -65,12 +65,47 @@ const Home = () => {
                     </Button>
                   </div>
                 </div>
+              </div> */}
+
+
+<div className="w-full pl-12 pb-12 md:w-2/4 md:pl-20 md:pb-20 lg:pl-32 lg:pb-32 text-black">
+                <Typography
+                  variant="h1"
+                  color="white"
+                  className="mb-2 text-xl md:text-4xl font-bold text-white"
+                >
+                  Mobility Solutions with Cutting Edge &amp; Technologies
+                </Typography>
+                <Typography
+                  variant="lead"
+                  color="white"
+                  className="mb-10 opacity-80 text-sm md:text-xl text-"
+                >
+                 ERPNext:Making Supply Chain Management efficient for Emerging Startup
+                  of Retail and Distribution Domain
+                </Typography>
+                <div className="flex gap-2">
+                  <Button
+                    size="lg"
+                    className="font-serif bg-[#5bc0de] rounded-none"
+                  >
+                    Explore
+                  </Button>
+                  <Button
+                    size="lg"
+                    color="white"
+                    variant="text"
+                    className="border border-[#46b8da] font-serif rounded-none"
+                  >
+                    Contact Us
+                  </Button>
+                </div>
               </div>
             </div>
           </div>
           <div className="relative flex h-full items-center justify-center">
             <img
-              src="https://images.thequint.com/thequint%2F2022-05%2Fee293e65-f3d0-4094-aed9-0c4b5473ce8c%2FiStock_532181848__1_.jpg?auto=format%2Ccompress&fmt=webp&width=120&w=1200"
+              src="https://www.gngroup.org/admin_assets/images/courseBranch/mbabanner.jpg"
               className="h-full w-full object-cover"
               alt="Background 2"
             />

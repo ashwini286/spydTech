@@ -9,14 +9,18 @@ function Footer1() {
           <div className="flex flex-wrap justify-start">
 
             {/* Logo Section */}
-            <div className="grid items-center sm:w-full md:w-1/2 lg:w-1/3 xl:w-1/4">
-              <img src={LogoFull} alt="Your Logo" className="h-16 mr-4 " />
-              <p className="text-justify mb-24">
+            <div className="grid w-full justify-items-center">
+            <div class="grid justify-items-center p-4" >
+            <img src={LogoFull} alt="Your Logo" className="h-16  " />
+            </div>
+             <div>
+             <p className="text-justify mb-24">
                 We make an impact, we live by it in everything we do.
                 Every work we do, project, and interaction we create must function smoothly, too. Obsessed with perfection.
               </p>
+             </div>
             </div>
-            <div className='flex ml-12'>
+            <div className='grid  grid-cols-2 md:grid-cols-5'>
             {/* Main Section */}
             <div className="w-full  mb-4">
               <h2 className="text-xl font-bold mb-4">Main</h2>
@@ -44,7 +48,7 @@ function Footer1() {
             {/* Focus Section */}
             <div className="w-full mb-4 ml-auto text-left">
               <h2 className="text-2xl font-bold mb-4">Focus</h2>
-              <ul className=''>
+              <ul className='w-full'>
                 <li className="mb-2">ERPNext Consultation</li>
                 <li className="mb-2">ERPNext Implementation</li>
                 <li className="mb-2">ERPNext Development</li>
@@ -67,9 +71,22 @@ function Footer1() {
                 <li className="mb-2">Startup</li>
               </ul>
             </div>
+
+            <div className="w-full mb-4">
+              <h2 className="text-2xl font-bold mb-4">Contact Us</h2>
+              <ul>
+                <li className="mb-2">Manufacturing</li>
+                <li className="mb-2">Logistic</li>
+                <li className="mb-2">Tele-Communication</li>
+                <li className="mb-2">Retail</li>
+                <li className="mb-2">Distribution</li>
+                <li className="mb-2">Automotive</li>
+                <li className="mb-2">Startup</li>
+              </ul>
+            </div>
             </div>
           </div>
-
+<hr />
           {/* Copyright Section */}
           <div className="mt-10 text-center">
             <p>&copy; 2024 Your Company. All rights reserved.</p>

@@ -23,21 +23,21 @@ function ERPNext () {
     <>
       <div>
       <Navbarupp />
-      </div>    <div className="max-w-screen mx-auto min-h-screen h-screen relative">
-        
+      </div>   
+      <div className="max-w-screen mx-auto min-h-screen h-screen relative">
         <img
           src={IMG}
           className="md:w-full h-3/4 object-cover rounded-bl-[15%] rounded-br-[15%] rounded"
           alt="Background Image"
         />
         <div className="absolute inset-0 w-full ">
-        <div className='flex justify-center items-center flex-col md:flex-row lg:h-[95%] h-[80%] text-center text-white' >
-          <div  className="text-4xl font-bold">  
+          <div className='flex justify-center items-center flex-col md:flex-row lg:h-[95%] h-[80%] text-center text-white' >
+          <div  className="text-4xl font-bold ">  
             <h1 
-            className='mr-64 w-full text-left'>Our Services</h1>
+            className='mr-32'>Our Services</h1>
         </div>
-        <div className="mt-8 mr-10 lg:w-1/2 flex-start">
-            <p className='tracking-wider text-justify'>Building Cost-Effective Digital Business Capabilities around the ERPNext, focusing on the right balance of Digitization, Flexibility, and Process mapping.</p>
+         <div className="mt-4 ml-4 w-1/3 flex-start text-justify">
+            <p className='tracking-wider  w-[140%]'>Building Cost-Effective Digital Business Capabilities around the ERPNext, focusing on the right balance of Digitization, Flexibility, and Process mapping.</p>
           </div>
           </div> 
         </div>
@@ -47,11 +47,11 @@ function ERPNext () {
     
        
    {/* Add the card section */}
-   <div className="mt-8 p-4 bg-white rounded-xl shadow-md overflow-x-auto">
+   <div className="mt-8 p-4 bg-white rounded-xl">
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+        <div className="grid lg:grid-cols-2 gap-8">
           {/* Card 1 */}
-          <div className="bg-white p-4 rounded-lg transition-transform transform hover:scale-105">
+          <div className="bg-white p-4 rounded-lg ">
           <img
           src={IMG12}
           className="w-[85%]"
@@ -69,7 +69,7 @@ function ERPNext () {
 
 
           {/* Card 2 */}
-          <div className="bg-white p-4 rounded-lg transition-transform transform hover:scale-105">
+          <div className="bg-white p-4 rounded-lg ">
           <img
           src={IMG1}
           className="w-[90%]"
@@ -86,7 +86,7 @@ function ERPNext () {
           </div>
 
           {/* Card 3 */}
-          <div className="bg-white p-4 rounded-lg transition-transform transform hover:scale-105">
+          <div className="bg-white p-4 rounded-lg hover:scale-105 transition-all duration-500">
           <img
           src={IMG2}
           className="w-[85%]"
@@ -103,14 +103,14 @@ function ERPNext () {
           </div>
 
           {/* Card 4 */}
-          <div className="bg-white p-4 rounded-lg transition-transform transform hover:scale-105">
+          <div className="bg-white p-4 rounded-lg ">
           <img
           src={IMG3}
           className="w-[85%]"
           alt="Background Image"
         />
             <h2 className="text-xl font-bold mb-2 p-5">Website with ERPNext</h2>
-            <p className='w-[100%] ml-5 text-justify'>We help small businesses and NGOs to start their digital transformation journey and a presence in the digital world with a dynamic, 
+            <p className='w-[100%] ml-5 '>We help small businesses and NGOs to start their digital transformation journey and a presence in the digital world with a dynamic, 
               easy-to-update, interacting website at a minimal cost. 
               Also, it allows customizing the website's appearance and layout for any screen size with Bootstrap’s
                cutting-edge technology.</p>
@@ -120,7 +120,7 @@ function ERPNext () {
           </div>
 
           {/* Card 5 */}
-          <div className="bg-white p-4 rounded-lg transition-transform transform hover:scale-105">
+          <div className="bg-white p-4 rounded-lg ">
           <img
           src={IMG4}
           className="w-[85%]"
@@ -137,7 +137,7 @@ function ERPNext () {
           </div>
 
           {/* Card 6 */}
-          <div className="bg-white p-4 rounded-lg transition-transform transform hover:scale-105">
+          <div className="bg-white p-4 rounded-lg ">
           <img
           src={IMG5}
           className="w-[85%]"
@@ -154,7 +154,7 @@ function ERPNext () {
           </div>
 
           {/* Card 7 */}
-          <div className="bg-white p-4 rounded-lg transition-transform transform hover:scale-105">
+          <div className="bg-white p-4 rounded-lg ">
           <img
           src={IMG6}
           className="w-[85%]"
