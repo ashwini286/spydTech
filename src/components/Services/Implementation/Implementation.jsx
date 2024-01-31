@@ -1,7 +1,24 @@
 import React from 'react';
 import { Card, CardBody, CardHeader } from '@material-tailwind/react';
 import Navbarupp from '../../Home/Navbar/Navbarupp';
-import Footer from '../../Home/Footer/Footer';
+import Footer1 from '../UniqueTeam/Footer1';
+import IMG from '../../assets/Blue.webp';
+import {
+  Timeline,
+  TimelineItem,
+  TimelineConnector,
+  TimelineHeader,
+  TimelineIcon,
+  TimelineBody,
+  Typography,
+} from "@material-tailwind/react";
+import { HomeIcon, BellIcon, CurrencyDollarIcon } from "@heroicons/react/24/solid";
+import { Bs1Circle } from "react-icons/bs";
+import { Bs2Circle } from "react-icons/bs";
+import { Bs3Circle } from "react-icons/bs";
+import { Bs4Circle } from "react-icons/bs";
+import { Bs5Circle } from "react-icons/bs";
+import { Bs6Circle } from "react-icons/bs";
 
 const Implementation = () => {
   return (
@@ -68,7 +85,7 @@ const Implementation = () => {
           </Card>
         </div>
       </div>
-      <Footer />
+      <Footer1 />
     </>
   );
 };
