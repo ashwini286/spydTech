@@ -35,8 +35,8 @@ const Home = () => {
               className="h-full w-full object-cover"
               alt="Background 1"
             />
-            <div className="absolute inset-0 flex justify-center  h-full w-full items-center ">
-              <div className="w-full ml-5 mt-[240px]" >
+            <div className="absolute inset-0 grid h-full w-full items-end ">
+              {/* <div className="w-full ml-5 mt-[200px] lg:ml-28 lg:mt-16" >
                 <Typography
                   variant="h1"
                   color="white"
@@ -64,6 +64,41 @@ const Home = () => {
                       Contact Us
                     </Button>
                   </div>
+                </div>
+              </div> */}
+
+
+<div className="w-full pl-12 pb-12 md:w-2/4 md:pl-20 md:pb-20 lg:pl-32 lg:pb-32 text-black">
+                <Typography
+                  variant="h1"
+                  color="white"
+                  className="mb-2 text-xl md:text-4xl font-bold text-black"
+                >
+                  Mobility Solutions with Cutting Edge &amp; Technologies
+                </Typography>
+                <Typography
+                  variant="lead"
+                  color="white"
+                  className="mb-10 opacity-80 text-sm md:text-xl text-black"
+                >
+                 ERPNext:Making Supply Chain Management efficient for Emerging Startup
+                  of Retail and Distribution Domain
+                </Typography>
+                <div className="flex gap-2">
+                  <Button
+                    size="lg"
+                    className="font-serif bg-[#5bc0de] rounded-none"
+                  >
+                    Explore
+                  </Button>
+                  <Button
+                    size="lg"
+                    color="white"
+                    variant="text"
+                    className="border border-[#46b8da] font-serif rounded-none"
+                  >
+                    Contact Us
+                  </Button>
                 </div>
               </div>
             </div>
