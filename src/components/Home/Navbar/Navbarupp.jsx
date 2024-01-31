@@ -170,6 +170,7 @@ function NavListMenu({ isSticky }) {
             variant="paragraph"
             className="text-xs !font-normal text-blue-gray-500 leading-10"
           >
+            <Link to={`/${Type2.toLowerCase()}`} key={key}> 
             <div className='flex justify-start items-center'>
               <div>
                 <FaAngleRight className='mr-3' />
@@ -178,13 +179,14 @@ function NavListMenu({ isSticky }) {
                 {Type2}
               </div>
             </div>
+            </Link>
             <hr />
           </Typography>
           <Typography
             variant="paragraph"
             className="text-xs !font-normal text-blue-gray-500 leading-10"
           >
-
+          <Link to={`/${Type3.toLowerCase()}`} key={key}> 
 
             <div className='flex justify-start items-center'>
               <div>
@@ -194,7 +196,7 @@ function NavListMenu({ isSticky }) {
                 {Type3}
               </div>
             </div>
-
+            </Link>
             <hr />
           </Typography>
         </div>

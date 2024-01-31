@@ -10,8 +10,8 @@ import {
 } from "@material-tailwind/react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { FaLocationDot } from "react-icons/fa6";
-import { FaPhoneAlt } from "react-icons/fa";
+import { LuMapPin } from "react-icons/lu";
+import { FiPhoneCall } from "react-icons/fi";
 import { MdOutlineMarkEmailRead } from "react-icons/md";
 // import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
 const Approch = () => {
@@ -21,6 +21,7 @@ const Approch = () => {
   return (
     <>
       <div
+      className=""
         style={{
           backgroundImage:
             'url("https://www.aspirantsoftsolutions.com/img/slides/footer-bg.jpg")',
@@ -33,7 +34,7 @@ const Approch = () => {
             zIndex: 6,
           }}
         >
-          <section className={`${layout.section} max-w-full  w-ful`}>
+          <section className={`${layout.section} max-w-full  w-full`}>
             <div
               className={`${layout.sectionInfo} text-center`}
               style={{
@@ -42,7 +43,7 @@ const Approch = () => {
                 alignItems: "center",
               }}
             >
-              <div className=" text-center  ">
+              <div className=" text-center ">
                 <div className="flex justify-center items-center flex-row">
                   <div data-aos="fade-right">
                     <img src={Logo} alt="sorry" className="ml-8" />
@@ -59,35 +60,35 @@ const Approch = () => {
                   className="flex justify-center items-center flex-row font-poppins xs:text-[10px] text-[15px] text-white w-full"
                   data-aos="fade-right"
                 >
-                  <div className="text-[45px]">
-                    <FaLocationDot />
+                  <div className="text-[40px] ml-[15%]">
+                    <LuMapPin />
                   </div>
                   <div className="ml-3">REACH US</div>
                 </div>
                 <div data-aos="fade-right" className="mt-8">
-                  <p className="text-white text-wrap leading-[25.8px]  font-normal md:text-center sm:text-center">
-                    Meera complex Plot, No-852, 2nd floor <br />
+                  <p className="text-white text-wrap leading-[25.8px] w-1/3 ml-[54%] font-normal md:text-center sm:text-center text-justify">
+                    Meera complex Plot, No-852, 2nd floor 
                     Madhapur Hyderabad, Telangana - 500081
                   </p>
                 </div>
                 <div
                   className="flex justify-center items-center flex-row font-poppins xs:text-[10px] text-[15px] text-white w-full leading-[86.8px]"
                 >
-                  <div className="text-[20px]">
-                    <FaPhoneAlt />
+                  <div className="text-[25px] ml-[20%]">
+                    <FiPhoneCall />
                   </div>
-                  <div className="ml-3">040-43334849</div>
+                  <div className="ml-6">040-43334849</div>
                 </div>
                 <div
                   className="flex justify-center items-center flex-row font-poppins xs:text-[10px] text-[15px] text-white w-full"
                 >
-                  <div className="text-[20px]">
+                  <div className="text-[25px] ml-[20%]">
                     <MdOutlineMarkEmailRead />
                   </div>
-                  <div className="ml-3">info@spyd.com</div>
+                  <div className="ml-6">info@spyd.com</div>
                 </div>
                 <div
-                  className="flex justify-center items-center flex-row font-poppins xs:text-[10px] text-[15px] w-full py-10 text-light-blue-900"
+                  className="flex justify-center items-center flex-row font-poppins xs:text-[10px] text-[15px] w-full py-10 text-light-blue-900 ml-[12%]"
                 >
                   <a
                     href="https://www.facebook.com/"
