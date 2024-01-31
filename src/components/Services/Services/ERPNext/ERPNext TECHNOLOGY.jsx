@@ -2,7 +2,7 @@ import React from 'react';
 import Navbarupp from '../../../Home/Navbar/Navbarupp';
 import Footer from '../../../Home/Footer/Footer';
 import IMG from '../../../assets/Blue.webp';
-import UniqueTeam from '../../UniqueTeam/UniqueTeam';
+
 import IMG12 from '../../../assets/ERPNXT1.jpg';
 import IMG1 from '../../../assets/ERPNXT2.jpg';
 import IMG2 from '../../../assets/ERPNXT3.jpg';
@@ -11,6 +11,9 @@ import IMG4 from '../../../assets/ERPNXT5.jpg';
 import IMG5 from '../../../assets/ERPNXT6.jpg';
 import IMG6 from '../../../assets/ERPNXT7.jpg';
 import UniqueTeam12 from '../../UniqueTeam/UniqueTeam12';
+import LatestPost from '../../UniqueTeam/LatestPost';
+import Footer1 from '../../UniqueTeam/Footer1';
+
 
 
 
@@ -170,8 +173,8 @@ function ERPNext () {
       </div>
 
       
-      <LatestPost />
-      <Footer />
+    <LatestPost />
+      <Footer1 />
     </>
   )
 }
