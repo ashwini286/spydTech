@@ -11,6 +11,7 @@ import IMG4 from '../../../assets/ERPNXT5.jpg';
 import IMG5 from '../../../assets/ERPNXT6.jpg';
 import IMG6 from '../../../assets/ERPNXT7.jpg';
 import UniqueTeam12 from '../../UniqueTeam/UniqueTeam12';
+import LatestPost from './LatestPost';
 
 
 
@@ -143,7 +144,7 @@ function ERPNext () {
               and third-party integrations allow you to quickly add features and tools to business processes 
               that might take many months to develop own. By utilizing third-party integrations, 
               We incorporate superior features to your ERPNext.</p>
-              <button className="mt-4 bg-blue-900 text-white font-bold py-2 px-4 rounded hover:bg-blue-700">
+              <button className="mt-4 ml-5 bg-blue-900 text-white font-bold py-2 px-4 rounded hover:bg-blue-700">
               Learn More
             </button>
           </div>
@@ -168,7 +169,7 @@ function ERPNext () {
       </div>
 
       
-      
+      <LatestPost />
       <Footer />
     </>
   )
