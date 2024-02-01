@@ -172,13 +172,13 @@ const Consulting = () => {
         <div>
         <VerticalTimeline
           layout='1-column-left'
-          lineColor='black'
+          lineColor='#074f8b'
         >
           <VerticalTimelineElement
             className="vertical-timeline-element--work bg-cover"
             contentStyle={{ color: 'black' }}
             contentArrowStyle={{ borderRight: '7px solid black' }}
-            iconStyle={{ border: '1px solid gray', backgroundColor: "black" }}
+            iconStyle={{ border: '1px solid gray', backgroundColor: "#074f8b" }}
          
           >
             <div className="flex flex-col-reverse">
@@ -195,7 +195,7 @@ const Consulting = () => {
             className="vertical-timeline-element--work bg-cover"
             contentStyle={{ color: 'black' }}
             contentArrowStyle={{ borderRight: '7px solid black' }}
-            iconStyle={{ border: '1px solid gray',color:"white",backgroundColor:"black"}}
+            iconStyle={{ border: '1px solid gray',color:"white",backgroundColor: "#074f8b"}}
             icon={<BellIcon />}
           >
             <h3 className="vertical-timeline-element-title justify-end items-end font-semibold"> Define Problem</h3>
@@ -210,7 +210,7 @@ const Consulting = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ color: 'black' }}
             contentArrowStyle={{ borderRight: '7px solid black' }}
-            iconStyle={{ border: '1px solid gray',color:"white",backgroundColor:"black"}}
+            iconStyle={{ border: '1px solid gray',color:"white",backgroundColor: "#074f8b"}}
             icon={<CurrencyDollarIcon />}
           >
             <h3 className="vertical-timeline-element-title justify-end items-end font-semibold">  Eradicate Problems with ERPNext</h3>
@@ -233,7 +233,7 @@ const Consulting = () => {
             className="vertical-timeline-element--work bg-cover"
             contentStyle={{ color: 'black' }}
             contentArrowStyle={{ borderRight: '7px solid black' }}
-            iconStyle={{ border: '1px solid gray',color:"white",backgroundColor:"black"}}
+            iconStyle={{ border: '1px solid gray',color:"white",backgroundColor: "#074f8b"}}
             icon={<HomeIcon />}
           >
             <div className="flex flex-col-reverse">
@@ -248,7 +248,7 @@ const Consulting = () => {
             className="vertical-timeline-element--work bg-cover"
             contentStyle={{ color: 'black' }}
             contentArrowStyle={{ borderRight: '7px solid black' }}
-            iconStyle={{ border: '1px solid gray',color:"white",backgroundColor:"black"}}
+            iconStyle={{ border: '1px solid gray',color:"white",backgroundColor: "#074f8b"}}
             icon={<BellIcon />}
           >
             <h3 className="vertical-timeline-element-title justify-end items-end font-semibold">Support during implementation</h3>
@@ -261,7 +261,7 @@ const Consulting = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ color: 'black' }}
             contentArrowStyle={{ borderRight: '7px solid black' }}
-            iconStyle={{ border: '1px solid gray',color:"white",backgroundColor:"black"}}
+            iconStyle={{ border: '1px solid gray',color:"white",backgroundColor: "#074f8b"}}
             icon={<CurrencyDollarIcon />}
           >
             <h3 className="vertical-timeline-element-title justify-end items-end font-semibold">User training</h3>
