@@ -8,6 +8,8 @@ import AngularJS from "./components/Services/Angular/AngularJS";
 import Consulting from "./components/Services/Consulting/Consulting";
 import Implementation from "./components/Services/Implementation/Implementation";
 import ERPNext from "./components/Services/Services/ERPNext/ERPNext TECHNOLOGY";
+import Thirdparty from "./components/Services/ThirdParty/Thirdparty";
+
 
 
 const App = () => {
@@ -23,6 +25,7 @@ const App = () => {
       <Route path="/Angular JS" element={<AngularJS />} />
       <Route path="/Consulting" element={<Consulting />} />
       <Route path="/Implementation" element={<Implementation />} />
+      <Route path="/Third-Party Integrations" element={<Thirdparty />} />
       <Route path='/contact' element={ <Contact />} />
       </Routes>
       </BrowserRouter>

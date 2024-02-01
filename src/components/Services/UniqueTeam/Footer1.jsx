@@ -1,6 +1,7 @@
 import React from 'react';
 import LogoFull from '../../assets/spylogo1.png';
 
+
 function Footer1() {
   return (
     <>

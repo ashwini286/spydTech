@@ -39,12 +39,12 @@ const Consulting = () => {
           alt="Background Image"
         />
         <div className="absolute inset-0 w-full ">
-          <div className='flex justify-center items-center flex-col md:flex-row lg:h-[95%] h-[80%] text-center text-white' >
+          <div className='flex mr-10 justify-center items-center flex-col md:flex-row lg:h-[95%] h-[80%] text-center text-white' >
           <div  className="text-4xl font-bold">  
             <h1 
-            className='mr-40 w-full'>ERPNext Consultancy</h1>
+            className='mr-40 w-full flex-center ml-[-10%]'>ERPNext Consultancy</h1>
         </div>
-         <div className="mt-8 lg:w-1/2 flex-start">
+         <div className="mt-8 lg:w-1/2 flex-start tracking-wider text-justify">
             <p>Building Cost-Effective Digital Business Capabilities around the ERPNext, focusing on the right balance of Digitization, Flexibility, and Process mapping.</p>
           </div>
           </div> 
@@ -278,7 +278,7 @@ const Consulting = () => {
 
 
 
-      <Footer />
+      <Footer1 />
     </>
   );
 };

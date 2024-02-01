@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbarupp from '../../../Home/Navbar/Navbarupp';
-import Footer from '../../../Home/Footer/Footer';
+
 import IMG from '../../../assets/Blue.webp';
 
 import IMG12 from '../../../assets/ERPNXT1.jpg';
@@ -13,6 +13,7 @@ import IMG6 from '../../../assets/ERPNXT7.jpg';
 import UniqueTeam12 from '../../UniqueTeam/UniqueTeam12';
 import LatestPost from '../../UniqueTeam/LatestPost';
 import Footer1 from '../../UniqueTeam/Footer1';
+
 
 
 
@@ -31,13 +32,13 @@ function ERPNext () {
           alt="Background Image"
         />
         <div className="absolute inset-0 w-full ">
-          <div className='flex justify-center items-center flex-col md:flex-row lg:h-[95%] h-[80%] text-center text-white' >
-          <div  className="text-4xl font-bold ">  
+          <div className='flex  justify-center items-center flex-col md:flex-row lg:h-[95%] h-[80%] text-center text-white' >
+          <div  className="text-4xl font-bold">  
             <h1 
-            className='mr-32'>Our Services</h1>
+            className='mr-44 w-full flex-center ml-[-25%]'>Our Services</h1>
         </div>
-         <div className="mt-4 ml-4 w-1/3 flex-start text-justify">
-            <p className='tracking-wider  w-[140%]'>Building Cost-Effective Digital Business Capabilities around the ERPNext, focusing on the right balance of Digitization, Flexibility, and Process mapping.</p>
+         <div className="mt-8 ml-[10%] lg:w-1/2 flex-start tracking-wider text-justify">
+            <p>Building Cost-Effective Digital Business Capabilities around the ERPNext, focusing on the right balance of Digitization, Flexibility, and Process mapping.</p>
           </div>
           </div> 
         </div>
@@ -51,14 +52,14 @@ function ERPNext () {
         
         <div className="grid lg:grid-cols-2 gap-8">
           {/* Card 1 */}
-          <div className="bg-white p-4 rounded-lg ">
+          <div className="bg-white p-4 rounded-lg hover:scale-105 transition-all duration-500 ">
           <img
           src={IMG12}
           className="w-[85%]"
           alt="Background Image"
         />
             <h2 className="text-xl font-bold mb-2 p-5">ERPNext Consulting</h2>
-            <p className='w-[100%] ml-5 text-justify'>Our Consultants gather all the necessary details about your company,
+            <p className='w-[100%] ml-5 text-justify tracking-wider'>Our Consultants gather all the necessary details about your company,
                its business processes, business challenges, expected end goals, and more. 
                It is a very crucial stage as it lays a strong foundation. At Akhilam, 
                you are assured that you are working with an experienced, dedicated team of Consultants.</p>
@@ -69,14 +70,14 @@ function ERPNext () {
 
 
           {/* Card 2 */}
-          <div className="bg-white p-4 rounded-lg ">
+          <div className="bg-white p-4 rounded-lg hover:scale-105 transition-all duration-500 ">
           <img
           src={IMG1}
           className="w-[90%]"
           alt="Background Image"
         />
-            <h2 className="text-xl font-bold mb-2 p-5">ERPNext Implementation</h2>
-            <p className='w-[100%] ml-5 text-justify'>We focus on organizing the overall structure and behavior of all the doctypes, 
+            <h2 className="text-xl font-bold  p-4">ERPNext Implementation</h2>
+            <p className='w-[100%] ml-5 text-justify tracking-wider'>We focus on organizing the overall structure and behavior of all the doctypes, 
               required reports, and required dashboards. 
               From a customization and custom development aspect our technology team ensures technical functionalities are defined, 
               and all pieces fit together perfectly; creating a larger picture of how items relate with each other within the system.</p>
@@ -93,7 +94,7 @@ function ERPNext () {
           alt="Background Image"
         />
             <h3 className="text-xl font-bold mb-2 p-5">ERPNext Development</h3>
-            <p className='w-[100%] ml-5 text-justify'>For the out of box requirement, Our technical team prepares prototypes for clients, 
+            <p className='w-[100%] ml-5 text-justify tracking-wider'>For the out of box requirement, Our technical team prepares prototypes for clients, 
               and clients have approved them, we now go ahead and do the coding. 
               We use the best coding tactics to ensure quality results. And, 
               our standard process allows clients to scale ERPNext solutions with the latest and future versions.</p>
@@ -103,14 +104,14 @@ function ERPNext () {
           </div>
 
           {/* Card 4 */}
-          <div className="bg-white p-4 rounded-lg ">
+          <div className="bg-white p-4 rounded-lg hover:scale-105 transition-all duration-500 ">
           <img
           src={IMG3}
           className="w-[85%]"
           alt="Background Image"
         />
             <h2 className="text-xl font-bold mb-2 p-5">Website with ERPNext</h2>
-            <p className='w-[100%] ml-5 '>We help small businesses and NGOs to start their digital transformation journey and a presence in the digital world with a dynamic, 
+            <p className='w-[100%] ml-5 tracking-wider'>We help small businesses and NGOs to start their digital transformation journey and a presence in the digital world with a dynamic, 
               easy-to-update, interacting website at a minimal cost. 
               Also, it allows customizing the website's appearance and layout for any screen size with Bootstrap’s
                cutting-edge technology.</p>
@@ -120,14 +121,14 @@ function ERPNext () {
           </div>
 
           {/* Card 5 */}
-          <div className="bg-white p-4 rounded-lg ">
+          <div className="bg-white p-4 rounded-lg hover:scale-105 transition-all duration-500 ">
           <img
           src={IMG4}
           className="w-[85%]"
           alt="Background Image"
         />
             <h2 className="text-xl font-bold mb-2 p-5">Ecommerce with ERPNext</h2>
-            <p className='w-[100%] ml-5 text-justify'>We help in the seamless integration of the eCommerce store with a modern, 
+            <p className='w-[100%] ml-5 text-justify tracking-wider'>We help in the seamless integration of the eCommerce store with a modern, 
               cloud-based ERPNext solution. Together, they extend the company’s breadth and depth, 
               connecting processes and procedures for a cohesive, future-proofed operation. 
               And, it helps to centralize data on a single, unified data hub rather than silos.</p>
@@ -137,14 +138,14 @@ function ERPNext () {
           </div>
 
           {/* Card 6 */}
-          <div className="bg-white p-4 rounded-lg ">
+          <div className="bg-white p-4 rounded-lg hover:scale-105 transition-all duration-500">
           <img
           src={IMG5}
           className="w-[85%]"
           alt="Background Image"
         />
             <h2 className="text-xl font-bold mb-2 p-5">Third-Party Integrations with ERPNext</h2>
-            <p className='w-[100%] ml-5 text-justify'>We are experts in any kind of third-party integration with ERPNext, 
+            <p className='w-[100%] ml-5 text-justify tracking-wider'>We are experts in any kind of third-party integration with ERPNext, 
               and third-party integrations allow you to quickly add features and tools to business processes 
               that might take many months to develop own. By utilizing third-party integrations, 
               We incorporate superior features to your ERPNext.</p>
@@ -154,14 +155,14 @@ function ERPNext () {
           </div>
 
           {/* Card 7 */}
-          <div className="bg-white p-4 rounded-lg ">
+          <div className="bg-white p-4 rounded-lg hover:scale-105 transition-all duration-500">
           <img
           src={IMG6}
           className="w-[85%]"
           alt="Background Image"
         />
             <h2 className="text-xl font-bold mb-2 p-5">Data Analysis with BI Tools & ERPNext</h2>
-            <p className='w-[100%] ml-5 text-justify'>DATA is NEW OIL. And, Having real-time insights from each decision point, 
+            <p className='w-[100%] ml-5 text-justify tracking-wider'>DATA is NEW OIL. And, Having real-time insights from each decision point, 
               improves productivity and empowers informed decision-making. 
               We have been helping MSMEs to connect their ERPNext systems with powerful 
               tools like PowerBI, Tableau, and Metabase.</p>
