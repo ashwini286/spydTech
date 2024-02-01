@@ -1,22 +1,29 @@
 import React from 'react';
 import Navbarupp from "../../Home/Navbar/Navbarupp";
-
-
+import Benefits from './ImmenseBenefits/Benefits';
+import SPYD from './HowSpydHelpsitsClient/SPYD';
+import Approch from '../../Home/APProchUs/Approch';
+import Footer from '../../Home/Footer/Footer';
 function AngularJS() {
   return (
     <>
      <div>
       <Navbarupp />
-      </div>    <div className="max-w-screen mx-auto min-h-screen h-screen relative">
+      </div>    
+    
         
         <img
-          src="https://nimapinfotech.com/wp-content/uploads/2023/01/como-comecar-com-angular.png"
-          className="md:w-full h-3/4 object-cover rounded-bl-[15%] rounded-br-[15%] rounded fixed"
+          src="https://www.aspirantsoftsolutions.com/img/angular-js.jpg"
+          className=" object-cover  "
           alt="Background Image"
         />
-      </div>
-      {/* You can adjust the size by using different responsive size classes like 'text-sm', 'text-md', etc. */}
-      {/* <Footer /> */}
+
+        <Benefits />
+        <SPYD />
+     
+      <Approch />
+     
+      <Footer />
     </>
   );
 }

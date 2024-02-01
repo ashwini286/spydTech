@@ -105,7 +105,7 @@ const Home = () => {
           </div>
           <div className="relative flex h-full items-center justify-center">
             <img
-              src="https://www.gngroup.org/admin_assets/images/courseBranch/mbabanner.jpg"
+              src="https://www.aspirantsoftsolutions.com/img/slides/mobile-app.jpg"
               className="h-full w-full object-cover"
               alt="Background 2"
             />
@@ -149,11 +149,11 @@ const Home = () => {
           </div>
           <div className="relative flex h-full items-center justify-center">
             <img
-              src="https://assets-news.housing.com/news/wp-content/uploads/2022/10/06130318/CSC-PAN-Login-How-to-apply-for-a-PAN-card-through-CSC.jpg"
+              src="https://www.infogatewayits.com/images/banner33.jpg"
               className="h-full w-full object-cover"
               alt="Background 3"
             />
-            <div className="absolute inset-0 bg-black bg-opacity-25"></div>
+            {/* <div className="absolute inset-0 bg-black bg-opacity-25"></div> */}
             <div className="absolute inset-0 grid h-full w-full items-end ">
               <div className="w-4/4 pl-12 pb-12 md:w-2/4 md:pl-20 md:pb-20 lg:pl-32 lg:pb-32">
                 <Typography
