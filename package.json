@@ -24,12 +24,7 @@
     "react-dom": "^18.2.0",
     "react-icons": "^5.0.1",
     "react-router-dom": "^6.21.2",
-    "react-scroll": "^1.9.0",
-    "react-slideshow-image": "^4.3.0",
-    "react-tsparticles": "^2.12.2",
-    "react-use": "^17.4.3",
     "react-vertical-timeline-component": "^3.6.0",
-    "tsparticles-slim": "^2.12.0",
     "typeface-montserrat": "^1.1.13",
     "web-vitals": "^3.5.1"
   },
