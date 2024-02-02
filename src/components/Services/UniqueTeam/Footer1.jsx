@@ -1,21 +1,46 @@
 import React from 'react';
 import LogoFull from '../../assets/spylogo1.png';
-
-
+import IMG from "../../assets/decore.png"
+import {
+  Card,
+  CardHeader,
+  CardBody,
+  CardFooter,
+  Typography,
+  Button,
+} from "@material-tailwind/react";
 function Footer1() {
   return (
-    <>
-      <footer className="bg-blue-900 text-white p-4">
-        <div className="container mx-auto">
+    <> 
+    <Card className="mt-3 w-[80%] h-[20rem] ml-[10%] mb-[-15%] shadow-inner">
+      
+      <CardBody><img 
+        src={IMG}
+        alt='talk'
+        className='w-[27%] h-5 ml-[47%] mt-10'
+        />
+        <h1 className='flex text-4xl justify-center mt-[-5%]'>Let’s Talk 
+        
+        <p className='text-blue-900 pl-4'>Technology</p></h1>
+        <p className='text-center pt-10 w-[90%]'>We're passionate about innovation, brilliant ideas and the execution that brings it all 
+          together in one beautiful experience. If you are too, call or send us an email to get started.</p>
+      </CardBody>
+      <CardFooter className="pt-5 ">
+        <Button className='ml-[40%]'>Read More</Button>
+      </CardFooter>
+    </Card>
+      <footer className="bg-blue-900 text-white ">
+     <div className='pb-[18%]'></div>
+        <div className="container mx-auto mb-[-10%]">
           <div className="flex flex-wrap justify-start">
 
             {/* Logo Section */}
-            <div className="grid w-full justify-items-center">
-            <div class="grid justify-items-center p-4" >
+            <div className="grid w-full justify-items-center ">
+            <div class="grid justify-items-center p-10" >
             <img src={LogoFull} alt="Your Logo" className="h-16  " />
             </div>
              <div>
-             <p className="text-justify mb-24">
+             <p className="w-[51%] ml-[25%] text-justify mb-10">
                 We make an impact, we live by it in everything we do.
                 Every work we do, project, and interaction we create must function smoothly, too. Obsessed with perfection.
               </p>

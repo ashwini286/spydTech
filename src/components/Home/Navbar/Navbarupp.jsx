@@ -255,21 +255,25 @@ function NavListMenu({ isSticky }) {
 const companyMenu = [
   {
     title: "Ecommerce",
+    color:"blue",
     icon: ShoppingCartIcon,
   },
   {
     title: "Frontend",
-    icon: PhoneIphoneIcon,
+    color:"orange",
+    icon: DevicesIcon,
 
   },
   {
     title: "Mobile",
-    icon: Bars4Icon,
+    color: "green",
+    icon: PhoneIphoneIcon,
 
   },
   {
     title: "Services",
-    icon: SunIcon,
+    color: 'cyan',
+    icon: CloudQueueIcon,
 
   },
 ]
@@ -277,20 +281,20 @@ function Company({ isSticky }) {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
   const renderItems = companyMenu.map(
-    ({ icon, title }, key) => (
+    ({ icon, title,color }, key) => (
       <a href="#" key={key}>
         <MenuItem className="flex items-center gap-3">
-          <div className="flex items-center justify-center rounded-lg !bg-blue-gray-50 p-2 ">
+          <div className={`flex items-center justify-center rounded-lg !bg-${color}-500 p-2`}>
             {" "}
             {React.createElement(icon, {
               strokeWidth: 2,
-              className: "h-6 text-blue-900 w-6",
+              className: `h-6 text-${color}-500 w-6`,
             })}
           </div>
           <div>
             <Typography
               variant="h6"
-              color="blue-gray"
+              color=""
               className="flex items-center text-sm font-bold"
             >
               {title}

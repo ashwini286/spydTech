@@ -35,7 +35,7 @@ const Consulting = () => {
       <div className="max-w-screen mx-auto min-h-screen h-screen relative">
         <img
           src={IMG}
-          className="md:w-full h-3/4 object-cover rounded-b-[15%] rounded-br-[30%] rounded"
+          className="md:w-[100%] h-3/4 object-cover rounded-b-[15%] rounded-br-[15%] rounded"
           alt="Background Image"
         />
         <div className="absolute inset-0 w-full ">
@@ -220,6 +220,19 @@ const Consulting = () => {
             </p>
           </VerticalTimelineElement>
 
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ color: 'black' }}
+            contentArrowStyle={{ borderRight: '7px solid black' }}
+            iconStyle={{ border: '1px solid gray',color:"white",backgroundColor: "#074f8b"}}
+            icon={<CurrencyDollarIcon />}
+          >
+            <h3 className="vertical-timeline-element-title justify-end items-end font-semibold">  Eradicate Problems with ERPNext</h3>
+            <p>
+            Our Consultants demonstrate how can stakeholders eradicate problems with the help of ERPNext. 
+            Also, how ERPNext will help them to improvise the business functions and decision-making process with the help of real-time data with accuracy.
+            </p>
+          </VerticalTimelineElement>
       
         </VerticalTimeline>
         </div>
@@ -269,6 +282,20 @@ const Consulting = () => {
             Our consultant designs training materials and makes sure that stakeholders get full knowledge of the ERPNext and the implementation that is being implemented.
             </p>
           </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ color: 'black' }}
+            contentArrowStyle={{ borderRight: '7px solid black' }}
+            iconStyle={{ border: '1px solid gray',color:"white",backgroundColor: "#074f8b"}}
+            icon={<CurrencyDollarIcon />}
+          >
+            <h3 className="vertical-timeline-element-title justify-end items-end font-semibold">User training</h3>
+            <p>
+            Our consultant designs training materials and makes sure that stakeholders get full knowledge of the ERPNext and the implementation that is being implemented.
+            </p>
+          </VerticalTimelineElement>
+          
         </VerticalTimeline>
         </div>
       </div>
