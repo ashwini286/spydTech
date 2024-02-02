@@ -9,6 +9,7 @@ import Consulting from "./components/Services/Consulting/Consulting";
 import Implementation from "./components/Services/Implementation/Implementation";
 import ERPNext from "./components/Services/Services/ERPNext/ERPNext TECHNOLOGY";
 import Thirdparty from "./components/Services/ThirdParty/Thirdparty";
+import EcommerceDevelopment from "./components/Services/EcommerceDevlopment/EcommerceDevelopment";
 
 
 
@@ -21,11 +22,17 @@ const App = () => {
       <Route path='/' element={ <Home />} />
       <Route path='/portfolio' element={ <Portfolio />} />
       {/* //services */}
+        {/* //ERPNext */}
       <Route path="/ERPNext TECHNOLOGY" element={<ERPNext />} />
-      <Route path="/Angular JS" element={<AngularJS />} />
+      
       <Route path="/Consulting" element={<Consulting />} />
       <Route path="/Implementation" element={<Implementation />} />
       <Route path="/Third-Party Integrations" element={<Thirdparty />} />
+
+      {/* //Ecommerce Development */}
+      <Route path="/Magento eCommerce Development" element={<EcommerceDevelopment />} />
+       {/* // Angular */}
+      <Route path="/Angular JS" element={<AngularJS />} />
       <Route path='/contact' element={ <Contact />} />
       </Routes>
       </BrowserRouter>

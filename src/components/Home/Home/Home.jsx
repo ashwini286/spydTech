@@ -13,6 +13,9 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import "react-slideshow-image/dist/styles.css";
 import images from '../../assets/HeroImg1.jpeg'
+import IMG1 from "../../assets/Main12.webp"
+import IMG2 from "../../assets/Main2.avif"
+import IMG3 from "../../assets/Main3.webp"
 
 const Home = () => {
 
@@ -31,8 +34,8 @@ const Home = () => {
           <div className="relative flex h-full items-center justify-center" >
             <img
               // src={images}
-              src="https://www.graduateinstitute.ch/sites/internet/files/2023-06/biotech%20platform%20static%20banner.jpg"
-              className="h-full w-full object-cover"
+              src={IMG1}
+              className="h-full w-[100%] object-cover"
               alt="Background 1"
             />
             <div className="absolute inset-0 grid h-full w-full items-end ">
@@ -78,8 +81,8 @@ const Home = () => {
                 </Typography>
                 <Typography
                   variant="lead"
-                  color="white"
-                  className="mb-10 opacity-80 text-sm md:text-xl text-"
+                  color="White"
+                  className="mb-10 opacity-80 text-sm md:text-xl text-white"
                 >
                  ERPNext:Making Supply Chain Management efficient for Emerging Startup
                   of Retail and Distribution Domain
@@ -105,7 +108,8 @@ const Home = () => {
           </div>
           <div className="relative flex h-full items-center justify-center">
             <img
-              src="https://www.aspirantsoftsolutions.com/img/slides/mobile-app.jpg"
+              // src="https://www.aspirantsoftsolutions.com/img/slides/mobile-app.jpg"
+              src={IMG2}
               className="h-full w-full object-cover"
               alt="Background 2"
             />
@@ -149,7 +153,8 @@ const Home = () => {
           </div>
           <div className="relative flex h-full items-center justify-center">
             <img
-              src="https://www.infogatewayits.com/images/banner33.jpg"
+              // src="https://www.infogatewayits.com/images/banner33.jpg"
+              src={IMG3}
               className="h-full w-full object-cover"
               alt="Background 3"
             />
