@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbarupp from "../../Home/Navbar/Navbarupp";
+import Development from './DevelopmentCompany/Development';
 import Benefits from './ImmenseBenefits/Benefits';
 import SPYD from './HowSpydHelpsitsClient/SPYD';
 import Approch from '../../Home/APProchUs/Approch';
@@ -17,7 +18,7 @@ function AngularJS() {
           className=" object-cover  "
           alt="Background Image"
         />
-
+<Development />
         <Benefits />
         <SPYD />
      

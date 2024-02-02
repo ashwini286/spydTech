@@ -64,14 +64,14 @@ const Approch = () => {
                   </div>
                   <div className="ml-3">REACH US</div>
                 </div>
-                <div data-aos="fade-right" className="mt-8">
-                  <p className="text-white text-wrap leading-[25.8px] w-1/3 ml-[54%] font-normal md:text-center sm:text-center text-justify">
-                    Meera complex Plot, No-852, 2nd floor 
+                <div className="mt-8 flex justify-end items-justify ml-40">
+                  <p className="text-white w-[250px] ">
+                    Meera complex Plot, No-852, 2nd floor
                     Madhapur Hyderabad, Telangana - 500081
                   </p>
                 </div>
                 <div
-                  className="flex justify-center items-center flex-row font-poppins xs:text-[10px] text-[15px] text-white w-full leading-[86.8px]"
+                  className="flex justify-center items-center flex-row font-poppins xs:text-[10px] text-[15px] text-white w-full leading-[80.8px]"
                 >
                   <div className="text-[25px] ml-[20%]">
                     <FiPhoneCall />

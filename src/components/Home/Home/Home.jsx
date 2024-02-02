@@ -11,7 +11,6 @@ import ApprochUs from "../APProchUs/Approch";
 import Footer from '../Footer/Footer';
 import AOS from "aos";
 import "aos/dist/aos.css";
-import "react-slideshow-image/dist/styles.css";
 import images from '../../assets/HeroImg1.jpeg'
 
 const Home = () => {

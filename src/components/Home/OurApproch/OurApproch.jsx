@@ -23,12 +23,14 @@ const OurApproch = () => {
           <p className='text-gray-400 pb-[40px]'>Our Approach is based on time tested, globally accepted best standards such as
           </p>
         </div>
-        <VerticalTimeline >
+        <VerticalTimeline 
+         lineColor='black'
+        >
           <VerticalTimelineElement
             className="vertical-timeline-element--work bg-cover"
             contentStyle={{ color: 'black' }}
             contentArrowStyle={{ borderRight: '7px solid black' }}
-            iconStyle={{ border: '1px solid gray', borderStyle: 'dashed' }}
+            iconStyle={{ border: '1px solid gray', borderStyle: 'dashed' , background:"#1b263b", color:"white"}}
             icon={<FaMeetup className='font-4xl' />}
 
             date={<Img1 />}
@@ -49,7 +51,7 @@ const OurApproch = () => {
             className="vertical-timeline-element--work bg-cover"
             contentStyle={{ color: 'black' }}
             contentArrowStyle={{ borderRight: '7px solid black' }}
-            iconStyle={{ border: '1px solid gray', borderStyle: 'dashed' }}
+            iconStyle={{ border: '1px solid gray', borderStyle: 'dashed' , background:"#1b263b", color:"white" }}
             icon={<GiTeamIdea />}
             date={<Img2 />}
           >
@@ -64,7 +66,7 @@ const OurApproch = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ color: 'black' }}
             contentArrowStyle={{ borderRight: '7px solid black' }}
-            iconStyle={{ border: '1px solid gray', borderStyle: 'dashed' }}
+            iconStyle={{ border: '1px solid gray', borderStyle: 'dashed', background:"#1b263b", color:"white" }}
             icon={<FaLightbulb />}
             date={<Img3 />}
           >
@@ -79,7 +81,7 @@ const OurApproch = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ color: 'black' }}
             contentArrowStyle={{ borderRight: '7px solid black' }}
-            iconStyle={{ border: '1px solid gray', borderStyle: 'dashed' }}
+            iconStyle={{ border: '1px solid gray', borderStyle: 'dashed' , background:"#1b263b", color:"white"}}
             icon={<GrTestDesktop />}
             date={<Img4 />}
           >
@@ -94,7 +96,7 @@ const OurApproch = () => {
             className="vertical-timeline-element--education"
             contentStyle={{ color: 'black' }}
             contentArrowStyle={{ borderRight: '7px solid black' }}
-            iconStyle={{ border: '1px solid gray', borderStyle: 'dashed' }}
+            iconStyle={{ border: '1px solid gray', borderStyle: 'dashed' , background:"#1b263b", color:"white"}}
             icon={<MdRocketLaunch />}
             date={<Img5 />}
           >

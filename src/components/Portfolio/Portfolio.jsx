@@ -1,11 +1,6 @@
 import React, { useEffect } from "react";
-import { Carousel } from "flowbite-react";
-import { Typography, Button } from "@material-tailwind/react";
 import Navbarupp from "../Home/Navbar/Navbarupp";
 import Card from "./Card";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import "react-slideshow-image/dist/styles.css";
 import Approch from "../Home/APProchUs/Approch";
 import Footer from "../Home/Footer/Footer";
 

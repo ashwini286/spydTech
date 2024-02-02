@@ -4,7 +4,7 @@ const SPYD = () => {
   return (
     <>
       <div className=' mt-16'>
-        <div className='p-4 pl-16 md:text-5xl text-gray-600 font-bold'>
+        <div className='p-4 pl-16 md:text-4xl text-gray-600 font-bold'>
         How SPYD Tech helps its clients
         </div>
         <div className='grid grid-cols-1 md:grid-cols-2 md:px-8 text-gray-500'>
