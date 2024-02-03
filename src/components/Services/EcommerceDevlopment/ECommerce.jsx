@@ -58,7 +58,7 @@ function ECommerce() {
         <div className='flex justify-center ml-[10%] pb-[10%]'>
             <div className='mr-[5%] space-y-10'>
                 <div className='flex'>
-               <MdOutlinePersonSearch className='text-6xl'/> <h1 className='p-5 text-2xl tracking-wider'>Search Engine Optimization</h1></div> 
+               <MdOutlinePersonSearch className='text-6xl text-white'/> <h1 className='p-5 text-2xl tracking-wider'>Search Engine Optimization</h1></div> 
                <p className='tracking-wider'>We ensure the website visibility increase organically in the search engines for relevant and targeted keywords, 
                 drive traffic, and generate leads and conversions.</p>
                 
