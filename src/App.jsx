@@ -12,6 +12,7 @@ import Thirdparty from "./components/Services/ThirdParty/Thirdparty";
 import EcommerceDevelopment from "./components/Services/EcommerceDevlopment/EcommerceDevelopment";
 import MobileCommerce from "./components/Services/EcommerceDevlopment/MobileCommerce";
 import ECommerce from "./components/Services/EcommerceDevlopment/ECommerce";
+import SeoServices from "./components/Services/DigitalMarketing/SeoServices";
 
 
 
@@ -38,6 +39,10 @@ const App = () => {
        {/* // Angular */}
       <Route path="/Angular JS" element={<AngularJS />} />
       <Route path='/contact' element={ <Contact />} />
+
+      {/* // Digital marketing */}
+      <Route path="/Seo Services" element={<SeoServices />} />
+
       </Routes>
       </BrowserRouter>
 

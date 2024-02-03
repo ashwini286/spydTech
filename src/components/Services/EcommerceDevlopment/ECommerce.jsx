@@ -58,34 +58,34 @@ function ECommerce() {
         <div className='flex justify-center ml-[10%] pb-[10%]'>
             <div className='mr-[5%] space-y-10'>
                 <div className='flex'>
-               <MdOutlinePersonSearch className='text-6xl text-white'/> <h1 className='p-5 text-2xl tracking-wider'>Search Engine Optimization</h1></div> 
+               <MdOutlinePersonSearch className='text-6xl text-white bg-red-500'/> <h1 className='p-5 text-2xl tracking-wider'>Search Engine Optimization</h1></div> 
                <p className='tracking-wider'>We ensure the website visibility increase organically in the search engines for relevant and targeted keywords, 
                 drive traffic, and generate leads and conversions.</p>
                 
                <div className='flex'>
-                <BiSolidOffer className='text-6xl'/><h1 className='p-5 text-2xl tracking-wider'>Offers & Discounts</h1>
+                <BiSolidOffer className='text-6xl text-white bg-blue-900'/><h1 className='p-5 text-2xl tracking-wider'>Offers & Discounts</h1>
                 </div>
                 <p className='tracking-wider'>We offer innovative ideas and implement those techniques such as
                      offers and discounts to create a shopping experience for your customers</p>
                 <div className='flex'>
-                <GrGroup className='text-6xl'/><h1 className='p-5 text-2xl tracking-wider'>Referral Programs</h1>
+                <GrGroup className='text-6xl text-white bg-red-700'/><h1 className='p-5 text-2xl tracking-wider'>Referral Programs</h1>
                 </div>
                 <p className='tracking-wider'>We help our clients integrate affiliate marketing program to create 
                     multiple revenue streams, maximize sales and grow rapidly.</p>
             </div>
             <div className='mr-[10%] space-y-10 '>
                 <div className='flex'>
-                <TbTargetArrow className='text-6xl'/><h1 className='p-2 text-2xl mt-[-2%] tracking-wider'>Google Adwords & Pay Per Click Advertising</h1>
+                <TbTargetArrow className='text-6xl text-white bg-orange-400'/><h1 className='p-2 text-2xl mt-[-2%] tracking-wider'>Google Adwords & Pay Per Click Advertising</h1>
                 </div>
                 <p className='tracking-wider'>We excel in creating and launching paid campaigns in AdWords, 
                     Facebook and Instagram reduce CPC and increase conversions.</p>
                 <div className='flex'>
-                <SiAmazonsimpleemailservice className='text-6xl mt-2' /><h1 className='p-5 text-2xl  tracking-wider'>Email Campaigns</h1>
+                <SiAmazonsimpleemailservice className='text-6xl mt-2 text-white bg-[#2dd4bf]' /><h1 className='p-5 text-2xl  tracking-wider'>Email Campaigns</h1>
                 </div>
                 <p className='tracking-wider'>We create landing and squeeze pages generate 
                     email lists and execute email marketing campaigns leading to conversions</p>
                 <div className='flex'>
-                <TbSocial className='text-6xl '/><h1 className='p-5 text-2xl tracking-wider'>Create Social Media Presence</h1>
+                <TbSocial className='text-6xl text-white bg-[#0ea5e9]'/><h1 className='p-5 text-2xl tracking-wider'>Create Social Media Presence</h1>
                 </div>
                 <p className='tracking-wider'>Social Media Optimization and Marketing is our forte. We create social media business pages, interact, 
                     communicate and engage with users to drive quality traffic.</p>
