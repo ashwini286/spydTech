@@ -10,7 +10,7 @@ import { PiNumberThree } from "react-icons/pi";
 import { PiNumberFour } from "react-icons/pi";
 import { PiNumberFive } from "react-icons/pi";
 import { PiNumberSix } from "react-icons/pi";
-
+import IMG23 from "../../assets/MOBILEanimation.gif"
 
 
 function MobileCommerce() {
@@ -24,8 +24,14 @@ function MobileCommerce() {
           alt="Background Image"
         />
         </div>
-        <div className='p-20'>
-            <div className='w-2/3 text-left ml-[35%] space-y-3 tracking-wider'>
+        <div className='p-20 flex'>
+            
+            <img 
+            src={IMG23}
+            className='w-[50%] h-[30rem] ml-[-10%]'
+            />
+           
+            <div className='w-2/3 text-left  space-y-3 tracking-wider'>
                 <p>India is the fastest growing country in E-Commerce niche with revenue 
                     expected to surpass US$ 120 Billion by 2020.</p>
                     <p>
@@ -38,7 +44,7 @@ function MobileCommerce() {
                     mobile commerce is posed to play a significant role in driving overall e-commerce growth in India.
                     </p>
                     <p>
-                    We at Aspirant Soft Solutions have hired, trained and nurtured exceptional talented manpower 
+                    We at SpyD technology have hired, trained and nurtured exceptional talented manpower 
                     to meet the growing demands of M-Commerce. We offer turnkey solutions by bundling E-Commerce 
                     and M-Commerce to ensure the products are accessible to users on multiple platforms.
                     </p>
@@ -50,6 +56,7 @@ function MobileCommerce() {
                       clients world over.
                     </p>
             </div>
+            
         </div>
         <div className='bg-[#2dd4bf] w-[100%] p-5'>
             <h1 className='text-white text-4xl ml-[15%] tracking-widest pb-2'>Mobile eCommerce</h1>

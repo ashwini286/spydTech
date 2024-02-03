@@ -11,6 +11,7 @@ import ERPNext from "./components/Services/Services/ERPNext/ERPNext TECHNOLOGY";
 import Thirdparty from "./components/Services/ThirdParty/Thirdparty";
 import EcommerceDevelopment from "./components/Services/EcommerceDevlopment/EcommerceDevelopment";
 import MobileCommerce from "./components/Services/EcommerceDevlopment/MobileCommerce";
+import ECommerce from "./components/Services/EcommerceDevlopment/ECommerce";
 
 
 
@@ -33,6 +34,7 @@ const App = () => {
       {/* //Ecommerce Development */}
       <Route path="/Magento eCommerce Development" element={<EcommerceDevelopment />} />
       <Route path="/Mobile Commerce (mCommerce)" element={<MobileCommerce />} />
+      <Route path="/eCommerce" element={<ECommerce />} />
        {/* // Angular */}
       <Route path="/Angular JS" element={<AngularJS />} />
       <Route path='/contact' element={ <Contact />} />
