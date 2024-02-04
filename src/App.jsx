@@ -5,7 +5,8 @@ import Contact from "./components/ContactUs/ContactUs/Contact";
 import {Routes,Route,BrowserRouter} from 'react-router-dom'
 
 import AngularJS from "./components/Services/Angular/AngularJS";
-import Reactjs from './components/Services/Reactjs/Reactjs'
+import Reactjs from './components/Services/Reactjs/Reactjs';
+import NextJS from "./components/Services/NextJs/NextJS";
 import Consulting from "./components/Services/Consulting/Consulting";
 import Implementation from "./components/Services/Implementation/Implementation";
 import ERPNext from "./components/Services/Services/ERPNext/ERPNext TECHNOLOGY";
@@ -42,6 +43,7 @@ const App = () => {
        {/* // Angular */}
       <Route path="/Angular JS" element={<AngularJS />} />
       <Route path="/React JS" element={<Reactjs />} />
+      <Route path="/Next JS" element={<NextJS />} />
       <Route path='/contact' element={ <Contact />} />
 
       {/* // Digital marketing */}
