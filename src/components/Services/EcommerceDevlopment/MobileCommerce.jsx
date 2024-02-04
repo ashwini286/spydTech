@@ -31,7 +31,7 @@ function MobileCommerce() {
             className='w-[50%] h-[30rem] ml-[-10%]'
             />
            
-            <div className='w-2/3 text-left  space-y-3 tracking-wider'>
+            <div className='w-2/3 text-left  space-y-3 tracking-wider text-gray-500'>
                 <p>India is the fastest growing country in E-Commerce niche with revenue 
                     expected to surpass US$ 120 Billion by 2020.</p>
                     <p>
@@ -88,7 +88,7 @@ function MobileCommerce() {
             <h1 className='text-2xl pt-10 tracking-wider ml-2'>Our Mobile Commerce Development Services Include</h1>
             
                
-                <div className='mt-[10%] ml-[-50%] space-y-2 '>
+                <div className='mt-[10%] ml-[-50%] space-y-2 text-gray-500'>
 
                 <h1 className='flex'>  <PiNumberOne className='text-2xl tracking-wider' />Mobile- friendly technology  </h1> 
                     
@@ -97,7 +97,7 @@ function MobileCommerce() {
                 <h1 className='flex'> <PiNumberThree className='text-2xl tracking-wider'/>Support for multiple stores</h1>
                 </div>
 
-                <div className='mt-[10%] ml-[-10%] space-y-4 '>
+                <div className='mt-[10%] ml-[-10%] space-y-4 text-gray-500'>
 
                
                <h1 className='flex'> <PiNumberFour  className='text-2xl tracking-wider'/>Powerful features to incorporate marketing</h1>

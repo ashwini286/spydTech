@@ -15,7 +15,7 @@ function SeoServices() {
         />
     </div>
     <h1 className='text-center p-5 text-2xl tracking-wider'>Digital Marketing and SEO Services</h1>
-<div className='pl-10 tracking-wider pb-10'>
+<div className='pl-10 tracking-wider pb-10 space-y-5 text-gray-500'>
     <p>Our build road map implementation and strategies to offer SEO, SEM, Social Media, Content,
        Affiliate, Viral, Video and Influencer Marketing services to drive traffic, leading to conversions.</p>
     <p>Over the years we hired, trained, nurtured and build a dedicated team of 
@@ -35,7 +35,7 @@ function SeoServices() {
 
     </div>
     <h1 className='text-2xl tracking-wider pl-10 pb-2'>We offer SEO and Digital Marketing Services in the following areas:</h1>
-    <div className='pl-10 space-y-3 pb-10' >
+    <div className='pl-10 space-y-3 pb-10 text-gray-500' >
       <p>Search Engine Optimization (SEO)</p>
       <p>Search Engine Marketing (SEM)</p>
       <p>Social Media Optimization (SMO)</p>

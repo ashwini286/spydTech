@@ -13,6 +13,8 @@ import EcommerceDevelopment from "./components/Services/EcommerceDevlopment/Ecom
 import MobileCommerce from "./components/Services/EcommerceDevlopment/MobileCommerce";
 import ECommerce from "./components/Services/EcommerceDevlopment/ECommerce";
 import SeoServices from "./components/Services/DigitalMarketing/SeoServices";
+import PPCManagement from "./components/Services/DigitalMarketing/PPCManagement";
+import Digitalmarketing from "./components/Services/DigitalMarketing/Digitalmarketing";
 
 
 
@@ -41,7 +43,10 @@ const App = () => {
       <Route path='/contact' element={ <Contact />} />
 
       {/* // Digital marketing */}
+      <Route path="/DIGITAL MARKETING" element={<Digitalmarketing />} />
       <Route path="/Seo Services" element={<SeoServices />} />
+      <Route path="/PPC Management Services" element={<PPCManagement />} />
+
 
       </Routes>
       </BrowserRouter>
