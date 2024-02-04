@@ -26,10 +26,11 @@ function EcommerceDevelopment() {
           alt="Background Image"
         />
         </div>
-        <div className='p-10 text-1xl w-[95%] text-center tracking-widest'>
-            <h1>Magento is the most popular open source E-Commerce CMS based platform that offers a wide ranging features enabling companies build robust, end-to-end E-Commerce website. Aspirant Soft Solutions Magento experts leverages the amazing features, tools and plugins to help our clients cost effective E-Commerce Solutions</h1>
+        <div className='p-10 text-1xl w-[95%] text-center tracking-widest text-gray-500'>
+            <h1>Magento is the most popular open source E-Commerce CMS based platform that offers a wide ranging features enabling companies build robust,
+               end-to-end E-Commerce website. SpyD Technology PVT LTD Magento experts leverages the amazing features, tools and plugins to help our clients cost effective E-Commerce Solutions</h1>
         </div>
-        <div className=''>
+        <div className='text-gray-500'>
         <div className='w-[100%] h-[100%] bg-[white] p-10 '
         >
             <div className='flex pb-10'>
@@ -63,10 +64,10 @@ function EcommerceDevelopment() {
                 className='w-[70%] h-full'
                 />
             </div>
-            <h1 className='text-3xl pb-4 text-bold'>The value we add to our clients:</h1>
+            <h1 className='text-3xl pb-4 text-bold text-black'>The value we add to our clients:</h1>
             <div className='flex pb-10'>
             <BsCheck2Square  className='text-4xl'/> <p className='pl-4 mt-2 tracking-widest w-1/2'>Over the
-             years Aspirant has built exceptional resources Magento capabilities</p>
+             years SpyD Technology has built exceptional resources Magento capabilities</p>
             
             </div>
            

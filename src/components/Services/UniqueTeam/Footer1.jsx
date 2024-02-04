@@ -64,10 +64,12 @@ function Footer1() {
             <div className="w-full mb-4">
               <h2 className="text-2xl font-bold mb-4">Service</h2>
               <ul>
-                <li className="mb-2">ERPNext</li>
-                <li className="mb-2">Design</li>
-                <li className="mb-2">Technology</li>
-                <li className="mb-2">Data Analytics</li>
+                <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-[30%] after:transition-all after:duration-300 cursor-pointer">ERPNext</li>
+                <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-12 after:transition-all after:duration-300 cursor-pointer">Design</li>
+                
+
+                <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-20 after:transition-all after:duration-300 cursor-pointer">Technology</li>
+                <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-24 after:transition-all after:duration-300 cursor-pointer">Data Analytics</li>
               </ul>
             </div>
 
@@ -75,12 +77,12 @@ function Footer1() {
             <div className="w-full mb-4 ml-auto text-left">
               <h2 className="text-2xl font-bold mb-4">Focus</h2>
               <ul className='w-full'>
-                <li className="mb-2">ERPNext Consultation</li>
-                <li className="mb-2">ERPNext Implementation</li>
-                <li className="mb-2">ERPNext Development</li>
-                <li className="mb-2">Headless Ecommerce with ERPNext</li>
-                <li className="mb-2">Websites with ERPNext</li>
-                <li className="mb-2">Third-Party Integrations</li>
+                <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-40 after:transition-all after:duration-300 cursor-pointer">ERPNext Consultation</li>
+                <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-44 after:transition-all after:duration-300 cursor-pointer">ERPNext Implementation</li>
+                <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-44 after:transition-all after:duration-300 cursor-pointer">ERPNext Development</li>
+                <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-44 after:transition-all after:duration-300 cursor-pointer">Headless Ecommerce with ERPNext</li>
+                <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-44 after:transition-all after:duration-300 cursor-pointer">Websites with ERPNext</li>
+                <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-44 after:transition-all after:duration-300 cursor-pointer">Third-Party Integrations</li>
               </ul>
             </div>
 
@@ -88,26 +90,26 @@ function Footer1() {
             <div className="w-full mb-4 ml-5">
               <h2 className="text-2xl font-bold mb-4">Industry</h2>
               <ul>
-                <li className="mb-2">Manufacturing</li>
-                <li className="mb-2">Logistic</li>
-                <li className="mb-2">Tele-Communication</li>
-                <li className="mb-2">Retail</li>
-                <li className="mb-2">Distribution</li>
-                <li className="mb-2">Automotive</li>
-                <li className="mb-2">Startup</li>
+              <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-24 after:transition-all after:duration-300 cursor-pointer">Manufacturing</li>
+                <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-12 after:transition-all after:duration-300 cursor-pointer">Logistic</li>
+                <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-36 after:transition-all after:duration-300 cursor-pointer">Tele-Communication</li>
+                <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-10 after:transition-all after:duration-300 cursor-pointer">Retail</li>
+                <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-20 after:transition-all after:duration-300 cursor-pointer">Distribution</li>
+                <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-20 after:transition-all after:duration-300 cursor-pointer">Automotive</li>
+                <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-12 after:transition-all after:duration-300 cursor-pointer">Startup</li>
               </ul>
             </div>
 
             <div className="w-full mb-4">
               <h2 className="text-2xl font-bold mb-4">Contact Us</h2>
               <ul>
-                <li className="mb-2">Manufacturing</li>
-                <li className="mb-2">Logistic</li>
-                <li className="mb-2">Tele-Communication</li>
-                <li className="mb-2">Retail</li>
-                <li className="mb-2">Distribution</li>
-                <li className="mb-2">Automotive</li>
-                <li className="mb-2">Startup</li>
+                <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-24 after:transition-all after:duration-300 cursor-pointer">Manufacturing</li>
+                <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-12 after:transition-all after:duration-300 cursor-pointer">Logistic</li>
+                <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-36 after:transition-all after:duration-300 cursor-pointer">Tele-Communication</li>
+                <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-10 after:transition-all after:duration-300 cursor-pointer">Retail</li>
+                <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-20 after:transition-all after:duration-300 cursor-pointer">Distribution</li>
+                <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-20 after:transition-all after:duration-300 cursor-pointer">Automotive</li>
+                <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-12 after:transition-all after:duration-300 cursor-pointer">Startup</li>
               </ul>
             </div>
             </div>
