@@ -8,22 +8,22 @@ import Footer from '../../Home/Footer/Footer';
 function AngularJS() {
   return (
     <>
-     <div>
-      <Navbarupp />
-      </div>    
-    
-        
-        <img
-          src="https://www.aspirantsoftsolutions.com/img/angular-js.jpg"
-          className=" object-cover  "
-          alt="Background Image"
-        />
-<Development />
-        <Benefits />
-        <SPYD />
-     
+      <div>
+        <Navbarupp />
+      </div>
+
+
+      <img
+        src="https://www.aspirantsoftsolutions.com/img/angular-js.jpg"
+        className=" object-cover  "
+        alt="Background Image"
+      />
+      <Development />
+      <Benefits />
+      <SPYD />
+
       <Approch />
-     
+
       <Footer />
     </>
   );

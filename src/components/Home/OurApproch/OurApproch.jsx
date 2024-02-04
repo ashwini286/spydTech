@@ -10,6 +10,8 @@ import Img2 from './Img2';
 import Img3 from './Img3';
 import Img4 from './Img4';
 import Img5 from './Img5';
+import Img6 from './Img6';
+import Img7 from './Img7';
 import 'react-vertical-timeline-component/style.min.css';
 const OurApproch = () => {
   return (
@@ -104,6 +106,34 @@ const OurApproch = () => {
 
             <p className='text-gray-400'>
               After user acceptance test the solution will be deployed.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--education"
+            contentStyle={{ color: 'black' }}
+            contentArrowStyle={{ borderRight: '7px solid black' }}
+            iconStyle={{ border: '1px solid gray', borderStyle: 'dashed' , background:"#1b263b", color:"white"}}
+            icon={<MdRocketLaunch />}
+            date={<Img6 />}
+          >
+            <h3 className="vertical-timeline-element-title justify-end items-end font-semibold">Deployment</h3>
+
+            <p className='text-gray-400'>
+            In this stage, Akhilam Team plans for the deployment of the Website and Application, and at a decided time, we deploy. And, Once deployment is done, we are readily available to answer questions, help users understand the system, and attempt to fix any issues.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--education"
+            contentStyle={{ color: 'black' }}
+            contentArrowStyle={{ borderRight: '7px solid black' }}
+            iconStyle={{ border: '1px solid gray', borderStyle: 'dashed' , background:"#1b263b", color:"white"}}
+            icon={<MdRocketLaunch />}
+            date={<Img7 />}
+          >
+            <h3 className="vertical-timeline-element-title justify-end items-end font-semibold">Support & Updates:</h3>
+
+            <p className='text-gray-400'>
+            In this stage, Akhilam Team provides support for the 3 Months for the decided scope of work and also helps stakeholders to solve their questions. Also, the AMC package helps companies to get additional required maintenance.
             </p>
           </VerticalTimelineElement>
 
