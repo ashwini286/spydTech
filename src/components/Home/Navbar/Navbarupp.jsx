@@ -117,7 +117,7 @@ const navListMenuItems = [
     color: 'cyan', // Add a color property for the icon
     Type1: "Salesforce Development",
     Type2: "Cloud Technology",
-    Type3: ""
+    Type3: "Amazon-web-services"
     
   },
 ];

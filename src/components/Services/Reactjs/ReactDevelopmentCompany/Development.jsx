@@ -11,8 +11,7 @@ const Development = () => {
 
      <div className='py-4 text-gray-400 md:leading-8'>
      <p>
-     ReactJS has emerged as a boon for developers worldwide. ReactJS is essentially an open-source library that provides pre-built code, thus sparing developers the need to start from scratch. This eliminates the arduous process of manual coding, saving time, 
-     and facilitating rapid development.
+     React encourages a component-based architecture, where UIs are composed of independent, self-contained components that can be easily reused across different parts of an application. This modular approach enhances code maintainability and scalability, making it easier for developers to manage complex projects. Additionally, React follows a unidirectional data flow, ensuring predictable and easily traceable state management through the use of properties and state.
      </p>
      </div>
 
@@ -22,7 +21,7 @@ const Development = () => {
       </div>
       <div className='md:w-[620px] md:h-[560px] text-white flex justify-center items-justify flex-col '>
       <div>
-<img src="https://www.kindpng.com/picc/m/168-1689232_logo1-react-js-logo-png-transparent-png.png" alt="" />
+<img src="https://railsware.com/blog/wp-content/uploads/2019/07/Why-we-use-ReactJS-for-our-projects-Illustration.jpg" alt="" />
       </div>
        
       </div>
