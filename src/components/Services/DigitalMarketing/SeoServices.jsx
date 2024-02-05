@@ -11,7 +11,7 @@ function SeoServices() {
     <div>
         <img
         src={IMG}
-        className='pb-20'
+        className='pb-20 w-[100%] h-[40rem]'
         />
     </div>
     <h1 className='text-center p-5 text-2xl tracking-wider'>Digital Marketing and SEO Services</h1>
