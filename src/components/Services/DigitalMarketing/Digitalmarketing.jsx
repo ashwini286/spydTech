@@ -1,6 +1,9 @@
 import React from 'react'
 import Navbarupp from '../../Home/Navbar/Navbarupp'
 import Approch from '../../Home/APProchUs/Approch'
+import "./Digital.css"
+
+
 
 function Digitalmarketing() {
   return (
@@ -8,27 +11,40 @@ function Digitalmarketing() {
     <Navbarupp />
     <div className=' p-20 justify-center ml-[10%] h-[55rem] '>
         <div className='grid '>
-        <div className='ml-[30%] w-[20%] rounded rounded-[50%] h-[10rem] text-center border-2 border-white bg-[#71a9bc] shadow-3xl hover:scale-105 transition-all duration-500'> 
-          hello1
-        </div>
-        <div className='ml-[10%] w-[20%] rounded rounded-[50%] h-[10rem] text-center border-2 border-white bg-white shadow-5xl hover:scale-105 transition-all duration-500'>
+        <div data-aos="fade-right"
+    class='animate-fade-right ml-[40%] mt-[-5%] w-[15%] rounded-full h-[8rem] text-center border-1.5 border-gray-400 bg-white shadow-2xl fade-left'> 
+    hello1
+</div>
+
+        <div  data-aos="fade-right"
+        className='animate-fade-right ml-[13%] mb-5 w-[15%] rounded rounded-[50%] h-[8rem] text-center border-1.5 border-gray-400 bg-white shadow-2xl fade-left'>
             hello2
         </div>
         </div>
         <div className='flex'> 
-        <div className='p-16 w-[20%] rounded rounded-[50%] h-[10rem] text-center border-1.5 border-gray-400 bg-white shadow-2xl transform hover:scroll-right hover:translate-x-full transition-all duration-500'>
+        <div
+        data-aos="fade-right"
+         className='animate-fade-right ml-[-2%] p-16 w-[15%] rounded rounded-[50%] h-[8rem] text-center border-1.5 border-gray-400 bg-white shadow-2xl transform fade-left'>
             hello3
         </div>
-        <div className='p-40 ml-[30%] mt-[-6%] w-[40%] rounded rounded-[50%] h-[20rem] text-center border-1.5 border-gray-400 bg-white shadow-2xl transform fade-left translate-x-1 transition-all duration-300 '>
+        <div 
+        data-aos="fade-left"
+        className='animate-fade-left p-40 ml-[15%] mt-[-7%] w-[10%] rounded rounded-[50%] h-[13rem] text-center border-1.5 border-gray-400 bg-white shadow-2xl  fade-right'
+        
+        >
             hello4
         </div>
         </div>
         <div className='grid mt-[-10%]'>       
-         <div className='ml-[10%] w-[20%] rounded rounded-[50%] h-[10rem] text-center border-2 border-white bg-[#71a9bc] shadow-3xl hover:scale-105 transition-all duration-500'>
+         <div
+         data-aos="fade-right"
+         className='animate-fade-right ml-[13%] mt-12 mb-[-2%] w-[20%] rounded rounded-[50%] h-[10rem] text-center border-1.5 border-gray-400 bg-white shadow-2xl fade-left'>
             hello5
         </div>
         
-        <div className='ml-[30%] w-[20%] rounded rounded-[50%] h-[10rem] text-center border-2 border-white bg-[#71a9bc] shadow-3xl hover:scale-105 transition-all duration-500'>
+        <div 
+        data-aos="fade-right"
+        className='animate-fade-right ml-[40%] w-[20%] rounded rounded-[50%] h-[10rem] text-center border-1.5 border-gray-400 bg-white shadow-2xl fade-left'>
             hello6
         </div>
         </div>

@@ -3,7 +3,7 @@ import TaskAltOutlinedIcon from '@mui/icons-material/TaskAltOutlined';
 const SPYDReact = () => {
   return (
     <>
-       <div className='mt-16'>
+       <div className='mt-10 md:px-20'>
       <div className='p-4 pl-16 md:text-4xl text-gray-600 font-bold'>
         How SPYD Tech helps its clients with ReactJS
       </div>
