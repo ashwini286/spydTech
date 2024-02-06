@@ -5,6 +5,8 @@ import { GiTeamIdea } from "react-icons/gi";
 import { FaLightbulb } from "react-icons/fa";
 import { GrTestDesktop } from "react-icons/gr";
 import { MdRocketLaunch } from "react-icons/md";
+import InventoryOutlinedIcon from '@mui/icons-material/InventoryOutlined';
+import RecommendOutlinedIcon from '@mui/icons-material/RecommendOutlined';
 import Img1 from './img1';
 import Img2 from './Img2';
 import Img3 from './Img3';
@@ -73,7 +75,7 @@ const OurApproch = () => {
             date={<Img3 />}
           >
             <h3 className="vertical-timeline-element-title justify-end items-end font-semibold">Design & development</h3>
-            <p>
+            <p className='text-gray-400'>
               The UI, UX process starts in consonance with the laid out plan in
               consonance with the structure and layout.The functional part development process
               begins by coding the features of the solution.
@@ -113,7 +115,7 @@ const OurApproch = () => {
             contentStyle={{ color: 'black' }}
             contentArrowStyle={{ borderRight: '7px solid black' }}
             iconStyle={{ border: '1px solid gray', borderStyle: 'dashed' , background:"#1b263b", color:"white"}}
-            icon={<MdRocketLaunch />}
+            icon={<InventoryOutlinedIcon />}
             date={<Img6 />}
           >
             <h3 className="vertical-timeline-element-title justify-end items-end font-semibold">Deployment</h3>
@@ -127,7 +129,7 @@ const OurApproch = () => {
             contentStyle={{ color: 'black' }}
             contentArrowStyle={{ borderRight: '7px solid black' }}
             iconStyle={{ border: '1px solid gray', borderStyle: 'dashed' , background:"#1b263b", color:"white"}}
-            icon={<MdRocketLaunch />}
+            icon={<RecommendOutlinedIcon />}
             date={<Img7 />}
           >
             <h3 className="vertical-timeline-element-title justify-end items-end font-semibold">Support & Updates:</h3>
