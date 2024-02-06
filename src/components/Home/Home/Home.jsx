@@ -16,6 +16,9 @@ import IMG1 from "../../assets/Main12.webp"
 import IMG2 from "../../assets/Main2.avif"
 import IMG3 from "../../assets/Main3.webp"
 
+
+
+
 const Home = () => {
 
 

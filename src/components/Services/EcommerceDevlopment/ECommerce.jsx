@@ -47,51 +47,61 @@ function ECommerce() {
             </div>
             <img 
             src={IMG2}
-            className='w-[40%]'
+            className='flex  lg:w-[40%] lg:-mt-[0%] md:w-[45%]  md:h-[40%] md:-mt-[-35%] sm:w-[50%] sm:h-[10%] sm:-mt-[-65%] '
             />
 
         
         </div>
     <div className='bg-[#e4e0e0] pt-20'>
-            <h1 className='text-2xl text-bold text-center pb-10 tracking-wider'>Grow Sales with Online Marketing</h1>
         
-        <div className='flex justify-center ml-[10%] pb-[10%] text-gray-500'>
-            <div className='mr-[5%] space-y-10'>
-                <div className='flex'>
-               <MdOutlinePersonSearch className='text-6xl text-white bg-red-500'/> <h1 className='p-5 text-2xl tracking-wider'>Search Engine Optimization</h1></div> 
-               <p className='tracking-wider'>We ensure the website visibility increase organically in the search engines for relevant and targeted keywords, 
-                drive traffic, and generate leads and conversions.</p>
+           <h1 className='text-2xl text-bold text-center pb-10 tracking-wider'>Grow Sales with Online Marketing</h1>
+            {/* <div className='grid sm:grid-flow-row md:grid-flow-col-2 lg:grid-flow-col'> */}
+              <div className='flex  justify-center ml-[10%] pb-[10%] text-gray-500 '>
+                  <div className='mr-[5%] space-y-10 '>
+
+                     <div className='flex '>
+                        <MdOutlinePersonSearch className='text-6xl text-white bg-red-500'/> <h1 className='p-5 text-2xl tracking-wider'>Search Engine Optimization</h1>
+                      </div> 
+                      <p className='tracking-wider'>We ensure the website visibility increase organically in the search engines for relevant and targeted keywords, 
+                       drive traffic, and generate leads and conversions.</p>
+                 
                 
-               <div className='flex'>
-                <BiSolidOffer className='text-6xl text-white bg-blue-900'/><h1 className='p-5 text-2xl tracking-wider'>Offers & Discounts</h1>
+                 
+                       <div className='flex'>
+                         <BiSolidOffer className='text-6xl text-white bg-blue-900'/><h1 className='p-5 text-2xl tracking-wider'>Offers & Discounts</h1>
+                       </div>
+                       <p className='tracking-wider'>We offer innovative ideas and implement those techniques such as
+                          offers and discounts to create a shopping experience for your customers</p>
+                    
+                       
+                     
+                     <div className='flex'>
+                       <GrGroup className='text-6xl text-white bg-red-700'/><h1 className='p-5 text-2xl tracking-wider'>Referral Programs</h1>
+                       </div>
+                        <p className='tracking-wider'>We help our clients integrate affiliate marketing program to create 
+                         multiple revenue streams, maximize sales and grow rapidly.</p>
+                     
+                    </div>
+                   <div className='mr-[10%] space-y-10 '>
+                    <div className='flex'>
+                      <TbTargetArrow className='text-6xl text-white bg-orange-400'/><h1 className='p-2 text-2xl mt-[-2%] tracking-wider'>Google Adwords & Pay Per Click Advertising</h1>
+                    </div>
+                     <p className='tracking-wider'>We excel in creating and launching paid campaigns in AdWords, 
+                       Facebook and Instagram reduce CPC and increase conversions.</p>
+                   <div className='flex'>
+                       <SiAmazonsimpleemailservice className='text-6xl mt-2 text-white bg-[#2dd4bf]' /><h1 className='p-5 text-2xl  tracking-wider'>Email Campaigns</h1>
+                    </div>
+                      <p className='tracking-wider'>We create landing and squeeze pages generate 
+                       email lists and execute email marketing campaigns leading to conversions</p>
+                    <div className='flex'>
+                      <TbSocial className='text-6xl text-white bg-[#0ea5e9]'/><h1 className='p-5 text-2xl tracking-wider'>Create Social Media Presence</h1>
+                    </div>
+                    <p className='tracking-wider'>Social Media Optimization and Marketing is our forte. We create social media business pages, interact, 
+                       communicate and engage with users to drive quality traffic.</p>
                 </div>
-                <p className='tracking-wider'>We offer innovative ideas and implement those techniques such as
-                     offers and discounts to create a shopping experience for your customers</p>
-                <div className='flex'>
-                <GrGroup className='text-6xl text-white bg-red-700'/><h1 className='p-5 text-2xl tracking-wider'>Referral Programs</h1>
-                </div>
-                <p className='tracking-wider'>We help our clients integrate affiliate marketing program to create 
-                    multiple revenue streams, maximize sales and grow rapidly.</p>
-            </div>
-            <div className='mr-[10%] space-y-10 '>
-                <div className='flex'>
-                <TbTargetArrow className='text-6xl text-white bg-orange-400'/><h1 className='p-2 text-2xl mt-[-2%] tracking-wider'>Google Adwords & Pay Per Click Advertising</h1>
-                </div>
-                <p className='tracking-wider'>We excel in creating and launching paid campaigns in AdWords, 
-                    Facebook and Instagram reduce CPC and increase conversions.</p>
-                <div className='flex'>
-                <SiAmazonsimpleemailservice className='text-6xl mt-2 text-white bg-[#2dd4bf]' /><h1 className='p-5 text-2xl  tracking-wider'>Email Campaigns</h1>
-                </div>
-                <p className='tracking-wider'>We create landing and squeeze pages generate 
-                    email lists and execute email marketing campaigns leading to conversions</p>
-                <div className='flex'>
-                <TbSocial className='text-6xl text-white bg-[#0ea5e9]'/><h1 className='p-5 text-2xl tracking-wider'>Create Social Media Presence</h1>
-                </div>
-                <p className='tracking-wider'>Social Media Optimization and Marketing is our forte. We create social media business pages, interact, 
-                    communicate and engage with users to drive quality traffic.</p>
-            </div>
-        </div>
-        </div>
+           </div>
+           </div>
+        {/* </div> */}
     <Approch />
     </>
   )
