@@ -6,7 +6,7 @@ const WhyGoNextjs = () => {
     <div className=' md:pt-16 pt-8 md:pl-24' >
         <div className='flex justify-center items-center flex-col'>
             <div className='md:text-4xl text-gray-500 mb-4 text-2xl'>
-                Why Go NodeJs
+                Why Go NextJS
             </div>
             <div className='text-xl text-gray-400 text-center '>
                 These solutions efficiently meet the complex business goals.
