@@ -9,6 +9,7 @@ import AngularJS from "./components/Services/Angular/AngularJS";
 import Reactjs from './components/Services/Reactjs/Reactjs';
 import NextJS from "./components/Services/NextJs/NextJS";
 import Php from './components/Services/PHP/Php';
+import Backend from "./components/Services/Backend/Backend";
 import Java from "./components/Services/Java/Java";
 import Python from "./components/Services/Python/Python";
 import Consulting from "./components/Services/Consulting/Consulting";
@@ -51,6 +52,7 @@ const App = () => {
       <Route path="/Next JS" element={<NextJS />} />
       <Route path='/contact' element={ <Contact />} />
   {/* Backend */}
+  <Route path="/BACKEND" element={<Backend />} />
   <Route path="/PHP" element={<Php />} />
   <Route path="/Java" element={<Java />} />
   <Route path="/Python" element={<Python />} />
