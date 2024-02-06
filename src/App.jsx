@@ -8,7 +8,8 @@ import Frontend from "./components/Services/Frontend/Frontend";
 import AngularJS from "./components/Services/Angular/AngularJS";
 import Reactjs from './components/Services/Reactjs/Reactjs';
 import NextJS from "./components/Services/NextJs/NextJS";
-import Php from './components/Services/PHP/Php'
+import Php from './components/Services/PHP/Php';
+import Java from "./components/Services/Java/Java";
 import Consulting from "./components/Services/Consulting/Consulting";
 import Implementation from "./components/Services/Implementation/Implementation";
 import ERPNext from "./components/Services/Services/ERPNext/ERPNext TECHNOLOGY";
@@ -50,6 +51,7 @@ const App = () => {
       <Route path='/contact' element={ <Contact />} />
   {/* Backend */}
   <Route path="/PHP" element={<Php />} />
+  <Route path="/Java" element={<Java />} />
       {/* // Digital marketing */}
       <Route path="/DIGITAL MARKETING" element={<Digitalmarketing />} />
       <Route path="/Seo Services" element={<SeoServices />} />
