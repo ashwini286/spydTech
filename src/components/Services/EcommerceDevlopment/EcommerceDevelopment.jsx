@@ -95,7 +95,7 @@ function EcommerceDevelopment() {
       <table className='w-full ml-[2%]'>
         <tbody>
          
-          <tr className='flex  p-4 space-x-10  '>
+          <tr className='flex sm:flex-col p-4 space-x-10  '>
           <td className='box w-[30%] h-20  border-2 border-white bg-[#0284c7] shadow-2xl hover:scale-105 transition-all duration-500'>
           <p className='text-white flex sm:mt-2 md:mt-4 sm:pl-2 md:pl-2 lg:mt-6 lg:justify-center' > Magento eCommerce Solutions</p>
             </td>

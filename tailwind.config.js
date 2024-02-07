@@ -7,7 +7,7 @@
 //   plugins: [],
 // });
 
-/** @type {import('tailwindcss').Config} */
+//  @type {import('tailwindcss').Config } 
 const withMT = require("@material-tailwind/react/utils/withMT");
 module.exports =withMT( {
 	content: [
@@ -20,16 +20,20 @@ module.exports =withMT( {
 		'node_modules/flowbite-react/lib/esm/**/*.js',
 	],
 	theme: {
-		extend: {
-			colors: {
-				primary: '023047',
-				secondary: '#FAAC06',
-				tertiary: '#ffffff',
+		screens:{
+			
+			extend: {
+				colors: {
+					primary: '023047',
+					secondary: '#FAAC06',
+					tertiary: '#ffffff',
+				},
+				fontFamily: {
+					calibri: ['Calibri', 'sans-serif'],
+				  },
 			},
-			fontFamily: {
-				calibri: ['Calibri', 'sans-serif'],
-			  },
-		},
+		}
+		
 	},
 	plugins: [
 		require('flowbite/plugin'),

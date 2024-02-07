@@ -62,7 +62,7 @@ function MobileCommerce() {
             <h1 className='text-white text-4xl ml-[15%] tracking-widest pb-2'>Mobile eCommerce</h1>
             <p className='text-white text-1xl ml-[20%] tracking-widest pb-10'>as per with latest technology</p>
             <div className='w-2/3 text-left space-y-2 text-white pt-5 tracking-wide'>
-                <p>
+                <p className='sm:line-clamp-3'>
                 Expertise mobile commerce solutions fully integrates with your existing e Commerce website
                  that includes product catalogue, inventory, shipping methods, payments and checkout as well
                   as all other functionalities.
@@ -104,7 +104,7 @@ function MobileCommerce() {
                
                <h1 className='flex sm:mt-2.5'> <PiNumberFour  className='text-2xl tracking-wider'/>Powerful features to incorporate marketing</h1>
                <h1 className='flex sm-mt-30'><PiNumberFive  className='text-2xl tracking-wider '/>Features that are compelling and attract new customers</h1>
-               <h1 className='flex pt-3 '><PiNumberSix className='text-2xl tracking-wider'/>Compatible with multiple devices</h1>
+               <h1 className='flex pt-3 '><PiNumberSix className='text-2xl tracking-wider '/>Compatible with multiple devices</h1>
 
                
                 </div>
