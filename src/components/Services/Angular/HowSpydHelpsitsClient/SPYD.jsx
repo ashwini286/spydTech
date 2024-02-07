@@ -3,7 +3,7 @@ import DoneAllSharpIcon from '@mui/icons-material/DoneAllSharp';
 const SPYD = () => {
   return (
     <>
-      <div className=' mt-16'>
+      <div className=' mt-10 md:px-8 mb-10'>
         <div className='p-4 pl-16 md:text-4xl text-gray-600 font-bold'>
         How SPYD Tech helps its clients
         </div>

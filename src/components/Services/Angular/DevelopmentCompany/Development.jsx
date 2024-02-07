@@ -9,7 +9,7 @@ const Development = () => {
      <h1>Leading AngularJS  Development Company</h1>
      </div>
 
-     <div className='py-12 text-xl leading-10'>
+     <div className='py-12 text-gray-400 md:leading-10'>
      <p>
      AngularJS has come up as a boon to developers all over the world. AngularJS basically is an open source framework that offers code already built that otherwise developers have to write from the scratch, thus eliminating the cumbersome process of hand coding, saving time, and paving way for rapid development.
      </p>

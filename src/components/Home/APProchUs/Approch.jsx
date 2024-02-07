@@ -43,13 +43,13 @@ const Approch = () => {
                 alignItems: "center",
               }}
             >
-              <div className=" text-center ">
-                <div className="flex justify-center items-center flex-row">
+              <div className=" text-center mr-[60px]">
+                <div className="flex justify-center items-center flex-row pr-16">
                   <div>
                     <img src={Logo} alt="sorry" className="" />
                   </div>
                   <p
-                    className="font-poppins md:text-[30px] text-white"
+                    className="font-poppins md:text-[30px] text-white text-xl"
                   >
                     Approach Us
                   </p>
@@ -64,7 +64,7 @@ const Approch = () => {
                   </div>
                   <div className="ml-3">REACH US</div>
                 </div>
-                <div className="mt-8 flex justify-end items-justify">
+                <div className="mt-4 flex justify-end items-justify ml-[120px]">
                   <p className="text-white w-[250px] ">
                     Meera complex Plot, No-852, 2nd floor
                     Madhapur Hyderabad, Telangana - 500081

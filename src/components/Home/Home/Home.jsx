@@ -16,6 +16,9 @@ import IMG1 from "../../assets/Main12.webp"
 import IMG2 from "../../assets/Main2.avif"
 import IMG3 from "../../assets/Main3.webp"
 
+
+
+
 const Home = () => {
 
 
@@ -118,7 +121,7 @@ const Home = () => {
                 <Typography
                   variant="h1"
                   color="white"
-                  className="mb-2 text-xl md:text-4xl font-bold"
+                  className="mb-2 text-xl md:text-4xl font-bold text-black"
                 >
                   Mobility Solutions with Cutting Edge &amp; Technologies
                 </Typography>

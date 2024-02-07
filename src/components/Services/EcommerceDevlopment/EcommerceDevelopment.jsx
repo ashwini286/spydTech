@@ -94,63 +94,65 @@ function EcommerceDevelopment() {
       <h1 className='text-center text-black text-2xl tracking-wider pb-5'>Our Magento eCommerce Development Expertise</h1>
       <table className='w-full ml-[2%]'>
         <tbody>
-          <tr className='flex p-4 space-x-10'>
-          <td className='box w-[30%] h-20 border-2 border-white bg-[#0284c7] shadow-2xl hover:scale-105 transition-all duration-500'>
-          <p className='text-white flex mt-6 justify-center' > Magento eCommerce Solutions</p>
+         
+          <tr className='flex  p-4 space-x-10  '>
+          <td className='box w-[30%] h-20  border-2 border-white bg-[#0284c7] shadow-2xl hover:scale-105 transition-all duration-500'>
+          <p className='text-white flex sm:mt-2 md:mt-4 sm:pl-2 md:pl-2 lg:mt-6 lg:justify-center' > Magento eCommerce Solutions</p>
             </td>
             <td className='box w-[30%] h-20 border-2 border-white bg-[#0284c7] shadow-2xl hover:scale-105 transition-all duration-500'>
-          <p className='text-white flex mt-6 justify-center' > Magento Customization Services</p>
+          <p className='text-white flex sm:mt-2 sm:pl-2 md:mt-4 mt-6 md:pl-2 lg:mt-6 lg:justify-center' > Magento Customization Services</p>
             </td>
             <td className='box w-[30%] h-20 border-2 border-white bg-[#0284c7] shadow-2xl hover:scale-105 transition-all duration-500'>
-          <p className='text-white flex mt-6 justify-center' > Magento Module Development</p>
+          <p className='text-white flex sm:mt-2 sm:pl-2 md:mt-4 mt-6 md:pl-2 lg:mt-6 lg:justify-center' > Magento Module Development</p>
             </td>
             
           </tr>
+           
           <tr className='flex p-4 space-x-10'>
           <td className='box w-[30%] h-20 border-2 border-white bg-[#0284c7] shadow-2xl hover:scale-105 transition-all duration-500'>
-          <p className='text-white flex mt-6 justify-center' > Online Shopping Development</p>
+          <p className='text-white flex sm:mt-2 sm:pl-2 md:mt-4 mt-6 md:pl-2 lg:mt-6 lg:justify-center' > Online Shopping Development</p>
             </td>
             <td className='box w-[30%] h-20 border-2 border-white bg-[#0284c7] shadow-2xl hover:scale-105 transition-all duration-500'>
-          <p className='text-white flex mt-6 justify-center mr-' > Magento ERP Integration</p>
+          <p className='text-white flex sm:mt-2 sm:pl-2 md:mt-4 mt-6 md:pl-2 lg:mt-6 lg:justify-center' > Magento ERP Integration</p>
             </td>
             <td className='box w-[30%] h-20 border-2 border-white bg-[#0284c7] shadow-2xl hover:scale-105 transition-all duration-500'>
-          <p className='text-white flex mt-6 justify-center' >osCommerce to Magento Migration</p>
+          <p className='text-white flex sm:mt-2 sm:pl-2 md:mt-4 mt-6 md:pl-2 lg:mt-6 lg:justify-center' >osCommerce to Magento Migration</p>
             </td>
            
           </tr>
           <tr className='flex p-4 space-x-10'>
           <td className='box w-[30%] h-20 border-2 border-white bg-[#0284c7] shadow-2xl hover:scale-105 transition-all duration-500'>
-          <p className='text-white flex mt-6 justify-center' > Magento Enterprise Development</p>
+          <p className='text-white flex sm:mt-2 sm:pl-2 md:mt-4 mt-6 md:pl-2 lg:mt-6 lg:justify-center' > Magento Enterprise Development</p>
             </td>
             <td className='box w-[30%] h-20 border-2 border-white bg-[#0284c7] shadow-2xl hover:scale-105 transition-all duration-500'>
-          <p className='text-white flex mt-6 justify-center' > VirtueMart to Magento Migration</p>
+          <p className='text-white flex sm:mt-2 sm:pl-2 md:mt-4 mt-6 md:pl-2 lg:mt-6 lg:justify-center' > VirtueMart to Magento Migration</p>
             </td>
             <td className='box w-[30%] h-20 border-2 border-white bg-[#0284c7] shadow-2xl hover:scale-105 transition-all duration-500'>
-          <p className='text-white flex mt-6 justify-center' > Magento Development Services</p>
+          <p className='text-white flex sm:mt-2 sm:pl-2 md:mt-4 mt-6 md:pl-2 lg:mt-6 lg:justify-center' > Magento Development Services</p>
             </td>
            
           </tr>
           <tr className='flex p-4 space-x-10'>
           <td className='box w-[30%] h-20 border-2 border-white bg-[#0284c7] shadow-2xl hover:scale-105 transition-all duration-500'>
-          <p className='text-white flex mt-6 justify-center' > Magento Website Design</p>
+          <p className='text-white flex sm:mt-2 sm:pl-2 md:mt-4 mt-6 md:pl-2 lg:mt-6 lg:justify-center' > Magento Website Design</p>
             </td>
             <td className='box w-[30%] h-20 border-2 border-white bg-[#0284c7] shadow-2xl hover:scale-105 transition-all duration-500'>
-          <p className='text-white flex mt-6 justify-center' > Magento Extension Development</p>
+          <p className='text-white flex sm:mt-2 sm:pl-2 md:mt-4 mt-6 md:pl-2 lg:mt-6 lg:justify-center' > Magento Extension Development</p>
             </td>
             <td className='box w-[30%] h-20 border-2 border-white bg-[#0284c7] shadow-2xl hover:scale-105 transition-all duration-500'>
-          <p className='text-white flex mt-6 justify-center' >Magento Theme Customization</p>
+          <p className='text-white flex sm:mt-2 sm:pl-2 md:mt-4 mt-6 md:pl-2 lg:mt-6 lg:justify-center' >Magento Theme Customization</p>
             </td>
            
           </tr>
           <tr className='flex p-4 space-x-10'>
           <td className='box w-[30%] h-20 border-2 border-white bg-[#0284c7] shadow-2xl hover:scale-105 transition-all duration-500'>
-          <p className='text-white flex mt-6 justify-center' > Magento SAP Integration</p>
+          <p className='text-white flex sm:mt-2 sm:pl-2 md:mt-4 mt-6 md:pl-2 lg:mt-6 lg:justify-center' > Magento SAP Integration</p>
             </td>
             <td className='box w-[30%] h-20 border-2 border-white bg-[#0284c7] shadow-2xl hover:scale-105 transition-all duration-500'>
-          <p className='text-white flex mt-6 justify-center' > Magento Extension Integration</p>
+          <p className='text-white flex sm:mt-2 sm:pl-2 md:mt-4 mt-6 md:pl-2 lg:mt-6 lg:justify-center' > Magento Extension Integration</p>
             </td>
             <td className='box w-[30%] h-20 border-2 border-white bg-[#0284c7] shadow-2xl hover:scale-105 transition-all duration-500'>
-          <p className='text-white flex mt-6 justify-center' > Magento Ingram Micro Integration</p>
+          <p className='text-white flex sm:mt-2 sm:pl-2 md:mt-4 mt-6 md:pl-2 lg:mt-6 lg:justify-center' > Magento Ingram Micro Integration</p>
             </td>
            
           </tr>
