@@ -15,6 +15,7 @@ import images from '../../assets/HeroImg1.jpeg'
 import IMG1 from "../../assets/Main12.webp"
 import IMG2 from "../../assets/Main2.avif"
 import IMG3 from "../../assets/Main3.webp"
+import SpdApproch from "./SpdApproch";
 
 
 
@@ -202,7 +203,9 @@ const Home = () => {
           </div>
         </Carousel>
       </div>
+      <SpdApproch />
       <Services1 />
+      
       <OurApproch />
       <OurWorks />
       <WhatClientSay />

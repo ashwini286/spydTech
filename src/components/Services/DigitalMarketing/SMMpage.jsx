@@ -3,7 +3,7 @@ import IMG from "../../assets/SMM.jpg"
 import Main from './SMMmain/Main'
 import Navbarupp from '../../Home/Navbar/Navbarupp'
 import Approch from '../../Home/APProchUs/Approch'
-import SpdApproch from '../../Home/Home/SpdApproch'
+
 
 function SMMpage() {
   return (
@@ -16,7 +16,7 @@ function SMMpage() {
         />
     </div>
     <Main />
-    <SpdApproch />
+    
     <Approch />
     </>
   )
