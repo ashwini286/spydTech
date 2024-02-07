@@ -23,6 +23,7 @@ import SeoServices from "./components/Services/DigitalMarketing/SeoServices";
 import PPCManagement from "./components/Services/DigitalMarketing/PPCManagement";
 import Digitalmarketing from "./components/Services/DigitalMarketing/Digitalmarketing";
 import SMMpage from "./components/Services/DigitalMarketing/SMMpage";
+import MicrosoftCRM from "./components/Services/Microsoft/MicrosoftCRM";
 
 
 
@@ -62,7 +63,8 @@ const App = () => {
       <Route path="/Seo Services" element={<SeoServices />} />
       <Route path="/PPC Management Services" element={<PPCManagement />} />
       <Route path="/SMM & Content Writing" element={<SMMpage />} />
-
+      {/* // Microsoft// */}
+      <Route path="/Dynamics CRM" element={<MicrosoftCRM />} />
 
 
       </Routes>
