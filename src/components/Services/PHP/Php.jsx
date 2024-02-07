@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbarupp from "../../Home/Navbar/Navbarupp";
 import PhpSolution from './PhpWebDevloSolution/PhpSolution';
+import TechnicalSkills from './TechnicalSkills/TechnicalSkills';
 import Approch from '../../Home/APProchUs/Approch';
 import Footer from '../../Home/Footer/Footer';
 const Php = () => {
@@ -17,6 +18,7 @@ const Php = () => {
         alt="Background Image"
       />
       <PhpSolution />
+      <TechnicalSkills />
     <Approch />
       <Footer />
     </>
