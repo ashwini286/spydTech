@@ -4,6 +4,8 @@ import Backend1 from '../../assets/backend/backend.png'
 import Java from './Java/Java';
 import Pyhton from './Python/Python';
 import Php from './Php/Php';
+import Approch from '../../Home/APProchUs/Approch';
+import Footer from '../../Home/Footer/Footer';
 const Backend = () => {
   return (
     <>
@@ -18,6 +20,9 @@ const Backend = () => {
       <Java />
       <Php />
       <Pyhton />
+      <Approch />
+
+<Footer />
     </>
   )
 }

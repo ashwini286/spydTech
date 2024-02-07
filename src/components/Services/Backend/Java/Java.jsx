@@ -1,13 +1,14 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import JavaPic from '../../../assets/javapic.png';
 const Java = () => {
   return (
-    <div className='flex flex-col md:flex-row  items-center justify-center'>
+    <div className='flex flex-col md:flex-row  items-center justify-center bg-gray-200 w-full mt-16'>
     <div className='md:w-[620px] md:h-[560px] flex justify-center items-justify flex-col md:pl-24 pl-4 '>
         <div className='md:text-3xl md:font-extrabold text-xl mt-10 font-bold'>
             <h1> Java Development </h1>
         </div>
-        <div className='py-4 text-gray-400 md:leading-8'>
+        <div className='py-4 text-gray-400 md:leading-8 ' >
             <p>
             Java has emerged as a valuable asset for developers globally. Java, being an open-source programming language, provides pre-built code, relieving developers from the need to write everything from scratch. This eliminates the laborious process of manual coding, saving time, and facilitating swift development.    
             </p>
@@ -21,7 +22,7 @@ const Java = () => {
     </div>
     <div className='md:w-[620px] md:h-[560px] text-white flex justify-center items-justify flex-col '>
         <div>
-            <img src="https://w7.pngwing.com/pngs/718/323/png-transparent-java-computer-icons-java-miscellaneous-text-symbol-thumbnail.png" alt="" />
+            <img src={JavaPic} alt="" className='md:ml-[100px]' />
         </div>
     </div>
 </div>
