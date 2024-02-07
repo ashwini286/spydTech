@@ -8,7 +8,7 @@ import { MdGroups } from "react-icons/md";
 function SpdApproch() {
   return (
     <>
-    <div className='flex ml-10 space-x-2 p-10'>
+    <div className='flex ml-14 space-x-2 p-10'>
     <div className="w-64 h-44 relative">
       <div className="group w-full h-full perspective">
         <div className="flip-card">
@@ -77,13 +77,13 @@ function SpdApproch() {
       <div className="group w-full h-full perspective">
         <div className="flip-card">
           <div className="flip-card-inner">
-            <div className="flip-card-front bg-[#1e40af]">
+            <div className="flip-card-front bg-[#0ea5e9]">
               <a href="#" className="card-link">
                 <IoIosLeaf className='text-6xl ml-14 text-white'/>
                 <p className="text-white text-center font-bold">Commitment to a virtuous digital transition</p>
               </a>
             </div>
-            <div className="flip-card-back bg-[#1e40af]">
+            <div className="flip-card-back bg-[#0ea5e9]">
               <a href="#" className="card-link">
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">Back Content</h5>
                 <p className="font-normal text-white">This is the back side of the card.</p>
