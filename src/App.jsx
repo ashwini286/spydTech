@@ -24,6 +24,7 @@ import PPCManagement from "./components/Services/DigitalMarketing/PPCManagement"
 import Digitalmarketing from "./components/Services/DigitalMarketing/Digitalmarketing";
 import SMMpage from "./components/Services/DigitalMarketing/SMMpage";
 import MicrosoftCRM from "./components/Services/Microsoft/MicrosoftCRM";
+import IPhone from "./components/Services/IphoneApplication/IPhone";
 
 
 
@@ -66,6 +67,9 @@ const App = () => {
       {/* // Microsoft// */}
       <Route path="/Dynamics CRM" element={<MicrosoftCRM />} />
 
+
+{/* Mobile */}
+<Route path="/IPhone Application" element={<IPhone />} />
 
       </Routes>
       </BrowserRouter>

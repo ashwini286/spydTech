@@ -9,7 +9,7 @@ import IMG from "../../assets/SpYD approuch.jpeg"
 function SpdApproch() {
   return (
     <>
-    <div className='flex ml-14 space-x-2 p-10'>
+    <div className='flex ml-14 space-x-2 p-10 justify-center items-center'>
     <div className="w-64 h-44 relative">
       <div className="group w-full h-full perspective">
         <div className="flip-card">
