@@ -13,7 +13,7 @@ const IPhone = () => {
         alt="Background Image"
       />
 
-      <div className='py-8 px-20'>
+      <div className='md:px-16 px-4 py-4'>
         <p className='text-[#656565]'>
         iPhone is a product of Apple and runs on IOS operating system. All mobile applications built for iPhone and iPad are native to IOS. iPhone apps are extremely popular and extensively used across the world.
         </p>

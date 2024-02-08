@@ -11,23 +11,23 @@ import img7 from '../../../assets/IPhoneApplication/img7.png';
 const OurCapabilities = () => {
     return (
         <>
-            <div className='py-8 px-20'>
+            <div className='md:px-16 px-4 py-4'>
                 <div>
-                    <p className='text-[#656565] text-center text-2xl'>We use the following technologies to build IOS based mobile</p> <br />
+                    <p className='text-[#656565] text-center md:text-2xl font-bold'>We use the following technologies to build IOS based mobile</p> <br />
                     <p className='text-[#656565] text-center'>Objective-C, C, Swift, Invision, Balsamiq, Mocks, XC Test, OCmock, KIF, Xcode, Apple IDE (Integrated Development Environment for Mac & IOS apps)</p>
                 </div>
                 <div>
                     <div>
-                       <p className='text-center'> Our Capabilities</p>
+                       <p className='text-center mt-8 text-2xl font-bold'> Our Capabilities</p>
                         </div>
-                  <div className='grid grid-cols-3 gap-10'>
-                  <div className='flex justify-center items-center flex-col'>
+                  <div className='grid md:grid-cols-3 gap-10 pt-[25px]'>
+                  <div className='flex justify-center items-center flex-col '>
                         <div>
                             <img src={img1} />
                         </div>
                         <div>
-                            <p className='text-center' >iPhone SDK</p>
-                            <p className='text-center'>Using latest iPhone SDK to enhance app functionality and develop engaging games </p>
+                            <p className='text-center pt-[15px]' >iPhone SDK</p>
+                            <p className='text-center pt-[15px]'>Using latest iPhone SDK to enhance app functionality and develop engaging games </p>
                         </div>
                     </div>
 
@@ -37,8 +37,8 @@ const OurCapabilities = () => {
                             <img src={img2} />
                         </div>
                         <div>
-                            <p className='text-center'>iPhone SDK</p>
-                            <p className='text-center'>Using latest iPhone SDK to enhance app functionality and develop engaging games </p>
+                            <p className='text-center pt-[15px]'>iPhone SDK</p>
+                            <p className='text-center pt-[15px]'>Using latest iPhone SDK to enhance app functionality and develop engaging games </p>
                         </div>
                     </div>
 
@@ -49,8 +49,8 @@ const OurCapabilities = () => {
                             <img src={img3} />
                         </div>
                         <div>
-                            <p className='text-center'>iPhone SDK</p>
-                            <p className='text-center'>Using latest iPhone SDK to enhance app functionality and develop engaging games </p>
+                            <p className='text-center pt-[15px]'>iPhone SDK</p>
+                            <p className='text-center pt-[15px]'>Using latest iPhone SDK to enhance app functionality and develop engaging games </p>
                         </div>
                     </div>
                   </div>

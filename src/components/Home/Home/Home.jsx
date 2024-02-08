@@ -49,7 +49,7 @@ const Home = () => {
           <Typography
             variant="h1"
             color="white"
-            className="mb-2 text-7xl md:text-4xl font-5xl font-bold text-white animate-fade-left"
+            className="mb-2 text-xl md:text-4xl font-5xl font-bold text-white animate-fade-left"
           >
             Mobility Solutions with Cutting Edge &amp; Technologies
           </Typography>

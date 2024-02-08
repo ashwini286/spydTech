@@ -19,12 +19,12 @@ function AngularJS() {
         alt="Background Image"
       />
       <Development />
-      <Benefits />
+      <Benefits /> 
       <SPYD />
 
       <Approch />
 
-      <Footer />
+       <Footer />
     </>
   );
 }
