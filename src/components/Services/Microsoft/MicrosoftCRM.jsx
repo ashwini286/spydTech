@@ -1,5 +1,5 @@
 import React from 'react'
-import IMG from "../../assets/Microsoft/crm_banner.jpg"
+import IMG from "../../assets/Microsoft/CRM1.png"
 import Navbarupp from '../../Home/Navbar/Navbarupp'
 import Approch from '../../Home/APProchUs/Approch'
 import IMG1 from "../../assets/Microsoft/CRM (21).jpg"

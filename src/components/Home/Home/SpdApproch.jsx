@@ -4,6 +4,7 @@ import { FaHandshake } from "react-icons/fa6";
 import { FaGlobe } from "react-icons/fa";
 import { IoIosLeaf } from "react-icons/io";
 import { MdGroups } from "react-icons/md";
+import IMG from "../../assets/SpYD approuch.jpeg"
 
 function SpdApproch() {
   return (
@@ -19,12 +20,20 @@ function SpdApproch() {
                 <p className="font-bold text-white text-center">High added Value Services</p>
               </a>
             </div>
-            <div className="flip-card-back bg-[#0891b2]">
-              <a href="#" className="card-link">
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">Back Content</h5>
-                <p className="font-normal text-white">This is the back side of the card.</p>
-              </a>
-            </div>
+            <div className="flip-card-back bg-[#0891b2] relative">
+  <a href="#" className="card-link text-white block w-full h-full">
+    <div className="absolute inset-0 flex items-center justify-center">
+      <div className="bg-white bg-opacity-0 absolute inset-0"></div> {/* Background fade */}
+      <img 
+        src={IMG}
+        className="w-full h-full object-cover filter brightness-100" 
+        alt="Image"
+      />
+    </div>
+  </a>
+</div>
+
+
           </div>
         </div>
       </div>
