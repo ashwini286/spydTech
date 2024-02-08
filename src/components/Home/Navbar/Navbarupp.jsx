@@ -77,7 +77,7 @@ const navListMenuItems = [
     // description: "Find the perfect solution for your needs.",
     icon: PhoneIphoneIcon,
     color: 'green', // Add a color property for the icon
-    Type1: "IOS Application",
+    Type1: "IPhone Application",
     Type2: "Android Application",
     Type3: "Hybrid App"
   },
