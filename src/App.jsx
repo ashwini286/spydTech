@@ -25,6 +25,8 @@ import Digitalmarketing from "./components/Services/DigitalMarketing/Digitalmark
 import SMMpage from "./components/Services/DigitalMarketing/SMMpage";
 import MicrosoftCRM from "./components/Services/Microsoft/MicrosoftCRM";
 import IPhone from "./components/Services/IphoneApplication/IPhone";
+import AndroidApplication from "./components/Services/AndroidApplication/AndroidApplication";
+import HybridApp from "./components/Services/HybridApp/HybridApp";
 import ASP from "./components/Services/Microsoft/ASP";
 
 
@@ -74,7 +76,8 @@ const App = () => {
 
 {/* Mobile */}
 <Route path="/IPhone Application" element={<IPhone />} />
-
+<Route path="/Android Application" element={<AndroidApplication />} />
+<Route path="/Hybrid App" element={<HybridApp />} />
       </Routes>
       </BrowserRouter>
 

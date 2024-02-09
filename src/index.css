@@ -18,5 +18,8 @@
   
 }
 
-
+.transparent-blur-background {
+  /* background: rgba(80, 78, 78, 0.5); Adjust the alpha value for transparency */
+  backdrop-filter: blur(2px); /* Adjust the blur value as needed */
+}
 /* text-[#656565] */
