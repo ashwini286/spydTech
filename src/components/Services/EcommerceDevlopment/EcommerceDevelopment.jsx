@@ -92,73 +92,83 @@ function EcommerceDevelopment() {
             </div>
            <div>
       <h1 className='text-center text-black text-2xl tracking-wider pb-5'>Our Magento eCommerce Development Expertise</h1>
-      <table className='w-full ml-[2%]'>
-        <tbody>
-         
-          <tr className='flex sm:flex-col p-4 space-x-10  '>
-          <td className='box w-[30%] h-20  border-2 border-white bg-[#0284c7] shadow-2xl hover:scale-105 transition-all duration-500'>
-          <p className='text-white flex sm:mt-2 md:mt-4 sm:pl-2 md:pl-2 lg:mt-6 lg:justify-center' > Magento eCommerce Solutions</p>
-            </td>
-            <td className='box w-[30%] h-20 border-2 border-white bg-[#0284c7] shadow-2xl hover:scale-105 transition-all duration-500'>
-          <p className='text-white flex sm:mt-2 sm:pl-2 md:mt-4 mt-6 md:pl-2 lg:mt-6 lg:justify-center' > Magento Customization Services</p>
-            </td>
-            <td className='box w-[30%] h-20 border-2 border-white bg-[#0284c7] shadow-2xl hover:scale-105 transition-all duration-500'>
-          <p className='text-white flex sm:mt-2 sm:pl-2 md:mt-4 mt-6 md:pl-2 lg:mt-6 lg:justify-center' > Magento Module Development</p>
-            </td>
-            
-          </tr>
-           
-          <tr className='flex p-4 space-x-10'>
-          <td className='box w-[30%] h-20 border-2 border-white bg-[#0284c7] shadow-2xl hover:scale-105 transition-all duration-500'>
-          <p className='text-white flex sm:mt-2 sm:pl-2 md:mt-4 mt-6 md:pl-2 lg:mt-6 lg:justify-center' > Online Shopping Development</p>
-            </td>
-            <td className='box w-[30%] h-20 border-2 border-white bg-[#0284c7] shadow-2xl hover:scale-105 transition-all duration-500'>
-          <p className='text-white flex sm:mt-2 sm:pl-2 md:mt-4 mt-6 md:pl-2 lg:mt-6 lg:justify-center' > Magento ERP Integration</p>
-            </td>
-            <td className='box w-[30%] h-20 border-2 border-white bg-[#0284c7] shadow-2xl hover:scale-105 transition-all duration-500'>
-          <p className='text-white flex sm:mt-2 sm:pl-2 md:mt-4 mt-6 md:pl-2 lg:mt-6 lg:justify-center' >osCommerce to Magento Migration</p>
-            </td>
-           
-          </tr>
-          <tr className='flex p-4 space-x-10'>
-          <td className='box w-[30%] h-20 border-2 border-white bg-[#0284c7] shadow-2xl hover:scale-105 transition-all duration-500'>
-          <p className='text-white flex sm:mt-2 sm:pl-2 md:mt-4 mt-6 md:pl-2 lg:mt-6 lg:justify-center' > Magento Enterprise Development</p>
-            </td>
-            <td className='box w-[30%] h-20 border-2 border-white bg-[#0284c7] shadow-2xl hover:scale-105 transition-all duration-500'>
-          <p className='text-white flex sm:mt-2 sm:pl-2 md:mt-4 mt-6 md:pl-2 lg:mt-6 lg:justify-center' > VirtueMart to Magento Migration</p>
-            </td>
-            <td className='box w-[30%] h-20 border-2 border-white bg-[#0284c7] shadow-2xl hover:scale-105 transition-all duration-500'>
-          <p className='text-white flex sm:mt-2 sm:pl-2 md:mt-4 mt-6 md:pl-2 lg:mt-6 lg:justify-center' > Magento Development Services</p>
-            </td>
-           
-          </tr>
-          <tr className='flex p-4 space-x-10'>
-          <td className='box w-[30%] h-20 border-2 border-white bg-[#0284c7] shadow-2xl hover:scale-105 transition-all duration-500'>
-          <p className='text-white flex sm:mt-2 sm:pl-2 md:mt-4 mt-6 md:pl-2 lg:mt-6 lg:justify-center' > Magento Website Design</p>
-            </td>
-            <td className='box w-[30%] h-20 border-2 border-white bg-[#0284c7] shadow-2xl hover:scale-105 transition-all duration-500'>
-          <p className='text-white flex sm:mt-2 sm:pl-2 md:mt-4 mt-6 md:pl-2 lg:mt-6 lg:justify-center' > Magento Extension Development</p>
-            </td>
-            <td className='box w-[30%] h-20 border-2 border-white bg-[#0284c7] shadow-2xl hover:scale-105 transition-all duration-500'>
-          <p className='text-white flex sm:mt-2 sm:pl-2 md:mt-4 mt-6 md:pl-2 lg:mt-6 lg:justify-center' >Magento Theme Customization</p>
-            </td>
-           
-          </tr>
-          <tr className='flex p-4 space-x-10'>
-          <td className='box w-[30%] h-20 border-2 border-white bg-[#0284c7] shadow-2xl hover:scale-105 transition-all duration-500'>
-          <p className='text-white flex sm:mt-2 sm:pl-2 md:mt-4 mt-6 md:pl-2 lg:mt-6 lg:justify-center' > Magento SAP Integration</p>
-            </td>
-            <td className='box w-[30%] h-20 border-2 border-white bg-[#0284c7] shadow-2xl hover:scale-105 transition-all duration-500'>
-          <p className='text-white flex sm:mt-2 sm:pl-2 md:mt-4 mt-6 md:pl-2 lg:mt-6 lg:justify-center' > Magento Extension Integration</p>
-            </td>
-            <td className='box w-[30%] h-20 border-2 border-white bg-[#0284c7] shadow-2xl hover:scale-105 transition-all duration-500'>
-          <p className='text-white flex sm:mt-2 sm:pl-2 md:mt-4 mt-6 md:pl-2 lg:mt-6 lg:justify-center' > Magento Ingram Micro Integration</p>
-            </td>
-           
-          </tr>
-          
-        </tbody>
-      </table>
+     <div className=' grid md:grid md:grid-cols-3 md:px-4'>
+           <div className='flex  justify-center items-center '>
+              <div className='py-8 mt-8 h-[70%] w-[80%] text-white border-4 border-white bg-[#0284c7] shadow-2xl hover:scale-105 transition-all duration-500'>
+                 <p className='text-center' >Magento eCommerce Solutions</p>
+               </div>
+           </div> 
+           <div className='flex justify-center items-center '>
+              <div className='py-8 mt-8 h-[70%] w-[80%] text-white border-4 border-white bg-[#0284c7] shadow-2xl hover:scale-105 transition-all duration-500'>
+                 <p className='text-center' >Magento Customization Services</p>
+               </div>
+           </div> 
+           <div className='flex justify-center items-center'>
+              <div className='py-8 mt-8 h-[70%] w-[80%] text-white border-4 border-white bg-[#0284c7] shadow-2xl hover:scale-105 transition-all duration-500'>
+                 <p className='text-center' >Magento Module Development</p>
+               </div>
+           </div> 
+           <div className='flex justify-center items-center'>
+              <div className='py-8 mt-8 h-[70%] w-[80%] text-white border-4 border-white bg-[#0284c7] shadow-2xl hover:scale-105 transition-all duration-500'>
+                 <p className='text-center' > Online Shopping Development</p>
+               </div>
+           </div> 
+           <div className='flex justify-center items-center'>
+              <div className='py-8 mt-8 h-[70%] w-[80%] text-white border-4 border-white bg-[#0284c7] shadow-2xl hover:scale-105 transition-all duration-500'>
+                 <p className='text-center' >Magento ERP Integration</p>
+               </div>
+           </div> 
+           <div className='flex justify-center items-center'>
+              <div className='py-8 mt-8 h-[70%] w-[80%] text-white border-4 border-white bg-[#0284c7] shadow-2xl hover:scale-105 transition-all duration-500'>
+                 <p className='text-center' >osCommerce to Magento Migration</p>
+               </div>
+           </div> 
+           <div className='flex justify-center items-center'>
+              <div className='py-8 mt-8 h-[70%] w-[80%] text-white border-4 border-white bg-[#0284c7] shadow-2xl hover:scale-105 transition-all duration-500'>
+                 <p className='text-center' > Magento Enterprise Development</p>
+               </div>
+           </div> 
+           <div className='flex justify-center items-center'>
+              <div className='py-8 mt-8 h-[70%] w-[80%] text-white border-4 border-white bg-[#0284c7] shadow-2xl hover:scale-105 transition-all duration-500'>
+                 <p className='text-center' >VirtueMart to Magento Migration</p>
+               </div>
+           </div> 
+           <div className='flex justify-center items-center'> 
+              <div className='py-8 mt-8 h-[70%] w-[80%] text-white border-4 border-white bg-[#0284c7] shadow-2xl hover:scale-105 transition-all duration-500'>
+                 <p className='text-center' >Magento Development Services</p>
+               </div>
+           </div> 
+           <div className='flex justify-center items-center'>
+              <div className='py-8 mt-8 h-[70%] w-[80%] text-white border-4 border-white bg-[#0284c7] shadow-2xl hover:scale-105 transition-all duration-500'>
+                 <p className='text-center' > Magento Website Design</p>
+               </div>
+           </div> 
+           <div className='flex justify-center items-center'>
+              <div className='py-8 mt-8 h-[70%] w-[80%] text-white border-4 border-white bg-[#0284c7] shadow-2xl hover:scale-105 transition-all duration-500'>
+                 <p className='text-center' > Magento Extension Development</p>
+               </div>
+           </div> 
+           <div className='flex justify-center items-center'>
+              <div className='py-8 mt-8 h-[70%] w-[80%] text-white border-4 border-white bg-[#0284c7] shadow-2xl hover:scale-105 transition-all duration-500'>
+                 <p className='text-center' > Magento Theme Customization</p>
+               </div>
+           </div> 
+           <div className='flex justify-center items-center'>
+              <div className='py-8 mt-8 h-[70%] w-[80%] text-white border-4 border-white bg-[#0284c7] shadow-2xl hover:scale-105 transition-all duration-500'>
+                 <p className='text-center' > Magento SAP Integration</p>
+               </div>
+           </div> 
+           <div className='flex justify-center items-center'>
+              <div className='py-8 mt-8 h-[70%] w-[80%] text-white border-4 border-white bg-[#0284c7] shadow-2xl hover:scale-105 transition-all duration-500'>
+                 <p className='text-center' >Magento Extension Integration</p>
+               </div>
+           </div> 
+           <div className='flex justify-center items-center'>
+              <div className='py-8 mt-8 h-[70%] w-[80%] text-white border-4 border-white bg-[#0284c7] shadow-2xl hover:scale-105 transition-all duration-500'>
+                 <p className='text-center' >Magento Ingram Micro Integration</p>
+               </div>
+           </div> 
+     </div>
     </div>
         </div>
         
