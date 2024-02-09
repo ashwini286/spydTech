@@ -2,6 +2,8 @@ import React from 'react'
 import Navbarupp from '../../Home/Navbar/Navbarupp'
 import Approch from '../../Home/APProchUs/Approch'
 import "./Digital.css"
+import IMG from "../../assets/Digital marketing/digital market.jpg"
+import IMG2 from "../../assets/Digital marketing/Digital marketing main.png"
 
 
 
@@ -9,7 +11,13 @@ function Digitalmarketing() {
   return (
     <>
     <Navbarupp />
-    <div className=' p-20 justify-center ml-[10%] h-[55rem] '>
+    <div className='relative flex h-screen items-center justify-center'>
+        <img 
+        src={IMG}
+        className="absolute inset-0  w-full h-full" alt="Background 1" style={{ filter: "brightness(50%)" }}
+        />
+    </div>
+    {/* <div className=' p-20 justify-center ml-[10%] h-[55rem] '>
         <div className='grid '>
         <div data-aos="fade-right"
     class='animate-fade-right ml-[40%] mt-[-5%] w-[15%] rounded-full h-[8rem] text-center border-1.5 border-gray-400 bg-white shadow-2xl fade-left'> 
@@ -49,7 +57,14 @@ function Digitalmarketing() {
         </div>
         </div>
 
-        </div>   
+
+        </div>    */}
+        <div>
+            <img 
+            src={IMG2}
+            className='p-5 ml-[20%]'
+            />
+        </div>
     <Approch />
     </>
   )
