@@ -18,7 +18,7 @@ const OurCapabilities = () => {
                 </div>
                 <div>
                     <div>
-                       <p className='text-center mt-8 text-2xl font-bold'> Our Capabilities</p>
+                       <p className='text-center mt-8 text-2xl'> Our Capabilities</p>
                         </div>
                   <div className='grid md:grid-cols-3 gap-10 pt-[25px]'>
                   <div className='flex justify-center items-center flex-col '>
