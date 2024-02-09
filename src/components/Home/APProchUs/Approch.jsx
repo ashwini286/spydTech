@@ -84,7 +84,7 @@ const Approch = () => {
                   <div className="text-[25px] ml-[20%]">
                     <MdOutlineMarkEmailRead />
                   </div>
-                  <div className="ml-6">info@spyd.com</div>
+                  <div className="ml-6">info@spydtech.com</div>
                 </div>
                 <div
                   className="flex justify-center items-center flex-row font-poppins xs:text-[10px] text-[15px] w-full py-10 text-light-blue-900 ml-[12%]"

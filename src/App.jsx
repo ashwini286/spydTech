@@ -25,6 +25,7 @@ import Digitalmarketing from "./components/Services/DigitalMarketing/Digitalmark
 import SMMpage from "./components/Services/DigitalMarketing/SMMpage";
 import MicrosoftCRM from "./components/Services/Microsoft/MicrosoftCRM";
 import IPhone from "./components/Services/IphoneApplication/IPhone";
+import ASP from "./components/Services/Microsoft/ASP";
 
 
 
@@ -65,7 +66,10 @@ const App = () => {
       <Route path="/PPC Management Services" element={<PPCManagement />} />
       <Route path="/SMM & Content Writing" element={<SMMpage />} />
       {/* // Microsoft// */}
+      
       <Route path="/Dynamics CRM" element={<MicrosoftCRM />} />
+      <Route path="/ASP.NET Web Application" element={<ASP />} />
+
 
 
 {/* Mobile */}
