@@ -5,10 +5,10 @@ const Benefits = () => {
   return (
     <>
       <div className=' mt-10 md:px-8'>
-        <div className='p-4 pl-16 md:text-4xl text-gray-600 font-bold'>
+        <div className='p-4 pl-16 md:text-4xl  text-[#656565] font-bold'>
         The immense benefits of AngularJS
         </div>
-        <div className='grid grid-cols-1 md:grid-cols-2 md:px-8 text-gray-500'>
+        <div className='grid grid-cols-1 md:grid-cols-2 md:px-8  text-[#656565]'>
           <div className='flex items-center  w-[89%] gap-4 pb-8 pl-6'>
             <p><DoneAllSharpIcon /></p>
             <p>AngularJS is a potentially a potent framework that makes a web application accurate to the point of precision</p>

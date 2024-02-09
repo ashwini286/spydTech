@@ -38,7 +38,7 @@ const Home = () => {
       <div className="absolute inset-0">
         <img
           src={IMG1}
-          className="h-full w-full object-cover text-black"
+          className="h-full w-full object-cover  text-[#656565]"
           alt="Background 1"
           style={{ filter: "brightness(50%)" }} 
         />

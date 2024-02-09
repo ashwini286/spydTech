@@ -2,6 +2,10 @@ import React from 'react'
 import Navbarupp from "../../Home/Navbar/Navbarupp";
 import OurCapabilities from './OurCapabilities/OurCapabilities';
 import IOSDevelopmentExpertise from './iOSDevelopmentExpertise/iOSDevelopmentExpertise';
+import HowWeDevelop from './HowWeDevelopPowerfulIOS/HowWeDevelop';
+import OurProvenMethodology from './OurProvenMethodology/OurProvenMethodology';
+import Approch from '../../Home/APProchUs/Approch';
+import Footer from '../../Home/Footer/Footer';
 const IPhone = () => {
   return (
     <>
@@ -25,6 +29,10 @@ const IPhone = () => {
       </div>
     <OurCapabilities />
     <IOSDevelopmentExpertise />
+    <HowWeDevelop />
+    <OurProvenMethodology />
+    <Approch />
+    <Footer />
     
     </>
   )

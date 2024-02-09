@@ -14,7 +14,7 @@ function PPCManagement() {
       />
     </div>
     <h1 className='text-2xl text-center '>Digital Marketing and PPC Services and Management Strategy</h1>
-    <p className='text-left tracking-wider p-12 text-gray-500'>Pay per Click ( PPC ) is advertising service offered by search engines such as Google, Bing, 
+    <p className='text-left tracking-wider p-12  text-[#656565]'>Pay per Click ( PPC ) is advertising service offered by search engines such as Google, Bing, 
         Yahoo and social media platforms such as Facebook, Twitter, LinkedIn, and Instagram. 
         Google’s Ad Words is the most popular ad campaign targeted using the relevant keywords, 
         and geography. As this technique leverages demography, geography, and users interests, 
@@ -45,7 +45,7 @@ function PPCManagement() {
             <p>All campaign reports regularly shared with clients, we will give accurate reports that will help our clients to evaluate.</p>
           </div>
         </div>
-        <p className='pt-10 text-gray-500'>Pay Per Click or PPC is an online advertising model used to direct traffic to websites, 
+        <p className='pt-10  text-[#656565]'>Pay Per Click or PPC is an online advertising model used to direct traffic to websites, 
           where advertisers pay the website owners when the ad is clicked. 
           Sponsored ads you see at the top of Google’s search results page that is PPC advertising.
            When an online user clicks on the ad, the person lands on your site and you only pay the search engine a little fee.</p>
