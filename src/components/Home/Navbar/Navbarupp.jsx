@@ -438,7 +438,7 @@ const Navbarupp = () => {
   const path = location.pathname;
   return (
     <Navbar
-      className='fixed top-0 w-full z-10 rounded-none py-0 max-w-screen-4xl'
+      className='fixed top-0 w-full z-10 rounded-none py-0 max-w-screen-4xl shadow-none'
       // style={{padding: "0px"}}
       color={path === "/contact" ? "gray" : (isSticky ? "white" : "transparent")}
     >
@@ -455,9 +455,13 @@ const Navbarupp = () => {
           <NavList isSticky={isSticky} />
         </div>
         <div className="hidden gap-2 lg:flex text-white">
-          <Button variant="gradient" size="sm">
+        <Link to = 'tryademo'>
+        <Button variant="gradient" size="sm">
             Try a Demo
           </Button>
+
+        </Link>
+       
         </div>
         <IconButton
           variant="text"
@@ -472,9 +476,10 @@ const Navbarupp = () => {
       <Collapse open={openNav}  className={isSticky ? "" : "bg-gray-400"}>
         <NavList isSticky={isSticky} />
         <div className="flex w-full flex-nowrap items-center gap-2 lg:hidden text-white pb-6 pl-2">
+          <Link to = 'tryademo'>
           <Button variant="gradient" size="sm" >
             Try a Demo
-          </Button>
+          </Button></Link>
         </div>
       </Collapse>
       </div>
