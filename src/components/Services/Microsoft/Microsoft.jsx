@@ -21,7 +21,12 @@ function Microsoft() {
       the moment they need them.</p>
   </div>
 </div>
+<div>
+  <div>
 
+  </div>
+  <img />
+</div>
     <Approch />
     </>
   )
