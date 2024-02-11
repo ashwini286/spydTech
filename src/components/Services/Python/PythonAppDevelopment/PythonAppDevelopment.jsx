@@ -8,12 +8,12 @@ const PythonAppDevelopment = () => {
             <div className='md:m-20 pt-8 pl-4'>
                 <div className='md:px-8' >
                     <div >
-                        <p className='md:text-4xl font-bold text-gray-500'>Python App Development – Outsourcing, Offshore, Offsite Resources</p>
+                        <p className='md:text-4xl font-bold  text-[#656565]'>Python App Development – Outsourcing, Offshore, Offsite Resources</p>
                     </div>
                     <div>
-                        <p className='md:text-xl py-4  text-gray-400  text-sm '>Drawing upon our core expertise, we provide highly trained, certified, and extensively experienced Python developers for Offshore and Offsite Projects Execution.</p>
-                        <p className='md:text-xl py-4  text-gray-400 text-sm' >The landscape of mobile application development is constantly evolving. Today's technologies become obsolete tomorrow, driving the need for continuous adaptation to new and emerging technologies. Our adept team of mobile app developers is deeply experienced and stays in sync with emerging technologies, ensuring they remain at the forefront of the industry's best and latest advancements.</p>
-                        <p className='md:text-xl py-4  text-gray-400 text-sm' >Our Python developers have been strategically deployed across diverse industry sectors and niches. Collaborating with top-tier companies, they deliver cutting-edge mobile apps that not only meet but exceed the growing requirements of our clients and their customers.
+                        <p className='md:text-xl py-4   text-[#656565]  text-sm '>Drawing upon our core expertise, we provide highly trained, certified, and extensively experienced Python developers for Offshore and Offsite Projects Execution.</p>
+                        <p className='md:text-xl py-4   text-[#656565] text-sm' >The landscape of mobile application development is constantly evolving. Today's technologies become obsolete tomorrow, driving the need for continuous adaptation to new and emerging technologies. Our adept team of mobile app developers is deeply experienced and stays in sync with emerging technologies, ensuring they remain at the forefront of the industry's best and latest advancements.</p>
+                        <p className='md:text-xl py-4   text-[#656565] text-sm' >Our Python developers have been strategically deployed across diverse industry sectors and niches. Collaborating with top-tier companies, they deliver cutting-edge mobile apps that not only meet but exceed the growing requirements of our clients and their customers.
                         </p>
                     </div>
                 </div>
@@ -37,7 +37,7 @@ const PythonAppDevelopment = () => {
          <div>
                 <img src={img1}  className=' bg-[#fff]'/>
             </div>
-            <div className=" h-full pt-6 pl-4 text-gray-500 ">
+            <div className=" h-full pt-6 pl-4  text-[#656565] ">
                 <p className='text-center'>DEVELOPMENT SKILLS</p>
             </div>
          </div>
@@ -49,7 +49,7 @@ const PythonAppDevelopment = () => {
          <div>
                 <img src={img2}  className=' bg-[#fff]'/>
             </div>
-            <div className=" h-full pt-6 pl-4 text-gray-500 ">
+            <div className=" h-full pt-6 pl-4  text-[#656565] ">
                 <p className='text-center'>DEVELOPMENT SKILLS</p>
             </div>
          </div>
@@ -61,7 +61,7 @@ const PythonAppDevelopment = () => {
          <div>
                 <img src={img5}  className=' bg-[#fff]'/>
             </div>
-            <div className=" h-full pt-6 pl-4 text-gray-500 ">
+            <div className=" h-full pt-6 pl-4  text-[#656565] ">
                 <p className='text-center'>DEVELOPMENT SKILLS</p>
             </div>
          </div>

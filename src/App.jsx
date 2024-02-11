@@ -25,9 +25,9 @@ import Digitalmarketing from "./components/Services/DigitalMarketing/Digitalmark
 import SMMpage from "./components/Services/DigitalMarketing/SMMpage";
 import MicrosoftCRM from "./components/Services/Microsoft/MicrosoftCRM";
 import IPhone from "./components/Services/IphoneApplication/IPhone";
+import AndroidApplication from "./components/Services/AndroidApplication/AndroidApplication";
+import HybridApp from "./components/Services/HybridApp/HybridApp";
 import ASP from "./components/Services/Microsoft/ASP";
-import PowerBI from "./components/Services/Microsoft/PowerBI";
-import Microsoft from "./components/Services/Microsoft/Microsoft";
 
 
 
@@ -39,6 +39,7 @@ const App = () => {
       <Routes>
       <Route path='/' element={ <Home />} />
       <Route path='/portfolio' element={ <Portfolio />} />
+      <Route path='/tryademo' element={ <TryADemo />} />
       {/* //services */}
         {/* //ERPNext */}
       <Route path="/ERPNext TECHNOLOGY" element={<ERPNext />} />
@@ -77,7 +78,8 @@ const App = () => {
 
 {/* Mobile */}
 <Route path="/IPhone Application" element={<IPhone />} />
-
+<Route path="/Android Application" element={<AndroidApplication />} />
+<Route path="/Hybrid App" element={<HybridApp />} />
       </Routes>
       </BrowserRouter>
 

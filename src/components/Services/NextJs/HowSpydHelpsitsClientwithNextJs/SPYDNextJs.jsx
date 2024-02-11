@@ -4,13 +4,13 @@ const SPYDReact = () => {
   return (
     <>
        <div className='mt-16 md:px-20 mb-10'>
-      <div className=' md:px-16 md:text-4xl text-gray-600 font-bold md:text-center pl-6 mb-4'>
+      <div className=' md:px-16 md:text-4xl  text-[#656565] font-bold md:text-center pl-6 mb-4'>
       Why Choose <span className='text-red-600'>SPYD </span>  for Next Js Development
       </div>
-      <div className=' md:px-16 text-gray-400 pl-6 mb-4'>
+      <div className=' md:px-16  text-[#656565] pl-6 mb-4'>
     <p>Our professionals with great industry knowledge & years of expertise ensure that your business reaches unrivaled position & sets a new level of success.</p>
       </div>
-      <div className='grid grid-cols-1 md:grid-cols-2 md:px-8 text-gray-500 gap-10'>
+      <div className='grid grid-cols-1 md:grid-cols-2 md:px-8  text-[#656565] gap-10'>
        <div className='bg-gray-100'>
        <div className='flex items-center  gap-4 pb-4 pl-6'>
           <p><ArrowRightIcon color="primary" /></p>

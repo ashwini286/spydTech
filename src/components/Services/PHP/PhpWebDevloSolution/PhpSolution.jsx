@@ -13,11 +13,11 @@ const PhpSolution = () => {
     <>
     <div className='md:p-20 pt-8 pl-4'>
       <div className='md:pl-16'>
-      <div className='md:text-4xl text-gray-500 text-2xl'>
+      <div className='md:text-4xl  text-[#656565] text-2xl'>
         PHP Web Development Solutions
         </div>
         <br/>
-        <div className='text-gray-400'>
+        <div className=' text-[#656565]'>
             <p className='pb-2'>
             The outsourcing of technical resources has gained enormous proportions for multiple reasons such as reduce overhead costs, eliminate hiring process, and build teams on need to need basis
             </p>
@@ -42,7 +42,7 @@ const PhpSolution = () => {
 
       <div>
         <div>
-            <p className='md:text-4xl text-gray-500 text-2xl md:pl-16'>The following are some of the PHP based projects development support we offer</p>
+            <p className='md:text-4xl  text-[#656565] text-2xl md:pl-16'>The following are some of the PHP based projects development support we offer</p>
         </div>
         <div >
             <div className='grid md:grid-cols-3 md:p-8 p-4'>
@@ -51,7 +51,7 @@ const PhpSolution = () => {
                 <div>
                     <img src={img1} />
                 </div>
-                <div className='pt-6 text-center text-gray-400'>
+                <div className='pt-6 text-center  text-[#656565]'>
                     <p>PHP Support & Maintenance Services</p>
                 </div>
                 </div>
@@ -60,7 +60,7 @@ const PhpSolution = () => {
                <div>
                    <img src={img2 } />
                </div>
-               <div className='pt-6 text-center text-gray-400'>
+               <div className='pt-6 text-center  text-[#656565]'>
                    <p>PHP Support & Maintenance Services</p>
                </div>
                </div>
@@ -68,7 +68,7 @@ const PhpSolution = () => {
                <div >
                    <img src={img3} />
                </div>
-               <div className='pt-6 text-center text-gray-400'>
+               <div className='pt-6 text-center  text-[#656565]'>
                    <p>PHP Support & Maintenance Services</p>
                </div>
              
@@ -78,7 +78,7 @@ const PhpSolution = () => {
                <div>
                    <img src={img4} />
                </div>
-               <div className='pt-6 text-center text-gray-400'>
+               <div className='pt-6 text-center  text-[#656565]'>
                    <p>PHP Support & Maintenance Services</p>
                </div>
              
@@ -88,7 +88,7 @@ const PhpSolution = () => {
                <div>
                    <img src={img5} />
                </div>
-               <div className='pt-6 text-center text-gray-400'>
+               <div className='pt-6 text-center  text-[#656565]'>
                    <p>PHP Support & Maintenance Services</p>
                </div>
              
@@ -98,7 +98,7 @@ const PhpSolution = () => {
                <div>
                    <img src={img6} />
                </div>
-               <div className='pt-6 text-center text-gray-400'>
+               <div className='pt-6 text-center  text-[#656565]'>
                    <p>PHP Support & Maintenance Services</p>
                </div>
              
@@ -108,7 +108,7 @@ const PhpSolution = () => {
                <div>
                    <img src={img7} />
                </div>
-               <div className='pt-6 text-center text-gray-400'>
+               <div className='pt-6 text-center  text-[#656565]'>
                    <p>PHP Support & Maintenance Services</p>
                </div>
              
@@ -118,7 +118,7 @@ const PhpSolution = () => {
                <div >
                    <img src={img8} />
                </div>
-               <div className='pt-6 text-center text-gray-400'>
+               <div className='pt-6 text-center  text-[#656565]'>
                    <p>PHP Support & Maintenance Services</p>
                </div>
              
@@ -128,7 +128,7 @@ const PhpSolution = () => {
                <div>
                    <img src={img9} />
                </div>
-               <div className='pt-6 text-center text-gray-400'>
+               <div className='pt-6 text-center  text-[#656565]'>
                    <p>PHP Support & Maintenance Services</p>
                </div>
              

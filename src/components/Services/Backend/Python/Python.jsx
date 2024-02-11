@@ -6,14 +6,14 @@ const Python = () => {
      <div className='flex flex-col md:flex-row  items-center justify-center bg-gray-200 w-full mt-16'>
     <div className='md:w-[620px] md:h-[560px] flex justify-center items-justify flex-col md:pl-24 pl-4 '>
         <div className='md:text-3xl md:font-extrabold text-xl mt-10 font-bold'>
-            <h1> Python Development </h1>
+            <h1 className='text-[#656565]'> Python Development </h1>
         </div>
-        <div className='py-4 text-gray-400 md:leading-8 ' >
+        <div className='py-4  text-[#656565] md:leading-8 ' >
             <p>
             Python has emerged as a valuable asset for developers globally. Python, being an open-source programming language, provides pre-built code, relieving developers from the need to write everything from scratch. This eliminates the laborious process of manual coding, saving time, and facilitating swift development.
             </p>
             <Link to = '/Python'>
-            <button className='bg-blue-400 p-3 text-black rounded-md mt-4 hover:bg-blue-800 hover:text-white'>Read More</button>
+            <button className='bg-blue-400 p-3  text-[#656565] rounded-md mt-4 hover:bg-blue-800 hover:text-white'>Read More</button>
             </Link>
         
         </div>
