@@ -28,8 +28,9 @@ import IPhone from "./components/Services/IphoneApplication/IPhone";
 import AndroidApplication from "./components/Services/AndroidApplication/AndroidApplication";
 import HybridApp from "./components/Services/HybridApp/HybridApp";
 import ASP from "./components/Services/Microsoft/ASP";
-import TryADemo from "./components/TryADemo/TryADemo";
-
+import TryADemo from './components/TryADemo/TryADemo'
+import Microsoft from './components/Services/Microsoft/Microsoft';
+import PowerBI from './components/Services/Microsoft/PowerBI'
 
 
 const App = () => {
@@ -70,9 +71,10 @@ const App = () => {
       <Route path="/PPC Management Services" element={<PPCManagement />} />
       <Route path="/SMM & Content Writing" element={<SMMpage />} />
       {/* // Microsoft// */}
-      
+      <Route path="/MICROSOFT TECHNOLOGY" element={<Microsoft />} />
       <Route path="/Dynamics CRM" element={<MicrosoftCRM />} />
       <Route path="/ASP.NET Web Application" element={<ASP />} />
+      <Route path="/PowerBI" element={<PowerBI />} />
 
 
 
