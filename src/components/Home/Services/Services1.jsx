@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 // import Person from '../../assets/person.png'
 import Service1 from '../../assets/service1.jpg'
 import Service2 from '../../assets/service2.jpg';
+import SpdApproch from "../Services/SpdApproch";
 import AOS from "aos";
 import "aos/dist/aos.css";
 // import Service3 from '../../assets/service3.jpg';
@@ -28,8 +29,10 @@ const Services1 = () => {
         </div>
       </div >
 
+      <SpdApproch />
+
       <div className='md:px-14 px-4  max-w-screen-2xl mx-auto'>
-        <div className='mt-20 md:w-2/2 mx-auto text-center w-full' data-aos="fade-up">
+        <div className='mt-16 md:w-2/2 mx-auto text-center w-full' data-aos="fade-up">
           <p className='text-[#656565]'>We are one stop, full service, and turnkey solutions provider for</p>
           <h2 className='text-2xl md:text-3xl text-[#656565] font-normal mb-3'>Web, Mobility and Digital Marketing Services.</h2>
           <div className='flex justify-center items-center' data-aos="fade-right">

@@ -11,11 +11,10 @@ import ApprochUs from "../APProchUs/Approch";
 import Footer from '../Footer/Footer';
 import AOS from "aos";
 import "aos/dist/aos.css";
-import images from '../../assets/HeroImg1.jpeg'
 import IMG1 from "../../assets/Digital-Marketing-Explained_Blog-scaled.jpeg"
 import IMG2 from "../../assets/Main2.avif"
 import IMG3 from "../../assets/Main3.webp"
-import SpdApproch from "./SpdApproch";
+
 
 const Home = () => {
   useEffect(() => {
@@ -151,7 +150,7 @@ const Home = () => {
         </Carousel>
       </div>
 
-      <SpdApproch />
+  
       <Services1 />
       <OurApproch />
       <OurWorks />
