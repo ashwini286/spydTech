@@ -4,14 +4,14 @@ import People from '../../assets/TryADemo/people.svg';
 const ReadyToTest = () => {
     return (
         <>
-            <div>
+            <div className='pl-[20px] pb-24'>
 
-                <div className='p-8'>
-                    <p className='text-xl'>Ready to test drive Close?
+                <div className='p-24 '>
+                    <p className='md:text-6xl text-4xl md:pl-4 font-bold'>Ready to test drive Close?
                     </p>
                 </div>
                 <div className='flex flex-col lg:flex-row justify-center items-center gap-8'>
-                    <div className='w-[600px] h-[450px] bg-[#D4164B] rounded-2xl text-white p-24 '>
+                    <div className='md:w-[600px] h-[450px] bg-[#0694A2] rounded-2xl text-white p-24 '>
                         <div className='leading-7' >
                             <img src={Cursor} />
                             <p className='text-3xl font-semibold py-4'>Start your trial</p>
@@ -22,7 +22,7 @@ const ReadyToTest = () => {
                         </div>
 
                     </div>
-                    <div className='bg-gray-200 w-[600px] h-[450px]  rounded-2xl text-black p-24 '>
+                    <div className='bg-gray-100 md:w-[600px] h-[450px]  rounded-2xl text-black p-24 '>
                         <div className='leading-7' >
                             <img src={People} />
                             <p className='text-3xl font-semibold py-4'>Talk to a human</p>
