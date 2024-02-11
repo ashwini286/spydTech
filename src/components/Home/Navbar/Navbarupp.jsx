@@ -455,7 +455,7 @@ const Navbarupp = () => {
           <NavList isSticky={isSticky} />
         </div>
         <div className="hidden gap-2 lg:flex text-white">
-        <Link to = 'tryademo'>
+        <Link to = '/TryADemo'>
         <Button variant="gradient" size="sm">
             Try a Demo
           </Button>
@@ -476,7 +476,7 @@ const Navbarupp = () => {
       <Collapse open={openNav}  className={isSticky ? "" : "bg-gray-400"}>
         <NavList isSticky={isSticky} />
         <div className="flex w-full flex-nowrap items-center gap-2 lg:hidden text-white pb-6 pl-2">
-          <Link to = 'tryademo'>
+          <Link to = '/TryADemo'>
           <Button variant="gradient" size="sm" >
             Try a Demo
           </Button></Link>
