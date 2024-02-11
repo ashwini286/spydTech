@@ -26,6 +26,8 @@ import SMMpage from "./components/Services/DigitalMarketing/SMMpage";
 import MicrosoftCRM from "./components/Services/Microsoft/MicrosoftCRM";
 import IPhone from "./components/Services/IphoneApplication/IPhone";
 import ASP from "./components/Services/Microsoft/ASP";
+import PowerBI from "./components/Services/Microsoft/PowerBI";
+import Microsoft from "./components/Services/Microsoft/Microsoft";
 
 
 
@@ -66,9 +68,10 @@ const App = () => {
       <Route path="/PPC Management Services" element={<PPCManagement />} />
       <Route path="/SMM & Content Writing" element={<SMMpage />} />
       {/* // Microsoft// */}
-      
+      <Route path="/MICROSOFT TECHNOLOGY" element={<Microsoft />} />
       <Route path="/Dynamics CRM" element={<MicrosoftCRM />} />
       <Route path="/ASP.NET Web Application" element={<ASP />} />
+      <Route path="/PowerBI" element={<PowerBI />} />
 
 
 
