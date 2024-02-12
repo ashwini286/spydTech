@@ -30,7 +30,17 @@ import HybridApp from "./components/Services/HybridApp/HybridApp";
 import ASP from "./components/Services/Microsoft/ASP";
 import TryADemo from './components/TryADemo/TryADemo';
 import Microsoft from './components/Services/Microsoft/Microsoft';
-import PowerBI from './components/Services/Microsoft/PowerBI'
+import PowerBI from './components/Services/Microsoft/PowerBI';
+import Mobile from './components/Services/Mobile/Mobile';
+import SealsForce from "./components/Services/SealsForce/SealsForce";
+
+
+// Company
+
+import AboutUS from "./components/Company/AboutUs/AboutUS";
+import OurCore from "./components/Company/OurCoreValues/OurCore";
+import VisionMission from "./components/Company/Vision$Mission/VisionMission";
+import MakesUsDifferent from "./components/Company/WhatMakesUsDifferent/MakesUsDifferent";
 
 
 const App = () => {
@@ -82,7 +92,27 @@ const App = () => {
 <Route path="/IPhone Application" element={<IPhone />} />
 <Route path="/Android Application" element={<AndroidApplication />} />
 <Route path="/Hybrid App" element={<HybridApp />} />
+<Route path="/MOBILE" element={<Mobile />} />
+     \
+     
+     
+       {/* Other Sevices */}
+       <Route path="/Salesforce Development" element={<SealsForce />} />
+     
+
+
+     {/* Company */}
+     <Route path="/About Us" element={<AboutUS />} />
+     <Route path="/Vision & Mission" element={<VisionMission    />} />
+     <Route path="/What makes us different" element={<MakesUsDifferent/>} />
+     <Route path="/Our Core Values" element={<OurCore />} />
+
       </Routes>
+
+
+
+
+    
       </BrowserRouter>
 
 
