@@ -14,7 +14,7 @@ function Client() {
           <div className="flex flex-col text-center max-w-screen-lg p-4 sm:p-6 md:p-8 lg:p-12 mx-auto">
             <div>
               <h1 className="text-xl md:text-4xl text-white">
-                What our clients say
+                What our clients say's
               </h1>
             </div>
             <div>
@@ -26,7 +26,7 @@ function Client() {
 
             <div>
               <h1 className="opacity-8 pt-4 md:pt-16 text-md md:text-2xl text-white">
-                Sp Y D private limited is a company that believes in innovation. The entire team was so
+                SpY D Technology Private Limited is a company that believes in innovation. The entire team was so
                 cooperative and polite.
               </h1>
               <div>
@@ -45,7 +45,7 @@ function Client() {
            <div className="flex flex-col text-center max-w-screen-lg p-4 sm:p-6 md:p-8 lg:p-12 mx-auto">
             <div>
               <h1 className="text-xl md:text-4xl text-white">
-                What our clients say
+                What our clients say's
               </h1>
             </div>
             <div>
@@ -57,7 +57,7 @@ function Client() {
 
             <div>
               <h1 className="opacity-8 pt-4 md:pt-16 text-md md:text-2xl text-white">
-                Sp Y D private limited is a company that believes in innovation. The entire team was so
+              SpY D Technology Private Limited is a company that believes in innovation. The entire team was so
                 cooperative and polite.
               </h1>
               <div>
@@ -76,7 +76,7 @@ function Client() {
           <div className="flex flex-col text-center max-w-screen-lg p-4 sm:p-6 md:p-8 lg:p-12 mx-auto">
             <div>
               <h1 className="text-xl md:text-4xl text-white">
-                What our clients say
+                What our clients say's
               </h1>
             </div>
             <div>
@@ -88,7 +88,7 @@ function Client() {
 
             <div>
               <h1 className="opacity-8 pt-4 md:pt-16 text-md md:text-2xl text-white">
-                Sp Y D private limited is a company that believes in innovation. The entire team was so
+              SpY D Technology Private Limited is a company that believes in innovation. The entire team was so
                 cooperative and polite.
               </h1>
               <div>

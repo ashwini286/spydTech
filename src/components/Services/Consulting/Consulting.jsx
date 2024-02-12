@@ -85,7 +85,7 @@ const Consulting = () => {
             </Typography>
           </TimelineHeader>
           <TimelineBody className="pb-8">
-            <Typography color="gary" className="font-normal text-gray-600 text-justify">
+            <Typography color="gary" className="font-normal  text-[#656565] text-justify">
             Our Consultants submit the Problem Statement from the gathered information from the Business Analysis.
              Consultants also add the processes in that improvement or changes are needed completely.
             </Typography>
@@ -101,7 +101,7 @@ const Consulting = () => {
             </Typography>
           </TimelineHeader>
           <TimelineBody>
-            <Typography color="gary" className="font-normal text-gray-600 text-justify">
+            <Typography color="gary" className="font-normal  text-[#656565] text-justify">
             Our Consultants demonstrate how can stakeholders eradicate problems with the help of ERPNext. 
             Also, how ERPNext will help them to improvise the business functions and decision-making process with the help of real-time data with accuracy.
             </Typography>
@@ -124,7 +124,7 @@ const Consulting = () => {
             </Typography>
           </TimelineHeader>
           <TimelineBody className="pb-8">
-            <Typography color="gary" className="font-normal text-gray-600 text-justify">
+            <Typography color="gary" className="font-normal  text-[#656565] text-justify">
             After the approval of stakeholders, 
             Our Consultants will prepare and submit the Implementation roadmap to stakeholders.
             </Typography>
@@ -141,7 +141,7 @@ const Consulting = () => {
             </Typography>
           </TimelineHeader>
           <TimelineBody className="pb-8">
-            <Typography color="gary" className="font-normal text-gray-600 text-justify">
+            <Typography color="gary" className="font-normal  text-[#656565] text-justify">
             Our Consultants will be there to support, help, guide, and assist stakeholders’ 
             intake decisions during the implementation stage and also consult them if process change is required.
             </Typography>
@@ -157,7 +157,7 @@ const Consulting = () => {
             </Typography>
           </TimelineHeader>
           <TimelineBody>
-            <Typography color="gary" className="font-normal text-gray-600 text-justify">
+            <Typography color="gary" className="font-normal  text-[#656565] text-justify">
             Our consultant designs training materials and makes sure that stakeholders 
             get full knowledge of the ERPNext and the implementation that is being implemented.
             </Typography>
@@ -182,7 +182,7 @@ const Consulting = () => {
          
           >
             <div className="flex flex-col-reverse">
-              <p className='text-gray-400'>
+              <p className=' text-[#656565]'>
               Our Consultants gather the business information by talking to stakeholders, 
             visiting them, and analyzing the process they have been following. 
             Business Analysis is a key stage because it gives a better perspective for the improvements.
@@ -199,7 +199,7 @@ const Consulting = () => {
             icon={<BellIcon />}
           >
             <h3 className="vertical-timeline-element-title justify-end items-end font-semibold"> Define Problem</h3>
-            <p className='text-gray-400'>
+            <p className=' text-[#656565]'>
               This culminates into brainstorming the conceptualized plan further to
               enhance the features. It's time to document the entire process, formulating the
               roadmap implementation plan.
@@ -250,7 +250,7 @@ const Consulting = () => {
             icon={<HomeIcon />}
           >
             <div className="flex flex-col-reverse">
-              <p className='text-gray-400'>
+              <p className=' text-[#656565]'>
               After the approval of stakeholders, Our Consultants will prepare and submit the Implementation roadmap to stakeholders.
               </p>
               <h3 className="vertical-timeline-element-title justify-end items-end font-semibold">Implementation Road Map with ERPNext</h3>
@@ -265,7 +265,7 @@ const Consulting = () => {
             icon={<BellIcon />}
           >
             <h3 className="vertical-timeline-element-title justify-end items-end font-semibold">Support during implementation</h3>
-            <p className='text-gray-400'>
+            <p className=' text-[#656565]'>
             Our Consultants will be there to support, help, guide, and assist stakeholders’ intake decisions during the implementation stage and also consult them if process change is required.
             </p>
           </VerticalTimelineElement>

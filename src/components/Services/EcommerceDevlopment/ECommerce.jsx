@@ -20,7 +20,7 @@ function ECommerce() {
         className='pb-10'
         />
         </div>
-        <div className='flex p-5 ml-5 text-gray-500'>
+        <div className='flex p-5 ml-5  text-[#656565]'>
             <div className='w-2/4 p-5 space-y-2 text-left tracking-wider'>
                 <p>
                 Aspirant Soft Solutions are pioneering building E-Commerce Platforms for small, 

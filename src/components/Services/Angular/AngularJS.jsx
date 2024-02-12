@@ -15,7 +15,7 @@ function AngularJS() {
 
       <img
         src="https://www.aspirantsoftsolutions.com/img/angular-js.jpg"
-        className=" object-cover  "
+        className=" object-cover  w-full"
         alt="Background Image"
       />
       <Development />

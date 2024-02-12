@@ -1,6 +1,11 @@
 import React from 'react'
 import Navbarupp from "../../Home/Navbar/Navbarupp";
 import OurCapabilities from './OurCapabilities/OurCapabilities';
+import IOSDevelopmentExpertise from './iOSDevelopmentExpertise/iOSDevelopmentExpertise';
+import HowWeDevelop from './HowWeDevelopPowerfulIOS/HowWeDevelop';
+import OurProvenMethodology from './OurProvenMethodology/OurProvenMethodology';
+import Approch from '../../Home/APProchUs/Approch';
+import Footer from '../../Home/Footer/Footer';
 const IPhone = () => {
   return (
     <>
@@ -23,6 +28,11 @@ const IPhone = () => {
         <p className='text-[#656565]'>Our team of core iPhone app development, Mobile App Development and Software Development Company team continuously and consistently stay up to date with all currently available tools and technologies and upgrade their expertise with the emerging technologies to ensure we deliver world-class iPhone mobile apps to our clients to create a win-win situation for all stake holders.</p>
       </div>
     <OurCapabilities />
+    <IOSDevelopmentExpertise />
+    <HowWeDevelop />
+    <OurProvenMethodology />
+    <Approch />
+    <Footer />
     
     </>
   )

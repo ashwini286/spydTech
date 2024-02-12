@@ -6,13 +6,13 @@ const AngularJs = () => {
     <div className='flex flex-col md:flex-row  items-center justify-center'>
         <div className='md:w-[620px] md:h-[560px] flex justify-center items-justify flex-col md:pl-24 pl-4 '>
             <div className='md:text-3xl md:font-extrabold text-xl mt-10 font-bold'>
-                <h1> AngularJS Development </h1>
+                <h1 className='text-[#656565]'> AngularJS Development </h1>
             </div>
-            <div className='py-4 text-gray-400 md:leading-8'>
+            <div className='py-4  text-[#656565] md:leading-8'>
                 <p>
                 Angular is a comprehensive and open-source front-end web application framework developed and maintained by Google. Initially released in 2010 as AngularJS, it underwent a complete rewrite, resulting in the release of Angular 2+ in 2016. Angular is designed to simplify and streamline the process of building dynamic, single-page web applications with a focus on modularity, testability, and maintainability.</p>
                 <Link to ='/Angular JS'>
-                <button className='bg-blue-400 p-3 text-black rounded-md mt-4 hover:bg-blue-800 hover:text-white'>Read More</button>
+                <button className='bg-blue-400 p-3  text-[#656565] rounded-md mt-4 hover:bg-blue-800 hover:text-white'>Read More</button>
                 </Link>
                
             </div>
