@@ -19,7 +19,7 @@ const Development = () => {
       <div>
 
       </div>
-      <div className='md:w-[620px] md:h-[560px] bg-gray-500 md:bg-[#c40030] text-white flex justify-center items-justify flex-col md:pl-32 pl-4'>
+      <div className='md:w-[620px] md:h-[560px] bg-gray-500 md:bg-[#A22D73] text-white flex justify-center items-justify flex-col md:pl-32 pl-4'>
        <div className='md:text-4xl pt-4'>
        <h1>THE SERVICES OFFERED BY ANGULAR JS ARE</h1>
        </div>

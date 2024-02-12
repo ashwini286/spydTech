@@ -14,7 +14,7 @@ const AndroidApplication = () => {
         <Navbarupp />
       </div>
       <img
-        src={androidHero}
+        src="https://www.androiddeveloper.co.in/blog/wp-content/uploads/2016/03/Android-App-Development-2.jpg"
         className=" w-[100%]"
         alt="Background Image"
       />
@@ -33,8 +33,8 @@ const AndroidApplication = () => {
         <p className='text-[#656565] pt-4'>SPY D Privite Limited believes in building lasting business relationships with its clients, for we believe, the growth of our client’s business is our growth.</p>
       </div>
          <OurCapabilities />
-    <OurAndroidDevelopmentExpertise />
-    <HowWeDevelop />
+    {/* <OurAndroidDevelopmentExpertise /> */}
+    {/* <HowWeDevelop /> */}
     <OurProvenMethodology />
     <Approch />
     <Footer />

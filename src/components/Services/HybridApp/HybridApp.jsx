@@ -14,7 +14,7 @@ const HybridApp = () => {
         <Navbarupp />
       </div>
       <img
-        src={HybridImg}
+        src="https://i0.wp.com/netmaxims.com/blog/wp-content/uploads/2022/02/onpage-blog-hybrid.jpg?fit=1568%2C587&ssl=1"
         className=" w-[100%]"
         alt="Background Image"
       />
@@ -30,7 +30,8 @@ const HybridApp = () => {
       
       </div>
       <div className='md:px-16 px-4 py-4'>
-  <div><h1 className='text-[#656565] md:text-4xl text-2xl'>The technologies we use to build Hybrid Mobile Apps</h1></div>
+  <div>
+    <h1 className='text-[#656565] md:text-4xl text-2xl'>The technologies we use to build Hybrid Mobile Apps</h1></div>
   <br />
         <p className='text-[#656565] pt-4'>
         PhoneGap (Apache Cordova)
@@ -41,8 +42,8 @@ const HybridApp = () => {
       
       </div>
          <OurCapabilities />
-    <HybridAppDevelopment />
-    <HowWeDevelop />
+    {/* <HybridAppDevelopment /> */}
+    {/* <HowWeDevelop /> */}
     <OurProvenMethodology />
     <Approch />
     <Footer />

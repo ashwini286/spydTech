@@ -12,7 +12,7 @@ const Python = () => {
         <Navbarupp />
       </div>
       <img
-        src={Hero}
+        src="https://images.datacamp.com/image/upload/f_auto,q_auto:best/v1603718736/Why_Your_Company_Needs_Python_for_Business_Analytics_xzzles.png"
         className=" w-[100%]"
         alt="Background Image"
       />

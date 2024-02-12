@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Reactjs = () => {
     return (
         <>
-            <div className='flex flex-col md:flex-row  items-center justify-center'>
+            <div className='flex flex-col md:flex-row  items-center justify-center gap-8'>
                 <div className='md:w-[620px] md:h-[560px] flex justify-center items-justify flex-col md:pl-24 pl-4 '>
                     <div className='md:text-3xl md:font-extrabold text-xl mt-10 font-bold'>
                         <h1 className='text-[#656565]'> Reactjs Development </h1>
@@ -24,6 +24,7 @@ const Reactjs = () => {
                 <div className='md:w-[620px] md:h-[560px] text-white flex justify-center items-justify flex-col '>
                     <div>
                         <img src={Reactjsimg} alt="" />
+                        {/* <img src="https://e7.pngegg.com/pngimages/548/731/png-clipart-graphy-others-web-design-sticker.png" alt="" /> */}
                     </div>
                 </div>
             </div>

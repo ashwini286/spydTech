@@ -31,9 +31,9 @@ const PythonAppDevelopment = () => {
 
 
 
-                <div className='flex md:flex-row justify-center items-center flex-col gap-8 mt-8'>
+                <div className='flex md:flex-row justify-center  items-center flex-col gap-16 mt-8'>
         <div className='md:w-[370px] w-full'> 
-         <div className='flex flex-col items-center'>
+         <div className='flex flex-col items-center justify-center shadow-xl'>
          <div>
                 <img src={img1}  className=' bg-[#fff]'/>
             </div>
@@ -45,7 +45,7 @@ const PythonAppDevelopment = () => {
           </div>
 
           <div className='md:w-[370px] w-full'> 
-         <div className='flex flex-col items-center justify-center'>
+         <div className='flex flex-col items-center justify-center shadow-xl'>
          <div>
                 <img src={img2}  className=' bg-[#fff]'/>
             </div>
@@ -57,7 +57,7 @@ const PythonAppDevelopment = () => {
           </div>
 
           <div className='md:w-[370px] w-full'> 
-         <div className='flex flex-col items-center'>
+         <div className='flex flex-col items-center justify-center shadow-xl'>
          <div>
                 <img src={img5}  className=' bg-[#fff]'/>
             </div>

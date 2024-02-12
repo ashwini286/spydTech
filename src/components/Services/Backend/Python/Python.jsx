@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 const Python = () => {
   return (
     <>
-     <div className='flex flex-col md:flex-row  items-center justify-center bg-gray-200 w-full mt-16'>
+     <div className='flex flex-col md:flex-row  items-center justify-center  w-full mt-16'>
     <div className='md:w-[620px] md:h-[560px] flex justify-center items-justify flex-col md:pl-24 pl-4 '>
         <div className='md:text-3xl md:font-extrabold text-xl mt-10 font-bold'>
             <h1 className='text-[#656565]'> Python Development </h1>

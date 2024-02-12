@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbarupp from "../../Home/Navbar/Navbarupp";
 import Reactjs from './ReactJs/Reactjs';
-import React1 from '../../assets/React1.png'
+import Help from './HowSpydTechHelp/Help'
 import AngularJs from './AngularJs/AngularJs';
 import NextJs from './NextJs/Next';
 import Approch from '../../Home/APProchUs/Approch';
@@ -15,13 +15,14 @@ const Frontend = () => {
 
 
       <img
-        src={React1}
+        src="https://miro.medium.com/v2/resize:fit:1200/1*w2hBLGIBMaLIVABE_BtBhg.png"
         className="w-full"
         alt="Background Image"
       />
      <Reactjs />
      <NextJs />
       <AngularJs />
+      <Help />
 
 <Approch />
 

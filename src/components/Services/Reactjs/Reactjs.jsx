@@ -22,7 +22,7 @@ const Reactjs = () => {
       />
     <Development />
     <Benefits />
-<SPYDReact />
+{/* <SPYDReact /> */}
 <Approch />
       <Footer />
     </>

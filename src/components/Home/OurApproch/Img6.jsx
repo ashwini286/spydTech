@@ -1,9 +1,9 @@
 import React from 'react'
-
+import Deploy from '../../assets/deploy.png'
 const Img6 = () => {
   return (
     <div>
-        <img src="https://image.pngaaa.com/294/5240294-middle.png" alt="Your Image" className=' h-[228px]' />
+        <img src={Deploy} alt="Your Image" className=' h-[228px]' />
     </div>
   )
 }

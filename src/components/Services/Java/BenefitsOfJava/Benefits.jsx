@@ -3,8 +3,8 @@ import React from 'react'
 const Benefits = () => {
   return (
     <>
-      <div className='flex flex-col md:flex-row md:gap-16 pt-8 items-center justify-center'>
-      <div className='md:w-[640px] md:h-[560px] bg-gray-500 md:bg-[#12192C] text-white flex justify-center items-justify flex-col md:pl-32 pl-8 text-sm md:text-lg'>
+      <div className='flex flex-col md:flex-row md:gap-16 pt-8 items-center justify-center pb-16'>
+      <div className='md:w-[640px] md:h-[560px] bg-gray-500 md:bg-[#273683] text-white flex justify-center items-justify flex-col md:pl-32 pl-8 text-sm md:text-lg'>
        <div className='md:text-2xl pt-4'>
        <h1>THE CAPABILITIES OFFERED BY JAVA ENCOMPASS</h1>
        </div>
