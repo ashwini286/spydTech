@@ -16,6 +16,9 @@ import { PiVirtualRealityBold } from "react-icons/pi";
 import { TbDeviceGamepad2 } from "react-icons/tb";
 import { FaInternetExplorer } from "react-icons/fa6";
 import "./Amazon.css"
+import Footer3 from '../../UniqueTeam/footer3'
+
+
 
 
 function Amazon() {
@@ -68,53 +71,51 @@ function Amazon() {
     </div>
 
     <div className='p-10'>
-        
-        <img 
+    <img 
         src={IMG4}
-        className='flex-wrap ml-[10%] p-20 justify-center'
-        />
-        
-        <div className='space-y-5 bg-[#064e3b] w-full p-10 text-white rounded-lg shadow-2xl overflow-hidden relative'
-        >
-             
-     <h1 className='text-3xl font-bold '>Applications of AWS</h1>
-        <p className='flex text-xl'>The most common applications of AWS are storage and backup, websites, gaming, mobile, web, and social media applications.
-             Some of the most crucial applications in detail are as follows:</p>
-             <div className='flex justify-center space-x-10 '>
-             <ul className='space-y-5'>
-                <li className='flex text-xl gap-5'><LuDatabaseBackup className='text-8xl ' /> Storage and Backup</li>
+        className='mx-auto w-3/4 lg:w-[80%] xl:w-[70%] mb-10'
+    />
+    <div className='bg-[#064e3b] text-white rounded-lg shadow-2xl overflow-hidden relative p-10'>
+        <h1 className='text-3xl font-bold mb-5'>Applications of AWS</h1>
+        <p className='text-xl mb-10'>
+            The most common applications of AWS are storage and backup, websites, gaming, mobile, web, and social media applications. 
+            Some of the most crucial applications in detail are as follows:
+        </p>
+        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8'>
+            <ul className='space-y-5'>
+                <li className='flex text-xl gap-5'><LuDatabaseBackup className='text-8xl' /> Storage and Backup</li>
                 <li className='flex text-xl gap-5'><SiWebstorm className='text-8xl'/>Websites</li>
                 <li className='flex text-xl gap-5'><SiEslgaming className='text-8xl' />Gaming</li>
+            </ul>
+            <ul className='space-y-5'>
                 <li className='flex text-xl gap-5'><FaMobileAlt className='text-8xl'/>Mobile, Web and Social Applications</li>
                 <li className='flex text-xl gap-5'><LuBarChartBig className='text-8xl'/>Big Data Management and Analytics (Application)</li>
-                </ul>
-                <ul className='space-y-5'>
                 <li className='flex text-xl gap-5'><GiBrain className='text-8xl'/>Artificial Intelligence</li>
+            </ul>
+            <ul className='space-y-5'>
                 <li className='flex text-xl gap-5'><RiNotificationBadgeLine className='text-8xl'/>Messages and Notifications</li>
                 <li className='flex text-xl gap-5'><PiVirtualRealityBold className='text-8xl'/>Augmented Reality and Virtual Reality</li>
                 <li className='flex text-xl gap-5'><TbDeviceGamepad2 className='text-8xl'/>Game Development</li>
-                <li className='flex text-xl gap-5'><FaInternetExplorer className='text-8xl'/> Internet of Things</li>
-                
             </ul>
-            </div>
         </div>
     </div>
-    <div className=' p-10 border-2 bg-[#064e3b] text-white rounded-lg shadow-2xl overflow-hidden relative space-y-5'>
-        <h1 className='text-3xl font-bold p-5 '>Advantages of AWS</h1>
-        <div className='flex space-x-5 '>
-        <ul className='w-2/4 space-y-5'>
+</div>
+<div className='p-10 border-2 bg-[#064e3b] text-white rounded-lg shadow-2xl overflow-hidden relative space-y-5'>
+    <h1 className='text-3xl font-bold p-5 '>Advantages of AWS</h1>
+    <div className='grid grid-cols-1 sm:grid-cols-2 gap-8'>
+        <ul className='space-y-5'>
             <li>1.AWS provides a user-friendly programming model, architecture, database as well as operating system that has been already known to employers. </li>
             <li>2.AWS is a very cost-effective service. There is no such thing as long-term commitments for anything you would like to purchase. </li>
             <li>3.It offers billing and management for the centralized sector, hybrid computing, and fast installation or removal of your application in any location with few clicks. </li>
-           </ul>
-           <ul className='space-y-5 h-[13.5rem]'>
+        </ul>
+        <ul className='space-y-5'>
             <li>4.There is no need to pay extra money on running data servers by AWS. </li>
             <li>5.AWS offers a total ownership cost at very reasonable rates in comparison to other private cloud servers.  </li>
         </ul>
-        </div>
     </div>
+</div>
 
-    <Approch />
+    <Footer3 />
     </>
   )
 }

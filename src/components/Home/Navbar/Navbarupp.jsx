@@ -23,6 +23,7 @@ import {
 import GroupsOutlinedIcon from '@mui/icons-material/GroupsOutlined';
 import PodcastsOutlinedIcon from '@mui/icons-material/PodcastsOutlined';
 import DvrOutlinedIcon from '@mui/icons-material/DvrOutlined';
+import ModelTrainingIcon from '@mui/icons-material/DvrOutlined';
 import {
   Bars4Icon,
   GlobeAmericasIcon,

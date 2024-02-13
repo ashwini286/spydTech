@@ -1,11 +1,12 @@
 import React, { useEffect } from "react";
-// import Person from '../../assets/person.png'
+import Person from '../../assets/person.png'
 import Service1 from '../../assets/service1.jpg'
 import Service2 from '../../assets/service2.jpg';
-import SpdApproch from "../Services/SpdApproch";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 import SpdApproch from "../Home/SpdApproch";
+
 // import Service3 from '../../assets/service3.jpg';
 const Services1 = () => {
   useEffect(() => {

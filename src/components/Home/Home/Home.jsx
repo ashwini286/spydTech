@@ -25,7 +25,7 @@ const Home = () => {
       <Navbarupp />
       
       <div className="max-w-screen mx-auto min-h-screen relative">
-        <Carousel className="w-full mx-auto top-0">
+        <Carousel className="w-full  mx-auto top-0">
           {/* Slide 1 */}
           <div className="relative flex h-screen items-center justify-center">
             <img src={IMG1} className="absolute inset-0 object-cover w-full h-full" alt="Background 1" style={{ filter: "brightness(50%)" }} />
