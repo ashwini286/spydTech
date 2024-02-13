@@ -38,12 +38,6 @@
     color: #fff; /* White text */
   }
   
-  /* Flex container styles */
-  .flex {
-    display: flex;
-    align-items: center;
-  }
-  
   /* Icon size */
   .text-8xl {
     font-size: 6rem; /* Adjust as needed */
