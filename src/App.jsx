@@ -34,19 +34,6 @@ import PowerBI from './components/Services/Microsoft/PowerBI'
 import CloudTech from "./components/Services/Other Servies/Cloud Technologies/CloudTech";
 import Amazon from "./components/Services/Other Servies/Cloud Technologies/Amazon";
 
-import PowerBI from './components/Services/Microsoft/PowerBI';
-import Mobile from './components/Services/Mobile/Mobile';
-import SealsForce from "./components/Services/SealsForce/SealsForce";
-
-
-// Company
-
-import AboutUS from "./components/Company/AboutUs/AboutUS";
-import OurCore from "./components/Company/OurCoreValues/OurCore";
-import VisionMission from "./components/Company/Vision$Mission/VisionMission";
-import MakesUsDifferent from "./components/Company/WhatMakesUsDifferent/MakesUsDifferent";
-
-
 
 const App = () => {
   return (
@@ -98,33 +85,10 @@ const App = () => {
 <Route path="/Android Application" element={<AndroidApplication />} />
 <Route path="/Hybrid App" element={<HybridApp />} />
 
-
        {/* // other Servies  // */}
        <Route path="/Cloud Technologies" element={<CloudTech />} />
        <Route path="/Amazon" element={<Amazon />} />
-
-<Route path="/MOBILE" element={<Mobile />} />
-     \
-     
-     
-       {/* Other Sevices */}
-       <Route path="/Salesforce Development" element={<SealsForce />} />
-     
-
-
-     {/* Company */}
-     <Route path="/About Us" element={<AboutUS />} />
-     <Route path="/Vision & Mission" element={<VisionMission    />} />
-     <Route path="/What makes us different" element={<MakesUsDifferent/>} />
-     <Route path="/Our Core Values" element={<OurCore />} />
-
-
       </Routes>
-
-
-
-
-    
       </BrowserRouter>
 
        
