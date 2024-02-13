@@ -23,6 +23,7 @@ import {
 import GroupsOutlinedIcon from '@mui/icons-material/GroupsOutlined';
 import PodcastsOutlinedIcon from '@mui/icons-material/PodcastsOutlined';
 import DvrOutlinedIcon from '@mui/icons-material/DvrOutlined';
+import ModelTrainingIcon from '@mui/icons-material/DvrOutlined';
 import ModelTrainingRoundedIcon from '@mui/icons-material/ModelTrainingRounded';
 import {
   Bars4Icon,
@@ -119,9 +120,9 @@ const navListMenuItems = [
     // description: "Find the perfect solution for your needs.",
     icon: CloudQueueIcon,
     color: 'cyan', // Add a color property for the icon
-    Type1: "Salesforce Development",
-    Type2: "Cloud Technology",
-    Type3: "Amazon-web-services"
+    Type1: "Cloud Technologies",
+    Type2: "Software Testing",
+    Type3: "Advanced Technologies"
     
   },
 ];
