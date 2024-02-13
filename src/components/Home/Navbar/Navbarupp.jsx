@@ -115,9 +115,9 @@ const navListMenuItems = [
     // description: "Find the perfect solution for your needs.",
     icon: CloudQueueIcon,
     color: 'cyan', // Add a color property for the icon
-    Type1: "Salesforce Development",
-    Type2: "Cloud Technology",
-    Type3: "Amazon-web-services"
+    Type1: "Cloud Technologies",
+    Type2: "Software Testing",
+    Type3: "Advanced Technologies"
     
   },
 ];

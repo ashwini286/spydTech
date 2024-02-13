@@ -31,6 +31,8 @@ import ASP from "./components/Services/Microsoft/ASP";
 import TryADemo from './components/TryADemo/TryADemo';
 import Microsoft from './components/Services/Microsoft/Microsoft';
 import PowerBI from './components/Services/Microsoft/PowerBI'
+import CloudTech from "./components/Services/Other Servies/Cloud Technologies/CloudTech";
+import Amazon from "./components/Services/Other Servies/Cloud Technologies/Amazon";
 
 
 const App = () => {
@@ -82,10 +84,14 @@ const App = () => {
 <Route path="/IPhone Application" element={<IPhone />} />
 <Route path="/Android Application" element={<AndroidApplication />} />
 <Route path="/Hybrid App" element={<HybridApp />} />
+
+       {/* // other Servies  // */}
+       <Route path="/Cloud Technologies" element={<CloudTech />} />
+       <Route path="/Amazon" element={<Amazon />} />
       </Routes>
       </BrowserRouter>
 
-
+       
     </>
   );
 };
