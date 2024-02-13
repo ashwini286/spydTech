@@ -23,6 +23,7 @@ import {
 import GroupsOutlinedIcon from '@mui/icons-material/GroupsOutlined';
 import PodcastsOutlinedIcon from '@mui/icons-material/PodcastsOutlined';
 import DvrOutlinedIcon from '@mui/icons-material/DvrOutlined';
+import ModelTrainingRoundedIcon from '@mui/icons-material/ModelTrainingRounded';
 import {
   Bars4Icon,
   GlobeAmericasIcon,
@@ -276,7 +277,7 @@ const companyMenu = [
   {
     title: "Our Core Values",
     color: 'blue',
-    icon: ModelTrainingIcon,
+    icon: ModelTrainingRoundedIcon,
 
   },
 ]
