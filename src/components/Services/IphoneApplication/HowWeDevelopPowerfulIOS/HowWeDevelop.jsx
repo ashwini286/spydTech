@@ -15,7 +15,7 @@ const HowWeDevelop = () => {
             <img src={Link}/>
         </div>
         <div>
-        <div className=' mt-10 md:px-8 mb-10'>
+        {/* <div className=' mt-10 md:px-8 mb-10'>
         <div className='p-4 pl-16 md:text-4xl  text-[#656565] font-bold md:mb-8'>
         How SPYD Tech helps its clients
         </div>
@@ -39,7 +39,7 @@ const HowWeDevelop = () => {
        
         </div>
 
-      </div>
+      </div> */}
         </div>
     </div>
     </>

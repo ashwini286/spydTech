@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 // import Person from '../../assets/person.png'
 import Service1 from '../../assets/service1.jpg'
 import Service2 from '../../assets/service2.jpg';
-
+import SpdApproch from "../Services/SpdApproch";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import SpdApproch from "../Home/SpdApproch";
@@ -29,8 +29,8 @@ const Services1 = () => {
           <p className='text-[#656565] px-4'>SpY D Technology private limited is India’s leading, one stop, full scale, full service software and information technology that thrives on cutting edge, state of the art, emerging technologies offering wide range, wide spectrum services and solutions in areas such as Web Technologies, Mobility Applications, Web & Mobile Products, Custom Applications, End-to-End Digital Transformation, Augmented and Virtual reality, and Design Thinking Innovation and Digital Marketing Services.</p>
         </div>
       </div >
+
       <SpdApproch />
-      
 
       <div className='md:px-14 px-4  max-w-screen-2xl mx-auto'>
         <div className='mt-16 md:w-2/2 mx-auto text-center w-full' data-aos="fade-up">

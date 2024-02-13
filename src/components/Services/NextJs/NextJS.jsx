@@ -21,7 +21,7 @@ const NextJS = () => {
       />
 <WhyGoNextjs />
       <WhyChoose />
-      <SPYDNextjs />
+      {/* <SPYDNextjs /> */}
     
     <Approch />
 

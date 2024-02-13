@@ -1,8 +1,8 @@
 import React from 'react'
 import Navbarupp from "../../Home/Navbar/Navbarupp";
 import Benefits from './BenefitsOfJava/Benefits';
-import Hero from '../../assets/Java/hero.png'
-import Help from './HowSpydTechHelp/Help';
+import Java1 from '../../assets/Java/java.jpg'
+// import Help from './HowSpydTechHelp/Help';
 import Approch from '../../Home/APProchUs/Approch';
 import Footer from '../../Home/Footer/Footer';
 const Java = () => {
@@ -12,12 +12,12 @@ const Java = () => {
         <Navbarupp />
       </div>
       <img
-        src={Hero}
+        src={Java1}
         className=" w-[100%]"
         alt="Background Image"
       />
 <Benefits />
-<Help />
+{/* <Help /> */}
 <Approch />
 
 <Footer />

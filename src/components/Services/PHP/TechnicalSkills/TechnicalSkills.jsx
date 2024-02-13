@@ -15,7 +15,7 @@ const TechnicalSkills = () => {
         </div>
 
         <div className='flex md:flex-row justify-center items-center flex-col gap-8'>
-        <div className='p-8 shadow-2xl border border-[#07b8de] md:w-[370px] w-full '> 
+        <div className='p-8 shadow-2xl  md:w-[370px] w-full '> 
          <div className='flex flex-row '>
          <div>
                 <img src={img1}  className=' bg-[#07b8de]  p-2 rounded-md'/>
@@ -31,7 +31,7 @@ const TechnicalSkills = () => {
             </div>
           </div>
 
-          <div className='p-8 shadow-2xl   md:w-[370px] w-full border border-[#07b8de]'> 
+          <div className='p-8 shadow-2xl   md:w-[370px] w-full '> 
          <div className='flex flex-row '>
          <div>
                 <img src={img1}  className=' bg-[#07b8de]  p-2 rounded-md'/>
@@ -47,7 +47,7 @@ const TechnicalSkills = () => {
             </div>
           </div>
 
-          <div className='p-8 shadow-2xl  md:w-[370px] w-full border border-[#07b8de]'> 
+          <div className='p-8 shadow-2xl  md:w-[370px] w-full '> 
          <div className='flex flex-row '>
          <div>
                 <img src={img2}  className=' bg-[#07b8de]  p-2 rounded-md'/>

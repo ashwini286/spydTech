@@ -45,9 +45,9 @@ const PhpSolution = () => {
             <p className='md:text-4xl  text-[#656565] text-2xl md:pl-16'>The following are some of the PHP based projects development support we offer</p>
         </div>
         <div >
-            <div className='grid md:grid-cols-3 md:p-8 p-4'>
+            <div className='grid md:grid-cols-3 md:p-8 p-4 gap-8'>
 
-                <div className='flex justify-center items-center flex-col md:p-8 p-4'>               
+                <div className='flex justify-center items-center flex-col md:p-8 p-4 shadow-xl '>               
                 <div>
                     <img src={img1} />
                 </div>
@@ -56,7 +56,7 @@ const PhpSolution = () => {
                 </div>
                 </div>
 
-                <div className='flex justify-center items-center flex-col md:p-8 p-4'> 
+                <div className='flex justify-center items-center flex-col md:p-8 p-4 shadow-xl'> 
                <div>
                    <img src={img2 } />
                </div>
@@ -64,7 +64,7 @@ const PhpSolution = () => {
                    <p>PHP Support & Maintenance Services</p>
                </div>
                </div>
-               <div className='flex justify-center items-center flex-col md:p-8 p-4'> 
+               <div className='flex justify-center items-center flex-col md:p-8 p-4 shadow-xl'> 
                <div >
                    <img src={img3} />
                </div>
@@ -73,7 +73,7 @@ const PhpSolution = () => {
                </div>
              
                </div>
-               <div className='flex justify-center items-center flex-col md:p-8 p-4'>
+               <div className='flex justify-center items-center flex-col md:p-8 p-4 shadow-xl'>
                
                <div>
                    <img src={img4} />
@@ -83,7 +83,7 @@ const PhpSolution = () => {
                </div>
              
                </div>
-               <div className='flex justify-center items-center flex-col md:p-8 p-4'>
+               <div className='flex justify-center items-center flex-col md:p-8 p-4 shadow-xl'>
                
                <div>
                    <img src={img5} />
@@ -93,7 +93,7 @@ const PhpSolution = () => {
                </div>
              
                </div>
-               <div className='flex justify-center items-center flex-col md:p-8 p-4'>
+               <div className='flex justify-center items-center flex-col md:p-8 p-4 shadow-xl'>
                
                <div>
                    <img src={img6} />
@@ -103,7 +103,7 @@ const PhpSolution = () => {
                </div>
              
                </div>
-               <div className='flex justify-center items-center flex-col md:p-8 p-4 '>
+               <div className='flex justify-center items-center flex-col md:p-8 p-4 shadow-xl '>
                
                <div>
                    <img src={img7} />
@@ -113,7 +113,7 @@ const PhpSolution = () => {
                </div>
              
                </div>
-               <div className='flex justify-center items-center flex-col md:p-8 p-4'>
+               <div className='flex justify-center items-center flex-col md:p-8 p-4 shadow-xl'>
                
                <div >
                    <img src={img8} />
@@ -123,7 +123,7 @@ const PhpSolution = () => {
                </div>
              
                </div>
-               <div className='flex justify-center items-center flex-col md:p-8 p-4'>
+               <div className='flex justify-center items-center flex-col md:p-8 p-4 shadow-xl'>
                
                <div>
                    <img src={img9} />

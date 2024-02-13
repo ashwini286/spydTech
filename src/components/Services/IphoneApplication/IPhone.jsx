@@ -13,22 +13,30 @@ const IPhone = () => {
         <Navbarupp />
       </div>
       <img
-        src="https://www.aspirantsoftsolutions.com/img/iphone.jpg"
+        src="https://t2.tudocdn.net/662815?w=1920"
         className=" w-[100%]"
         alt="Background Image"
       />
 
-      <div className='md:px-16 px-4 py-4'>
-        <p className='text-[#656565]'>
-        iPhone is a product of Apple and runs on IOS operating system. All mobile applications built for iPhone and iPad are native to IOS. iPhone apps are extremely popular and extensively used across the world.
-        </p>
-        <br />
-        <p className='text-[#656565]'>Aspirant Soft Solutions, over the years, has hired, trained and nurtured high-quality mobile app development professionals to build iPhone native mobile app development for our clients in Hyderabad, India and to clients across the globe.</p>
-        <p className='text-[#656565]'>We go about meticulously implementing time tested, globally accepted best practices and methodologies in meeting our client’s requirements and building native iPhone mobile apps that are rich in user interface, user-friendliness and consistent with users’ requirements. The different stages of designing, developing, testing and deploying of iOS-based mobile apps are planned and executed meeting delivery schedules.</p>
-        <p className='text-[#656565]'>Our team of core iPhone app development, Mobile App Development and Software Development Company team continuously and consistently stay up to date with all currently available tools and technologies and upgrade their expertise with the emerging technologies to ensure we deliver world-class iPhone mobile apps to our clients to create a win-win situation for all stake holders.</p>
-      </div>
+<div className='md:px-16 px-4 py-4'>
+  <h2 className='text-4xl font-bold mb-4 text-[#656565] text-center py-4'>Empowering Your Ideas with iPhone App Development</h2>
+  <p className='text-[#656565] '>
+    iPhone, a flagship product of Apple, operates on the iOS operating system. Native iOS applications for iPhone and iPad are renowned for their performance and user experience, making them widely popular worldwide.
+  </p>
+  <br />
+  <p className='text-[#656565]'>
+    At SPY D Tech, we have cultivated a team of skilled professionals dedicated to crafting exceptional iPhone native mobile applications. From Hyderabad, India, to clients across the globe, our commitment to excellence shines through in every iOS app we develop.
+  </p>
+  <p className='text-[#656565]'>
+    We meticulously implement globally accepted best practices and methodologies, ensuring that our native iPhone apps boast impressive user interfaces, user-friendliness, and alignment with user requirements. From design to development, testing, and deployment, we adhere to time-tested processes to meet delivery schedules.
+  </p>
+  <p className='text-[#656565]'>
+    Our core iPhone app development team at SPY D Tech stays abreast of the latest tools and technologies. We continuously upgrade our expertise with emerging trends, guaranteeing that we deliver world-class iPhone mobile apps. This commitment creates a win-win situation for all stakeholders involved.
+  </p>
+</div>
+
     <OurCapabilities />
-    <IOSDevelopmentExpertise />
+    {/* <IOSDevelopmentExpertise /> */}
     <HowWeDevelop />
     <OurProvenMethodology />
     <Approch />

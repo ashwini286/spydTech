@@ -4,6 +4,7 @@ import Backend1 from '../../assets/backend/backend.png'
 import Java from './Java/Java';
 import Pyhton from './Python/Python';
 import Php from './Php/Php';
+import Help from './HowSpydTechHelp/Help'
 import Approch from '../../Home/APProchUs/Approch';
 import Footer from '../../Home/Footer/Footer';
 const Backend = () => {
@@ -20,6 +21,7 @@ const Backend = () => {
       <Java />
       <Php />
       <Pyhton />
+      <Help />
       <Approch />
 
 <Footer />

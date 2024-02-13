@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 const Php = () => {
   return (
     <>
-      <div className='flex  flex-col-reverse md:flex-row  items-center justify-center bg-gray-200 w-full mt-16'>
+      <div className='flex  flex-col-reverse md:flex-row  items-center justify-center  w-full mt-8'>
       <div className='md:w-[620px] md:h-[560px] text-white flex justify-center items-justify'>
         <div>
             <img src="https://pngimg.com/d/php_PNG26.png" alt="" className='mt-32' />

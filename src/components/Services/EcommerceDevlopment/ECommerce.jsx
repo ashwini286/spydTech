@@ -56,48 +56,48 @@ function ECommerce() {
         
            <h1 className='text-2xl text-bold text-center pb-10 tracking-wider'>Grow Sales with Online Marketing</h1>
             {/* <div className='grid sm:grid-flow-row md:grid-flow-col-2 lg:grid-flow-col'> */}
-              <div className=' grid md:grid md:grid-cols-3 md:px-4 gap-6 '>
-                     <div  className='flex md:flex-col lg:flex-col  justify-center items-center '>
+              <div className=' grid sm:grid-row md:grid md:grid-cols-3 md:px-4 gap-10 '>
+                     <div  className='grid sm:grid-row md:grid-col lg:grid-col  justify-center items-center '>
 
-                         <div className='flex  sm:flex '>
-                            <MdOutlinePersonSearch className='text-6xl lg:mt-7 md:mt-7 text-white bg-red-500'/> <h1 className=' p-5  text-2xl tracking-wider'>Search Engine Optimization</h1>
+                         <div className='flex '>
+                            <MdOutlinePersonSearch className='text-6xl  md:mt-7 text-white bg-red-500'/> <h1 className=' p-5  text-2xl tracking-wider'>Search Engine Optimization</h1>
                          </div> 
                            <p className='tracking-wider '>We ensure the website visibility increase organically in the search engines for relevant and targeted keywords, 
                               drive traffic, and generate leads and conversions.</p>
                      </div>
                      
-                        <div  className='flex md:flex-col lg:flex-col justify-center items-center '>
-                            <div className='flex sm:flex '>
-                               <BiSolidOffer className='text-6xl md:mt-5 text-white bg-blue-900'/><h1 className='p-5 text-2xl tracking-wider'>Offers & Discounts</h1>
+                        <div   className='grid sm:grid-row md:grid-col lg:grid-col  justify-center items-center '>
+                            <div className='flex '>
+                               <BiSolidOffer className='text-6xl md:mt-3 text-white bg-blue-900'/><h1 className='p-5 text-2xl tracking-wider'>Offers & Discounts</h1>
                              </div>
                                <p className='tracking-wider'>We offer innovative ideas and implement those techniques such as
                                  offers and discounts to create a shopping experience for your customers</p>
                         </div>
                        
-                     <div  className='flex md:flex-col lg:flex-col justify-center items-center '>
-                          <div className='flex sm:flex'>
-                            <GrGroup className='text-6xl mt-5 text-white bg-red-700'/><h1 className='p-5 text-2xl tracking-wider'>Referral Programs</h1>
+                     <div   className='grid sm:grid-row md:grid-col lg:grid-col  justify-center items-center '>
+                          <div className='flex'>
+                            <GrGroup className='text-6xl  text-white bg-red-700'/><h1 className='p-5 text-2xl tracking-wider'>Referral Programs</h1>
                          </div>
                              <p className='tracking-wider'>We help our clients integrate affiliate marketing program to create 
                                 multiple revenue streams, maximize sales and grow rapidly.</p>
                      
                       </div>
-                   <div   className='flex md:flex-col lg:flex-col justify-center items-center '>
-                        <div  className='flex sm:flex'>
+                   <div   className='grid sm:grid-row md:grid-col lg:grid-col  justify-center items-center '>
+                        <div  className='flex '>
                            <TbTargetArrow className='text-6xl lg:mt-7 md:mt-7 text-white bg-orange-400'/><h1 className='p-5 text-2xl  tracking-wider'>Google Adwords & Pay Per Click Advertising</h1>
                          </div>
                            <p className='tracking-wider'>We excel in creating and launching paid campaigns in AdWords, 
                              Facebook and Instagram reduce CPC and increase conversions.</p>
                      </div>
-                     <div   className='flex md:flex-col lg:flex-col justify-center items-center '>
-                          <div  className='flex sm:flex'>
+                     <div  className='grid sm:grid-row md:grid-col lg:grid-col justify-center items-center '>
+                          <div  className='flex '>
                              <SiAmazonsimpleemailservice className='text-6xl  text-white bg-[#2dd4bf]' /><h1 className='p-5 text-2xl  tracking-wider'>Email Campaigns</h1>
                            </div>
                            <p className='tracking-wider'>We create landing and squeeze pages generate 
                              email lists and execute email marketing campaigns leading to conversions</p>
                      </div>
-                     <div  className='flex md:flex-col lg:flex-col justify-center items-center '>
-                        <div  className='flex sm:flex '>
+                     <div   className='grid sm:grid-row md:grid-col lg:grid-col  justify-center items-center '>
+                        <div  className='flex  '>
                           <TbSocial className='text-6xl pl-4 lg:mt-7 md:mt-10 text-white bg-[#0ea5e9]'/><h1 className='p-5 text-2xl tracking-wider'>Create Social Media Presence</h1>
                         </div>
                           <p className='tracking-wider'>Social Media Optimization and Marketing is our forte. We create social media business pages, interact, 

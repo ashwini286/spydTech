@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 // import { useWindowScroll } from 'react-use';
 import { useLocation } from 'react-router-dom';
-import { FaAngleRight } from "react-icons/fa6";
+import { FaAngleRight  } from "react-icons/fa6";
 import {
   Navbar,
   Collapse,
@@ -20,6 +20,9 @@ import {
   Bars3Icon,
   XMarkIcon,
 } from "@heroicons/react/24/outline";
+import GroupsOutlinedIcon from '@mui/icons-material/GroupsOutlined';
+import PodcastsOutlinedIcon from '@mui/icons-material/PodcastsOutlined';
+import DvrOutlinedIcon from '@mui/icons-material/DvrOutlined';
 import {
   Bars4Icon,
   GlobeAmericasIcon,
@@ -157,7 +160,7 @@ function NavListMenu({ isSticky }) {
            <Link to={`/${Type1.toLowerCase()}`} key={key}> 
             <div className='flex justify-start items-center'>
               <div>
-                <FaAngleRight className='mr-3' />
+                <FaAngleRight  className='mr-3 ' style={{color:"#FF5A1F"}} />
               </div>
               <div className='mb-0'>
                 {Type1}
@@ -173,7 +176,7 @@ function NavListMenu({ isSticky }) {
             <Link to={`/${Type2.toLowerCase()}`} key={key}> 
             <div className='flex justify-start items-center'>
               <div>
-                <FaAngleRight className='mr-3' />
+                <FaAngleRight style={{color:"#FF5A1F"}} className='mr-3' />
               </div>
               <div>
                 {Type2}
@@ -190,7 +193,7 @@ function NavListMenu({ isSticky }) {
 
             <div className='flex justify-start items-center'>
               <div>
-                <FaAngleRight className='mr-3' />
+                <FaAngleRight style={{color:"#FF5A1F"}} className='mr-3' />
               </div>
               <div>
                 {Type3}
@@ -254,35 +257,36 @@ function NavListMenu({ isSticky }) {
 
 const companyMenu = [
   {
-    title: "Ecommerce",
-    color:"blue",
-    icon: ShoppingCartIcon,
+    title: "About Us",
+    color:"pink",
+    icon: GroupsOutlinedIcon,
   },
   {
-    title: "Frontend",
-    color:"orange",
-    icon: DevicesIcon,
+    title: "Vision & Mission",
+    color:"green",
+    icon: PodcastsOutlinedIcon,
 
   },
   {
-    title: "Mobile",
+    title: "What makes us different",
     color: "green",
-    icon: PhoneIphoneIcon,
+    icon: DvrOutlinedIcon,
 
   },
   {
-    title: "Services",
-    color: 'cyan',
-    icon: CloudQueueIcon,
+    title: "Our Core Values",
+    color: 'blue',
+    icon: ModelTrainingIcon,
 
   },
 ]
+
 function Company({ isSticky }) {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
   const renderItems = companyMenu.map(
     ({ icon, title,color }, key) => (
-      <a href="#" key={key}>
+      <Link to={`/${title.toLowerCase()}`} key={key}>
         <MenuItem className="flex items-center gap-3">
           <div className={`flex items-center justify-center rounded-lg !bg-${color}-500 p-2`}>
             {" "}
@@ -306,7 +310,7 @@ function Company({ isSticky }) {
 
         </MenuItem>
 
-      </a>
+      </Link>
     ))
   return (
     <React.Fragment>
