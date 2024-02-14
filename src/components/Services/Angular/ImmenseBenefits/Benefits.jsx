@@ -1,10 +1,15 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import VerifiedIcon from '@mui/icons-material/Verified';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Benefits = () => {
+  useEffect(() => {
+    AOS.init();
+  });
   return (
     <>
-      <div className=' mt-10 md:px-8 pb-16'>
+      <div className=' mt-10 md:px-8 pb-16' data-aos="fade-right">
         <div className='p-4 pl-16 md:text-4xl  text-[#656565] font-bold'>
         The immense benefits of AngularJS
         </div>

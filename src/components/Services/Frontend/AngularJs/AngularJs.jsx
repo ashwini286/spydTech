@@ -1,10 +1,15 @@
-import React from 'react'
+import React,{useEffect} from 'react'
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { Link } from 'react-router-dom'
 const AngularJs = () => {
+    useEffect(() => {
+        AOS.init();
+      });
   return (
     <>  <>
     <div className='flex flex-col md:flex-row  items-center justify-center'>
-        <div className='md:w-[620px] md:h-[560px] flex justify-center items-justify flex-col md:pl-24 pl-4 '>
+        <div className='md:w-[620px] md:h-[560px] flex justify-center items-justify flex-col md:pl-24 pl-4 ' data-aos="fade-up">
             <div className='md:text-3xl md:font-extrabold text-xl mt-10 font-bold'>
                 <h1 className='text-[#656565]'> AngularJS Development </h1>
             </div>
@@ -19,7 +24,7 @@ const AngularJs = () => {
         </div>
         <div>
         </div>
-        <div className='md:w-[620px] md:h-[560px] text-white flex justify-center items-justify flex-col '>
+        <div className='md:w-[620px] md:h-[560px] text-white flex justify-center items-justify flex-col ' data-aos="fade-down">
             <div>
                 <img src="https://miro.medium.com/v2/resize:fit:1400/1*R1mfXLP9edcArZXwmGbGag.jpeg" alt="" />
             </div>

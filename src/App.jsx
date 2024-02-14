@@ -33,6 +33,11 @@ import Microsoft from "./components/Services/Microsoft/Microsoft";
 import PowerBI from "./components/Services/Microsoft/PowerBI";
 import CloudTech from "./components/Services/Other Servies/Cloud Technologies/CloudTech";
 import Amazon from "./components/Services/Other Servies/Cloud Technologies/Amazon";
+import AboutUs from './components/Company/AboutUs/AboutUS'
+import MakesUsDifferent from './components/Company/WhatMakesUsDifferent/MakesUsDifferent';
+import VisionMission from "./components/Company/Vision$Mission/VisionMission";
+import OurCore from './components/Company/OurCoreValues/OurCore';
+import Mobile from './components/Services/Mobile/Mobile'
 
 const App = () => {
   return (
@@ -83,6 +88,7 @@ const App = () => {
           <Route path="/PowerBI" element={<PowerBI />} />
 
           {/* Mobile */}
+          <Route path="/MOBILE" element={<Mobile />} />
           <Route path="/IPhone Application" element={<IPhone />} />
           <Route path="/Android Application" element={<AndroidApplication />} />
           <Route path="/Hybrid App" element={<HybridApp />} />
@@ -90,6 +96,14 @@ const App = () => {
           {/* // other Servies  // */}
           <Route path="/Cloud Technologies" element={<CloudTech />} />
           <Route path="/Amazon" element={<Amazon />} />
+
+
+
+          {/* company */}
+          <Route path="/About Us" element={<AboutUs />} />
+          <Route path="/Vision & Mission" element={<VisionMission />} />
+          <Route path="/What makes us different" element={<MakesUsDifferent />} />
+          <Route path="/Our Core Values" element={<OurCore />} />
         </Routes>
       </BrowserRouter>
     </>

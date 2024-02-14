@@ -1,10 +1,14 @@
-import React from 'react'
-
+import React,{useEffect} from 'react'
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Development = () => {
+  useEffect(() => {
+    AOS.init();
+  });
   return (
     <>
       <div className='flex flex-col md:flex-row md:gap-16 pt-12 items-center justify-center'>
-      <div className='md:w-[620px] md:h-[560px] flex justify-center items-justify flex-col md:pl-24 pl-4'>
+      <div className='md:w-[620px] md:h-[560px] flex justify-center items-justify flex-col md:pl-24 pl-4' data-aos="fade-left">
      <div className='md:text-5xl md:font-extrabold text-2xl font-bold'>
      <h1 className='text-[#656565]'>Leading AngularJS  Development Company</h1>
      </div>
@@ -19,7 +23,7 @@ const Development = () => {
       <div>
 
       </div>
-      <div className='md:w-[620px] md:h-[560px] bg-gray-500 md:bg-[#A22D73] text-white flex justify-center items-justify flex-col md:pl-32 pl-4'>
+      <div className='md:w-[620px] md:h-[560px] bg-gray-500 md:bg-[#A22D73] text-white flex justify-center items-justify flex-col md:pl-32 pl-4' data-aos="fade-right">
        <div className='md:text-4xl pt-4'>
        <h1>THE SERVICES OFFERED BY ANGULAR JS ARE</h1>
        </div>
