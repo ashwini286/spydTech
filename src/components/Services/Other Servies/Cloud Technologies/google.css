@@ -1,0 +1,23 @@
+.sathish{
+    border: 4px solid #9e8b8b;
+    overflow: hidden;
+}
+
+@keyframes borderGlow  {
+    0% {
+      border-color: yellow; /* White */
+    }
+    50% {
+      border-color: blue; /* Light blue */
+    }
+    75% {
+      border-color: red; /* White */
+    }
+    100%{
+        border-color: green;
+    }
+  }
+  
+  .sathish {
+    animation: borderGlow 5s ease-in-out infinite; 
+  }

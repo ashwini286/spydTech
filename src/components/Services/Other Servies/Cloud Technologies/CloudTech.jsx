@@ -39,7 +39,7 @@ function CloudTech() {
        <p>Microsoft Azure, often referred to as Azure, is a cloud computing platform run by Microsoft. 
         It offers access, management, and the development of applications and services through global data centers.</p>
  
-        <Link>
+        <Link to="/Azure">
        <button className='bg-blue-500 rounded-md p-3 hover:bg-blue-800 hover:text-white mt-2'>Read More</button>
        </Link>
        </div>
@@ -60,7 +60,7 @@ function CloudTech() {
     <p>Google Cloud Platform, offered by Google, is a suite of cloud computing services that provides a series of modular 
         cloud services including computing, data storage, data analytics, and machine learning, alongside a set of management tools.</p>
         
-       <Link>
+       <Link to="/Google">
        <button className='bg-blue-500 rounded-md p-3 hover:bg-blue-800 hover:text-white mt-2'>Read More</button>
        </Link>
     </div>
