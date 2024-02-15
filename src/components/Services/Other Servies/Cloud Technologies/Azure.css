@@ -1,0 +1,21 @@
+.shyam {
+    border: 2px solid #fff;
+    overflow: hidden; /* Add overflow hidden */
+  }
+  
+  @keyframes borderGlow {
+    0% {
+      border-color: #fff; /* White */
+    }
+    50% {
+      border-color: #0ff; /* Light blue */
+    }
+    100% {
+      border-color: #fff; /* White */
+    }
+  }
+  
+  .shyam {
+    animation: borderGlow 2s ease-in-out infinite; 
+  }
+  
