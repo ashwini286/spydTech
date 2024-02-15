@@ -1,10 +1,15 @@
-import React from 'react'
+import React,{useEffect} from 'react'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Benefits = () => {
+  useEffect(() => {
+    AOS.init();
+  });
   return (
     <>
       <div className='flex flex-col md:flex-row md:gap-16 pt-8 items-center justify-center pb-16'>
-      <div className='md:w-[640px] md:h-[560px] bg-gray-500 md:bg-[#273683] text-white flex justify-center items-justify flex-col md:pl-32 pl-8 text-sm md:text-lg'>
+      <div className='md:w-[640px] md:h-[560px] bg-gray-500 md:bg-[#273683] text-white flex justify-center items-justify flex-col md:pl-32 pl-8 text-sm md:text-lg' data-aos="fade-up">
        <div className='md:text-2xl pt-4'>
        <h1>THE CAPABILITIES OFFERED BY JAVA ENCOMPASS</h1>
        </div>
@@ -19,11 +24,9 @@ const Benefits = () => {
         </ul>
        </div>
       </div>
-      <div>
-
-      </div>
+      
      
-      <div className='md:w-[600px] md:h-[560px] flex justify-center items-justify flex-col pl-4 pt-12'>
+      <div className='md:w-[600px] md:h-[560px] flex justify-center items-justify flex-col pl-4 pt-12' data-aos="fade-down">
      <div className='md:text-3xl md:font-extrabold text-2xl font-bold'>
      <h1 className='text-[#656565]'>Leading Java Development Company</h1>
      </div>

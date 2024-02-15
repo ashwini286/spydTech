@@ -33,8 +33,6 @@ import Microsoft from "./components/Services/Microsoft/Microsoft";
 import PowerBI from "./components/Services/Microsoft/PowerBI";
 import CloudTech from "./components/Services/Other Servies/Cloud Technologies/CloudTech";
 import Amazon from "./components/Services/Other Servies/Cloud Technologies/Amazon";
-import Azure from "./components/Services/Other Servies/Cloud Technologies/Azure";
-import Google from "./components/Services/Other Servies/Cloud Technologies/Google";
 
 const App = () => {
   return (
@@ -85,6 +83,7 @@ const App = () => {
           <Route path="/PowerBI" element={<PowerBI />} />
 
           {/* Mobile */}
+          <Route path="/MOBILE" element={<Mobile />} />
           <Route path="/IPhone Application" element={<IPhone />} />
           <Route path="/Android Application" element={<AndroidApplication />} />
           <Route path="/Hybrid App" element={<HybridApp />} />
@@ -92,8 +91,6 @@ const App = () => {
           {/* // other Servies  // */}
           <Route path="/Cloud Technologies" element={<CloudTech />} />
           <Route path="/Amazon" element={<Amazon />} />
-          <Route path="/Azure" element={<Azure />} />
-          <Route path="/Google" element={<Google />} />
         </Routes>
       </BrowserRouter>
     </>

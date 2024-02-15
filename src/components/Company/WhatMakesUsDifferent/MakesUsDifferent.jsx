@@ -1,44 +1,24 @@
 import React from 'react'
-import Navbarupp from "../../Home/Navbar/Navbarupp"
+import Navbarupp from "../../Home/Navbar/Navbarupp";
+import Makeus from '../../../components/assets/Company/makeus.jpg'
+import MakeUs from './makeus/MakeUs';
+import Approch from '../../Home/APProchUs/Approch';
+import Footer from '../../Home/Footer/Footer';
 const MakesUsDifferent = () => {
   return (
     <>
     
-    {/* <div>
+    <div>
       <Navbarupp />
-      </div>    */}
-
-      <div>
-        <div className='flex flex-row'>
-          <div className=''>
-            <div>
-              <p>What makes Us different</p>
-            </div>
-            <div>
-              <div>
-                <img />
-              </div>
-              <div className='w-[50%]'><p>Aspirant Soft Solutions is an international company dedicated to building close relationships with clients. We have everyday interactions with the dynamic global marketplace, building an enviable understanding of business in every cultural, economic, and political region of the world. No matter where you are in the world, we are there for you.</p></div>
-            </div>
-          </div>
-
-
-          <div className='w-[50%]'>
-            <div>
-              <p>
-              Aspirant team by numbers
-              </p>
-            </div>
-            <div>
-<div>
-
-
-</div>
-            </div>
-          </div>
-
-        </div>
-      </div>
+      </div>   
+      <img
+      src={Makeus}
+      className=" object-cover w-full"
+      alt="Background Image"
+      />
+<MakeUs />
+<Approch />
+<Footer />
     </>
   )
 }

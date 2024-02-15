@@ -2,6 +2,7 @@ import React from 'react'
 import Navbarupp from "../../Home/Navbar/Navbarupp";
 import OurCapabilities from './OurCapabilities/OurCapabilities';
 import IOSDevelopmentExpertise from './iOSDevelopmentExpertise/iOSDevelopmentExpertise';
+import Iphone from '../../assets/IPhoneApplication/Iphone.png'
 import HowWeDevelop from './HowWeDevelopPowerfulIOS/HowWeDevelop';
 import OurProvenMethodology from './OurProvenMethodology/OurProvenMethodology';
 import Approch from '../../Home/APProchUs/Approch';
@@ -13,7 +14,7 @@ const IPhone = () => {
         <Navbarupp />
       </div>
       <img
-        src="https://t2.tudocdn.net/662815?w=1920"
+        src={Iphone}
         className=" w-[100%]"
         alt="Background Image"
       />

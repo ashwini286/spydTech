@@ -20,7 +20,7 @@ const OurCapabilities = () => {
                   <div className='grid md:grid-cols-3 gap-10 pt-[25px]'>
                   <div className='flex justify-center items-center flex-col '>
                         <div>
-                            <img src={img1} />
+                            <img src={img1}  className='hover:animate-spin'/>
                         </div>
                         <div>
                             <p className='text-center pt-[15px] text-[#656565]' >iPhone SDK</p>
@@ -31,7 +31,7 @@ const OurCapabilities = () => {
 
                     <div className='flex justify-center items-center flex-col'>
                         <div>
-                            <img src={img2} />
+                            <img src={img2}  className='hover:animate-spin'/>
                         </div>
                         <div>
                             <p className='text-center pt-[15px] text-[#656565]'>iPhone SDK</p>
@@ -43,7 +43,7 @@ const OurCapabilities = () => {
 
                     <div className='flex justify-center items-center flex-col'>
                         <div>
-                            <img src={img3} />
+                            <img src={img3} className='hover:animate-spin'/>
                         </div>
                         <div>
                             <p className='text-center pt-[15px] text-[#656565]'>iPhone SDK</p>
