@@ -1,15 +1,15 @@
 import React, { useState } from "react";
-import Img1 from "../assets/webDesign1.jpg";
-import Img2 from "../assets/webDesign2.jpeg";
-import Img3 from "../assets/webDesign3.jpg";
-import Img4 from "../assets/phone6.png";
-import Img5 from "../assets/phone5.png";
-import Img6 from "../assets/phone4.png";
+import Img1 from "../assets/Protfolio/webDesign1.png";
+import Img2 from "../assets/Protfolio/webDesign2.png";
+import Img3 from "../assets/Protfolio/webDesign3.png";
+import Img4 from "../assets/Protfolio/phone6.png";
+import Img5 from "../assets/Protfolio/phone5.png";
+import Img6 from "../assets/Protfolio/phone3.png";
 import Img7 from "../assets/Desktop1.png";
 import Img8 from "../assets/Desktop2.jpg";
-import Img9 from "../assets/Desktop3.png";
-import Img10 from "../assets/webApp1.png";
-import Img11 from "../assets/webApp2.png";
+import Img9 from "../assets/Protfolio/Desktop3.png";
+import Img10 from "../assets/webApp2.png";
+import Img11 from "../assets/Protfolio/webApp22.png";
 import Img12 from "../assets/webApp3.png";
 // import {
 //   Navbar,

@@ -8,8 +8,8 @@ const OurCore = () => {
       <Navbarupp />
       </div>   
       <img
-        src="https://www.teleioscn.org/hubfs/corevalue_main.jpg"
-        className=" object-cover  w-full"
+        src="https://elitesquadglobal.com/wp-content/uploads/2016/04/core-values.jpg"
+        className="   w-full"
         alt="Background Image"
       />
     </>
