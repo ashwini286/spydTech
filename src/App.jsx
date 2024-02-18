@@ -33,6 +33,11 @@ import Microsoft from "./components/Services/Microsoft/Microsoft";
 import PowerBI from "./components/Services/Microsoft/PowerBI";
 import CloudTech from "./components/Services/Other Servies/Cloud Technologies/CloudTech";
 import Amazon from "./components/Services/Other Servies/Cloud Technologies/Amazon";
+import Mobile from './components/Services/Mobile/Mobile';
+import AboutUS from "./components/Company/AboutUs/AboutUS";
+import OurCore from "./components/Company/OurCoreValues/OurCore";
+import VisionMission from './components/Company/Vision$Mission/VisionMission';
+import MakesUsDifferent from './components/Company/WhatMakesUsDifferent/MakesUsDifferent'
 
 import Azure from "./components/Services/Other Servies/Cloud Technologies/Azure";
 import Google from "./components/Services/Other Servies/Cloud Technologies/Google";
@@ -101,6 +106,7 @@ const App = () => {
           {/* // other Servies  // */}
           <Route path="/Cloud Technologies" element={<CloudTech />} />
           <Route path="/Amazon" element={<Amazon />} />
+
           <Route path="/Azure" element={<Azure />} />
           <Route path="/Google" element={<Google />} />
 
@@ -112,6 +118,16 @@ const App = () => {
           <Route path="/Vision & Mission" element={<VisionMission />} />
           <Route path="/What makes us different" element={<MakesUsDifferent />} />
           <Route path="/Our Core Values" element={<OurCore />} />
+
+
+
+{/* Compnay  */}
+<Route path="/About Us" element={<AboutUS />} />
+<Route path="/Our Core Values" element={<OurCore />} />
+<Route path="/Vision & Mission" element={<VisionMission />} />
+<Route path="/What makes us different" element={<MakesUsDifferent />} />
+
+
 
         </Routes>
       </BrowserRouter>
