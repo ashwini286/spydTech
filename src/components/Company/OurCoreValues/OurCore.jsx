@@ -1,5 +1,6 @@
 import React from 'react'
-import Navbarupp from "../../Home/Navbar/Navbarupp"
+import Navbarupp from "../../Home/Navbar/Navbarupp";
+import Card from './corecard/Card';
 const OurCore = () => {
   return (
     <>
@@ -12,6 +13,7 @@ const OurCore = () => {
         className="   w-full"
         alt="Background Image"
       />
+      <Card />
     </>
   )
 }
