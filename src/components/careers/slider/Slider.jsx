@@ -73,7 +73,7 @@ const Slider = () => {
 
   return (
     <div className='mx-auto max-w-screen-xl w-full pt-16'>
-    <div className='grid grid-cols-6 gap-4 mb-12'>
+    <div className='grid lg:grid-cols-6 gap-4 mb-12 md:grid-cols-2 grid-cols-1'>
       {slideData.map((slide, index) => (
         <div key={index} className='flex flex-col items-center space-y-2 relative '>
           <button
@@ -162,6 +162,8 @@ const Slider = () => {
     </style>
   </div>
 );
+
+
 };
 
 export default Slider;
