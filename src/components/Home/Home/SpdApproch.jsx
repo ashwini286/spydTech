@@ -9,9 +9,9 @@ import './Spdapproch.css';
 function SpdApproch() {
   return (
     <>
-      <div className='flex flex-wrap  justify-center  gap-6 md:gap-5 p-10'>
+      <div className='flex flex-wrap  flex-col md:flex-row justify-center items-center  gap-6 md:gap-5 p-10'>
         {/* 1st card */}
-        <div className="w-full max-w-sm  md:w-60 h-64 relative ">
+        <div className=" max-w-sm w-60 h-56 relative ">
           <div className="group w-full h-full perspective">
             <div className="flip-card">
               <div className="flip-card-inner">
@@ -37,7 +37,7 @@ function SpdApproch() {
         </div>
 
         {/* 2nd card */}
-        <div className="w-full max-w-sm md:w-60 h-64 relative">
+        <div className=" max-w-sm  w-60 h-56 relative">
           <div className="group w-full h-full perspective">
             <div className="flip-card">
               <div className="flip-card-inner">
@@ -63,7 +63,7 @@ function SpdApproch() {
         </div>
         
         {/* 3rd card */}
-        <div className="w-full max-w-sm md:w-60 h-64 relative">
+        <div className=" max-w-sm  w-60 h-56 relative">
           <div className="group w-full h-full perspective">
             <div className="flip-card">
               <div className="flip-card-inner">
@@ -89,7 +89,7 @@ function SpdApproch() {
         </div>
         
         {/* 4th card */}
-        <div className="w-full max-w-sm md:w-60 h-64 relative ">
+        <div className=" max-w-sm  w-60 h-56 relative ">
           <div className="group w-full h-full perspective">
             <div className="flip-card">
               <div className="flip-card-inner">
