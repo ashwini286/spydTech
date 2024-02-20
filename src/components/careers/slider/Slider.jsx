@@ -73,23 +73,16 @@ const Slider = () => {
 
   return (
     <div className='mx-auto max-w-screen-xl w-full pt-16'>
-    <div className='grid lg:grid-cols-6 gap-4 mb-12 md:grid-cols-2 grid-cols-1'>
+    <div className='grid lg:grid-cols-6 gap-4 mb-12 md:grid-cols-3 grid-cols-1'>
       {slideData.map((slide, index) => (
         <div key={index} className='flex flex-col items-center space-y-2 relative '>
           <button
             className={`p-10 rounded-full bg-gray-300 text-4xl hover:bg-light-blue-400 ${
               index === visibleImageIndex ? 'active' : ''
-            } ${
-              index === visibleImageIndex - 1 && index !== 0 ? 'lg:left-0 hidden lg:block' : ''
-            } ${
-              index === visibleImageIndex + 1 && index !== slideData.length - 1 ? 'lg:right-0 hidden lg:block' : ''
-            }`}
+            } `}
             onClick={() => scrollToImage(index)}
           >
-            {index === visibleImageIndex - 1 && index !== 0 && <FaChevronLeft className='left-0 lg:hidden' />}
-            {index === visibleImageIndex + 1 && index !== slideData.length - 1 && (
-              <FaChevronRight className='right-0 lg:hidden' />
-            )}
+            
             {slide.icons}
           </button>
 
@@ -121,7 +114,7 @@ const Slider = () => {
           </div>
         ))}
       </div>
-      <div className='w-full lg:w-1/2 swiper-slide' data-aos='fade-left'>
+      <div className='w-full lg:w-1/2 swiper-slide' >
         {slideData.map((slide, index) => (
           <div
             key={index}
@@ -148,16 +141,7 @@ const Slider = () => {
           left: 50%;
           transform: translate(-50%, -50%);
         }
-        .active-text {
-        }
-
-        /* Hide navigation buttons in large view */
-        @media (min-width: 768px) {
-          .swiper-button-next,
-          .swiper-button-prev {
-            display: none;
-          }
-        }
+       
       `}
     </style>
   </div>

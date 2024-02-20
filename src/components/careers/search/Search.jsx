@@ -30,7 +30,7 @@ function Search() {
   };
 
   return (
-    <div className='flex justify-center items-center pt-4'>
+    <div className='flex justify-center items-center pt-4 flex-col'>
       <input
         type="text"
         placeholder="Search Job"

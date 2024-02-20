@@ -11,26 +11,26 @@ const GetInTouch = () => {
     GET IN TOUCH
     </div>
 <div className='text-white ml-12 '>
-    <p className='text-lg'>Aspirant Soft Solutions</p>
-    <p className='text-blue-gray-400 text-xl py-1'>Headquarters</p>
+    <p className='text-lg'>SPY D Tech Privite Limited</p>
+    <p className='text-blue-gray-400 text-xl py-1'>Headquarter</p>
     <div className='flex items-center gap-2'>
         <p><FaLocationDot/></p>
-        <p className='py-1'>  Phaniraj Towers, First floor</p>
+        <p className='py-1'>  Meera complex Plot, No-852, 2nd floor</p>
     </div>
 
     <div className='flex items-center gap-2'>
     <p><FaLocationDot/></p>
-    <p className='py-1'>Kamala Nagar, Anantapur - 515001</p>
+    <p className='py-1'> Madhapur Hyderabad, Telangana - 500081</p>
     </div>
     
     <div className='flex items-center gap-2'>
     <p><FaPhoneAlt/></p>
-    <p className='py-1'> +91 9515080818, 08554-237788</p>
+    <p className='py-1'> 040-43334849</p>
     </div>
   
   <div className='flex items-center gap-2'>
     <p><IoMail /></p>
-    <p className='py-1'> info@aspirantsoftsolutions.com</p>
+    <p className='py-1'> info@spydtech.com</p>
   </div>
    
 </div>
