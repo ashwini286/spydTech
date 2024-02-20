@@ -36,7 +36,7 @@ const VisionMission = () => {
       </div>
     </div>
     <div className='lg:px-16'>
-      <div className='pb-8 pl-16 text-center text-xl'>VISION</div>
+      <div className='pb-8 pl-16 text-center text-xl '>VISION</div>
       <div className='flex flex-row items-center gap-8'>
         <div className='text-blue-800'><VerifiedOutlinedIcon /></div>
         <p className='lg:text-lg'>At SPY D Tech, our vision extends beyond conventional success metrics. We aspire not just to be an internationally reputed company, but to be a trailblazer in the realm of emerging technologies. We envision a future where SPY D Tech stands synonymous with innovation, consistently delivering quality solutions that go beyond meeting expectations to truly delight our clients.</p>
