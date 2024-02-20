@@ -46,12 +46,12 @@ const Approch = () => {
               }}
             >
               <div className=" text-center mr-[60px]">
-                <div className="flex justify-center items-center flex-row pr-16">
+                <div className="flex justify-right items-center flex-row pr-16">
                   <div>
                     <img src={Logo} alt="sorry" className="" />
                   </div>
                   <p
-                    className="font-poppins md:text-[30px] text-white text-xl"
+                    className="font-poppins md:text-[30px]  text-white text-xl pl-2"
                   >
                     Approach Us
                   </p>
@@ -61,13 +61,13 @@ const Approch = () => {
                   className="flex justify-center items-center flex-row font-poppins xs:text-[10px] text-[15px] text-white w-full"
                   
                 >
-                  <div className="text-[40px] ml-[15%]">
+                  <div className="text-[40px] ">
                     <LuMapPin />
                   </div>
-                  <div className="ml-3">REACH US</div>
+                  <div className="ml-2">REACH US</div>
                 </div>
                 <div className="mt-4 flex justify-end items-justify ml-[120px]">
-                  <p className="text-white w-[250px] ">
+                  <p className="text-white w-[265px]">
                     Meera complex Plot, No-852, 2nd floor
                     Madhapur Hyderabad, Telangana - 500081
                   </p>
@@ -75,7 +75,7 @@ const Approch = () => {
                 <div
                   className="flex justify-center items-center flex-row font-poppins xs:text-[10px] text-[15px] text-white w-full leading-[80.8px]"
                 >
-                  <div className="text-[25px] ml-[20%]">
+                  <div className="text-[25px] ml-[10%]">
                     <FiPhoneCall />
                   </div>
                   <div className="ml-6">040-43334849</div>

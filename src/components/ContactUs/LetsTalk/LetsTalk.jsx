@@ -87,13 +87,13 @@ const LetsTalk = () => {
                   <div className="text-[20px]">
                     <FaPhoneAlt />
                   </div>
-                  <div className="ml-3">info@spyd.com</div>
+                  <div className="ml-3">040-43334849</div>
                 </div>
                 <div className="flex  flex-row font-poppins xs:text-[10px] text-[15px] text-white w-full pt-2">
                   <div className="text-[20px]">
                     <FaPhoneAlt />
                   </div>
-                  <div className="ml-3">info@spyd.com</div>
+                  <div className="ml-3">040-43334849</div>
                 </div>
               </div>
               <br />

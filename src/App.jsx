@@ -7,6 +7,7 @@ import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Frontend from "./components/Services/Frontend/Frontend";
 import AngularJS from "./components/Services/Angular/AngularJS";
 import Reactjs from "./components/Services/Reactjs/Reactjs";
+import Careers from "./components/careers/Careers";
 import NextJS from "./components/Services/NextJs/NextJS";
 import Php from "./components/Services/PHP/Php";
 import Backend from "./components/Services/Backend/Backend";
@@ -56,6 +57,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/TryADemo" element={<TryADemo />} />
+          <Route path="/careers" element={<Careers />} />
           {/* //services */}
           {/* //ERPNext */}
           <Route path="/ERPNext TECHNOLOGY" element={<ERPNext />} />

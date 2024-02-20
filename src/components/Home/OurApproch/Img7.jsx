@@ -1,9 +1,9 @@
 import React from 'react'
-
+import Support from '../../assets/home/support.png'
 const Img7 = () => {
   return (
     <div>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs5t2alpwtFPChe8co4KnS854cIVhPgB6PoHZ-FLzPwA&s" alt="" />
+        <img src={Support} alt="" />
     </div>
   )
 }

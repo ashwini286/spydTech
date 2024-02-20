@@ -1,6 +1,12 @@
 import React, { useEffect } from "react";
 import Person from '../../assets/person.png'
 import Service1 from '../../assets/service1.jpg'
+import img from '../../assets/home/img.png'
+import img1 from '../../assets/home/ERPNXT2.png'
+import img2 from '../../assets/home/ERPNXT3.png'
+import img3 from '../../assets/home/ERPNXT4.png'
+import img4 from '../../assets/home/ERPNXT5.png'
+import img5 from '../../assets/home/ERPNXT6.png'
 import Service2 from '../../assets/service2.jpg';
 
 import AOS from "aos";
@@ -13,12 +19,12 @@ const Services1 = () => {
     AOS.init();
   });
   const Services = [
-    { id: 1, title: "Membership Organisations", descraption: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere quibusdam qui soluta.", image: Service1 },
-    { id: 2, title: "National Associations", descraption: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere quibusdam qui soluta.", image: Service2 },
-    { id: 3, title: "Clubs ANd Groups", descraption: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere quibusdam qui soluta.", image: "https://png.pngtree.com/png-vector/20200310/ourmid/pngtree-online-education-training-course-design-concept-vector-illustration-png-image_2158408.jpg" },
-    { id: 4, title: "Membership Organisations", descraption: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere quibusdam qui soluta.", image: Service1 },
-    { id: 5, title: "National Associations", descraption: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere quibusdam qui soluta.", image: Service2 },
-    { id: 6, title: "Clubs ANd Groups", descraption: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere quibusdam qui soluta.", image: "https://png.pngtree.com/png-vector/20200310/ourmid/pngtree-online-education-training-course-design-concept-vector-illustration-png-image_2158408.jpg" },
+    { id: 1, title: "Membership Organisations", descraption: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere quibusdam qui soluta.", image: img1 },
+    { id: 2, title: "National Associations", descraption: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere quibusdam qui soluta.", image: img2 },
+    { id: 3, title: "Clubs ANd Groups", descraption: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere quibusdam qui soluta.", image: img3},
+    { id: 4, title: "Membership Organisations", descraption: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere quibusdam qui soluta.", image: img4 },
+    { id: 5, title: "National Associations", descraption: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere quibusdam qui soluta.", image: img5 },
+    { id: 6, title: "Clubs ANd Groups", descraption: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere quibusdam qui soluta.", image: img2},
 
   ]
   return (
@@ -38,7 +44,7 @@ const Services1 = () => {
           <p className='text-[#656565]'>We are one stop, full service, and turnkey solutions provider for</p>
           <h2 className='text-2xl md:text-3xl text-[#656565] font-normal mb-3'>Web, Mobility and Digital Marketing Services.</h2>
           <div className='flex justify-center items-center' data-aos="fade-right">
-            <img src='https://www.synotive.com/Content/images/image7.jpg' />
+            <img src={img} />
           </div>
         </div>
 

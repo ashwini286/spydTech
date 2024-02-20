@@ -391,7 +391,8 @@ function NavList({ isSticky }) {
 
         </Typography>
       </Link>
-      <Typography
+     <Link to = '/careers'>
+     <Typography
         as="a"
         href="#"
         variant="small"
@@ -402,6 +403,7 @@ function NavList({ isSticky }) {
         </ListItem>
       </Typography>
 
+     </Link>
 
       <Link to='/contact'>
       <Typography
