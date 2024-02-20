@@ -2,7 +2,7 @@ import React from 'react'
 import Navbarupp from '../../Home/Navbar/Navbarupp'
 import Approch from '../../Home/APProchUs/Approch'
 import IMG from "../../assets/ecommerce.jpg"
-import IMG2 from "../../assets/mobileanimation2.gif"
+import IMG2 from "../../assets/mobileanimation2k.gif"
 import { MdOutlinePersonSearch } from "react-icons/md";
 import { BiSolidOffer } from "react-icons/bi";
 import { TbTargetArrow } from "react-icons/tb";
@@ -20,8 +20,15 @@ function ECommerce() {
         className='pb-10'
         />
         </div>
-        <div className='flex p-5 ml-5  text-[#656565]'>
-            <div className='w-2/4 p-5 space-y-2 text-left tracking-wider'>
+        <div className='grid sm:grid-flow-row md:grid-flow-row lg:grid-cols-2 p-4 ml-0  text-[#656565]'>
+        <div className=''>
+             
+             <img 
+              src={IMG2}
+              className='sm:w-[100%] h-[30rem] ml-[0%] lg:w-[90%] bg-gradient-to-bt from-black-900'
+              />
+             </div>
+            <div className='w-full lg:pt-[-15%] pt-4 pl-4 space-y-2 text-left tracking-wider'>
                 <p>
                 Aspirant Soft Solutions are pioneering building E-Commerce Platforms for small, 
                 medium and large enterprises globally. Our E-Commerce solutions are scalable, 
@@ -45,19 +52,22 @@ function ECommerce() {
                 Value added features to increase user engagement culminating into revenue growth   
                 </p>
             </div>
-            <img 
+           {/* <div>
+             
+           <img 
             src={IMG2}
             className='w-[50%] h-[30rem] ml-[10%]'
             />
+           </div> */}
 
         
         </div>
-    <div className='bg-[rgb(248,244,244)]  pt-5 py-4 px-4'>
+    <div className='bg-[rgb(248,244,244)]   pt-5 py-4 px-4'>
         
-           <h1 className='text-2xl text-bold text-center pb-10 tracking-wider'>Grow Sales with Online Marketing</h1>
+           <h1 className='text-2xl text-bold text-center pb-10 pl-4 tracking-wider'>Grow Sales with Online Marketing</h1>
             {/* <div className='grid sm:grid-flow-row md:grid-flow-col-2 lg:grid-flow-col'> */}
-              <div className=' grid sm:grid-row md:grid md:grid-cols-3 md:px-4 gap-10 '>
-                     <div  className='grid sm:grid-row md:grid-col lg:grid-col  justify-center items-center '>
+              <div className=' grid sm:grid-row md:grid md:grid-row md:px-4 lg:grid-cols-3 gap-10 pl-4 '>
+                     <div  className='grid sm:grid-row md:grid-col lg:grid-col-3  justify-center items-center '>
 
                          <div className='flex '>
                             <MdOutlinePersonSearch className='text-6xl  md:mt-7 text-white bg-red-500'/> <h1 className=' p-5  text-2xl tracking-wider'>Search Engine Optimization</h1>
