@@ -24,10 +24,10 @@ const Home = () => {
     <>
       <Navbarupp />
       
-      <div className="max-w-screen mx-auto min-h-screen relative">
-        <Carousel className="w-full  mx-auto top-0">
+      <div className=" max-w-screen mx-auto min-h-screen relative">
+        <Carousel className=" w-full  mx-auto top-0">
           {/* Slide 1 */}
-          <div className="relative flex h-screen items-center justify-center">
+          <div className="flex relative  h-screen items-center justify-center">
             <img src={IMG1} className="absolute inset-0 object-cover w-full h-full" alt="Background 1" style={{ filter: "brightness(50%)" }} />
             <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-75"></div>
             <div className="absolute inset-0 grid place-items-center text-left text-white">

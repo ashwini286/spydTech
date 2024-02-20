@@ -24,7 +24,9 @@ body {
 
 .wrapper {
   display: inline-flex;
+  padding-left: 14%;
   list-style: none;
+  
 }
 
 .wrapper .icon {
@@ -67,6 +69,7 @@ body {
   background: #ffffff;
   bottom: -3px;
   left: 50%;
+  
   transform: translate(-50%) rotate(45deg);
   transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
