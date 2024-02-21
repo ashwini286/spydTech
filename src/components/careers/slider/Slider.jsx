@@ -11,7 +11,7 @@ import { GrOptimize } from "react-icons/gr";
 import { FaChevronRight } from "react-icons/fa";
 import { FaChevronLeft } from "react-icons/fa";
 
-import PhoneSlider from './PhoneSlider';
+
 const slide = [
   "hello","hiii","ashwini","hello"
 ]
