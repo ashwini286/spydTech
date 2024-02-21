@@ -240,7 +240,7 @@ function NavListMenu({ isSticky }) {
           </Typography>
         </MenuHandler>
         <MenuList className="hidden max-w-screen-xl lg:block">
-          <ul className="grid grid-cols-1 gap-y-2 md:grid-cols-2 lg:grid-cols-4 md:overflow-y-hidden sm:overflow-hidden">
+          <ul className="grid grid-cols-1 gap-y-2 md:grid-cols-2 lg:grid-cols-4 md:overflow-y-hidden overflow-hidden">
             {renderItems}
           </ul>
         </MenuList>
@@ -345,7 +345,7 @@ function Company({ isSticky }) {
           </Typography>
         </MenuHandler>
         <MenuList className="hidden max-w-screen-xl lg:block">
-          <ul className="grid grid-cols-1 gap-y-2 md:grid-cols-2 lg:grid-cols-4 md:overflow-x-auto sm:overflow-x-auto">
+          <ul className="grid grid-cols-1 gap-y-2 md:grid-cols-2 lg:grid-cols-4 md:overflow-x-auto overflow-x-auto">
             {renderItems}
           </ul>
         </MenuList>

@@ -1,7 +1,5 @@
 import React, { useRef, useState , useEffect} from 'react';
-import Swiper from 'swiper';
 import "./slider.css"
-import 'swiper/css';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { PiWebhooksLogoFill } from "react-icons/pi";
@@ -13,49 +11,55 @@ import { GrOptimize } from "react-icons/gr";
 import { FaChevronRight } from "react-icons/fa";
 import { FaChevronLeft } from "react-icons/fa";
 
+import PhoneSlider from './PhoneSlider';
+const slide = [
+  "hello","hiii","ashwini","hello"
+]
+
+const slideData = [
+  {
+    icons: <PiWebhooksLogoFill className='text-blue-800 '/>,
+    name: "WEB STRATEGY",
+    image: "https://www.digitalsilk.com/wp-content/uploads/2023/09/1_WEB_STRATEGY-2.png.webp",
+  
+    description: "Web strategy involves planning and execution of strategies to achieve goals on the web. It includes defining objectives, target audience, and ways to achieve a competitive edge in the digital space."
+  },
+  {
+    icons: <RiPagesLine className='text-red-800'/>,
+    name: "Planning & Information Architecture",
+    image: "https://www.digitalsilk.com/wp-content/uploads/2023/09/2_PLANNING__INFORMATION_ARCHITECTURE-1.png.webp", "data-aos": "fade-right",
+    description: "Information architecture is the art and science of organizing and labeling content on websites and web applications. It ensures that users can easily find and understand the information they're looking for."
+  },
+  {
+    icons: <FaRegLightbulb className='text-yellow-800'/>,
+    name: "Creative Design",
+    image: "https://www.digitalsilk.com/wp-content/uploads/2023/09/3_CREATIVE_DESIGN-1.png.webp", "data-aos": "fade-right",
+    description: "Creative design involves the visual and aesthetic aspects of web development. It includes designing layouts, graphics, and other visual elements to create an engaging and user-friendly experience."
+  },
+  {
+    icons: <FaCode className='text-cyan-900' />,
+    name: "Responsive Development",
+    image: "https://www.digitalsilk.com/wp-content/uploads/2023/09/4_RESPONSIVE_DEVELOPMENT-1.png.webp",
+    description: "Responsive development focuses on creating websites and applications that adapt to different screen sizes and devices. It ensures a consistent and enjoyable user experience across desktops, tablets, and mobile devices."
+  },
+  {
+    icons: <FaRegThumbsUp className='text-green-900' />,
+    name: "Quality Assurance (QA)",
+    image: "https://www.digitalsilk.com/wp-content/uploads/2023/09/5_QUALITY_ASSURANCE-1.png.webp",
+    description: "Quality assurance is the process of ensuring that a website or application meets the specified requirements and standards. It involves testing, debugging, and identifying and fixing any issues or bugs."
+  },
+  {
+    icons: <GrOptimize className='text-blue-800'/>,
+    name: "Launch & optimization",
+    image: "https://www.digitalsilk.com/wp-content/uploads/2023/09/6_LAUNCH__OPTIMIZATION-1.png.webp",
+    description: "Launch optimization involves the final steps before launching a website or application. It includes performance optimization, security checks, and ensuring all elements are in place for a successful launch."
+  }
+];
 const Slider = () => {
     useEffect(() => {
         AOS.init();
       });
-  const slideData = [
-    {
-      icons: <PiWebhooksLogoFill className='text-blue-800 '/>,
-      name: "WEB STRATEGY",
-      image: "https://www.digitalsilk.com/wp-content/uploads/2023/09/1_WEB_STRATEGY-2.png.webp",
-    
-      description: "Web strategy involves planning and execution of strategies to achieve goals on the web. It includes defining objectives, target audience, and ways to achieve a competitive edge in the digital space."
-    },
-    {
-      icons: <RiPagesLine className='text-red-800'/>,
-      name: "Planning & Information Architecture",
-      image: "https://www.digitalsilk.com/wp-content/uploads/2023/09/2_PLANNING__INFORMATION_ARCHITECTURE-1.png.webp", "data-aos": "fade-right",
-      description: "Information architecture is the art and science of organizing and labeling content on websites and web applications. It ensures that users can easily find and understand the information they're looking for."
-    },
-    {
-      icons: <FaRegLightbulb className='text-yellow-800'/>,
-      name: "Creative Design",
-      image: "https://www.digitalsilk.com/wp-content/uploads/2023/09/3_CREATIVE_DESIGN-1.png.webp", "data-aos": "fade-right",
-      description: "Creative design involves the visual and aesthetic aspects of web development. It includes designing layouts, graphics, and other visual elements to create an engaging and user-friendly experience."
-    },
-    {
-      icons: <FaCode className='text-cyan-900' />,
-      name: "Responsive Development",
-      image: "https://www.digitalsilk.com/wp-content/uploads/2023/09/4_RESPONSIVE_DEVELOPMENT-1.png.webp",
-      description: "Responsive development focuses on creating websites and applications that adapt to different screen sizes and devices. It ensures a consistent and enjoyable user experience across desktops, tablets, and mobile devices."
-    },
-    {
-      icons: <FaRegThumbsUp className='text-green-900' />,
-      name: "Quality Assurance (QA)",
-      image: "https://www.digitalsilk.com/wp-content/uploads/2023/09/5_QUALITY_ASSURANCE-1.png.webp",
-      description: "Quality assurance is the process of ensuring that a website or application meets the specified requirements and standards. It involves testing, debugging, and identifying and fixing any issues or bugs."
-    },
-    {
-      icons: <GrOptimize className='text-blue-800'/>,
-      name: "Launch & optimization",
-      image: "https://www.digitalsilk.com/wp-content/uploads/2023/09/6_LAUNCH__OPTIMIZATION-1.png.webp",
-      description: "Launch optimization involves the final steps before launching a website or application. It includes performance optimization, security checks, and ensuring all elements are in place for a successful launch."
-    }
-  ];
+ 
 
 
   const imageRefs = slideData.map(() => useRef(null));
@@ -72,7 +76,8 @@ const Slider = () => {
   };
 
   return (
-    <div className='mx-auto max-w-screen-xl w-full pt-16'>
+    <>
+      <div className='mx-auto max-w-screen-xl w-full pt-16'>
     <div className='grid lg:grid-cols-6 gap-4 mb-12 md:grid-cols-3 grid-cols-1'>
       {slideData.map((slide, index) => (
         <div key={index} className='flex flex-col items-center space-y-2 relative '>
@@ -145,6 +150,12 @@ const Slider = () => {
       `}
     </style>
   </div>
+    
+    
+    </>
+  
+
+ 
 );
 
 

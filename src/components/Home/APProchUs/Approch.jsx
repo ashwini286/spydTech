@@ -46,7 +46,7 @@ const Approch = () => {
               }}
             >
               <div className=" text-center mr-[60px]">
-                <div className="flex justify-right items-center flex-row pr-16">
+                <div className="flex justify-right items-center flex-row  pr-16">
                   <div>
                     <img src={Logo} alt="sorry" className="" />
                   </div>

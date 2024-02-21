@@ -48,7 +48,7 @@ const Services1 = () => {
           </div>
         </div>
 
-        <div className='mt-14 grid lg:grid-cols-3 md:grid-cols-3 grid-cols-1 md:w-11/12 mx-auto gap-7'>
+        <div className='mt-14 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:w-11/12 mx-auto gap-7'>
           {
             Services.map(service => <div key={service.id} className='px-4 py-8 text-center md:w-[300px]
           mx-auto md:h-88 rounded-md shadow-2xl cursor-pointer hover:translate-y-5 hover:border-b-4
