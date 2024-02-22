@@ -13,7 +13,7 @@ import { GrOptimize } from "react-icons/gr";
 import { FaChevronRight } from "react-icons/fa";
 import { FaChevronLeft } from "react-icons/fa";
 
-const Slider = () => {
+const Slider = ()=>{
     useEffect(() => {
         AOS.init();
       });
@@ -22,7 +22,6 @@ const Slider = () => {
       icons: <PiWebhooksLogoFill className='text-blue-800 '/>,
       name: "WEB STRATEGY",
       image: "https://www.digitalsilk.com/wp-content/uploads/2023/09/1_WEB_STRATEGY-2.png.webp",
-    
       description: "Web strategy involves planning and execution of strategies to achieve goals on the web. It includes defining objectives, target audience, and ways to achieve a competitive edge in the digital space."
     },
     {
@@ -71,25 +70,20 @@ const Slider = () => {
     });
   };
 
+  
+
   return (
-    <div className='mx-auto max-w-screen-xl w-full pt-16'>
+     <div className='mx-auto max-w-screen-xl w-full pt-16 '>
     <div className='grid lg:grid-cols-6 gap-4 mb-12 md:grid-cols-2 grid-cols-1'>
-      {slideData.map((slide, index) => (
+   
+      {slideData.map((slide,index) =>(
         <div key={index} className='flex flex-col items-center space-y-2 relative '>
           <button
-            className={`p-10 rounded-full bg-gray-300 text-4xl hover:bg-light-blue-400 ${
+          
+            className={` flex p-10 rounded-full bg-gray-300 text-4xl hover:bg-light-blue-400 ${
               index === visibleImageIndex ? 'active' : ''
-            } ${
-              index === visibleImageIndex - 1 && index !== 0 ? 'lg:left-0 hidden lg:block' : ''
-            } ${
-              index === visibleImageIndex + 1 && index !== slideData.length - 1 ? 'lg:right-0 hidden lg:block' : ''
-            }`}
-            onClick={() => scrollToImage(index)}
-          >
-            {index === visibleImageIndex - 1 && index !== 0 && <FaChevronLeft className='left-0 lg:hidden' />}
-            {index === visibleImageIndex + 1 && index !== slideData.length - 1 && (
-              <FaChevronRight className='right-0 lg:hidden' />
-            )}
+            } `}
+            onClick={() => scrollToImage(index)}>
             {slide.icons}
           </button>
 
@@ -102,12 +96,13 @@ const Slider = () => {
               onClick={() => scrollToImage(index)}
             >
               {slide.name}
+              
             </p>
           </div>
         </div>
       ))}
     </div>
-    <div className='flex lg:flex-row justify-center items-center swiper flex-col'>
+    <div className='flex lg:flex-row  justify-center items-center swiper flex-col'>
       <div className='w-full lg:w-1/2 swiper-slide'>
         {slideData.map((slide, index) => (
           <div
@@ -148,16 +143,7 @@ const Slider = () => {
           left: 50%;
           transform: translate(-50%, -50%);
         }
-        .active-text {
-        }
-
-        /* Hide navigation buttons in large view */
-        @media (min-width: 768px) {
-          .swiper-button-next,
-          .swiper-button-prev {
-            display: none;
-          }
-        }
+        
       `}
     </style>
   </div>
@@ -167,3 +153,5 @@ const Slider = () => {
 };
 
 export default Slider;
+
+
