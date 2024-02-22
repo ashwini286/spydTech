@@ -5,7 +5,7 @@ const SPYD = () => {
     <>
       <div className=' mt-10 md:px-8 mb-10'>
         <div className='p-4 pl-16 md:text-4xl  text-[#656565] font-bold'>
-        How SPYD Tech helps its clients
+          How SPYD Tech helps its clients
         </div>
         <div className='grid grid-cols-1 md:grid-cols-2 md:px-8  text-[#656565]'>
           <div className='flex items-center  w-[89%] gap-4 pb-8 pl-6'>
@@ -24,11 +24,11 @@ const SPYD = () => {
             <p><VerifiedIcon /></p>
             <p>We make it extremely cost effective and build AngularJS based applications that reduce development budget significantly.</p>
           </div>
-       
+
         </div>
 
       </div>
-    
+
     </>
   )
 }

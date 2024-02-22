@@ -4,18 +4,18 @@ import TaskAltIcon from '@mui/icons-material/TaskAlt';
 const HowWeDevelop = () => {
   return (
     <>
-    <div>
+      <div>
         <div className='md:text-center pt-16 pl-4'>
-            <div className='md:text-3xl text-xl text-[#656565]'><p>How We Develop Powerful iOS Apps to Increase Your Business Performance</p></div>
-            <div className='md:px-16 py-8 text-lg text-[#656565]'><p>
+          <div className='md:text-3xl text-xl text-[#656565]'><p>How We Develop Powerful iOS Apps to Increase Your Business Performance</p></div>
+          <div className='md:px-16 py-8 text-lg text-[#656565]'><p>
             Being one of the best iOS app development companies India, we develop iPhone and iPad apps with an intention to increase your business performance. Before developing an app, we conduct thorough research on your app objective, your competitors’ apps analysis. That’s why we are called as one of the best iOS application developers in Bangalore, India..
-                </p></div>
+          </p></div>
         </div>
         <div>
-            <img src={Link}/>
+          <img src={Link} />
         </div>
         <div>
-        {/* <div className=' mt-10 md:px-8 mb-10'>
+          {/* <div className=' mt-10 md:px-8 mb-10'>
         <div className='p-4 pl-16 md:text-4xl  text-[#656565] font-bold md:mb-8'>
         How SPYD Tech helps its clients
         </div>
@@ -41,7 +41,7 @@ const HowWeDevelop = () => {
 
       </div> */}
         </div>
-    </div>
+      </div>
     </>
   )
 }

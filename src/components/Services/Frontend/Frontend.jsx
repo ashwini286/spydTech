@@ -19,14 +19,14 @@ const Frontend = () => {
         className="w-full h-[550px]"
         alt="Background Image"
       />
-     <Reactjs />
-     <NextJs />
+      <Reactjs />
+      <NextJs />
       <AngularJs />
       <Help />
 
-<Approch />
+      <Approch />
 
-<Footer />
+      <Footer />
     </>
   )
 }
