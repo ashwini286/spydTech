@@ -10,6 +10,7 @@ import svg8 from '../../assets/TryADemo/svg8.svg';
 import svg9 from '../../assets/TryADemo/svg9.svg';
 import svg10 from '../../assets/TryADemo/svg10.svg';
 const PowerfulFeatures = () => {
+    
     return (
         <>
             <div className='md:pl-[120px] pt-24 pl-4 bg-black pb-28'>
@@ -23,28 +24,42 @@ const PowerfulFeatures = () => {
 
                     <div className='grid lg:grid-cols-5 pr-8 gap-8 lg:pr-32 pt-[85px] md:grid-cols-2'>
                         <div className='bg-[#1F1F1F] p-7 rounded-2xl hover:bg-[#0694A2]'>
+                        <a href="tel:+91-123456789">
                             <div>
                                 <img src={svg1} />
                             </div>
                             <div>
-                                <p className='text-white pt-8 text-xl'><a href="tel:8210395575">Calling</a></p>
+                                <p className='text-white pt-8 text-xl'>Calling</p>
                             </div>
+                            </a>
                         </div>
                         <div className='bg-[#1F1F1F] p-7 rounded-2xl hover:bg-[#0694A2]'>
+                        <a href="mailto:ashwini.swe@email.com">
                             <div>
                                 <img src={svg2} />
                             </div>
                             <div>
                                 <p className='text-white pt-8 text-xl'>Emailing</p>
                             </div>
+                            </a>
                         </div>
                         <div className='bg-[#1F1F1F] p-7 rounded-2xl hover:bg-[#0694A2]'>
+                        <a href="sms:123456789"
+                        onClick={(e) => {
+                            if (!navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry)/)) {
+                                e.preventDefault();
+                                alert("Please use a mobile device to send an SMS on this number 123456789.");
+                                // You can provide an alternative action here, like displaying the phone number.
+                            }
+                        }}
+                        >
                             <div>
                                 <img src={svg3} />
                             </div>
                             <div>
                                 <p className='text-white pt-8 text-xl'>SMS</p>
                             </div>
+                            </a>
                         </div>
                         <div className='bg-[#1F1F1F] p-7 rounded-2xl hover:bg-[#0694A2]'>
                             <div>
@@ -63,12 +78,14 @@ const PowerfulFeatures = () => {
                             </div>
                         </div>
                         <div className='bg-[#1F1F1F] p-7 rounded-2xl hover:bg-[#0694A2]'>
+                        <a href="tel:+91-123456789">
                             <div>
                                 <img src={svg6} />
                             </div>
                             <div>
                                 <p className='text-white pt-8 text-xl'>Call Coaching</p>
                             </div>
+                            </a>
                         </div>
                         <div className='bg-[#1F1F1F] p-7 rounded-2xl hover:bg-[#0694A2]'>
                             <div>

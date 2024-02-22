@@ -11,8 +11,8 @@ const Portfolio = () => {
       <Navbarupp />
       </div>    
             <img
-            src="https://www.swic.edu/wp-content/uploads/2021/05/portfolio.png"
-              className=" w-full object-cover h-[600px]"
+            src="https://static.wixstatic.com/media/5f41c1_68e24887897e46008912a86977a62c6e~mv2.png/v1/fill/w_1080,h_691,al_c/5f41c1_68e24887897e46008912a86977a62c6e~mv2.png"
+              className=" w-full object-cover h-[500px]"
               alt="Background 2"
             />
       <Card />
