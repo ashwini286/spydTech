@@ -8,8 +8,8 @@ const Development = () => {
   return (
     <>
       <div className='flex flex-col md:flex-row  items-center justify-center md:gap-16'>
-        <div className='md:w-[620px] md:h-[560px] flex justify-center items-justify flex-col md:pl-24 pl-4 '>
-          <div className='md:text-3xl md:font-extrabold text-xl mt-10 font-bold' data-aos="fade-left">
+        <div className='md:w-[600px] md:h-[560px] flex justify-center items-justify flex-col md:pl-24 pl-4 '  data-aos="fade-up">
+          <div className='md:text-3xl md:font-extrabold text-xl mt-10 font-bold'>
             <h1 className='text-[#656565]'>Leading Reactjs Development Company</h1>
           </div>
 
@@ -21,8 +21,8 @@ const Development = () => {
 
         </div>
 
-        <div className='md:w-[620px] md:h-[560px] text-white flex justify-center items-justify flex-col '>
-          <div data-aos="fade-right">
+        <div className='md:w-[600px] md:h-[560px] text-white flex justify-center items-justify flex-col '>
+          <div data-aos="fade-down">
 
 
 

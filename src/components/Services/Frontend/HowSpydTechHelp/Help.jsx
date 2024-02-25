@@ -1,9 +1,14 @@
-import React from 'react'
+import React, {useEffect} from 'react'
+import AOS from "aos";
+import "aos/dist/aos.css";
 import BlurCircularIcon from '@mui/icons-material/BlurCircular';
 const Help = () => {
+  useEffect(() => {
+    AOS.init();
+});
   return (
     <>
-      <div className=' mt-10 md:px-8 mb-10 bg-[#242B40] rounded-lg md:mx-8 pt-8 '>
+      <div className=' mt-10 md:px-4 mb-10 bg-[#242B40] rounded-lg md:mx-8 pt-8 '  data-aos="fade-down">
         <div className='p-4 pl-16 md:text-3xl text-center text-white font-bold'>
           How SPY D Tech Enhances Frontend Security
         </div>
