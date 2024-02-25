@@ -1,19 +1,17 @@
 import React, { useEffect } from "react";
-import Person from '../../assets/person.png'
-import Service1 from '../../assets/service1.jpg'
-import img from '../../assets/home/img.png'
+import img from '../../assets/home/img1.svg'
 import img1 from '../../assets/home/ERPNXT2.png'
 import img2 from '../../assets/home/ERPNXT3.png'
 import img3 from '../../assets/home/ERPNXT4.png'
 import img4 from '../../assets/home/ERPNXT5.png'
 import img5 from '../../assets/home/ERPNXT6.png'
-import Service2 from '../../assets/service2.jpg';
+
 
 import AOS from "aos";
 import "aos/dist/aos.css";
 import SpdApproch from "../Home/SpdApproch";
 
-// import Service3 from '../../assets/service3.jpg';
+
 const Services1 = () => {
   useEffect(() => {
     AOS.init();
@@ -43,8 +41,8 @@ const Services1 = () => {
         <div className='mt-16 md:w-2/2 mx-auto text-center w-full' data-aos="fade-up">
           <p className='text-[#656565]'>We are one stop, full service, and turnkey solutions provider for</p>
           <h2 className='text-2xl md:text-3xl text-[#656565] font-normal mb-3'>Web, Mobility and Digital Marketing Services.</h2>
-          <div className='flex justify-center items-center' data-aos="fade-right">
-            <img src={img} />
+          <div className='flex justify-center items-center ' data-aos="fade-right">
+            <img src={img} className="w-[350px] h-[350px]" />
           </div>
         </div>
 
@@ -52,8 +50,8 @@ const Services1 = () => {
           {
             Services.map(service => <div key={service.id} className='px-4 py-8 text-center md:w-[300px]
           mx-auto md:h-88 rounded-md shadow-2xl cursor-pointer hover:translate-y-5 hover:border-b-4
-hover:border-gray-800 transition-all duration-300 flex items-center justify-center h-full' data-aos="fade-right">
-              <div>
+hover:border-gray-800 transition-all duration-300 flex items-center justify-center h-full'>
+              <div data-aos="fade-down">
                 <div className=' mb-4 mx-auto rounded-tl-3xl rounded-br-3xl text-center'><img src={service.image} style={{backgroundColor:"none"}}/></div>   
                 {/* w-460 h-306 */}
                 <h4 className='text-2xl font-bold  mb-2 px-2 text-[#656565]' >{service.title}</h4>

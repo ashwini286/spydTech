@@ -17,10 +17,10 @@ const OurCapabilities = () => {
                     <div>
                         <p className='text-center mt-8 text-2xl text-[#656565]'> Our Capabilities</p>
                     </div>
-                    <div className='grid md:grid-cols-3 gap-10 pt-[25px]'>
-                        <div className='flex justify-center items-center flex-col '>
-                            <div>
-                                <img src={img1} className='hover:animate-spin' />
+                    <div className='grid md:grid-cols-3 gap-10 pt-[25px] '>
+                        <div className='flex justify-center items-center flex-col hover:-translate-y-4 transition-all duration-300'>
+                            <div className='shadow-2xl rounded-full '>
+                                <img src={img1} className='hover:animate-spin ' />
                             </div>
                             <div>
                                 <p className='text-center pt-[15px] text-[#656565]' >iPhone SDK</p>
@@ -29,8 +29,8 @@ const OurCapabilities = () => {
                         </div>
 
 
-                        <div className='flex justify-center items-center flex-col'>
-                            <div>
+                        <div className='flex justify-center items-center flex-col hover:-translate-y-4 transition-all duration-300'>
+                            <div className='shadow-2xl rounded-full '>
                                 <img src={img2} className='hover:animate-spin' />
                             </div>
                             <div>
@@ -41,8 +41,8 @@ const OurCapabilities = () => {
 
 
 
-                        <div className='flex justify-center items-center flex-col'>
-                            <div>
+                        <div className='flex justify-center items-center flex-col hover:-translate-y-4 transition-all duration-300'>
+                            <div className='shadow-2xl rounded-full '>
                                 <img src={img3} className='hover:animate-spin' />
                             </div>
                             <div>
