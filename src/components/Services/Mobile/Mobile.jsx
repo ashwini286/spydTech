@@ -11,8 +11,8 @@ const Mobile = () => {
         <Navbarupp />
       </div>
       <img
-        src="https://www.mobileappoutsourcing.com/wp-content/uploads/2017/09/hybrid-mobile-app-development.jpg"
-        className="w-full  h-[550px]"
+        src="https://www.eglobeits.com/wp-content/uploads/2022/12/Which-mobile-app-development-shall-be-fruitful-for-your-business-e1616166384430.jpg"
+        className="w-full  md:h-[550px]"
         alt="Background Image"
       />
       <MobileCard />

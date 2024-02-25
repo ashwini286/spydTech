@@ -12,7 +12,7 @@ const VisionMission = () => {
       </div>
       <img
         src="https://www.fastway.in/m.fastway/img/mission-vision.jpg"
-        className=" object-cover  w-full h-[550px]"
+        className=" object-cover  w-full md:h-[550px]"
         alt="Background Image"
       />
       <div>
