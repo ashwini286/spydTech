@@ -1,13 +1,18 @@
-import React from 'react'
+import React, { useEffect } from "react";
 import BlurCircularIcon from '@mui/icons-material/BlurCircular';
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Help = () => {
+  useEffect(() => {
+    AOS.init();
+  });
   return (
     <>
       <div className='mt-10 md:px-8 mb-10 bg-[#242B40] rounded-lg md:mx-16 pt-8'>
-        <div className='p-4 pl-16 md:text-3xl text-center text-white font-bold'>
+        <div className='p-4 pl-16 md:text-3xl text-center text-white font-bold' data-aos="fade-up">
           Enhancing Mobile App Security at SPY D Tech
         </div>
-        <div className='grid grid-cols-1 md:grid-cols-2 md:px-8 text-white pt-8'>
+        <div className='grid grid-cols-1 md:grid-cols-2 md:px-8 text-white pt-8' data-aos="fade-down">
           <div className='flex items-center w-[89%] gap-4 pb-8 pl-6'>
             <p><BlurCircularIcon /></p>
             <p>In mobile app development, SPY D Tech's highly skilled team employs advanced security technologies to fortify applications. With expertise in secure coding practices, we ensure robust protection for our clients' digital assets in the ever-evolving mobile landscape.</p>

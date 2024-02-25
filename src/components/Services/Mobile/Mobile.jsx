@@ -11,8 +11,8 @@ const Mobile = () => {
         <Navbarupp />
       </div>
       <img
-        src="https://clevertap.com/wp-content/uploads/2019/05/types-of-mobile-apps-blog_header.png"
-        className="w-full"
+        src="https://www.mobileappoutsourcing.com/wp-content/uploads/2017/09/hybrid-mobile-app-development.jpg"
+        className="w-full  h-[550px]"
         alt="Background Image"
       />
       <MobileCard />
