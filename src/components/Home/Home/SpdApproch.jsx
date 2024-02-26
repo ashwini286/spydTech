@@ -1,19 +1,23 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { FaHandshake } from "react-icons/fa";
 import { FaGlobe } from "react-icons/fa";
 import { IoIosLeaf } from "react-icons/io";
 import { MdGroups } from "react-icons/md";
 import IMG from "../../assets/SpY_D__2_-removebg-preview.png";
 import './Spdapproch.css';
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 function SpdApproch() {
+  useEffect(() => {
+    AOS.init();
+  });
   return (
     <>
       <div className='flex flex-wrap  flex-col md:flex-row justify-center items-center  gap-6 md:gap-5 p-10'>
         {/* 1st card */}
-        <div className=" max-w-sm w-60 h-56 relative ">
+        <div className=" max-w-sm w-60 h-56 relative" data-aos="fade-up">
           <div className="group w-full h-full perspective">
-            <div className="flip-card">
+            <div className="flip-card shadow-2xl rounded-full">
               <div className="flip-card-inner">
                 <div className="flip-card-front bg-[#0891b2] flex flex-col justify-center items-center">
                   <FaHandshake className='text-6xl text-white mb-4'/>
@@ -37,9 +41,9 @@ function SpdApproch() {
         </div>
 
         {/* 2nd card */}
-        <div className=" max-w-sm  w-60 h-56 relative">
+        <div className=" max-w-sm  w-60 h-56 relative" data-aos="fade-up">
           <div className="group w-full h-full perspective">
-            <div className="flip-card">
+            <div className="flip-card shadow-2xl rounded-full">
               <div className="flip-card-inner">
                 <div className="flip-card-front bg-[#0e7490] flex flex-col justify-center items-center">
                   <FaGlobe className='text-6xl text-white mb-4'/>
@@ -63,9 +67,9 @@ function SpdApproch() {
         </div>
         
         {/* 3rd card */}
-        <div className=" max-w-sm  w-60 h-56 relative">
+        <div className=" max-w-sm  w-60 h-56 relative" data-aos="fade-up">
           <div className="group w-full h-full perspective">
-            <div className="flip-card">
+            <div className="flip-card shadow-2xl rounded-full">
               <div className="flip-card-inner">
                 <div className="flip-card-front bg-[#14b8a6] flex flex-col justify-center items-center">
                   <MdGroups className='text-6xl text-white mb-4'/>
@@ -89,9 +93,9 @@ function SpdApproch() {
         </div>
         
         {/* 4th card */}
-        <div className=" max-w-sm  w-60 h-56 relative ">
+        <div className=" max-w-sm  w-60 h-56 relative " data-aos="fade-up">
           <div className="group w-full h-full perspective">
-            <div className="flip-card">
+            <div className="flip-card shadow-2xl rounded-full">
               <div className="flip-card-inner">
                 <div className="flip-card-front bg-[#0ea5e9] flex flex-col justify-center items-center">
                   <IoIosLeaf className='text-6xl text-white mb-4'/>
@@ -112,7 +116,7 @@ function SpdApproch() {
               </div>
             </div>
           </div>
-        </div>
+        </div> 
       </div>
     </>
   );

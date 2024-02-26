@@ -14,18 +14,19 @@
 
 html,
 body {
-  display: grid;
+ 
   height: 100%;
   width: 100%;
   font-family: "Poppins", sans-serif;
   place-items: center;
-  background: linear-gradient(315deg, #ffffff, #d7e1ec);
+ 
 }
 
 .wrapper {
   display: inline-flex;
-  padding-left: 14%;
+  /* padding-left: 14%; */
   list-style: none;
+
   
 }
 

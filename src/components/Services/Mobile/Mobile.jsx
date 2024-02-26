@@ -7,12 +7,12 @@ import Footer from '../../Home/Footer/Footer';
 const Mobile = () => {
   return (
     <>
-    <div>
+      <div>
         <Navbarupp />
-    </div>
-    <img
-        src="https://clevertap.com/wp-content/uploads/2019/05/types-of-mobile-apps-blog_header.png"
-        className="w-full"
+      </div>
+      <img
+        src="https://www.eglobeits.com/wp-content/uploads/2022/12/Which-mobile-app-development-shall-be-fruitful-for-your-business-e1616166384430.jpg"
+        className="w-full  md:h-[550px]"
         alt="Background Image"
       />
       <MobileCard />

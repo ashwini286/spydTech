@@ -11,19 +11,6 @@ import Img9 from "../assets/Protfolio/Desktop3.png";
 import Img10 from "../assets/webApp2.png";
 import Img11 from "../assets/Protfolio/webApp22.png";
 import Img12 from "../assets/webApp3.png";
-// import {
-//   Navbar,
-//   Collapse,
-//   Typography,
-//   Button,
-//   IconButton,
-//   List,
-//   ListItem,
-//   Menu,
-//   MenuHandler,
-//   MenuList,
-//   MenuItem,
-// } from "@material-tailwind/react";
 
 
 const Card = () => {
@@ -97,7 +84,7 @@ const Card = () => {
 
 export default Card;
 
-// const allProjects = [
+
 //   { id: 1, title: "WEB DESIGN", image: Img1 },
 //   { id: 2, title: "WEB DESIGN", image: Img2 },
 //   { id: 3, title: "WEB DESIGN", image: Img3 },

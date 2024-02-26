@@ -13,7 +13,7 @@ const MakesUsDifferent = () => {
       </div>   
       <img
       src={Makeus}
-      className=" object-cover w-full"
+      className=" object-cover"
       alt="Background Image"
       />
 <MakeUs />

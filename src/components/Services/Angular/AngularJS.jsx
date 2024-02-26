@@ -1,4 +1,4 @@
-import React,{useEffect} from 'react';
+import React, { useEffect } from 'react';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Navbarupp from "../../Home/Navbar/Navbarupp";
@@ -25,12 +25,12 @@ function AngularJS() {
         alt="Background Image"
       />
       <Development />
-      <Benefits /> 
+      <Benefits />
       {/* <SPYD /> */}
 
       <Approch />
 
-       <Footer />
+      <Footer />
     </>
   );
 }

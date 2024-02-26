@@ -1,7 +1,5 @@
 import React, { useRef, useState , useEffect} from 'react';
-import Swiper from 'swiper';
 import "./slider.css"
-import 'swiper/css';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { PiWebhooksLogoFill } from "react-icons/pi";
@@ -71,18 +69,30 @@ const Slider = () => {
     });
   };
 
+  
+
   return (
-    <div className='mx-auto max-w-screen-xl w-full pt-16'>
+    <>
+       <div className='mx-auto max-w-screen-xl w-full pt-16 '>
     <div className='grid lg:grid-cols-6 gap-4 mb-12 md:grid-cols-3 grid-cols-1'>
-      {slideData.map((slide, index) => (
+   
+      {slideData.map((slide,index) =>(
         <div key={index} className='flex flex-col items-center space-y-2 relative '>
           <button
-            className={`p-10 rounded-full bg-gray-300 text-4xl hover:bg-light-blue-400 ${
+          
+            className={` flex p-10 rounded-full bg-gray-300 text-4xl hover:bg-light-blue-400 ${
               index === visibleImageIndex ? 'active' : ''
-            } `}
+            } ${
+              index === visibleImageIndex - 1 && index !== 0 ? 'lg:left-0 hidden lg:block' : ''
+            } ${
+              index === visibleImageIndex + 1 && index !== slideData.length - 1 ? 'lg:right-0 hidden lg:block' : ''
+            }`}
             onClick={() => scrollToImage(index)}
           >
-            
+            {index === visibleImageIndex - 1 && index !== 0 && <FaChevronLeft className='left-0 lg:hidden' />}
+            {index === visibleImageIndex + 1 && index !== slideData.length - 1 && (
+              <FaChevronRight className='right-0 lg:hidden' />
+            )}
             {slide.icons}
           </button>
 
@@ -95,12 +105,13 @@ const Slider = () => {
               onClick={() => scrollToImage(index)}
             >
               {slide.name}
+              
             </p>
           </div>
         </div>
       ))}
     </div>
-    <div className='flex lg:flex-row justify-center items-center swiper flex-col'>
+    <div className='flex lg:flex-row  justify-center items-center swiper flex-col'>
       <div className='w-full lg:w-1/2 swiper-slide'>
         {slideData.map((slide, index) => (
           <div
@@ -109,8 +120,8 @@ const Slider = () => {
               index === visibleImageIndex ? 'visible' : 'hidden'
             }`}
           >
-            <p className='text-gray-700'>{slide.name}</p>
-            <p className='text-gray-700'>{slide.description}</p>
+            <p className='text-gray-700 text-content'>{slide.name}</p>
+            <p className='text-gray-700 text-slide'>{slide.description}</p>
           </div>
         ))}
       </div>
@@ -123,7 +134,7 @@ const Slider = () => {
               index === visibleImageIndex ? 'visible' : 'hidden'
             }`}
           >
-            <img src={slide.image} alt={`Image ${index + 1}`} className='w-full h-auto' />
+            <img  src={slide.image} alt={`Image ${index + 1}`} className='w-full h-auto image-slide' />
           </div>
         ))}
       </div>
@@ -141,13 +152,59 @@ const Slider = () => {
           left: 50%;
           transform: translate(-50%, -50%);
         }
-       
+        .active-text {
+        }
+
+        /* Hide navigation buttons in large view */
+        @media (min-width: 768px) {
+          .swiper-button-next,
+          .swiper-button-prev {
+            display: none;
+          }
+        }
+        .image-slide{
+          animation: slideFromBottom 0.5s ease forwards;
+
+        }
+        @keyframes slideFromBottom {
+          0% {
+            opacity: 0;
+            transform: translateY(50px); /* Start from the bottom */
+          }
+          100% {
+            opacity: 1;
+            transform: translateY(0); /* Slide to the top */
+          }
+        }
+        .text-slide,.text-content{
+         
+          animation: slideFromRight 0.5s ease forwards;
+          
+        }
+        @keyframes slideFromRight {
+          0% {
+            opacity: 0;
+            transform: translateX(50px); /* Start from the right */
+          }
+          100% {
+            opacity: 1;
+            transform: translateX(0); /* Slide to the left */
+          }
+        }
       `}
     </style>
   </div>
+    
+    
+    </>
+  
+
+ 
 );
 
 
 };
 
 export default Slider;
+
+
