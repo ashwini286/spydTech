@@ -28,7 +28,7 @@ const OurWork = () => {
       </div>
 
 
-      <div className='grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 items-center justify-center' data-aos="fade-right">
+      <div className='grid lg:grid-cols-3 grid-cols-1 md:grid-cols-2 gap-8 items-center justify-center' data-aos="fade-right">
         {
           project.map(pro => <div key={pro.id} className='mx-auto relative mb-12 cursor-pointer '>
             <img src={pro.image} alt="" className='h-[250px] hover:scale-105 transition-all duration-500 shadow-2xl' />

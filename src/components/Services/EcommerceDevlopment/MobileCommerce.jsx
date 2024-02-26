@@ -24,14 +24,16 @@ function MobileCommerce() {
           alt="Background Image"
         />
         </div>
-        <div className='p-20 flex'>
+        <div className='p-5 grid lg:grid-flow-col'>
             
-            <img 
+           <div>
+           <img 
             src={IMG23}
-            className='w-[50%] h-[30rem] ml-[-10%]'
+            className='sm:pl-8 w-[80%] h-[30rem]'
             />
+           </div>
            
-            <div className='w-2/3 text-left  space-y-3 tracking-wider  text-[#656565]'>
+            <div className='sm:w-full lg:mt-8 text-left mt-4 space-y-3 tracking-wider  text-[#656565] pl-4'>
                 <p>India is the fastest growing country in E-Commerce niche with revenue 
                     expected to surpass US$ 120 Billion by 2020.</p>
                     <p>
@@ -59,9 +61,9 @@ function MobileCommerce() {
             
         </div>
         <div className='bg-[#2dd4bf] w-[100%] p-5'>
-            <h1 className='text-white text-4xl ml-[15%] tracking-widest pb-2'>Mobile eCommerce</h1>
-            <p className='text-white text-1xl ml-[20%] tracking-widest pb-10'>as per with latest technology</p>
-            <div className='w-2/3 text-left space-y-2 text-white pt-5 tracking-wide'>
+            <h1 className='text-white text-4xl ml-[0%] text-center tracking-widest pb-2'>Mobile eCommerce</h1>
+            <p className='text-white text-1xl ml-[0%] text-center tracking-widest pb-10'>as per with latest technology</p>
+            <div className='w-full text-left space-y-2 text-white pt-5 pl-4 tracking-wide'>
                 <p className='sm:line-clamp-3'>
                 Expertise mobile commerce solutions fully integrates with your existing e Commerce website
                  that includes product catalogue, inventory, shipping methods, payments and checkout as well
@@ -79,35 +81,39 @@ function MobileCommerce() {
             </div>
 
         </div>
-        <div className='flex'>
+        <div className='grid lg:grid-flow-col pl-4' >
         
+            <div className=''>
             <img
             src={IMG1}
-            className='w-[30%] '
+            className='w-[80%] h-[100%] text-center '
             />
-             <div className='grid sm:grid-flow-row md:grid-flow-col lg:grid-flow-col '>
-            <h1 className='text-2xl  pt-10 tracking-wider ml-2'>Our Mobile Commerce Development Services Include</h1>
+            </div>
+            <div className=''>
+             <div className='grid sm:grid-flow-row lg:grid-flow-row pb-4'>
+            <h1 className='text-2xl lg:mt-16 pt-2 tracking-wider pl-4 ml-2'>Our Mobile Commerce Development Services Include</h1>
             
               
                 
-                <div className='mt-[10%] ml-15 space-y-2  text-[#656565]'>
+                <div className='mt-[5%]  ml-15 space-y-2 pl-4  text-[#656565]'>
 
                 <h1 className='flex'>  <PiNumberOne className='text-2xl tracking-wider' />Mobile- friendly technology  </h1> 
                     
-               <h1 className='flex w-2/3 pt-2 sm:mt-2.5'> <PiNumberTwo className='text-4xl mt-[-2%] tracking-wider'/>Zero-interruption data integration
+               <h1 className='flex '> <PiNumberTwo className='text-2xl  tracking-wider'/>Zero-interruption data integration
                 with your existing online websites</h1>
-                <h1 className='flex sm:mt-3.5'> <PiNumberThree className='text-2xl tracking-wider'/>Support for multiple stores</h1>
+                <h1 className='flex '> <PiNumberThree className='text-2xl tracking-wider'/>Support for multiple stores</h1>
                 </div>
+                 
+                <div className=' mt-[2%]  ml-15 space-y-2  text-[#656565] pl-4 pb-4 '>
 
-                <div className='mt-[10%]  ml-15 space-y-4  text-[#656565] sm:-mt-[-2%] '>
+            
+               <h1 className='flex '> <PiNumberFour  className='text-2xl tracking-wider'/>Powerful features to incorporate marketing</h1>
+               <h1 className='flex '><PiNumberFive  className='text-2xl tracking-wider '/>Features that are compelling and attract new customers</h1>
+               <h1 className='flex  '><PiNumberSix className='text-2xl tracking-wider '/>Compatible with multiple devices</h1>
 
                
-               <h1 className='flex sm:mt-2.5'> <PiNumberFour  className='text-2xl tracking-wider'/>Powerful features to incorporate marketing</h1>
-               <h1 className='flex sm-mt-30'><PiNumberFive  className='text-2xl tracking-wider '/>Features that are compelling and attract new customers</h1>
-               <h1 className='flex pt-3 '><PiNumberSix className='text-2xl tracking-wider '/>Compatible with multiple devices</h1>
-
-               
                 </div>
+               </div>
                </div>
         
         </div>

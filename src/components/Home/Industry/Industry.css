@@ -9,7 +9,7 @@
 
 .industries-design-block .container {
     max-width: inherit;
-    width: 1300px;
+    width: 1650px;
     height: 376px;
     padding: 0px;
     position: relative;
@@ -320,4 +320,7 @@
     -o-animation-duration: 1.5s;
     animation-duration: 1.5s;
     animation-fill-mode: both;
-}
+} 
+
+
+ 
