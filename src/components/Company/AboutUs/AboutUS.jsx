@@ -10,10 +10,11 @@ const AboutUS = () => {
     
     <div>
       <Navbarupp />
-      </div>   
+      </div> 
+    
       <img
-        src="https://www.lincad.co.uk/wp-content/uploads/2022/08/contact-us-scaled-1.jpg"
-        className=" object-cover  w-full h-[550px]"
+        src="https://cdn.pixabay.com/photo/2017/08/27/09/21/imprint-2685464_640.jpg"
+        className=" object-cover w-full"
         alt="Background Image"
       />
       <Card />

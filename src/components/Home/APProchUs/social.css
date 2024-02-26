@@ -24,8 +24,9 @@ body {
 
 .wrapper {
   display: inline-flex;
-  padding-left: 14%;
+  /* padding-left: 14%; */
   list-style: none;
+
   
 }
 

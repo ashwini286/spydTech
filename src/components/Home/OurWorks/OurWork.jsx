@@ -28,9 +28,9 @@ const OurWork = () => {
       </div>
 
 
-      <div className='grid lg:grid-cols-3 grid-cols-1 md:grid-cols-2 gap-8 items-center justify-center' data-aos="fade-right">
+      <div className='grid lg:grid-cols-3 grid-cols-1 md:grid-cols-2 gap-8 items-center justify-center' >
         {
-          project.map(pro => <div key={pro.id} className='mx-auto relative mb-12 cursor-pointer '>
+          project.map(pro => <div key={pro.id} className='mx-auto relative mb-12 cursor-pointer ' data-aos="fade-up">
             <img src={pro.image} alt="" className='h-[250px] hover:scale-105 transition-all duration-500 shadow-2xl' />
 
             <div className='text-center px-4 py-8 bg-white shadow-lg rounded-md
@@ -42,7 +42,7 @@ const OurWork = () => {
         }
 
       </div>
-      <div className='flex justify-center items-center m-10' data-aos="fade-right">
+      <div className='flex justify-center items-center m-10' data-aos="fade-up">
      <Link to = "/portfolio">
      <Button size="md" className='font-serif bg-[#5bc0de] rounded'>
           view all

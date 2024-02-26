@@ -8,26 +8,26 @@ import React1 from '../../assets/React1.png';
 import Approch from '../../Home/APProchUs/Approch';
 import Footer from '../../Home/Footer/Footer';
 const Reactjs = () => {
-  
+
   return (
     <>
       <>
-      <div>
-        <Navbarupp />
-      </div>
+        <div>
+          <Navbarupp />
+        </div>
 
 
-      <img
-        src="https://www.paragyte.com/img/React_Banner.png"
-        className=" w-full h-[500px]"
-        alt="Background Image"
-      />
-    <Development />
-    <Benefits />
-{/* <SPYDReact /> */}
-<Approch />
-      <Footer />
-    </>
+        <img
+          src="https://www.paragyte.com/img/React_Banner.png"
+          className=" w-full h-[500px]"
+          alt="Background Image"
+        />
+        <Development />
+        <Benefits />
+        {/* <SPYDReact /> */}
+        <Approch />
+        <Footer />
+      </>
     </>
   )
 }

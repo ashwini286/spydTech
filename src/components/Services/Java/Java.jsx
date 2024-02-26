@@ -8,7 +8,7 @@ import Footer from '../../Home/Footer/Footer';
 const Java = () => {
   return (
     <>
-    <div>
+      <div>
         <Navbarupp />
       </div>
       <img
@@ -16,11 +16,11 @@ const Java = () => {
         className="w-full object-cover"
         alt="Background Image"
       />
-<Benefits />
-{/* <Help /> */}
-<Approch />
+      <Benefits />
+      {/* <Help /> */}
+      <Approch />
 
-<Footer />
+      <Footer />
     </>
   )
 }

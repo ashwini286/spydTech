@@ -4,11 +4,11 @@ import IMG from "../../../assets/Digital marketing/Digital main.jpeg"
 function DigitalMainPage1() {
   return (
     <>
-    <div>
-      <img 
-      src={IMG}
-      />
-    </div>
+      <div>
+        <img
+          src={IMG}
+        />
+      </div>
     </>
   )
 }

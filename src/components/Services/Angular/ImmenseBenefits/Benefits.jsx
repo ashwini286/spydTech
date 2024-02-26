@@ -1,4 +1,4 @@
-import React,{useEffect} from 'react'
+import React, { useEffect } from 'react'
 import VerifiedIcon from '@mui/icons-material/Verified';
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -11,7 +11,7 @@ const Benefits = () => {
     <>
       <div className=' mt-10 md:px-8 pb-16' data-aos="fade-right">
         <div className='p-4 pl-16 md:text-4xl  text-[#656565] font-bold'>
-        The immense benefits of AngularJS
+          The immense benefits of AngularJS
         </div>
         <div className='grid grid-cols-1 md:grid-cols-2 md:px-8  text-[#656565]'>
           <div className='flex items-center  w-[89%] gap-4 pb-8 pl-6'>

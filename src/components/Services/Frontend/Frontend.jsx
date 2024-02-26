@@ -16,17 +16,17 @@ const Frontend = () => {
 
       <img
         src="https://miro.medium.com/v2/resize:fit:1200/1*w2hBLGIBMaLIVABE_BtBhg.png"
-        className="w-full h-[550px]"
+        className="w-full md:h-[550px]"
         alt="Background Image"
       />
-     <Reactjs />
-     <NextJs />
+      <Reactjs />
+      <NextJs />
       <AngularJs />
       <Help />
 
-<Approch />
+      <Approch />
 
-<Footer />
+      <Footer />
     </>
   )
 }

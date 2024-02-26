@@ -8,16 +8,16 @@ import Approch from '../../Home/APProchUs/Approch'
 function SMMpage() {
   return (
     <>
-    <Navbarupp />
-    <div>
+      <Navbarupp />
+      <div>
         <img
-        src={IMG}
-        className='w-[100%] h-[35rem] pb-10'
+          src={IMG}
+          className='w-[100%] h-[35rem] pb-10'
         />
-    </div>
-    <Main />
-    
-    <Approch />
+      </div>
+      <Main />
+
+      <Approch />
     </>
   )
 }

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { layout } from "../../../style";
 import Logo from "../../assets/logo.png";
 import {
@@ -17,13 +17,34 @@ import Socialicons from "./Socialicons";
 
 // import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
 const Approch = () => {
+  const [name, setName] = useState("")
+  const [email, setEmail] = useState("")
+  const [phoneNo, setPhoneNo] = useState("")
+  const [massage, setMassage] = useState("")
   useEffect(() => {
     AOS.init();
   });
+  const handle = (e) => {
+    e.preventDefault();
+    var Alldata = JSON.parse(localStorage.getItem('Alldata') || "[]")
+    var data = {
+      name,
+      email,
+      phoneNo,
+      massage
+    }
+    Alldata.push(data)
+    localStorage.setItem('Alldata', JSON.stringify(Alldata))
+    setName('')
+    setEmail('')
+    setPhoneNo('')
+    setMassage('')
+  }
+
   return (
     <>
       <div
-      className=""
+        className=""
         style={{
           backgroundImage:
             'url("https://www.aspirantsoftsolutions.com/img/slides/footer-bg.jpg")',
@@ -59,7 +80,7 @@ const Approch = () => {
 
                 <div
                   className="flex justify-center items-center flex-row font-poppins xs:text-[10px] text-[15px] text-white w-full"
-                  
+
                 >
                   <div className="text-[40px] ">
                     <LuMapPin />
@@ -104,18 +125,19 @@ const Approch = () => {
                   <div
                     className="mb-1 flex flex-col gap-y-6"
                   >
-                    <Input color="white" label="Name" />
-                    <Input color="white" label="Email" />
-                    <Input color="white" label="Phone No" />
+                    <Input color="white" label="Name" onChange={(e) => setName(e.target.value)} value={name} />
+                    <Input color="white" label="Email" onChange={(e) => setEmail(e.target.value)} value={email} />
+                    <Input color="white" label="Phone No" onChange={(e) => setPhoneNo(e.target.value)} value={phoneNo} />
                     <div className="w-86 border-0">
                       <Textarea
                         color="blue"
                         label="Message"
                         variant="outlined"
+                        onChange={(e) => setMassage(e.target.value)} value={massage}
                       />
                     </div>
                   </div>
-                  <Button className="mt-6 w-full">
+                  <Button className="mt-6 w-full" onClick={handle}>
                     Send Message
                   </Button>
                 </form>
