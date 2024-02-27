@@ -22,7 +22,7 @@ const Development = () => {
         </div>
 
         <div className='md:w-[600px] md:h-[560px] text-white flex justify-center items-justify flex-col '>
-          <div data-aos="fade-down">
+          <div data-aos="fade-down" className='space-y-5 bg-black'>
 
 
 

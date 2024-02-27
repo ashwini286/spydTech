@@ -1,7 +1,7 @@
 import React from 'react';
 import Search from './search/Search';
 import Navbarupp from '../Home/Navbar/Navbarupp';
-import Slider from './slider/Slider';
+
 function careers() {
  
 
@@ -18,7 +18,7 @@ function careers() {
               alt="Background 2"
             />
             <Search />
-            <Slider />
+          
            
 
    </>

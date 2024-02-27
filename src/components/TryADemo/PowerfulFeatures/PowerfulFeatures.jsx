@@ -24,7 +24,7 @@ const PowerfulFeatures = () => {
 
                     <div className='grid lg:grid-cols-5 pr-8 gap-8 lg:pr-32 pt-[85px] md:grid-cols-2'>
                         <div className='bg-[#1F1F1F] p-7 rounded-2xl hover:bg-[#0694A2]'>
-                        <a href="tel:+91-123456789">
+                        <a href="tel:+91-6305207832">
                             <div>
                                 <img src={svg1} />
                             </div>
@@ -34,7 +34,7 @@ const PowerfulFeatures = () => {
                             </a>
                         </div>
                         <div className='bg-[#1F1F1F] p-7 rounded-2xl hover:bg-[#0694A2]'>
-                        <a href="mailto:ashwini.swe@email.com">
+                        <a href="mailto:ashwinikumari@email.com">
                             <div>
                                 <img src={svg2} />
                             </div>

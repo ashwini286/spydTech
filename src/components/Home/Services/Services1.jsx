@@ -5,7 +5,7 @@ import img2 from '../../assets/home/ERPNXT3.png'
 import img3 from '../../assets/home/ERPNXT4.png'
 import img4 from '../../assets/home/ERPNXT5.png'
 import img5 from '../../assets/home/ERPNXT6.png'
-
+import Slider from '../slider/Slider'
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -16,15 +16,15 @@ const Services1 = () => {
   useEffect(() => {
     AOS.init();
   });
-  const Services = [
-    { id: 1, title: "Membership Organisations", descraption: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere quibusdam qui soluta.", image: img1 },
-    { id: 2, title: "National Associations", descraption: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere quibusdam qui soluta.", image: img2 },
-    { id: 3, title: "Clubs ANd Groups", descraption: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere quibusdam qui soluta.", image: img3},
-    { id: 4, title: "Membership Organisations", descraption: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere quibusdam qui soluta.", image: img4 },
-    { id: 5, title: "National Associations", descraption: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere quibusdam qui soluta.", image: img5 },
-    { id: 6, title: "Clubs ANd Groups", descraption: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere quibusdam qui soluta.", image: img2},
+  // const Services = [
+  //   { id: 1, title: "Membership Organisations", descraption: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere quibusdam qui soluta.", image: img1 },
+  //   { id: 2, title: "National Associations", descraption: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere quibusdam qui soluta.", image: img2 },
+  //   { id: 3, title: "Clubs ANd Groups", descraption: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere quibusdam qui soluta.", image: img3},
+  //   { id: 4, title: "Membership Organisations", descraption: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere quibusdam qui soluta.", image: img4 },
+  //   { id: 5, title: "National Associations", descraption: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere quibusdam qui soluta.", image: img5 },
+  //   { id: 6, title: "Clubs ANd Groups", descraption: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere quibusdam qui soluta.", image: img2},
 
-  ]
+  // ]
   return (
     <>
       <div className=' max-w-screen-2xl mx-auto'>
@@ -46,22 +46,24 @@ const Services1 = () => {
           </div>
         </div>
 
-        <div className='mt-14 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:w-11/12 mx-auto gap-7'>
+        {/* <div className='mt-14 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:w-11/12 mx-auto gap-7'>
           {
             Services.map(service => <div key={service.id} className='px-4 py-8 text-center md:w-[300px]
           mx-auto md:h-88 rounded-md shadow-2xl cursor-pointer hover:translate-y-5 hover:border-b-4
 hover:border-gray-800 transition-all duration-300 flex items-center justify-center h-full'>
               <div data-aos="fade-down">
                 <div className=' mb-4 mx-auto rounded-tl-3xl rounded-br-3xl text-center'><img src={service.image} style={{backgroundColor:"none"}}/></div>   
-                {/* w-460 h-306 */}
+              
                 <h4 className='text-2xl font-bold  mb-2 px-2 text-[#656565]' >{service.title}</h4>
                 <p className='text-sm text-[#656565]'>{service.descraption}</p>
 
               </div>
             </div>)
           }
-        </div>
+        </div> */}
+
       </div>
+      <Slider />
 
     </>
   )
