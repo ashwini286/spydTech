@@ -42,6 +42,15 @@ function Search() {
           <li key={index}>{item.name}</li>
         ))}
       </ul>
+
+
+      <div>
+      <input
+        type="text"
+        placeholder="Search Job"
+        
+      />
+      </div>
     </div>
   );
 }

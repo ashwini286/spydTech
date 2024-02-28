@@ -17,10 +17,10 @@ function SpdApproch() {
         {/* 1st card */}
         <div className=" max-w-sm w-60 h-56 relative" data-aos="fade-up">
           <div className="group w-full h-full perspective">
-            <div className="flip-card shadow-2xl rounded-full">
+            <div className="flip-card ">
               <div className="flip-card-inner">
                 <div className="flip-card-front bg-[#0891b2] flex flex-col justify-center items-center">
-                  <FaHandshake className='text-6xl text-white mb-4'/>
+                  <FaHandshake className='text-6xl text-white '/>
                   <p className="font-bold text-white text-center">High added Value Services</p>
                 </div>
                 <div className="flip-card-back bg-[#0891b2] relative">
@@ -43,7 +43,7 @@ function SpdApproch() {
         {/* 2nd card */}
         <div className=" max-w-sm  w-60 h-56 relative" data-aos="fade-up">
           <div className="group w-full h-full perspective">
-            <div className="flip-card shadow-2xl rounded-full">
+            <div className="flip-card ">
               <div className="flip-card-inner">
                 <div className="flip-card-front bg-[#0e7490] flex flex-col justify-center items-center">
                   <FaGlobe className='text-6xl text-white mb-4'/>
@@ -69,10 +69,10 @@ function SpdApproch() {
         {/* 3rd card */}
         <div className=" max-w-sm  w-60 h-56 relative" data-aos="fade-up">
           <div className="group w-full h-full perspective">
-            <div className="flip-card shadow-2xl rounded-full">
+            <div className="flip-card ">
               <div className="flip-card-inner">
-                <div className="flip-card-front bg-[#14b8a6] flex flex-col justify-center items-center">
-                  <MdGroups className='text-6xl text-white mb-4'/>
+                <div className="flip-card-front bg-[#14b8a6] flex flex-col justify-center items-center px-4">
+                  <MdGroups className='text-6xl text-white '/>
                   <p className="font-bold text-white text-center">Human and Talents at the Heart of our Development</p>
                 </div>
                 <div className="flip-card-back bg-[#0891b2] relative">
@@ -95,10 +95,10 @@ function SpdApproch() {
         {/* 4th card */}
         <div className=" max-w-sm  w-60 h-56 relative " data-aos="fade-up">
           <div className="group w-full h-full perspective">
-            <div className="flip-card shadow-2xl rounded-full">
+            <div className="flip-card ">
               <div className="flip-card-inner">
                 <div className="flip-card-front bg-[#0ea5e9] flex flex-col justify-center items-center">
-                  <IoIosLeaf className='text-6xl text-white mb-4'/>
+                  <IoIosLeaf className='text-6xl text-white'/>
                   <p className="font-bold text-white text-center">Commitment to a Virtuous Digital Transition</p>
                 </div>
                 <div className="flip-card-back bg-[#0891b2] relative">

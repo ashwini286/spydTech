@@ -13,7 +13,7 @@ const AboutUS = () => {
       </div> 
     
       <img
-        src="https://cdn.pixabay.com/photo/2017/08/27/09/21/imprint-2685464_640.jpg"
+        src="https://ygfindia.com/wp-content/uploads/2023/07/Banner-1536x618.jpg"
         className=" object-cover w-full"
         alt="Background Image"
       />

@@ -12,10 +12,11 @@ const OurCore = () => {
         <Navbarupp />
       </div>
       <img
-        src="https://elitesquadglobal.com/wp-content/uploads/2016/04/core-values.jpg"
-        className="   w-full"
-        alt="Background Image"
+        src="https://t3.ftcdn.net/jpg/06/22/86/40/360_F_622864037_VIEXFjiKPNkubPEqSD1BHXuLbIycdyIM.jpg"
+        className="  w-full h-[550px]"
+        alt="Background Image" style={{ filter: "brightness(70%)" }}
       />
+       
       <Card />
       <Approch />
       <Footer />
