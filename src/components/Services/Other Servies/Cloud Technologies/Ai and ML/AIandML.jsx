@@ -20,10 +20,11 @@ function AIandML() {
      data-te-animation-init
      data-te-animation-start="onScroll"
      data-te-animation="[fade-in_3s_ease-in-out]"
+     data-aos="fade-up"
     src={IMG2}
     className='shadow-2xl'
     />
-    <div>
+    <div data-aos="fade-left">
         <h1 className='text-4xl'>About AI...?</h1>
         <p className='text-xl'>Artificial intelligence is the intelligence of machines or software, as opposed to the intelligence of other living beings,
              primarily of humans. It is a field of study in computer science that develops and studies intelligent machines.
@@ -36,7 +37,7 @@ function AIandML() {
 
    <div className='p-10 space-x-5 animate-pulse flex flex-col md:flex-row'>
     
-    <div>
+    <div data-aos="fade-right">
         <h1 className='text-4xl'>About AI...?</h1>
         <p className='text-xl'>Artificial intelligence is the intelligence of machines or software, as opposed to the intelligence of other living beings,
              primarily of humans. It is a field of study in computer science that develops and studies intelligent machines.
@@ -49,6 +50,7 @@ function AIandML() {
      data-te-animation-init
      data-te-animation-start="onScroll"
      data-te-animation="[fade-in_3s_ease-in-out]"
+     data-aos="fade-up"
     src={IMG3}
     className='shadow-2xl'
     />
