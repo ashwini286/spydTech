@@ -9,6 +9,8 @@ import IMG2 from "../../../../assets/AI and ML/ML-main-1.webp"
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./According.css";
+import Features from "./Features";
+import Hero from "./Hero";
 
 
 
@@ -150,10 +152,10 @@ class="relative flex flex-col items-center mx-auto lg:flex-row-reverse lg:max-w-
 
 
 <div class="bg-white py-24 sm:py-32">
-    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <div class="mx-auto max-w-8xl px-6 lg:px-8">
       <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
         <div>
-          <h2 class="text-2xl font-semibold leading-8 tracking-tight text-indigo-600">The four areas of machine learning education</h2>
+          <h2 class="text-4xl font-semibold leading-8 tracking-tight text-indigo-600">The four areas of machine learning education</h2>
         
           <p class="mt-6 text-base leading-7 text-gray-600">When beginning your educational path, it's important to first understand how to learn ML. 
           We've broken the learning process into four areas of knowledge, with each area providing a foundational piece of the ML puzzle. 
@@ -165,7 +167,7 @@ class="relative flex flex-col items-center mx-auto lg:flex-row-reverse lg:max-w-
           
            
           
-           
+         
           
             
           
@@ -219,6 +221,9 @@ Build your own projects:
       </div>
     </div>
   </div>
+  <Hero /> 
+
+  {/* <Features /> */}
 <Approch />
     </>
   )

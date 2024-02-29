@@ -13,7 +13,8 @@ function Testing() {
     <Navbarupp />
     <div>
         <img 
-        src={IMG1}
+        // src={IMG1}
+        src='https://t4.ftcdn.net/jpg/04/34/57/55/360_F_434575550_74otSnOFJu9b4ScoHlksthWB3jbeRwUO.jpg'
         className='h-[40rem] w-[100rem]'
         />
     </div>

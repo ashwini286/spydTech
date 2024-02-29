@@ -47,6 +47,7 @@ import Testing from "./components/Services/Other Servies/Softeware Testing/Testi
 import AIandML from "./components/Services/Other Servies/Cloud Technologies/Ai and ML/AIandML";
 import Ai from "./components/Services/Other Servies/Cloud Technologies/Ai and ML/Ai";
 import Machine from "./components/Services/Other Servies/Cloud Technologies/Ai and ML/Machine";
+import Otherservies from "./components/Services/Other Servies/Otherservies";
 
 
 const App = () => {
@@ -105,6 +106,7 @@ const App = () => {
           <Route path="/Hybrid App" element={<HybridApp />} />
 
           {/* // other Servies  // */}
+          <Route path="/OTHER SERVICES" element={<Otherservies />} />
           <Route path="/Cloud Technologies" element={<CloudTech />} />
           <Route path="/Amazon" element={<Amazon />} />
           <Route path="/Azure" element={<Azure />} />

@@ -15,6 +15,7 @@ function AIandML() {
     src={IMG1}
     />
    </div>
+   <div className='bg-gray-900 text-white'>
    <div className='p-10 space-x-5 animate-pulse flex flex-col md:flex-row'>
     <img 
      data-te-animation-init
@@ -55,7 +56,7 @@ function AIandML() {
     className='shadow-2xl'
     />
    </div>
-   
+   </div>
     <Approch />
     </>
   )
