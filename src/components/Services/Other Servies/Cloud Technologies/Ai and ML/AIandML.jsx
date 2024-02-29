@@ -10,11 +10,14 @@ function AIandML() {
   return (
     <>
     <Navbarupp />
-   <div>
-    <img 
-    src={IMG1}
-    />
-   </div>
+    <div class="min-h-screen bg-gray-900 flex flex-col items-center justify-center">
+    <h1 class="text-5xl font-bold mb-8 animate-pulse  bg-gradient-to-r from-pink-600 via-purple-500 to-indigo-400 inline-block text-transparent bg-clip-text">
+        AI and Machine Learning
+    </h1>
+    <p class="text-white text-lg mb-8">
+        We're working hard to bring you something amazing. Stay tuned!
+    </p>
+</div>
    <div className='bg-gray-900 text-white'>
    <div className='p-10 space-x-5 animate-pulse flex flex-col md:flex-row'>
     <img 
