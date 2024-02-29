@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import { IoLocation } from "react-icons/io5";
 function Search() {
   const [searchTerm, setSearchTerm] = useState('');
   const [searchResults, setSearchResults] = useState([]);
@@ -30,28 +30,33 @@ function Search() {
   };
 
   return (
-    <div className='flex justify-center items-center pt-4 flex-col'>
+    <>
+      <div className='flex justify-center items-center  flex-row pt-16'>
+        <div className='flex justify-center items-center  flex-col'>
+          <input
+            type="text"
+            placeholder="Search Job"
+            value={searchTerm}
+            onChange={handleSearch}
+          />
+          <ul>
+            {searchResults.map((item, index) => (
+              <li className='border border-gray-400 p-4 ' key={index}>{item.name}</li>
+            ))}
+          </ul>
+        </div>
+        <div className="relative ">
+      <IoLocation className="absolute top-1/2 left-2 transform -translate-y-1/2 text-gray-500" />
       <input
         type="text"
-        placeholder="Search Job"
-        value={searchTerm}
-        onChange={handleSearch}
+        placeholder="Location - Hyderabad"
+        disabled
+        className="pl-10 pr-4 py-2 rounded-md"
       />
-      <ul>
-        {searchResults.map((item, index) => (
-          <li key={index}>{item.name}</li>
-        ))}
-      </ul>
-
-
-      <div>
-      <input
-        type="text"
-        placeholder="Search Job"
-        
-      />
-      </div>
     </div>
+      </div>
+
+    </>
   );
 }
 

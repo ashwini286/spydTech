@@ -48,7 +48,7 @@ import AIandML from "./components/Services/Other Servies/Cloud Technologies/Ai a
 import Ai from "./components/Services/Other Servies/Cloud Technologies/Ai and ML/Ai";
 import Machine from "./components/Services/Other Servies/Cloud Technologies/Ai and ML/Machine";
 import Otherservies from "./components/Services/Other Servies/Otherservies";
-
+import Form from './components/careers/form/Form'
 
 const App = () => {
   return (
@@ -128,6 +128,10 @@ const App = () => {
           <Route path="/What makes us different" element={<MakesUsDifferent />} />
           <Route path="/Our Core Values" element={<OurCore />} />
 
+
+
+{/* form */}
+<Route path="/applyForm" element={<Form />} />
         </Routes>
       </BrowserRouter>
     </>

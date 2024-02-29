@@ -1,9 +1,11 @@
 import React from 'react';
-import Search from './search/Search';
 import Navbarupp from '../Home/Navbar/Navbarupp';
 import Card from './Card/card'
 import Card1 from './card2/card2'
-
+import { Link } from 'react-router-dom';
+import { Button } from '@mui/material';
+import Approch from '../Home/APProchUs/Approch';
+import Footer from '../Home/Footer/Footer';
 function careers() {
 
 
@@ -25,10 +27,12 @@ function careers() {
 <Card />
 <Card1 />
 
+<Link to = "/applyForm">
+  <Button variant="contained">Apply Now</Button>
+</Link>
+<Approch />
 
-
-
-
+<Footer />
 
     </>
   );
