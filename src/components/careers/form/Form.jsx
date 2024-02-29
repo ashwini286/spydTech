@@ -1,5 +1,7 @@
 import React,{ useState } from 'react'
 import Navbarupp from '../../Home/Navbar/Navbarupp';
+import Approch from '../../Home/APProchUs/Approch';
+import Footer from '../../Home/Footer/Footer';
 const Form = () => {
     const [FName, setFname] = useState("");
     const [MName, setMname] = useState("");
@@ -68,11 +70,19 @@ const Form = () => {
   return (
     <>
  <Navbarupp />
-    <div className="   px-4 md:px-6 bg-[#111827] pt-20">
+ <div>
+    <img
+    src='https://www.twilio.com/content/dam/twilio-com/global/en/company/culture/come-build-with-us-at-twilio.png'
+    className=" object-cover w-full h-[550px]"
+    style={{ filter: "brightness(70%)" }}
+    alt="Background Image"
+    />
+ </div>
+    <div className="   px-4 md:px-6 bg-[#A92131] pt-20">
  
       <form className="space-y-4 sm:space-y-6 text-white pt-8">
       <div className='flex justify-center items-center flex-col gap-4'>
-      <h1 className="text-xl sm:text-3xl">Job Application</h1>
+      <h1 className="text-xl md:text-6xl font-bold">Job Application</h1>
         <h4 className="text-sm sm:text-lg">
           {" "}
           Please complete the form below to apply for a position with us.
@@ -577,7 +587,7 @@ const Form = () => {
           </div>
         </div>
 
-        <div className="pl-4 sm:pl-0  sm:pt-4 flex justify-center ">
+        <div className="pl-4 sm:pl-0  sm:pt-4 flex justify-center items-center pb-8">
           <button
             className="rounded bg-black px-4 sm:px-9 py-2 text-white items-center"
             onClick={handle}
@@ -588,7 +598,8 @@ const Form = () => {
       </form>
     </div>
 
-    
+    <Approch />
+    <Footer />
     
     </>
   )
