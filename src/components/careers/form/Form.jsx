@@ -88,57 +88,62 @@ const Form = () => {
         </label>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-10 gap-4">
           <div className="sm:col-span-3">
-            <div className="w-60">
-              <input
-                type="FName"
-                name="FName"
-                onChange={(e) => setFname(e.target.value)}
-                placeholder=' First name'
-                value={FName}
-                className=" block w-full rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
-              />
-            </div>
-            <label
+          <label
               htmlFor="FName"
               className="block text-sm font-medium leading-6 text-white "
             >
               First name
             </label>
+            <div className="w-60">
+              <input
+                type="FName"
+                name="FName"
+                onChange={(e) => setFname(e.target.value)}
+                placeholder='   First name'
+                value={FName}
+                className=" block w-full rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
+              />
+            </div>
+           
           </div>
 
           <div className="sm:col-span-3">
-            <div className="w-60">
-              <input
-                type="MName"
-                name="MName"
-                onChange={(e) => setMname(e.target.value)}
-                value={MName}
-                className="block w-full rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 hover:ring-blue-400"
-              />
-            </div>
-            <label
+          <label
               htmlFor="Middle-name"
               className="block text-sm font-medium leading-6 text-white"
             >
               Middle name
             </label>
-          </div>
-          <div className="sm:col-span-3">
             <div className="w-60">
               <input
-                type="LName"
-                name="LName"
-                onChange={(e) => setLname(e.target.value)}
-                value={LName}
-                className=" block w-full rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 hover:ring-blue-400"
+                type="MName"
+                name="MName"
+                placeholder='  Middle name'
+                onChange={(e) => setMname(e.target.value)}
+                value={MName}
+                className="block w-full rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 hover:ring-blue-400"
               />
             </div>
-            <label
+        
+          </div>
+          <div className="sm:col-span-3">
+          <label
               htmlFor="Last-name"
               className="block text-sm font-medium leading-6 text-white"
             >
               Last name
             </label>
+            <div className="w-60">
+              <input
+                type="LName"
+                name="LName"
+                placeholder='   Last name'
+                onChange={(e) => setLname(e.target.value)}
+                value={LName}
+                className=" block w-full rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 hover:ring-blue-400"
+              />
+            </div>
+           
           </div>
         </div>
         <label
@@ -149,6 +154,12 @@ const Form = () => {
         </label>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-10 gap-4    ">
           <div className="sm:col-span-3">
+          <label
+              htmlFor="Month"
+              className="block text-sm font-medium leading-6 text-white "
+            >
+              Month
+            </label>
             <div className="w-60">
               <select
                 id="Month"
@@ -156,7 +167,7 @@ const Form = () => {
                 autoComplete="Month"
                 onChange={(e) => setMonth(e.target.value)}
                 value={Month}
-                className="block w-full rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6  hover:ring-blue-400"
+                className="block w-full rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6  hover:ring-blue-400"
               >
                 <option>Please select a month</option>
                 <option>January</option>
@@ -174,22 +185,23 @@ const Form = () => {
                 <option>December</option>
               </select>
             </div>
-            <label
-              htmlFor="Month"
-              className="block text-sm font-medium leading-6 text-white "
-            >
-              Month
-            </label>
+           
           </div>
 
           <div className="sm:col-span-3">
+          <label
+              htmlFor="Day"
+              className="block text-sm font-medium leading-6 text-white"
+            >
+              Day
+            </label>
             <div className="w-60">
               <select
                 name="Day"
                 id="Day"
                 onChange={(e) => setDay(e.target.value)}
                 value={Day}
-                className="block w-full rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 hover:ring-blue-400"
+                className="block w-full rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 hover:ring-blue-400"
               >
                 <option>Please select a Day</option>
                 <option>0</option>
@@ -253,14 +265,15 @@ const Form = () => {
                 <option>31</option>
               </select>
             </div>
-            <label
-              htmlFor="Day"
-              className="block text-sm font-medium leading-6 text-white"
-            >
-              Day
-            </label>
+          
           </div>
           <div className="sm:col-span-3">
+          <label
+              htmlFor="Year"
+              className="block text-sm font-medium leading-6 text-white"
+            >
+              Year
+            </label>
             <div className="w-60">
             <select
                 type="Year"
@@ -268,19 +281,14 @@ const Form = () => {
                 id="Year"
                 onChange={(e) => setYear(e.target.value)}
                 value={Year}
-                className="block w-full rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400">
+                className="block w-full rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400">
                   <option>please select</option>
                 <option>2024</option>
                 <option>2023</option>
                 <option>2022</option>
               </select>
             </div>
-            <label
-              htmlFor="Year"
-              className="block text-sm font-medium leading-6 text-white"
-            >
-              Year
-            </label>
+       
           </div>
         </div>
         <label
@@ -290,98 +298,108 @@ const Form = () => {
           Current Address
         </label>
         <div className="sm:col-span-3">
-          <div className=" max-w-screen-sm">
-            <input
-              type="Address"
-              name="Address"
-              id="Address"
-              onChange={(e) => setAddress(e.target.value)}
-              value={Address}
-              className=" block  w-full rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 hover:ring-blue-400"
-            />
-          </div>
-          <label
+        <label
             htmlFor="street-address"
             className="block text-sm font-medium leading-6 text-white "
           >
             street Address
           </label>
-        </div>
-        <div className="sm:col-span-3">
-          <div className="max-w-screen-sm">
+          <div className=" max-w-screen-sm">
             <input
-              type="SAddress"
-              name="SAddress"
-              id="SAddress"
-              onChange={(e) => setSAddress(e.target.value)}
-              value={sAddress}
-              className=" block w-full rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 hover:ring-blue-400"
+              type="Address"
+              name="Address"
+              id="Address"
+              placeholder=' Current Address'
+              onChange={(e) => setAddress(e.target.value)}
+              value={Address}
+              className=" block  w-full rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 hover:ring-blue-400"
             />
           </div>
-          <label
+        
+        </div>
+        <div className="sm:col-span-3">
+        <label
             htmlFor="SAddress"
             className="block text-sm font-medium leading-6 text-white"
           >
             street Address Line 2
           </label>
+          <div className="max-w-screen-sm">
+            <input
+              type="SAddress"
+              name="SAddress"
+              id="SAddress"
+              placeholder='  street Address'
+              onChange={(e) => setSAddress(e.target.value)}
+              value={sAddress}
+              className=" block w-full rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 hover:ring-blue-400"
+            />
+          </div>
+       
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-10 gap-4 ">
           <div className="sm:col-span-3">
-            <div className="w-60">
-              <input
-                type="City"
-                name="City"
-                id="City"
-                onChange={(e) => setCity(e.target.value)}
-                value={City}
-                className=" block w-full rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
-              />
-            </div>
-            <label
+          <label
               htmlFor="City"
               className="block text-sm font-medium leading-6 text-white "
             >
               City
             </label>
+            <div className="w-60">
+              <input
+                type="City"
+                name="City"
+                id="City"
+                placeholder='  City'
+                onChange={(e) => setCity(e.target.value)}
+                value={City}
+                className=" block w-full rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
+              />
+            </div>
+        
           </div>
 
           <div className="sm:col-span-3">
-            <div className="w-60">
-              <input
-                type="State"
-                name="State"
-                id="State"
-                onChange={(e) => setState(e.target.value)}
-                value={State}
-                className="block w-full rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 hover:ring-blue-400"
-              />
-            </div>
-            <label
+          <label
               htmlFor="Middle-name"
               className="block text-sm font-medium leading-6 text-white"
             >
               State
             </label>
+            <div className="w-60">
+              <input
+                type="State"
+                name="State"
+                id="State"
+                placeholder='  State'
+                onChange={(e) => setState(e.target.value)}
+                value={State}
+                className="block w-full rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 hover:ring-blue-400"
+              />
+            </div>
+           
           </div>
         </div>
         <div className="sm:col-span-3">
-          <div className="max-w-screen-sm">
-            <input
-              type="postal"
-              name="postal"
-              id="postal"
-              onChange={(e) => setpostal(e.target.value)}
-              value={postal}
-              autoComplete="postal"
-              className=" block w-full rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 hover:ring-blue-400"
-            />
-          </div>
-          <label
+        <label
             htmlFor="postal"
             className="block text-sm font-medium leading-6 text-white"
           >
             postal/zip code
           </label>
+          <div className="max-w-screen-sm">
+            <input
+              type="postal"
+              name="postal"
+              id="postal"
+              placeholder="  postal/zip code"
+              onChange={(e) => setpostal(e.target.value)}
+              value={postal}
+              autoComplete="postal"
+              className=" block w-full rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 hover:ring-blue-400"
+            />
+          </div>
+          
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-10 gap-4">
           <div className="sm:col-span-3">
@@ -399,8 +417,8 @@ const Form = () => {
                 onChange={(e) => setEmail(e.target.value)}
                 value={email}
                 autoComplete="email"
-                placeholder="ex:myname@gmail.com"
-                className="block w-full rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400 "
+                placeholder=" ex:myname@gmail.com"
+                className="block w-full rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400 "
               />
             </div>
           </div>
@@ -421,7 +439,7 @@ const Form = () => {
                   placeholder="(000) 000-0000"
                   onChange={(e) => setPhoneNo(e.target.value)}
                   value={phoneNo}
-                  className="block w-full rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
+                  className="block w-full rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
                 />
               </div>
             </div>
@@ -438,10 +456,11 @@ const Form = () => {
             <input
               type="LinkedIn"
               name="LinkedIn"
+              placeholder=' LinkedIn Profile'
               id="LinkedIn"
               onChange={(e) => setLinkedIn(e.target.value)}
               value={LinkedIn}
-              className=" block w-full rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
+              className=" block w-full rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
             />
           </div>
         </div>
@@ -459,10 +478,11 @@ const Form = () => {
               <select
                 type="Positionapplied"
                 name="Positionapplied"
+                placeholder="  Position Applied"
                 id="Positionapplied"
                 onChange={(e) => setPositionapplied(e.target.value)}
                 value={Positionapplied}
-                className="block w-full rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400">
+                className="block w-full rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400">
                   <option>please select</option>
                 <option>FrontEnd</option>
                 <option>BackEnd</option>
@@ -483,10 +503,13 @@ const Form = () => {
               id="aboutus"
               onChange={(e) => setAboutus(e.target.value)}
               value={aboutus}
-              className="block w-full rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400">
+              placeholder="   How did you hear about us"
+              className="block w-full rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400">
               <option>please select</option>
             <option>Instagram</option>
             <option>LinkedIn</option>
+            <option>YouTube</option>
+            <option>Facebook</option>
             <option>other</option>
 
              
@@ -506,11 +529,31 @@ const Form = () => {
               type="date"
               id="StartDate"
               name="StartDate"
+              placeholder='Start Date'
               onChange={(e) => settripstart(e.target.value)}
               value={StartDate}
               min={new Date().toISOString().split("T")[0]} // Set min date to current date
               max={new Date().getFullYear() + 10 + "-12-31"} // Set max date to 5 years from current year
-              className="block w-full rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
+              className="block w-full rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
+            />
+          </div>
+        </div>
+        {/* Resume */}
+        <div className="sm:col-span-3">
+          <div className="w-60">
+            <label
+              htmlFor="LinkedIn"
+              className="block text-sm font-medium leading-6 text-white"
+            >
+             Resume
+            </label>
+            <input
+              type="file"
+              name="Resume"
+              placeholder=''
+              id="Resume"
+         
+              className=" block w-full rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
             />
           </div>
         </div>
@@ -525,10 +568,11 @@ const Form = () => {
             <textarea
               name="coverletter"
               id="coverletter"
+              placeholder='write something... (optional)'
               autoComplete="coverletter"
               onChange={(e) => setcoverletter(e.target.value)}
               value={coverletter}
-              className="block w-full rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 hover:ring-blue-400"
+              className="block w-full rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 hover:ring-blue-400"
             ></textarea>
           </div>
         </div>
