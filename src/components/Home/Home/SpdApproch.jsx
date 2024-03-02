@@ -13,7 +13,7 @@ function SpdApproch() {
   });
   return (
     <>
-      <div className='flex flex-wrap  flex-col md:flex-row justify-center items-center  gap-6 md:gap-5 p-10'>
+      <div className='flex flex-wrap flex-col md:flex-row justify-center items-center  gap-6 md:gap-5 md:p-10'>
         {/* 1st card */}
         <div className=" max-w-sm w-60 h-56 relative" data-aos="fade-up">
           <div className="group w-full h-full perspective">
