@@ -15,7 +15,7 @@ function SpdApproch() {
     <>
       <div className='flex flex-wrap  flex-col md:flex-row justify-center items-center  gap-6 md:gap-5 p-10'>
         {/* 1st card */}
-        <div className=" max-w-sm w-60 h-56 relative" data-aos="fade-up">
+        <div className=" max-w-sm w-full md:w-[269.6px] h-56 md:h-[76.2px] relative " data-aos="fade-up">
           <div className="group w-full h-full perspective">
             <div className="flip-card ">
               <div className="flip-card-inner">
