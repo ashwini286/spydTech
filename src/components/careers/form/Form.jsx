@@ -6,68 +6,8 @@ import Navbarupp from '../../Home/Navbar/Navbarupp';
 import Approch from '../../Home/APProchUs/Approch';
 import Footer from '../../Home/Footer/Footer';
 const Form = () => {
-  const [firstName, setFirstname] = useState("");
-  const [lastName, setLastname] = useState("");
-  const [month, setMonth] = useState("");
-  const [day, setDay] = useState("");
-  const [year, setYear] = useState("");
-  const [address, setAddress] = useState("");
-  const [sAddress, setSAddress] = useState("");
-  const [City, setCity] = useState("");
-  const [State, setState] = useState("");
-  const [postal, setpostal] = useState("");
-  const [email, setEmail] = useState("");
-  const [phoneNo, setPhoneNo] = useState("");
-  const [LinkedIn, setLinkedIn] = useState("");
-  const [Positionapplied, setPositionapplied] = useState("");
-  const [StartDate, settripstart] = useState("");
-  const [coverletter, setcoverletter] = useState("");
-  const [aboutus, setAboutus] = useState("");
-
-  const handle = (e) => {
-    e.preventDefault();
-    var Alldata = JSON.parse(localStorage.getItem("Alldata") || "[]");
-    var data = {
-      firstName,
-
-      lastName,
-      month,
-      day,
-      year,
-      address,
-      sAddress,
-      City,
-      State,
-      postal,
-      email,
-      phoneNo,
-      LinkedIn,
-      Positionapplied,
-      StartDate,
-      coverletter,
-      aboutus,
-    };
-    Alldata.push(data);
-    localStorage.setItem("Alldata", JSON.stringify(Alldata));
-    setFirstname("");
-
-    setLastname("");
-    setMonth("");
-    setDay("");
-    setYear("");
-    setAddress("");
-    setSAddress("");
-    setCity("");
-    setState("");
-    setpostal("");
-    setEmail("");
-    setPhoneNo("");
-    setLinkedIn("");
-    setpostal("");
-    setPositionapplied("");
-    settripstart("");
-    setAboutus("");
-  };
+  const [formData, setFormData] = useState({});
+  // Validation Of all Field
   const schema = yup.object({
     firstName: yup
       .string()
@@ -117,13 +57,18 @@ const Form = () => {
       )
       .required('LinkedIn profile link is required'),
 
-      positionApplied: yup
-      .string()
-      .required('Position Applied is required'),
+      positionApplied: yup.string().required('Position Applied is required'),
 
-    aboutus: yup.string().required('How did you hear about us is required'),
-    startDate: yup.date().required('Available Start Date is required'),
-
+      aboutUs: yup.string().required('How did you hear about us is required'),
+      startDate: yup.date().required('Available Start Date is required'),
+      resume: yup
+      .mixed()
+      .test('fileFormat', 'This field is required', (value) => {
+        if (!value) return true; // Allow empty value
+        const allowedFormats = ['application/pdf', 'application/msword', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'];
+        return allowedFormats.includes(value[0]?.type);
+      }),
+      coverLetter: yup.string(),
 
   });
 
@@ -135,19 +80,27 @@ const Form = () => {
     resolver: yupResolver(schema),
   });
 
-  const onSubmit = (data) => console.log(data);
+  
+  const onSubmit = (data) => {
+    var AllJobFormDetails = JSON.parse(localStorage.getItem('AllJobFormDetails') || "[]");
+    AllJobFormDetails.push(data);
+    localStorage.setItem('AllJobFormDetails', JSON.stringify(AllJobFormDetails));
+    setFormData(data);
+    console.log(data);
+  };
+  
   return (
     <>
       <Navbarupp />
       <div>
         <img
-          src='https://www.twilio.com/content/dam/twilio-com/global/en/company/culture/come-build-with-us-at-twilio.png'
-          className=" object-cover w-full h-[550px]"
-          style={{ filter: "brightness(70%)" }}
+          src='https://csc-team-storage.s3.eu-west-1.amazonaws.com/Team+EN.jpg'
+          className=" object-cover w-full md:h-[550px]"
+          // style={{ filter: "brightness(70%)" }}
           alt="Background Image"
         />
       </div>
-      <div className="   px-4 md:px-6 bg-[#A92131] pt-20">
+      <div className="px-4 md:px-6 bg-[#008BC2] pt-20">
 
         <form className="space-y-4 sm:space-y-6 text-white pt-8" onSubmit={handleSubmit(onSubmit)}>
           <div className='flex justify-center items-center flex-col gap-4'>
@@ -176,14 +129,14 @@ const Form = () => {
                 <input
                   type="text "
                   name="firstName"
-                  // onChange={(e) => setFirstname(e.target.value)}
+                
                   placeholder='   First name'
-                  // value={firstName}
+                 
                   className="form-control block w-full rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
                   {...register('firstName')}
                 />
                 {errors.firstName && (
-                  <p className="text-white">{errors.firstName.message}</p>
+                  <p className="text-[#d00000] ">{errors.firstName.message}</p>
                 )}
               </div>
             </div>
@@ -200,22 +153,20 @@ const Form = () => {
                   type="text"
                   name="lastName"
                   placeholder='   Last name'
-                  // onChange={(e) => setLastname(e.target.value)}
-                  // value={lastName}
-
                   className="form-control block w-full rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 hover:ring-blue-400"
                   {...register('lastName')}
                 />
                 {errors.lastName && (
-                  <p className="text-white">{errors.lastName.message}</p>
+                  <p className="text-[#d00000]">{errors.lastName.message}</p>
                 )}
               </div>
 
             </div>
           </div>
-          <label
+      <div>
+      <label
             htmlFor="dob"
-            className="block text-sm font-medium leading-6 text-white"
+            className="block text-sm font-medium text-white"
           >
             Date of Birth
           </label>
@@ -225,14 +176,9 @@ const Form = () => {
             {...register('dob')}
           />
           {errors.dob && (
-            <p  className="text-white">{errors.dob.message}</p>
+            <p  className="text-[#d00000]">{errors.dob.message}</p>
           )}
-          <label
-          htmlFor="address"
-          className="block text-sm font-medium leading-6 text-white"
-        >
-          Current address
-        </label>
+      </div>
            <div className="sm:col-span-3">
         <label
            htmlFor="streetAddress"
@@ -248,7 +194,7 @@ const Form = () => {
               className="form-control block  w-full rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 hover:ring-blue-400"
             />
               {errors.streetAddress && (
-            <p className="text-white">{errors.streetAddress.message}</p>
+            <p className="text-[#d00000]">{errors.streetAddress.message}</p>
           )}
           </div>
         
@@ -272,7 +218,7 @@ const Form = () => {
                 className="form-control block w-full rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
               />
                {errors.city && (
-            <p className="text-white">{errors.city.message}</p>
+            <p className="text-[#d00000]">{errors.city.message}</p>
           )}
             </div>
         
@@ -296,7 +242,7 @@ const Form = () => {
                 className="block w-full rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 hover:ring-blue-400"
               />
                {errors.state && (
-            <p className="text-white">{errors.state.message}</p>
+            <p className="text-[#d00000]">{errors.state.message}</p>
           )}
             </div>
            
@@ -319,7 +265,7 @@ const Form = () => {
               className="form-control block w-full rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 hover:ring-blue-400"
             />
              {errors.postalCode && (
-            <p className="text-white">{errors.postalCode.message}</p>
+            <p className="text-[#d00000]">{errors.postalCode.message}</p>
           )}
           </div>
           
@@ -342,7 +288,7 @@ const Form = () => {
                 className=" form-control block w-full rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400 "
               />
                 {errors.email && (
-            <p className="text-white">{errors.email.message}</p>
+            <p className="text-[#d00000]">{errors.email.message}</p>
           )}
             </div>
           </div>
@@ -362,10 +308,10 @@ const Form = () => {
                   id="phoneNo"
                   placeholder="(000) 000-0000"
                   {...register('phoneNumber')}
-                  className=" form-control block w-full rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
+                  className=" form-control block w-full rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
                 />
                   {errors.phoneNumber && (
-            <p className="text-white">{errors.phoneNumber.message}</p>
+            <p className="text-[#d00000]">{errors.phoneNumber.message}</p>
           )}
               </div>
             </div>
@@ -388,7 +334,7 @@ const Form = () => {
               className="form-control block w-full rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
             />
              {errors.linkedin && (
-            <p className="text-white">{errors.linkedin.message}</p>
+            <p className="text-[#d00000]">{errors.linkedin.message}</p>
           )}
           </div>
         </div>
@@ -396,121 +342,126 @@ const Form = () => {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-10 gap-4">
           <div className="sm:col-span-3">
-  <div className="w-60">
-    <label
-      htmlFor="positionApplied"
-      className="form-control block text-sm font-medium leading-6 text-white"
-    >
-      Position Applied
-    </label>
-    <select
-      type="text"
-      name="positionApplied"
-      placeholder="Position Applied"
-      id="positionApplied"
-      {...register('positionApplied')}
-      className="block w-full rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
-    >
-      <option>please select</option>
-      <option>FrontEnd</option>
-      <option>BackEnd</option>
-      <option>other</option>
-    </select>
-    {errors.positionApplied && (
-      <p className="text-white">{errors.positionApplied.message}</p>
-    )}
-  </div>
+          <div className="w-60">
+      <label
+        htmlFor="positionApplied"
+        className="form-control block text-sm font-medium leading-6 text-white"
+      >
+        Position Applied
+      </label>
+      <select
+        type="text"
+        name="positionApplied"
+        placeholder="Position Applied"
+        id="positionApplied"
+        {...register('positionApplied')}
+        className="block w-full rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
+      >
+        <option value="">Please select</option>
+        <option value="FrontEnd">FrontEnd</option>
+        <option value="BackEnd">BackEnd</option>
+        <option value="other">Other</option>
+      </select>
+      {errors.positionApplied && (
+        <p className="text-[#d00000]">{errors.positionApplied.message}</p>
+      )}
+    </div>
 </div>
 
-          <div className="w-60">
-            <label
-              htmlFor="about-us"
-              className="block text-sm font-medium leading-6 text-white"
-            >
-              How did you hear about us
-            </label>
-            <select
-              name="aboutus"
-              id="aboutus"
-              placeholder="   How did you hear about us"
-              className="block w-full rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400">
-              <option>please select</option>
-            <option>Instagram</option>
-            <option>LinkedIn</option>
-            <option>YouTube</option>
-            <option>Facebook</option>
-            <option>other</option>
-
-             
-            </select>
-          </div>
+<div className="w-60">
+      <label
+        htmlFor="aboutUs"
+        className="block text-sm font-medium leading-6 text-white"
+      >
+        How did you hear about us
+      </label>
+      <select
+        name="aboutUs" 
+        id="aboutus"
+        {...register('aboutUs')} 
+        placeholder="   How did you hear about us"
+        className="block w-full rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
+      >
+        <option value="">Please select</option>
+        <option value="Instagram">Instagram</option>
+        <option value="LinkedIn">LinkedIn</option>
+        <option value="YouTube">YouTube</option>
+        <option value="Facebook">Facebook</option>
+        <option value="other">Other</option>
+      </select>
+      {errors.aboutUs && (
+        <p className="text-[#d00000]">{errors.aboutUs.message}</p>
+      )}
+    </div>
         </div>
-
-          <div className="sm:col-span-3">
-          <label
-            htmlFor="Available-Start-Date"
-            className="block text-sm font-medium leading-6 text-white  "
-          >
-            Available Start Date
-          </label>
-          <div className="w-60">
-            <input
-              type="date"
-              id="StartDate"
-              name="StartDate"
-              placeholder='Start Date'
-              onChange={(e) => settripstart(e.target.value)}
-              value={StartDate}
-              min={new Date().toISOString().split("T")[0]} // Set min date to current date
-              // max={new Date().getFullyear() + 10 + "-12-31"} // Set max date to 5 years from current year
-              className="block w-full rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
-            />
-          </div>
-        </div>
+        <div className="sm:col-span-3">
+      <label
+        htmlFor="Available-Start-Date"
+        className="block text-sm font-medium leading-6 text-white"
+      >
+        Available Start Date
+      </label>
+      <div className="w-60">
+        <input
+          type="date"
+          id="StartDate"
+          name="startDate" 
+          placeholder='Start Date'
+          {...register('startDate')} 
+          min={new Date().toISOString().split("T")[0]}
+          className="block w-full rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
+        />
+        {errors.startDate && (
+          <p className="text-[#d00000]">{errors.startDate.message}</p>
+        )}
+      </div>
+    </div>
           {/* Resume */}
           <div className="sm:col-span-3">
-          <div className="w-60">
-            <label
-              htmlFor="LinkedIn"
-              className="block text-sm font-medium leading-6 text-white"
-            >
-             Resume
-            </label>
-            <input
-              type="file"
-              name="Resume"
-              placeholder=''
-              id="Resume"
-         
-              className=" block w-full rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
-            />
-          </div>
-        </div>
-          <div className="sm:col-span-3">
-          <div className="max-w-screen-sm">
-            <label
-              htmlFor="coverletter"
-              className="block text-sm font-medium leading-6 text-white"
-            >
-              cover Letter
-            </label>
-            <textarea
-              name="coverletter"
-              id="coverletter"
-              placeholder='write something... (optional)'
-              autoComplete="coverletter"
-              onChange={(e) => setcoverletter(e.target.value)}
-              value={coverletter}
-              className="block w-full rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 hover:ring-blue-400"
-            ></textarea>
-          </div>
-        </div>
-
+      <label
+        htmlFor="Resume"
+        className="block text-sm font-medium leading-6 text-white"
+      >
+        Resume
+      </label>
+      <div className="w-96">
+        <input
+          type="file"
+          name="resume"
+          id="Resume"
+          accept=".pdf, .docx, application/msword, application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+          {...register('resume')}
+          className="block w-full rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
+        />
+        {errors.resume && (
+          <p className="text-[#d00000]">{errors.resume.message}</p>
+        )}
+      </div>
+    </div>
+    <div className="sm:col-span-3">
+      <div className="max-w-screen-sm">
+        <label
+          htmlFor="coverletter"
+          className="block text-sm font-medium leading-6 text-white"
+        >
+          Cover Letter
+        </label>
+        <textarea
+          name="coverLetter"
+          id="coverletter"
+          placeholder='Write something... (optional)'
+          {...register('coverLetter')}
+          className="block w-full rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 hover:ring-blue-400"
+        ></textarea>
+        {errors.coverLetter && (
+          <p className="text-[#d00000]">{errors.coverLetter.message}</p>
+        )}
+      </div>
+    </div>
           <div className="pl-4 sm:pl-0  sm:pt-4 flex justify-center items-center pb-8">
             <button
               type="submit"
-              className="rounded bg-black px-4 sm:px-9 py-2 text-white items-center"
-            // onClick={handle}
+              className="rounded bg-black px-4 sm:px-9 py-2 text-white items-center w-72"
             >
               Apply
             </button>
