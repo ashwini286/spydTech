@@ -111,14 +111,9 @@ const Form = () => {
             </h4>
           </div>
           <hr></hr>
-          <label
-            htmlFor="Full-name"
-            className="block text-sm font-medium leading-6 text-white"
-          >
-            Full name
-          </label>
+     
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-10 gap-4">
-            <div className="sm:col-span-3">
+            <div className="sm:col-span-3 ">
               <label
                 htmlFor="firstName"
                 className="block text-sm font-medium leading-6 text-white "
@@ -132,7 +127,7 @@ const Form = () => {
                 
                   placeholder='   First name'
                  
-                  className="form-control block w-full rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
+                  className="w-[320px] h-[50px] form-control block  rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
                   {...register('firstName')}
                 />
                 {errors.firstName && (
@@ -153,7 +148,7 @@ const Form = () => {
                   type="text"
                   name="lastName"
                   placeholder='   Last name'
-                  className="form-control block w-full rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 hover:ring-blue-400"
+                  className= " w-[320px] h-[50px] form-control block rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 hover:ring-blue-400"
                   {...register('lastName')}
                 />
                 {errors.lastName && (
@@ -163,7 +158,7 @@ const Form = () => {
 
             </div>
           </div>
-      <div>
+      {/* <div>
       <label
             htmlFor="dob"
             className="block text-sm font-medium text-white"
@@ -178,8 +173,8 @@ const Form = () => {
           {errors.dob && (
             <p  className="text-[#d00000]">{errors.dob.message}</p>
           )}
-      </div>
-           <div className="sm:col-span-3">
+      </div> */}
+           {/* <div className="sm:col-span-3">
         <label
            htmlFor="streetAddress"
             className="block text-sm font-medium leading-6 text-white "
@@ -198,10 +193,10 @@ const Form = () => {
           )}
           </div>
         
-        </div> 
+        </div>  */}
          
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-10 gap-4 ">
-          <div className="sm:col-span-3">
+          {/* <div className="sm:col-span-3">
           <label
               htmlFor="city"
               className="block text-sm font-medium leading-6 text-white "
@@ -222,9 +217,9 @@ const Form = () => {
           )}
             </div>
         
-          </div>
+          </div> */}
 
-          <div className="sm:col-span-3">
+          {/* <div className="sm:col-span-3">
           <label
               htmlFor="state"
               className="block text-sm font-medium leading-6 text-white"
@@ -246,9 +241,9 @@ const Form = () => {
           )}
             </div>
            
-          </div>
+          </div> */}
         </div>
-          <div className="sm:col-span-3">
+          {/* <div className="sm:col-span-3">
         <label
             htmlFor="postalCode"
             className="block text-sm font-medium leading-6 text-white"
@@ -269,7 +264,7 @@ const Form = () => {
           )}
           </div>
           
-        </div>
+        </div> */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-10 gap-4">
           <div className="sm:col-span-3">
             <div className="w-60">
@@ -285,7 +280,7 @@ const Form = () => {
                 id="email"
                 {...register('email')}
                 placeholder=" ex:myname@gmail.com"
-                className=" form-control block w-full rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400 "
+                className="w-[320px] h-[50px] form-control block  rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400 "
               />
                 {errors.email && (
             <p className="text-[#d00000]">{errors.email.message}</p>
@@ -308,7 +303,7 @@ const Form = () => {
                   id="phoneNo"
                   placeholder="(000) 000-0000"
                   {...register('phoneNumber')}
-                  className=" form-control block w-full rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
+                  className=" w-[320px] h-[50px] form-control block  rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
                 />
                   {errors.phoneNumber && (
             <p className="text-[#d00000]">{errors.phoneNumber.message}</p>
@@ -331,15 +326,14 @@ const Form = () => {
               placeholder=' LinkedIn Profile'
               id="LinkedIn"
               {...register('linkedin')}
-              className="form-control block w-full rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
+              className=" w-[320px] h-[50px] form-control block  rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
             />
              {errors.linkedin && (
             <p className="text-[#d00000]">{errors.linkedin.message}</p>
           )}
           </div>
         </div>
-          <hr className=" pl-8 "></hr>
-
+         
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-10 gap-4">
           <div className="sm:col-span-3">
           <div className="w-60">
@@ -355,7 +349,7 @@ const Form = () => {
         placeholder="Position Applied"
         id="positionApplied"
         {...register('positionApplied')}
-        className="block w-full rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
+        className=" w-[320px] h-[50px] block  rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
       >
         <option value="">Please select</option>
         <option value="FrontEnd">FrontEnd</option>
@@ -394,7 +388,7 @@ const Form = () => {
       )}
     </div>
         </div>
-        <div className="sm:col-span-3">
+        {/* <div className="sm:col-span-3">
       <label
         htmlFor="Available-Start-Date"
         className="block text-sm font-medium leading-6 text-white"
@@ -415,7 +409,7 @@ const Form = () => {
           <p className="text-[#d00000]">{errors.startDate.message}</p>
         )}
       </div>
-    </div>
+    </div> */}
           {/* Resume */}
           <div className="sm:col-span-3">
       <label
