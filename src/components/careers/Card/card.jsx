@@ -5,7 +5,7 @@ const Card = () => {
   return (
     <>
      <div className=' pt-[130px]'>
-       <div><p className='md:text-6xl text-2xl pl-8'>Are you open to joining us?</p></div>
+       <div><p className='md:text-6xl text-2xl pl-8 pt-8'>Are you open to joining us?</p></div>
       <div className='pt-8 md:pl-8'>
         <img src={girl} className='md:w-[850px] md:h-[550px]' />
       </div>
@@ -25,7 +25,7 @@ const Card = () => {
 </div>
 
 
-<div className='flex justify-end items-center flex-row mr-16'>
+<div className='flex md:justify-end justify-center items-center flex-row mr-16'>
 <div className="relative ">
       <IoLocation className="absolute top-1/2 left-2 transform -translate-y-1/2 text-gray-500" />
      
