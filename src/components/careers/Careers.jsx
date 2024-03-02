@@ -1,7 +1,6 @@
 import React from 'react';
 import Navbarupp from '../Home/Navbar/Navbarupp';
-import Card from './Card/card'
-import Card1 from './card2/card2'
+import Card from './card/Card';
 import JobPost from './JobPost/JobPost';
 import { Link } from 'react-router-dom';
 import { Button } from '@mui/material';
@@ -25,8 +24,8 @@ function careers() {
      </div>
    
   
+
 <Card />
-<Card1 />
 <JobPost />
 <Link to = "/applyForm">
   <div className='flex justify-center pb-8'>
