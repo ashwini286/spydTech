@@ -116,13 +116,13 @@ const navListMenuItems = [
   },
   
   {
-    title: "OTHER SERVICES",
+    title: "ADVANCED TECHNOLOGIES",
     // description: "Find the perfect solution for your needs.",
     icon: CloudQueueIcon,
     color: 'cyan', // Add a color property for the icon
     Type1: "Cloud Technologies",
     Type2: "Software Testing",
-    Type3: "Advanced Technologies"
+    Type3: "Other Services"
     
   },
 ];

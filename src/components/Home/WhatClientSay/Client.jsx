@@ -140,7 +140,7 @@ function Client() {
               SpY D Technology Private Limited is an innovative company. The entire team demonstrated exceptional cooperation and professionalism.
               </h1>
               <div>
-                <p className="text-gray-800 font-bold text-sm md:text-xl">Sathish Chiluveru - Manager.</p>
+             
               </div>
             </div>
           </div>
@@ -173,7 +173,7 @@ function Client() {
               SpY D Technology Private Limited is renowned for its commitment to innovation. The team's high level of cooperation and professionalism is commendable.
               </h1>
               <div>
-              <p className="text-gray-800 font-bold text-sm md:text-xl">Sathish Chiluveru - Manager.</p>
+           
               </div>
             </div>
           </div>
@@ -208,7 +208,7 @@ function Client() {
                 cooperative and polite.
               </h1>
               <div>
-              <p className="text-gray-800 font-bold text-sm md:text-xl">Sathish Chiluveru - Manager.</p>
+           
               </div>
             </div>
           </div>

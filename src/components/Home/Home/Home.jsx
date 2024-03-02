@@ -3,7 +3,7 @@ import { Carousel } from "@material-tailwind/react";
 import { Typography, Button } from "@material-tailwind/react";
 import Navbarupp from "../Navbar/Navbarupp";
 import Services1 from "../Services/Services1";
-import OurApproch from "../OurApproch/OurApproch";
+// import OurApproch from "../OurApproch/OurApproch";
 import OurWorks from "../OurWorks/OurWork";
 import WhatClientSay from '../WhatClientSay/Client';
 import Industry from "../Industry/Industry";
@@ -164,7 +164,7 @@ const Home = () => {
       <Welcome />
       <Services1 />
       
-      <OurApproch />
+      {/* <OurApproch /> */}
       
       <OurWorks />
       <Industry />

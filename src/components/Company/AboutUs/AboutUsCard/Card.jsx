@@ -3,7 +3,7 @@ import React from 'react'
 const Card = () => {
   return (
     <>
-      <div className='px-16'>
+      <div className='md:px-16 pl-4'>
         <div className='text-center font-bold text-2xl pt-16 text-[#656565] underline'>
           About Us
         </div>
@@ -19,6 +19,7 @@ const Card = () => {
           <p className='py-8'>In addition to our technological prowess,  <span></span>SPY D TECHNOLOGY  offers Digital Marketing Services to help businesses establish a strong online presence, reach their target audience, and drive growth. Our digital marketing strategies encompass a holistic approach, including search engine optimization (SEO), social media marketing, and content marketing, among others.</p>
         </div>
       </div>
+      
     </>
   )
 }

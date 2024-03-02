@@ -13,34 +13,32 @@ function SpdApproch() {
   });
   return (
     <>
-      <div className='flex flex-wrap flex-col md:flex-row justify-center items-center gap-4 md:gap-6 p-4 md:p-10 pb-5'>
-  {/* 1st card */}
-  <div className="max-w-sm w-full md:w-[269.6px] h-56 md:h-[76.2px] relative" data-aos="fade-up">
-    <div className="group w-full h-full perspective">
-      <div className="flip-card">
-        <div className="flip-card-inner">
-          <div className="flip-card-front bg-[#0891b2] flex flex-col justify-center items-center">
-            <FaHandshake className='text-6xl text-white' />
-            <p className="font-bold text-white text-center">High added Value Services</p>
-          </div>
-          <div className="flip-card-back bg-[#0891b2] relative">
-            <a href="#" className="card-link text-white block w-full h-full">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="bg-white bg-opacity-0 absolute inset-0"></div>
-                <img 
-                  src={IMG}
-                  className="w-full h-full object-cover filter brightness-120" 
-                  alt="Image"
-                />
+      <div className='flex flex-wrap  flex-col md:flex-row justify-center items-center  gap-6 md:gap-5 p-10'>
+        {/* 1st card */}
+        <div className=" max-w-sm w-60 h-56 relative" data-aos="fade-up">
+          <div className="group w-full h-full perspective">
+            <div className="flip-card ">
+              <div className="flip-card-inner">
+                <div className="flip-card-front bg-[#0891b2] flex flex-col justify-center items-center">
+                  <FaHandshake className='text-6xl text-white '/>
+                  <p className="font-bold text-white text-center">High added Value Services</p>
+                </div>
+                <div className="flip-card-back bg-[#0891b2] relative">
+                  <a href="#" className="card-link text-white block w-full h-full">
+                    <div className="absolute inset-0 flex items-center justify-center">
+                      <div className="bg-white bg-opacity-0 absolute inset-0"></div>
+                      <img 
+                        src={IMG}
+                        className="w-full h-full object-cover filter brightness-120" 
+                        alt="Image"
+                      />
+                    </div>
+                  </a>
+                </div>
               </div>
-            </a>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-
-
 
         {/* 2nd card */}
         <div className=" max-w-sm w-full md:w-[269.6px] h-56 md:h-[76.2px] relative" data-aos="fade-up">
