@@ -15,6 +15,8 @@ import "aos/dist/aos.css";
 import IMG1 from "../../assets/Digital-Marketing-Explained_Blog-scaled.jpeg"
 import IMG2 from "../../assets/Main2.avif"
 import IMG3 from "../../assets/Main3.webp"
+import Welcome from "./Welcom";
+
 
 const Home = () => {
   useEffect(() => {
@@ -159,9 +161,11 @@ const Home = () => {
         </Carousel>
       </div>
 
-    
+      <Welcome />
       <Services1 />
+      
       <OurApproch />
+      
       <OurWorks />
       <Industry />
       <WhatClientSay />
