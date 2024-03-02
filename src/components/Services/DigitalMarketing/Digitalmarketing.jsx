@@ -8,26 +8,67 @@ import IMG3 from "../../assets/Digital marketing/SEO.png";
 import IMG4 from "../../assets/Digital marketing/ppc.jpg";
 import IMG5 from "../../assets/Digital marketing/SMM1.png";
 import IMG6 from "../../assets/Digital marketing/contentwriting 2.jpg";
+import AnimatedFooter from '../UniqueTeam/AnimatedFooter';
 
 function Digitalmarketing() {
   return (
     <>
       <Navbarupp />
-      <div className='relative flex items-center justify-center'>
+      <div className='relative flex items-center justify-center bg-blue-gray-100'>
         <img
-          src={IMG}
+          // src={IMG}
+          src='https://www.pngall.com/wp-content/uploads/5/Digital-Marketing-PNG-HD-Image.png'
+          data-aos="fade-in"
           className=" inset-0 w-full h-full mx-auto max-w-screen-lg"
           alt="Background 1"
-          style={{ filter: "brightness(50%)" }}
+          style={{ filter: "brightness(100%)" }}
         />
       </div>
-      <div className='p-10 justify-center'>
+      <div className='p-10 justify-center bg-blue-gray-600 rounded-lg box'>
+      
         <img
           src={IMG2}
+          style={{ filter: "brightness(75%)" }}
           className=' mx-auto max-w-screen-lg h-full w-full'
           alt="Digital Marketing Main"
         />
       </div>
+      <style>{`
+      .box {
+        --border-size: 3px;
+        --border-angle: 0turn;
+       
+        background-image: conic-gradient(from var(--border-angle), #213, #112 50%, #213), conic-gradient(from var(--border-angle), transparent 20%, #08f, #f03);
+        background-size: calc(100% - (var(--border-size) * 2)) calc(100% - (var(--border-size) * 2)), cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        -webkit-animation: bg-spin 3s linear infinite;
+        animation: bg-spin 3s linear infinite;
+    }
+    
+    @-webkit-keyframes bg-spin {
+        to {
+            --border-angle: 1turn;
+        }
+    }
+    
+    @keyframes bg-spin {
+        to {
+            --border-angle: 1turn;
+        }
+    }
+    
+    .box:hover {
+        -webkit-animation-play-state: paused;
+        animation-play-state: paused;
+    }
+    
+    @property --border-angle {
+        syntax: "<angle>";
+        inherits: true;
+        initial-value: 0turn;
+    }`}
+</style>
 
       <div className='flex flex-col md:flex-row md:ml-10 p-5'>
         <div className='w-full h-full md:w-1/3 p-5'>
@@ -92,7 +133,7 @@ function Digitalmarketing() {
         </div>
       </div>
 
-      <div className='flex flex-col md:flex-row p-10'>
+      <div className='flex flex-col md:flex-row p-10 pb-32'>
         <div className='w-full md:w-1/2 p-5'>
           <h1 className='text-3xl font-bold pb-5'>Why Content Writing is Important in Digital Marketing?</h1>
           <p className='text-xl pb-5 text-gray-500'>As the world has witnessed a great shift of customer’s preference from a conventional advertising world to the digital sphere,
@@ -111,7 +152,9 @@ function Digitalmarketing() {
           />
         </div>
       </div>
+      
       <Approch />
+      {/* <AnimatedFooter /> */}
     </>
   )
 }

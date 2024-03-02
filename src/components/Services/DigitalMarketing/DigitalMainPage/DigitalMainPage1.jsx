@@ -7,6 +7,7 @@ function DigitalMainPage1() {
       <div>
         <img
           src={IMG}
+          // src='https://www.pngall.com/wp-content/uploads/5/Digital-Marketing-PNG-HD-Image.png'
         />
       </div>
     </>
