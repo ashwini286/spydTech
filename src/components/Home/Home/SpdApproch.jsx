@@ -25,7 +25,7 @@ function SpdApproch() {
                 </div>
                 <div className="flip-card-back bg-[#0891b2] relative">
                   <a href="#" className="card-link text-white block w-full h-full">
-                    <div className="absolute inset-0 flex items-center justify-center">
+                    <div className="absolute inset-1 flex items-center justify-center">
                       <div className="bg-white bg-opacity-0 absolute inset-0"></div>
                       <img 
                         src={IMG}
@@ -51,7 +51,7 @@ function SpdApproch() {
                 </div>
                 <div className="flip-card-back bg-[#0e7490] relative">
                   <a href="#" className="card-link text-white block w-full h-full">
-                    <div className="absolute inset-0 flex items-center justify-center">
+                    <div className="absolute inset-1 flex items-center justify-center">
                       <div className="bg-white bg-opacity-0 absolute inset-0"></div>
                       <img 
                         src={IMG}
@@ -77,7 +77,7 @@ function SpdApproch() {
                 </div>
                 <div className="flip-card-back bg-[#14b8a6] relative">
                   <a href="#" className="card-link text-white block w-full h-full">
-                    <div className="absolute inset-0 flex items-center justify-center">
+                    <div className="absolute inset-1 flex items-center justify-center">
                       <div className="bg-white bg-opacity-0 absolute inset-0"></div>
                       <img 
                         src={IMG}
@@ -103,7 +103,7 @@ function SpdApproch() {
                 </div>
                 <div className="flip-card-back bg-[#0ea5e9] relative">
                   <a href="#" className="card-link text-white block w-full h-full">
-                    <div className="absolute inset-0 flex items-center justify-center">
+                    <div className="absolute inset-1 flex items-center justify-center">
                       <div className="bg-white bg-opacity-0 absolute inset-0"></div>
                       <img 
                         src={IMG}
@@ -129,7 +129,7 @@ function SpdApproch() {
           
           position: relative;
           transform-style: preserve-3d;
-          transition: transform 0.6s;
+          transition: transform 0.8s;
         }
         
         .flip-card:hover {
