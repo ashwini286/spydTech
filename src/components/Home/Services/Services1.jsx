@@ -10,6 +10,7 @@ import Slider from '../slider/Slider'
 import AOS from "aos";
 import "aos/dist/aos.css";
 import SpdApproch from "../Home/SpdApproch";
+import Spydflipcard from "../Home/Spydflipcard";
 
 
 const Services1 = () => {
@@ -36,6 +37,7 @@ const Services1 = () => {
       </div >
 
       <SpdApproch />
+      {/* <Spydflipcard /> */}
 
       <div className='md:px-14 px-4  max-w-screen-2xl mx-auto'>
         <div className='mt-16 md:w-2/2 mx-auto text-center w-full' data-aos="fade-down">
