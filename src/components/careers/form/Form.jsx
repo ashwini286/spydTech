@@ -9,8 +9,10 @@ import Approch from '../../Home/APProchUs/Approch';
 import Footer from '../../Home/Footer/Footer';
 import Resume from '../../assets/jobForm/resume.svg'
 import Login from '../../assets/jobForm/login.svg'
+import { Link } from 'react-router-dom';
 const Form = () => {
   const [formData, setFormData] = useState({});
+  const [isFormValid, setIsFormValid] = useState(false);
   // Validation Of all Field
   const schema = yup.object({
     firstName: yup
@@ -62,6 +64,7 @@ const Form = () => {
     AllJobFormDetails.push(data);
     localStorage.setItem('AllJobFormDetails', JSON.stringify(AllJobFormDetails));
     setFormData(data);
+    setIsFormValid(true);
     console.log(data);
   };
 
@@ -91,7 +94,7 @@ const Form = () => {
 
           <form className=" gap-8 text-white pt-8  flex justify-center items-center flex-col  md:w-[50%]" onSubmit={handleSubmit(onSubmit)}>
 
-            <div className="w-60">
+            <div className="w-60 ">
               <label
                 htmlFor="firstName"
                 className="block text-sm font-medium leading-6 text-white "
@@ -105,7 +108,7 @@ const Form = () => {
 
                 placeholder='   First name'
 
-                className="md:w-[320px] md:h-[50px] w-full form-control block  rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
+                className="shadow-2xl border border-blue-gray-900 md:w-[320px] md:h-[50px] w-full form-control block  rounded-md  py-1.5 text-black ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-5 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
                 {...register('firstName')}
               />
               {errors.firstName && (
@@ -129,7 +132,8 @@ const Form = () => {
                   type="text"
                   name="lastName"
                   placeholder='   Last name'
-                  className=" md:w-[320px] md:h-[50px] w-full form-control block rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 hover:ring-blue-400"
+                className="shadow-2xl border border-blue-gray-900 md:w-[320px] md:h-[50px] w-full form-control block  rounded-md  py-1.5 text-black ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-5 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
+                // className=" md:w-[320px] md:h-[50px] w-full form-control block rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 hover:ring-blue-400"
                   {...register('lastName')}
                 />
                 {errors.lastName && (
@@ -151,7 +155,9 @@ const Form = () => {
                 id="email"
                 {...register('email')}
                 placeholder=" ex:myname@gmail.com"
-                className="md:w-[320px] md:h-[50px] w-full form-control block  rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400 "
+                className="shadow-2xl border border-blue-gray-900 md:w-[320px] md:h-[50px] w-full form-control block  rounded-md  py-1.5 text-black ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-5 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
+
+                // className="md:w-[320px] md:h-[50px] w-full form-control block  rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400 "
               />
               {errors.email && (
                 <p className="text-[#d00000]">{errors.email.message}</p>
@@ -173,7 +179,8 @@ const Form = () => {
                     autoFocus: true,
                     inputStyle:""
                   }}
-                  className=" md:w-[320px] md:h-[50px] bg-white w-full form-control block  rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
+                  className="shadow-2xl border border-blue-gray-900 md:w-[320px] md:h-[50px] bg-white w-full form-control block  rounded-md  py-1.5 text-black  ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
+                  // className="shadow-2xl border border-blue-gray-900 md:w-[320px] md:h-[50px] w-full form-control block  rounded-md  py-1.5 text-black ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-5 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
 
                   name="phoneNo"
                   id="phoneNo"
@@ -207,7 +214,8 @@ const Form = () => {
                   placeholder=' LinkedIn Profile'
                   id="LinkedIn"
                   {...register('linkedin')}
-                  className=" md:w-[320px] md:h-[50px] w-full form-control block  rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
+                className="shadow-2xl border border-blue-gray-900 md:w-[320px] md:h-[50px] w-full form-control block  rounded-md  py-1.5 text-black ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-5 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
+                  // className=" md:w-[320px] md:h-[50px] w-full form-control block  rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
                 />
                 {errors.linkedin && (
                   <p className="text-[#d00000]">{errors.linkedin.message}</p>
@@ -227,7 +235,9 @@ const Form = () => {
                 placeholder="Position Applied"
                 id="positionApplied"
                 {...register('positionApplied')}
-                className=" md:md:w-[320px] md:h-[50px] w-full block  rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
+                className="shadow-2xl border border-blue-gray-900 md:w-[320px] md:h-[50px] w-full form-control block  rounded-md  py-1.5 text-black ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-5 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
+
+                // className=" md:md:w-[320px] md:h-[50px] w-full block  rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
               >
                 <option value="">Please select</option>
                 <option value="FrontEnd">FrontEnd</option>
@@ -241,7 +251,7 @@ const Form = () => {
             <div className="w-60">
               <label
                 htmlFor="aboutUs"
-                className="block text-sm font-medium leading-6 text-white "
+                className=" block text-sm font-medium leading-6 text-white "
               >
                 How did you hear about us
               </label>
@@ -250,7 +260,7 @@ const Form = () => {
                 id="aboutus"
                 {...register('aboutUs')}
                 placeholder="   How did you hear about us"
-                className="md:w-[320px] md:h-[50px] w-full block  rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
+                className="shadow-2xl border border-blue-gray-900 md:w-[320px] md:h-[50px] w-full block  rounded-md  py-1.5 text-black  ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
               >
                 <option value="">Please select</option>
                 <option value="Instagram">Instagram</option>
@@ -279,7 +289,9 @@ const Form = () => {
                   id="Resume"
                   accept=".pdf, .docx, application/msword, application/vnd.openxmlformats-officedocument.wordprocessingml.document"
                   {...register('resume')}
-                  className="md:w-[320px] md:h-[50px] w-full block rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
+                className="shadow-2xl border border-blue-gray-900 md:w-[320px] md:h-[50px] w-full form-control block  rounded-md  py-1.5 text-black ring-1 ring-inset  placeholder:text-black focus:ring-5 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
+
+                  // className="md:w-[320px] md:h-[50px] w-full block rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
                 />
                 {errors.resume && (
                   <p className="text-[#d00000]">{errors.resume.message}</p>
@@ -299,7 +311,7 @@ const Form = () => {
                 id="coverletter"
                 placeholder='Write something... (optional)'
                 {...register('coverLetter')}
-                className=" md:w-[320px] md:h-[50px] block w-full rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 hover:ring-blue-400"
+                className="shadow-2xl border border-blue-gray-900 md:w-[320px] md:h-[50px] block w-full rounded-md py-1.5 text-black  ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 hover:ring-blue-400"
               ></textarea>
               {errors.coverLetter && (
                 <p className="text-[#d00000]">{errors.coverLetter.message}</p>
@@ -307,13 +319,26 @@ const Form = () => {
 
             </div>
             <div className="w-60 pb-8">
-              <button
-                type="submit"
-                className="rounded bg-black px-9 md:px-4 py-2 text-white items-center w-60 md:w-80"
-              >
-                Apply
-              </button>
-            </div>
+        {/* Conditionally render the link based on form validity */}
+        {isFormValid ? (
+          <Link to="/thanks">
+            <button
+              type="submit"
+              className="rounded bg-black px-9 md:px-4 py-2 text-white items-center w-60 md:w-80"
+            >
+              Apply
+            </button>
+          </Link>
+        ) : (
+          <button
+            type="submit"
+            className="rounded bg-black px-9 md:px-4 py-2 text-white items-center w-60 md:w-80"
+          >
+            Apply
+          </button>
+        )}
+      </div>
+        
           </form>
 
 
