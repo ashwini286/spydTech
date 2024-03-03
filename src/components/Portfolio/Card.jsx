@@ -10,7 +10,7 @@ import Img8 from "../assets/Desktop2.jpg";
 import Img9 from "../assets/Protfolio/Desktop3.png";
 import Img10 from "../assets/webApp2.png";
 import Img11 from "../assets/Protfolio/webApp22.png";
-import Img12 from "../assets/webApp3.png";
+import Img12 from "../assets/Protfolio/img3.png";
 
 
 const Card = () => {
@@ -25,7 +25,7 @@ const Card = () => {
     { id: 7, title: "WEB APPLICATION", image: Img7 },
     { id: 8, title: "WEB APPLICATION", image: Img8 },
     { id: 9, title: "WEB APPLICATION", image: Img9 },
-    { id: 10, title: "DESKTOP APPLICATION", image: Img10 },
+    { id: 10, title: "DESKTOP APPLICATION", image: Img11 },
     { id: 11, title: "DESKTOP APPLICATION", image: Img11 },
     { id: 12, title: "DESKTOP APPLICATION", image: Img12 },
   ];
