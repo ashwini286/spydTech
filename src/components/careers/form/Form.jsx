@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import { useForm } from "react-hook-form"
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from 'yup';
+import PhoneInput from 'react-phone-input-2'
+import 'react-phone-input-2/lib/style.css'
 import Navbarupp from '../../Home/Navbar/Navbarupp';
 import Approch from '../../Home/APProchUs/Approch';
 import Footer from '../../Home/Footer/Footer';
@@ -21,7 +23,7 @@ const Form = () => {
       .date()
       .nullable()
       .required('Date of Birth is required')
-      .max(new Date(), 'Date of Birth cannot be in the future'), 
+      .max(new Date(), 'Date of Birth cannot be in the future'),
 
     streetAddress: yup
       .string()
@@ -30,7 +32,7 @@ const Form = () => {
         /^[a-zA-Z0-9\s,.'-]*$/,
         'Invalid characters in the Street Address'
       ),
-      city: yup
+    city: yup
       .string()
       .required('City is required')
       .matches(/^[a-zA-Z\s]*$/, 'Invalid characters in the City'),
@@ -39,17 +41,17 @@ const Form = () => {
       .required('State is required')
       .matches(/^[a-zA-Z\s]*$/, 'Invalid characters in the State'),
 
-      postalCode: yup
+    postalCode: yup
       .string()
       .required('Postal/Zip Code is required')
       .matches(/^\d{5}(-\d{4})?$/, 'Invalid Postal/Zip Code'),
 
-      email: yup.string().email('Invalid email format').required('Email is required'),
-      phoneNumber: yup
+    email: yup.string().email('Invalid email format').required('Email is required'),
+    phoneNumber: yup
       .string()
       .matches(/^[0-9]{10}$/, 'Invalid phone number'),
 
-      linkedin: yup
+    linkedin: yup
       .string()
       .matches(
         /^(https?:\/\/)?(www\.)?linkedin\.com\/in\/[a-zA-Z0-9_-]+\/?$/,
@@ -57,18 +59,18 @@ const Form = () => {
       )
       .required('LinkedIn profile link is required'),
 
-      positionApplied: yup.string().required('Position Applied is required'),
+    positionApplied: yup.string().required('Position Applied is required'),
 
-      aboutUs: yup.string().required('How did you hear about us is required'),
-      startDate: yup.date().required('Available Start Date is required'),
-      resume: yup
+    aboutUs: yup.string().required('How did you hear about us is required'),
+    startDate: yup.date().required('Available Start Date is required'),
+    resume: yup
       .mixed()
       .test('fileFormat', 'This field is required', (value) => {
         if (!value) return true; // Allow empty value
         const allowedFormats = ['application/pdf', 'application/msword', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'];
         return allowedFormats.includes(value[0]?.type);
       }),
-      coverLetter: yup.string(),
+    coverLetter: yup.string(),
 
   });
 
@@ -80,7 +82,7 @@ const Form = () => {
     resolver: yupResolver(schema),
   });
 
-  
+
   const onSubmit = (data) => {
     var AllJobFormDetails = JSON.parse(localStorage.getItem('AllJobFormDetails') || "[]");
     AllJobFormDetails.push(data);
@@ -88,7 +90,7 @@ const Form = () => {
     setFormData(data);
     console.log(data);
   };
-  
+
   return (
     <>
       <Navbarupp />
@@ -111,7 +113,7 @@ const Form = () => {
             </h4>
           </div>
           <hr></hr>
-     
+
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-10 gap-4">
             <div className="sm:col-span-3 ">
               <label
@@ -124,9 +126,9 @@ const Form = () => {
                 <input
                   type="text "
                   name="firstName"
-                
+
                   placeholder='   First name'
-                 
+
                   className="w-[320px] h-[50px] form-control block  rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
                   {...register('firstName')}
                 />
@@ -148,7 +150,7 @@ const Form = () => {
                   type="text"
                   name="lastName"
                   placeholder='   Last name'
-                  className= " w-[320px] h-[50px] form-control block rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 hover:ring-blue-400"
+                  className=" w-[320px] h-[50px] form-control block rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 hover:ring-blue-400"
                   {...register('lastName')}
                 />
                 {errors.lastName && (
@@ -158,7 +160,7 @@ const Form = () => {
 
             </div>
           </div>
-      {/* <div>
+          {/* <div>
       <label
             htmlFor="dob"
             className="block text-sm font-medium text-white"
@@ -174,7 +176,7 @@ const Form = () => {
             <p  className="text-[#d00000]">{errors.dob.message}</p>
           )}
       </div> */}
-           {/* <div className="sm:col-span-3">
+          {/* <div className="sm:col-span-3">
         <label
            htmlFor="streetAddress"
             className="block text-sm font-medium leading-6 text-white "
@@ -194,9 +196,9 @@ const Form = () => {
           </div>
         
         </div>  */}
-         
+
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-10 gap-4 ">
-          {/* <div className="sm:col-span-3">
+            {/* <div className="sm:col-span-3">
           <label
               htmlFor="city"
               className="block text-sm font-medium leading-6 text-white "
@@ -219,7 +221,7 @@ const Form = () => {
         
           </div> */}
 
-          {/* <div className="sm:col-span-3">
+            {/* <div className="sm:col-span-3">
           <label
               htmlFor="state"
               className="block text-sm font-medium leading-6 text-white"
@@ -242,7 +244,7 @@ const Form = () => {
             </div>
            
           </div> */}
-        </div>
+          </div>
           {/* <div className="sm:col-span-3">
         <label
             htmlFor="postalCode"
@@ -266,129 +268,143 @@ const Form = () => {
           
         </div> */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-10 gap-4">
-          <div className="sm:col-span-3">
-            <div className="w-60">
-              <label
-                htmlFor="email"
-                className="block text-sm font-medium leading-6 text-white"
-              >
-                Email address
-              </label>
-              <input
-                type="text"
-                name="email"
-                id="email"
-                {...register('email')}
-                placeholder=" ex:myname@gmail.com"
-                className="w-[320px] h-[50px] form-control block  rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400 "
-              />
-                {errors.email && (
-            <p className="text-[#d00000]">{errors.email.message}</p>
-          )}
-            </div>
-          </div>
-
-          <div className="sm:col-span-3">
-            <div className="w-60">
-              <label
-                htmlFor="phoneNumber"
-                className="block text-sm font-medium leading-6 text-white"
-              >
-                Phone Number
-              </label>
-              <div>
+            <div className="sm:col-span-3">
+              <div className="w-60">
+                <label
+                  htmlFor="email"
+                  className="block text-sm font-medium leading-6 text-white"
+                >
+                  Email address
+                </label>
                 <input
-                   type="text"
+                  type="text"
+                  name="email"
+                  id="email"
+                  {...register('email')}
+                  placeholder=" ex:myname@gmail.com"
+                  className="w-[320px] h-[50px] form-control block  rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400 "
+                />
+                {errors.email && (
+                  <p className="text-[#d00000]">{errors.email.message}</p>
+                )}
+              </div>
+            </div>
+
+            <div className="sm:col-span-3">
+              <div className="w-60">
+                <label
+                  htmlFor="phoneNumber"
+                  className="block text-sm font-medium leading-6 text-white"
+                >
+                  Phone Number
+                </label>
+                <div>
+                  <PhoneInput
+                  country={'in'}
+                    inputProps={{
+                      name: 'phone',
+                      required: true,
+                      autoFocus: true
+                    }}
+                    inputStyle={{width:"320px",height:"50px",color:"black" }}
+                    name="phoneNo"
+                    id="phoneNo"
+                    placeholder="(000) 000-0000"
+                    {...register('phoneNumber')}
+                    className=" form-control block  text-black placeholder:text-black   "
+                  />
+                  {/* <input
+                     type="tel"
                   name="phoneNo"
                   id="phoneNo"
                   placeholder="(000) 000-0000"
                   {...register('phoneNumber')}
                   className=" w-[320px] h-[50px] form-control block  rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
-                />
+                /> */}
                   {errors.phoneNumber && (
-            <p className="text-[#d00000]">{errors.phoneNumber.message}</p>
-          )}
+                    <p className="text-[#d00000]">{errors.phoneNumber.message}</p>
+                  )}
+                </div>
               </div>
             </div>
           </div>
-        </div>
           <div className="sm:col-span-3">
-          <div className="w-60">
-            <label
-               htmlFor="linkedin"
-              className="block text-sm font-medium leading-6 text-white"
-            >
-              LinkedIn
-            </label>
-            <input
-              type="text"
-              name="LinkedIn"
-              placeholder=' LinkedIn Profile'
-              id="LinkedIn"
-              {...register('linkedin')}
-              className=" w-[320px] h-[50px] form-control block  rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
-            />
-             {errors.linkedin && (
-            <p className="text-[#d00000]">{errors.linkedin.message}</p>
-          )}
+            <div className="w-60">
+              <label
+                htmlFor="linkedin"
+                className="block text-sm font-medium leading-6 text-white"
+              >
+                LinkedIn
+              </label>
+              <input
+                type="text"
+                name="LinkedIn"
+                placeholder=' LinkedIn Profile'
+                id="LinkedIn"
+                {...register('linkedin')}
+                className=" w-[320px] h-[50px] form-control block  rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
+              />
+              {errors.linkedin && (
+                <p className="text-[#d00000]">{errors.linkedin.message}</p>
+              )}
+            </div>
           </div>
-        </div>
-         
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-10 gap-4">
-          <div className="sm:col-span-3">
-          <div className="w-60">
-      <label
-        htmlFor="positionApplied"
-        className="form-control block text-sm font-medium leading-6 text-white"
-      >
-        Position Applied
-      </label>
-      <select
-        type="text"
-        name="positionApplied"
-        placeholder="Position Applied"
-        id="positionApplied"
-        {...register('positionApplied')}
-        className=" w-[320px] h-[50px] block  rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
-      >
-        <option value="">Please select</option>
-        <option value="FrontEnd">FrontEnd</option>
-        <option value="BackEnd">BackEnd</option>
-        <option value="other">Other</option>
-      </select>
-      {errors.positionApplied && (
-        <p className="text-[#d00000]">{errors.positionApplied.message}</p>
-      )}
-    </div>
-</div>
 
-<div className="w-60">
-      <label
-        htmlFor="aboutUs"
-        className="block text-sm font-medium leading-6 text-white"
-      >
-        How did you hear about us
-      </label>
-      <select
-        name="aboutUs" 
-        id="aboutus"
-        {...register('aboutUs')} 
-        placeholder="   How did you hear about us"
-        className="block w-full rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
-      >
-        <option value="">Please select</option>
-        <option value="Instagram">Instagram</option>
-        <option value="LinkedIn">LinkedIn</option>
-        <option value="YouTube">YouTube</option>
-        <option value="Facebook">Facebook</option>
-        <option value="other">Other</option>
-      </select>
-      {errors.aboutUs && (
-        <p className="text-[#d00000]">{errors.aboutUs.message}</p>
-      )}
-    </div>
-        </div>
-        {/* <div className="sm:col-span-3">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-10 gap-4">
+            <div className="sm:col-span-3">
+              <div className="w-60">
+                <label
+                  htmlFor="positionApplied"
+                  className="form-control block text-sm font-medium leading-6 text-white"
+                >
+                  Position Applied
+                </label>
+                <select
+                  type="text"
+                  name="positionApplied"
+                  placeholder="Position Applied"
+                  id="positionApplied"
+                  {...register('positionApplied')}
+                  className=" w-[320px] h-[50px] block  rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
+                >
+                  <option value="">Please select</option>
+                  <option value="FrontEnd">FrontEnd</option>
+                  <option value="BackEnd">BackEnd</option>
+                  <option value="other">Other</option>
+                </select>
+                {errors.positionApplied && (
+                  <p className="text-[#d00000]">{errors.positionApplied.message}</p>
+                )}
+              </div>
+            </div>
+
+            <div className="w-60">
+              <label
+                htmlFor="aboutUs"
+                className="block text-sm font-medium leading-6 text-white"
+              >
+                How did you hear about us
+              </label>
+              <select
+                name="aboutUs"
+                id="aboutus"
+                {...register('aboutUs')}
+                placeholder="   How did you hear about us"
+                className="w-[320px] h-[50px] block  rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
+              >
+                <option value="">Please select</option>
+                <option value="Instagram">Instagram</option>
+                <option value="LinkedIn">LinkedIn</option>
+                <option value="YouTube">YouTube</option>
+                <option value="Facebook">Facebook</option>
+                <option value="other">Other</option>
+              </select>
+              {errors.aboutUs && (
+                <p className="text-[#d00000]">{errors.aboutUs.message}</p>
+              )}
+            </div>
+          </div>
+          {/* <div className="sm:col-span-3">
       <label
         htmlFor="Available-Start-Date"
         className="block text-sm font-medium leading-6 text-white"
@@ -412,46 +428,46 @@ const Form = () => {
     </div> */}
           {/* Resume */}
           <div className="sm:col-span-3">
-      <label
-        htmlFor="Resume"
-        className="block text-sm font-medium leading-6 text-white"
-      >
-        Resume
-      </label>
-      <div className="w-96">
-        <input
-          type="file"
-          name="resume"
-          id="Resume"
-          accept=".pdf, .docx, application/msword, application/vnd.openxmlformats-officedocument.wordprocessingml.document"
-          {...register('resume')}
-          className="block w-full rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
-        />
-        {errors.resume && (
-          <p className="text-[#d00000]">{errors.resume.message}</p>
-        )}
-      </div>
-    </div>
-    <div className="sm:col-span-3">
-      <div className="max-w-screen-sm">
-        <label
-          htmlFor="coverletter"
-          className="block text-sm font-medium leading-6 text-white"
-        >
-          Cover Letter
-        </label>
-        <textarea
-          name="coverLetter"
-          id="coverletter"
-          placeholder='Write something... (optional)'
-          {...register('coverLetter')}
-          className="block w-full rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 hover:ring-blue-400"
-        ></textarea>
-        {errors.coverLetter && (
-          <p className="text-[#d00000]">{errors.coverLetter.message}</p>
-        )}
-      </div>
-    </div>
+            <label
+              htmlFor="Resume"
+              className="block text-sm font-medium leading-6 text-white"
+            >
+              Resume
+            </label>
+            <div className="w-96">
+              <input
+                type="file"
+                name="resume"
+                id="Resume"
+                accept=".pdf, .docx, application/msword, application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                {...register('resume')}
+                className="block w-full rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 focus:outline-none hover:ring-blue-400"
+              />
+              {errors.resume && (
+                <p className="text-[#d00000]">{errors.resume.message}</p>
+              )}
+            </div>
+          </div>
+          <div className="sm:col-span-3">
+            <div className="max-w-screen-sm">
+              <label
+                htmlFor="coverletter"
+                className="block text-sm font-medium leading-6 text-white"
+              >
+                Cover Letter
+              </label>
+              <textarea
+                name="coverLetter"
+                id="coverletter"
+                placeholder='Write something... (optional)'
+                {...register('coverLetter')}
+                className="block w-full rounded-md border-0 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-black focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 hover:ring-blue-400"
+              ></textarea>
+              {errors.coverLetter && (
+                <p className="text-[#d00000]">{errors.coverLetter.message}</p>
+              )}
+            </div>
+          </div>
           <div className="pl-4 sm:pl-0  sm:pt-4 flex justify-center items-center pb-8">
             <button
               type="submit"
