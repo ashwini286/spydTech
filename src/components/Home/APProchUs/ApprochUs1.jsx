@@ -9,7 +9,6 @@ import {
     Button,
     Textarea,
   } from "@material-tailwind/react";
-  import SocialIcons from './Socialicons'
 const ApprochUs1 = () => {
     const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -96,8 +95,7 @@ const ApprochUs1 = () => {
               </div>
               <div className="">info@spydtech.com</div>
             </div>
-      </div> 
-      <SocialIcons />
+      </div>
         </div>
 
         <div className=' p-4 shadow-2xl' >
