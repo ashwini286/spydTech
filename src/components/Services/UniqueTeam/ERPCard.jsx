@@ -11,7 +11,7 @@ import {
 const ERPCard = () => {
   return (
     <>
-     <Card className="mt-3 w-[80%] h-[20rem] ml-[10%] mb-[-15%] shadow-inner">
+     <Card className="mb-8 w-[80%] h-[20rem] ml-[10%] shadow-inner">
 
 <CardBody><img
   src={IMG}

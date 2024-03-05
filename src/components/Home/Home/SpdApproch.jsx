@@ -13,8 +13,8 @@ function SpdApproch() {
   });
   return (
     <>
-      <div className='flex justify-center items-center'>
-      <div className='grid lg:grid-cols-4  md:grid-cols-2 grid-cols-1 justify-items-center py-8'>
+      <div className='flex justify-center items-center py-16'>
+      <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 justify-items-center md:mt-8 md:gap-y-24'>
           {/* 1st card */}
           <div className=" max-w-sm  w-[269.6px] h-56  md:h-[76.2px] relative " data-aos="fade-up">
           <div className="group w-full h-full perspective">
@@ -68,7 +68,7 @@ function SpdApproch() {
         </div>
         
         {/* 3rd card */}
-        <div className=" max-w-sm  w-[269.6px] h-56  md:h-[76.2px] relative" data-aos="fade-up">
+        <div className=" max-w-sm  w-[269.6px] h-56  md:h-[76.2px] relative " data-aos="fade-up">
           <div className="group w-full h-full perspective">
             <div className="flip-card ">
               <div className="flip-card-inner">
@@ -94,7 +94,7 @@ function SpdApproch() {
         </div>
         
         {/* 4th card */}
-        <div className=" max-w-sm  w-[269.6px] h-56 md:h-[76.2px] relative " data-aos="fade-up">
+        <div className=" max-w-sm  w-[269.6px] h-56 md:h-[76.2px] relative  " data-aos="fade-up">
           <div className="group w-full h-full perspective flex flex-col justify-center items-center">
             <div className="flip-card ">
               <div className="flip-card-inner">
