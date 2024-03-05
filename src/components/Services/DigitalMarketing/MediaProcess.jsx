@@ -1,7 +1,13 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function MediaProcess() {
   const [selected, setSelected] = useState(0);
+
+  useEffect(() => {
+    AOS.init();
+});
   const tabs = [
     {
       title: 'Discovery',
@@ -244,11 +250,11 @@ function MediaProcess() {
               </ul>
             </menu>
             <article>
-  <h1 className="text-2xl font-bold">{tabs[selected].title}</h1>
+  <h1 className="text-2xl font-bold" data-aos="fade-right">{tabs[selected].title}</h1>
   <hr className="my-4" />
   <div className='flex flex-col md:flex-row'> {/* Added 'items-center' for vertical alignment */}
-    <img src={tabs[selected].ImgURL} alt={tabs[selected].title} className=" w-1/2 rounded-lg" /> {/* Added image */}
-    <p className="mb-4 ml-2 leading-relaxed p-2 text-lg">{tabs[selected].content}</p>
+    <img src={tabs[selected].ImgURL} alt={tabs[selected].title} className=" w-1/2 rounded-lg" data-aos="fade-left" /> {/* Added image */}
+    <p className="mb-4 ml-2 leading-relaxed p-2 text-lg " data-aos="fade-left">{tabs[selected].content}</p>
   </div>
 </article>
 

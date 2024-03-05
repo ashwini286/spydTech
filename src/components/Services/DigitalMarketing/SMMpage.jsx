@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import IMG from "../../assets/SMM.jpg"
 import Main from './SMMmain/Main'
 import Navbarupp from '../../Home/Navbar/Navbarupp'
@@ -9,6 +11,9 @@ import MediaProcess from './MediaProcess'
 
 
 function SMMpage() {
+  useEffect(() => {
+    AOS.init();
+});
   return (
     <>
       <Navbarupp />
@@ -20,13 +25,14 @@ function SMMpage() {
           style={{ filter: "brightness(30%)" }}
         />
         <div className='text-white  p-10 absolute mt-[-35%] space-y-6'>
-          <h1 className='text-4xl font-bold '>SOCIAL MEDIA MARKETING</h1>
+          <h1 className='font-bold  text-6xl bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text '>SOCIAL MEDIA MARKETING</h1>
           <p className='text-2xl'>Reach out to your target audience / ultimate customer, 
             utilizing the unlimited power that social media platforms provide and the relatively low-cost budgeting: 
             Facebook, Instagram & LinkedIn </p>
         </div>
       </div>
-      <div className=' text-center p-10 space-y-4'>
+      <div className=' text-center p-10 space-y-4'
+      data-aos="fade-up">
         <h1 className='text-4xl'>WE CAN<a>HELP YOU OUT!</a>
 </h1>
 <div className='text-justify text-2xl p-10'>

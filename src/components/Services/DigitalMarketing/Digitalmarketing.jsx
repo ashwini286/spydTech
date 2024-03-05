@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Navbarupp from '../../Home/Navbar/Navbarupp';
 import Approch from '../../Home/APProchUs/Approch';
 import { Link } from 'react-router-dom';
@@ -11,6 +13,9 @@ import IMG6 from "../../assets/Digital marketing/contentwriting 2.jpg";
 import AnimatedFooter from '../UniqueTeam/AnimatedFooter';
 
 function Digitalmarketing() {
+  useEffect(() => {
+    AOS.init();
+});
   return (
     <>
       <Navbarupp />
@@ -75,11 +80,13 @@ function Digitalmarketing() {
           <img
             src={IMG3}
             className='bg-white w-full'
+            data-aos="fade-up"
             style={{ filter: "brightness(100%)" }}
             alt="SEO"
           />
         </div>
-        <div className='w-full md:w-1/2 p-5 md:ml-20'>
+        <div className='w-full md:w-1/2 p-5 md:ml-20' 
+        data-aos="fade-right">
           <h1 className='text-3xl text-black-500 font-bold'>What Is SEO?</h1>
           <p className='text-xl pb-5 text-gray-500'>SEO means Search Engine Optimization and is the process used to optimize a website's technical configuration,
             content relevance and link popularity so its pages can become easily findable, more relevant and popular
@@ -90,7 +97,8 @@ function Digitalmarketing() {
         </div>
       </div>
 
-      <div className='flex flex-col md:flex-row p-10'>
+      <div className='flex flex-col md:flex-row p-10'
+      data-aos="fade-left">
         <div className='w-full md:w-1/2 p-5'>
           <h1 className='text-3xl font-bold pb-5'>Pay Per Click (PPC) Marketing</h1>
           <p className='text-xl pb-5 text-gray-500'>Pay per click marketing is a paid search model used to build brand awareness,
@@ -107,18 +115,20 @@ function Digitalmarketing() {
           <img
             src={IMG4}
             className='bg-white w-full'
+            data-aos="fade-up"
             alt="PPC"
           />
         </div>
       </div>
 
-      <div className='p-10'>
+      <div className='p-10'
+      data-aos="fade-up">
         <img
           src={IMG5}
           className='mx-auto max-w-screen-lg w-full h-full'
           alt="Social Media Marketing"
         />
-        <div className='text-center p-5'>
+        <div className='text-center p-5' data-aos="fade-left">
           <h1 className='text-3xl font-bold pb-5'>What Is Social Media Marketing (SMM)?</h1>
           <p className='text-xl pb-5 text-gray-500'>Social media marketing (also known as digital marketing and e-marketing)
             is the use of social media—the platforms on which users build social networks
@@ -134,7 +144,8 @@ function Digitalmarketing() {
       </div>
 
       <div className='flex flex-col md:flex-row p-10 pb-32'>
-        <div className='w-full md:w-1/2 p-5'>
+        <div className='w-full md:w-1/2 p-5'
+        data-aos="fade-up">
           <h1 className='text-3xl font-bold pb-5'>Why Content Writing is Important in Digital Marketing?</h1>
           <p className='text-xl pb-5 text-gray-500'>As the world has witnessed a great shift of customer’s preference from a conventional advertising world to the digital sphere,
             the growing use of internet, technology & digital media has raised the dependency of people on the online market.
@@ -148,6 +159,7 @@ function Digitalmarketing() {
           <img
             src={IMG6}
             className='bg-white w-full'
+            data-aos="fade-left"
             alt="Content Writing"
           />
         </div>

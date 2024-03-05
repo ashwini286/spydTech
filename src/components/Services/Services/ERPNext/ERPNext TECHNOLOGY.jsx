@@ -25,24 +25,15 @@ function ERPNext () {
       <div>
       <Navbarupp />
       </div>   
-      <div className="max-w-screen mx-auto min-h-screen h-screen relative">
-        <img
-          src={IMG}
-          className="md:w-full h-3/4 object-cover rounded-bl-[15%] rounded-br-[15%] rounded"
-          alt="Background Image"
-        />
-        <div className="absolute inset-0 w-full ">
-          <div className='flex  justify-center items-center flex-col md:flex-row lg:h-[95%] h-[80%] text-center text-white' >
-          <div  className="text-4xl font-bold">  
-            <h1 
-            className='mr-44 w-full flex-center ml-[-25%]'>Our Services</h1>
-        </div>
-         <div className="mt-8 ml-[10%] lg:w-1/2 flex-start tracking-wider text-justify">
-            <p>Building Cost-Effective Digital Business Capabilities around the ERPNext, focusing on the right balance of Digitization, Flexibility, and Process mapping.</p>
-          </div>
-          </div> 
-        </div>
-      </div>
+      <div class="relative h-screen w-full rounded-2xl">
+    <img src={IMG} alt="Background Image" class="absolute inset-0 w-full h-[80vh] rounded-2xl object-cover filter blur-sm" />
+    <div class="absolute inset-0 h-[80vh] bg-black bg-opacity-50 rounded-2xl"></div>
+    <div class="absolute inset-0  flex flex-col md:flex-row items-center justify-center ml-10">
+        <h1 class="text-4xl text-white font-bold w-full p-10">Our Services</h1>
+        <p class="text-xl text-white mt-4 -ml-10 p-10">Building Cost-Effective Digital Business Capabilities around the ERPNext, 
+        focusing on the right balance of Digitization, Flexibility, and Process mapping.</p>
+    </div>
+</div>
       
      <UniqueTeam12 /> 
     

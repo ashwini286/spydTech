@@ -1,17 +1,21 @@
-import React from 'react'
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Navbarupp from '../../../Home/Navbar/Navbarupp'
 import IMG1 from "../../../assets/Azure/Azure2.png"
 import IMG2 from "../../../assets/Azure/Azure4.avif"
 import IMG3 from "../../../assets/Azure/Azure5.png"
-import "./Azure.css"
+// import "./Azure.css"
 import Approch from '../../../Home/APProchUs/Approch'
 function Azure() {
+  
   return (
     <>
     <Navbarupp />
     <div className="">
      <img 
      src={IMG1}
+     className='w-full h-[85vh] rounded-2xl'
      alt="Azure"
      />
     </div>
@@ -29,46 +33,47 @@ function Azure() {
       src={IMG3}
       className='w-[25%] h-[35%] object-cover'
       alt="Your Alt Text"
+      data-aos="fade-left"
     />
     </div>
-      <p>Develop your Skills next app with your Azure </p>
+      <p  data-aos="fade-left">Develop your Skills next app with your Azure </p>
   </figcaption>
 </div>
 
 
 
 
-<div className='bg-gray-900 text-white p-10 md:p-20 rounded-lg shadow-5'>
+<div className='bg-gray-900 text-white p-10 md:p-20 rounded-lg shadow-5'  >
 
-        <h1 className='text-4xl'>What is Azure?</h1>
-        <p className='text-xl'>The Azure cloud platform is more than 200 products and cloud services designed to help you bring new solutions 
+        <h1 className='text-4xl' data-aos="fade-up">What is Azure?</h1>
+        <p className='text-xl' data-aos="fade-up">The Azure cloud platform is more than 200 products and cloud services designed to help you bring new solutions 
             to life—to solve today’s challenges and create the future. 
             Build, run, and manage applications across multiple clouds, on-premises, and at the edge, with the tools and frameworks of your choice.</p>
     </div>
    
     
     <div className="p-10 md:p-20 bg-gray-900 space-y-10">
-  <h1 className="text-4xl text-white text-center">Azure App services</h1>
+  <h1 className="text-4xl text-white text-center" data-aos="fade-left">Azure App services</h1>
   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 justify-center text-white text-3xl font-bold">
-    <div className="flex h-[15rem] justify-center rounded-lg bg-gray-500 text-center shadow-3 transition-all duration-300 cursor-pointer filter scale hover:scale-75 border-4 shadow-2xl overflow-hidden shyam">
+    <div className="flex h-[15rem] justify-center rounded-lg bg-gray-500 text-center shadow-3 transition-all duration-300 cursor-pointer filter scale hover:scale-75 border-4 shadow-2xl overflow-hidden shyam" data-aos="fade-right">
       <code className="self-center">
         <h1>Azure Virtual Machines—Windows</h1>
         <p></p>
       </code>
     </div>
-    <div className="flex h-[15rem] justify-center rounded-lg bg-gray-500 text-center shadow-3 transition-all duration-300 cursor-pointer filter scale hover:scale-75 border-4 shadow-2xl overflow-hidden shyam">
+    <div className="flex h-[15rem] justify-center rounded-lg bg-gray-500 text-center shadow-3 transition-all duration-300 cursor-pointer filter scale hover:scale-75 border-4 shadow-2xl overflow-hidden shyam" data-aos="fade-right">
       <code className="self-center">
         <h1>Azure Virtual Machines—Linux</h1>
         <p></p>
       </code>
     </div>
-    <div className="flex h-[15rem] justify-center rounded-lg bg-gray-500 text-center shadow-3 transition-all duration-300 cursor-pointer filter scale hover:scale-75 border-4 shadow-2xl overflow-hidden shyam">
+    <div className="flex h-[15rem] justify-center rounded-lg bg-gray-500 text-center shadow-3 transition-all duration-300 cursor-pointer filter scale hover:scale-75 border-4 shadow-2xl overflow-hidden shyam" data-aos="fade-left">
       <code className="self-center">
         <h1>Azure SQL Database</h1>
         <p></p>
       </code>
     </div>
-    <div className="flex h-[15rem] justify-center rounded-lg bg-gray-500 text-center shadow-3 transition-all duration-300 cursor-pointer filter scale hover:scale-75 border-4 shadow-2xl overflow-hidden shyam">
+    <div className="flex h-[15rem] justify-center rounded-lg bg-gray-500 text-center shadow-3 transition-all duration-300 cursor-pointer filter scale hover:scale-75 border-4 shadow-2xl overflow-hidden shyam" data-aos="fade-left">
       <code className="self-center">
         <h1>Azure Blob Storage</h1>
         <p></p>
@@ -76,33 +81,33 @@ function Azure() {
     </div>
   </div>
   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 justify-center text-white text-3xl font-bold">
-    <div className="flex h-[15rem] justify-center rounded-lg bg-gray-500 text-center shadow-3 transition-all duration-300 cursor-pointer filter scale hover:scale-75 border-4 shadow-2xl overflow-hidden shyam">
+    <div className="flex h-[15rem] justify-center rounded-lg bg-gray-500 text-center shadow-3 transition-all duration-300 cursor-pointer filter scale hover:scale-75 border-4 shadow-2xl overflow-hidden shyam" data-aos="fade-right">
       <code className="self-center">
         <h1>Azure Cosmos DB</h1>
         <p></p>
       </code>
     </div>
-    <div className="flex h-[15rem] justify-center rounded-lg bg-gray-500 text-center shadow-3 transition-all duration-300 cursor-pointer filter scale hover:scale-75 border-4 shadow-2xl overflow-hidden shyam">
+    <div className="flex h-[15rem] justify-center rounded-lg bg-gray-500 text-center shadow-3 transition-all duration-300 cursor-pointer filter scale hover:scale-75 border-4 shadow-2xl overflow-hidden shyam" data-aos="fade-right">
       <code className="self-center">
         <h1>Azure App Service</h1>
         <p></p>
       </code>
     </div>
-    <div className="flex h-[15rem] justify-center rounded-lg bg-gray-500 text-center shadow-3 transition-all duration-300 cursor-pointer filter scale hover:scale-75 border-4 shadow-2xl overflow-hidden shyam">
+    <div className="flex h-[15rem] justify-center rounded-lg bg-gray-500 text-center shadow-3 transition-all duration-300 cursor-pointer filter scale hover:scale-75 border-4 shadow-2xl overflow-hidden shyam" data-aos="fade-left">
       <code className="self-center">
         <h1>Azure Functions</h1>
         <p></p>
       </code>
     </div>
-    <div className="flex h-[15rem] justify-center rounded-lg bg-gray-500 text-center shadow-3 transition-all duration-300 cursor-pointer filter scale hover:scale-75 border-4 shadow-2xl overflow-hidden shyam">
+    <div className="flex h-[15rem] justify-center rounded-lg bg-gray-500 text-center shadow-3 transition-all duration-300 cursor-pointer filter scale hover:scale-75 border-4 shadow-2xl overflow-hidden shyam" data-aos="fade-left">
       <code className="self-center">
         <h1>Azure Event Grid</h1>
         <p></p>
       </code>
     </div>
   </div>
-  <h1 className="text-white text-4xl text-center pt-10">Here's just some of what you can do with Azure</h1>
-  <div className="grid grid-cols-1 md:grid-cols-3 gap-10 justify-center text-white text-xl">
+  <h1 className="text-white text-4xl text-center pt-10" data-aos="fade-up">Here's just some of what you can do with Azure</h1>
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-10 justify-center text-white text-xl" data-aos="fade-up">
     <div className="flex h-[15rem] justify-center rounded-lg bg-gray-500 text-center shadow-3 transition-all duration-300 cursor-pointer filter scale hover:scale-75 border-4 shadow-2xl overflow-hidden shyam">
       <code className="self-center">
         <h1>Azure App Service</h1>
@@ -122,6 +127,29 @@ function Azure() {
     </div>
   </div>
 </div>
+<style>
+  {`.shyam {
+    border: 2px solid #fff;
+    overflow: hidden; /* Add overflow hidden */
+  }
+  
+  @keyframes borderGlow {
+    0% {
+      border-color: #fff; /* White */
+    }
+    50% {
+      border-color: #0ff; /* Light blue */
+    }
+    100% {
+      border-color: #fff; /* White */
+    }
+  }
+  
+  .shyam {
+    animation: borderGlow 2s ease-in-out infinite; 
+  }
+  `}
+</style>
 
     <Approch />
     </>

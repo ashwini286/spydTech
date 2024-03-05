@@ -15,9 +15,7 @@ import Hero from "./Hero";
 
 
 function Machine() {
-  useEffect(() => {
-    AOS.init();
-  });
+ 
   return (
     <>
     <Navbarupp />

@@ -1,4 +1,7 @@
-import React from 'react'
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 import Navbarupp from '../../../Home/Navbar/Navbarupp'
 import IMG1 from "../../../assets/Google cloud/main1.avif"
 import IMG2 from "../../../assets/Google cloud/main2.png"
@@ -11,6 +14,7 @@ import "./google.css"
 import Approch from '../../../Home/APProchUs/Approch'
 
 function Google() {
+ 
   return (
     <>
     <Navbarupp />
@@ -29,11 +33,11 @@ function Google() {
         </div>
     </div>
     <div className='p-10'>
-        <h1 className='text-4xl'>What are Google Cloud Platform services?</h1>
-        <p className='text-xl pt-5'>Each GCP region offers a category of services. Some services are limited to specific regions.
+        <h1 className='text-4xl' data-aos="fade-left">What are Google Cloud Platform services?</h1>
+        <p className='text-xl pt-5' data-aos="fade-left">Each GCP region offers a category of services. Some services are limited to specific regions.
              Major services of Google Cloud Platform include:</p>
     </div>
-    <div className='p-10 flex gap-10 justify-center text-2xl text-bold'>
+    <div className='p-10 flex gap-10 justify-center text-2xl text-bold' data-aos="fade-right">
     <div
     class="flex w-[35%] justify-center rounded-lg bg-white text-center shadow-5 p-5 sathish">
     <code class="self-center">
@@ -44,7 +48,7 @@ function Google() {
         </code>
   </div>
   <div
-    class="flex w-[35%] justify-center rounded-lg bg-white text-center shadow-5 p-5 sathish">
+    class="flex w-[35%] justify-center rounded-lg bg-white text-center shadow-5 p-5 sathish" data-aos="fade-up">
     <code class="self-center">
     <img 
         src={IMG4}
@@ -52,7 +56,7 @@ function Google() {
        <h1 className=''> Storage and database</h1></code>
   </div>
   <div
-    class="flex w-[35%] justify-center rounded-lg bg-white text-center shadow-5 p-5 sathish">
+    class="flex w-[35%] justify-center rounded-lg bg-white text-center shadow-5 p-5 sathish" data-aos="fade-left">
     <code class="self-center">
     <img 
         src={IMG5}
@@ -64,7 +68,7 @@ function Google() {
 
   <div className='p-10 flex gap-10 justify-center text-2xl text-bold'>
   <div
-    class="flex w-[35%] justify-center rounded-lg bg-white text-center shadow-5 p-5 sathish">
+    class="flex w-[35%] justify-center rounded-lg bg-white text-center shadow-5 p-5 sathish" data-aos="fade-right">
     <code class="self-center">
     <img 
         src={IMG6}
@@ -72,7 +76,7 @@ function Google() {
         <h1 className='pt-10'>Big Data</h1></code>
   </div>
   <div
-    class="flex w-[35%] justify-center rounded-lg bg-white text-center shadow-5 p-5 sathish">
+    class="flex w-[35%] justify-center rounded-lg bg-white text-center shadow-5 p-5 sathish" data-aos="fade-left">
     <code class="self-center">
     <img 
         src={IMG7}
@@ -80,6 +84,32 @@ function Google() {
         <h1 className='pt-10'>Machine learning</h1></code>
   </div>
 </div>
+<style>
+  {`
+  .sathish{
+    border: 4px solid #9e8b8b;
+    overflow: hidden;
+}
+
+@keyframes borderGlow  {
+    0% {
+      border-color: yellow; /* White */
+    }
+    50% {
+      border-color: blue; /* Light blue */
+    }
+    75% {
+      border-color: red; /* White */
+    }
+    100%{
+        border-color: green;
+    }
+  }
+  
+  .sathish {
+    animation: borderGlow 5s ease-in-out infinite; 
+  }`}
+</style>
     <Approch />
     </>
   )

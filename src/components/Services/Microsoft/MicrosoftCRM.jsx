@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import IMG from "../../assets/Microsoft/CRM1.png"
 import Navbarupp from '../../Home/Navbar/Navbarupp'
 import Approch from '../../Home/APProchUs/Approch'
@@ -12,19 +14,22 @@ import IMG7 from "../../assets/Microsoft/CMR sevices6.png"
 import IMG8 from "../../assets/Microsoft/dynamic-crm.png"
 
 function MicrosoftCRM() {
+  useEffect(() => {
+    AOS.init();
+});
   return (
     <>
       <Navbarupp />
       <div className=''>
         <img
-          className='w-full '
+          className='w-full h-[85vh] rounded-2xl'
           src={IMG}
         />
 
       </div>
       <div className='flex flex-wrap'>
         <img src={IMG1} className='w-full sm:w-1/4 md:w-1/4 lg:w-1/4 xl:w-1/3 md:ml-10' alt="Microsoft CRM Image 1" />
-        <div className='ml-4 sm:ml-36 mt-6 w-full sm:w-1/4 md:w-2/4 lg:w-2/4 xl:w-2/4  text-[#656565]'>
+        <div className='ml-4 sm:ml-36 mt-6 w-full sm:w-1/4 md:w-2/4 lg:w-2/4 xl:w-2/4   bg-[#7b87f1] p-10'>
           <p className='pb-5'>Creating, Engaging, Building, Nurturing Customer Relations is at the heart of any business.
             We take care of the entire gamut of building robust,
             scalable CRM platforms to help our customers attract, engage, build and retain customers.</p>
@@ -40,9 +45,11 @@ function MicrosoftCRM() {
             with the existing technologies to ensure the integration process is smooth for efficient operations.</p>
         </div>
       </div>
-      <h1 className='text-4xl text-center pt-10  text-[#656565]'>Our CRM Services include</h1>
+      <div className='p-10'></div>
+      <div className='bg-[#7b87f1] '>
+      <h1 className='text-4xl text-center pt-10 '>Our CRM Services include</h1>
       <div className=''>
-        <div className='flex flex-wrap p-10  text-[#656565] '>
+        <div className='flex flex-wrap p-10 '>
           <div className='w-full md:w-1/3 lg:w-1/3 xl:w-1/3'>
             <div className="flex flex-col items-center">
               <img src={IMG2} className='mx-auto w-48 md:ml-20 p-4' alt="Image 2" />
@@ -82,6 +89,7 @@ function MicrosoftCRM() {
             </div>
           </div>
         </div>
+      </div>
       </div>
 
 
