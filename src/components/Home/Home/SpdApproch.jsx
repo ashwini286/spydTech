@@ -13,9 +13,10 @@ function SpdApproch() {
   });
   return (
     <>
-      <div className='flex flex-wrap  flex-col md:flex-row justify-center items-center  gap-6 md:gap-5 p-10'>
-        {/* 1st card */}
-        <div className=" max-w-sm w-full md:w-[269.6px] h-56 md:h-[76.2px] relative " data-aos="fade-up">
+      <div className=''>
+      <div className='grid lg:grid-cols-4  md:grid-cols-2 grid-cols-1 justify-items-center py-8'>
+          {/* 1st card */}
+          <div className=" max-w-sm  w-[269.6px] h-56  md:h-[76.2px] relative " data-aos="fade-up">
           <div className="group w-full h-full perspective">
             <div className="flip-card ">
               <div className="flip-card-inner">
@@ -41,7 +42,7 @@ function SpdApproch() {
         </div>
 
         {/* 2nd card */}
-        <div className=" max-w-sm w-full md:w-[269.6px] h-56 md:h-[76.2px] relative" data-aos="fade-up">
+        <div className=" max-w-sm  w-[269.6px] h-56 md:h-[76.2px] relative" data-aos="fade-up">
           <div className="group w-full h-full perspective">
             <div className="flip-card ">
               <div className="flip-card-inner">
@@ -67,7 +68,7 @@ function SpdApproch() {
         </div>
         
         {/* 3rd card */}
-        <div className=" max-w-sm w-full md:w-[269.6px] h-56 md:h-[76.2px] relative" data-aos="fade-up">
+        <div className=" max-w-sm  w-[269.6px] h-56  md:h-[76.2px] relative" data-aos="fade-up">
           <div className="group w-full h-full perspective">
             <div className="flip-card ">
               <div className="flip-card-inner">
@@ -93,8 +94,8 @@ function SpdApproch() {
         </div>
         
         {/* 4th card */}
-        <div className=" max-w-sm w-full md:w-[269.6px] h-56 md:h-[76.2px] relative " data-aos="fade-up">
-          <div className="group w-full h-full perspective">
+        <div className=" max-w-sm  w-[269.6px] h-56 md:h-[76.2px] relative " data-aos="fade-up">
+          <div className="group w-full h-full perspective flex flex-col justify-center items-center">
             <div className="flip-card ">
               <div className="flip-card-inner">
                 <div className="flip-card-front bg-[#0ea5e9] flex flex-col justify-center items-center">
@@ -107,7 +108,7 @@ function SpdApproch() {
                       <div className="bg-white bg-opacity-0 absolute inset-0"></div>
                       <img 
                         src={IMG}
-                        className="w-full h-full object-cover filter brightness-120" 
+                        className=" w-full h-full object-cover filter brightness-120" 
                         alt="Image"
                       />
                     </div>
@@ -118,15 +119,18 @@ function SpdApproch() {
           </div>
         </div> 
       </div>
+      </div>
       <style>
         {`
         .group {
+          display: flex;
+          justify-content: center;
+          align-items: center;
           perspective: 1000px;
         }
          .flip-card {
           width: 80%;
           height: 90%;
-          
           position: relative;
           transform-style: preserve-3d;
           transition: transform 0.8s;

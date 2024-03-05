@@ -25,7 +25,7 @@ const Slider = () => {
     },
     {
       icons: <RiPagesLine className='text-red-800' />,
-      name: "Strategic Information Architecture",
+      name: "StratInfo Framework (SIF)",
       image: "https://www.digitalsilk.com/wp-content/uploads/2023/09/2_PLANNING__INFORMATION_ARCHITECTURE-1.png.webp",
       description: "Strategic information architecture is the art and science of organizing and labeling content on websites and web applications. It ensures that users can easily find and comprehend the information they seek.",
       line1: "Design site structure, navigation, and page hierarchy",
@@ -33,7 +33,7 @@ const Slider = () => {
     },
     {
       icons: <FaRegLightbulb className='text-yellow-800' />,
-      name: "Creative Design",
+      name: "Designing Creatively Unleashed",
       image: "https://www.digitalsilk.com/wp-content/uploads/2023/09/3_CREATIVE_DESIGN-1.png.webp",
       description: "Creative design involves the visual and aesthetic aspects of web development. It includes designing layouts, graphics, and other visual elements to create an engaging and user-friendly experience.",
       line1: "Design your custom website",
@@ -56,7 +56,7 @@ const Slider = () => {
       line2: "Ensure all features and functionalities work as intended"
     },
     {
-      icons: <GrOptimize className='text-blue-800' />,
+      icons: <GrOptimize className='text-blue-800 ' />,
       name: "Launch & Optimization",
       image: "https://www.digitalsilk.com/wp-content/uploads/2023/09/6_LAUNCH__OPTIMIZATION-1.png.webp",
       description: "Launch optimization involves the final steps before launching a website or application. It includes performance optimization, security checks, and ensuring all elements are in place for a successful launch.",
@@ -99,20 +99,17 @@ const Slider = () => {
         <div className='grid lg:grid-cols-6 gap-4 mb-12 md:grid-cols-3 grid-cols-1'>
 
           {slideData.map((slide, index) => (
-            <div key={index} className='flex flex-col items-center space-y-2 relative '>
+            <div key={index} className='flex flex-col items-center justify-center space-y-2 relative '>
               <button
 
-                className={` flex p-10 rounded-full bg-gray-300 text-4xl hover:bg-light-blue-400 ${index === visibleImageIndex ? 'active' : ''
-                  } ${index === visibleImageIndex - 1 && index !== 0 ? 'md:left-0 hidden md:block' : ''
-                  } ${index === visibleImageIndex + 1 && index !== slideData.length - 1 ? 'md:right-0 hidden md:block' : ''
-                  }`}
+                className={` flex p-8 rounded-full bg-gray-300 text-4xl hover:bg-light-blue-400 `}
                 onClick={() => scrollToImage(index)}
               >
                 {slide.icons}
               </button>
 
-              {index === visibleImageIndex && <div className='active-indicator'></div>}
-              <div className='w-56 px-8 '>
+              {index === visibleImageIndex && <div className='active-indicator   absolute w-[80px] h-[80px] '></div>}
+              <div className='w-56 px-8'>
                 <p
                   className={`text-gray-700 text-center hover:text-blue-400 font-extrabold cursor-pointer ${index === visibleImageIndex ? 'active' : ''
                     }`}
@@ -125,12 +122,12 @@ const Slider = () => {
             </div>
           ))}
         </div>
-        <div className='flex lg:flex-row  justify-center items-center swiper flex-col gap-32'>
+        <div className='flex lg:flex-row  justify-center items-center swiper flex-col '>
           <div className='w-full lg:w-1/2 swiper-slide'>
             {slideData.map((slide, index) => (
               <div
                 key={index}
-                className={`md:h-[350px] description-wrapper mb-4 ${index === visibleImageIndex ? 'visible' : 'hidden'
+                className={`md:h-[350px] pl-16 description-wrapper mb-4 ${index === visibleImageIndex ? 'visible' : 'hidden'
                   }`}
               >
                 <div className=' py-4'>
@@ -164,7 +161,7 @@ const Slider = () => {
               <div
                 key={index}
                 ref={imageRefs[index]}
-                className={`image-wrapper mb-4 ${index === visibleImageIndex ? 'visible' : 'hidden'
+                className={`image-wrapper flex justify-center items-center  ${index === visibleImageIndex ? 'visible' : 'hidden'
                   }`}
               >
                 <img src={slide.image} alt={`Image ${index + 1}`} className=' h-auto image-slide' />
@@ -177,8 +174,7 @@ const Slider = () => {
         .active-indicator {
           content: "";
           position: absolute;
-          width: 80px;
-          height: 80px;
+       
           border-radius: 50%;
           box-shadow: 0 0 0 20px #522d5b;
           top: 25%;

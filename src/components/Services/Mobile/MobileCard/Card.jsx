@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import Phone from '../Phone';
+
 import { Link } from 'react-router-dom';
 import Phone1 from '../../../assets/Mobile/mobile.svg'
 import AOS from "aos";
@@ -31,7 +31,7 @@ const Card = () => {
           <div className='md:w-[620px] md:h-[560px] text-white flex justify-center items-justify flex-col ' data-aos="fade-down">
             <div>
               <img src={Phone1}  className='h-[450px]'/>
-              {/* <Phone /> */}
+          
             </div>
           </div>
         </div>

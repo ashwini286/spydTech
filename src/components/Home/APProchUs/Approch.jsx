@@ -97,7 +97,7 @@ const ApprochUs1 = () => {
               <div className="">info@spydtech.com</div>
             </div>
       </div> 
-      <SocialIcons />
+      {/* <SocialIcons /> */}
         </div>
 
         <div className=' p-4 shadow-2xl' >
