@@ -169,7 +169,7 @@ const Home = () => {
       <Industry />
       {/* <ApprochUs1 /> */}
       <ApprochUs />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

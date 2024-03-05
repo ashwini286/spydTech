@@ -9,10 +9,12 @@ import {
   Typography,
   Button,
 } from "@material-tailwind/react";
+import Card1 from './ERPCard';
 function Footer1() {
   return (
     <>
-      <Card className="mt-3 w-[80%] h-[20rem] ml-[10%] mb-[-15%] shadow-inner">
+    <Card1 />
+      {/* <Card className="mt-3 w-[80%] h-[20rem] ml-[10%] mb-[-15%] shadow-inner">
 
         <CardBody><img
           src={IMG}
@@ -28,7 +30,7 @@ function Footer1() {
         <CardFooter className="pt-5 ">
           <Button className='ml-[40%]'>Read More</Button>
         </CardFooter>
-      </Card>
+      </Card> */}
       <footer className="bg-blue-900 text-white ">
         <div className='pb-[18%]'></div>
         <div className="container mx-auto mb-[-10%]">

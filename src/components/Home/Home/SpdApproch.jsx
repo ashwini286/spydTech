@@ -13,7 +13,7 @@ function SpdApproch() {
   });
   return (
     <>
-      <div className=''>
+      <div className='flex justify-center items-center'>
       <div className='grid lg:grid-cols-4  md:grid-cols-2 grid-cols-1 justify-items-center py-8'>
           {/* 1st card */}
           <div className=" max-w-sm  w-[269.6px] h-56  md:h-[76.2px] relative " data-aos="fade-up">
@@ -72,11 +72,11 @@ function SpdApproch() {
           <div className="group w-full h-full perspective">
             <div className="flip-card ">
               <div className="flip-card-inner">
-                <div className="flip-card-front bg-[#14b8a6] flex flex-col justify-center items-center px-4">
+                <div className="flip-card-front bg-[#00C072] flex flex-col justify-center items-center px-4">
                   <MdGroups className='text-6xl text-white '/>
                   <p className="font-bold text-white text-center">Human and Talents at the Heart of our Development</p>
                 </div>
-                <div className="flip-card-back bg-[#14b8a6] relative">
+                <div className="flip-card-back bg-[#00C072] relative">
                   <a href="#" className="card-link text-white block w-full h-full">
                     <div className="absolute inset-1 flex items-center justify-center">
                       <div className="bg-white bg-opacity-0 absolute inset-0"></div>
@@ -98,11 +98,11 @@ function SpdApproch() {
           <div className="group w-full h-full perspective flex flex-col justify-center items-center">
             <div className="flip-card ">
               <div className="flip-card-inner">
-                <div className="flip-card-front bg-[#0ea5e9] flex flex-col justify-center items-center">
+                <div className="flip-card-front bg-[#00C072] flex flex-col justify-center items-center">
                   <IoIosLeaf className='text-6xl text-white'/>
                   <p className="font-bold text-white text-center">Commitment to a Virtuous Digital Transition</p>
                 </div>
-                <div className="flip-card-back bg-[#0ea5e9] relative">
+                <div className="flip-card-back bg-[#00C072] relative">
                   <a href="#" className="card-link text-white block w-full h-full">
                     <div className="absolute inset-1 flex items-center justify-center">
                       <div className="bg-white bg-opacity-0 absolute inset-0"></div>
