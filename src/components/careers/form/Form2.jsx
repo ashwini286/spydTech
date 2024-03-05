@@ -7,7 +7,7 @@ import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 import Navbarupp from "../../Home/Navbar/Navbarupp";
 import Approch from "../../Home/APProchUs/Approch";
-import Footer from "../../Home/Footer/Footer";
+
 import Resume from "../../assets/jobForm/woman.svg";
 import tech from "../../assets/jobForm/tech.svg";
 import Login from "../../assets/jobForm/login.svg";
@@ -468,7 +468,7 @@ const Form2 = () => {
       </div>
       <div className="relative">
         <Approch />
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </>
   );

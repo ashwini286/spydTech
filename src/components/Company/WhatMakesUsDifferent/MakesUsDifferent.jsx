@@ -3,7 +3,7 @@ import Navbarupp from "../../Home/Navbar/Navbarupp";
 import Makeus from '../../../components/assets/Company/makeus.jpg'
 import MakeUs from './makeus/MakeUs';
 import Approch from '../../Home/APProchUs/Approch';
-import Footer from '../../Home/Footer/Footer';
+
 const MakesUsDifferent = () => {
   return (
     <>
@@ -18,7 +18,7 @@ const MakesUsDifferent = () => {
       />
 <MakeUs />
 <Approch />
-<Footer />
+
     </>
   )
 }

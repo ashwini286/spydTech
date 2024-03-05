@@ -3,7 +3,7 @@ import Navbarupp from "../../Home/Navbar/Navbarupp";
 import Card from './AboutUsCard/Card';
 
 import Approch from '../../Home/APProchUs/Approch';
-import Footer from '../../Home/Footer/Footer';
+
 const AboutUS = () => {
   return (
     <>
@@ -20,7 +20,7 @@ const AboutUS = () => {
       <Card />
   
 <Approch />
-<Footer />
+
      
 
     </>

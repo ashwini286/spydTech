@@ -5,7 +5,7 @@ import Help from './HowSpydTechHelp/Help'
 import AngularJs from './AngularJs/AngularJs';
 import NextJs from './NextJs/Next';
 import Approch from '../../Home/APProchUs/Approch';
-import Footer from '../../Home/Footer/Footer';
+
 const Frontend = () => {
   return (
     <>
@@ -26,7 +26,7 @@ const Frontend = () => {
 
       <Approch />
 
-      <Footer />
+ 
     </>
   )
 }

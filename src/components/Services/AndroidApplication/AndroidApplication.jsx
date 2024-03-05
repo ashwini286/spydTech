@@ -1,12 +1,11 @@
-import React , {useEffect}from 'react'
-// import androidHero from '../../assets/IPhoneApplication/androidHero.jpg';
+import React, { useEffect } from 'react'
+
 import Navbarupp from "../../Home/Navbar/Navbarupp";
 import OurCapabilities from './OurCapabilities/OurCapabilities';
-// import OurAndroidDevelopmentExpertise from './OurAndroidDevelopmentExpertise/OurAndroidDevelopmentExpertise';
-// import HowWeDevelop from './HowWeDevelopPowerfulIAndroidAPplication/HowWeDevelop';
+
 import OurProvenMethodology from '../IphoneApplication/OurProvenMethodology/OurProvenMethodology';
 import Approch from '../../Home/APProchUs/Approch';
-import Footer from '../../Home/Footer/Footer';
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 const AndroidApplication = () => {
@@ -38,11 +37,9 @@ const AndroidApplication = () => {
         <p className='text-[#656565] pt-4' data-aos="fade-down">SPY D Privite Limited believes in building lasting business relationships with its clients, for we believe, the growth of our client’s business is our growth.</p>
       </div>
       <OurCapabilities />
-      {/* <OurAndroidDevelopmentExpertise /> */}
-      {/* <HowWeDevelop /> */}
       <OurProvenMethodology />
       <Approch />
-      <Footer />
+
     </>
   )
 }

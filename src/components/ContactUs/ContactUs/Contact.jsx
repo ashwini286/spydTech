@@ -2,7 +2,7 @@ import React from 'react'
 import Navbarupp from '../../Home/Navbar/Navbarupp';
 import GetInTouch from '../GetInTouch/GetInTouch';
 import LetsTalk from '../LetsTalk/LetsTalk';
-import Footer from '../../Home/Footer/Footer'
+
 const Contact = () => {
   return (
     <>
@@ -21,7 +21,7 @@ const Contact = () => {
     </div>
     <GetInTouch />
     <LetsTalk />
-    <Footer />
+
     </>
   )
 }

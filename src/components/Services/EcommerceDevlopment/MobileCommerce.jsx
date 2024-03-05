@@ -1,7 +1,6 @@
 import React from 'react'
 import Navbarupp from '../../Home/Navbar/Navbarupp'
 import IMG from "../../assets/e-commerce-Mobile.webp"
-import Footer from '../../Home/Footer/Footer'
 import Approch from '../../Home/APProchUs/Approch'
 import IMG1 from '../../assets/mobileIcon.avif'
 import { PiNumberOne } from "react-icons/pi";
@@ -119,7 +118,7 @@ function MobileCommerce() {
       </div>
 
       <Approch />
-      <Footer />
+  =
     </>
   )
 }

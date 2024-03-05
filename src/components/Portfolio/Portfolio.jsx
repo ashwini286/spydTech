@@ -2,7 +2,7 @@ import React from "react";
 import Navbarupp from "../Home/Navbar/Navbarupp";
 import Card from "./Card";
 import Approch from "../Home/APProchUs/Approch";
-import Footer from "../Home/Footer/Footer";
+
 
 const Portfolio = () => {
   return (
@@ -17,11 +17,11 @@ const Portfolio = () => {
             />
       <Card />
       <Approch />
-      <Footer />
+   
     </>
   );
 };
 
-// export default Home;
+
 
 export default Portfolio

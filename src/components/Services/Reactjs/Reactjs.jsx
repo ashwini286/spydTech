@@ -5,7 +5,7 @@ import Benefits from './ReactImmenseBenefits/Benefits';
 
 
 import Approch from '../../Home/APProchUs/Approch';
-import Footer from '../../Home/Footer/Footer';
+
 const Reactjs = () => {
 
   return (
@@ -25,7 +25,7 @@ const Reactjs = () => {
         <Benefits />
        
         <Approch />
-        <Footer />
+
       </>
     </>
   )

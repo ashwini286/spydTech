@@ -1,12 +1,8 @@
 import React, { useEffect } from "react";
-// import HybridImg from '../../assets/IPhoneApplication/hybridApplication.jpg';
 import Navbarupp from "../../Home/Navbar/Navbarupp";
 import OurCapabilities from './OurCapabilities/OurCapabilities';
-// import HybridAppDevelopment from './HybridAppDevelopment/HybridAppDevelopment';
-// import HowWeDevelop from './HowWeDevelopPowerfullHybridSApp/HowWeDevelop';
 import OurProvenMethodology from '../IphoneApplication/OurProvenMethodology/OurProvenMethodology';
 import Approch from '../../Home/APProchUs/Approch';
-import Footer from '../../Home/Footer/Footer';
 import AOS from "aos";
 import "aos/dist/aos.css";
 const HybridApp = () => {
@@ -49,7 +45,7 @@ const HybridApp = () => {
       <OurCapabilities />
       <OurProvenMethodology />
       <Approch />
-      <Footer />
+   
     </>
   )
 }

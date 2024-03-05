@@ -3,12 +3,10 @@ import { Carousel } from "@material-tailwind/react";
 import { Typography, Button } from "@material-tailwind/react";
 import Navbarupp from "../Navbar/Navbarupp";
 import Services1 from "../Services/Services1";
-// import OurApproch from "../OurApproch/OurApproch";
 import OurWorks from "../OurWorks/OurWork";
 import WhatClientSay from '../WhatClientSay/Client';
 import Industry from "../Industry/Industry";
 import ApprochUs from "../APProchUs/Approch";
-import Footer from '../Footer/Footer';
 import { Link } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -162,14 +160,13 @@ const Home = () => {
       <Welcome />
       <Services1 />
       
-      {/* <OurApproch /> */}
-      
-      <OurWorks />
+
+    <OurWorks />
       <WhatClientSay />
       <Industry />
-      {/* <ApprochUs1 /> */}
+      
       <ApprochUs />
-      {/* <Footer /> */}
+    
     </>
   );
 };

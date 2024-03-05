@@ -1,20 +1,10 @@
 import React from 'react'
 import Navbarupp from '../../Home/Navbar/Navbarupp';
 import IMG from "../../assets/Ecommerce development.png"
-import Footer from '../../Home/Footer/Footer';
+
 import Approch from "../../Home/APProchUs/Approch"
 import { BsCheck2Square } from "react-icons/bs";
 import IMG1 from "../../assets/ecommerce-big-icon.png"
-
-import {
-   Card,
-   CardHeader,
-   CardBody,
-   CardFooter,
-   Typography,
-   Button,
-} from "@material-tailwind/react";
-import { IoBookOutline } from "react-icons/io5";
 
 function EcommerceDevelopment() {
    return (
@@ -187,7 +177,7 @@ function EcommerceDevelopment() {
 
 
          <Approch />
-         <Footer />
+       =
       </>
    )
 }

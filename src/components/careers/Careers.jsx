@@ -3,9 +3,8 @@ import Navbarupp from '../Home/Navbar/Navbarupp';
 import Card from './card/Card';
 import JobPost from './JobPost/JobPost';
 import { Link } from 'react-router-dom';
-import { Button } from '@mui/material';
 import Approch from '../Home/APProchUs/Approch';
-import Footer from '../Home/Footer/Footer';
+
 function careers() {
 
 
@@ -34,7 +33,7 @@ function careers() {
       </Link>
       <Approch />
 
-      <Footer />
+
 
     </>
   );

@@ -3,7 +3,7 @@ import Navbarupp from '../Home/Navbar/Navbarupp'
 import ReadyToTest from './ReadyToTestDrive/ReadyToTest'
 import PowerfulFeatures from './PowerfulFeatures/PowerfulFeatures';
 import Approch from "../Home/APProchUs/Approch";
-import Footer from "../Home/Footer/Footer";
+
 
 const TryADemo = () => {
   return (
@@ -32,7 +32,7 @@ const TryADemo = () => {
         <ReadyToTest />
         <PowerfulFeatures />
         <Approch />
-        <Footer />
+     
     </>
   )
 }
