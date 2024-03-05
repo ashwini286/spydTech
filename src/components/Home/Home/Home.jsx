@@ -16,8 +16,6 @@ import IMG1 from "../../assets/Digital-Marketing-Explained_Blog-scaled.jpeg"
 import IMG2 from "../../assets/Main2.avif"
 import IMG3 from "../../assets/Main3.webp"
 import Welcome from "./Welcom";
-
-
 const Home = () => {
   useEffect(() => {
     AOS.init();
@@ -169,6 +167,7 @@ const Home = () => {
       <OurWorks />
       <WhatClientSay />
       <Industry />
+      {/* <ApprochUs1 /> */}
       <ApprochUs />
       <Footer />
     </>

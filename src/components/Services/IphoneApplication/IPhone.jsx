@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Navbarupp from "../../Home/Navbar/Navbarupp";
 import OurCapabilities from './OurCapabilities/OurCapabilities';
-import IOSDevelopmentExpertise from './iOSDevelopmentExpertise/iOSDevelopmentExpertise';
+// import IOSDevelopmentExpertise from './iOSDevelopmentExpertise/iOSDevelopmentExpertise';
 import Iphone from '../../assets/IPhoneApplication/Iphone.png'
 import HowWeDevelop from './HowWeDevelopPowerfulIOS/HowWeDevelop';
 import OurProvenMethodology from './OurProvenMethodology/OurProvenMethodology';
