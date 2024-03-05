@@ -167,8 +167,8 @@ const Home = () => {
       {/* <OurApproch /> */}
       
       <OurWorks />
-      <Industry />
       <WhatClientSay />
+      <Industry />
       <ApprochUs />
       <Footer />
     </>
