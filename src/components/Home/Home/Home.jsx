@@ -134,7 +134,7 @@ const Home = () => {
             <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-75"></div>
             <div className="absolute inset-0 grid place-items-center text-left text-white">
               <div className="px-8">
-                <Typography variant="h1" color="white" className="text-2xl md:text-5xl font-bold mb-4 font-sans">
+                <Typography variant="h1" color="white" className="text-2xl md:text-5xl font-bold mb-4">
                   Mobility Solutions with Cutting Edge Technologies
                 </Typography>
                 <Typography variant="lead" color="white" className="text-sm md:text-xl mb-8 opacity-80 font-sans">

@@ -127,7 +127,7 @@ const Slider = () => {
             {slideData.map((slide, index) => (
               <div
                 key={index}
-                className={`md:h-[350px] pl-16 description-wrapper mb-4 ${index === visibleImageIndex ? 'visible' : 'hidden'
+                className={`md:h-[350px] pl-4 description-wrapper mb-4 ${index === visibleImageIndex ? 'visible' : 'hidden'
                   }`}
               >
                 <div className=' py-4'>
