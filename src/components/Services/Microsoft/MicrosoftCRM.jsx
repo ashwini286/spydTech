@@ -20,16 +20,26 @@ function MicrosoftCRM() {
   return (
     <>
       <Navbarupp />
-      <div className=''>
+      <div className='relative'>
         <img
           className='w-full h-[85vh] rounded-2xl'
           src={IMG}
         />
+         <div class="absolute inset-0 h-[85vh] bg-black bg-opacity-50 rounded-2xl"></div>
+         <div className='absolute -mt-[20%] text-4xl text-white font-bold p-10' data-aos="fade-up">
+          <h1>Revolutionize Customer Relationships with Microsoft Dynamics CRM by "SpY D Technology"</h1>
+        <a></a>
+        </div>
 
       </div>
+
+      <h1 className='text-2xl font-semibold text-center p-10' data-aos="fade-down">Welcome to the future of customer relationship management with Microsoft Dynamics CRM, powered by "SpY D Technology".
+         Our innovative solutions are designed to empower businesses of all sizes to build stronger customer connections, streamline processes, and drive growth. Explore how Microsoft Dynamics CRM can transform your business:</h1>
       <div className='flex flex-wrap'>
-        <img src={IMG1} className='w-full sm:w-1/4 md:w-1/4 lg:w-1/4 xl:w-1/3 md:ml-10' alt="Microsoft CRM Image 1" />
-        <div className='ml-4 sm:ml-36 mt-6 w-full sm:w-1/4 md:w-2/4 lg:w-2/4 xl:w-2/4   bg-[#7b87f1] p-10'>
+        <img src={IMG1} className='w-full sm:w-1/4 md:w-1/4 lg:w-1/4 xl:w-1/3 md:ml-10'
+        data-aos="fade-right"
+        alt="Microsoft CRM Image 1" />
+        <div className='ml-4 sm:ml-36 mt-6 w-full sm:w-1/4 md:w-2/4 lg:w-2/4 xl:w-2/4   bg-[#7b87f1] p-10' data-aos="fade-left">
           <p className='pb-5'>Creating, Engaging, Building, Nurturing Customer Relations is at the heart of any business.
             We take care of the entire gamut of building robust,
             scalable CRM platforms to help our customers attract, engage, build and retain customers.</p>
@@ -47,8 +57,8 @@ function MicrosoftCRM() {
       </div>
       <div className='p-10'></div>
       <div className='bg-[#7b87f1] '>
-      <h1 className='text-4xl text-center pt-10 '>Our CRM Services include</h1>
-      <div className=''>
+      <h1 className='text-4xl text-center pt-10 ' data-aos="fade-up">Our CRM Services include</h1>
+      <div className='' data-aos="fade-left">
         <div className='flex flex-wrap p-10 '>
           <div className='w-full md:w-1/3 lg:w-1/3 xl:w-1/3'>
             <div className="flex flex-col items-center">
@@ -93,16 +103,37 @@ function MicrosoftCRM() {
       </div>
 
 
-      <div className='bg-[#0ea5e9] p-10 text-center text-white'>
-        <h1 className='text-center text-2xl lg:text-4xl pb-2'>Microsoft CRM</h1>
-        <p className='text-sm lg:text-base'>Aspirant provides Customer Relationship Management (CRM) solutions specially designed by our experts to meet our clients' ever-demanding needs. We utilize our domain expertise to implement SMBs and LMEs level solutions that meet all the business needs of our clients. With our deep knowledge of CRM processes, we are experts in building multichannel customer interactive systems and Microsoft CRM architecture that reduces the total cost involved in the actual development and enhances the overall services.</p>
-      </div>
+      <div className=' p-10 text-center '>
+      <div class="w-full max-w-2xl my-4 mx-auto p-2">
+
+<div class="border-2 border-indigo-500 p-4 md:p-6 rounded-lg text-center">
+    <h2 class="text-2xl md:text-3xl font-bold mb-4" data-aos="fade-up">Microsoft CRM</h2>
+
+    <p class="text-lg mb-4 text-gray-700" data-aos="fade-left">
+        <strong>SpY D Technology</strong>.
+        <br />
+        provides Customer Relationship Management (CRM) solutions specially designed by our experts to meet our clients' ever-demanding needs. 
+        We utilize our domain expertise to implement SMBs and LMEs level solutions that meet all the business needs of our clients.
+         With our deep knowledge of CRM processes, 
+         we are experts in building multichannel customer interactive systems and Microsoft CRM architecture that reduces the total cost involved in the actual development and enhances the overall services.
+    </p>
+
+    <a href="#" data-aos="fade-up"
+        class="font-bold inline-block bg-indigo-100 text-indigo-700 py-2 px-4 rounded-lg hover:bg-indigo-100 transition duration-300 ease-in-out">
+        Take Survey
+    </a>
+
+    
+</div>
+
+</div>
+        </div>
 
       <div>
-        <h1 className='text-4xl lg:text-5xl text-center  text-[#656565] pt-5'>The key benefits of CRM solutions include</h1>
+        <h1 className='text-4xl lg:text-5xl text-center  text-[#656565] pt-5' data-aos="fade-up">The key benefits of CRM solutions include</h1>
         <div className='flex flex-col lg:flex-row items-center justify-center lg:justify-start md:ml-10'>
-          <img src={IMG8} className='p-5 lg:pl-0' alt="Key Benefits Image" />
-          <div className='ml-0 lg:ml-10 mt-2 space-y-5 lg:space-y-0  text-[#656565]'>
+          <img src={IMG8} className='p-5 lg:pl-0' alt="Key Benefits Image" data-aos="fade-right" />
+          <div className='ml-0 lg:ml-10 mt-2 space-y-5 lg:space-y-0  text-[#656565]' data-aos="fade-left">
             <div className="flex items-center">
               <span className="text-[#38bdf8] lg:text-xl mr-2">&gt;</span>
               <p className="text-sm lg:text-base">Pay-as-you-go pricing model</p>
@@ -129,9 +160,59 @@ function MicrosoftCRM() {
             </div>
           </div>
         </div>
-        <p className='p-6 text-sm lg:text-base  text-[#656565]'>With more than a decade of experience, our CRM Development India team has achieved a new height of unprecedented success through our CRM solutions and services and helped us to explore a new dimension to customer service. We also focus on leveraging the platform to support any relationship scenario you want to develop with our CRM services.</p>
+        <div class="min-h-screen flex flex-col p-8 sm:p-16 md:p-24 justify-center bg-white">
+  
+  <div data-theme="teal" class="mx-auto max-w-6xl">
+    <h2 class="sr-only" data-aos="fade-left">Featured case study</h2>
+    <section class="font-sans text-black">
+      <div class="[ lg:flex lg:items-center ] [ fancy-corners fancy-corners--large fancy-corners--top-left fancy-corners--bottom-right ]">
+        <div class="flex-shrink-0 self-stretch sm:flex-basis-40 md:flex-basis-50 xl:flex-basis-60">
+          <div class="h-full">
+            <article class="h-full">
+              <div class="h-full">
+                <img class="h-full object-cover" data-aos="fade-right" src="https://inviqa.com/sites/default/files/styles/pullout/public/2020-08/XD-1.jpeg?h=f75d236a&itok=PBoXPDmW" width="733" height="412" alt='""' typeof="foaf:Image" />
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="p-6 bg-grey" data-aos="fade-left">
+          <div class="leading-relaxed">
+            <h2 class="leading-tight text-4xl font-bold">SpY D Technology: Experience Transformation</h2>
+            <p class="mt-4">With more than a decade of experience, our CRM Development India team has achieved a new height of unprecedented success through our CRM solutions and services and helped us to explore a new dimension to customer service. We also focus on leveraging the platform to support any relationship scenario you want to develop with our CRM services.</p>
+            <p class="mt-4"></p>
+            <p><a class="mt-4 button button--secondary" href="https://inviqa.com/cxcon-experience-transformation">Explore this event</a></p>
+          </div>
+        </div>
       </div>
+    </section>
+  </div>
+</div>
 
+        </div>
+
+
+      <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
+  <div class="relative isolate overflow-hidden bg-blue-800 px-6 py-24 shadow-2xl sm:rounded-3xl sm:px-24 xl:py-32" data-aos="fade-up">
+    <h2 class="mx-auto max-w-2xl text-center text-3xl font-bold tracking-tight text-white sm:text-4xl">Unlock the full potential of your customer relationships with Microsoft Dynamics CRM by Spyd Technology. 
+    Get Started Today!</h2>
+    <p class="mx-auto mt-2 max-w-xl text-center text-lg leading-8 text-gray-200">Contact us today to learn more about our tailored solutions and start driving meaningful business outcomes.</p>
+    <div class="mt-10 flex items-center justify-center gap-x-6">
+      <a class="rounded-md bg-green-500 px-5 py-3 text-lg font-semibold text-white shadow-md hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
+        href="/signup">Get Started Now</a>
+    </div>
+    <svg viewBox="0 0 1024 1024" class="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-x-1/2"
+      aria-hidden="true">
+      <circle cx="512" cy="512" r="512" fill="url(#759c1415-0410-454c-8f7c-9a820de03641)" fill-opacity="0.7"></circle>
+      <defs>
+        <radialGradient id="759c1415-0410-454c-8f7c-9a820de03641" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+          gradientTransform="translate(512 512) rotate(90) scale(512)">
+          <stop stop-color="#7775D6"></stop>
+          <stop offset="1" stop-color="#E935C1" stop-opacity="0"></stop>
+        </radialGradient>
+      </defs>
+    </svg>
+  </div>
+</div>
 
       <Approch />
     </>
