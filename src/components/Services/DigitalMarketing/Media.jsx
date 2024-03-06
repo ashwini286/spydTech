@@ -14,7 +14,7 @@ function Media() {
   data-te-animation-init
   data-te-animation-start="onScroll"
   data-aos="fade-left">
-    <h1>FACEBOOK<a className="p-2 transform hover:bg-blue-700 translate-y-1 rounded-lg">MARKETING:</a></h1>
+    <h1>FACEBOOK<a className="p-2 cursor-pointer relative before:absolute  before:bg-[#1e40af] before:bottom-0 before:left-0 before:h-full before:w-full before:origin-bottom before:scale-y-[0.35] hover:before:scale-y-100 before:transition-transform before:ease-in-out before:duration-500 rounded-lg"><span class="relative">MARKETING:</span></a></h1>
   </div>
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
     <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2" data-aos="fade-up">
@@ -50,8 +50,8 @@ function Media() {
     data-te-animation-init
     data-te-animation-start="onScroll"
     data-aos="fade-right">
-        <h2 class="text-4xl tracking-tight font-bold text-primary-800">INSTAGRAM<a className='p-2 transform hover:bg-pink-900 translate-y-1 rounded-lg'>MARKETING:</a></h2>
-    </div>
+         <h1 className='text-4xl font-bold'>INSTAGRAM<a className="p-2 cursor-pointer relative before:absolute  before:bg-[#ec4899] before:bottom-0 before:left-0 before:h-full before:w-full before:origin-bottom before:scale-y-[0.35] hover:before:scale-y-100 before:transition-transform before:ease-in-out before:duration-500 rounded-lg"><span class="relative">MARKETING:</span></a></h1>
+  </div>
 
     <div class="flex flex-col md:flex-row">
         
@@ -64,7 +64,7 @@ function Media() {
         data-te-animation-start="onScroll"
         data-aos="fade-up">
         <div class="lg:max-w-5xl">
-        <h2 class="text-base font-semibold leading-7 "><a className='text-2xl text-pink-600 '>Instagram</a> is the ‘baby-brother’ of Facebook. Owned by the same company as Facebook, 
+        <h2 class="text-base font-semibold leading-7 "><a className='text-2xl text-[#ec4899]'>Instagram</a> is the ‘baby-brother’ of Facebook. Owned by the same company as Facebook, 
         Instagram is like a simplified version of Facebook, with an emphasis on mobile use and visual sharing. As DreamGrow stated,
          “The best part about Instagram is that it has some of the most highly engaged users”. Moreover, BrandWatch indicated that, 
          “90 percent of Instagram users are younger than 35”. This makes Instagram an excellent B2C marketing tool for any business, 
@@ -92,12 +92,12 @@ function Media() {
 </div>
 
 <section class="overflow-hidden bg-gray-100 py-8 sm:py-16">
-        <div className='p-10 text-4xl text-center' 
+        <div className='p-10 text-4xl text-center font-bold' 
         data-te-animation-init
         data-te-animation-start="onScroll"
         data-aos="fade-left">
-        <h1 className=' font-semibold leading-7 text-4xl'>LINKEDIN<a className='p-2 transform hover:bg-blue-500 translate-y-1 rounded-lg'>MARKETING:</a></h1>
-        </div>
+         <h1>LINKEDIN<a className="p-2 cursor-pointer relative before:absolute  before:bg-[#60a5fa] before:bottom-0 before:left-0 before:h-full before:w-full before:origin-bottom before:scale-y-[0.35] hover:before:scale-y-100 before:transition-transform before:ease-in-out before:duration-500 rounded-lg"><span class="relative">MARKETING:</span></a></h1>
+  </div>
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
       <div class="lg:pr-8 lg:pt-4" data-aos="fade-up">
