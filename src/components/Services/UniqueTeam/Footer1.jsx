@@ -9,11 +9,11 @@ import {
   Typography,
   Button,
 } from "@material-tailwind/react";
-import Card1 from './ERPCard';
+
 function Footer1() {
   return (
     <>
-    <Card1 />
+
       <Card className="mt-3 w-[80%] h-[20rem] ml-[10%] mb-[-15%] shadow-inner">
 
         <CardBody><img
