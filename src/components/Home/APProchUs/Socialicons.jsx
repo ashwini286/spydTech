@@ -4,7 +4,7 @@ import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaYoutube } from "react
 
 function Socialicons() {
   return (
-    <div className='p-10'>
+    <div className=''>
 
 <ul class="wrapper">
   <li class="icon facebook">
@@ -16,11 +16,11 @@ function Socialicons() {
     <FaTwitter><i class="fab fa-x-twitter"></i></FaTwitter>
   </li>
   <li class="icon instagram">
-    <span class="tooltip">Instagram</span>
+    <span class="tooltip">Linkedin</span>
     <FaLinkedin><i class="fab fa-instagram"></i></FaLinkedin>
   </li>
   <li class="icon github">
-    <span class="tooltip">Github</span>
+    <span class="tooltip">Instagram</span>
     <FaInstagram><i class="fab fa-github"></i></FaInstagram>
   </li>
   <li class="icon youtube">

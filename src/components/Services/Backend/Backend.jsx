@@ -6,7 +6,7 @@ import Pyhton from './Python/Python';
 import Php from './Php/Php';
 import Help from './HowSpydTechHelp/Help'
 import Approch from '../../Home/APProchUs/Approch';
-import Footer from '../../Home/Footer/Footer';
+
 const Backend = () => {
   return (
     <>

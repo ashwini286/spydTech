@@ -2,7 +2,7 @@ import React from 'react'
 import Navbarupp from "../../Home/Navbar/Navbarupp";
 import VerifiedOutlinedIcon from '@mui/icons-material/VerifiedOutlined';
 import Approch from '../../Home/APProchUs/Approch';
-import Footer from '../../Home/Footer/Footer';
+
 import Mision from '../../assets/vision&Mision/mission1.jpg'
 import { Link } from 'react-router-dom';
 const VisionMission = () => {
@@ -69,7 +69,7 @@ const VisionMission = () => {
         </div>
       </div>
       <Approch />
-      <Footer />
+      {/* <Footer /> */}
 
 
     </>

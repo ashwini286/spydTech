@@ -2,7 +2,7 @@ import React from 'react'
 import Navbarupp from "../../Home/Navbar/Navbarupp";
 import OurCapabilities from './OurCapabilities/OurCapabilities';
 import Approch from '../../Home/APProchUs/Approch';
-import Footer from '../../Home/Footer/Footer';
+
 const SealsForce = () => {
   return (
     <>
@@ -18,7 +18,7 @@ const SealsForce = () => {
       />
       <OurCapabilities />
       <Approch />
-      <Footer />
+
     </>
   )
 }

@@ -4,7 +4,7 @@ import Navbarupp from "../../Home/Navbar/Navbarupp";
 import PythonAppDevelopment from './PythonAppDevelopment/PythonAppDevelopment';
 import PythonExpertise from './PythonExpertise/pythonExpertise';
 import Approch from '../../Home/APProchUs/Approch';
-import Footer from '../../Home/Footer/Footer';
+
 const Python = () => {
   return (
     <>
@@ -20,7 +20,7 @@ const Python = () => {
       <PythonAppDevelopment />
       <PythonExpertise />
       <Approch />
-      <Footer />
+    
     </>
   )
 }

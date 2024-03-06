@@ -3,7 +3,7 @@ import Navbarupp from '../../Home/Navbar/Navbarupp'
 import Help from './HowSpydTechHelp/Help'
 import MobileCard from './MobileCard/Card'
 import Approch from '../../Home/APProchUs/Approch';
-import Footer from '../../Home/Footer/Footer';
+
 const Mobile = () => {
   return (
     <>
@@ -18,7 +18,7 @@ const Mobile = () => {
       <MobileCard />
       <Help />
       <Approch />
-      <Footer />
+     
     </>
   )
 }

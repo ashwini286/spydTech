@@ -13,9 +13,10 @@ function SpdApproch() {
   });
   return (
     <>
-      <div className='flex flex-wrap  flex-col md:flex-row justify-center items-center  gap-6 md:gap-5 p-10'>
-        {/* 1st card */}
-        <div className=" max-w-sm w-full md:w-[269.6px] h-56 md:h-[76.2px] relative " data-aos="fade-up">
+      <div className='flex justify-center items-center py-16'>
+      <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 justify-items-center md:mt-8 md:gap-y-24'>
+          {/* 1st card */}
+          <div className=" max-w-sm  w-[269.6px] h-56  md:h-[76.2px] relative " data-aos="fade-up">
           <div className="group w-full h-full perspective">
             <div className="flip-card ">
               <div className="flip-card-inner">
@@ -41,7 +42,7 @@ function SpdApproch() {
         </div>
 
         {/* 2nd card */}
-        <div className=" max-w-sm w-full md:w-[269.6px] h-56 md:h-[76.2px] relative" data-aos="fade-up">
+        <div className=" max-w-sm  w-[269.6px] h-56 md:h-[76.2px] relative" data-aos="fade-up">
           <div className="group w-full h-full perspective">
             <div className="flip-card ">
               <div className="flip-card-inner">
@@ -67,15 +68,15 @@ function SpdApproch() {
         </div>
         
         {/* 3rd card */}
-        <div className=" max-w-sm w-full md:w-[269.6px] h-56 md:h-[76.2px] relative" data-aos="fade-up">
+        <div className=" max-w-sm  w-[269.6px] h-56  md:h-[76.2px] relative " data-aos="fade-up">
           <div className="group w-full h-full perspective">
             <div className="flip-card ">
               <div className="flip-card-inner">
-                <div className="flip-card-front bg-[#14b8a6] flex flex-col justify-center items-center px-4">
+                <div className="flip-card-front bg-[#00C072] flex flex-col justify-center items-center px-4">
                   <MdGroups className='text-6xl text-white '/>
                   <p className="font-bold text-white text-center">Human and Talents at the Heart of our Development</p>
                 </div>
-                <div className="flip-card-back bg-[#14b8a6] relative">
+                <div className="flip-card-back bg-[#00C072] relative">
                   <a href="#" className="card-link text-white block w-full h-full">
                     <div className="absolute inset-1 flex items-center justify-center">
                       <div className="bg-white bg-opacity-0 absolute inset-0"></div>
@@ -91,17 +92,15 @@ function SpdApproch() {
             </div>
           </div>
         </div>
-        
-        {/* 4th card */}
-        <div className=" max-w-sm w-full md:w-[269.6px] h-56 md:h-[76.2px] relative " data-aos="fade-up">
+        <div className=" max-w-sm  w-[269.6px] h-56  md:h-[76.2px] relative " data-aos="fade-up">
           <div className="group w-full h-full perspective">
             <div className="flip-card ">
               <div className="flip-card-inner">
-                <div className="flip-card-front bg-[#0ea5e9] flex flex-col justify-center items-center">
+              <div className="flip-card-front bg-[#00C072] flex flex-col justify-center items-center">
                   <IoIosLeaf className='text-6xl text-white'/>
                   <p className="font-bold text-white text-center">Commitment to a Virtuous Digital Transition</p>
                 </div>
-                <div className="flip-card-back bg-[#0ea5e9] relative">
+                <div className="flip-card-back bg-[#00C072] relative">
                   <a href="#" className="card-link text-white block w-full h-full">
                     <div className="absolute inset-1 flex items-center justify-center">
                       <div className="bg-white bg-opacity-0 absolute inset-0"></div>
@@ -116,33 +115,60 @@ function SpdApproch() {
               </div>
             </div>
           </div>
-        </div> 
+        </div>
+        {/* 4th card */}
+        {/* <div className=" max-w-sm  w-[269.6px] h-56 md:h-[76.2px] relative  " data-aos="fade-up">
+          <div className="group w-full h-full perspective flex flex-col justify-center items-center">
+            <div className="flip-card ">
+              <div className="flip-card-inner">
+                <div className="flip-card-front bg-[#00C072] flex flex-col justify-center items-center">
+                  <IoIosLeaf className='text-6xl text-white'/>
+                  <p className="font-bold text-white text-center">Commitment to a Virtuous Digital Transition</p>
+                </div>
+                <div className="flip-card-back bg-[#00C072] relative">
+                  <a href="#" className="card-link text-white block w-full h-full">
+                    <div className="absolute inset-1 flex items-center justify-center">
+                      <div className="bg-white bg-opacity-0 absolute inset-0"></div>
+                      <img 
+                        src={IMG}
+                        className=" w-full h-full object-cover filter brightness-120" 
+                        alt="Image"
+                      />
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>  */}
+      </div>
       </div>
       <style>
         {`
         .group {
           perspective: 1000px;
         }
-         .flip-card {
-          width: 80%;
-          height: 90%;
-          
+ 
+        .flip-card {
+          width: 100%;
+          height: 150px;
           position: relative;
           transform-style: preserve-3d;
           transition: transform 0.8s;
         }
-        
-        .flip-card:hover {
+ 
+        .flip-card:hover .flip-card-inner {
           transform: rotateY(180deg);
         }
-        
+ 
         .flip-card-inner {
-          width: 100%;
-          height: 150px;
+          width: 80%;
+          height: 90%;
           position: absolute;
           transform-style: preserve-3d;
+          transition: transform 0.8s;
         }
-        
+ 
         .flip-card-front,
         .flip-card-back {
           width: 100%;
@@ -151,27 +177,23 @@ function SpdApproch() {
           backface-visibility: hidden;
           border-radius: 12%;
         }
-        
-       
-        
+ 
         .flip-card-back {
-          /* background-color: #fff; */
           transform: rotateY(180deg);
         }
-        
+ 
         .card-link {
-          display: block;
           width: 100%;
           height: 100%;
           padding: 1rem;
           border: 1px solid white;
-           border-radius: 0.25rem; 
+          border-radius: 0.25rem;
           text-decoration: none;
           color: inherit;
+         
         }
-        
         `}
-        </style>
+      </style>
     </>
   );
 }

@@ -1,11 +1,7 @@
-/* .group {
-    perspective: 1000px;
-  }
-   */
+
   .flip-card {
     width: 80%;
     height: 90%;
-    
     position: relative;
     transform-style: preserve-3d;
     transition: transform 0.5s;

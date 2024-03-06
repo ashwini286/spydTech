@@ -2,12 +2,10 @@ import React, { useEffect } from 'react';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Navbarupp from "../../Home/Navbar/Navbarupp";
-import Angular from '../../assets/angular.jpg'
 import Development from './DevelopmentCompany/Development';
 import Benefits from './ImmenseBenefits/Benefits';
-import SPYD from './HowSpydHelpsitsClient/SPYD';
 import Approch from '../../Home/APProchUs/Approch';
-import Footer from '../../Home/Footer/Footer';
+
 function AngularJS() {
   useEffect(() => {
     AOS.init();
@@ -26,11 +24,8 @@ function AngularJS() {
       />
       <Development />
       <Benefits />
-      {/* <SPYD /> */}
 
       <Approch />
-
-      <Footer />
     </>
   );
 }

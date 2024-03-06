@@ -9,9 +9,11 @@ import {
   Typography,
   Button,
 } from "@material-tailwind/react";
+
 function Footer1() {
   return (
     <>
+
       <Card className="mt-3 w-[80%] h-[20rem] ml-[10%] mb-[-15%] shadow-inner">
 
         <CardBody><img
