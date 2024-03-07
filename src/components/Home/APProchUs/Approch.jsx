@@ -277,8 +277,8 @@ import SocialIcons from "./Socialicons";
 const ApprochUs = () => {
   return (
     <>
-      <div className="relative py-0.5  ">
-        <div className="w-full md:w-[80%] py-8  h-full  ml-auto mr-auto shadow-inner slider-wave rounded-xl ">
+      <div className="relative py-0.5">
+        <div className="  w-full md:w-[80%] py-8  h-full  ml-auto mr-auto shadow-inner slider-wave rounded-xl mb-24">
           <div className=" text-center flex justify-center items-center flex-col">
             <div className=" w-full text-2xl md:text-3xl  text-white">
               Let’s Ignite Conversations in the World of Innovative Technology!
@@ -308,7 +308,7 @@ const ApprochUs = () => {
           <Wave
             fill="#184e77"
             paused={false}
-            className="absolute top-10 left-0 -z-10 h-full"
+            className="absolute h-full -z-10 top-10"
             options={{
               height: 5,
               amplitude: 20,
@@ -432,31 +432,7 @@ const ApprochUs = () => {
                     </ul>
                   </div>
  
-                  {/* <div className=" mb-4  flex justify-center items-center flex-col">
-                    <div className="text-2xl font-bold mb-4">Contact Us</div>
- 
-                    <ul className="text-center">
-                      <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-24 after:transition-all after:duration-300 cursor-pointer">
-                        Manufacturing
-                      </li>
-                      <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-12 after:transition-all after:duration-300 cursor-pointer">
-                        Logistic
-                      </li>
-                   
-                      <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-10 after:transition-all after:duration-300 cursor-pointer">
-                        Retail
-                      </li>
-                      <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-20 after:transition-all after:duration-300 cursor-pointer">
-                        Distribution
-                      </li>
-                      <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-20 after:transition-all after:duration-300 cursor-pointer">
-                        Automotive
-                      </li>
-                      <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-12 after:transition-all after:duration-300 cursor-pointer">
-                        Startup
-                      </li>
-                    </ul>
-                  </div> */}
+           
                 </div>
               </div>
             </div>

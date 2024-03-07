@@ -6,7 +6,7 @@ function Socialicons() {
   return (
     <div className=''>
 
-<ul class="wrapper">
+<ul class="wrapper" >
   <li class="icon facebook">
     <span class="tooltip">Facebook</span>
     <FaFacebook><i class="fab fa-facebook-f"></i></FaFacebook>

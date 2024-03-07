@@ -28,9 +28,7 @@ module.exports =withMT( {
 					secondary: '#FAAC06',
 					tertiary: '#ffffff',
 				},
-				fontFamily: {
-					calibri: ['Calibri', 'sans-serif'],
-				  },
+				
 			},
 		}
 		
