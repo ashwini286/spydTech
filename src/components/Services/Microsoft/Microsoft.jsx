@@ -17,17 +17,18 @@ function Microsoft() {
     <>
       <Navbarupp />
       <div className='relative'>
-        <img
-          // src={IMG1}
-          src='https://4kwallpapers.com/images/wallpapers/windows-logo-m1-chip-black-background-gradient-windows-10-5k-3440x1440-5918.jpg'
-          className='rounded-2xl'
-        />
-        <div class="absolute inset-0 h-[80vh] bg-black bg-opacity-50 rounded-2xl"></div>
-        <div className='absolute -mt-[20%] text-4xl text-white font-bold p-10'>
-          <h1>Elevate Your Business with "SpY D Technologies" Microsoft Solutions</h1>
-        <a></a>
-        </div>
-      </div>
+  <img
+    src='https://4kwallpapers.com/images/wallpapers/windows-logo-m1-chip-black-background-gradient-windows-10-5k-3440x1440-5918.jpg'
+    className='rounded-2xl w-full h-auto'
+    alt="Background Image"
+  />
+  <div className="absolute inset-0 bg-black bg-opacity-50 rounded-2xl"></div>
+  <div className='absolute top-1/2 left-[35%] transform -translate-x-1/2 -translate-y-1/2 text-center text-white font-bold p-10'>
+    <h1 className='text-2xl md:text-4xl lg:text-4xl'>Elevate Your Business with "SpY D Technologies" Microsoft Solutions</h1>
+    {/* Add additional content or links here if needed */}
+  </div>
+</div>
+
       <h1 className='text-2xl font-semibold text-center p-10'>Welcome to Spyd Technology, where innovation meets expertise in Microsoft technology solutions. With our comprehensive suite of services, we empower businesses to unlock their full potential and thrive in today's digital landscape. Explore how Spyd can transform your business with Microsoft technology:</h1>
       
       <div class="max-w-screen-xl mx-auto p-16">
@@ -167,7 +168,7 @@ function Microsoft() {
     
 </div>
       
-      <div className='p-10 flex flex-col md:flex-row md:items-center'>
+      <div className='p-10 flex flex-col md:flex-row '>
         <img
           src={IMG2}
           className='w-full md:w-1/2 h-64 md:h-auto'

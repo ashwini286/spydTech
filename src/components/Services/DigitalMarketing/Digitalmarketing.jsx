@@ -15,169 +15,180 @@ import AnimatedFooter from '../UniqueTeam/AnimatedFooter';
 function Digitalmarketing() {
   useEffect(() => {
     AOS.init();
-});
+  }, []); // Add empty dependency array to run only once when component mounts
   return (
     <>
-      <Navbarupp />
-      <div className='relative flex  flex-col md:flex-row items-center justify-center bg-blue-gray-100'>
-        <img
-          // src={IMG}
-          src='https://www.pngall.com/wp-content/uploads/5/Digital-Marketing-PNG-HD-Image.png'
-          data-aos="fade-in"
-          className=" inset-0 w-full h-full mx-auto max-w-screen-lg"
-          alt="Background 1"
-          style={{ filter: "brightness(100%)" }}
-        />
-        <div className='p-5'>
-          <h1 className='text-4xl font-bold'>Welcome to the Future of Surveillance with "Spy D Technology"</h1>
-          <p className='text-xl'>"Introducing SpyD, the cutting-edge solution revolutionizing surveillance in the digital age. 
-            Say goodbye to outdated methods and hello to unprecedented security and intelligence with our state-of-the-art technology".</p>
+      <div>
+        <Navbarupp />
         </div>
-      </div>
-      <div className='p-10 justify-center bg-blue-gray-600 rounded-lg box'>
-      
-        <img
-          src={IMG2}
-          style={{ filter: "brightness(75%)" }}
-          className=' mx-auto max-w-screen-lg h-full w-full'
-          alt="Digital Marketing Main"
-        />
-      </div>
-      <style>{`
-      .box {
-        --border-size: 3px;
-        --border-angle: 0turn;
-       
-        background-image: conic-gradient(from var(--border-angle), #213, #112 50%, #213), conic-gradient(from var(--border-angle), transparent 20%, #08f, #f03);
-        background-size: calc(100% - (var(--border-size) * 2)) calc(100% - (var(--border-size) * 2)), cover;
-        background-position: center center;
-        background-repeat: no-repeat;
-        -webkit-animation: bg-spin 3s linear infinite;
-        animation: bg-spin 3s linear infinite;
-    }
-    
-    @-webkit-keyframes bg-spin {
-        to {
-            --border-angle: 1turn;
-        }
-    }
-    
-    @keyframes bg-spin {
-        to {
-            --border-angle: 1turn;
-        }
-    }
-    
-    .box:hover {
-        -webkit-animation-play-state: paused;
-        animation-play-state: paused;
-    }
-    
-    @property --border-angle {
-        syntax: "<angle>";
-        inherits: true;
-        initial-value: 0turn;
-    }`}
-</style>
-
-      <div className='flex flex-col md:flex-row md:ml-10 p-5'>
-        <div className='w-full h-full md:w-1/3 p-5'>
+        <div className='relative w-full'>
           <img
-            src={IMG3}
-            className='bg-white w-full'
-            data-aos="fade-up"
+            src='https://i.pinimg.com/originals/f1/44/d4/f144d43dd8e7d3fa429cd6ef4a8e9e31.jpg'
+            data-aos="fade-in"
+            className="inset-0 h-[50vh] w-full md:h-[550px] md:w-full bg-blue-gray-100"
+            alt="Background 1"
             style={{ filter: "brightness(100%)" }}
-            alt="SEO"
           />
+          <div className="absolute inset-0 h-[50vh] w-full md:h-[550px] bg-black bg-opacity-50 rounded-lg"></div>
+          <div className='absolute top-1/2 left-[35%] transform -translate-x-1/2 -translate-y-1/2 md:left-[35%] md:w-[50%] lg:w-[50%] text-start text-white font-bold px-5'>
+            <h1 className='text-2xl md:text-4xl lg:text-4xl'>Welcome to the Future of Surveillance with "Spy D Technology"</h1>
+            <p className='text-xl'>"Introducing SpyD, the cutting-edge solution revolutionizing surveillance in the digital age. 
+              Say goodbye to outdated methods and hello to unprecedented security and intelligence with our state-of-the-art technology".</p>
+          </div>
         </div>
-        <div className='w-full md:w-1/2 p-5 md:ml-20' 
-        data-aos="fade-right">
-          <h1 className='text-3xl text-black-500 font-bold'>What Is SEO?</h1>
-          <p className='text-xl pb-5 text-gray-500'>SEO means Search Engine Optimization and is the process used to optimize a website's technical configuration,
-            content relevance and link popularity so its pages can become easily findable, more relevant and popular
-            towards user search queries, and as a consequence, search engines rank them better.</p>
-          <Link to='/Seo Services'>
-            <button className='bg-blue-500 rounded-md p-3 hover:bg-blue-800 hover:text-white'>Read More</button>
-          </Link>
-        </div>
-      </div>
 
-      <div className='flex flex-col md:flex-row p-10'
-      data-aos="fade-left">
-        <div className='w-full md:w-1/2 p-5'>
-          <h1 className='text-3xl font-bold pb-5'>Pay Per Click (PPC) Marketing</h1>
-          <p className='text-xl pb-5 text-gray-500'>Pay per click marketing is a paid search model used to build brand awareness,
+        <div className="relative overflow-hidden  pt-16 pb-32 space-y-24">
+          <div className="relative">
+            <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 ">
+              <div className="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0 ">
+                <div>
+                  
+
+                  <div className="mt-6" data-aos="fade-right">
+                    <h2 className="text-3xl font-bold tracking-tight ">
+                    What Is SEO?
+                    </h2>
+                    <p className="mt-4 text-lg text-gray-300">
+                    SEO means Search Engine Optimization and is the process used to optimize a website's technical configuration,
+            content relevance and link popularity so its pages can become easily findable, more relevant and popular
+            towards user search queries, and as a consequence, search engines rank them better.
+                    </p>
+                    <div className="mt-6">
+                      <Link to="/Seo Services" className="inline-flex rounded-lg bg-pink-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700">
+                        Learn More
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="mt-12 sm:mt-16 lg:mt-0" data-aos="fade-up">
+                <div className="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
+                  <img loading="lazy" width="647" height="486"
+                    className="w-1/2 rounded-xl shadow-2xl ring-1  ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-1/2"
+                    style={{ color: "transparent" }} src={IMG3} alt="NLP Image" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="relative">
+            <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 ">
+              <div className="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0 lg:col-start-2">
+                <div>
+                 
+                  <div className="mt-6" data-aos="fade-left">
+                    <h2 className="text-3xl font-bold tracking-tight ">
+                    Pay Per Click (PPC) Marketing
+                    </h2>
+                    <p className="mt-4 text-lg ">
+                    Pay per click marketing is a paid search model used to build brand awareness,
             promote brand offerings and gain immediate traction from specific audience segments.
             With PPC, advertisers only pay each time a user clicks on the PPC ads -- hence the name pay-per-click.</p>
           <p className='text-xl pb-5 text-gray-500'>People usually think of Google PPC when hearing or talking about what is pay per click.
             But pay-per-click goes beyond the Google search engine results pages (SERPs) and the Google Display Network.
-            Social media sites, such as YouTube, Facebook, Pinterest and LinkedIn, also use the pay per click model.</p>
-          <Link to='/PPC Management Services'>
-            <button className='bg-blue-500 rounded-md p-3 hover:bg-blue-800 hover:text-white'>Read More</button>
-          </Link>
-        </div>
-        <div className='w-full md:w-1/2 p-5'>
-          <img
-            src={IMG4}
-            className='bg-white w-full'
-            data-aos="fade-up"
-            alt="PPC"
-          />
-        </div>
-      </div>
+            Social media sites, such as YouTube, Facebook, Pinterest and LinkedIn, also use the pay per click model.
+                    </p>
+                    <div className="mt-6">
+                      <Link to="/PPC Management Services" className="inline-flex rounded-lg bg-pink-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700">
+                        Learn More
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="mt-12 sm:mt-16 lg:mt-0">
+                <div className="ml-5 pr-6 md:nl-5 lg:relative lg:m-0 lg:h-full lg:px-0">
+                  <img alt="Inbox user interface" loading="lazy" width="647" height="486"
+                    className="w-3/1 rounded-xl shadow-xl ring-1  ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-1/2"
+                    style={{ color: "transparent" }} 
+                    src={IMG4} 
+                    data-aos="fade-up"
+                    />
+                </div>
+              </div>
+            </div>
+          </div>
 
-      <div className='p-10'
-      data-aos="fade-up">
-        <img
-          src={IMG5}
-          className='mx-auto max-w-screen-lg w-full h-full'
-          alt="Social Media Marketing"
-        />
-        <div className='text-center p-5' data-aos="fade-left">
-          <h1 className='text-3xl font-bold pb-5'>What Is Social Media Marketing (SMM)?</h1>
-          <p className='text-xl pb-5 text-gray-500'>Social media marketing (also known as digital marketing and e-marketing)
+          <div className="relative">
+            <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 ">
+              <div className="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0 ">
+                <div>
+                  
+                  <div className="mt-6" data-aos="fade-left">
+                    <h2 className="text-3xl font-bold tracking-tight t">
+                    What Is Social Media Marketing (SMM)?
+                    </h2>
+                    <p className="mt-4 text-lg ">
+                    Social media marketing (also known as digital marketing and e-marketing)
             is the use of social media—the platforms on which users build social networks
             and share information—to build a company's brand, increase sales,
             and drive website traffic. In addition to providing companies with
             a way to engage with existing customers and reach new ones,
             SMM has purpose-built data analytics that allows marketers
-            to track the success of their efforts and identify even more ways to engage.</p>
-          <Link to='/SMM & Content Writing'>
-            <button className='bg-blue-500 rounded-md p-3 hover:bg-blue-800 hover:text-white'>Read More</button>
-          </Link>
+            to track the success of their efforts and identify even more ways to engage.
+                    </p>
+                    <div className="mt-6">
+                      <Link to="/SMM & Content Writing" className="inline-flex rounded-lg bg-pink-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700">
+                        Learn More
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="mt-12 sm:mt-16 lg:mt-0" data-aos="fade-up">
+                <div className="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
+                  <img loading="lazy" width="646" height="485"
+                    className="w-1/2 rounded-xl shadow-2xl ring-1  ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-3/1"
+                    style={{ color: "transparent" }}
+                    src={IMG5} alt="NLG Image" 
+                    data-aos="fade-up"
+                    />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
+        
 
-      <div className='flex flex-col md:flex-row p-10 pb-32'>
-        <div className='w-full md:w-1/2 p-5'
-        data-aos="fade-up">
-          <h1 className='text-3xl font-bold pb-5'>Why Content Writing is Important in Digital Marketing?</h1>
-          <p className='text-xl pb-5 text-gray-500'>As the world has witnessed a great shift of customer’s preference from a conventional advertising world to the digital sphere,
+        <div className="relative">
+            <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 ">
+              <div className="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0 lg:col-start-2">
+                <div>
+                 
+                  <div className="mt-6" data-aos="fade-left">
+                    <h2 className="text-3xl font-bold tracking-tight ">
+                    Why Content Writing is Important in Digital Marketing?
+                    </h2>
+                    <p className="mt-4 text-lg ">
+                    As the world has witnessed a great shift of customer’s preference from a conventional advertising world to the digital sphere,
             the growing use of internet, technology & digital media has raised the dependency of people on the online market.
             Due to this, the brands are rooting their base in various digital platforms, since marketing is
-            one of the most essential aspect of a business plan.</p>
-          <Link to='/SMM & Content Writing'>
-            <button className='bg-blue-500 rounded-md p-3 hover:bg-blue-800 hover:text-white'>Read More</button>
-          </Link>
-        </div>
-        <div className='w-full md:w-1/2 p-5'>
-          <img
-            src={IMG6}
-            className='bg-white w-full'
-            data-aos="fade-left"
-            alt="Content Writing"
-          />
-        </div>
-      </div>
-
-      <div
-  class="flex flex-1 w-full flex-col items-center justify-center text-center px-4 py-20 bg-gradient-to-r from-green-50/50 via-teal-50 to-green-50/50 dark:from-gray-800 dark:via-gray-700 dark:to-gray-800">
-  <a href=""
-    class="border border-white-700 dark:border-gray-900 rounded-lg py-2 px-4 text-white-400 dark:text-gray-900 text-sm mb-5 transition duration-300 ease-in-out hover:text-gray-500 dark:hover:text-gray-900">
+            one of the most essential aspect of a business plan. </p>
+                    <div className="mt-6">
+                      <Link to="/PPC Management Services" className="inline-flex rounded-lg bg-pink-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700">
+                        Learn More
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="mt-12 sm:mt-16 lg:mt-0">
+                <div className="ml-5 pr-6 md:ml-5 lg:relative lg:m-0 lg:h-full lg:px-0">
+                  <img alt="Inbox user interface" loading="lazy" width="647" height="486"
+                    className="w-3/1 rounded-xl shadow-xl ring-1  ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-3/1"
+                    style={{ color: "transparent" }} 
+                    src={IMG6} 
+                    data-aos="fade-up"
+                    />
+                </div>
+              </div>
+            </div>
+          
+            <div class="flex flex-1 w-full flex-col items-center justify-center text-center px-4 py-10 md:py-20 bg-gradient-to-r from-green-50/50 via-teal-50 to-green-50/50 dark:from-gray-800 dark:via-gray-700 dark:to-gray-800">
+  <a href="" class="border border-white-700 dark:border-gray-900 rounded-lg py-2 px-4 text-white-400 dark:text-gray-900 text-sm mb-5 md:mb-10 transition duration-300 ease-in-out hover:text-gray-500 dark:hover:text-gray-900">
     Get Started Today
   </a>
-  <h1
-    class="mx-auto max-w-4xl font-display text-5xl font-bold tracking-normal text-white-300 dark:text-gray-300 sm:text-7xl">
+  <h1 class="mx-auto max-w-4xl font-display text-3xl md:text-5xl font-bold tracking-normal text-white-300 dark:text-gray-300 sm:text-5xl md:text-7xl">
     "Spy D Technology" Leads the Way
     <span class="relative whitespace-nowrap text-white-600 dark:text-gray-300"></span>
     <span class="relative whitespace-nowrap text-orange-500 dark:text-orange-300">
@@ -187,16 +198,19 @@ function Digitalmarketing() {
       <span class="relative">in Digital Marketing</span>
     </span>
   </h1>
-  <h2 class="mx-auto mt-12 max-w-xl text-lg sm:text-white-400 text-white-500 dark:text-gray-300 leading-7">
-  Experience the future of surveillance with Spyd. Contact us to learn more about our products and services, and discover how Spyd can transform your security infrastructure for the better.
-   Don't settle for outdated technology – embrace the future with Spyd.
+  <h2 class="mx-auto mt-8 max-w-xl text-base sm:text-lg text-white-500 dark:text-gray-300 leading-7 md:leading-9">
+    Experience the future of surveillance with Spyd. Contact us to learn more about our products and services, and discover how Spyd can transform your security infrastructure for the better. Don't settle for outdated technology – embrace the future with Spyd.
   </h2>
-  <a class="bg-orange-600 dark:bg-gray-800 rounded-xl text-white dark:text-gray-300 font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-orange-500 dark:hover:bg-gray-600 transition"
-    href="">Get started</a>
+  <a class="bg-orange-600 dark:bg-gray-800 rounded-xl text-white dark:text-gray-300 font-medium px-4 py-3 mt-8 md:mt-12 hover:bg-orange-500 dark:hover:bg-gray-600 transition" href="">Get started</a>
 </div>
-      
-      <Approch />
-      {/* <AnimatedFooter /> */}
+
+           
+
+           
+
+        <Approch />
+        {/* <AnimatedFooter /> */}
+      </div>
     </>
   )
 }

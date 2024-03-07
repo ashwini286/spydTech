@@ -17,21 +17,22 @@ function SMMpage() {
   return (
     <>
       <Navbarupp />
-      <div className='relative '>
-        <img
-          // src={IMG}
-          src='https://wallpapercave.com/wp/wp6626261.jpg'
-          className=' rounded-2xl h-[80vh] overflow-hidden object-cover min-w-full min-h-full'
-          style={{ filter: "brightness(100%)" }}
-        />
-        <div class="absolute inset-0 h-[80vh] bg-black bg-opacity-50 rounded-2xl"></div>
-        <div className='text-white  p-10 absolute mt-[-25%] space-y-6'>
-          <h1 className='font-bold  text-6xl bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text '>SOCIAL MEDIA MARKETING</h1>
-          <p className='text-2xl'>Reach out to your target audience / ultimate customer, 
-            utilizing the unlimited power that social media platforms provide and the relatively low-cost budgeting: 
-            Facebook, Instagram & LinkedIn </p>
-        </div>
-      </div>
+      <div className='relative'>
+  <img
+    src='https://wallpapercave.com/wp/wp6626261.jpg'
+    className='rounded-2xl h-[50vh] w-full md:h-[550px] md:w-max-auto object-fit '
+    style={{ filter: "brightness(100%)" }}
+    alt="Background"
+  />
+  <div className="absolute w-[100%] object-cover inset-0 h-[50vh] md:h-[550px] bg-black bg-opacity-50 rounded-2xl "></div>
+  <div className='text-white p-10 absolute top-1/2 left-[35%] transform -translate-x-1/2 -translate-y-1/2 md:mt-0 md:w-1/2 lg:w-1/2'>
+    <h1 className='font-bold text-4xl md:text-6xl bg-gradient-to-r from-white via-pink-500 to-indigo-400 inline-block text-transparent bg-clip-text'>SOCIAL MEDIA MARKETING</h1>
+    <p className='text-lg md:text-2xl'>Reach out to your target audience / ultimate customer, 
+      utilizing the unlimited power that social media platforms provide and the relatively low-cost budgeting: 
+      Facebook, Instagram & LinkedIn </p>
+  </div>
+</div>
+
       <div className=' text-center p-10 space-y-4'
       data-aos="fade-up">
         <h1 className='text-4xl'>WE CAN<a>HELP YOU OUT!</a>

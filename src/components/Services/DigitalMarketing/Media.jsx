@@ -9,6 +9,7 @@ function Media() {
 });
   return (
     <>
+    <div className='w-[90%] pl-10'>
     <section className="overflow-hidden bg-gray-100 py-8 sm:py-16" >
   <div className="p-10 text-4xl text-center tracking-tight font-bold text-primary-800" 
   data-te-animation-init
@@ -56,14 +57,14 @@ function Media() {
     <div class="flex flex-col md:flex-row">
         
         <div class="mr-0 md:mr-8 mb-6 md:mb-0" data-aos="fade-right">
-            <img class="w-[40-rem] md:w-full mx-auto rounded-xl h-full md:ml-[-10%] shadow-2xl" src="https://cdndailyexcelsior.b-cdn.net/wp-content/uploads/2022/06/instagram.jpg" 
+            <img class="w-[90%] md:w-full mx-auto rounded-xl h-full md:ml-[-10%] shadow-2xl" src="https://cdndailyexcelsior.b-cdn.net/wp-content/uploads/2022/06/instagram.jpg" 
             alt="can_help_banner" />
         </div>
-        <div class="lg:pl- lg:pt-4" 
+        <div class="lg:pl- lg:pt-4 pl-5" 
         data-te-animation-init
         data-te-animation-start="onScroll"
         data-aos="fade-up">
-        <div class="lg:max-w-5xl">
+        <div class="lg:max-w-5xl ">
         <h2 class="text-base font-semibold leading-7 "><a className='text-2xl text-[#ec4899]'>Instagram</a> is the ‘baby-brother’ of Facebook. Owned by the same company as Facebook, 
         Instagram is like a simplified version of Facebook, with an emphasis on mobile use and visual sharing. As DreamGrow stated,
          “The best part about Instagram is that it has some of the most highly engaged users”. Moreover, BrandWatch indicated that, 
@@ -131,6 +132,7 @@ function Media() {
     </div>
   </div>
 </section>
+</div>
     </>
   )
 }

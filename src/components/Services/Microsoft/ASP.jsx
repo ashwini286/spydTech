@@ -28,18 +28,21 @@ function ASP() {
       <div className=''>
         <Navbarupp />
       </div>
-      <div>
-        <img
-          src={IMG}
-          className='w-full h-[50vh] rounded-lg shadow-md'
-          alt="ASP.NET Development"
-        />
-        <div class="absolute inset-0 h-[50vh] bg-black bg-opacity-50 rounded-2xl"></div>
-        <div className='absolute -mt-[15%] justify-center items-center  text-4xl text-white font-bold p-10'>
-          <h1>Unleash Innovation with "SpY D Technology’s,, .NET Development Solutions</h1>
-        <a></a>
-        </div>
-      </div >
+      <div className="relative ">
+  <img
+    src={IMG}
+    className="h-[50vh] w-full md:h-[550px] rounded-lg shadow-md"
+    alt="ASP.NET Development"
+  />
+  <div className="absolute inset-0 h-[50vh]  md:h-[550px] bg-black bg-opacity-50 rounded-lg"></div>
+  <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 md:left-[35%] md:w-[50%] lg:w-[50%] text-center text-white font-bold p-10">
+    <h1 className="text-2xl md:text-4xl lg:text-4xl">
+      Unleash Innovation with "SpY D Technology’s, .NET Development Solutions
+    </h1>
+    <a></a>
+  </div>
+</div>
+
       
       <div class="body bg-blue-500">
   <div class="relative">
