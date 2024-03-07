@@ -2,18 +2,18 @@ import React from "react";
 const MakeUs = () => {
   return (
     <>
-      <div className="border border-blue-800 p-24 mt-8 bg-[#0C4971]">
+      <div className="border border-blue-800 py-8 md:p-24 mt-8  bg-[#0C4971]">
         <p className="text-center lg:text-4xl text-xl">
           What makes us different from other software companies
         </p>
       </div>
-      <div className="flex  flex-col-reverse md:flex-row  items-center justify-center  w-full mt-8">
+      <div className="flex  flex-col-reverse md:flex-row  items-center justify-center  w-full">
         <div className="md:w-[620px] md:h-[560px] text-white flex justify-center items-justify">
           <div>
             <img
               src="https://media.istockphoto.com/id/1409309926/photo/trust-word-on-a-jigsaw-puzzle.jpg?s=612x612&w=0&k=20&c=tY31LoleNPuwv05xDWdNITtQjCowSK0PlnLNEi6RpSU="
               alt=""
-              className="mt-32 shadow-xl"
+              className="md:mt-32 shadow-xl"
             />
           </div>
         </div>
@@ -22,9 +22,9 @@ const MakeUs = () => {
 
         <div className="md:w-[620px] md:h-[560px] flex justify-center items-justify flex-col md:pl-24 pl-4 ">
           <div className="md:text-3xl md:font-extrabold text-xl mt-10 font-bold">
-            <h1 className="text-[#656565] pl-8"> Trust </h1>
+            <h1 className="text-[#656565]"> Trust </h1>
           </div>
-          <div className="py-4  text-[#656565] md:leading-8 ">
+          <div className="py-4  text-[#656565] md:leading-8 flex justify-center items-center flex-col">
             <li>
               Our clients trust is paramount to us, we know this is earned not
               assumed and work accordingly.
@@ -38,7 +38,7 @@ const MakeUs = () => {
       </div>
 
       {/* 2nd card */}
-      <div className="flex flex-col md:flex-row  items-center justify-center  w-full mt-8">
+      <div className="flex flex-col md:flex-row  items-center justify-center  w-full ">
         <div className="md:w-[620px] md:h-[560px] flex justify-center items-justify flex-col md:pl-24 pl-4 ">
           <div className="md:text-3xl md:font-extrabold text-xl mt-10 font-bold">
             <h1 className="text-[#656565]"> Transparency </h1>
@@ -65,13 +65,13 @@ const MakeUs = () => {
       </div>
 
       {/* 3rd card */}
-      <div className="flex  flex-col-reverse md:flex-row  items-center justify-center  w-full mt-8">
+      <div className="flex  flex-col-reverse md:flex-row  items-center justify-center  w-full ">
         <div className="md:w-[620px] md:h-[560px] text-white flex justify-center items-justify">
           <div>
             <img
               src="https://storage.needpix.com/rsynced_images/reliability-1992960_1280.jpg"
               alt=""
-              className="mt-32 shadow-xl"
+              className=" shadow-xl"
             />
           </div>
         </div>
@@ -92,7 +92,7 @@ const MakeUs = () => {
       </div>
 
       {/* 4th Card */}
-      <div className="flex flex-col md:flex-row  items-center justify-center  w-full mt-8">
+      <div className="flex flex-col md:flex-row  items-center justify-center  w-full ">
         <div className="md:w-[620px] md:h-[560px] flex justify-center items-justify flex-col md:pl-24 pl-4 ">
           <div className="md:text-3xl md:font-extrabold text-xl mt-10 font-bold">
             <h1 className="text-[#656565]"> Honesty </h1>
