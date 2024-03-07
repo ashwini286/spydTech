@@ -221,15 +221,15 @@ function MediaProcess() {
               }
             `}
         </style>
-      <div className=" ml-20">
-        <main className="relative max-w-5xl mx-auto mt-10 mb-20  py-8 px-10 rounded-md shadow-md hover:text-white">
+      <div className=" ml-20 w-[80%]">
+        <main className="relative max-w-4xl mx-auto mt-10 mb-20  py-8 px-10 rounded-md shadow-md hover:text-white">
           <div>
             <menu className="absolute top-10 -left-16  w-16 rounded-l-md">
               <ul className=''>
                 {tabs.map((tab, index) => (
                   <li key={index}>
                     <button
-                      className={`text-gray-900 hover:text-white block w-full p-3 ${
+                      className={`text-gray-900 hover:text-white block w-[80%] md:w-[80%] p-3 ${
                         selected === index ? 'text-white' : ''
                       }`}
                       onClick={() => setSelected(index)}
