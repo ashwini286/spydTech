@@ -28,7 +28,7 @@ function careers() {
       <JobPost />
       <Link to="/applyForm">
         <div className='flex justify-center pb-8'>
-          <button className="btn btn-primary w-[250px] hover:bg-[#1A56DB] bg-[#3F83F8] p-2">Apply Now</button>
+          <button className=" text-white font-bold btn btn-primary w-[250px] hover:bg-[#1A56DB] bg-[#008080] p-4 shadow-2xl">Apply Now</button>
         </div>
       </Link>
       <Approch />
