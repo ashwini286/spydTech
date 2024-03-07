@@ -439,7 +439,7 @@ const ApprochUs = () => {
             <hr />
             {/* Copyright Section */}
             <div className=" text-center pb-0 ">
-              <p>&copy; 2024 Your Company. All rights reserved.</p>
+              <p>&copy; 2024 SpY D Technology. All rights reserved.</p>
             </div>
           </div>
         </footer>
