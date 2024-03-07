@@ -31,148 +31,27 @@ function ASP() {
       <div>
         <img
           src={IMG}
-          className='w-full h-[80vh] rounded-lg shadow-md'
+          className='w-full h-[50vh] rounded-lg shadow-md'
           alt="ASP.NET Development"
         />
-        <div class="absolute inset-0 h-[80vh] bg-black bg-opacity-50 rounded-2xl"></div>
-        <div className='absolute -mt-[20%] text-4xl text-white font-bold p-10'>
+        <div class="absolute inset-0 h-[50vh] bg-black bg-opacity-50 rounded-2xl"></div>
+        <div className='absolute -mt-[15%] justify-center items-center  text-4xl text-white font-bold p-10'>
           <h1>Unleash Innovation with "SpY D Technology’s,, .NET Development Solutions</h1>
         <a></a>
         </div>
       </div >
       
-      {/* <div class="wrapper relative">
-      
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      <div><span class="dot"></span></div>
-      </div> */}
-      {/* <style>
-        {`
-        .wrapper {
-          height: 100%;
-          width: 100%;
-          background: linear-gradient(180deg, #04fafd, 5%, #119dff, 50%, #030423);
-          position: absolute;
-        }
-        
-        .wrapper div {
-          height: 60px;
-          width: 60px;
-          border: 2px solid rgba(255, 255, 255, 0.7);
-          border-radius: 50px;
-          position: absolute;
-          top: 10%;
-          left: 10%;
-          animation: 4s linear infinite;
-        }
-        div .dot {
-          height: 10px;
-          width: 10px;
-          border-radius: 50px;
-          background: rgba(255, 255, 255, 0.5);
-          position: absolute;
-          top: 20%;
-          right: 20%;
-        }
-        .wrapper div:nth-child(1) {
-          top: 20%;
-          left: 20%;
-          animation: animate 8s linear infinite;
-        }
-        .wrapper div:nth-child(2) {
-          top: 60%;
-          left: 80%;
-          animation: animate 10s linear infinite;
-        }
-        .wrapper div:nth-child(3) {
-          top: 40%;
-          left: 40%;
-          animation: animate 3s linear infinite;
-        }
-        .wrapper div:nth-child(4) {
-          top: 66%;
-          left: 30%;
-          animation: animate 7s linear infinite;
-        }
-        .wrapper div:nth-child(5) {
-          top: 90%;
-          left: 10%;
-          animation: animate 9s linear infinite;
-        }
-        .wrapper div:nth-child(6) {
-          top: 30%;
-          left: 60%;
-          animation: animate 5s linear infinite;
-        }
-        .wrapper div:nth-child(7) {
-          top: 70%;
-          left: 20%;
-          animation: animate 8s linear infinite;
-        }
-        .wrapper div:nth-child(8) {
-          top: 75%;
-          left: 60%;
-          animation: animate 10s linear infinite;
-        }
-        .wrapper div:nth-child(9) {
-          top: 50%;
-          left: 50%;
-          animation: animate 6s linear infinite;
-        }
-        .wrapper div:nth-child(10) {
-          top: 45%;
-          left: 20%;
-          animation: animate 10s linear infinite;
-        }
-        .wrapper div:nth-child(11) {
-          top: 10%;
-          left: 90%;
-          animation: animate 9s linear infinite;
-        }
-        .wrapper div:nth-child(12) {
-          top: 20%;
-          left: 70%;
-          animation: animate 7s linear infinite;
-        }
-        .wrapper div:nth-child(13) {
-          top: 20%;
-          left: 20%;
-          animation: animate 8s linear infinite;
-        }
-        .wrapper div:nth-child(14) {
-          top: 60%;
-          left: 5%;
-          animation: animate 6s linear infinite;
-        }
-        .wrapper div:nth-child(15) {
-          top: 90%;
-          left: 80%;
-          animation: animate 9s linear infinite;
-        }
-        @keyframes animate {
-          0% {
-            transform: scale(0) translateY(0) rotate(70deg);
-          }
-          100% {
-            transform: scale(1.3) translateY(-100px) rotate(360deg);
-          }
-        }
-        `}
-      </style> */}
+      <div class="body bg-blue-500">
+  <div class="relative">
+    <div class="circle small bg-white shadow-md animate-ripple"></div>
+    <div class="circle medium bg-white shadow-md animate-ripple"></div>
+    <div class="circle large bg-white shadow-md animate-ripple"></div>
+    <div class="circle xlarge bg-white shadow-md animate-ripple"></div>
+    <div class="circle xxlarge bg-white shadow-md animate-ripple"></div>
+ 
 
+
+     
       <div className=''>
            
       <h1 className='text-2xl font-semibold text-center p-10'>Welcome to Spyd Technology, where we leverage the power of .NET to drive digital transformation and innovation for businesses worldwide. Our .NET development solutions are designed to help you build scalable, secure, and high-performance applications that meet your unique needs and propel your organization forward.
@@ -182,7 +61,7 @@ function ASP() {
 
 
 <div class="p-4 max-w-sm">
-    <div class="flex rounded-lg h-full dark:bg-gray-800 bg-[#0ea5e9] p-8 flex-col">
+    <div class="flex rounded-lg h-full dark:bg-gray-800 bg-[#4e54c8] p-8 flex-col border-2 border-white">
         <div class="flex items-center mb-3">
             <div
                 class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full dark:bg-indigo-500 bg-indigo-500 text-white flex-shrink-0">
@@ -210,7 +89,7 @@ function ASP() {
 
 
 <div class="p-4 max-w-sm">
-    <div class="flex rounded-lg h-full dark:bg-gray-800 bg-[#0ea5e9] p-8 flex-col">
+    <div class="flex rounded-lg h-full dark:bg-gray-800 bg-[#4e54c8] p-8 flex-col border-2 border-white">
         <div class="flex items-center mb-3">
             <div
                 class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full dark:bg-indigo-500 bg-indigo-500 text-white flex-shrink-0">
@@ -237,7 +116,7 @@ function ASP() {
 
 
 <div class="p-4 max-w-sm">
-    <div class="flex rounded-lg h-full dark:bg-gray-800 bg-[#0ea5e9] p-8 flex-col">
+    <div class="flex rounded-lg h-full dark:bg-gray-800 bg-[#4e54c8] p-8 flex-col border-2 border-white">
         <div class="flex items-center mb-3">
             <div
                 class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full dark:bg-indigo-500 bg-indigo-500 text-white flex-shrink-0">
@@ -264,7 +143,7 @@ function ASP() {
 
 
 <div class="p-4 max-w-sm">
-    <div class="flex rounded-lg h-full dark:bg-gray-800 bg-[#0ea5e9] p-8 flex-col">
+    <div class="flex rounded-lg h-full dark:bg-gray-800 bg-[#4e54c8] p-8 flex-col border-2 border-white">
         <div class="flex items-center mb-3">
             <div
                 class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full dark:bg-indigo-500 bg-indigo-500 text-white flex-shrink-0">
@@ -291,7 +170,7 @@ function ASP() {
 
 
 <div class="p-4 max-w-sm">
-    <div class="flex rounded-lg h-full dark:bg-gray-800 bg-[#0ea5e9] p-8 flex-col">
+    <div class="flex rounded-lg h-full dark:bg-gray-800 bg-[#4e54c8] p-8 flex-col border-2 border-white">
         <div class="flex items-center mb-3">
             <div
                 class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full dark:bg-indigo-500 bg-indigo-500 text-white flex-shrink-0">
@@ -317,7 +196,7 @@ function ASP() {
 </div>
 
 <div class="p-4 max-w-sm">
-    <div class="flex rounded-lg h-full dark:bg-gray-800 bg-[#0ea5e9] p-8 flex-col">
+    <div class="flex rounded-lg h-full dark:bg-gray-800 bg-[#4e54c8] p-8 flex-col border-2 border-white">
         <div class="flex items-center mb-3">
             <div
                 class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full dark:bg-indigo-500 bg-indigo-500 text-white flex-shrink-0">
@@ -343,7 +222,7 @@ function ASP() {
 </div>
 
 <div class="p-4 max-w-sm">
-    <div class="flex rounded-lg h-full dark:bg-gray-800 bg-[#0ea5e9] p-8 flex-col">
+    <div class="flex rounded-lg h-full dark:bg-gray-800 bg-[#4e54c8] p-8 flex-col border-2 border-white">
         <div class="flex items-center mb-3">
             <div
                 class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full dark:bg-indigo-500 bg-indigo-500 text-white flex-shrink-0">
@@ -411,7 +290,26 @@ function ASP() {
     </ul>
 </div>
 
+</div>
+</div>
+<style>
+  {`
+  @keyframes ripple {
+  0% {
+    transform: scale(0.8);
+  }
 
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(0.8);
+  }
+}
+
+  `}
+</style>
 
 
       <div className='container mx-auto p-10 border-4 rounded-xl border-[#0ea5e9]'>
