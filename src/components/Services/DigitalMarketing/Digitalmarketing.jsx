@@ -24,15 +24,15 @@ function Digitalmarketing() {
         <div className='relative w-full'>
           <img
             src='https://i.pinimg.com/originals/f1/44/d4/f144d43dd8e7d3fa429cd6ef4a8e9e31.jpg'
-            data-aos="fade-in"
-            className="inset-0 h-[50vh] w-full md:h-[550px] md:w-full bg-blue-gray-100"
+            className=" w-full object-cover md:h-[490px] h-[415px] "
+            // className="inset-0 h-[50vh] w-full md:h-[550px] md:w-full bg-blue-gray-100"
             alt="Background 1"
             style={{ filter: "brightness(100%)" }}
           />
-          <div className="absolute inset-0 h-[50vh] w-full md:h-[550px] bg-black bg-opacity-50 rounded-lg"></div>
-          <div className='absolute top-1/2 left-[35%] transform -translate-x-1/2 -translate-y-1/2 md:left-[35%] md:w-[50%] lg:w-[50%] text-start text-white font-bold px-5'>
-            <h1 className='text-2xl md:text-4xl lg:text-4xl'>Welcome to the Future of Surveillance with "Spy D Technology"</h1>
-            <p className='text-xl'>"Introducing SpyD, the cutting-edge solution revolutionizing surveillance in the digital age. 
+                    <div class="absolute inset-0 md:h-[490px] h-[415px] bg-black bg-opacity-50 "></div>
+          <div className='absolute inset-0  flex flex-col  items-center justify-center text-center text-white'>
+            <h1 className='text-2xl font-bold md:text-4xl py-4'>Welcome to the Future of Surveillance with "Spy D Technology"</h1>
+            <p className='text-lg md:w-[700px]'>"Introducing SpyD, the cutting-edge solution revolutionizing surveillance in the digital age. 
               Say goodbye to outdated methods and hello to unprecedented security and intelligence with our state-of-the-art technology".</p>
           </div>
         </div>
@@ -44,11 +44,11 @@ function Digitalmarketing() {
                 <div>
                   
 
-                  <div className="mt-6" data-aos="fade-right">
+                  <div className="mt-6" >
                     <h2 className="text-3xl font-bold tracking-tight ">
                     What Is SEO?
                     </h2>
-                    <p className="mt-4 text-lg text-gray-300">
+                    <p className="mt-4 text-lg text-black">
                     SEO means Search Engine Optimization and is the process used to optimize a website's technical configuration,
             content relevance and link popularity so its pages can become easily findable, more relevant and popular
             towards user search queries, and as a consequence, search engines rank them better.
@@ -61,7 +61,7 @@ function Digitalmarketing() {
                   </div>
                 </div>
               </div>
-              <div className="mt-12 sm:mt-16 lg:mt-0" data-aos="fade-up">
+              <div className="mt-12 sm:mt-16 lg:mt-0" >
                 <div className="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
                   <img loading="lazy" width="647" height="486"
                     className="w-1/2 rounded-xl shadow-2xl ring-1  ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-1/2"
@@ -76,7 +76,7 @@ function Digitalmarketing() {
               <div className="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0 lg:col-start-2">
                 <div>
                  
-                  <div className="mt-6" data-aos="fade-left">
+                  <div className="mt-6" >
                     <h2 className="text-3xl font-bold tracking-tight ">
                     Pay Per Click (PPC) Marketing
                     </h2>
@@ -84,7 +84,7 @@ function Digitalmarketing() {
                     Pay per click marketing is a paid search model used to build brand awareness,
             promote brand offerings and gain immediate traction from specific audience segments.
             With PPC, advertisers only pay each time a user clicks on the PPC ads -- hence the name pay-per-click.</p>
-          <p className='text-xl pb-5 text-gray-500'>People usually think of Google PPC when hearing or talking about what is pay per click.
+          <p className='text-lg pb-5 text-black'>People usually think of Google PPC when hearing or talking about what is pay per click.
             But pay-per-click goes beyond the Google search engine results pages (SERPs) and the Google Display Network.
             Social media sites, such as YouTube, Facebook, Pinterest and LinkedIn, also use the pay per click model.
                     </p>
@@ -102,7 +102,7 @@ function Digitalmarketing() {
                     className="w-3/1 rounded-xl shadow-xl ring-1  ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-1/2"
                     style={{ color: "transparent" }} 
                     src={IMG4} 
-                    data-aos="fade-up"
+                    
                     />
                 </div>
               </div>
@@ -114,7 +114,7 @@ function Digitalmarketing() {
               <div className="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0 ">
                 <div>
                   
-                  <div className="mt-6" data-aos="fade-left">
+                  <div className="mt-6" >
                     <h2 className="text-3xl font-bold tracking-tight t">
                     What Is Social Media Marketing (SMM)?
                     </h2>
@@ -135,13 +135,13 @@ function Digitalmarketing() {
                   </div>
                 </div>
               </div>
-              <div className="mt-12 sm:mt-16 lg:mt-0" data-aos="fade-up">
+              <div className="mt-12 sm:mt-16 lg:mt-0" >
                 <div className="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
                   <img loading="lazy" width="646" height="485"
                     className="w-1/2 rounded-xl shadow-2xl ring-1  ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-3/1"
                     style={{ color: "transparent" }}
                     src={IMG5} alt="NLG Image" 
-                    data-aos="fade-up"
+                   
                     />
                 </div>
               </div>
@@ -155,7 +155,7 @@ function Digitalmarketing() {
               <div className="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0 lg:col-start-2">
                 <div>
                  
-                  <div className="mt-6" data-aos="fade-left">
+                  <div className="mt-6" >
                     <h2 className="text-3xl font-bold tracking-tight ">
                     Why Content Writing is Important in Digital Marketing?
                     </h2>
@@ -178,7 +178,7 @@ function Digitalmarketing() {
                     className="w-3/1 rounded-xl shadow-xl ring-1  ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-3/1"
                     style={{ color: "transparent" }} 
                     src={IMG6} 
-                    data-aos="fade-up"
+                   
                     />
                 </div>
               </div>
