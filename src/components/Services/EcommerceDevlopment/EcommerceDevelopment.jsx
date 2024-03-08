@@ -11,11 +11,13 @@ function EcommerceDevelopment() {
       <>
          <Navbarupp />
          <div>
-            <div className="max-w-screen mx-auto min-h-screen h-screen relative">
+            <div>
                <img
                   src={IMG}
-                  className="md:w-[100%] h-full object-cover rounded-bl-[5%] rounded-br-[5%] rounded"
-                  alt="Background Image"
+                 // className="md:w-[100%] h-full object-cover rounded-bl-[5%] rounded-br-[5%] rounded"
+                 className=" object-cover w-full"
+ 
+                 alt="Background Image"
                />
             </div>
             <div className='p-10 text-1xl w-[95%] text-center tracking-widest  text-[#656565]'>
@@ -25,7 +27,7 @@ function EcommerceDevelopment() {
          </div>
          <div className=' text-[#656565]'>
 
-            <div className='grid sm:grid-flow-row md:grid-flow-row lg:grid-flow-col w-[100%] h-[100%] bg-[white] p-10  ' >
+         <div className='grid sm:grid-flow-row md:grid-flow-row lg:grid-flow-col w-[100%] h-[100%] bg-[white] pl-4  ' >
                <div className=''>
                   <div className=' flex sm:flex-col lg:flex-row hover:scale-105 transition-all duration-500'>
                      <img
@@ -63,12 +65,12 @@ function EcommerceDevelopment() {
                         customers online and sell product.</p>
 
                   </div>
+                  
 
                </div>
 
 
             </div>
-
          </div>
          <h1 className='text-3xl pb-4 pl-4 text-bold  text-[#656565]'>The value we add to our clients:</h1>
          <div className='flex pl-4 pb-10'>
@@ -173,11 +175,11 @@ function EcommerceDevelopment() {
                </div>
             </div>
          </div>
-
+         
 
 
          <Approch />
-       =
+       
       </>
    )
 }

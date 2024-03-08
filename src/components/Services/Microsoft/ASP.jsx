@@ -344,17 +344,18 @@ function ASP() {
           </div>
         </div>
       </div>
-      <div className='ml-12 p-10 '>
-        <h1 className='text-3xl ml-5'>Reasons to choose ASP.Net Developers from Aspirant team</h1>
-        <p className='p-5'>Our ASP.NET programmers have expertise in ASP.NET Programming & website development.
+   
+      <div className='  p-5  '>
+        <h1 className=' text-3xl '>Reasons to choose ASP.Net Developers from Aspirant team</h1>
+        <p className='p-0 mt-4'>Our ASP.NET programmers have expertise in ASP.NET Programming & website development.
           We provide 100% accurate solutions to any level of customized Web Application services as well as
           maintenance work in .NET. Our professional team has worked with XML, SQL Server, .NET Win Forms, web services.
 
           SpY D Technology has a remarkable portfolio of experience in the domain.</p>
       </div>
 
-      <div className='flex flex-col md:flex-row pl-10 space-y-5 md:space-y-0 md:space-x-5 ml-16 pb-5'>
-        <ul className="max-w-md space-y-1 text-gray-500 list-inside dark:text-gray-400 md:w-1/4">
+      <div className='flex flex-col  md:flex-row pl-0 space-y-5 md:space-y-0 md:space-x-5 ml-4 pb-5 lg:ml-28'>
+        <ul className="max-w-md space-y-1 text-gray-500 list-inside dark:text-gray-400 sm:w-3/4 md:w-1/4">
           <li className="flex items-center">
             <svg className="w-10 h-3.6 me-2 text-green-500 dark:text-green-400 flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
               <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
@@ -399,10 +400,12 @@ function ASP() {
       </div>
 
       <hr className=''></hr>
-      <div className='container mx-auto p-10'>
-        <h1 className='text-3xl pb-5'>Some of the Microsoft Technologies capabilities are</h1>
-        <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
-          <ul className='list-inside dark:text-gray-400 md:w-4/4 space-y-5'>
+    
+
+<div className='container mx-auto p-4'>
+        <h1 className='text-3xl pl-3 pb-5'>Some of the Microsoft Technologies capabilities are</h1>
+        <div className='grid grid-cols-1 md:grid-cols-2  gap-4 '>
+          <ul className='list-inside dark:text-gray-400 md:ml-2  space-y-5 lg:ml-16'>
             <li class="flex items-center">
               <svg class="w-10 h-3.6 me-2 text-green-500 dark:text-green-400 flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                 <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
@@ -431,7 +434,6 @@ function ASP() {
           </ul>
         </div>
       </div>
-
      
       <div className='container mx-auto p-10'>
         <h1 className='text-4xl text-center p-5'>Our Development Process</h1>

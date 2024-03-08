@@ -276,7 +276,7 @@ import SocialIcons from "./Socialicons";
 const ApprochUs = () => {
   return (
     <>
-      <div className="relative pt-24">
+      <div className="relative pt-24 lg:py-0.5">
         <div className="  w-full md:w-[80%] py-8  h-full  ml-auto mr-auto shadow-inner slider rounded-xl mb-24">
           <div className=" text-center flex justify-center items-center flex-col">
             <div className=" w-full text-2xl md:text-3xl  text-white">
@@ -307,7 +307,7 @@ const ApprochUs = () => {
           <Wave
             fill="#184e77"
             paused={false}
-            className="absolute h-full -z-10 top-10"
+            className="absolute h-full -z-10 lg:top-10 top-0"
             options={{
               height: 5,
               amplitude: 20,

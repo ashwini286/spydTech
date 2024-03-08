@@ -16,10 +16,6 @@ const Next = () => {
 
                 </div>
 
-
-
-
-
                 <div className='md:w-[620px] md:h-[560px] flex justify-center items-justify flex-col md:pl-24 pl-4 ' data-aos="fade-up">
                     <div className='md:text-3xl md:font-extrabold text-xl mt-10 font-bold'>
                         <h1 className='text-[#656565]'> Next Js Development </h1>
