@@ -16,10 +16,10 @@ function MobileCommerce() {
   return (
     <>
       <Navbarupp />
-      <div className="max-w-screen mx-auto min-h-screen h-screen relative">
+      <div >
         <img
           src={IMG}
-          className="md:w-[100%] h-full object-cover rounded-bl-[5%] rounded-br-[5%] rounded"
+         className="md:w-[100%] h-full object-cover rounded-bl-[5%] rounded-br-[5%] rounded"
           alt="Background Image"
         />
       </div>
@@ -85,7 +85,7 @@ function MobileCommerce() {
         <div className=''>
           <img
             src={IMG1}
-            className='w-[80%] h-[100%] text-center '
+            className='w-[80%] h-[100%] text-center pl-8'
           />
         </div>
         <div className=''>

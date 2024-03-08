@@ -13,7 +13,9 @@ const OurCore = () => {
       </div>
       <img
         src="https://t3.ftcdn.net/jpg/06/22/86/40/360_F_622864037_VIEXFjiKPNkubPEqSD1BHXuLbIycdyIM.jpg"
-        className="  w-full h-[550px]"
+        // className="w-full h-[550px]"
+               className="object-cover w-full"
+
         alt="Background Image" style={{ filter: "brightness(70%)" }}
       />
        

@@ -45,7 +45,7 @@ const WhyChoose = () => {
         </div>
         <div className='md:w-[620px]  text-white flex justify-center items-justify flex-col ' data-aos="fade-right">
         <div className=''>
-  <img src="https://www.datocms-assets.com/48401/1644864897-next-framework.jpeg?fit=max&w=900" alt="" className="hover:shadow-xl"/>
+  <img src="https://www.datocms-assets.com/48401/1644864897-next-framework.jpeg?fit=max&w=900 " alt="" className="hover:shadow-xl  pt-6"/>
         </div>
          
         </div>

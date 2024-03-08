@@ -14,21 +14,21 @@ function Footer1() {
   return (
     <>
 
-      <Card className="mt-3 w-[80%] h-[20rem] ml-[10%] mb-[-15%] shadow-inner">
-
-        <CardBody><img
-          src={IMG}
-          alt='talk'
-          className='w-[27%] h-5 ml-[47%] mt-10'
-        />
-          <h1 className='flex text-4xl justify-center mt-[-5%]'>Let’s Talk
-
-            <p className='text-blue-900 pl-4'>Technology</p></h1>
-          <p className='text-center pt-10 w-[90%]'>We're passionate about innovation, brilliant ideas and the execution that brings it all
-            together in one beautiful experience. If you are too, call or send us an email to get started.</p>
+<Card className="mt-3 w-[90%] md:w-[80%] ml-auto mr-auto md:h-[20rem] mb-[-26%] md:mb-[-15%] shadow-inner">
+        <CardBody className="flex flex-col justify-center items-center">
+          <h1 className="text-4xl text-center">
+            Let’s Talk <span className="text-blue-900">Technology</span>
+          </h1>
+          <img src={IMG} alt="talk" className="w-[44%] md:w-[27%] h-auto mt-4" />
+          <p className="text-center pt-4 w-[90%]">
+            We're passionate about innovation, brilliant ideas, and the
+            execution that brings it all together in one beautiful experience.
+            If you are too, call or send us an email to get started.
+          </p>
         </CardBody>
-        <CardFooter className="pt-5 ">
-          <Button className='ml-[40%]'>Read More</Button>
+
+        <CardFooter className="pt-5">
+          <Button className="ml-[30%] md:ml-[40%]">Read More</Button>
         </CardFooter>
       </Card>
       <footer className="bg-blue-900 text-white ">
