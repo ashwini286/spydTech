@@ -127,7 +127,48 @@ function Otherservies() {
             </div>
         </div>
     </div>
+
+    <div class="relative">
+        <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 ">
+            <div class="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0 lg:col-start-2">
+                <div>
+                    <div>
+                        <span class="flex h-12 w-12 items-center justify-center rounded-xl bg-pink-500 text-white">
+                        <CiCloudOn className='text-4xl'/>
+                        </span>
+                    </div>
+                    <div class="mt-6">
+                        <h2 class="text-3xl font-bold tracking-tight text-white">
+                           What is Cloud Technologies:
+                        </h2>
+                        <p class="mt-4 text-lg text-gray-300">
+                        Cloud computing is the on-demand availability of computer system resources, 
+                        especially data storage and computing power, without direct active management by the user. 
+                        Large clouds often have functions distributed over multiple locations, each of which is a data center.
+                        </p>
+                        <div class="mt-6">
+                            <a class="inline-flex rounded-lg bg-pink-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700"
+                                href="/Machine">
+                                Learn More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-12 sm:mt-16 lg:mt-0">
+                <div class="-ml-48 pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0">
+                    <img alt="Inbox user interface" loading="lazy" width="647" height="486"
+                        class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
+                        style={{ color: 'transparent' }} src="https://assets.entrepreneur.com/content/3x2/2000/1704829170-ENT-The2024AWSCertifiedCloudPractitionerArchitectCertificationBundle.png" />
+                </div>
+            </div>
+        </div>
+    </div> 
+
 </div>
+
+
+
 
 <Approch />
     </>

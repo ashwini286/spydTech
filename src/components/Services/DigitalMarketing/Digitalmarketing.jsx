@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
 import Navbarupp from '../../Home/Navbar/Navbarupp';
 import Approch from '../../Home/APProchUs/Approch';
 import { Link } from 'react-router-dom';
-import IMG from "../../assets/Digital marketing/digital market.jpg";
+import IMG from "../../assets/Digital marketing/main.jpg";
 import IMG2 from "../../assets/Digital marketing/Digital marketing main.png";
 import IMG3 from "../../assets/Digital marketing/SEO.png";
 import IMG4 from "../../assets/Digital marketing/ppc.jpg";
@@ -18,18 +18,19 @@ function Digitalmarketing() {
   }, []); // Add empty dependency array to run only once when component mounts
   return (
     <>
-      <div>
+     
         <Navbarupp />
-        </div>
-        <div className='relative w-full'>
+        
+        <div className='relative'>
           <img
-            src='https://i.pinimg.com/originals/f1/44/d4/f144d43dd8e7d3fa429cd6ef4a8e9e31.jpg'
+            src='https://www.simplilearn.com/ice9/free_resources_article_thumb/What_is_digital_marketing.jpg'
+            // src={IMG}
             data-aos="fade-in"
-            className="inset-0 h-[50vh] w-full md:h-[550px] md:w-full bg-blue-gray-100"
+            className="inset-0 h-[60vh] w-full lg:w-full xl:w-full sm:w-full "
             alt="Background 1"
             style={{ filter: "brightness(100%)" }}
           />
-          <div className="absolute inset-0 h-[50vh] w-full md:h-[550px] bg-black bg-opacity-50 rounded-lg"></div>
+          <div className="absolute inset-0 h-[60vh] w-full lg:w-full lg:max-w-none sm:w-full bg-black bg-opacity-50 rounded-lg"></div>
           <div className='absolute top-1/2 left-[35%] transform -translate-x-1/2 -translate-y-1/2 md:left-[35%] md:w-[50%] lg:w-[50%] text-start text-white font-bold px-5'>
             <h1 className='text-2xl md:text-4xl lg:text-4xl'>Welcome to the Future of Surveillance with "Spy D Technology"</h1>
             <p className='text-xl'>"Introducing SpyD, the cutting-edge solution revolutionizing surveillance in the digital age. 
@@ -183,8 +184,8 @@ function Digitalmarketing() {
                 </div>
               </div>
             </div>
-          
-            <div class="flex flex-1 w-full flex-col items-center justify-center text-center px-4 py-10 md:py-20 bg-gradient-to-r from-green-50/50 via-teal-50 to-green-50/50 dark:from-gray-800 dark:via-gray-700 dark:to-gray-800">
+          <div className='p-10'>
+            <div class="p-10 flex flex-1 w-full flex-col items-center justify-center text-center  bg-gradient-to-r from-green-50/50 via-teal-50 to-green-50/50 dark:from-gray-800 dark:via-gray-700 dark:to-gray-800">
   <a href="" class="border border-white-700 dark:border-gray-900 rounded-lg py-2 px-4 text-white-400 dark:text-gray-900 text-sm mb-5 md:mb-10 transition duration-300 ease-in-out hover:text-gray-500 dark:hover:text-gray-900">
     Get Started Today
   </a>
@@ -203,7 +204,7 @@ function Digitalmarketing() {
   </h2>
   <a class="bg-orange-600 dark:bg-gray-800 rounded-xl text-white dark:text-gray-300 font-medium px-4 py-3 mt-8 md:mt-12 hover:bg-orange-500 dark:hover:bg-gray-600 transition" href="">Get started</a>
 </div>
-
+</div>
            
 
            
