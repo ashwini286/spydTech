@@ -40,7 +40,7 @@ function SMMpage() {
         </div>
       </div>
       <div className=" text-center p-10 space-y-4" data-aos="fade-up">
-        <h1 className="text-3xl ">
+        <h1 className="text-3xl font-bold">
           WE CAN{" "}
           <span className='text-blue-600 text-4xl mx-auto border-b-2 border-cyan-800 w-1/2"'>
             HELP YOU OUT!
