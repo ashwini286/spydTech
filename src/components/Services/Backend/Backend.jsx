@@ -23,8 +23,6 @@ const Backend = () => {
       <Pyhton />
       <Help />
       <Approch />
-
-<Footer />
     </>
   )
 }

@@ -14,7 +14,7 @@ const Php = () => {
       <img
         // src="https://miro.medium.com/v2/resize:fit:828/format:webp/0*LuW64AVZUDXM2TdQ.gif"
         src="https://kinsta.com/wp-content/uploads/2020/03/php-tutorials.png"
-        className=" w-[100%] h-[35rem]"
+        className=" lg:w-[100%] lg:h-[30rem] object-cover"
         alt="Background Image"
       />
       <PhpSolution />

@@ -93,22 +93,23 @@ const Form2 = () => {
       <Navbarupp />
       <div>
         <img
-          src='https://csc-team-storage.s3.eu-west-1.amazonaws.com/Team+EN.jpg'
+          src="https://csc-team-storage.s3.eu-west-1.amazonaws.com/Team+EN.jpg"
           className=" object-cover w-full md:h-[550px]"
           // style={{ filter: "brightness(70%)" }}
           alt="Background Image"
         />
-
       </div>
-      <div className='flex justify-center items-center bg-[#008BC2] flex-col gap-4 text-white py-16'>
-        <h1 className="text-2xl md:text-6xl font-bold text-center">Job Application</h1>
+      <div className="flex justify-center items-center bg-[#008BC2] flex-col gap-4 text-white py-16">
+        <h1 className="text-2xl md:text-6xl font-bold text-center">
+          Job Application
+        </h1>
         <h4 className="text-lg text-center">
           {" "}
           Please complete the form below to apply for a position with us.
         </h4>
-      </div>      <div>
-
-        <div className="w-full flex flex-col md:flex-row py-8">
+      </div>
+      <div>
+        <div className="w-full flex flex-col md:flex-row py-8 ">
           {isRightVisible && (
             <div className="bg-[#fff] w-full md:w-1/2  relative rounded-r-3xl">
               <form
@@ -354,21 +355,30 @@ const Form2 = () => {
           )}
 
           {!isRightVisible && (
-            <div className="w-full lg:hidden">
+            <div className="w-full lg:hidden ">
               <div className="bg-gradient-to-r from-green-500 via-cyan-500 to-orange-400 rounded-l-3xl h-[566px] flex flex-col items-center justify-center text-black mt-[-60px]">
                 <div className="mb-8 animate-bounce">
-                  <img src="https://freepngimg.com/thumb/green_tick/27890-7-green-tick-picture-thumb.png" alt="Logo" className="" />
+                  <img
+                    src="https://freepngimg.com/thumb/green_tick/27890-7-green-tick-picture-thumb.png"
+                    alt="Logo"
+                    className=""
+                  />
                 </div>
                 <div className="text-center flex justify-center items-center flex-row">
                   <div className="text-3xl font-bold mb-2">
-                    Thank You for Choosing <br /><span className="text-3xl text-blue-gray-800">SPY D Technology</span> !
+                    Thank You for Choosing <br />
+                    <span className="text-3xl text-blue-gray-800">
+                      SPY D Technology
+                    </span>{" "}
+                    !
                   </div>
-
                 </div>
                 <p className="text-lg px-8 text-center">
-                  Your application has reached us, and we appreciate your interest in joining SPY D Technology. We'll carefully review your details and be in touch soon. Best of luck on your journey with us!
+                  Your application has reached us, and we appreciate your
+                  interest in joining SPY D Technology. We'll carefully review
+                  your details and be in touch soon. Best of luck on your
+                  journey with us!
                 </p>
-
 
                 <Link to="/">
                   <button className="text-blue-900 underline">
@@ -379,46 +389,56 @@ const Form2 = () => {
             </div>
           )}
 
-          <div className={`w-1/2 hidden lg:block ${isRightVisible ? "absolute" : ""}`}>
+          <div
+            className={`w-1/2 hidden lg:block ${
+              isRightVisible ? "absolute" : ""
+            }`}
+          >
             <motion.div
               className="h-[60px] bg-primarycolors-green relative"
               initial={{ x: isRightVisible ? 0 : "100%" }}
               animate={{ x: isRightVisible ? "100%" : 0 }}
               transition={{ duration: 0.5 }}
             >
-              {
-                isRightVisible ?
-                  <div className="bg-gradient-to-r from-red-500 via-pink-500 to-purple-800  rounded-l-3xl h-[566px] flex flex-col items-center justify-center text-black">
-                    <div className="flex flex-col justify-center items-center">
-                      <div className="mb-8 ">
-                        <img src={Resume} alt="Logo" className="w-80 h-60" />
-                      </div>
-                      <p className="text-center text-3xl font-bold mb-2 bg-gradient-to-r from-teal-400 via-indigo-500 to-purple-500 bg-clip-text">
-                        Embark on a Journey with Us
-                      </p>
-                      <p className="text-lg text-center px-6">
-                        Unleash the full potential of our platform by sharing a bit about yourself. Your journey begins here – let's make it extraordinary together!
-                      </p>
+              {isRightVisible ? (
+                <div className="bg-gradient-to-r from-red-500 via-pink-500 to-purple-800  rounded-l-3xl h-[600px] flex flex-col items-center justify-center text-black">
+                  <div className="flex flex-col justify-center items-center">
+                    <div className="mb-8 ">
+                      <img src={Resume} alt="Logo" className="w-80 h-60" />
                     </div>
+                    <p className="text-center text-3xl font-bold mb-2 bg-gradient-to-r from-teal-400 via-indigo-500 to-purple-500 bg-clip-text">
+                      Embark on a Journey with Us
+                    </p>
+                    <p className="text-lg text-center px-6">
+                      Unleash the full potential of our platform by sharing a
+                      bit about yourself. Your journey begins here – let's make
+                      it extraordinary together!
+                    </p>
                   </div>
-                  :
-                  <div className="bg-gradient-to-r from-teal-500 via-cyan-500 to-purple-800 rounded-3xl h-[566px] flex flex-col items-center justify-center text-white">
-                    <div className="text-center flex flex-col justify-center items-center  gap-4">
-                      <div className=" ">
-                        <img src={tech} alt="Logo" className="w-80 h-60" />
-                      </div>
-                      <p className="text-black text-3xl font-bold mb-2 bg-gradient-to-r from-blue-500 via-indigo-500 to-transparent bg-clip-text">
-                        Welcome to the World of <br /> <span className="text-3xl text-blue-gray-800">SPY D Technology!</span>
-                      </p>
-                      <p className="text-lg px-8 text-black">
-                        Embrace the beauty of your individuality, as we embark on an extraordinary and transformative digital odyssey together. Within the boundless possibilities of technology, let's collaborate to redefine the future, and it all begins with the unique journey you bring to the table!
-                      </p>
+                </div>
+              ) : (
+                <div className= "mr-8 bg-gradient-to-r from-teal-500 via-cyan-500 to-purple-800 rounded-3xl h-[566px] flex flex-col items-center justify-center text-white">
+                  <div className="text-center flex flex-col justify-center items-center gap-4">
+                    <div className=" ">
+                      <img src={tech} alt="Logo" className="w-80 h-60" />
                     </div>
+                    <p className="text-black text-3xl font-bold mb-2 bg-gradient-to-r from-blue-500 via-indigo-500 to-transparent bg-clip-text">
+                      Welcome to the World of <br />{" "}
+                      <span className="text-3xl text-blue-gray-800">
+                        SPY D Technology!
+                      </span>
+                    </p>
+                    <p className="text-lg px-8 text-black">
+                      Embrace the beauty of your individuality, as we embark on
+                      an extraordinary and transformative digital odyssey
+                      together. Within the boundless possibilities of
+                      technology, let's collaborate to redefine the future, and
+                      it all begins with the unique journey you bring to the
+                      table!
+                    </p>
                   </div>
-
-              }
-
-
+                </div>
+              )}
             </motion.div>
             <div />
             {!isRightVisible && (
@@ -427,20 +447,29 @@ const Form2 = () => {
                 animate={{ x: isRightVisible ? 0 : "100%" }}
                 transition={{ duration: 0.5 }}
               >
-                <div className="bg-gradient-to-r from-green-500 via-cyan-500 to-orange-400 rounded-l-3xl h-[566px] flex flex-col items-center justify-center text-black mt-[-60px]">
+                <div className="ml-8 bg-gradient-to-r from-green-500 via-cyan-500 to-orange-400 rounded-l-3xl h-[566px] flex flex-col items-center justify-center text-black mt-[-60px]">
                   <div className="mb-8 animate-bounce">
-                    <img src="https://freepngimg.com/thumb/green_tick/27890-7-green-tick-picture-thumb.png" alt="Logo" className="" />
+                    <img
+                      src="https://freepngimg.com/thumb/green_tick/27890-7-green-tick-picture-thumb.png"
+                      alt="Logo"
+                      className=""
+                    />
                   </div>
                   <div className="text-center flex justify-center items-center flex-row">
                     <div className="text-3xl font-bold mb-2">
-                      Thank You for Choosing <br /><span className="text-3xl text-blue-gray-800">SPY D Technology</span> !
+                      Thank You for Choosing <br />
+                      <span className="text-3xl text-blue-gray-800">
+                        SPY D Technology
+                      </span>{" "}
+                      !
                     </div>
-
                   </div>
                   <p className="text-lg px-8 text-center">
-                    Your application has reached us, and we appreciate your interest in joining SPY D Technology. We'll carefully review your details and be in touch soon. Best of luck on your journey with us!
+                    Your application has reached us, and we appreciate your
+                    interest in joining SPY D Technology. We'll carefully review
+                    your details and be in touch soon. Best of luck on your
+                    journey with us!
                   </p>
-
 
                   <Link to="/">
                     <button className="text-blue-900 underline">
@@ -453,8 +482,9 @@ const Form2 = () => {
           </div>
 
           <div
-            className={`lg:hidden flex flex-col mr-16 justify-center items-center w-full ${isFormValid ? "md:hidden" : ""
-              }`}
+            className={`lg:hidden flex flex-col mr-16 justify-center items-center w-full ${
+              isFormValid ? "md:hidden" : ""
+            }`}
           >
             <div className="pt-16">
               <img src={Login} className="md:w-[450px] w-[300px] " />
@@ -464,11 +494,9 @@ const Form2 = () => {
             </div>
           </div>
         </div>
-
       </div>
       <div className="relative">
         <Approch />
-        {/* <Footer /> */}
       </div>
     </>
   );

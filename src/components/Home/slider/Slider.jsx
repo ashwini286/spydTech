@@ -102,7 +102,7 @@ const Slider = () => {
             <div key={index} className='flex flex-col items-center justify-center space-y-2 relative '>
               <button
 
-                className={` flex p-8 rounded-full bg-gray-300 text-4xl hover:bg-light-blue-400 `}
+                className={` flex p-8 rounded-full bg-gray-300 text-4xl hover:bg-light-blue-400 shadow-2xl`}
                 onClick={() => scrollToImage(index)}
               >
                 {slide.icons}

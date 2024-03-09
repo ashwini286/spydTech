@@ -20,11 +20,11 @@ function SpdApproch() {
           <div className="group w-full h-full perspective ">
             <div className="flip-card  flex items-center justify-center ">
               <div className="flip-card-inner">
-                <div className="flip-card-front bg-[#0891b2] flex flex-col justify-center items-center">
+                <div className="flip-card-front slider-wave1 flex flex-col justify-center items-center">
                   <FaHandshake className='text-6xl text-white '/>
                   <p className=" text-white text-center">High added Value Services</p>
                 </div>
-                <div className="flip-card-back bg-[#0891b2] relative">
+                <div className="flip-card-back slider-wave1 relative">
                   <a href="#" className="card-link text-white block w-full h-full">
                     <div className="absolute inset-1 flex items-center justify-center">
                       <div className="bg-white bg-opacity-0 absolute inset-0"></div>
@@ -46,11 +46,11 @@ function SpdApproch() {
           <div className="group w-full h-full perspective">
             <div className="flip-card flex items-center justify-center">
               <div className="flip-card-inner">
-                <div className="flip-card-front bg-[#0e7490] flex flex-col justify-center items-center">
+                <div className="flip-card-front slider-wave2 flex flex-col justify-center items-center">
                   <FaGlobe className='text-6xl text-white mb-4'/>
                   <p className=" text-white text-center">Global Approach</p>
                 </div>
-                <div className="flip-card-back bg-[#0e7490] relative">
+                <div className="flip-card-back slider-wave2 relative">
                   <a href="#" className="card-link text-white block w-full h-full">
                     <div className="absolute inset-1 flex items-center justify-center">
                       <div className="bg-white bg-opacity-0 absolute inset-0"></div>
@@ -72,11 +72,11 @@ function SpdApproch() {
           <div className="group w-full h-full perspective">
             <div className="flip-card flex items-center justify-center">
               <div className="flip-card-inner">
-                <div className="flip-card-front bg-[#14b8a6]  flex flex-col justify-center items-center px-4">
+                <div className="flip-card-front slider-wave3  flex flex-col justify-center items-center px-4">
                   <MdGroups className='text-6xl text-white '/>
                   <p className=" text-white text-center lg:px-6">Human and Talents at the Heart of our Development</p>
                 </div>
-                <div className="flip-card-back bg-[#14b8a6] relative">
+                <div className="flip-card-back slider-wave3 relative">
                   <a href="#" className="card-link text-white block w-full h-full">
                     <div className="absolute inset-1 flex items-center justify-center">
                       <div className="bg-white bg-opacity-0 absolute inset-0"></div>
@@ -97,11 +97,11 @@ function SpdApproch() {
           <div className="group w-full h-full perspective">
             <div className="flip-card  flex items-center justify-center">
               <div className="flip-card-inner">
-              <div className="flip-card-front slider-wave flex flex-col justify-center items-center">
+              <div className="flip-card-front slider-wave4 flex flex-col justify-center items-center">
                   <IoIosLeaf className='text-6xl text-white'/>
                   <p className=" text-white text-center lg:px-6">Commitment to a Virtuous Digital Transition</p>
                 </div>
-                <div className="flip-card-back slider-wave relative">
+                <div className="flip-card-back slider-wave4 relative">
                   <a href="#" className="card-link text-white block w-full h-full">
                     <div className="absolute inset-1 flex items-center justify-center">
                       <div className="bg-white bg-opacity-0 absolute inset-0"></div>
@@ -117,31 +117,7 @@ function SpdApproch() {
             </div>
           </div>
         </div>
-        {/* 4th card */}
-        {/* <div className=" max-w-sm  w-[269.6px]  md:h-[76.2px] relative  " data-aos="fade-up">
-          <div className="group w-full h-full perspective flex flex-col justify-center items-center">
-            <div className="flip-card ">
-              <div className="flip-card-inner">
-                <div className="flip-card-front bg-[#00C072] flex flex-col justify-center items-center">
-                  <IoIosLeaf className='text-6xl text-white'/>
-                  <p className=" text-white text-center">Commitment to a Virtuous Digital Transition</p>
-                </div>
-                <div className="flip-card-back bg-[#00C072] relative">
-                  <a href="#" className="card-link text-white block w-full h-full">
-                    <div className="absolute inset-1 flex items-center justify-center">
-                      <div className="bg-white bg-opacity-0 absolute inset-0"></div>
-                      <img 
-                        src={IMG}
-                        className=" w-full h-full object-cover filter brightness-120" 
-                        alt="Image"
-                      />
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>  */}
+
       </div>
       </div>
       <style>
@@ -195,57 +171,56 @@ function SpdApproch() {
          
         }
 
-        .slider-wave {
+ .slider-wave1 {
           margin: auto;
          overflow: hidden;
-         background: linear-gradient(315deg, rgb(255, 105, 104) 3%, rgb(6, 149, 255) 38%, rgb(163, 52, 250) 68%, rgb(255, 105, 104) 98%);
+         background: linear-gradient(315deg, rgb(255, 0, 0) 3%, rgb(255, 255, 0) 38%, rgb(0, 255, 0) 68%, rgb(255, 0, 0) 98%);
+
          animation: gradient 15s ease infinite;
          background-size: 400% 400%;
          background-attachment: fixed;
 }
  
+.slider-wave2 {
+  margin: auto;
+ overflow: hidden;
+ background: linear-gradient(315deg, rgb(218, 44, 230) 0%, rgb(32, 162, 194) 35%, rgb(249, 168, 37) 65%, rgb(53, 233, 54) 100%);
+ animation: gradient 15s ease infinite;
+ background-size: 400% 400%;
+ background-attachment: fixed;
+}
+
+.slider-wave3 {
+  margin: auto;
+ overflow: hidden;
+ background: linear-gradient(315deg, rgb(0, 0, 255) 3%, rgb(255, 0, 255) 38%, rgb(255, 255, 0) 68%, rgb(0, 0, 255) 98%);
+ animation: gradient 15s ease infinite;
+ background-size: 400% 400%;
+ background-attachment: fixed;
+}
+
+.slider-wave4 {
+  margin: auto;
+ overflow: hidden;
+ background: linear-gradient(315deg, rgb(0, 255, 255) 3%, rgb(255, 0, 255) 38%, rgb(255, 255, 0) 68%, rgb(0, 255, 255) 98%);
+ animation: gradient 15s ease infinite;
+ background-size: 400% 400%;
+ background-attachment: fixed;
+}
+
 @keyframes gradient {
-  0% {
-    background-position: 0% 0%;
-  }
-  50% {
-    background-position: 100% 100%;
-  }
-  100% {
-    background-position: 0% 0%;
-  }
+0% {
+background-position: 0% 0%;
+}
+50% {
+background-position: 100% 100%;
+}
+100% {
+background-position: 0% 0%;
+}
 }
  
-.wave {
-  background: rgb(255 255 255 / 25%);
-  border-radius: 800% 800% 0 0;
-  position: fixed;
-  width: 200%;
-  height: 12em;
-  animation: wave 10s -3s linear infinite;
-  transform: translate3d(0, 0, 0);
-  opacity: 0.8;
-  bottom: 0;
-  left: 0;
-  z-index: -1;
-}
- 
-@keyframes wave {
-  0%, 100% {
-    transform: translateX(0);
-  }
- 
-  25% {
-    transform: translateX(-5%);
-  }
- 
-  50% {
-    transform: translateX(-10%);
-  }
- 
-  75% {
-    transform: translateX(-5%);
-  }
+
         `}
       </style>
     </>
