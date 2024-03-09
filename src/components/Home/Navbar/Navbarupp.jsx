@@ -59,7 +59,7 @@ const navListMenuItems = [
    
   },
   {
-    title: "ECOMMERCE",
+    title: "ECOMMERCE SOLUTIONS",
     // description: "Find the perfect solution for your needs.",
     icon: ShoppingCartIcon,
     color: 'blue',
