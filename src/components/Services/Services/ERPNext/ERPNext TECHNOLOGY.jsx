@@ -29,9 +29,7 @@ function ERPNext () {
         focusing on the right balance of Digitization, Flexibility, and Process mapping.</div>
     </div>
 </div> */}
-      
-
-
+    
 <div className='md:h-[550px]'>
         <img
           src={IMG}

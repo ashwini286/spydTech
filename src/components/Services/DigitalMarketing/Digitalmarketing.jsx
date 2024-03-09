@@ -23,7 +23,7 @@ function Digitalmarketing() {
         </div>
         <div className='relative w-full'>
           <img
-            src='https://i.pinimg.com/originals/f1/44/d4/f144d43dd8e7d3fa429cd6ef4a8e9e31.jpg'
+            src='https://www.simplilearn.com/ice9/free_resources_article_thumb/What_is_digital_marketing.jpg'
             className=" w-full object-cover md:h-[490px] h-[415px] "
             // className="inset-0 h-[50vh] w-full md:h-[550px] md:w-full bg-blue-gray-100"
             alt="Background 1"
@@ -188,7 +188,7 @@ function Digitalmarketing() {
   <a href="" class="border border-white-700 dark:border-gray-900 rounded-lg py-2 px-4 text-white-400 dark:text-gray-900 text-sm mb-5 md:mb-10 transition duration-300 ease-in-out hover:text-gray-500 dark:hover:text-gray-900">
     Get Started Today
   </a>
-  <h1 class="mx-auto max-w-4xl font-display text-3xl md:text-5xl font-bold tracking-normal text-white-300 dark:text-gray-300 sm:text-5xl md:text-7xl">
+  <h1 class="mx-auto max-w-4xl font-display text-3xl md:text-5xl font-bold tracking-normal text-white-300 dark:text-gray-300 sm:text-5xl">
     "Spy D Technology" Leads the Way
     <span class="relative whitespace-nowrap text-white-600 dark:text-gray-300"></span>
     <span class="relative whitespace-nowrap text-orange-500 dark:text-orange-300">
