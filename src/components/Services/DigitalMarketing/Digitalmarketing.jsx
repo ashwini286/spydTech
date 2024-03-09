@@ -23,7 +23,7 @@ function Digitalmarketing() {
         </div>
         <div className='relative w-full'>
           <img
-            src='https://i.pinimg.com/originals/f1/44/d4/f144d43dd8e7d3fa429cd6ef4a8e9e31.jpg'
+            src='https://www.simplilearn.com/ice9/free_resources_article_thumb/What_is_digital_marketing.jpg'
             className=" w-full object-cover md:h-[490px] h-[415px] "
             // className="inset-0 h-[50vh] w-full md:h-[550px] md:w-full bg-blue-gray-100"
             alt="Background 1"
