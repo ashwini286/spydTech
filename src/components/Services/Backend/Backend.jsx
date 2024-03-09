@@ -15,9 +15,12 @@ const Backend = () => {
       </div>
       <img
         src={Backend1}
-        className=" w-[100%]"
+        className=" w-full"
         alt="Background Image"
       />
+        <div className='flex items-center justify-center'>
+        <div className='text-center text-2xl pt-16 w-[850px] mt-8 font-bold border-b-4 border-gray-500 drop-shadow-2xl'>Crafting Seamless User Experiences: Unleashing the Power of Backend Development</div>
+      </div>
       <Java />
       <Php />
       <Pyhton />

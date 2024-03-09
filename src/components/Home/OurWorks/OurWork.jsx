@@ -44,9 +44,9 @@ const OurWork = () => {
       </div>
       <div className='flex justify-center items-center m-10' data-aos="fade-up">
      <Link to = "/portfolio">
-     <Button size="md" className='font-serif bg-[#5bc0de] rounded'>
+     <button className='bg-blue-500 text-white py-2 px-8 rounded-md  shadow-lg shadow-blue-700 mt-4 hover:bg-blue-800'>
           view all
-        </Button>
+        </button>
      </Link>
       </div>
 

@@ -30,7 +30,7 @@ const Services1 = () => {
           <p className='text-[#656565]'>We are one stop, full service, and turnkey solutions provider for</p>
           <h2 className='text-2xl md:text-3xl text-[#656565] font-normal mb-3'>Web, Mobility and Digital Marketing Services.</h2>
           <div className='flex justify-center items-center ' data-aos="fade-right">
-            <img src={img} className="w-[350px] h-[350px]" />
+            <img src={img} className="w-[350px] h-[350px] drop-shadow-xl" />
           </div>
         </div>
       </div>

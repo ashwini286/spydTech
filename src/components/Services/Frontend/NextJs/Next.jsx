@@ -25,7 +25,7 @@ const Next = () => {
                             Next.js is a popular and powerful React framework designed to simplify the development of web applications. Developed by Vercel, Next.js builds upon React's capabilities by adding essential features for server-side rendering, automatic code splitting, and simplified routing. One of its standout features is the ability to enable server-side rendering (SSR) and static site generation (SSG) effortlessly, providing faster page loads and improved SEO performance.
                         </p>
                         <Link to='/Next JS'>
-                            <button className='bg-blue-400 p-3  text-[#656565] rounded-md mt-4 hover:bg-blue-800 hover:text-white'>Read More</button>
+                            <button className='bg-[#4361ee] text-white py-2 px-4 rounded-md  shadow-lg shadow-blue-600 mt-4 hover:bg-[#3a0ca3]'>Read More</button>
                         </Link>
 
                     </div>

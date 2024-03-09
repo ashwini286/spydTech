@@ -34,7 +34,7 @@ const ECommerceTitle = () => {
                         Magento eCommerce Development empowers businesses to create engaging, scalable, and high-performing online stores that drive revenue and customer satisfaction. With its unparalleled flexibility, customization options, and rich feature set, Magento is the platform of choice for businesses looking to thrive in the competitive world of eCommerce.
                         </p>
                         <Link to='/Magento eCommerce Development'>
-                            <button className='bg-[#ff8a00] text-white py-2 px-4 rounded-md shadow-4xl mt-4 hover:bg-[#FF4500] hover:text-white'>Read More</button>
+                            <button className='bg-[#ff8a00] text-white py-2 px-4 rounded-md  shadow-lg shadow-orange-700 mt-4 hover:bg-[#FF4500] '>Read More</button>
                         </Link>
 
                     </div>
@@ -65,7 +65,7 @@ const ECommerceTitle = () => {
                     <div className='py-4  text-[#656565] md:leading-8'>
                     In the era of constant connectivity, Mobile Commerce (mCommerce) emerges as the driving force behind the evolution of online shopping. As consumers increasingly turn to their smartphones and tablets for seamless, on-the-go experiences, businesses must harness the power of mCommerce to stay ahead in the competitive digital landscape.
                         <Link to='/Mobile Commerce (mCommerce)'>
-                            <button className='bg-[#ff8a00] text-white py-2 px-4 rounded-md shadow-2xl mt-4 hover:bg-[#FF4500] hover:text-white'>Read More</button>
+                            <button className='bg-[#ff8a00] text-white py-2 px-4 rounded-md  shadow-lg shadow-orange-700 mt-4 hover:bg-[#FF4500]'>Read More</button>
                         </Link>
 
                     </div>
@@ -86,7 +86,7 @@ const ECommerceTitle = () => {
     In the digital era, eCommerce stands as the gateway to a revolutionary shopping experience, transforming the way we buy and sell goods and services. At its core, eCommerce, or Electronic Commerce, refers to the online exchange of products and services, fostering a virtual marketplace that transcends geographical boundaries. Let's explore the key elements that define and characterize the essence of eCommerce.
 </p>
                         <Link to='/eCommerce'>
-                            <button className='bg-[#ff8a00] text-white py-2 px-4 rounded-md shadow-2xl mt-4 hover:bg-[#FF4500] hover:text-white'>Read More</button>
+                            <button className='bg-[#ff8a00] text-white py-2 px-4 rounded-md  shadow-lg shadow-orange-700 mt-4 hover:bg-[#FF4500]'>Read More</button>
                         </Link>
 
                     </div>

@@ -19,6 +19,9 @@ const Frontend = () => {
         className="w-full md:h-[550px]"
         alt="Background Image"
       />
+        <div className='flex items-center justify-center'>
+        <div className='text-center text-2xl pt-16 w-[850px] mt-8 font-bold border-b-4 border-gray-500 drop-shadow-2xl'>Crafting Seamless User Experiences: Unleashing the Power of Frontend Development</div>
+      </div>
       <Reactjs />
       <NextJs />
       <AngularJs />

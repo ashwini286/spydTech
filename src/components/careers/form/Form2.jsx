@@ -343,7 +343,7 @@ const Form2 = () => {
                     <div className="w-60 pb-8">
                       <button
                         type="submit"
-                        className="rounded bg-black px-9 md:px-4 py-2 text-white items-center md:w-[250px]  w-60 "
+                        className="bg-black text-white py-2 px-8 rounded-md  shadow-lg shadow-black mt-4 w-60"
                       >
                         Apply
                       </button>
