@@ -21,9 +21,9 @@ const Implementation = () => {
     <>
 
       <Navbarupp />
-      <div class="relative h-screen w-full rounded-2xl">
-    <img src={IMG} alt="Background Image" class="absolute inset-0 w-full h-[80vh] rounded-2xl object-cover filter blur-sm" />
-    <div class="absolute inset-0 h-[80vh] bg-black bg-opacity-50 rounded-2xl"></div>
+      <div class="relative h-screen w-full rounded-b-2xl ">
+    <img src={IMG} alt="Background Image" class="absolute inset-0 w-full h-[80vh] rounded-b-2xl  object-cover filter blur-sm" />
+    <div class="absolute inset-0 h-[80vh] bg-black bg-opacity-50 rounded-b-2xl "></div>
     <div class="absolute inset-0  flex flex-col md:flex-row items-center justify-center ml-10">
         <h1 class="text-4xl text-white font-bold w-full p-10">ERPNext Implementation</h1>
         <p class="text-xl text-white mt-4 -ml-10 p-10">Building Cost-Effective Digital Business Capabilities around the ERPNext, 

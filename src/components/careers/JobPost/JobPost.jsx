@@ -7,31 +7,31 @@ const JobPost = () => {
       <div className="flex md:flex-row justify-between flex-col  w-full h-full ">
         <div className="flex flex-col  md:w-[30%] p-8 gap-4">
           <button
-            className="bg-blue-500 text-white py-2 px-8 rounded-md  shadow-lg shadow-blue-700 mt-4"
+            className="bg-blue-500 text-white py-2 px-8 rounded-md  shadow-lg shadow-blue-700 mt-4 hover:scale-105 transition-all duration-500"
             onClick={() => setCurrentPage("Android")}
           >
             Android & iOS Developer
           </button>
           <button
-            className="bg-blue-500 text-white py-2 px-8 rounded-md  shadow-lg shadow-blue-700 mt-4"
+            className="bg-blue-500 text-white py-2 px-8 rounded-md  shadow-lg shadow-blue-700 mt-4 hover:scale-105 transition-all duration-500"
             onClick={() => setCurrentPage("fullstack")}
           >
             Full Stack Developer
           </button>
           <button
-            className="bg-blue-500 text-white py-2 px-8 rounded-md  shadow-lg shadow-blue-700 mt-4"
+            className="bg-blue-500 text-white py-2 px-8 rounded-md  shadow-lg shadow-blue-700 mt-4 hover:scale-105 transition-all duration-500"
             onClick={() => setCurrentPage("ReactJs")}
           >
             ReactJs Developer
           </button>
           <button
-            className="bg-blue-500 text-white py-2 px-8 rounded-md  shadow-lg shadow-blue-700 mt-4"
+            className="bg-blue-500 text-white py-2 px-8 rounded-md  shadow-lg shadow-blue-700 mt-4 hover:scale-105 transition-all duration-500"
             onClick={() => setCurrentPage("Java")}
           >
             Java Developer
           </button>
           <button
-          className='bg-blue-500 text-white py-2 px-8 rounded-md  shadow-lg shadow-blue-700 mt-4  '
+          className='bg-blue-500 text-white py-2 px-8 rounded-md  shadow-lg shadow-blue-700 mt-4 hover:scale-105 transition-all duration-500 '
             // className="bg-blue-500 text-white py-2 px-8 rounded-md  shadow-lg shadow-blue-700 mt-4 "
             // hover:bg-[#008080]
             onClick={() => setCurrentPage("PHP")}
@@ -39,7 +39,7 @@ const JobPost = () => {
             PHP Developer
           </button>
           <button
-            className="bg-blue-500 text-white py-2 px-8 rounded-md  shadow-lg shadow-blue-700 mt-4"
+            className="bg-blue-500 text-white py-2 px-8 rounded-md  shadow-lg shadow-blue-700 mt-4 hover:scale-105 transition-all duration-500"
             onClick={() => setCurrentPage("Business")}
           >
             Business Development Manager

@@ -10,13 +10,13 @@ function Thirdparty() {
     <>
       <Navbarupp />
     
-      <div className='md:h-[550px] rounded-2xl'>
+      <div className='md:h-[550px] rounded-b-2xl '>
         <img
           src={IMG}
-          className=" w-full object-cover md:h-[490px] h-[415px] absolute rounded-2xl"
+          className=" w-full object-cover md:h-[490px] h-[415px] absolute rounded-b-2xl "
           alt="Background 2"
         />
-          <div class="absolute inset-0 md:h-[490px] h-[415px] bg-black bg-opacity-50 rounded-2xl"></div>
+          <div class="absolute inset-0 md:h-[490px] h-[415px] bg-black bg-opacity-50 rounded-b-2xl "></div>
           <div class="absolute inset-0  flex flex-col md:flex-row items-center justify-center pb-32">
         <div class="text-4xl text-white font-bold w-full text-center pb-4"> Third-Party Integrations</div>
         <div class="text-xl text-white text-center"> Building Cost-Effective Digital Business Capabilities around the

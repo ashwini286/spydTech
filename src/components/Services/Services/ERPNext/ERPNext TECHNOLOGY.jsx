@@ -33,10 +33,10 @@ function ERPNext () {
 <div className='md:h-[550px]'>
         <img
           src={IMG}
-          className=" w-full object-cover md:h-[490px] h-[415px] absolute"
+          className=" w-full object-cover md:h-[490px] h-[415px] absolute rounded-b-2xl "
           alt="Background 2"
         />
-          <div class="absolute inset-0 md:h-[490px] h-[415px] bg-black bg-opacity-50 "></div>
+          <div class="absolute inset-0 md:h-[490px] h-[415px] bg-black bg-opacity-50 rounded-b-2xl "></div>
           <div class="absolute inset-0  flex flex-col md:flex-row items-center justify-center ">
         <div class="text-4xl text-white font-bold w-full text-center py-4">Our Services</div>
         <div class="text-xl text-white text-center">Building Cost-Effective Digital Business Capabilities around the ERPNext, 
