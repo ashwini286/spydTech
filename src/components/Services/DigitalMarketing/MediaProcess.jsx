@@ -25,13 +25,13 @@ function MediaProcess() {
       title: ' Monthly Content Creation',
       icon: 'M19 19v4a4 4 0 1 0 4-4h-4Zm0 0v-6m0 6h-6m6-6V9a4 4 0 1 1 4 4h-4Zm0 0h-6m-4 0h-.007m0 0A4 4 0 1 1 13 9v4m-4.007 0H13m0 0v6m0 0v4a4 4 0 1 1-4-4h4Z',
       ImgURL:'https://img.freepik.com/free-vector/happy-seo-planning-campaign-social-media-isolated-flat-illustration_74855-10793.jpg?size=626&ext=jpg&ga=GA1.1.1319243779.1708905600&semt=ais',
-      content: 'This includes the design of Facebook/Instagram ads templates that will be used in sponsored campaigns along with the creation of written content for monthly social media posts. The client is sent a monthly social media calendar plan, including all agreed posts, which he/she will review and approve accordingly.'
+      content:'The initial deliverable is crafting the client’s digital marketing strategy, serving as the foundation for all marketing endeavors, detailing actions and outcomes for each project phase',
      },
     {
       title: 'Account & Ads Management',
       icon: 'M19 19v4a4 4 0 1 0 4-4h-4Zm0 0v-6m0 6h-6m6-6V9a4 4 0 1 1 4 4h-4Zm0 0h-6m-4 0h-.007m0 0A4 4 0 1 1 13 9v4m-4.007 0H13m0 0v6m0 0v4a4 4 0 1 1-4-4h4Z',
       ImgURL:'https://www.socialchamp.io/wp-content/uploads/2021/02/Feature-Banner_April-May2021_1125x600_12.jpg',
-      content:'Your dedicated account manager will be monitoring the campaigns in order to make sure that everything is proceeding as planned. The campaign management includes monitoring & optimising the agreed campaigns. Moreover, the buyer personas’ characteristics & demographics will be utilised and A/B tested, when running the Facebook/Instagram campaigns'
+      content:'We design Facebook/Instagram ad templates for sponsored campaigns and create written content for monthly social media posts. Clients receive a monthly social media calendar with agreed posts for review and approval.'
      },
     {
         title: 'Performance Reporting',
@@ -43,7 +43,7 @@ function MediaProcess() {
 
   return (
     <>
-    <div className="area ">
+    <div className="area h-full">
           <ul className="circles">
             {Array.from({ length: 10 }).map((_, i) => (
               <li key={i}></li>
@@ -221,7 +221,7 @@ function MediaProcess() {
               }
             `}
         </style>
-      <div className=" ml-20 w-[80%]">
+      <div className=" ml-20 w-[80%] ">
         <main className="relative max-w-4xl mx-auto mt-10 mb-20  py-8 px-10 rounded-md shadow-md hover:text-white">
           <div>
             <menu className="absolute top-10 -left-16  w-16 rounded-l-md">
@@ -250,11 +250,11 @@ function MediaProcess() {
               </ul>
             </menu>
             <article>
-  <h1 className="text-2xl font-bold" data-aos="fade-right">{tabs[selected].title}</h1>
+  <h1 className="md:text-2xl text-lg font-bold" >{tabs[selected].title}</h1>
   <hr className="my-4" />
-  <div className='flex flex-col md:flex-row'> {/* Added 'items-center' for vertical alignment */}
-    <img src={tabs[selected].ImgURL} alt={tabs[selected].title} className=" w-1/2 rounded-lg" data-aos="fade-left" /> {/* Added image */}
-    <p className="mb-4 ml-2 leading-relaxed p-2 text-lg " data-aos="fade-left">{tabs[selected].content}</p>
+  <div className='flex flex-col md:flex-row justify-center items-center gap-8'> {/* Added 'items-center' for vertical alignment */}
+    <img src={tabs[selected].ImgURL} alt={tabs[selected].title} className="md:w-1/2   rounded-lg"  /> {/* Added image */}
+    <p className="text-sm  md:text-lg " >{tabs[selected].content}</p>
   </div>
 </article>
 

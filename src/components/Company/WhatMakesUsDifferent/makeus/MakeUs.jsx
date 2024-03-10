@@ -22,9 +22,9 @@ const MakeUs = () => {
 
         <div className="md:w-[620px] md:h-[560px] flex justify-center items-justify flex-col md:pl-24 pl-4 ">
           <div className="md:text-3xl md:font-extrabold text-xl mt-10 font-bold">
-            <h1 className="text-[#656565]"> Trust </h1>
+            <h1 className="text-black"> Trust </h1>
           </div>
-          <div className="py-4  text-[#656565] md:leading-8 flex justify-center items-center flex-col">
+          <div className="py-4  text-black md:leading-8 flex justify-center items-center flex-col">
             <li>
               Our clients trust is paramount to us, we know this is earned not
               assumed and work accordingly.
@@ -41,9 +41,9 @@ const MakeUs = () => {
       <div className="flex flex-col md:flex-row  items-center justify-center  w-full ">
         <div className="md:w-[620px] md:h-[560px] flex justify-center items-justify flex-col md:pl-24 pl-4 ">
           <div className="md:text-3xl md:font-extrabold text-xl mt-10 font-bold">
-            <h1 className="text-[#656565]"> Transparency </h1>
+            <h1 className="text-black"> Transparency </h1>
           </div>
-          <div className="py-4  text-[#656565] md:leading-8 ">
+          <div className="py-4  text-black md:leading-8 ">
             <li>
               We adopt an approach that ensures our customers receive absolute
               clarity about the services we offer, and take pride in delivering
@@ -77,9 +77,9 @@ const MakeUs = () => {
         </div>
     <div className="md:w-[620px] md:h-[560px] flex justify-center items-justify flex-col md:pl-24 pl-4 ">
           <div className="md:text-3xl md:font-extrabold text-xl mt-10 font-bold">
-            <h1 className="text-[#656565] pl-8"> Reliability </h1>
+            <h1 className="text-black pl-8"> Reliability </h1>
           </div>
-          <div className="py-4  text-[#656565] md:leading-8 ">
+          <div className="py-4  text-black md:leading-8 ">
             <li>
               We only ever make promises we can keep. Our reliability helps us
               develop great relationships with our clients. In short, if there
@@ -95,9 +95,9 @@ const MakeUs = () => {
       <div className="flex flex-col md:flex-row  items-center justify-center  w-full ">
         <div className="md:w-[620px] md:h-[560px] flex justify-center items-justify flex-col md:pl-24 pl-4 ">
           <div className="md:text-3xl md:font-extrabold text-xl mt-10 font-bold">
-            <h1 className="text-[#656565]"> Honesty </h1>
+            <h1 className="text-black"> Honesty </h1>
           </div>
-          <div className="py-4  text-[#656565] md:leading-8 pr-8">
+          <div className="py-4  text-black md:leading-8 pr-8">
             <li>
               Our approach is based on honesty and part of that is acknowledging
               that while we deliver 99+% of our work accurately and on schedule

@@ -20,6 +20,7 @@ import Thirdparty from "./components/Services/ThirdParty/Thirdparty";
 import EcommerceDevelopment from "./components/Services/EcommerceDevlopment/EcommerceDevelopment";
 import MobileCommerce from "./components/Services/EcommerceDevlopment/MobileCommerce";
 import ECommerce from "./components/Services/EcommerceDevlopment/ECommerce";
+import ECommerceTitle from "./components/Services/EcommerceDevlopment/ECommerceTitle";
 import SeoServices from "./components/Services/DigitalMarketing/SeoServices";
 import PPCManagement from "./components/Services/DigitalMarketing/PPCManagement";
 import Digitalmarketing from "./components/Services/DigitalMarketing/Digitalmarketing";
@@ -69,6 +70,7 @@ const App = () => {
           <Route path="/Third-Party Integrations" element={<Thirdparty />} />
 
           {/* //Ecommerce Development */}
+          <Route path="/ECOMMERCE SOLUTIONS" element={<ECommerceTitle />} />
           <Route
             path="/Magento eCommerce Development"
             element={<EcommerceDevelopment />}

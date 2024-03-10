@@ -6,8 +6,8 @@ const pythonExpertise = () => {
             <div className='bg-gray-200 pb-16'>
 
                 <div className='pt-8'>
-                    <p className='text-center md:text-3xl font-bold  text-[#656565] '>Our Expertise in Python development</p>
-                    <p className='text-center  text-[#656565] pt-4'>Our Team of experts specializes in a diverse range of industry verticals, serving the needs of various start-ups and small businesses.
+                    <p className='text-center md:text-3xl font-bold  text-black '>Our Expertise in Python development</p>
+                    <p className='text-center  text-black pt-4'>Our Team of experts specializes in a diverse range of industry verticals, serving the needs of various start-ups and small businesses.
 </p>
                 </div>
                 <div className='md:grid md:grid-cols-3 md:px-10'>

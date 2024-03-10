@@ -20,11 +20,11 @@ function SpdApproch() {
           <div className="group w-full h-full perspective ">
             <div className="flip-card  flex items-center justify-center ">
               <div className="flip-card-inner">
-                <div className="flip-card-front slider-wave1 flex flex-col justify-center items-center">
+                <div className="flip-card-front bg-[#0891b2] shadow-xl flex flex-col justify-center items-center">
                   <FaHandshake className='text-6xl text-white '/>
                   <p className=" text-white text-center">High added Value Services</p>
                 </div>
-                <div className="flip-card-back slider-wave1 relative">
+                <div className="flip-card-back bg-[#0891b2] shadow-xl relative">
                   <a href="#" className="card-link text-white block w-full h-full">
                     <div className="absolute inset-1 flex items-center justify-center">
                       <div className="bg-white bg-opacity-0 absolute inset-0"></div>
@@ -46,11 +46,11 @@ function SpdApproch() {
           <div className="group w-full h-full perspective">
             <div className="flip-card flex items-center justify-center">
               <div className="flip-card-inner">
-                <div className="flip-card-front slider-wave2 flex flex-col justify-center items-center">
+                <div className="flip-card-front bg-[#0e7490] shadow-xl flex flex-col justify-center items-center">
                   <FaGlobe className='text-6xl text-white mb-4'/>
                   <p className=" text-white text-center">Global Approach</p>
                 </div>
-                <div className="flip-card-back slider-wave2 relative">
+                <div className="flip-card-back bg-[#0e7490] shadow-xl relative">
                   <a href="#" className="card-link text-white block w-full h-full">
                     <div className="absolute inset-1 flex items-center justify-center">
                       <div className="bg-white bg-opacity-0 absolute inset-0"></div>
@@ -72,11 +72,11 @@ function SpdApproch() {
           <div className="group w-full h-full perspective">
             <div className="flip-card flex items-center justify-center">
               <div className="flip-card-inner">
-                <div className="flip-card-front slider-wave3  flex flex-col justify-center items-center px-4">
+                <div className="flip-card-front bg-[#14b8a6] shadow-xl flex flex-col justify-center items-center px-4">
                   <MdGroups className='text-6xl text-white '/>
                   <p className=" text-white text-center lg:px-6">Human and Talents at the Heart of our Development</p>
                 </div>
-                <div className="flip-card-back slider-wave3 relative">
+                <div className="flip-card-back bg-[#14b8a6] shadow-xl relative">
                   <a href="#" className="card-link text-white block w-full h-full">
                     <div className="absolute inset-1 flex items-center justify-center">
                       <div className="bg-white bg-opacity-0 absolute inset-0"></div>
@@ -97,11 +97,11 @@ function SpdApproch() {
           <div className="group w-full h-full perspective">
             <div className="flip-card  flex items-center justify-center">
               <div className="flip-card-inner">
-              <div className="flip-card-front slider-wave4 flex flex-col justify-center items-center">
+              <div className="flip-card-front bg-[#7ae582] shadow-xl flex flex-col justify-center items-center">
                   <IoIosLeaf className='text-6xl text-white'/>
                   <p className=" text-white text-center lg:px-6">Commitment to a Virtuous Digital Transition</p>
                 </div>
-                <div className="flip-card-back slider-wave4 relative">
+                <div className="flip-card-back bg-[#7ae582] shadow-xl relative">
                   <a href="#" className="card-link text-white block w-full h-full">
                     <div className="absolute inset-1 flex items-center justify-center">
                       <div className="bg-white bg-opacity-0 absolute inset-0"></div>

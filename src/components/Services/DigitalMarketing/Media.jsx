@@ -9,12 +9,12 @@ function Media() {
 });
   return (
     <>
-    <div className='w-[90%] pl-10'>
+    <div className='w-full '>
     <section className="overflow-hidden bg-gray-100 py-8 sm:py-16" >
   <div className="p-10 text-4xl text-center tracking-tight font-bold text-primary-800" 
   data-te-animation-init
   data-te-animation-start="onScroll"
-  data-aos="fade-left">
+ >
     <h1>FACEBOOK<a className="p-2 cursor-pointer relative before:absolute  before:bg-[#1e40af] before:bottom-0 before:left-0 before:h-full before:w-full before:origin-bottom before:scale-y-[0.35] hover:before:scale-y-100 before:transition-transform before:ease-in-out before:duration-500 rounded-lg"><span class="relative">MARKETING:</span></a></h1>
   </div>
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -35,7 +35,7 @@ function Media() {
         </ul>
       </div>
       <img src="https://www.pixelstalk.net/wp-content/uploads/2016/06/Facebook-Background.jpg" 
-      data-aos="fade-left" 
+      data-aos="fade-down" 
       data-te-animation-init
      data-te-animation-start="onScroll"
       alt="Product screenshot"
@@ -50,13 +50,13 @@ function Media() {
     <div class="text-center mb-10"
     data-te-animation-init
     data-te-animation-start="onScroll"
-    data-aos="fade-right">
+    data-aos="fade-down">
          <h1 className='text-4xl font-bold'>INSTAGRAM<a className="p-2 cursor-pointer relative before:absolute  before:bg-[#ec4899] before:bottom-0 before:left-0 before:h-full before:w-full before:origin-bottom before:scale-y-[0.35] hover:before:scale-y-100 before:transition-transform before:ease-in-out before:duration-500 rounded-lg"><span class="relative">MARKETING:</span></a></h1>
   </div>
 
     <div class="flex flex-col md:flex-row">
         
-        <div class="mr-0 md:mr-8 mb-6 md:mb-0" data-aos="fade-right">
+        <div class="mr-0 md:mr-8 mb-6 md:mb-0" data-aos="fade-down">
             <img class="w-[90%] md:w-full mx-auto rounded-xl h-full md:ml-[-10%] shadow-2xl" src="https://cdndailyexcelsior.b-cdn.net/wp-content/uploads/2022/06/instagram.jpg" 
             alt="can_help_banner" />
         </div>
@@ -96,7 +96,7 @@ function Media() {
         <div className='p-10 text-4xl text-center font-bold' 
         data-te-animation-init
         data-te-animation-start="onScroll"
-        data-aos="fade-left">
+        data-aos="fade-down">
          <h1>LINKEDIN<a className="p-2 cursor-pointer relative before:absolute  before:bg-[#60a5fa] before:bottom-0 before:left-0 before:h-full before:w-full before:origin-bottom before:scale-y-[0.35] hover:before:scale-y-100 before:transition-transform before:ease-in-out before:duration-500 rounded-lg"><span class="relative">MARKETING:</span></a></h1>
   </div>
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
@@ -128,7 +128,7 @@ function Media() {
        alt="Product screenshot"
        data-te-animation-init
      data-te-animation-start="onScroll"
-       data-aos="fade-left" class="w-[48rem]  rounded-xl shadow-2xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0" width="2432" height="1442" />
+       class="w-[48rem]  rounded-xl shadow-2xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0" width="2432" height="1442" />
     </div>
   </div>
 </section>

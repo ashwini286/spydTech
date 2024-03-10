@@ -16,7 +16,7 @@ function PowerBI() {
       <div className="relative">
         <img
           src={IMG}
-          className='w-full h-[35rem] object-cover rounded-lg shadow-lg'
+          className='w-full md:h-[35rem] object-cover rounded-lg shadow-lg'
           alt="Power BI"
         />
       </div>
@@ -29,50 +29,60 @@ function PowerBI() {
         />
       </div>
 
-      <div className="max-w-screen mx-auto min-h-screen relative ">
-        <img
-          src={IMG6}
-          className="inset-0 w-full h-[65rem]   bg-cover"
-          alt="Background Image"
-        />
-        <div className="absolute inset-0 flex flex-col justify-center items-center bg-cover bg-center">
-          <h1 className='text-4xl font-bold '>See what you can do with Power BI</h1>
-          <div className='grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-5 p-5 '>
-            <ul className='space-y-5'>
-              <li><RiBarChartBoxLine className='text-6xl text-[#ea580c] bg-white' />
-                <h1 className='text-2xl'>Establish a governed source of truth</h1>
-                <p>Connect all your disparate data sources in the same environment to establish a single
-                  source of truth for all your data.</p>
-              </li>
-              <li><RiBarChartBoxLine className='text-6xl text-[#ea580c] bg-white' />
-                <h1 className='text-2xl'>Empower anyone to work with data</h1>
-                <p>Ensure everyone can explore data with an easy-to-use interface,
-                  free training resources, and an array of accessibility features.</p>
-              </li>
-            </ul>
-            <ul className='space-y-5'>
-              <li><RiBarChartBoxLine className='text-6xl text-[#ea580c] bg-white' />
-                <h1 className='text-2xl'>Unify enterprise scale and self service</h1>
-                <p>Combine enterprise-scale and self-service BI to drive insights and innovation at every level of your organization.</p>
-              </li>
-              <li><RiBarChartBoxLine className='text-6xl text-[#ea580c] bg-white' />
-                <h1 className='text-2xl'>Get started immediately</h1>
-                <p>Start quickly with an easy-to-use report-creation experience, AI-generated reports, and hundreds of report templates.</p>
-              </li>
-            </ul>
-            <ul className='space-y-5'>
-              <li><RiBarChartBoxLine className='text-6xl text-[#ea580c] bg-white' />
-                <h1 className='text-2xl'>Infuse data experiences everywhere </h1>
-                <p>Bridge the gap between insights and decisions through unmatched interoperation with the apps people use every day.</p>
-              </li>
-              <li><RiBarChartBoxLine className='text-6xl text-[#ea580c] bg-white' />
-                <h1 className='text-2xl'>Embed BI reports for your customers</h1>
-                <p>Improve usability and user engagement in your own apps by using Power BI Embedded to embed stunning reports.</p>
-              </li>
-            </ul>
-          </div>
+      <div className='relative'>
+
+<img
+    src={IMG6}
+    className="inset-0 w-full md:h-96 h-full bg-cover"
+    alt="Background Image"
+/>
+
+<div className=''>
+    <div className='text-4xl font-bold absolute'>See what you can do with Power BI</div>
+    <div className="absolute inset-0 flex md:flex-row flex-col justify-center items-center bg-cover bg-center">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1">
+            <div className='space-y-5'>
+                <div>
+                    <RiBarChartBoxLine className='text-6xl text-[#ea580c] bg-white' />
+                    <h1 className='text-2xl'>Establish a governed source of truth</h1>
+                    <p>Connect all your disparate data sources in the same environment to establish a single source of truth for all your data.</p>
+                </div>
+                <div>
+                    <RiBarChartBoxLine className='text-6xl text-[#ea580c] bg-white' />
+                    <h1 className='text-2xl'>Empower anyone to work with data</h1>
+                    <p>Ensure everyone can explore data with an easy-to-use interface, free training resources, and an array of accessibility features.</p>
+                </div>
+            </div>
+            <div className='space-y-5'>
+                <div>
+                    <RiBarChartBoxLine className='text-6xl text-[#ea580c] bg-white' />
+                    <h1 className='text-2xl'>Unify enterprise scale and self-service</h1>
+                    <p>Combine enterprise-scale and self-service BI to drive insights and innovation at every level of your organization.</p>
+                </div>
+                <div>
+                    <RiBarChartBoxLine className='text-6xl text-[#ea580c] bg-white' />
+                    <h1 className='text-2xl'>Get started immediately</h1>
+                    <p>Start quickly with an easy-to-use report-creation experience, AI-generated reports, and hundreds of report templates.</p>
+                </div>
+            </div>
+            <div className='space-y-5'>
+                <div>
+                    <RiBarChartBoxLine className='text-6xl text-[#ea580c] bg-white' />
+                    <h1 className='text-2xl'>Infuse data experiences everywhere </h1>
+                    <p>Bridge the gap between insights and decisions through unmatched interoperation with the apps people use every day.</p>
+                </div>
+                <div>
+                    <RiBarChartBoxLine className='text-6xl text-[#ea580c] bg-white' />
+                    <h1 className='text-2xl'>Embed BI reports for your customers</h1>
+                    <p>Improve usability and user engagement in your own apps by using Power BI Embedded to embed stunning reports.</p>
+                </div>
+            </div>
         </div>
-      </div>
+    </div>
+</div>
+
+</div>
+
 
       <div className='flex flex-wrap bg-black justify-center gap-6 md:gap-10 p-10'>
         <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">

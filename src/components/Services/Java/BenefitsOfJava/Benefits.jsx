@@ -28,10 +28,10 @@ const Benefits = () => {
 
         <div className='md:w-[600px] md:h-[560px] flex justify-center items-justify flex-col pl-4 pt-12' data-aos="fade-down">
           <div className='md:text-3xl md:font-extrabold text-2xl font-bold'>
-            <h1 className='text-[#656565]'>Leading Java Development Company</h1>
+            <h1 className='text-black'>Leading Java Development Company</h1>
           </div>
 
-          <div className='py-4  text-[#656565] md:leading-10'>
+          <div className='py-4  text-black md:leading-10'>
             <p>
               Java has emerged as a valuable asset for developers globally. Java, being an open-source programming language, provides pre-built code, relieving developers from the need to write everything from scratch. This eliminates the laborious process of manual coding, saving time, and facilitating swift development.
             </p>

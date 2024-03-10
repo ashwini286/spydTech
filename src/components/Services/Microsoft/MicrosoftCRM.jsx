@@ -20,12 +20,14 @@ function MicrosoftCRM() {
   return (
     <>
       <Navbarupp />
+     
+
       <div className='relative'>
         <img
-          className='w-full h-[85vh] rounded-2xl'
+          className='w-full h-[85vh] rounded-b-2xl'
           src={IMG}
         />
-         <div class="absolute inset-0 h-[85vh] bg-black bg-opacity-50 rounded-2xl"></div>
+         <div class="absolute inset-0 h-[85vh] bg-black bg-opacity-50 rounded-b-2xl"></div>
          <div className='absolute -mt-[20%] text-4xl text-white font-bold p-10' data-aos="fade-up">
           <h1>Revolutionize Customer Relationships with Microsoft Dynamics CRM by "SpY D Technology"</h1>
         <a></a>
@@ -130,10 +132,10 @@ function MicrosoftCRM() {
         </div>
 
       <div>
-        <h1 className='text-4xl lg:text-5xl text-center  text-[#656565] pt-5' data-aos="fade-up">The key benefits of CRM solutions include</h1>
+        <h1 className='text-4xl lg:text-5xl text-center  text-black pt-5' data-aos="fade-up">The key benefits of CRM solutions include</h1>
         <div className='flex flex-col lg:flex-row items-center justify-center lg:justify-start md:ml-10'>
           <img src={IMG8} className='p-5 lg:pl-0' alt="Key Benefits Image" data-aos="fade-right" />
-          <div className='ml-0 lg:ml-10 mt-2 space-y-5 lg:space-y-0  text-[#656565]' data-aos="fade-left">
+          <div className='ml-0 lg:ml-10 mt-2 space-y-5 lg:space-y-0  text-black' data-aos="fade-left">
             <div className="flex items-center">
               <span className="text-[#38bdf8] lg:text-xl mr-2">&gt;</span>
               <p className="text-sm lg:text-base">Pay-as-you-go pricing model</p>

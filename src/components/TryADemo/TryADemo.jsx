@@ -20,7 +20,7 @@ const TryADemo = () => {
             <div className='px-4 '>
             <p className='text-white lg:text-[80px] text-[45px]  font-bold tracking-tighter  leading-none text-center'>Experience a 10-minute Live Demo: <br /> <span className='text-[#0694A2]'>Accelerate Your Digital Transformation</span></p>
 <br />
-<p className='text-[#656565] text-center text-2xl'>Discover the power of our cutting-edge IT solutions in this free, on-demand demo. Explore how our innovative technologies empower businesses to streamline operations and achieve unparalleled efficiency.</p>
+<p className='text-black text-center text-2xl'>Discover the power of our cutting-edge IT solutions in this free, on-demand demo. Explore how our innovative technologies empower businesses to streamline operations and achieve unparalleled efficiency.</p>
             </div>  
            
           </div>

@@ -17,15 +17,34 @@ const Consulting = () => {
       <div>
         <Navbarupp />
       </div>
-      <div class="relative h-screen w-full rounded-2xl">
-    <img src={IMG} alt="Background Image" class="absolute inset-0 w-full h-[80vh] rounded-2xl object-cover filter blur-sm" />
-    <div class="absolute inset-0 h-[80vh] bg-black bg-opacity-50 rounded-2xl"></div>
+
+
+      <div className="h-[550px] relative">
+        <img
+          src={IMG}
+          className=" w-full object-cover h-[550px] rounded-b-2xl "
+          alt="Background 2"
+          style={{filter:"brightness(90%)"}}
+        />
+        <div class="absolute inset-0 m-auto flex flex-col items-center justify-center w-[90%] md:w-[60%]">
+          <div class="text-4xl text-white font-bold w-full text-center">
+          ERPNext Consultancy
+          </div>
+          <div class="text-xl text-white text-center my-4">
+          Building Cost-Effective Digital Business Capabilities around the ERPNext, 
+        focusing on the right balance of Digitization, Flexibility, and Process mapping.
+          </div>
+        </div>
+      </div>
+      {/* <div class="relative h-screen w-full rounded-b-2xl ">
+    <img src={IMG} alt="Background Image" class="absolute inset-0 w-full h-[80vh] rounded-b-2xl  object-cover filter blur-sm" />
+    <div class="absolute inset-0 h-[80vh] bg-black bg-opacity-50 rounded-b-2xl "></div>
     <div class="absolute inset-0  flex flex-col md:flex-row items-center justify-center ml-10">
         <h1 class="text-4xl text-white font-bold w-full p-10">ERPNext Consultancy</h1>
         <p class="text-xl text-white mt-4 -ml-10 p-10">Building Cost-Effective Digital Business Capabilities around the ERPNext, 
         focusing on the right balance of Digitization, Flexibility, and Process mapping.</p>
     </div>
-</div>
+</div> */}
 
       <UniqueTeam />
       {/* My code */}
@@ -43,7 +62,7 @@ const Consulting = () => {
 
             >
               <div className="flex flex-col-reverse">
-                <p className=' text-[#656565]'>
+                <p className=' text-black'>
                   Our Consultants gather the business information by talking to stakeholders,
                   visiting them, and analyzing the process they have been following.
                   Business Analysis is a key stage because it gives a better perspective for the improvements.
@@ -60,7 +79,7 @@ const Consulting = () => {
               icon={<BellIcon />}
             >
               <h3 className="vertical-timeline-element-title justify-end items-end font-semibold"> Define Problem</h3>
-              <p className=' text-[#656565]'>
+              <p className=' text-black'>
                 This culminates into brainstorming the conceptualized plan further to
                 enhance the features. It's time to document the entire process, formulating the
                 roadmap implementation plan.
@@ -111,7 +130,7 @@ const Consulting = () => {
               icon={<HomeIcon />}
             >
               <div className="flex flex-col-reverse">
-                <p className=' text-[#656565]'>
+                <p className=' text-black'>
                   After the approval of stakeholders, Our Consultants will prepare and submit the Implementation roadmap to stakeholders.
                 </p>
                 <h3 className="vertical-timeline-element-title justify-end items-end font-semibold">Implementation Road Map with ERPNext</h3>
@@ -126,7 +145,7 @@ const Consulting = () => {
               icon={<BellIcon />}
             >
               <h3 className="vertical-timeline-element-title justify-end items-end font-semibold">Support during implementation</h3>
-              <p className=' text-[#656565]'>
+              <p className=' text-black'>
                 Our Consultants will be there to support, help, guide, and assist stakeholders’ intake decisions during the implementation stage and also consult them if process change is required.
               </p>
             </VerticalTimelineElement>

@@ -164,7 +164,7 @@ const Slider = () => {
                 className={`image-wrapper flex justify-center items-center  ${index === visibleImageIndex ? 'visible' : 'hidden'
                   }`}
               >
-                <img src={slide.image} alt={`Image ${index + 1}`} className=' h-auto image-slide' />
+                <img src={slide.image} alt={`Image ${index + 1}`} className=' h-auto image-slide drop-shadow-xl' />
               </div>
             ))}
           </div>

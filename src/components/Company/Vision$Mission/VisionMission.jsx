@@ -48,7 +48,7 @@ const VisionMission = () => {
         <hr/>
 
 
-          <div className='flex justify-center items-center flex-col md:flex-row gap-8'>
+          <div className='flex justify-center items-center flex-col-reverse md:flex-row gap-8'>
 
             <div className='md:px-4 object-cover'>
               <img src="https://s.yimg.com/ny/api/res/1.2/9WmC5xtZ191i8yQ6o6nzAg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY5MDtoPTM5MA--/https://media.zenfs.com/en_SG/News/e27/Vision_entrepreneurs_ecosystem.png" />
