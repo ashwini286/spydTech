@@ -20,12 +20,14 @@ function MicrosoftCRM() {
   return (
     <>
       <Navbarupp />
+     
+
       <div className='relative'>
         <img
-          className='w-full h-[85vh] rounded-2xl'
+          className='w-full h-[85vh] rounded-b-2xl'
           src={IMG}
         />
-         <div class="absolute inset-0 h-[85vh] bg-black bg-opacity-50 rounded-2xl"></div>
+         <div class="absolute inset-0 h-[85vh] bg-black bg-opacity-50 rounded-b-2xl"></div>
          <div className='absolute -mt-[20%] text-4xl text-white font-bold p-10' data-aos="fade-up">
           <h1>Revolutionize Customer Relationships with Microsoft Dynamics CRM by "SpY D Technology"</h1>
         <a></a>
