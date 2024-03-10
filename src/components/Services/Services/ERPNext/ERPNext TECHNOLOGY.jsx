@@ -35,6 +35,7 @@ function ERPNext() {
           src={IMG}
           className=" w-full object-cover h-[550px] rounded-b-2xl "
           alt="Background 2"
+          style={{filter:"brightness(90%)"}}
         />
         <div class="absolute inset-0 m-auto flex flex-col items-center justify-center w-[90%] md:w-[60%]">
           <div class="text-4xl text-white font-bold w-full text-center">

@@ -10,7 +10,26 @@ function Thirdparty() {
     <>
       <Navbarupp />
     
-      <div className='md:h-[550px] rounded-b-2xl '>
+      <div className="h-[550px] relative">
+        <img
+          src={IMG}
+          className=" w-full object-cover h-[550px] rounded-b-2xl "
+          alt="Background 2"
+        />
+        <div class="absolute inset-0 m-auto flex flex-col items-center justify-center w-[90%] md:w-[60%]">
+          <div class="text-4xl text-white font-bold w-full text-center">
+          Third-Party Integrations
+          </div>
+          <div class="text-xl text-white text-center my-4">
+          Building Cost-Effective Digital Business Capabilities around the
+            ERPNext, focusing on the right balance of Digitization, Flexibility,
+            and Process mapping.
+          </div>
+        </div>
+      </div>
+
+
+      {/* <div className='md:h-[550px] rounded-b-2xl '>
         <img
           src={IMG}
           className=" w-full object-cover md:h-[490px] h-[415px] absolute rounded-b-2xl "
@@ -23,7 +42,7 @@ function Thirdparty() {
             ERPNext, focusing on the right balance of Digitization, Flexibility,
             and Process mapping.</div>
     </div>
-      </div>
+      </div> */}
 
       <UniqueTeam13 />
     <div className="flex flex-col justify-center items-center pt-4 md:px-8">
