@@ -11,8 +11,8 @@ const HowWeDevelop = () => {
     <>
       <div>
         <div className='md:text-center pt-16 pl-4' data-aos="fade-down">
-          <div className='md:text-3xl text-xl text-[#656565]'><p>How We Develop Powerful iOS Apps to Increase Your Business Performance</p></div>
-          <div className='md:px-16 py-8 text-lg text-[#656565]'><p>
+          <div className='md:text-3xl text-xl text-black'><p>How We Develop Powerful iOS Apps to Increase Your Business Performance</p></div>
+          <div className='md:px-16 py-8 text-lg text-black'><p>
             Being one of the best iOS app development companies India, we develop iPhone and iPad apps with an intention to increase your business performance. Before developing an app, we conduct thorough research on your app objective, your competitors’ apps analysis. That’s why we are called as one of the best iOS application developers in Bangalore, India..
           </p></div>
         </div>

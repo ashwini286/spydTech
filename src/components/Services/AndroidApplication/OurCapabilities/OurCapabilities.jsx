@@ -14,7 +14,7 @@ const OurCapabilities = () => {
             <div className='md:px-16 px-4 py-4 mb-16 flex justify-center items-center flex-col md:flex-row'>
                 <div>
                     <div data-aos="fade-down">
-                        <p className='text-center mt-8 md:text-4xl text-2xl text-[#656565]'> Our Capabilities</p>
+                        <p className='text-center mt-8 md:text-4xl text-2xl text-black'> Our Capabilities</p>
                     </div>
                     <div className='grid md:grid-cols-3 gap-10 pt-[25px]'>
                         <div className='flex justify-center items-center flex-col ' data-aos="fade-up">
@@ -22,8 +22,8 @@ const OurCapabilities = () => {
                                 <img src={img1} className='hover:animate-spin '/>
                             </div>
                             <div>
-                                <p className='text-center pt-[15px] text-[#656565]' >Designing Tools</p>
-                                <p className='text-center pt-[15px] text-[#656565]'>Marvel, Invision, Android Sketch Paper, PopApp, Android Patterns, Adobe Kuler</p>
+                                <p className='text-center pt-[15px] text-black' >Designing Tools</p>
+                                <p className='text-center pt-[15px] text-black'>Marvel, Invision, Android Sketch Paper, PopApp, Android Patterns, Adobe Kuler</p>
                             </div>
                         </div>
 
@@ -33,8 +33,8 @@ const OurCapabilities = () => {
                                 <img src={img2} className='hover:animate-spin '/>
                             </div>
                             <div>
-                                <p className='text-center pt-[15px] text-[#656565]'>Development Technologies</p>
-                                <p className='text-center pt-[15px] text-[#656565]'>Java, Phonegap, Ionic, React Native, Flutter, Titanium, HTML 5 </p>
+                                <p className='text-center pt-[15px] text-black'>Development Technologies</p>
+                                <p className='text-center pt-[15px] text-black'>Java, Phonegap, Ionic, React Native, Flutter, Titanium, HTML 5 </p>
                             </div>
                         </div>
 
@@ -45,8 +45,8 @@ const OurCapabilities = () => {
                                 <img src={img3} className='hover:animate-spin '/>
                             </div>
                             <div>
-                                <p className='text-center pt-[15px] text-[#656565]'>Testing Tools</p>
-                                <p className='text-center pt-[15px] text-[#656565]'>Google Android Emulator, The official Android SDK Emulator, MobiOne, eggplant</p>
+                                <p className='text-center pt-[15px] text-black'>Testing Tools</p>
+                                <p className='text-center pt-[15px] text-black'>Google Android Emulator, The official Android SDK Emulator, MobiOne, eggplant</p>
                             </div>
                         </div>
                     </div>

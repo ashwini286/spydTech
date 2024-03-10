@@ -15,9 +15,9 @@ const Php = () => {
 
     <div className=' md:w-[620px] md:h-[400px] flex justify-center items-justify flex-col md:pl-24 pl-4 '>
         <div className='md:text-3xl md:font-extrabold text-xl  font-bold'>
-            <h1 className='text-[#656565]'> PHP Development </h1>
+            <h1 className='text-black'> PHP Development </h1>
         </div>
-        <div className='py-4  text-[#656565] md:leading-8 ' >
+        <div className='py-4  text-black md:leading-8 ' >
             <p>
             PHP has emerged as a valuable asset for developers globally. PHP, being an open-source scripting language, provides pre-built code, relieving developers from the need to write everything from scratch. This eliminates the laborious process of manual coding, saving time, and facilitating swift development.
             </p>

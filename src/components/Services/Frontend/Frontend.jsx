@@ -15,12 +15,14 @@ const Frontend = () => {
 
 
       <img
-        src="https://miro.medium.com/v2/resize:fit:1200/1*w2hBLGIBMaLIVABE_BtBhg.png"
+        src="https://plopdo.com/wp-content/uploads/2021/10/Web-Development-San-Francisco-1.jpeg"
         className="w-full md:h-[550px]"
         alt="Background Image"
+        
       />
+        <div className="absolute inset-0 bg-gradient-to-t from-transparent to-black opacity-70"></div>
         <div className='flex items-center justify-center'>
-        <div className='text-center text-2xl pt-16 w-[850px] mt-8 font-bold border-b-4 border-gray-500 drop-shadow-2xl'>Crafting Seamless User Experiences: Unleashing the Power of Frontend Development</div>
+        <div className='text-center text-2xl md:pt-16 w-[850px] md:mt-8 font-bold'>Crafting Seamless User Experiences: Unleashing the Power of <br /> <span className="text-blue-600 text-4xl mx-auto border-b-2 border-cyan-800 w-1/2">  Frontend Development </span> </div>
       </div>
       <Reactjs />
       <NextJs />

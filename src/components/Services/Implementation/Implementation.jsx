@@ -46,7 +46,7 @@ const Implementation = () => {
               icon={<Bs1Circle />}
             >
               <div className="flex flex-col-reverse">
-                <p className=' text-[#656565]'>
+                <p className=' text-black'>
                   Our Implementation team starts business process mapping with ERPNext,
                   and during this stage, if required they consult involved stakeholders to reengineer
                   the process to maximize the results with the ERPNext.
@@ -63,7 +63,7 @@ const Implementation = () => {
               icon={<Bs2Circle />}
             >
               <h3 className="vertical-timeline-element-title justify-end items-end font-semibold"> Configuration of ERPNext</h3>
-              <p className=' text-[#656565]'>
+              <p className=' text-black'>
                 We configure ERPNext, Company, and basic setting as per the company and its business goals.
               </p>
             </VerticalTimelineElement>
@@ -111,7 +111,7 @@ const Implementation = () => {
               icon={<Bs5Circle />}
             >
               <div className="flex flex-col-reverse">
-                <p className=' text-[#656565]'>
+                <p className=' text-black'>
                   Once Implementation and Customization are done,
                   We start building the required reports and intuitive dashboard to allow them to make
                   business decisions data-oriented. </p>
@@ -127,7 +127,7 @@ const Implementation = () => {
               icon={<Bs6Circle />}
             >
               <h3 className="vertical-timeline-element-title justify-end items-end font-semibold">Live Setup and Data Migration</h3>
-              <p className=' text-[#656565]'>
+              <p className=' text-black'>
                 Our Consultants will be there to support, help, guide, and assist stakeholders’
                 intake decisions during the implementation stage and also consult them if process
                 change is required.  </p>
@@ -176,7 +176,7 @@ const Implementation = () => {
             </CardHeader>
             <CardBody>
               <h2 className="text-xl font-semibold mb-2">Cloud Implementation</h2>
-              <p className=" text-[#656565]">
+              <p className=" text-black">
                 Seamlessly migrate your business operations to the cloud for improved scalability, security, and accessibility.
               </p>
             </CardBody>
@@ -193,7 +193,7 @@ const Implementation = () => {
             </CardHeader>
             <CardBody>
               <h2 className="text-xl font-semibold mb-2">ERP Implementation</h2>
-              <p className=" text-[#656565]">
+              <p className=" text-black">
                 Implement state-of-the-art Enterprise Resource Planning systems tailored to your business needs for improved efficiency.
               </p>
             </CardBody>
@@ -210,7 +210,7 @@ const Implementation = () => {
             </CardHeader>
             <CardBody>
               <h2 className="text-xl font-semibold mb-2">Software Integration</h2>
-              <p className=" text-[#656565]">
+              <p className=" text-black">
                 Streamline your business processes by integrating various software solutions to work seamlessly together.
               </p>
             </CardBody>

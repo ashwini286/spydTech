@@ -4,10 +4,10 @@ const Card = () => {
   return (
     <>
       <div className='md:px-16 pl-4'>
-        <div className='text-center font-bold text-2xl pt-16 text-[#656565] underline'>
+        <div className='text-center font-bold text-2xl pt-16 text-black underline'>
           About Us
         </div>
-        <div className='text-lg text-[#656565]'>
+        <div className='text-lg text-black'>
           <p className='pt-4'>In the ever-evolving landscape of technology,  <span></span>SPY D TECHNOLOGY  stands as India's premier full-scale software and information technology company, spearheading innovation and delivering cutting-edge solutions in emerging technologies. With a comprehensive range of services spanning Web Technologies, Mobility Applications, Web & Mobile Products, End-to-End Digital Transformation, Augmented & Virtual Reality, Artificial and Machine Learning, and Design Thinking Innovation, alongside Digital Marketing Services,  <span></span>SPY D TECHNOLOGY  is at the forefront of shaping the future of digital experiences.</p>
           <p className='pt-4'>Our commitment to excellence is evident in the diverse portfolio of services we offer. Web Technologies form the backbone of our expertise, with our seasoned technology team excelling in ideating, designing, and deploying web applications that cater to the unique needs of our clients. From dynamic websites to complex web portals, we ensure that our solutions are not only visually appealing but also functionally robust, providing seamless user experiences.</p>
           <p className='pt-4'>In the realm of Mobility Applications,  <span></span>SPY D TECHNOLOGY  is a trailblazer, developing innovative and user-friendly mobile applications that cater to diverse industries. Our mobile solutions are designed to enhance accessibility, streamline processes, and provide a competitive advantage to our clients in the dynamic mobile landscape.</p>

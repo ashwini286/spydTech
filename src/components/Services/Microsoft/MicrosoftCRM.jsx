@@ -130,10 +130,10 @@ function MicrosoftCRM() {
         </div>
 
       <div>
-        <h1 className='text-4xl lg:text-5xl text-center  text-[#656565] pt-5' data-aos="fade-up">The key benefits of CRM solutions include</h1>
+        <h1 className='text-4xl lg:text-5xl text-center  text-black pt-5' data-aos="fade-up">The key benefits of CRM solutions include</h1>
         <div className='flex flex-col lg:flex-row items-center justify-center lg:justify-start md:ml-10'>
           <img src={IMG8} className='p-5 lg:pl-0' alt="Key Benefits Image" data-aos="fade-right" />
-          <div className='ml-0 lg:ml-10 mt-2 space-y-5 lg:space-y-0  text-[#656565]' data-aos="fade-left">
+          <div className='ml-0 lg:ml-10 mt-2 space-y-5 lg:space-y-0  text-black' data-aos="fade-left">
             <div className="flex items-center">
               <span className="text-[#38bdf8] lg:text-xl mr-2">&gt;</span>
               <p className="text-sm lg:text-base">Pay-as-you-go pricing model</p>

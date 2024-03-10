@@ -43,7 +43,7 @@ const Consulting = () => {
 
             >
               <div className="flex flex-col-reverse">
-                <p className=' text-[#656565]'>
+                <p className=' text-black'>
                   Our Consultants gather the business information by talking to stakeholders,
                   visiting them, and analyzing the process they have been following.
                   Business Analysis is a key stage because it gives a better perspective for the improvements.
@@ -60,7 +60,7 @@ const Consulting = () => {
               icon={<BellIcon />}
             >
               <h3 className="vertical-timeline-element-title justify-end items-end font-semibold"> Define Problem</h3>
-              <p className=' text-[#656565]'>
+              <p className=' text-black'>
                 This culminates into brainstorming the conceptualized plan further to
                 enhance the features. It's time to document the entire process, formulating the
                 roadmap implementation plan.
@@ -111,7 +111,7 @@ const Consulting = () => {
               icon={<HomeIcon />}
             >
               <div className="flex flex-col-reverse">
-                <p className=' text-[#656565]'>
+                <p className=' text-black'>
                   After the approval of stakeholders, Our Consultants will prepare and submit the Implementation roadmap to stakeholders.
                 </p>
                 <h3 className="vertical-timeline-element-title justify-end items-end font-semibold">Implementation Road Map with ERPNext</h3>
@@ -126,7 +126,7 @@ const Consulting = () => {
               icon={<BellIcon />}
             >
               <h3 className="vertical-timeline-element-title justify-end items-end font-semibold">Support during implementation</h3>
-              <p className=' text-[#656565]'>
+              <p className=' text-black'>
                 Our Consultants will be there to support, help, guide, and assist stakeholders’ intake decisions during the implementation stage and also consult them if process change is required.
               </p>
             </VerticalTimelineElement>

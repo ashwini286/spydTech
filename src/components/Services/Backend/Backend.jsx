@@ -19,7 +19,7 @@ const Backend = () => {
         alt="Background Image"
       />
         <div className='flex items-center justify-center '>
-        <div className='text-center text-2xl pt-16 w-[850px]  font-bold '>Crafting Seamless User Experiences: Unleashing the Power of Backend Development</div>
+        <div className='text-center text-2xl md:pt-16 w-[850px]  font-bold '>Crafting Seamless User Experiences: Unleashing the Power of  <br /> <span className="className='text-blue-600 text-4xl mx-auto border-b-2 border-cyan-800 w-1/2">  Backend Development </span></div>
       </div>
       <Java />
       <Php />

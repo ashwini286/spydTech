@@ -21,7 +21,7 @@ function ECommerce() {
           alt="Background Image"
         />
       </div>
-      <div className="grid sm:grid-flow-row md:grid-flow-row lg:grid-cols-2 p-4 ml-0  text-[#656565]">
+      <div className="grid sm:grid-flow-row md:grid-flow-row lg:grid-cols-2 p-4 ml-0  text-black">
         <div className="">
           <img
             src={IMG2}

@@ -7,11 +7,11 @@ const OurCapabilities = () => {
             <div className='md:px-16 px-4 py-4 mb-16'>
            
                 <div className='pb-16'>
-                    <p className='text-[#656565] text-center md:text-2xl font-bold'>Salesforce Cloud</p> <br />
-                    <p className='text-[#656565]  '>Salesforce stands as a globally acclaimed premier Customer Relationship Platform (CRM) available on the cloud, offering robust features to seamlessly integrate all customer relations activities and provide comprehensive solutions.</p>
-                    <p className='text-[#656565] pt-4'>Salesforce adeptly combines sales, marketing, and customer support in an integrated manner, providing a unified platform to gain a clear picture of the entire history of potential leads and customers. This empowers organizations to track and make informed decisions efficiently.</p>
-                    <p className='text-[#656565] pt-4'>Salesforce extends its services securely on the cloud, including commerce, analytics, IoT, App, health, and financial solutions, significantly reducing costs and enhancing productivity to manifold levels.</p>
-                    <p className='text-[#656565] pt-4'>Aspirant Soft Solutions possesses profound expertise in deploying Salesforce technology capabilities, enabling our clients to scale up operations and maintain a competitive edge in the market.</p>
+                    <p className='text-black text-center md:text-2xl font-bold'>Salesforce Cloud</p> <br />
+                    <p className='text-black  '>Salesforce stands as a globally acclaimed premier Customer Relationship Platform (CRM) available on the cloud, offering robust features to seamlessly integrate all customer relations activities and provide comprehensive solutions.</p>
+                    <p className='text-black pt-4'>Salesforce adeptly combines sales, marketing, and customer support in an integrated manner, providing a unified platform to gain a clear picture of the entire history of potential leads and customers. This empowers organizations to track and make informed decisions efficiently.</p>
+                    <p className='text-black pt-4'>Salesforce extends its services securely on the cloud, including commerce, analytics, IoT, App, health, and financial solutions, significantly reducing costs and enhancing productivity to manifold levels.</p>
+                    <p className='text-black pt-4'>Aspirant Soft Solutions possesses profound expertise in deploying Salesforce technology capabilities, enabling our clients to scale up operations and maintain a competitive edge in the market.</p>
                 </div>
                 <div className='bg-[#4293FF] py-2'>
                     <div className='pb-4'>

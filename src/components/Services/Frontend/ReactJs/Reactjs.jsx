@@ -14,7 +14,7 @@ const Reactjs = () => {
                     <div className='md:text-3xl md:font-extrabold text-xl mt-10 font-bold'>
                         <h1 className='text-black'> Reactjs Development </h1>
                     </div>
-                    <div className='py-4  text-[#656565] md:leading-8'>
+                    <div className='py-4  text-black md:leading-8'>
                         <p>
                             ReactJS is a powerful JavaScript library developed by Facebook for building user interfaces with a focus on creating reusable and modular components. Launched in 2013, React has gained widespread adoption in the web development community due to its efficiency and declarative approach. One of its key features is the Virtual DOM, a lightweight in-memory representation of the actual DOM, which enables React to efficiently update only the necessary parts of a page when the data changes, resulting in improved performance.
                         </p>

@@ -6,10 +6,10 @@ const HowWeDevelop = () => {
     <>
       <div>
         <div className=' mt-10 md:px-8 mb-10'>
-          <div className='p-4 pl-16 md:text-4xl  text-[#656565] md:mb-8'>
+          <div className='p-4 pl-16 md:text-4xl  text-black md:mb-8'>
             How SPY D Privite Limited helps its clients
           </div>
-          <div className='grid grid-cols-1 md:grid-cols-2 md:px-8  text-[#656565]'>
+          <div className='grid grid-cols-1 md:grid-cols-2 md:px-8  text-black'>
             <div className='flex items-center  w-[89%] gap-4 pb-8 pl-6'>
               <p><TaskAltIcon color="primary" sx={{ fontSize: 40 }} /></p>
               <p>The ultimate aim and goal of the businesses is to make sure the intended and targeted audience download the apps, use it for their benefit.</p>
@@ -28,7 +28,7 @@ const HowWeDevelop = () => {
             </div>
 
           </div>
-          <div className='flex items-center w-[89%] gap-4 pl-6 md:px-14 text-[#656565]' >
+          <div className='flex items-center w-[89%] gap-4 pl-6 md:px-14 text-black' >
             <p><TaskAltIcon color="primary" sx={{ fontSize: 40 }} /></p>
             <p>Our development technologists exploit the internal programming systems to create far reaching synchronized layers to make the hybrid apps compatible across all operating systems.</p>
           </div>

@@ -46,7 +46,7 @@ function SeoServices() {
         <div class="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-sky-300 dark:to-indigo-600"></div>
     </div>
       <h1 className='text-center p-5 text-2xl tracking-wider'>Digital Marketing and SEO Services</h1>
-      <div className='pl-10 tracking-wider pb-10 space-y-5  text-[#656565]'>
+      <div className='pl-10 tracking-wider pb-10 space-y-5  text-black'>
         <p>Our build road map implementation and strategies to offer SEO, SEM, Social Media, Content,
           Affiliate, Viral, Video and Influencer Marketing services to drive traffic, leading to conversions.</p>
         <p>Over the years we hired, trained, nurtured and build a dedicated team of

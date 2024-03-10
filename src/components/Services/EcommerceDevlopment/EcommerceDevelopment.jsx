@@ -20,12 +20,12 @@ function EcommerceDevelopment() {
                  alt="Background Image"
                />
             </div>
-            <div className='p-10 text-1xl w-[95%] text-center tracking-widest  text-[#656565]'>
+            <div className='p-10 text-1xl w-[95%] text-center tracking-widest  text-black'>
                <h1>Magento is the most popular open source E-Commerce CMS based platform that offers a wide ranging features enabling companies build robust,
                   end-to-end E-Commerce website. SpyD Technology PVT LTD Magento experts leverages the amazing features, tools and plugins to help our clients cost effective E-Commerce Solutions</h1>
             </div>
          </div>
-         <div className=' text-[#656565]'>
+         <div className=' text-black'>
 
          <div className='grid sm:grid-flow-row md:grid-flow-row lg:grid-flow-col w-[100%] h-[100%] bg-[white] pl-4  ' >
                <div className=''>
@@ -72,7 +72,7 @@ function EcommerceDevelopment() {
 
             </div>
          </div>
-         <h1 className='text-3xl pb-4 pl-4 text-bold  text-[#656565]'>The value we add to our clients:</h1>
+         <h1 className='text-3xl pb-4 pl-4 text-bold  text-black'>The value we add to our clients:</h1>
          <div className='flex pl-4 pb-10'>
             <BsCheck2Square className='text-4xl' /> <p className='pl-4 mt-2 tracking-widest w-full'>Over the
                years SpyD Technology has built exceptional resources Magento capabilities</p>
@@ -96,7 +96,7 @@ function EcommerceDevelopment() {
          </div>
 
          <div className='mb-8'>
-            <h1 className='text-center  text-[#656565] text-2xl tracking-wider pb-5'>Our Magento eCommerce Development Expertise</h1>
+            <h1 className='text-center  text-black text-2xl tracking-wider pb-5'>Our Magento eCommerce Development Expertise</h1>
             <div className=' grid md:grid md:grid-cols-3 md:px-4'>
                <div className='flex  justify-center items-center '>
                   <div className='py-8 mt-8 h-[70%] w-[80%] text-white border-4 border-white bg-[#0284c7] shadow-2xl hover:scale-105 transition-all duration-500'>

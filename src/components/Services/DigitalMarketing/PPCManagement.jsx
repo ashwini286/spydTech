@@ -32,7 +32,7 @@ function PPCManagement() {
         <h1 className="text-4xl text-center">
           Digital Marketing and PPC Services and Management Strategy
         </h1>
-        <p className=" tracking-wider  text-[#656565]">
+        <p className=" tracking-wider  text-black">
           <a className="text-2xl text-[#d97706] font-bold">
             Pay per Click (PPC)
           </a>{" "}

@@ -6,9 +6,9 @@ const Java = () => {
     <div className='flex flex-col md:flex-row  items-center justify-center  w-full '>
     <div className='md:w-[620px] md:h-[560px] flex justify-center items-justify flex-col md:pl-24 pl-4 '>
         <div className='md:text-3xl md:font-extrabold text-xl mt-10 font-bold'>
-            <h1 className='text-[#656565]'> Java Development </h1>
+            <h1 className='text-black'> Java Development </h1>
         </div>
-        <div className='py-4  text-[#656565] md:leading-8 ' >
+        <div className='py-4  text-black md:leading-8 ' >
             <p>
             Java has emerged as a valuable asset for developers globally. Java, being an open-source programming language, provides pre-built code, relieving developers from the need to write everything from scratch. This eliminates the laborious process of manual coding, saving time, and facilitating swift development.    
             </p>
