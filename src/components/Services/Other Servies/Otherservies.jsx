@@ -4,6 +4,7 @@ import Approch from '../../Home/APProchUs/Approch'
 import { SiOpenai } from "react-icons/si";
 import { CiCloudOn } from "react-icons/ci";
 import { IoSettingsOutline } from "react-icons/io5";
+import { CiLock } from "react-icons/ci";
 
 function Otherservies() {
   return (
@@ -41,7 +42,7 @@ function Otherservies() {
             <div class="mt-12 sm:mt-16 lg:mt-0">
                 <div class="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
                     <img loading="lazy" width="647" height="486"
-                        class="w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                        class="w-2/4 rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-2/4"
                         style={{ color: 'transparent' }}src="https://incubator.ucf.edu/wp-content/uploads/2023/07/artificial-intelligence-new-technology-science-futuristic-abstract-human-brain-ai-technology-cpu-central-processor-unit-chipset-big-data-machine-learning-cyber-mind-domination-generative-ai-scaled-1.jpg" />
                 </div>
             </div>
@@ -78,9 +79,9 @@ function Otherservies() {
                 </div>
             </div>
             <div class="mt-12 sm:mt-16 lg:mt-0">
-                <div class="-ml-48 pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0">
+                <div class="ml-5 pr-6 md:ml-12 lg:relative lg:m-0 lg:h-full lg:px-0">
                     <img alt="Inbox user interface" loading="lazy" width="647" height="486"
-                        class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
+                        class="w-2/1 rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-2/1"
                         style={{ color: 'transparent' }} src="https://assets.entrepreneur.com/content/3x2/2000/1704829170-ENT-The2024AWSCertifiedCloudPractitionerArchitectCertificationBundle.png" />
                 </div>
             </div>
@@ -120,7 +121,7 @@ function Otherservies() {
             <div class="mt-12 sm:mt-16 lg:mt-0">
                 <div class="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0 p-0">
                     <img loading="lazy" width="646" height="485"
-                        class="w-full  rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                        class="w-1/2  rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-3/2"
                         style={{ color: 'transparent' }}
                         src="https://bilimgenc.tubitak.gov.tr/sites/default/files/inline-images/Laptop_notebook.jpg" />
                 </div>
@@ -134,21 +135,20 @@ function Otherservies() {
                 <div>
                     <div>
                         <span class="flex h-12 w-12 items-center justify-center rounded-xl bg-pink-500 text-white">
-                        <CiCloudOn className='text-4xl'/>
+                        <CiLock className='text-4xl'/>
                         </span>
                     </div>
                     <div class="mt-6">
                         <h2 class="text-3xl font-bold tracking-tight text-white">
-                           What is Cloud Technologies:
+                           What is Cyber Security:
                         </h2>
                         <p class="mt-4 text-lg text-gray-300">
-                        Cloud computing is the on-demand availability of computer system resources, 
-                        especially data storage and computing power, without direct active management by the user. 
-                        Large clouds often have functions distributed over multiple locations, each of which is a data center.
+                        Cyber security is the practice of defending computers, servers, mobile devices, electronic systems, networks, and data from malicious attacks. It's also known as information technology security or electronic information security.
+                         The term applies in a variety of contexts, from business to mobile computing.
                         </p>
                         <div class="mt-6">
                             <a class="inline-flex rounded-lg bg-pink-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700"
-                                href="/Machine">
+                                href="/Cyber">
                                 Learn More
                             </a>
                         </div>
@@ -156,10 +156,10 @@ function Otherservies() {
                 </div>
             </div>
             <div class="mt-12 sm:mt-16 lg:mt-0">
-                <div class="-ml-48 pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0">
+                <div class="ml-5 pr-6 md:ml-12 lg:relative lg:m-0 lg:h-full lg:px-0">
                     <img alt="Inbox user interface" loading="lazy" width="647" height="486"
-                        class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
-                        style={{ color: 'transparent' }} src="https://assets.entrepreneur.com/content/3x2/2000/1704829170-ENT-The2024AWSCertifiedCloudPractitionerArchitectCertificationBundle.png" />
+                        class="w-3/4 rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-3/4"
+                        style={{ color: 'transparent' }} src="https://wallpapers.com/images/hd/cyber-security-background-meuqfzxcg4gdd26s.jpg" />
                 </div>
             </div>
         </div>

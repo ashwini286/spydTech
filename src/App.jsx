@@ -49,6 +49,7 @@ import Ai from "./components/Services/Other Servies/Cloud Technologies/Ai and ML
 import Machine from "./components/Services/Other Servies/Cloud Technologies/Ai and ML/Machine";
 import Otherservies from "./components/Services/Other Servies/Otherservies";
 import Form from './components/careers/form/Form2'
+import Cyber from "./components/Services/Other Servies/Cyber Security/Cyber";
 
 const App = () => {
   return (
@@ -112,7 +113,10 @@ const App = () => {
           <Route path="/Azure" element={<Azure />} />
           <Route path="/Google" element={<Google />} />
 
+          <Route path="/Cyber" element={<Cyber />} />
+
           <Route path="/Software Testing" element={<Testing />} />
+
 
           <Route path="/Advanced Technologies" element={<AIandML />} />
           <Route path="/Ai" element={<Ai />} />
