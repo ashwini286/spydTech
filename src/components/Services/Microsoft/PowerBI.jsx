@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect  } from 'react'
 import Navbarupp from '../../Home/Navbar/Navbarupp';
 import Approch from '../../Home/APProchUs/Approch';
 import { RiBarChartBoxLine } from "react-icons/ri";
@@ -8,8 +8,14 @@ import IMG3 from "../../assets/PowerBi/powerbi2.png";
 import IMG4 from "../../assets/PowerBi/powerbi3.png";
 import IMG5 from "../../assets/PowerBi/Power BI Architecture.png";
 import IMG6 from "../../assets/PowerBi/Powerbi bg.avif";
+import PowerBIcontent from './PowerBIcontent';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function PowerBI() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
       <Navbarupp />
@@ -19,73 +25,24 @@ function PowerBI() {
           className='w-full md:h-[35rem] object-cover rounded-lg shadow-lg'
           alt="Power BI"
         />
+        <div className="absolute inset-0 h-[80vh] w-full lg:w-full lg:max-w-none sm:w-full bg-[#b91c1c] bg-opacity-30 rounded-lg"></div>
+       
       </div>
-      <h1 className='text-4xl pt-10 font-bold text-center'>PowerBI Architecture</h1>
-      <div className='max-w-screen-xl mx-auto'>
-        <img
-          src={IMG5}
-          className='w-full mt-8 rounded-lg shadow-lg p-10'
-          alt="Power BI Architecture"
-        />
-      </div>
+      
 
-      <div className='relative'>
-
-<img
-    src={IMG6}
-    className="inset-0 w-full md:h-96 h-full bg-cover"
-    alt="Background Image"
-/>
-
-<div className=''>
-    <div className='text-4xl font-bold absolute'>See what you can do with Power BI</div>
-    <div className="absolute inset-0 flex md:flex-row flex-col justify-center items-center bg-cover bg-center">
-        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1">
-            <div className='space-y-5'>
-                <div>
-                    <RiBarChartBoxLine className='text-6xl text-[#ea580c] bg-white' />
-                    <h1 className='text-2xl'>Establish a governed source of truth</h1>
-                    <p>Connect all your disparate data sources in the same environment to establish a single source of truth for all your data.</p>
-                </div>
-                <div>
-                    <RiBarChartBoxLine className='text-6xl text-[#ea580c] bg-white' />
-                    <h1 className='text-2xl'>Empower anyone to work with data</h1>
-                    <p>Ensure everyone can explore data with an easy-to-use interface, free training resources, and an array of accessibility features.</p>
-                </div>
-            </div>
-            <div className='space-y-5'>
-                <div>
-                    <RiBarChartBoxLine className='text-6xl text-[#ea580c] bg-white' />
-                    <h1 className='text-2xl'>Unify enterprise scale and self-service</h1>
-                    <p>Combine enterprise-scale and self-service BI to drive insights and innovation at every level of your organization.</p>
-                </div>
-                <div>
-                    <RiBarChartBoxLine className='text-6xl text-[#ea580c] bg-white' />
-                    <h1 className='text-2xl'>Get started immediately</h1>
-                    <p>Start quickly with an easy-to-use report-creation experience, AI-generated reports, and hundreds of report templates.</p>
-                </div>
-            </div>
-            <div className='space-y-5'>
-                <div>
-                    <RiBarChartBoxLine className='text-6xl text-[#ea580c] bg-white' />
-                    <h1 className='text-2xl'>Infuse data experiences everywhere </h1>
-                    <p>Bridge the gap between insights and decisions through unmatched interoperation with the apps people use every day.</p>
-                </div>
-                <div>
-                    <RiBarChartBoxLine className='text-6xl text-[#ea580c] bg-white' />
-                    <h1 className='text-2xl'>Embed BI reports for your customers</h1>
-                    <p>Improve usability and user engagement in your own apps by using Power BI Embedded to embed stunning reports.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-</div>
+      
 
 
-      <div className='flex flex-wrap bg-black justify-center gap-6 md:gap-10 p-10'>
-        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+
+<PowerBIcontent />
+
+
+
+
+
+
+      <div className='relative flex flex-wrap bg-black justify-center gap-6 md:gap-10 p-10' >
+        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700" data-aos="fade-up-left">
           <a href="#">
             <img class="rounded-t-lg h-64 w-full object-cover" src={IMG2} alt="Power BI Image 2" />
           </a>
@@ -102,10 +59,10 @@ function PowerBI() {
             </a>
           </div>
         </div>
-
-        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
+        
+        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700" data-aos="fade-up-left">
           <a href="#">
-            <img class="rounded-t-lg h-64 w-full object-cover" src={IMG3} alt="Power BI Image 3" />
+            <img class="rounded-t-lg h-64 w-full object-cover" src={IMG3} alt="Power BI Image 2" />
           </a>
           <div class="p-5">
             <a href="#">
@@ -120,8 +77,9 @@ function PowerBI() {
             </a>
           </div>
         </div>
+       
 
-        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700" data-aos="fade-up-left">
           <a href="#">
             <img class="rounded-t-lg h-64 w-full object-cover" src={IMG4} alt="Power BI Image 4" />
           </a>

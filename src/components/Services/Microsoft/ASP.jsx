@@ -37,52 +37,47 @@ function ASP() {
   <div className="absolute inset-0 h-[50vh]  md:h-[550px] bg-black bg-opacity-50 rounded-lg"></div>
   <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 md:left-[35%] md:w-[50%] lg:w-[50%] text-center text-white font-bold p-10">
     <h1 className="text-2xl md:text-4xl lg:text-4xl">
-      Unleash Innovation with "SpY D Technology’s, .NET Development Solutions
+      Unleash Innovation with <a className='text-transparent bg-clip-text bg-gradient-to-r from-[#b91c1c] via-blue-800 to-[#701a75]'>"SpY D Technology’s,</a> .NET Development Solutions
     </h1>
     <a></a>
   </div>
 </div>
 
       
-      <div class="body bg-blue-500">
-  <div class="relative">
-    <div class="circle small bg-white shadow-md animate-ripple"></div>
-    <div class="circle medium bg-white shadow-md animate-ripple"></div>
-    <div class="circle large bg-white shadow-md animate-ripple"></div>
-    <div class="circle xlarge bg-white shadow-md animate-ripple"></div>
-    <div class="circle xxlarge bg-white shadow-md animate-ripple"></div>
- 
+      <div class="body hi">
+  
 
 
      
       <div className=''>
            
-      <h1 className='text-2xl font-semibold text-center p-10'>Welcome to Spyd Technology, where we leverage the power of .NET to drive digital transformation and innovation for businesses worldwide. Our .NET development solutions are designed to help you build scalable, secure, and high-performance applications that meet your unique needs and propel your organization forward.
+      <h1 className='text-2xl font-semibold text-center p-10'>Welcome to 
+      <a className='text-transparent bg-clip-text bg-gradient-to-r from-[#b91c1c] via-blue-800 to-[#7c2d12]'>"Spyd Technology,,</a> where we leverage the power of .NET to drive digital transformation and innovation for businesses worldwide. Our .NET development solutions are designed to help you build scalable, secure, and high-performance applications that meet your unique needs and propel your organization forward.
        Explore how Spyd can unleash the full potential of .NET for your business:</h1>
       
-       <div class="flex flex-wrap justify-center mt-10">
+       <div class="flex flex-wrap justify-center mt-10 gap-5">
 
 
-<div class="p-4 max-w-sm">
-    <div class="flex rounded-lg h-full dark:bg-gray-800 bg-[#4e54c8] p-8 flex-col border-2 border-white">
-        <div class="flex items-center mb-3">
+<div class="p-4 max-w-sm card">
+    <div class="flex rounded-lg h-full  p-8 flex-col border-2 border-white  ">
+        <div class="flex items-center mb-3 ">
             <div
-                class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full dark:bg-indigo-500 bg-indigo-500 text-white flex-shrink-0">
+                class="front-content w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full dark:bg-indigo-500 bg-indigo-500 text-white flex-shrink-0">
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                     stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
                     <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
                 </svg>
             </div>
-            <h2 class="text-white dark:text-white text-lg font-medium">Custom .NET Application Development:</h2>
+            <h2 class="text-white dark:text-white text-lg font-medium c-text ">Custom .NET Application Development:</h2>
         </div>
         <div class="flex flex-col justify-between flex-grow">
-            <p class="leading-relaxed text-base text-white dark:text-gray-300">
+            <p class="leading-relaxed text-base text-white dark:text-gray-300 small-desc">
             Transform your ideas into reality with Spyd's custom .NET application development services. 
             Our experienced team of .NET developers specializes in building bespoke solutions tailored to your specific requirements, whether you need a web application, desktop software, or mobile app.
             </p>
-            <a href="#" class="mt-3 text-black dark:text-white hover:text-blue-600 inline-flex items-center">Learn More
+            <a href="#" class="mt-3 text-black dark:text-white hover:text-blue-600 inline-flex items-center go-corner">Learn More
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                    stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                    stroke-width="2" class="w-4 h-4 ml-2 go-arrow" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
             </a>
@@ -91,8 +86,8 @@ function ASP() {
 </div>
 
 
-<div class="p-4 max-w-sm">
-    <div class="flex rounded-lg h-full dark:bg-gray-800 bg-[#4e54c8] p-8 flex-col border-2 border-white">
+<div class="p-4 max-w-sm card">
+    <div class="flex rounded-lg h-full p-8 flex-col border-2 border-white">
         <div class="flex items-center mb-3">
             <div
                 class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full dark:bg-indigo-500 bg-indigo-500 text-white flex-shrink-0">
@@ -101,7 +96,7 @@ function ASP() {
                     <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
                 </svg>
             </div>
-            <h2 class="text-white dark:text-white text-lg font-medium">Enterprise .NET Integration:</h2>
+            <h2 class="text-white dark:text-white text-lg font-medium c-text">Enterprise .NET Integration:</h2>
         </div>
         <div class="flex flex-col justify-between flex-grow">
             <p class="leading-relaxed text-base text-white dark:text-gray-300">
@@ -118,8 +113,8 @@ function ASP() {
 </div>
 
 
-<div class="p-4 max-w-sm">
-    <div class="flex rounded-lg h-full dark:bg-gray-800 bg-[#4e54c8] p-8 flex-col border-2 border-white">
+<div class="p-4 max-w-sm card">
+    <div class="flex rounded-lg h-full  p-8 flex-col border-2 border-white">
         <div class="flex items-center mb-3">
             <div
                 class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full dark:bg-indigo-500 bg-indigo-500 text-white flex-shrink-0">
@@ -128,7 +123,7 @@ function ASP() {
                     <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
                 </svg>
             </div>
-            <h2 class="text-white dark:text-white text-lg font-medium">ASP.NET Web Development:</h2>
+            <h2 class="text-white dark:text-white text-lg font-medium c-text">ASP.NET Web Development:</h2>
         </div>
         <div class="flex flex-col justify-between flex-grow">
             <p class="leading-relaxed text-base text-white dark:text-gray-300">
@@ -145,8 +140,8 @@ function ASP() {
 </div>
 
 
-<div class="p-4 max-w-sm">
-    <div class="flex rounded-lg h-full dark:bg-gray-800 bg-[#4e54c8] p-8 flex-col border-2 border-white">
+<div class="p-4 max-w-sm card">
+    <div class="flex rounded-lg h-full  p-8 flex-col border-2 border-white">
         <div class="flex items-center mb-3">
             <div
                 class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full dark:bg-indigo-500 bg-indigo-500 text-white flex-shrink-0">
@@ -155,7 +150,7 @@ function ASP() {
                     <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
                 </svg>
             </div>
-            <h2 class="text-white dark:text-white text-lg font-medium">.NET Core Migration and Modernization:</h2>
+            <h2 class="text-white dark:text-white text-lg font-medium c-text">.NET Core Migration and Modernization:</h2>
         </div>
         <div class="flex flex-col justify-between flex-grow">
             <p class="leading-relaxed text-base text-white dark:text-gray-300">
@@ -172,8 +167,8 @@ function ASP() {
 </div>
 
 
-<div class="p-4 max-w-sm">
-    <div class="flex rounded-lg h-full dark:bg-gray-800 bg-[#4e54c8] p-8 flex-col border-2 border-white">
+<div class="p-4 max-w-sm card">
+    <div class="flex rounded-lg h-full  p-8 flex-col border-2 border-white">
         <div class="flex items-center mb-3">
             <div
                 class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full dark:bg-indigo-500 bg-indigo-500 text-white flex-shrink-0">
@@ -182,7 +177,7 @@ function ASP() {
                     <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
                 </svg>
             </div>
-            <h2 class="text-white dark:text-white text-lg font-medium">.NET Consulting and Architecture Design:</h2>
+            <h2 class="text-white dark:text-white text-lg font-medium c-text">.NET Consulting and Architecture Design:</h2>
         </div>
         <div class="flex flex-col justify-between flex-grow">
             <p class="leading-relaxed text-base text-white dark:text-gray-300">
@@ -198,8 +193,8 @@ function ASP() {
     </div>
 </div>
 
-<div class="p-4 max-w-sm">
-    <div class="flex rounded-lg h-full dark:bg-gray-800 bg-[#4e54c8] p-8 flex-col border-2 border-white">
+<div class="p-4 max-w-sm card">
+    <div class="flex rounded-lg h-full  p-8 flex-col border-2 border-white">
         <div class="flex items-center mb-3">
             <div
                 class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full dark:bg-indigo-500 bg-indigo-500 text-white flex-shrink-0">
@@ -208,7 +203,7 @@ function ASP() {
                     <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
                 </svg>
             </div>
-            <h2 class="text-white dark:text-white text-lg font-medium">.NET Support and Maintenance:</h2>
+            <h2 class="text-white dark:text-white text-lg font-medium c-text">.NET Support and Maintenance:</h2>
         </div>
         <div class="flex flex-col justify-between flex-grow">
             <p class="leading-relaxed text-base text-white dark:text-gray-300">
@@ -224,8 +219,8 @@ function ASP() {
     </div>
 </div>
 
-<div class="p-4 max-w-sm">
-    <div class="flex rounded-lg h-full dark:bg-gray-800 bg-[#4e54c8] p-8 flex-col border-2 border-white">
+<div class="p-4 max-w-sm card">
+    <div class="flex rounded-lg h-full  p-8 flex-col border-2 border-white">
         <div class="flex items-center mb-3">
             <div
                 class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full dark:bg-indigo-500 bg-indigo-500 text-white flex-shrink-0">
@@ -234,7 +229,7 @@ function ASP() {
                     <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
                 </svg>
             </div>
-            <h2 class="text-white dark:text-white text-lg font-medium">Agile Development Methodology:</h2>
+            <h2 class="text-white dark:text-white text-lg font-medium c-text">Agile Development Methodology:</h2>
         </div>
         <div class="flex flex-col justify-between flex-grow">
             <p class="leading-relaxed text-base text-white dark:text-gray-300">
@@ -253,7 +248,7 @@ function ASP() {
 </div>
 </div>
 
-<div className='container mx-auto p-10'>
+<div className='container mx-auto p-10 '>
     <h1 class="font-bold text-4xl text-green-900">Our SpY D Technology’s Expertise @ ASP.NET</h1>
     <ul class="mt-3 flex flex-col space-y-2">
         <li class="flex"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -280,7 +275,7 @@ function ASP() {
                     d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z">
                 </path>
             </svg>
-            <p class="text-base text-slate-700 sm:text-lg mt-5">Our ASP.NET technical expertise goes beyond building applications. We offer end-to-end ASP.NET services such as design, development, testing and maintenance of large websites, web portals to enterprise level web applications.</p>
+            <p class="text-base text-slate-700 sm:text-lg mt-5">Our SpY D technical expertise goes beyond building applications. We offer end-to-end ASP.NET services such as design, development, testing and maintenance of large websites, web portals to enterprise level web applications.</p>
         </li>
         <li class="flex"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                 stroke="currentColor" aria-hidden="true" class="mr-2 h-auto w-6 text-green-600 sm:w-12">
@@ -293,8 +288,8 @@ function ASP() {
     </ul>
 </div>
 
-</div>
-</div>
+
+
 <style>
   {`
   @keyframes ripple {
@@ -310,12 +305,56 @@ function ASP() {
     transform: scale(0.8);
   }
 }
+.hi{
+  background-image: radial-gradient(circle at top center, rgb(230, 217, 186),rgb(12, 92, 185));
+}
+
+.card {
+ 
+ 
+ 
+  color: #333;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius: 30px;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.7s ease-in-out;
+  overflow: hidden;
+  
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  height: 40%;
+  width: 100%;
+  background-color: #088080;
+  bottom: 0;
+  right: 0;
+  transform: translatey(70px);
+  border-radius: 100%;
+  transition: all 0.7s ease-in-out;
+}
+
+.c-txt {
+  z-index: 2;
+}
+
+.card:hover::before {
+  transform: scale(7) translate(-20px);
+}
+
+.card:hover {
+  box-shadow: 1px -8px 50px 50px #9fe4e44a;
+  color: #f3f3f3;
+}
+
 
   `}
 </style>
 
 
-      <div className='container mx-auto p-10 border-4 rounded-xl border-[#0ea5e9]'>
+      <div className='container mx-auto p-10 border-4 rounded-xl border-[#0ea5e9] '>
        
         <div className='grid grid-cols-1 md:grid-cols-3 gap-4 pt-10'>
           <div className='space-y-5 '>
@@ -345,8 +384,8 @@ function ASP() {
         </div>
       </div>
    
-      <div className='  p-5  '>
-        <h1 className=' text-3xl '>Reasons to choose ASP.Net Developers from Aspirant team</h1>
+      <div className='  p-10 ml-10 '>
+        <h1 className=' text-3xl '>Reasons to choose ASP.Net Developers from SpY D team</h1>
         <p className='p-0 mt-4'>Our ASP.NET programmers have expertise in ASP.NET Programming & website development.
           We provide 100% accurate solutions to any level of customized Web Application services as well as
           maintenance work in .NET. Our professional team has worked with XML, SQL Server, .NET Win Forms, web services.
@@ -354,8 +393,8 @@ function ASP() {
           SpY D Technology has a remarkable portfolio of experience in the domain.</p>
       </div>
 
-      <div className='flex flex-col  md:flex-row pl-0 space-y-5 md:space-y-0 md:space-x-5 ml-4 pb-5 lg:ml-28'>
-        <ul className="max-w-md space-y-1 text-gray-500 list-inside dark:text-gray-400 sm:w-3/4 md:w-1/4">
+      <div className='flex flex-col  md:flex-row pl-0 space-y-5 md:space-y-0 md:space-x-5 ml-6 pb-5 lg:ml-40'>
+        <ul className="max-w-md space-y-1  list-inside dark:text-gray-400 sm:w-3/4 md:w-1/4">
           <li className="flex items-center">
             <svg className="w-10 h-3.6 me-2 text-green-500 dark:text-green-400 flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
               <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
@@ -369,7 +408,7 @@ function ASP() {
             <span>Cost-effective ASP.NET solutions</span>
           </li>
         </ul>
-        <ul className="max-w-md space-y-1 text-gray-500 list-inside dark:text-gray-400 md:w-1/4">
+        <ul className="max-w-md space-y-1  list-inside dark:text-gray-400 md:w-1/4">
           <li className="flex items-center">
             <svg className="w-10 h-3.6 me-2 text-green-500 dark:text-green-400 flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
               <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
@@ -383,7 +422,7 @@ function ASP() {
             <span>100% transparency throughout project development and deployment</span>
           </li>
         </ul>
-        <ul className="max-w-md space-y-1 text-gray-500 list-inside dark:text-gray-400 md:w-1/4">
+        <ul className="max-w-md space-y-1  list-inside dark:text-gray-400 md:w-1/4">
           <li className="flex items-center">
             <svg className="w-10 h-3.6 me-2 text-green-500 dark:text-green-400 flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
               <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
@@ -405,7 +444,7 @@ function ASP() {
 <div className='container mx-auto p-4'>
         <h1 className='text-3xl pl-3 pb-5'>Some of the Microsoft Technologies capabilities are</h1>
         <div className='grid grid-cols-1 md:grid-cols-2  gap-4 '>
-          <ul className='list-inside dark:text-gray-400 md:ml-2  space-y-5 lg:ml-16'>
+          <ul className='list-inside  md:ml-2  space-y-5 lg:ml-16'>
             <li class="flex items-center">
               <svg class="w-10 h-3.6 me-2 text-green-500 dark:text-green-400 flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                 <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
@@ -421,7 +460,7 @@ function ASP() {
                 <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
               </svg>Other Technologies: Silver Light, WPF, SharePoint Development, MVC3 / MVC4 Development, ASP.NET migration</li>
           </ul>
-          <ul className='max-w-md space-y-5 text-gray-500 list-inside dark:text-gray-400'>
+          <ul className='max-w-md space-y-5  list-inside dark:text-gray-400'>
             <li class="flex items-center">
               <svg class="w-10 h-3.6 me-2 text-green-500 dark:text-green-400 flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                 <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
@@ -442,6 +481,7 @@ function ASP() {
           className='w-full object-cover pt-5 pb-5'
           alt="Development Process"
         />
+      </div>
       </div>
       <Approch />
 

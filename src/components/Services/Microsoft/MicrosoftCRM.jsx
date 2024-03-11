@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
 import IMG from "../../assets/Microsoft/CRM1.png"
 import Navbarupp from '../../Home/Navbar/Navbarupp'
 import Approch from '../../Home/APProchUs/Approch'
-import IMG1 from "../../assets/Microsoft/CRM (21).jpg"
+
 import IMG2 from "../../assets/Microsoft/CMR sevices1.png"
 import IMG3 from "../../assets/Microsoft/CMR sevices2.png"
 import IMG4 from "../../assets/Microsoft/CMR sevices3.png"
@@ -12,6 +12,7 @@ import IMG5 from "../../assets/Microsoft/CMR sevices4.png"
 import IMG6 from "../../assets/Microsoft/CMR sevices5.png"
 import IMG7 from "../../assets/Microsoft/CMR sevices6.png"
 import IMG8 from "../../assets/Microsoft/dynamic-crm.png"
+import Crm from './Crm';
 
 function MicrosoftCRM() {
   useEffect(() => {
@@ -19,13 +20,13 @@ function MicrosoftCRM() {
 });
   return (
     <>
-      <Navbarupp />
-     
+    
+  <Navbarupp />
 
-      <div className='relative'>
+  <div className='relative'>
         <img
           className='w-full h-[85vh] rounded-b-2xl'
-          src={IMG}
+          src="https://cdn1.interfaz.io/wp-content/uploads/2023/03/Microsoft_Dynamics365_blog-1170x617.jpg"
         />
          <div class="absolute inset-0 h-[85vh] bg-black bg-opacity-50 rounded-b-2xl"></div>
          <div className='absolute -mt-[20%] text-4xl text-white font-bold p-10' data-aos="fade-up">
@@ -35,30 +36,17 @@ function MicrosoftCRM() {
 
       </div>
 
-      <h1 className='text-2xl font-semibold text-center p-10' data-aos="fade-down">Welcome to the future of customer relationship management with Microsoft Dynamics CRM, powered by "SpY D Technology".
-         Our innovative solutions are designed to empower businesses of all sizes to build stronger customer connections, streamline processes, and drive growth. Explore how Microsoft Dynamics CRM can transform your business:</h1>
-      <div className='flex flex-wrap'>
-        <img src={IMG1} className='w-full sm:w-1/4 md:w-1/4 lg:w-1/4 xl:w-1/3 md:ml-10'
-        data-aos="fade-right"
-        alt="Microsoft CRM Image 1" />
-        <div className='ml-4 sm:ml-36 mt-6 w-full sm:w-1/4 md:w-2/4 lg:w-2/4 xl:w-2/4   bg-[#7b87f1] p-10' data-aos="fade-left">
-          <p className='pb-5'>Creating, Engaging, Building, Nurturing Customer Relations is at the heart of any business.
-            We take care of the entire gamut of building robust,
-            scalable CRM platforms to help our customers attract, engage, build and retain customers.</p>
-          <p className='pb-5'>Our team of high powered technologists possess deep expertise in multiple state of the art technologies such as Salesforce,
-            Microsoft Technologies to build and deploy CRM platforms that offers a plethora of service
-            such as sales, marketing, customer service, social engagement, and analytics.</p>
-          <p className='pb-5'>Our services in CRM is not just confined to building and deployment but we also provide training,
-            manual documentation and maintenance services.</p>
-          <p className='pb-5'>The best part of Aspirant Soft Solutions is that we go beyond building and deploying Customer
-            Relationship Management applications. We excel in business integration services and integrate
-            the new CRM applications with the existing applications seamlessly for smooth operations.</p>
-          <p className='pb-5'>We use, implement and leverage state of the art technologies that are in consonance
-            with the existing technologies to ensure the integration process is smooth for efficient operations.</p>
-        </div>
-      </div>
-      <div className='p-10'></div>
-      <div className='bg-[#7b87f1] '>
+
+     
+
+     
+
+     <Crm />
+
+
+
+      
+     <div className='bg-[#7b87f1] '>
       <h1 className='text-4xl text-center pt-10 ' data-aos="fade-up">Our CRM Services include</h1>
       <div className='' data-aos="fade-left">
         <div className='flex flex-wrap p-10 '>
@@ -105,8 +93,10 @@ function MicrosoftCRM() {
       </div>
 
 
-      <div className=' p-10 text-center '>
-      <div class="w-full max-w-2xl my-4 mx-auto p-2">
+
+
+      
+<div class="w-full max-w-2xl my-4 mx-auto">
 
 <div class="border-2 border-indigo-500 p-4 md:p-6 rounded-lg text-center">
     <h2 class="text-2xl md:text-3xl font-bold mb-4" data-aos="fade-up">Microsoft CRM</h2>
@@ -129,9 +119,10 @@ function MicrosoftCRM() {
 </div>
 
 </div>
-        </div>
 
-      <div>
+       
+
+      
         <h1 className='text-4xl lg:text-5xl text-center  text-black pt-5' data-aos="fade-up">The key benefits of CRM solutions include</h1>
         <div className='flex flex-col lg:flex-row items-center justify-center lg:justify-start md:ml-10'>
           <img src={IMG8} className='p-5 lg:pl-0' alt="Key Benefits Image" data-aos="fade-right" />
@@ -190,10 +181,10 @@ function MicrosoftCRM() {
   </div>
 </div>
 
-        </div>
+        
 
 
-      <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
+      <div class="mx-auto max-w-6xl sm:px-6 lg:px-5">
   <div class="relative isolate overflow-hidden bg-blue-800 px-6 py-24 shadow-2xl sm:rounded-3xl sm:px-24 xl:py-32" data-aos="fade-up">
     <h2 class="mx-auto max-w-2xl text-center text-3xl font-bold tracking-tight text-white sm:text-4xl">Unlock the full potential of your customer relationships with Microsoft Dynamics CRM by Spyd Technology. 
     Get Started Today!</h2>
@@ -217,6 +208,7 @@ function MicrosoftCRM() {
 </div>
 
       <Approch />
+      
     </>
   )
 }
