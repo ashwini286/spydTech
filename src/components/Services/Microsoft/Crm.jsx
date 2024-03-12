@@ -4,7 +4,7 @@ import IMG1 from "../../assets/Microsoft/CRM (21).jpg";
 function Crm() {
   return (
     <>
-      <div className="container max-w-sm p-6 mx-auto space-y-6 md:max-w-2xl lg:px-8 lg:max-w-7xl overflow-hidden">
+      <div className="container w-full  p-6 mx-auto space-y-6 md:max-w-2xl lg:px-8 lg:max-w-7xl overflow-hidden">
         <div>
          
           <p className="max-w-5xl mx-auto mt-4 text-2xl text-center">Welcome to the future of customer relationship management with Microsoft Dynamics CRM, powered by "SpY D Technology".

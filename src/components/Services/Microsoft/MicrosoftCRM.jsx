@@ -23,33 +23,27 @@ function MicrosoftCRM() {
     
   <Navbarupp />
 
-  <div className='relative'>
+  <div className="relative">
         <img
-          className='w-full h-[85vh] rounded-b-2xl'
-          src="https://cdn1.interfaz.io/wp-content/uploads/2023/03/Microsoft_Dynamics365_blog-1170x617.jpg"
+          className="w-full object-cover md:h-[490px] h-[415px] w-[415px"
+          src="https://www.smartdatacollective.com/wp-content/uploads/2017/08/Dynamics-365.png"
+          alt="Microsoft Dynamics 365"
         />
-         <div class="absolute inset-0 h-[85vh] bg-black bg-opacity-50 rounded-b-2xl"></div>
-         <div className='absolute -mt-[20%] text-4xl text-white font-bold p-10' data-aos="fade-up">
-          <h1>Revolutionize Customer Relationships with Microsoft Dynamics CRM by "SpY D Technology"</h1>
-        <a></a>
+        <div className="absolute inset-0 md:h-[490px] h-[415px] bg-black bg-opacity-50 rounded-b-2xl"></div>
+        <div className="absolute top-1/2 left-[10%] transform -translate-x-1/2 -translate-y-1/2 md:left-[10%] md:w-[50%] lg:w-[50%] text-start text-white font-bold px-5" data-aos="fade-up">
+          <h1 className="text-2xl md:text-4xl lg:text-4xl">Revolutionize Customer Relationships with Microsoft Dynamics CRM by "SpY D Technology"</h1>
         </div>
-
       </div>
 
-
-     
-
-     
-
-     <Crm />
+      <Crm />
 
 
 
       
-     <div className='bg-[#7b87f1] '>
+     <div className='bg-[#7b87f1] w-full md:max-w-full'>
       <h1 className='text-4xl text-center pt-10 ' data-aos="fade-up">Our CRM Services include</h1>
       <div className='' data-aos="fade-left">
-        <div className='flex flex-wrap p-10 '>
+        <div className='flex flex-col md:flex-row p-10 '>
           <div className='w-full md:w-1/3 lg:w-1/3 xl:w-1/3'>
             <div className="flex flex-col items-center">
               <img src={IMG2} className='mx-auto w-48 md:ml-20 p-4' alt="Image 2" />
@@ -96,7 +90,7 @@ function MicrosoftCRM() {
 
 
       
-<div class="w-full max-w-2xl my-4 mx-auto">
+<div class="w-full max-w-2xl md:max-w-full my-4 mx-center">
 
 <div class="border-2 border-indigo-500 p-4 md:p-6 rounded-lg text-center">
     <h2 class="text-2xl md:text-3xl font-bold mb-4" data-aos="fade-up">Microsoft CRM</h2>

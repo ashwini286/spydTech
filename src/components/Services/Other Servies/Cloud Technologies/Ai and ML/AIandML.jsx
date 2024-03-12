@@ -33,7 +33,7 @@ function AIandML() {
         <p className='text-xl'>Artificial intelligence is the intelligence of machines or software, as opposed to the intelligence of other living beings,
              primarily of humans. It is a field of study in computer science that develops and studies intelligent machines.
               Such machines may be called AIs.</p>
-              <Link to="/AI">
+              <Link to="/Ai2">
        <button className='bg-blue-500 rounded-md p-3 hover:bg-blue-800 hover:text-white mt-2'>Read More</button>
        </Link>
     </div>
@@ -42,7 +42,7 @@ function AIandML() {
    <div className='p-10 space-x-5 animate-pulse flex flex-col md:flex-row'>
     
     <div data-aos="fade-right">
-        <h1 className='text-4xl'>About AI...?</h1>
+        <h1 className='text-4xl'>About ML...?</h1>
         <p className='text-xl'>Artificial intelligence is the intelligence of machines or software, as opposed to the intelligence of other living beings,
              primarily of humans. It is a field of study in computer science that develops and studies intelligent machines.
               Such machines may be called AIs.</p>

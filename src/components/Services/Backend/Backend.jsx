@@ -15,7 +15,7 @@ const Backend = () => {
       </div>
       <img
         src={Backend1}
-        className=" w-full"
+        className=" w-full "
         alt="Background Image"
       />
         <div className='flex items-center justify-center '>
