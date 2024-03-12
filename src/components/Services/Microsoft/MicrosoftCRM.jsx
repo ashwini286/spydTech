@@ -22,57 +22,37 @@ function MicrosoftCRM() {
     <>
       <Navbarupp />
 
-      {/* <div className="relative">
+  <div className='relative'>
         <img
-          className="w-full h-[85vh] rounded-b-2xl"
+          className='w-full h-[85vh] rounded-b-2xl'
           src="https://cdn1.interfaz.io/wp-content/uploads/2023/03/Microsoft_Dynamics365_blog-1170x617.jpg"
         />
-        <div class="absolute inset-0 h-[85vh] bg-black bg-opacity-50 rounded-b-2xl"></div>
-        <div
-          className="absolute -mt-[20%] text-4xl text-white font-bold p-10 text-center w-[90%] flex justify-center items-center"
-          data-aos="fade-up"
-        >
-          <div>
-            Revolutionize Customer Relationships with Microsoft Dynamics CRM by
-            "SpY D Technology"
-          </div>
-          <a></a>
+         <div class="absolute inset-0 h-[85vh] bg-black bg-opacity-50 rounded-b-2xl"></div>
+         <div className='absolute -mt-[20%] text-4xl text-white font-bold p-10' data-aos="fade-up">
+          <h1>Revolutionize Customer Relationships with Microsoft Dynamics CRM by "SpY D Technology"</h1>
+        <a></a>
         </div>
-      </div> */}
 
-      <div className="relative w-full">
-        <img
-          src="https://r7k4b4h6.rocketcdn.me/wp-content/uploads/2022/12/Solutions-To-Your-Microsoft-Dynamics-Implementation-Challenges.png"
-          className=" w-full object-cover md:h-[490px]  "
-          alt="Background 1"
-          style={{ filter: "brightness(60%)" }}
-        />
       </div>
 
-    
-      <div className='flex items-center justify-center py-4'>
-        <div className='text-center md:text-2xl text-xl md:pt-16 w-[850px] md:mt-8 font-bold'>   Revolutionize Customer Relationships with Microsoft Dynamics CRM by<br /> <span className="text-blue-600 md:text-4xl text-2xl mx-auto border-b-2 border-cyan-800 w-1/2">  "SpY D Technology" </span> </div>
-      </div>
 
-      <Crm />
+     
 
-      <div className="bg-[#7b87f1] ">
-        <h1 className="text-4xl text-center pt-10 " data-aos="fade-up">
-          Our CRM Services include
-        </h1>
-        <div className="" data-aos="fade-down">
-          <div className="flex flex-wrap p-10 ">
-            <div className="w-full md:w-1/3 lg:w-1/3 xl:w-1/3">
-              <div className="flex flex-col items-center">
-                <img
-                  src={IMG2}
-                  className="mx-auto w-48 md:ml-20 p-4"
-                  alt="Image 2"
-                />
-                <p className="text-center">
-                  Enhancing the existing functionality
-                </p>
-              </div>
+     
+
+     <Crm />
+
+
+
+      
+     <div className='bg-[#7b87f1] '>
+      <h1 className='text-4xl text-center pt-10 ' data-aos="fade-up">Our CRM Services include</h1>
+      <div className='' data-aos="fade-left">
+        <div className='flex flex-wrap p-10 '>
+          <div className='w-full md:w-1/3 lg:w-1/3 xl:w-1/3'>
+            <div className="flex flex-col items-center">
+              <img src={IMG2} className='mx-auto w-48 md:ml-20 p-4' alt="Image 2" />
+              <p className='text-center'>Enhancing the existing functionality</p>
             </div>
             <div className="w-full md:w-1/3 lg:w-1/3 xl:w-1/3">
               <div className="flex flex-col items-center">
@@ -142,12 +122,16 @@ function MicrosoftCRM() {
           </div>
         </div>
       </div>
+      </div>
 
-      <div class="w-full max-w-2xl my-4 mx-auto">
-        <div class="border-2 border-indigo-500 p-4 md:p-6 rounded-lg text-center">
-          <h2 class="text-2xl md:text-3xl font-bold mb-4" data-aos="fade-up">
-            Microsoft CRM
-          </h2>
+
+
+
+      
+<div class="w-full max-w-2xl my-4 mx-auto">
+
+<div class="border-2 border-indigo-500 p-4 md:p-6 rounded-lg text-center">
+    <h2 class="text-2xl md:text-3xl font-bold mb-4" data-aos="fade-up">Microsoft CRM</h2>
 
           <p class="text-lg mb-4 text-gray-700" data-aos="fade-down">
             <strong>SpY D Technology</strong>.

@@ -51,6 +51,7 @@ import Machine from "./components/Services/Other Servies/Cloud Technologies/Ai a
 import Otherservies from "./components/Services/Other Servies/Otherservies";
 import Form from './components/careers/form/Form2'
 import Cyber from "./components/Services/Other Servies/Cyber Security/Cyber";
+import Ai2 from "./components/Services/Other Servies/Cloud Technologies/Ai and ML/Ai2";
 
 const App = () => {
   return (
@@ -122,6 +123,7 @@ const App = () => {
 
           <Route path="/Advanced Technologies" element={<AIandML />} />
           <Route path="/Ai" element={<Ai />} />
+          <Route path="/Ai2" element={<Ai2 />} />
           <Route path="/machine" element={<Machine />} />
           
 
