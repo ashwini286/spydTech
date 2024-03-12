@@ -15,15 +15,15 @@ function Testing() {
         <img 
         // src={IMG1}
         src='https://t4.ftcdn.net/jpg/04/34/57/55/360_F_434575550_74otSnOFJu9b4ScoHlksthWB3jbeRwUO.jpg'
-        className='h-[40rem] w-[100rem]'
+        className='md:h-[40rem] w-[100rem]'
         />
     </div>
-    <div className='p-10 flex flex-col md:flex-row mt-5'>
+    <div className='p-10 flex flex-col md:flex-row md:mt-5  gap-8' >
         <img 
         src={IMG2}
         className='shadow-xl  rounded-2xl'
         />
-        <div className='p-10'>
+        <div className='md:p-10'>
         <h1 className='text-4xl'>ETL Testing  </h1>
         <p>ETL in testing means an extract, transform and load process that reads data from multiple source systems,
              transports it to a data transformation layer for further processing which includes cleaning, 
@@ -31,8 +31,8 @@ function Testing() {
              </div>
 
     </div>
-             <div className='p-10 flex flex-col md:flex-row mt-5'>
-                <div className='p-5'>
+             <div className='p-10 flex flex-col-reverse md:flex-row md:mt-5  gap-8'>
+                <div className='md:p-5'>
                     <h1 className='text-4xl'>Selenium Testing</h1>
                     <p>Selenium is a free (open-source) automated testing framework used to validate web applications across different browsers and platforms.
                          You can use multiple programming languages like Java, C#, Python, etc to create Selenium Test Scripts.
@@ -44,12 +44,12 @@ function Testing() {
                 />
              </div>
 
-             <div className='p-10 flex flex-col md:flex-row mt-5'>
+             <div className='p-10 flex flex-col md:flex-row md:mt-5  gap-8'>
         <img 
         src={IMG4}
         className='shadow-xl  rounded-2xl items-center'
         />
-        <div className='p-10'>
+        <div className='md:p-10'>
         <h1 className='text-4xl'>QA Testing  </h1>
         <p>Quality assurance testing, or QA testing, 
             is a vital step in the software development cycle. 
@@ -60,8 +60,8 @@ function Testing() {
     </div>
     
 
-    <div className='p-10 flex flex-col md:flex-row mt-5'>
-                <div className='p-5'>
+    <div className='p-10 flex flex-col-reverse md:flex-row md:mt-5 gap-8'>
+                <div className='md:p-5'>
                     <h1 className='text-4xl'>Manual Testing</h1>
                     <p>Manual testing is the process of manually testing software for defects. 
                         It requires a tester to play the role of an end user where by they use most of 

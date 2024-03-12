@@ -31,12 +31,12 @@ function ASP() {
       <div className="relative ">
   <img
     src={IMG}
-    className="h-[50vh] w-full md:h-[550px] rounded-lg shadow-md"
+    className="h-[50vh] w-full md:h-[550px] rounded-b-lg shadow-md"
     alt="ASP.NET Development"
   />
-  <div className="absolute inset-0 h-[50vh]  md:h-[550px] bg-black bg-opacity-50 rounded-lg"></div>
-  <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 md:left-[35%] md:w-[50%] lg:w-[50%] text-center text-white font-bold p-10">
-    <h1 className="text-2xl md:text-4xl lg:text-4xl">
+  <div className="absolute inset-0 h-[50vh]  md:h-[550px] bg-black bg-opacity-50 rounded-b-lg"></div>
+  <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 md:left-[35%] md:w-[50%] lg:w-[50%] text-center text-white font-bold md:p-10">
+    <h1 className="text-lg md:text-4xl">
       Unleash Innovation with <a className='text-transparent bg-clip-text bg-gradient-to-r from-[#b91c1c] via-blue-800 to-[#701a75]'>"SpY D Technology’s,</a> .NET Development Solutions
     </h1>
     <a></a>
@@ -51,7 +51,7 @@ function ASP() {
      
       <div className=''>
            
-      <h1 className='text-2xl font-semibold text-center p-10'>Welcome to 
+      <h1 className='text-lg md:text-2xl font-semibold text-center p-10'>Welcome to 
       <a className='text-transparent bg-clip-text bg-gradient-to-r from-[#b91c1c] via-blue-800 to-[#7c2d12]'>"Spyd Technology,,</a> where we leverage the power of .NET to drive digital transformation and innovation for businesses worldwide. Our .NET development solutions are designed to help you build scalable, secure, and high-performance applications that meet your unique needs and propel your organization forward.
        Explore how Spyd can unleash the full potential of .NET for your business:</h1>
       
@@ -68,7 +68,7 @@ function ASP() {
                     <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
                 </svg>
             </div>
-            <h2 class="text-white dark:text-white text-lg font-medium c-text ">Custom .NET Application Development:</h2>
+            <h2 class="text-white dark:text-white text-lg font-medium c-text  ">Custom .NET Application Development:</h2>
         </div>
         <div class="flex flex-col justify-between flex-grow">
             <p class="leading-relaxed text-base text-white dark:text-gray-300 small-desc">

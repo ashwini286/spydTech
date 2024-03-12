@@ -12,7 +12,7 @@ function AIandML() {
     <Navbarupp />
     <div class="min-h-screen bg-gray-900 flex flex-col items-center justify-center">
     <h1 class="text-5xl font-bold mb-8 animate-pulse  bg-gradient-to-r from-pink-600 via-purple-500 to-indigo-400 inline-block text-transparent bg-clip-text">
-        AI and Machine Learning
+        AI and Machine Learning 
     </h1>
     <p class="text-white text-lg mb-8">
         We're working hard to bring you something amazing. Stay tuned!
@@ -28,7 +28,7 @@ function AIandML() {
     src={IMG2}
     className='shadow-2xl'
     />
-    <div data-aos="fade-left">
+    <div data-aos="fade-down">
         <h1 className='text-4xl'>About AI...?</h1>
         <p className='text-xl'>Artificial intelligence is the intelligence of machines or software, as opposed to the intelligence of other living beings,
              primarily of humans. It is a field of study in computer science that develops and studies intelligent machines.
@@ -42,7 +42,7 @@ function AIandML() {
    <div className='p-10 space-x-5 animate-pulse flex flex-col md:flex-row'>
     
     <div data-aos="fade-right">
-        <h1 className='text-4xl'>About ML...?</h1>
+        <h1 className='text-4xl'>About AI...?</h1>
         <p className='text-xl'>Artificial intelligence is the intelligence of machines or software, as opposed to the intelligence of other living beings,
              primarily of humans. It is a field of study in computer science that develops and studies intelligent machines.
               Such machines may be called AIs.</p>

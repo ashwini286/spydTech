@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbarupp from '../Home/Navbar/Navbarupp';
-import Card from './card/Card';
+import Card from './CarrerCard/Card';
 import JobPost from './JobPost/JobPost';
 import { Link } from 'react-router-dom';
 import Approch from '../Home/APProchUs/Approch';

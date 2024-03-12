@@ -23,11 +23,11 @@ function Digitalmarketing() {
         <img
           src='https://www.simplilearn.com/ice9/free_resources_article_thumb/What_is_digital_marketing.jpg'
           data-aos="fade-in"
-          className="inset-0 h-[60vh] w-full lg:w-full xl:w-full sm:w-full "
+          className="inset-0 md:h-[580px] w-full lg:w-full xl:w-full sm:w-full "
           alt="Background 1"
-          style={{ filter: "brightness(100%)" }}
+          style={{ filter: "brightness(80%)" }}
         />
-        <div className="absolute inset-0 h-[60vh] w-full lg:w-full lg:max-w-none sm:w-full bg-black bg-opacity-50 rounded-lg"></div>
+        <div className="absolute inset-0 md:h-[580px] w-full lg:w-full lg:max-w-none sm:w-full bg-black bg-opacity-50 rounded-lg"></div>
         <div className='absolute top-1/2 left-[35%] transform -translate-x-1/2 -translate-y-1/2 md:left-[35%] md:w-[50%] lg:w-[50%] text-start text-white font-bold px-5'>
           <h1 className='text-2xl md:text-4xl lg:text-4xl'>Welcome to the Future of Surveillance with "Spy D Technology"</h1>
           <p className='text-xl'>"Introducing SpyD, the cutting-edge solution revolutionizing surveillance in the digital age. </p>
@@ -183,7 +183,7 @@ function Digitalmarketing() {
             <a href="" class="border border-white-700 dark:border-gray-900 rounded-lg py-2 px-4 text-white-400 dark:text-gray-900 text-sm mb-5 md:mb-10 transition duration-300 ease-in-out hover:text-gray-500 dark:hover:text-gray-900">
               Get Started Today
             </a>
-            <h1 class="mx-auto max-w-4xl font-display text-3xl md:text-5xl font-bold tracking-normal text-white-300 dark:text-gray-300 sm:text-5xl md:text-7xl">
+            <h1 class="mx-auto max-w-4xl font-display text-3xl md:text-5xl font-bold tracking-normal text-white-300 dark:text-gray-300 sm:text-5xl">
               "Spy D Technology" Leads the Way
               <span class="relative whitespace-nowrap text-white-600 dark:text-gray-300"></span>
               <span class="relative whitespace-nowrap text-orange-500 dark:text-orange-300">

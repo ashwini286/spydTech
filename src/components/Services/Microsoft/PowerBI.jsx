@@ -22,10 +22,10 @@ function PowerBI() {
       <div className="relative">
         <img
           src={IMG}
-          className='w-full md:h-[35rem] object-cover rounded-lg shadow-lg'
+          className='w-full md:h-[35rem] object-cover rounded-b-lg shadow-lg'
           alt="Power BI"
         />
-        <div className="absolute inset-0 h-[80vh] w-full lg:w-full lg:max-w-none sm:w-full bg-[#b91c1c] bg-opacity-30 rounded-lg"></div>
+        <div className="absolute inset-0 h-[80vh] w-full lg:w-full lg:max-w-none sm:w-full bg-[#b91c1c] bg-opacity-30 rounded-b-lg"></div>
        
       </div>
       
@@ -42,7 +42,7 @@ function PowerBI() {
 
 
       <div className='relative flex flex-wrap bg-black justify-center gap-6 md:gap-10 p-10' >
-        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700" data-aos="fade-up-left">
+        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700" data-aos="fade-up-down">
           <a href="#">
             <img class="rounded-t-lg h-64 w-full object-cover" src={IMG2} alt="Power BI Image 2" />
           </a>
@@ -60,7 +60,7 @@ function PowerBI() {
           </div>
         </div>
         
-        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700" data-aos="fade-up-left">
+        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700" data-aos="fade-up-down">
           <a href="#">
             <img class="rounded-t-lg h-64 w-full object-cover" src={IMG3} alt="Power BI Image 2" />
           </a>
@@ -79,7 +79,7 @@ function PowerBI() {
         </div>
        
 
-        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700" data-aos="fade-up-left">
+        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700" data-aos="fade-up-down">
           <a href="#">
             <img class="rounded-t-lg h-64 w-full object-cover" src={IMG4} alt="Power BI Image 4" />
           </a>

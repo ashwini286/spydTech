@@ -20,7 +20,6 @@ function Microsoft() {
         <img
           src="https://4kwallpapers.com/images/wallpapers/windows-logo-m1-chip-black-background-gradient-windows-10-5k-3440x1440-5918.jpg"
           className=" w-full object-cover md:h-[490px] h-[415px] "
-          // className="inset-0 h-[50vh] w-full md:h-[550px] md:w-full bg-blue-gray-100"
           alt="Background 1"
           style={{ filter: "brightness(100%)" }}
         />
@@ -62,6 +61,7 @@ function Microsoft() {
         thrive in today's digital landscape. Explore how Spyd can transform your
         business with Microsoft technology:
       </h1> */}
+      
 
       <div class="max-w-screen-xl mx-auto p-16">
         <div class="sm:grid lg:grid-cols-3 sm:grid-cols-2 gap-10">
