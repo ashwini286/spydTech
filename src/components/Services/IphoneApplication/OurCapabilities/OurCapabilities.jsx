@@ -11,10 +11,10 @@ const OurCapabilities = () => {
       });
     return (
         <>
-            <div className='md:px-16 px-4 py-4 mb-16'>
+            <div className='md:px-16 px-4 py-4 md:mb-16'>
 
                 <div data-aos="fade-up">
-                    <p className='text-black text-center md:text-2xl font-bold'>We use the following technologies to build IOS based mobile</p> <br />
+                    <p className='text-black text-center text-2xl font-bold'>We use the following technologies to build IOS based mobile</p> <br />
                     <p className='text-black text-center'>Objective-C, C, Swift, Invision, Balsamiq, Mocks, XC Test, OCmock, KIF, Xcode, Apple IDE (Integrated Development Environment for Mac & IOS apps)</p>
                 </div>
                 <div>
