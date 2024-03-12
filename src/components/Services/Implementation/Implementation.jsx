@@ -250,9 +250,9 @@ const Implementation = () => {
           <Card>
             <CardHeader color="blue" contentPosition="top">
               <img
-                src="https://placekitten.com/400/200"
+                src="https://veritis.com/wp-content/uploads/2020/11/portfolio-of-cloud-implementation-services-1.jpg"
                 alt="Card Image"
-                className="w-full h-32 object-cover"
+                className="w-full h-52 object-cover"
               />
             </CardHeader>
             <CardBody>
@@ -270,9 +270,9 @@ const Implementation = () => {
           <Card>
             <CardHeader color="green" contentPosition="top">
               <img
-                src="https://placekitten.com/401/200"
+                src="https://www.acumatica.com/media/2022/11/erp_implementaion_process_v1.webp"
                 alt="Card Image"
-                className="w-full h-32 object-cover"
+                className="w-full h-52 object-cover"
               />
             </CardHeader>
             <CardBody>
@@ -288,9 +288,9 @@ const Implementation = () => {
           <Card>
             <CardHeader color="red" contentPosition="top">
               <img
-                src="https://placekitten.com/402/200"
+                src="https://www.intellectsoft.net/blog/wp-content/uploads/Enterprise-System-Integration-min.jpg"
                 alt="Card Image"
-                className="w-full h-32 object-cover"
+                className="w-full h-52 object-cover"
               />
             </CardHeader>
             <CardBody>

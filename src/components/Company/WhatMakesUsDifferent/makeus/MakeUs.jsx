@@ -77,7 +77,7 @@ const MakeUs = () => {
         </div>
     <div className="md:w-[620px] md:h-[560px] flex justify-center items-justify flex-col md:pl-24 pl-4 ">
           <div className="md:text-3xl md:font-extrabold text-xl mt-10 font-bold">
-            <h1 className="text-black pl-8"> Reliability </h1>
+            <h1 className="text-black"> Reliability </h1>
           </div>
           <div className="py-4  text-black md:leading-8 ">
             <li>
