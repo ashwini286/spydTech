@@ -1,40 +1,41 @@
-import React from 'react'
-import Navbarupp from '../Home/Navbar/Navbarupp'
-import ReadyToTest from './ReadyToTestDrive/ReadyToTest'
-import PowerfulFeatures from './PowerfulFeatures/PowerfulFeatures';
+import React from "react";
+import Navbarupp from "../Home/Navbar/Navbarupp";
+import ReadyToTest from "./ReadyToTestDrive/ReadyToTest";
+import PowerfulFeatures from "./PowerfulFeatures/PowerfulFeatures";
 import Approch from "../Home/APProchUs/Approch";
-
 
 const TryADemo = () => {
   return (
     <>
-     <div>
-      <Navbarupp />
-      </div>   
-      
-       <div className=" mx-auto min-h-screen  h-screen ">
-        
-         
-          <div className=" flex h-full items-center justify-center bg-black flex-col">
-          
-            <div className='px-4 '>
-            <p className='text-white lg:text-[80px] text-[45px]  font-bold tracking-tighter  leading-none text-center'>Experience a 10-minute Live Demo: <br /> <span className='text-[#0694A2]'>Accelerate Your Digital Transformation</span></p>
-<br />
-<p className='text-black text-center text-2xl'>Discover the power of our cutting-edge IT solutions in this free, on-demand demo. Explore how our innovative technologies empower businesses to streamline operations and achieve unparalleled efficiency.</p>
-            </div>  
-           
+      <div>
+        <Navbarupp />
+      </div>
+
+      <div className=" mx-auto min-h-screen  h-screen ">
+        <div className=" flex h-full items-center justify-center bg-black flex-col">
+          <div className="px-4 ">
+            <div className="text-white md:text-[50px] lg:text-[70px] text-xl font-bold text-center tracking-tighter  leading-none ">
+              Experience a 10-minute Live Demo: <br />{" "}
+              <span className="text-[#0694A2] ">
+                Accelerate Your Digital Transformation
+              </span>
+            </div>
+            <br />
+            <p className="text-[#656565] text-center md:text-2xl text-md">
+              Discover the power of our cutting-edge IT solutions in this free,
+              on-demand demo. Explore how our innovative technologies empower
+              businesses to streamline operations and achieve unparalleled
+              efficiency.
+            </p>
           </div>
-
-
-       
         </div>
+      </div>
 
-        <ReadyToTest />
-        <PowerfulFeatures />
-        <Approch />
-     
+      <ReadyToTest />
+      <PowerfulFeatures />
+      <Approch />
     </>
-  )
-}
+  );
+};
 
-export default TryADemo
+export default TryADemo;
