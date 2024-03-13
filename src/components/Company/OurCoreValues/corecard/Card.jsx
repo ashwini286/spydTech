@@ -5,7 +5,7 @@ const Card = () => {
     <div className='md:p-24 leading-8 p-8'>
       <div>
         <div className=' w-56'><p className='text-4xl  font-extrabold border-b-4 border-[#140152] '> Our Values</p></div>
-        <div className='pt-16'>
+        <div className='md:pt-16 pt-8'>
           <p className='text-md '><strong className='text-xl text-[#140152]'>Service Excellence</strong> We take pride in delivering an efficient, well-informed service to our clients. At DevStack, integrity guides all our colleagues as we work to achieve the best outcomes for our clients. This commitment has been ingrained in our culture since the inception of the company.</p>
           <p>Our clients' trust is paramount to us, and we know it is earned, not assumed; we view them as partners, working tirelessly to help optimize their business and ensure success.</p>
         </div>

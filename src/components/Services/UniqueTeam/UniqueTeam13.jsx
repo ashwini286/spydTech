@@ -6,7 +6,7 @@ function UniqueTeam13() {
 
 
       <div className=' p-8'>
-        <div className='flex justify-center items-center flex-col lg:flex-row mb-10 '>
+        <div className='flex justify-center items-center flex-col lg:flex-row md:mb-10 '>
           <h1 className='text-3xl font-bold text-center w-full  pb-8'>Filling the Gaps with Implementation of , <p className='text-blue-900'>Third-party APIs with ERPNext</p><img
             className='w-[100%]' src={IMG56} /></h1>
 

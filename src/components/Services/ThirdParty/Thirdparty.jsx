@@ -27,30 +27,13 @@ function Thirdparty() {
           </div>
         </div>
       </div>
-
-
-      {/* <div className='md:h-[550px] rounded-b-2xl '>
-        <img
-          src={IMG}
-          className=" w-full object-cover md:h-[490px] h-[415px] absolute rounded-b-2xl "
-          alt="Background 2"
-        />
-          <div class="absolute inset-0 md:h-[490px] h-[415px] bg-black bg-opacity-50 rounded-b-2xl "></div>
-          <div class="absolute inset-0  flex flex-col md:flex-row items-center justify-center pb-32">
-        <div class="text-4xl text-white font-bold w-full text-center pb-4"> Third-Party Integrations</div>
-        <div class="text-xl text-white text-center"> Building Cost-Effective Digital Business Capabilities around the
-            ERPNext, focusing on the right balance of Digitization, Flexibility,
-            and Process mapping.</div>
-    </div>
-      </div> */}
-
       <UniqueTeam13 />
-    <div className="flex flex-col justify-center items-center pt-4 md:px-8">
+    <div className="flex flex-col justify-center items-center  md:px-8">
     <div className="text-center  text-2xl md:text-4xl tracking-wider pb-5 font-bold">
         What is Third-Party Integration?
       </div>
       <div>
-        <ul class="pb-5 space-y-3 font-medium">
+        <ul class="pb-5 pl-4 font-medium">
           <li class="flex items-start lg:col-span-1">
             <div class="flex-shrink-0">
               <svg
@@ -126,7 +109,7 @@ function Thirdparty() {
         Benefits of Third-Party Integration With ERP System
       </h1>
       <div>
-        <ul class="pb-5 space-y-3 font-medium">
+        <ul class="pb-5 pl-4 font-medium">
           <li class="flex items-start lg:col-span-1">
             <div class="flex-shrink-0">
               <svg
@@ -227,7 +210,7 @@ function Thirdparty() {
         Cutting the Edge benefits with ERPNext
       </h1>
       <div>
-        <ul class="pb-5 space-y-3 font-medium">
+        <ul class="pb-5 pl-4 font-medium">
           <li class="flex items-start lg:col-span-1">
             <div class="flex-shrink-0">
               <svg
@@ -258,7 +241,7 @@ function Thirdparty() {
         ERPNext & Cutting the edge advantage:
       </div>
       <div>
-        <ul class="pb-5 space-y-3 font-medium">
+        <ul class="pb-5 pl-4 font-medium">
           <li class="flex items-start lg:col-span-1">
             <div class="flex-shrink-0">
               <svg
@@ -319,9 +302,9 @@ function Thirdparty() {
       </div>
     </div>
 
-<div className="flex flex-col justify-center  pt-4 md:px-8 ">
+<div className="flex flex-col justify-center  pt-4 md:px-8">
     
-<div className="md:text-center  text-2xl md:text-4xl tracking-wider pb-5 font-bold">
+<div className="text-center  text-2xl md:text-4xl tracking-wider pb-5 font-bold ">
         Our Excellencies APIs (Third-Party & Custom) Integration Projects:
       </div>
       <div className="tracking-wider pb-5 pl-[40px]">
@@ -332,7 +315,7 @@ function Thirdparty() {
       </div>
 
       <div>
-        <ul class="pb-5 space-y-3 font-medium">
+        <ul class="pb-5 pl-4 font-medium">
           <li class="flex items-start lg:col-span-1">
             <div class="flex-shrink-0">
               <svg
