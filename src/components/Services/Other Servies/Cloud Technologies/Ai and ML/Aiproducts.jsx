@@ -9,9 +9,9 @@ function Aiproducts() {
   return (
     <>
    
-<section class="bg-blue-600 py-20">
+<section class="bg-blue-600 py-20 w-full ">
     <div class="container mx-auto px-4">
-        <div class="flex flex-col md:flex-row items-center justify-between">
+        <div class="flex flex-col md:flex-row items-center justify-between ">
             <div class="md:w-1/2 mb-8 md:mb-0">
                 <h1 class="text-white font-bold text-5xl leading-tight mb-6" data-aos="fade-up-right">SpY D Technology Discover's Best Ai Products</h1>
                 <p class="text-white text-xl mb-8" data-aos="fade-up-right">In addition to our AI solutions, we also offer a range of AI products designed to meet your specific business needs. Our AI products include:</p>
@@ -21,7 +21,7 @@ function Aiproducts() {
                     now</a>
             </div>
             <div class="w-full md:w-3/5 bg-gray-100" data-aos="fade-up-left">
-            <div class="loader ">
+            <div class="loader max-auto ">
   <div class="box box0">
     <div></div>
   </div>
@@ -50,7 +50,7 @@ function Aiproducts() {
     <div></div>
   </div>
 </div>
-<style> 
+<style jsx> 
     {`
     .loader {
         --duration: 3s;
@@ -863,10 +863,10 @@ function Aiproducts() {
                 <div class="p-6">
                     <h3 class="text-xl font-bold text-gray-800 mb-2" data-aos="fade-up-right">Smart Recommendation Engine</h3>
                     <p class="text-gray-700 text-base" data-aos="fade-up-right">Increase sales and customer satisfaction with personalized product recommendations powered by AI.</p>
-                    <div class="mt-4 flex items-center justify-between">
+                    <div class="mt-4 flex items-center justify-between ">
                        
                         <button data-aos="fade-up-right"
-                            class="px-4 py-2 bg-blue-600 text-white font-bold rounded-full hover:bg-blue-700 transition duration-200">explore</button>
+                            class=" ravi px-4 py-2   font-bold rounded-full hover:bg-blue-700 transition duration-200">explore</button>
                     </div>
                 </div>
             </div>
@@ -879,7 +879,7 @@ function Aiproducts() {
                     <div class="mt-4 flex items-center justify-between">
                        
                         <button data-aos="fade-up-right"
-                            class="px-4 py-2 bg-blue-600 text-white font-bold rounded-full hover:bg-blue-700 transition duration-200">explore</button>
+                            class="px-4 py-2 bg-blue-600 text-white ravi font-bold rounded-full hover:bg-blue-700 transition duration-200">explore</button>
                     </div>
                 </div>
             </div>
@@ -892,7 +892,7 @@ function Aiproducts() {
                     <div class="mt-4 flex items-center justify-between">
                         
                         <button data-aos="fade-up-right"
-                            class="px-4 py-2 bg-blue-600 text-white font-bold rounded-full hover:bg-blue-700 transition duration-200">explore</button>
+                            class="px-4 py-2 bg-blue-600 ravi text-white font-bold rounded-full hover:bg-blue-700 transition duration-200">explore</button>
                     </div>
                 </div>
             </div>
@@ -905,7 +905,7 @@ function Aiproducts() {
                     <div class="mt-4 flex items-center justify-between">
                        
                         <button data-aos="fade-up-right"
-                            class="px-4 py-2 bg-blue-600 text-white font-bold rounded-full hover:bg-blue-700 transition duration-200">explore</button>
+                            class="px-4 py-2 bg-blue-600 ravi text-white font-bold rounded-full hover:bg-blue-700 transition duration-200">explore</button>
                     </div>
                 </div>
             </div>

@@ -19,19 +19,14 @@ function Machine() {
   return (
     <>
     <Navbarupp />
-    <section className="relative h-screen flex flex-col items-center justify-center text-center text-white bg-black">
-      {/* <div className="video-docker absolute top-0 left-0 w-full h-full overflow-hidden"> */}
-        <img className="min-w-full min-h-full absolute object-cover overflow-hidden " src={IMG1} type="video/mp4" autoPlay muted loop>
-          
-        </img>
-        <img src={IMG2}
-        className=''/>
-      {/* </div> */}
-      <div className="video-content space-y-2 z-10 mt-[-15%]">
-        <h1 className="font-light text-6xl bg-gradient-to-r from-pink-600 via-purple-500 to-indigo-400 inline-block text-transparent bg-clip-text transform rotate-360"
-         data-aos="fly-in-left">Machine Learing</h1>
-        <h3 className="font-light text-3xl">Explore</h3>
-      </div>
+    <section className="relative w-full bg-black">
+    {/* <img className="h-[50vh] w-full md:h-[550px] object-cover" src={IMG1} alt="Image 1" /> */}
+    <img className=" w-[100%] object-cover md:w-full " src={IMG2} alt="Image 2" />
+    <div className="space-y-2 z-10 absolute top-[45%] w-full text-center">
+        <h1 className="font-light text-4xl md:text-2xl lg:text-6xl bg-gradient-to-r from-pink-600 via-purple-500 to-indigo-400 inline-block text-transparent 
+        bg-clip-text transform rotate-0 md:rotate-360" data-aos="fly-in-left">Machine Learning</h1>
+        <h3 className="font-light text-2xl text-white">Explore</h3>
+    </div>
       <style jsx>{`
         .video-docker video {
           top: 50%;
@@ -117,8 +112,8 @@ data-aos="fade-out"
 class="relative flex flex-col items-center mx-auto lg:flex-row-reverse lg:max-w-5xl lg:mt-12 xl:max-w-6xl bg-gray-800 p-10">
 
     {/* <!-- Image Column --> */}
-    <div class="w-full h-full lg:w-auto lg:h-auto">
-        <img class="h-[35rem] w-full object-cover p-20 ml-[30%] transform motion-safe:hover:scale-150 " src="https://www.tensorflow.org/static/site-assets/images/marketing/resources/edu-hero.svg" alt="Winding mountain road" />
+    <div class="w-full   lg:w-full items-center   lg:h-auto">
+        <img class="h-full w-full md:mr-[50%]  md:w- object-cover md:ml-64 transform motion-safe:hover:scale-110 " src="https://www.tensorflow.org/static/site-assets/images/marketing/resources/edu-hero.svg" alt="Winding mountain road" />
     </div>
     {/* <!-- Close Image Column --> */}
 

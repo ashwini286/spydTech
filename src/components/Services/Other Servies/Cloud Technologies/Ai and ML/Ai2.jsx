@@ -4,6 +4,7 @@ import ApprochUs from '../../../../Home/APProchUs/Approch'
 import Aiproducts from './Aiproducts'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Client2 from '../../../../Home/WhatClientSay/Client2';
 
 function Ai2() {
   useEffect(() => {
@@ -19,9 +20,9 @@ function Ai2() {
     src='https://www.bhmpics.com/downloads/abstract-background-Wallpapers/19.v1016-c-08_1-ksh6mza3.jpg'
     />
      <div className="absolute inset-0 md:h-[550px] w-full bg-black bg-opacity-50 rounded-lg"></div>
-     <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 md:left-[35%] md:w-[50%] lg:w-[50%] text-start text-white font-bold px-5'>
-  <h1 className='text-2xl md:text-4xl lg:text-4xl' >
-    Unlock the Power of Artificial Intelligence with <br/>
+     <div className='absolute top-1/2 left-[35%] transform -translate-x-1/2 -translate-y-1/2 md:left-[35%] md:w-[50%] lg:w-[50%] text-start text-white font-bold px-5'>
+  <h1 className='text-2xl md:text-4xl lg:text-4xl flext-wrapp' >
+    Unlock the Power of Artificial Intelligence with 
     <a href="#" class="relative inline-block  btn-shine">"SpY D Technology"</a>
   </h1>
 </div>
@@ -46,7 +47,7 @@ function Ai2() {
       font-family: "Poppins", sans-serif;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     /* Styles for mobile view */
     .text-2xl {
       font-size: 1.5rem; /* Adjusted font size for mobile view */
@@ -140,7 +141,7 @@ function Ai2() {
     </p>
   </div>
   <button data-aos="fade-up-right"
-    class="hover:bg-gray-700 bg-gray-800 text-gray-100 mt-6 rounded p-2 px-6" 
+    class="hover:bg-gray-700 bg-gray-800 text-gray-100 mt-6 rounded p-2 px-6 ravi" 
   >
     Explore
   </button>
@@ -162,7 +163,7 @@ function Ai2() {
     </p>
   </div>
   <button data-aos="fade-up-right"
-    class="hover:bg-gray-700 bg-gray-800 text-gray-100 -mt-1 rounded p-2 px-6"
+    class="hover:bg-gray-700 bg-gray-800 text-gray-100 -mt-1 rounded p-2 px-6 ravi"
   >
     Explore
   </button>
@@ -188,7 +189,7 @@ function Ai2() {
     </p>
   </div>
   <button data-aos="fade-up-right"
-    class="hover:bg-gray-700 bg-gray-800 text-gray-100 mt-6 rounded p-2 px-6"
+    class="hover:bg-gray-700 bg-gray-800 text-gray-100 mt-6 rounded p-2 px-6 ravi"
   >
     Explore
   </button>
@@ -210,7 +211,7 @@ function Ai2() {
     </p>
   </div>
   <button data-aos="fade-up-right"
-    class="hover:bg-gray-700 bg-gray-800 text-gray-100 mt-6 rounded p-2 px-6"
+    class="hover:bg-gray-700 bg-gray-800 text-gray-100 mt-6 rounded p-2 px-6 ravi"
   >
     Explore
   </button>
@@ -232,7 +233,7 @@ function Ai2() {
      </p>
   </div>
   <button data-aos="fade-up-right"
-    class="hover:bg-gray-700 bg-gray-800 text-gray-100 mt-6 rounded p-2 px-6"
+    class="hover:bg-gray-700 bg-gray-800 text-gray-100 mt-6 rounded p-2 px-6  ravi"
   >
     Explore
   </button>
@@ -243,7 +244,7 @@ function Ai2() {
 
 <style>
     {`
-    button {
+    .ravi {
       position: relative;
       padding: 10px 20px;
       border-radius: 7px;
@@ -253,7 +254,7 @@ function Ai2() {
       font-weight: 600;
       letter-spacing: 2px;
       background: transparent;
-      color: #fff;
+      color: #475569;
       overflow: hidden;
       box-shadow: 0 0 0 0 transparent;
       -webkit-transition: all 0.2s ease-in;
@@ -261,7 +262,7 @@ function Ai2() {
       transition: all 0.2s ease-in;
     }
     
-    button:hover {
+    .ravi:hover {
       background: rgb(61, 106, 255);
       box-shadow: 0 0 30px 5px rgba(0, 142, 236, 0.815);
       -webkit-transition: all 0.2s ease-out;
@@ -269,13 +270,13 @@ function Ai2() {
       transition: all 0.2s ease-out;
     }
     
-    button:hover::before {
+    .ravi:hover::before {
       -webkit-animation: sh02 0.5s 0s linear;
       -moz-animation: sh02 0.5s 0s linear;
       animation: sh02 0.5s 0s linear;
     }
     
-    button::before {
+    .ravi::before {
       content: '';
       display: block;
       width: 0px;
@@ -309,7 +310,7 @@ function Ai2() {
       }
     }
     
-    button:active {
+    .ravi:active {
       box-shadow: 0 0 0 0 transparent;
       -webkit-transition: box-shadow 0.2s ease-in;
       -moz-transition: box-shadow 0.2s ease-in;
@@ -362,7 +363,7 @@ function Ai2() {
 </div>
     </ul>
 </div>
-    
+    <Client2 />
     <ApprochUs />
     </>
   )
