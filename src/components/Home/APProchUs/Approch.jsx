@@ -6,7 +6,7 @@ import LogoFull from "../../assets/spylogo1.png";
 import { LuMapPin } from "react-icons/lu";
 import { FiPhoneCall } from "react-icons/fi";
 import { MdOutlineMarkEmailRead } from "react-icons/md";
-import SocialIcons from "./SocialIcon";
+import SocialIcon from "./SocialIcon";
 const ApprochUs = () => {
   return (
     <>
@@ -95,7 +95,7 @@ const ApprochUs = () => {
                       </div>
                     </div>
                     <div className="text-black flex flex-row justify-center items-center ">
-                      <SocialIcons />
+                      <SocialIcon />
                     </div>
                   </div>
 

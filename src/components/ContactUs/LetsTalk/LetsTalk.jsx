@@ -1,6 +1,6 @@
-import React, { useState,useEffect } from "react";
-import { layout } from '../../../style'
-import Socialicons from "../../Home/APProchUs/Socialicons";
+import React, { useState, useEffect } from "react";
+import { layout } from "../../../style";
+import Socialicons from "../../Home/APProchUs/SocialIcon";
 import {
   Card,
   Input,
@@ -11,27 +11,27 @@ import {
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdOutlineMarkEmailRead } from "react-icons/md";
 const LetsTalk = () => {
-  const[name,setName]=useState("")
-  const[email,setEmail]=useState("")
-   const [phoneNo, setPhoneNo] = useState("")
-   const[massage, setMassage] = useState("")
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phoneNo, setPhoneNo] = useState("");
+  const [massage, setMassage] = useState("");
 
-   const handle=(e)=>{
+  const handle = (e) => {
     e.preventDefault();
-    var LetsTalkdata = JSON.parse(localStorage.getItem('LetsTalkdata') || "[]")
-    var data ={
-    name,
-    email,
-    phoneNo,
-    massage
-    }
-    LetsTalkdata.push(data)
-    localStorage.setItem('LetsTalkdata',JSON.stringify(LetsTalkdata))
-    setName('')
-    setEmail('')
-    setPhoneNo('')
-    setMassage('')
-  }
+    var LetsTalkdata = JSON.parse(localStorage.getItem("LetsTalkdata") || "[]");
+    var data = {
+      name,
+      email,
+      phoneNo,
+      massage,
+    };
+    LetsTalkdata.push(data);
+    localStorage.setItem("LetsTalkdata", JSON.stringify(LetsTalkdata));
+    setName("");
+    setEmail("");
+    setPhoneNo("");
+    setMassage("");
+  };
 
   return (
     <>
@@ -54,7 +54,7 @@ const LetsTalk = () => {
               style={{
                 display: "flex",
                 justifyContent: "center",
-                alignItems: "center"
+                alignItems: "center",
               }}
             >
               <div className={layout.sectionImg}>
@@ -67,16 +67,39 @@ const LetsTalk = () => {
                   </Typography>
                   <form className="mt-8 mb-2 w-80 max-w-screen-lg sm:w-80">
                     <div className="mb-1 flex flex-col gap-6">
-                      <Input color="white" label="Name" className='rounded-none '  onChange={(e)=>setName(e.target.value)} value={name} />
-                      <Input color="white" label="Email" className='rounded-none ' onChange={(e)=>setEmail(e.target.value)} value={email} />
-                      <Input color="white" label="Phone No" className='rounded-none '  onChange={(e)=>setPhoneNo(e.target.value)} value={phoneNo}/>
+                      <Input
+                        color="white"
+                        label="Name"
+                        className="rounded-none "
+                        onChange={(e) => setName(e.target.value)}
+                        value={name}
+                      />
+                      <Input
+                        color="white"
+                        label="Email"
+                        className="rounded-none "
+                        onChange={(e) => setEmail(e.target.value)}
+                        value={email}
+                      />
+                      <Input
+                        color="white"
+                        label="Phone No"
+                        className="rounded-none "
+                        onChange={(e) => setPhoneNo(e.target.value)}
+                        value={phoneNo}
+                      />
                       <div className="w-86 border-0">
-                        <Textarea color="blue" label="Message" variant="outlined" className='rounded-none '  onChange={(e)=>setMassage(e.target.value)} value={massage}/>
+                        <Textarea
+                          color="blue"
+                          label="Message"
+                          variant="outlined"
+                          className="rounded-none "
+                          onChange={(e) => setMassage(e.target.value)}
+                          value={massage}
+                        />
                       </div>
                     </div>
-                    <Button className="mt-6" fullWidth
-                    onClick={handle}
-                    >
+                    <Button className="mt-6" fullWidth onClick={handle}>
                       Send Message
                     </Button>
                   </form>
@@ -90,58 +113,55 @@ const LetsTalk = () => {
                 backgroundColor: "rgba(0, 0, 0, 0.5)",
                 display: "flex",
                 alignItems: "center",
-                justifyItems:"center"
-
+                justifyItems: "center",
               }}
             >
-              <div >
-                <h1 className='text-white p-4 lg:text-4xl'>Quick Contacts</h1>
+              <div>
+                <h1 className="text-white p-4 lg:text-4xl">Quick Contacts</h1>
               </div>
-             <div className='w-full flex justify-center items-center flex-col'>
-             
-              <div className='h-[180px] lg:w-[300px] bg-[#2F4052] pt-6 pl-4 w-full'>
-                <div className='text-white text-xl'>
-                  <h1 >General Inquiries</h1>
-                </div>
-                <div className="flex flex-row xs:text-[10px] text-[15px] text-white  pt-2">
-                  <div className="text-[20px] text-xl">
-                    <MdOutlineMarkEmailRead />
+              <div className="w-full flex justify-center items-center flex-col">
+                <div className="h-[180px] lg:w-[300px] bg-[#2F4052] pt-6 pl-4 w-full">
+                  <div className="text-white text-xl">
+                    <h1>General Inquiries</h1>
                   </div>
-                  <div className="ml-3">info@spyd.com</div>
-                </div>
-                <div className="flex flex-row xs:text-[10px] text-[15px] text-white  pt-2">
-                  <div className="text-[20px]">
-                    <FaPhoneAlt />
+                  <div className="flex flex-row xs:text-[10px] text-[15px] text-white  pt-2">
+                    <div className="text-[20px] text-xl">
+                      <MdOutlineMarkEmailRead />
+                    </div>
+                    <div className="ml-3">info@spyd.com</div>
                   </div>
-                  <div className="ml-3">040-43334849</div>
-                </div>
-                <div className="flex  flex-row font-poppins xs:text-[10px] text-[15px] text-white w-full pt-2">
-                  <div className="text-[20px]">
-                    <FaPhoneAlt />
+                  <div className="flex flex-row xs:text-[10px] text-[15px] text-white  pt-2">
+                    <div className="text-[20px]">
+                      <FaPhoneAlt />
+                    </div>
+                    <div className="ml-3">040-43334849</div>
                   </div>
-                  <div className="ml-3">040-43334849</div>
+                  <div className="flex  flex-row font-poppins xs:text-[10px] text-[15px] text-white w-full pt-2">
+                    <div className="text-[20px]">
+                      <FaPhoneAlt />
+                    </div>
+                    <div className="ml-3">040-43334849</div>
+                  </div>
+                </div>
+                <br />
+                <div className="bg-[#2F4052] h-[100px] lg:w-[300px] w-full">
+                  <div className="text-white text-xl pt-4 pl-4">
+                    <h1>Careers</h1>
+                  </div>
+                  <div className="flex flex-row font-poppins xs:text-[10px] text-[15px] text-white w-full pt-2 pl-4">
+                    <div className="text-[20px] text-xl">
+                      <MdOutlineMarkEmailRead />
+                    </div>
+                    <div className="ml-3">info@spyd.com</div>
+                  </div>
                 </div>
               </div>
-              <br />
-              <div className='bg-[#2F4052] h-[100px] lg:w-[300px] w-full'>
-              <div className='text-white text-xl pt-4 pl-4'>
-                  <h1 >Careers</h1>
-                </div>
-              <div className="flex flex-row font-poppins xs:text-[10px] text-[15px] text-white w-full pt-2 pl-4">
-                  <div className="text-[20px] text-xl">
-                    <MdOutlineMarkEmailRead />
-                  </div>
-                  <div className="ml-3">info@spyd.com</div>
+              {/* social media */}
+              <div className="flex justify-center items-center flex-row font-poppins ">
+                <div className="text-white">
+                  <Socialicons />
                 </div>
               </div>
-
-             </div>
-             {/* social media */}
-             <div className="flex justify-center items-center flex-row font-poppins ">
-                <div>
-                <Socialicons />
-                </div>
-                </div>
             </div>
           </section>
         </div>
@@ -161,7 +181,7 @@ const LetsTalk = () => {
         />
       </div>
     </>
-  )
-}
+  );
+};
 
-export default LetsTalk
+export default LetsTalk;

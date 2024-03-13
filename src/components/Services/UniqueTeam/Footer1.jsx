@@ -4,7 +4,7 @@ import IMG from "../../assets/decore.png"
 import { LuMapPin } from "react-icons/lu";
 import { FiPhoneCall } from "react-icons/fi";
 import { MdOutlineMarkEmailRead } from "react-icons/md";
-import SocialIcons from "../../Home/APProchUs/Socialicons";
+import SocialIcons from "../../Home/APProchUs/SocialIcon";
 import {
   Card,
   CardHeader,

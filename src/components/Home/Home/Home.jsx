@@ -83,14 +83,14 @@ const Home = () => {
                 <Typography
                   variant="h1"
                   color="white"
-                  className="text-2xl md:text-5xl font-bold mb-4 font-sans animate-left-to-right"
+                  className="text-2xl md:text-5xl font-bold mb-4 font-sans "
                 >
                   MOBILITY SOLUTIONS WITH CUTTING EDGE TECHNOLOGY
                 </Typography>
                 <Typography
                   variant="lead"
                   color="white"
-                  className="text-sm md:text-xl mb-8 opacity-80 font-sans animate-left-to-right2"
+                  className="text-sm md:text-xl mb-8 opacity-80 font-sans "
                 >
                   Our Core Expertise is in ideating, conceptualizing, designing,
                   developing and deploying state-of-the-art mobile applications
@@ -99,7 +99,7 @@ const Home = () => {
                 <div className="flex flex-col md:flex-row gap-4">
                   <Button
                     size="lg"
-                    className="font-sans bg-blue-500 hover:bg-blue-600 rounded-none animate-buttons"
+                    className="font-sans bg-blue-500 hover:bg-blue-600 rounded-none "
                   >
                     Explore
                   </Button>
