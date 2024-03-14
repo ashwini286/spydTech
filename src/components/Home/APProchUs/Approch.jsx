@@ -137,9 +137,12 @@ const ApprochUs = () => {
                     <div className="text-2xl font-bold mb-4">Service</div>
 
                     <ul className="text-center">
+                      <Link to = '/ERPNext TECHNOLOGY'>
                       <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-[90%] after:transition-all after:duration-300 cursor-pointer">
                         ERPNext
                       </li>
+                      </Link>
+                    
                       <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-[90%] after:transition-all after:duration-300 cursor-pointer">
                         Design
                       </li>
