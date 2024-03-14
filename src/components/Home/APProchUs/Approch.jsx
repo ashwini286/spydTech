@@ -6,6 +6,7 @@ import LogoFull from "../../assets/spylogo1.png";
 import { LuMapPin } from "react-icons/lu";
 import { FiPhoneCall } from "react-icons/fi";
 import { MdOutlineMarkEmailRead } from "react-icons/md";
+import { Link } from "react-router-dom";
 import SocialIcon from "./SocialIcon";
 const ApprochUs = () => {
   return (
@@ -104,22 +105,30 @@ const ApprochUs = () => {
                     <div className="text-xl font-bold mb-4 ">Main</div>
                     <div>
                       <ul className="text-center">
-                        <li className="mb-4 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-[90%] after:transition-all after:duration-300 cursor-pointer">
+                      <Link to = '/'>
+                      <li className="mb-4 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-[90%] after:transition-all after:duration-300 cursor-pointer">
                           Home
                         </li>
-                        <li className="mb-4 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-[90%] after:transition-all after:duration-300 cursor-pointer">
+                      </Link>
+                       <Link to = '/About Us'>
+                       <li className="mb-4 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-[90%] after:transition-all after:duration-300 cursor-pointer">
                           About Us
                         </li>
+                       </Link>
+                        <Link to = '/Our Core Values'>
                         <li className="mb-4 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-[90%] after:transition-all after:duration-300 cursor-pointer">
                           Our Services
                         </li>
+                        </Link>
 
                         <li className="mb-4 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-[90%] after:transition-all after:duration-300 cursor-pointer">
                           Resources
                         </li>
+                        <Link to = '/contact'>
                         <li className="mb-4 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-[90%] after:transition-all after:duration-300 cursor-pointer">
                           Contact Us
                         </li>
+                        </Link>
                       </ul>
                     </div>
                   </div>
