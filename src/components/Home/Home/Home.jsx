@@ -14,6 +14,7 @@ import IMG1 from "../../assets/Digital-Marketing-Explained_Blog-scaled.jpeg";
 import IMG2 from "../../assets/Main2.avif";
 import IMG3 from "../../assets/Main3.webp";
 import Welcome from "./Welcom";
+import ChatBot from "./ChatBot";
 const Home = () => {
   useEffect(() => {
     AOS.init();
@@ -44,7 +45,7 @@ const Home = () => {
                 <Typography
                   variant="lead"
                   color="white"
-                  className="text-sm md:text-xl mb-8 opacity-70 font-sans animate-left-to-right2"
+                  className="text-sm md:text-xl mb-8 opacity-70 font-sans animate-left-to-right"
                 >
                   ERPNext: SPY D TECHNOLOGY deep experience,expertise and
                   exposure in design and developing enterprise and custom web
@@ -169,7 +170,8 @@ const Home = () => {
 
           <div className="relative flex h-screen items-center justify-center">
             <img
-              src={IMG2}
+              // src={IMG2}
+              src="https://media.glassdoor.com/companyupdate/w900/157056/maq-software-companyupdate-1685575535571.png?signature=a7f549b012a98efc98d08463942c4a482c5802325af5ef57c2f95e68560e3db4"
               className="absolute inset-0 object-cover w-full h-full"
               alt="Background 2"
               style={{ filter: "brightness(50%)" }}
@@ -182,16 +184,17 @@ const Home = () => {
                   color="white"
                   className="text-2xl md:text-5xl font-bold mb-4 font-sans"
                 >
-                  FULL SERVICES DIGITAL MARKETING CAMPAIGNS EXECUTION
+                  Empower Your Business with Cutting-Edge Microsoft Solutions
                 </Typography>
                 <Typography
                   variant="lead"
                   color="white"
                   className="text-sm md:text-xl mb-8 opacity-80 font-sans"
                 >
-                  We offer complete,comprehensive, full Service Digital
-                  Marketing Services in all channels as such as SEO,SEM,Social
-                  media,content,Affiliate,Viral,video and Influencer Marketing.
+                  Where innovation meets expertise in Microsoft technology solutions.
+                   With our comprehensive suite of services,
+                    we empower businesses to unlock their full potential and thrive in today's digital landscape.
+                     Explore how SpY D Technology can transform your business with Microsoft technology
                 </Typography>
                 <div className="flex flex-col md:flex-row gap-4">
                   <Button
@@ -271,6 +274,9 @@ const Home = () => {
       <OurWorks />
       <WhatClientSay />
       <Industry />
+      <div>
+        <ChatBot />
+      </div>
 
       <ApprochUs />
       <style>

@@ -1,10 +1,15 @@
-import React from 'react'
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Navbarupp from '../../Home/Navbar/Navbarupp'
 import Approch from '../../Home/APProchUs/Approch'
 import IMG from "../../assets/digital-marketing.webp"
 import IMG1 from "../../assets/Steps-For-SEO-Process.webp"
 
 function SeoServices() {
+    useEffect(() => {
+        AOS.init();
+      }, []);
   return (
     <>
       <Navbarupp />
@@ -18,7 +23,7 @@ function SeoServices() {
     
     
       </div>
-      <div className='flex text-center justify-center items-center'>
+      <div className='flex text-center justify-center items-center' data-aos="fade-up-right">
         <div className='text-black py-8 text-2xl md:text-4xl font-bold '>
         Boost Your Online Presence with <span class="relative whitespace-nowrap text-white-600 dark:text-gray-300"></span>
     <span class="relative whitespace-nowrap text-orange-500 dark:text-orange-300 ">
@@ -45,18 +50,18 @@ function SeoServices() {
         <div class="blur-[106px] h-56 bg-gradient-to-br from-teal-500 to-purple-400 dark:from-blue-700"></div>
         <div class="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-sky-300 dark:to-indigo-600"></div>
     </div>
-      <h1 className='text-center p-5 text-2xl tracking-wider'>Digital Marketing and SEO Services</h1>
+      <h1 className='text-center p-5 text-2xl tracking-wider' data-aos="fade-up-right">Digital Marketing and SEO Services</h1>
       <div className='pl-10 tracking-wider pb-10 space-y-5  text-black'>
-        <p>Our build road map implementation and strategies to offer SEO, SEM, Social Media, Content,
+        <p data-aos="fade-up-right">Our build road map implementation and strategies to offer SEO, SEM, Social Media, Content,
           Affiliate, Viral, Video and Influencer Marketing services to drive traffic, leading to conversions.</p>
-        <p>Over the years we hired, trained, nurtured and build a dedicated team of
+        <p data-aos="fade-up-right">Over the years we hired, trained, nurtured and build a dedicated team of
           digital marketing professionals to meet the growing demands of our clients.
         </p>
-        <p>Our Digital Marketing team possesses enormous experience in ideating, researching,
+        <p data-aos="fade-up-right">Our Digital Marketing team possesses enormous experience in ideating, researching,
           formulating roadmaps and executing organic and paid campaigns. We meticulously plan,
           conduct audit on web assets, identify gals, recommend solutions and plan campaign execution.
           We track, analyse and report on analytics for continuous improvement</p>
-        <p>Increasing visibility, driving traffic, generating leads culminating into
+        <p data-aos="fade-up-right">Increasing visibility, driving traffic, generating leads culminating into
           conversions helps our clients to attain the desired objectives.</p>
       </div>
       </div>
@@ -66,10 +71,10 @@ function SeoServices() {
 
       <div class="p-4 max-w-xl mx-auto ">
 
-    <h2 class="font-heading mb-8 text-3xl font-bold lg:text-4xl">We offer SEO and Digital Marketing Services in the following areas:
+    <h2 class="font-heading mb-8 text-3xl font-bold lg:text-4xl" data-aos="fade-up-right">We offer SEO and Digital Marketing Services in the following areas:
     </h2>
 
-    <div class="flex">
+    <div class="flex" data-aos="fade-up-right">
         <div class="mr-4 flex flex-col items-center">
             <div>
                 <div class="flex h-10 w-10 items-center justify-center rounded-full border-2 border-blue-900"><svg
@@ -90,7 +95,7 @@ function SeoServices() {
     </div>
 
 
-    <div class="flex">
+    <div class="flex" data-aos="fade-up-right">
         <div class="mr-4 flex flex-col items-center">
             <div>
                 <div class="flex h-10 w-10 items-center justify-center rounded-full border-2 border-blue-900"><svg
@@ -111,7 +116,7 @@ function SeoServices() {
     </div>
 
 
-    <div class="flex">
+    <div class="flex" data-aos="fade-up-right">
         <div class="mr-4 flex flex-col items-center">
             <div>
                 <div class="flex h-10 w-10 items-center justify-center rounded-full border-2 border-blue-900"><svg
@@ -131,7 +136,7 @@ function SeoServices() {
         </div>
     </div>
 
-    <div class="flex">
+    <div class="flex" data-aos="fade-up-right">
         <div class="mr-4 flex flex-col items-center">
             <div>
                 <div class="flex h-10 w-10 items-center justify-center rounded-full border-2 border-blue-900"><svg
@@ -152,7 +157,7 @@ function SeoServices() {
     </div>
 
 
-    <div class="flex">
+    <div class="flex" data-aos="fade-up-right">
         <div class="mr-4 flex flex-col items-center">
             <div>
                 <div class="flex h-10 w-10 items-center justify-center rounded-full border-2 border-blue-900"><svg
@@ -171,7 +176,7 @@ function SeoServices() {
            
         </div>
     </div>
-    <div class="flex">
+    <div class="flex" data-aos="fade-up-right">
         <div class="mr-4 flex flex-col items-center">
             <div>
                 <div class="flex h-10 w-10 items-center justify-center rounded-full border-2 border-blue-900"><svg
@@ -192,7 +197,7 @@ function SeoServices() {
     </div>
 
 
-    <div class="flex">
+    <div class="flex" data-aos="fade-up-right">
         <div class="mr-4 flex flex-col items-center">
             <div>
                 <div class="flex h-10 w-10 items-center justify-center rounded-full border-2 border-blue-900"><svg
@@ -211,7 +216,7 @@ function SeoServices() {
            
         </div>
     </div>
-    <div class="flex">
+    <div class="flex" data-aos="fade-up-right">
         <div class="mr-4 flex flex-col items-center">
             <div>
                 <div class="flex h-10 w-10 items-center justify-center rounded-full border-2 border-blue-900"><svg
@@ -232,7 +237,7 @@ function SeoServices() {
     </div>
 
 
-    <div class="flex">
+    <div class="flex" data-aos="fade-up-right">
         <div class="mr-4 flex flex-col items-center">
             <div>
                 <div class="flex h-10 w-10 items-center justify-center rounded-full border-2 border-blue-900"><svg
@@ -251,7 +256,7 @@ function SeoServices() {
            
         </div>
     </div>
-    <div class="flex">
+    <div class="flex" data-aos="fade-up-right">
         <div class="mr-4 flex flex-col items-center">
             <div>
                 <div class="flex h-10 w-10 items-center justify-center rounded-full border-2 border-blue-900"><svg
@@ -272,7 +277,7 @@ function SeoServices() {
     </div>
 
 
-    <div class="flex">
+    <div class="flex" data-aos="fade-up-right">
         <div class="mr-4 flex flex-col items-center">
             <div>
                 <div class="flex h-10 w-10 items-center justify-center rounded-full border-2 border-blue-900"><svg
@@ -293,7 +298,7 @@ function SeoServices() {
     </div>
     
 
-    <div class="flex">
+    <div class="flex" data-aos="fade-up-right">
         <div class="mr-4 flex flex-col items-center">
             <div>
                 <div class="flex h-10 w-10 items-center justify-center rounded-full border-2 border-blue-900"><svg
@@ -309,7 +314,7 @@ function SeoServices() {
         </div>
 
         
-        <div class="pt-1 ">
+        <div class="pt-1 " data-aos="fade-up-right">
             <p class="mb-2 text-xl font-bold text-gray-900 dark:text-slate-300">Ready!</p>
         </div>
     </div>
@@ -320,7 +325,7 @@ function SeoServices() {
 
       <div class="max-w-7xl mx-auto my-8 px-2">
 
-    <div class="flex justify-center text-xl md:text-xl font-bold">
+    <div class="flex justify-center text-xl md:text-xl font-bold" data-aos="fade-up-right">
     <h1 > Unlock the full potential of your online presence with  <span class="relative whitespace-nowrap text-white-600 dark:text-gray-300"></span>
     <span class="relative whitespace-nowrap text-orange-500 dark:text-orange-300">
       <svg aria-hidden="true" viewBox="0 0 418 42" class="absolute top-2/3 left-0 h-[0.58em] w-full fill-orange-500 dark:fill-orange-300/60" preserveAspectRatio="none">
@@ -333,7 +338,7 @@ function SeoServices() {
      and drive meaningful results. Here's how our services can supercharge your online growth:</h1>
     </div>
 
-    <ul class="grid gap-8 md:grid-cols-2 lg:grid-cols-3 p-2 xl:p-5">
+    <ul class="grid gap-8 md:grid-cols-2 lg:grid-cols-3 p-2 xl:p-5" data-aos="fade-up-right">
 
         <li class="relative bg-white flex flex-col justify-between border rounded shadow-md hover:shadow-teal-400">
 
@@ -343,7 +348,7 @@ function SeoServices() {
             </a>
 
 
-            <div class="flex flex-col justify-beetween gap-3 px-4 py-2">
+            <div class="flex flex-col justify-beetween gap-3 px-4 py-2" data-aos="fade-up-right">
                 <a href="/tool/writey-ai"
                     class="flex justify-center items-center text-xl font-semibold text-teal-700 hover:text-teal-800 two-lines text-ellipsis">
                     <span>Strategic SEO Optimization:</span>
@@ -358,7 +363,7 @@ function SeoServices() {
 
                 
 
-                <ul class="flex flex-wrap text-sm gap-2 my-1">
+                <ul class="flex flex-wrap text-sm gap-2 my-1" >
                     <li class="flex items-center gap-2">
                         <span>Content Generation,</span>
                     </li>
@@ -384,7 +389,7 @@ function SeoServices() {
             </a>
 
 
-            <div class="flex flex-col justify-beetween gap-3 px-4 py-2">
+            <div class="flex flex-col justify-beetween gap-3 px-4 py-2" data-aos="fade-up-right">
                 <a href="/tool/writemeai"
                     class="flex justify-center items-center text-xl font-semibold text-teal-700 hover:text-teal-800 two-lines text-ellipsis">
                     <span>Content Marketing Excellence:</span>
@@ -400,7 +405,7 @@ function SeoServices() {
 
                 
 
-                <ul class="flex flex-wrap text-sm gap-2 my-1">
+                <ul class="flex flex-wrap text-sm gap-2 my-1" data-aos="fade-up-right">
                     <li class="flex items-center gap-2">
                         <span>Content Generation,</span>
                     </li>
@@ -418,7 +423,7 @@ function SeoServices() {
 
         </li>
 
-        <li class="relative bg-white flex flex-col justify-between border rounded shadow-md hover:shadow-teal-400">
+        <li data-aos="fade-up-right" class="relative bg-white flex flex-col justify-between border rounded shadow-md hover:shadow-teal-400">
 
             <a class="relative" href="/tool/publer">
                 <img class="rounded relative w-full object-cover aspect-video"
@@ -426,7 +431,7 @@ function SeoServices() {
             </a>
 
 
-            <div class="flex flex-col justify-beetween gap-3 px-4 py-2">
+            <div class="flex flex-col justify-beetween gap-3 px-4 py-2" data-aos="fade-up-right">
                 <a href="/tool/publer"
                     class="flex justify-center items-center text-xl font-semibold text-teal-700 hover:text-teal-800 two-lines text-ellipsis">
                     <span>PPC Advertising Campaigns:</span>
@@ -442,7 +447,7 @@ function SeoServices() {
 
                 
 
-                <ul class="flex flex-wrap text-sm gap-2 my-1">
+                <ul class="flex flex-wrap text-sm gap-2 my-1" data-aos="fade-up-right">
                     <li class="flex items-center gap-2">
                         <span>Marketing,</span>
                     </li>
@@ -457,7 +462,7 @@ function SeoServices() {
 
         </li>
 
-        <li class="relative bg-white flex flex-col justify-between border rounded shadow-md hover:shadow-teal-400">
+        <li data-aos="fade-up-right" class="relative bg-white flex flex-col justify-between border rounded shadow-md hover:shadow-teal-400">
 
             <a class="relative" href="/tool/anyword">
                 <img class="rounded relative w-full object-cover aspect-video"
@@ -465,7 +470,7 @@ function SeoServices() {
             </a>
 
 
-            <div class="flex flex-col justify-beetween gap-3 px-4 py-2">
+            <div class="flex flex-col justify-beetween gap-3 px-4 py-2" data-aos="fade-up-right">
                 <a href="/tool/anyword"
                     class="flex justify-center items-center text-xl font-semibold text-teal-700 hover:text-teal-800 two-lines text-ellipsis">
                     <span>Conversion Rate Optimization (CRO):</span>
@@ -482,7 +487,7 @@ function SeoServices() {
 
                 
 
-                <ul class="flex flex-wrap text-sm gap-2 my-1">
+                <ul class="flex flex-wrap text-sm gap-2 my-1" data-aos="fade-up-right">
                     <li class="flex items-center gap-2">
                         <span>Copywriting,</span>
                     </li>
@@ -494,7 +499,7 @@ function SeoServices() {
 
         </li>
 
-        <li class="relative bg-white flex flex-col justify-between border rounded shadow-md hover:shadow-teal-400">
+        <li data-aos="fade-up-right" class="relative bg-white flex flex-col justify-between border rounded shadow-md hover:shadow-teal-400">
 
             <a class="relative" href="/tool/blogseo-ai">
                 <img class="rounded relative w-full object-cover aspect-video"
@@ -502,7 +507,7 @@ function SeoServices() {
             </a>
 
 
-            <div class="flex flex-col justify-beetween gap-3 px-4 py-2">
+            <div class="flex flex-col justify-beetween gap-3 px-4 py-2" data-aos="fade-up-right">
                 <a href="/tool/blogseo-ai"
                     class="flex justify-center items-center text-xl font-semibold text-teal-700 hover:text-teal-800 two-lines text-ellipsis">
                     <span>Comprehensive Analytics and Reporting:</span>
@@ -518,7 +523,7 @@ function SeoServices() {
 
                 
 
-                <ul class="flex flex-wrap text-sm gap-2 my-1">
+                <ul class="flex flex-wrap text-sm gap-2 my-1" data-aos="fade-up-right">
                     <li class="flex items-center gap-2">
                         <span>Marketing,</span>
                     </li>
@@ -533,14 +538,14 @@ function SeoServices() {
 
         </li>
 
-        <li class="relative bg-white flex flex-col justify-between border rounded shadow-md hover:shadow-teal-400">
+        <li data-aos="fade-up-right" class="relative bg-white flex flex-col justify-between border rounded shadow-md hover:shadow-teal-400">
 
             <a class="relative" href="/tool/typewise">
                 <img class="rounded relative w-full object-cover aspect-video"
                     src="https://images.unsplash.com/photo-1574192324001-ee41e18ed679?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHwxNXx8a2V5Ym9hcmR8ZW58MHwwfHx8MTY5OTUyNTAwM3ww&ixlib=rb-4.0.3&q=80&w=1080" alt="Typewise" loading="lazy" />
             </a>
 
-            <div class="flex flex-col justify-beetween gap-3 px-4 py-2">
+            <div class="flex flex-col justify-beetween gap-3 px-4 py-2" data-aos="fade-up-right">
                 <a href="/tool/typewise"
                     class="flex justify-center items-center text-xl font-semibold text-teal-700 hover:text-teal-800 two-lines text-ellipsis">
                     <span>Social Media Management: </span>
@@ -556,7 +561,7 @@ function SeoServices() {
 
                 
 
-                <ul class="flex flex-wrap text-sm gap-2 my-1">
+                <ul class="flex flex-wrap text-sm gap-2 my-1" data-aos="fade-up-right">
                     <li class="flex items-center gap-2">
                         <span>Business,</span>
                     </li>
@@ -577,14 +582,14 @@ function SeoServices() {
 
         </li>
 
-        <li class="relative bg-white flex flex-col justify-between border rounded shadow-md hover:shadow-teal-400">
+        <li data-aos="fade-up-right" class="relative bg-white flex flex-col justify-between border rounded shadow-md hover:shadow-teal-400">
 
             <a class="relative" href="/tool/typewise">
                 <img class="rounded relative w-full object-cover aspect-video"
                     src="https://images.unsplash.com/photo-1574192324001-ee41e18ed679?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHwxNXx8a2V5Ym9hcmR8ZW58MHwwfHx8MTY5OTUyNTAwM3ww&ixlib=rb-4.0.3&q=80&w=1080" alt="Typewise" loading="lazy" />
             </a>
 
-            <div class="flex flex-col justify-beetween gap-3 px-4 py-2">
+            <div class="flex flex-col justify-beetween gap-3 px-4 py-2" data-aos="fade-up-right">
                 <a href="/tool/typewise"
                     class="flex justify-center items-center text-xl font-semibold text-teal-700 hover:text-teal-800 two-lines text-ellipsis">
                     <span>Customized Solutions for Every Business:</span>
@@ -599,7 +604,7 @@ function SeoServices() {
 
                 
 
-                <ul class="flex flex-wrap text-sm gap-2 my-1">
+                <ul class="flex flex-wrap text-sm gap-2 my-1" data-aos="fade-up-right">
                     <li class="flex items-center gap-2">
                         <span>Business,</span>
                     </li>
@@ -638,7 +643,7 @@ function SeoServices() {
     <div class="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
         <div class="relative">
             
-            <div class="flex items-center justify-center -space-x-2">
+            <div class="flex items-center justify-center -space-x-2" data-aos="fade-up-right">
                 <img loading="lazy" width="400" height="400" src="https://randomuser.me/api/portraits/women/12.jpg" alt="member photo" class="h-8 w-8 rounded-full object-cover" />
                 <img loading="lazy" width="200" height="200" src="https://randomuser.me/api/portraits/women/45.jpg" alt="member photo" class="h-12 w-12 rounded-full object-cover" />
                 <img loading="lazy" width="200" height="200" src="https://randomuser.me/api/portraits/women/60.jpg" alt="member photo" class="z-10 h-16 w-16 rounded-full object-cover" />
@@ -646,18 +651,18 @@ function SeoServices() {
                 <img loading="lazy" width="200" height="200" src="https://randomuser.me/api/portraits/women/34.jpg" alt="member photo" class="h-8 w-8 rounded-full object-cover" />
             </div>
 
-            <div class="mt-6 m-auto space-y-6 md:w-8/12 lg:w-7/12">
+            <div class="mt-6 m-auto space-y-6 md:w-8/12 lg:w-7/12" data-aos="fade-up-right">
                 <h1 class="text-center text-4xl font-bold text-gray-800 dark:text-white md:text-5xl">Get Started now
                 </h1>
                 <p class="text-center text-xl text-gray-600 dark:text-gray-300">
                 Ready to take your digital presence to new heights? Partner with Spyd Technology and unleash the full potential of your online marketing efforts. Contact us today to learn more about our comprehensive suite of services and start driving measurable results for your business.
                 </p>
                 <div class="flex flex-wrap justify-center gap-6">
-                    <a href="#"
+                    <a href="#" data-aos="fade-up-right"
                         class="relative flex h-12 w-full items-center justify-center px-8 before:absolute before:inset-0 before:rounded-full before:bg-teal-500 before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max">
                         <span class="relative text-base font-semibold text-white dark:text-dark">Get Started</span>
                     </a>
-                    <a href="#"
+                    <a href="#" data-aos="fade-up-right"
                         class="relative flex h-12 w-full items-center justify-center px-8 before:absolute before:inset-0 before:rounded-full before:border before:border-transparent before:bg-teal-500/10 before:bg-gradient-to-b before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-gray-700 dark:before:bg-gray-800 sm:w-max">
                         <span class="relative text-base font-semibold text-teal-500 dark:text-white">More about</span>
                     </a>

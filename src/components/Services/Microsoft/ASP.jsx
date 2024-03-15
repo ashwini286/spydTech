@@ -34,7 +34,7 @@ function ASP() {
     className="h-[50vh] w-full md:h-[550px] rounded-b-lg shadow-md"
     alt="ASP.NET Development"
   />
-  <div className="absolute inset-0 h-[50vh]  md:h-[550px] bg-black bg-opacity-50 rounded-b-lg"></div>
+  <div className="absolute inset-0 h-[50vh]  md:h-[550px] bg-black bg-opacity-75 rounded-b-lg"></div>
   <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 md:left-[35%] md:w-[50%] lg:w-[50%] text-center text-white font-bold md:p-10">
     <h1 className="text-lg md:text-4xl">
       Unleash Innovation with <a className='text-transparent bg-clip-text bg-gradient-to-r from-[#b91c1c] via-blue-800 to-[#701a75]'>"SpY D Technology’s,</a> .NET Development Solutions
@@ -51,9 +51,9 @@ function ASP() {
      
       <div className=''>
            
-      <h1 className='text-lg md:text-2xl font-semibold text-center p-10'>Welcome to 
+      <h1 className='text-lg md:text-2xl font-semibold text-center p-10'> 
       <a className='text-transparent bg-clip-text bg-gradient-to-r from-[#b91c1c] via-blue-800 to-[#7c2d12]'>"Spyd Technology,,</a> where we leverage the power of .NET to drive digital transformation and innovation for businesses worldwide. Our .NET development solutions are designed to help you build scalable, secure, and high-performance applications that meet your unique needs and propel your organization forward.
-       Explore how Spyd can unleash the full potential of .NET for your business:</h1>
+       Explore how SpY D Technology can unleash the full potential of .NET for your business:</h1>
       
        <div class="flex flex-wrap justify-center mt-10 gap-5">
 
@@ -257,7 +257,7 @@ function ASP() {
                     d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z">
                 </path>
             </svg>
-            <p class="text-base text-slate-700 sm:text-lg mt-5">ASP.NET is one of the Microsoft Products and comes with some powerful add-on tools, technologies to build large applications. SpY D's build profound capabilities to meet the growing requirements for Microsoft Technology oriented platforms</p>
+            <p class="text-base text-slate-700 sm:text-lg mt-5">ASP.NET is one of the Microsoft Products and comes with some powerful add-on tools, technologies to build large applications. SpY D Technology's build profound capabilities to meet the growing requirements for Microsoft Technology oriented platforms</p>
         </li>
         <li class="flex"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                 stroke="currentColor" aria-hidden="true" class="mr-2 h-auto w-6 text-green-600 sm:w-12">
