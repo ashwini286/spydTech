@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Navbarupp from '../../Home/Navbar/Navbarupp';
 import Footer1 from '../UniqueTeam/Footer1'
 import IMG from '../../assets/Blue.webp';
@@ -11,6 +13,9 @@ import { HomeIcon, BellIcon, CurrencyDollarIcon } from "@heroicons/react/24/soli
 
 
 const Consulting = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
 
   return (
     <>
@@ -27,10 +32,10 @@ const Consulting = () => {
           style={{filter:"brightness(90%)"}}
         />
         <div class="absolute inset-0 m-auto flex flex-col items-center justify-center w-[90%] md:w-[60%]">
-          <div class="text-4xl text-white font-bold w-full text-center">
+          <div class="text-4xl text-white font-bold w-full text-center" data-aos="fade-up-right">
           ERPNext Consultancy
           </div>
-          <div class="text-xl text-white text-center my-4">
+          <div class="text-xl text-white text-center my-4" data-aos="fade-up-right">
           Building Cost-Effective Digital Business Capabilities around the ERPNext, 
         focusing on the right balance of Digitization, Flexibility, and Process mapping.
           </div>

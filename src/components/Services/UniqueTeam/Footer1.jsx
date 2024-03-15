@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import LogoFull from '../../assets/spylogo1.png';
 import IMG from "../../assets/decore.png"
 import { LuMapPin } from "react-icons/lu";
@@ -15,11 +17,14 @@ import {
 } from "@material-tailwind/react";
 
 function Footer1() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
 
       <Card className="mt-3 w-[90%] md:w-[80%] ml-auto mr-auto md:h-[20rem] mb-[-26%] md:mb-[-15%] shadow-inner">
-        <CardBody className="flex flex-col justify-center items-center">
+        <CardBody className="flex flex-col justify-center items-center" data-aos="fade-up-right">
           <h1 className="text-4xl text-center">
             Let’s Talk <span className="text-blue-900">Technology</span>
           </h1>
@@ -31,7 +36,7 @@ function Footer1() {
           </p>
         </CardBody>
 
-        <CardFooter className="pt-5">
+        <CardFooter className="pt-5" data-aos="fade-up-right">
           <Button className="ml-[30%] md:ml-[40%]">Read More</Button>
         </CardFooter>
       </Card>
@@ -41,7 +46,7 @@ function Footer1() {
           <div className="flex flex-wrap justify-start">
 
             {/* Logo Section */}
-            <div className="grid w-full justify-items-center ">
+            <div className="grid w-full justify-items-center " data-aos="fade-up-right">
               <div class="grid justify-items-center p-10" >
                 <img src={LogoFull} alt="Your Logo" className="h-16  " />
               </div>
@@ -52,7 +57,7 @@ function Footer1() {
                 </p>
               </div>
             </div>
-            <div className="flex justify-center items-center  flex-row w-full ">
+            <div className="flex justify-center items-center  flex-row w-full " data-aos="fade-Zoom-in">
               <div className='grid grid-cols-1  md:grid-cols-2 lg:grid-cols-5 justify-items-center w-full'>
               <div className=" mb-4 p-4  bg-[#457b9d] md:p-7  flex justify-center items-center flex-col  ">
                     <div className="  ">
@@ -90,20 +95,20 @@ function Footer1() {
                     <div className="text-xl font-bold mb-4 ">Main</div>
                     <div>
                       <ul className="text-center">
-                        <li className="mb-4 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-[30%] after:transition-all after:duration-300 cursor-pointer">
+                        <li className="mb-4 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-6 hover:after:w-10 after:transition-all after:duration-300 cursor-pointer">
                           Home
                         </li>
-                        <li className="mb-4 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-[30%] after:transition-all after:duration-300 cursor-pointer">
+                        <li className="mb-4 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-2 hover:after:w-16 after:transition-all after:duration-300 cursor-pointer">
                           About Us
                         </li>
-                        <li className="mb-4 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-[30%] after:transition-all after:duration-300 cursor-pointer">
+                        <li className="mb-4 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-[5.5rem] after:transition-all after:duration-300 cursor-pointer">
                           Our Services
                         </li>
 
-                        <li className="mb-4 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-[30%] after:transition-all after:duration-300 cursor-pointer">
+                        <li className="mb-4 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-2 hover:after:w-[4.5rem] after:transition-all after:duration-300 cursor-pointer">
                           Resources
                         </li>
-                        <li className="mb-4 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-[30%] after:transition-all after:duration-300 cursor-pointer">
+                        <li className="mb-4 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-2 hover:after:w-[4.5rem] after:transition-all after:duration-300 cursor-pointer">
                           Contact Us
                         </li>
                       </ul>
@@ -114,16 +119,16 @@ function Footer1() {
                     <div className="text-2xl font-bold mb-4">Service</div>
 
                     <ul className="text-center">
-                      <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-[30%] after:transition-all after:duration-300 cursor-pointer">
+                      <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-4 hover:after:w-16 after:transition-all after:duration-300 cursor-pointer">
                         ERPNext
                       </li>
-                      <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-12 after:transition-all after:duration-300 cursor-pointer">
+                      <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-6 hover:after:w-14 after:transition-all after:duration-300 cursor-pointer">
                         Design
                       </li>
-                      <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-12 after:transition-all after:duration-300 cursor-pointer">
+                      <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-4 hover:after:w-[4.5rem] after:transition-all after:duration-300 cursor-pointer">
                         Resources
                       </li>
-                      <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-20 after:transition-all after:duration-300 cursor-pointer">
+                      <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-2 hover:after:w-20 after:transition-all after:duration-300 cursor-pointer">
                         Technology
                       </li>
                       <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-24 after:transition-all after:duration-300 cursor-pointer">
@@ -138,12 +143,12 @@ function Footer1() {
                     <div className="text-2xl font-bold mb-4">Focus</div>
 
                     <ul className="text-center">
-                    <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-40 after:transition-all after:duration-300 cursor-pointer">ERPNext Consultation</li>
-                    <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-44 after:transition-all after:duration-300 cursor-pointer">ERPNext Implementation</li>
-                    <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-44 after:transition-all after:duration-300 cursor-pointer">ERPNext Development</li>
-                    <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-44 after:transition-all after:duration-300 cursor-pointer">Headless Ecommerce with ERPNext</li>
-                    <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-44 after:transition-all after:duration-300 cursor-pointer">Websites with ERPNext</li>
-                    <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-44 after:transition-all after:duration-300 cursor-pointer">Third-Party Integrations</li>
+                    <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-8 hover:after:w-40 after:transition-all after:duration-300 cursor-pointer">ERPNext Consultation</li>
+                    <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-6 hover:after:w-44 after:transition-all after:duration-300 cursor-pointer">ERPNext Implementation</li>
+                    <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-8 hover:after:w-40 after:transition-all after:duration-300 cursor-pointer">ERPNext Development</li>
+                    <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-6 hover:after:w-44 after:transition-all after:duration-300 cursor-pointer">Headless Ecommerce with ERPNext</li>
+                    <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-8 hover:after:w-40 after:transition-all after:duration-300 cursor-pointer">Websites with ERPNext</li>
+                    <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-8 hover:after:w-40 after:transition-all after:duration-300 cursor-pointer">Third-Party Integrations</li>
                     </ul>
                   </div>
 
@@ -157,20 +162,20 @@ function Footer1() {
                       <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-24 after:transition-all after:duration-300 cursor-pointer">
                         Manufacturing
                       </li>
-                      <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-12 after:transition-all after:duration-300 cursor-pointer">
+                      <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-6 hover:after:w-14 after:transition-all after:duration-300 cursor-pointer">
                         Logistic
                       </li>
                       {/* <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-36 after:transition-all after:duration-300 cursor-pointer">Tele-Communication</li> */}
-                      <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-10 after:transition-all after:duration-300 cursor-pointer">
+                      <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-8 hover:after:w-10 after:transition-all after:duration-300 cursor-pointer">
                         Retail
                       </li>
-                      <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-20 after:transition-all after:duration-300 cursor-pointer">
+                      <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-2 hover:after:w-[5.5rem] after:transition-all after:duration-300 cursor-pointer">
                         Distribution
                       </li>
-                      <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-20 after:transition-all after:duration-300 cursor-pointer">
+                      <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-2 hover:after:w-[5.5rem] after:transition-all after:duration-300 cursor-pointer">
                         Automotive
                       </li>
-                      <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-12 after:transition-all after:duration-300 cursor-pointer">
+                      <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-6 hover:after:w-12 after:transition-all after:duration-300 cursor-pointer">
                         Startup
                       </li>
                     </ul>

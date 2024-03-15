@@ -16,12 +16,12 @@ function Ai2() {
 
 <div className='relative'>
     <img
-    className=' w-full md:h-[550px]'
+    className=' w-full md:h-[550px] '
     src='https://www.bhmpics.com/downloads/abstract-background-Wallpapers/19.v1016-c-08_1-ksh6mza3.jpg'
     />
      <div className="absolute inset-0 md:h-[550px] w-full bg-black bg-opacity-50 rounded-lg"></div>
      <div className='absolute top-1/2 left-[35%] transform -translate-x-1/2 -translate-y-1/2 md:left-[35%] md:w-[50%] lg:w-[50%] text-start text-white font-bold px-5'>
-  <h1 className='text-2xl md:text-4xl lg:text-4xl flext-wrapp' >
+  <h1 className='text-2xl md:text-4xl lg:text-4xl ' >
     Unlock the Power of Artificial Intelligence with 
     <a href="#" class="relative inline-block  btn-shine">"SpY D Technology"</a>
   </h1>
@@ -31,7 +31,7 @@ function Ai2() {
   .btn-shine {
       position: absolute;
       top: 85%;
-      left: 40%;
+      left: 80%;
       transform: translate(-50%, -50%);
       text-align: center;
       color: #fff;

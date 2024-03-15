@@ -50,7 +50,7 @@ function MicrosoftCRM() {
       <div className='' data-aos="fade-left">
         <div className='flex flex-wrap p-10 '>
           <div className='w-full md:w-1/3 lg:w-1/3 xl:w-1/3'>
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col  items-center">
               <img src={IMG2} className='mx-auto w-48 md:ml-20 p-4' alt="Image 2" />
               <p className='text-center'>Enhancing the existing functionality</p>
             </div>

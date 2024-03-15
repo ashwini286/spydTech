@@ -18,20 +18,20 @@ function Cyber() {
         <img 
           src='https://png.pngtree.com/thumb_back/fh260/back_our/20190623/ourmid/pngtree-blue-business-tech-business-card-background-image_239798.jpg'
           data-aos=""
-          className="inset-0 h-[80vh] w-full lg:w-full xl:w-full sm:w-full "
+          className="inset-0 h-[85vh] w-full lg:w-full xl:w-full sm:w-full "
           alt="Background 1"
         />
-        <div className="absolute inset-0 h-[80vh] w-full lg:w-full lg:max-w-none sm:w-full bg-black bg-opacity-50 rounded-lg"></div>
-        <div className='absolute top-1/2 left-[35%] transform -translate-x-1/2 -translate-y-1/2 md:left-[35%] md:w-[50%] lg:w-[50%] text-start text-white font-bold px-5'>
-        <div className='ml-[125%]'>
-        <div class="rounded-md h-12 w-12 border-4 border-t-4 border-blue-500 animate-spin absolute"></div>
-        <div class="rounded-md h-44 w-44 border-4 border-t-4 border-blue-500 animate-spin absolute"></div>
+        <div className="absolute inset-0 h-[85vh] w-full lg:w-full lg:max-w-none sm:w-full bg-black bg-opacity-50 rounded-lg"></div>
+        <div className=' absolute top-[40%] left-[35%] md:left-[40%] transform -translate-x-1/2 -translate-y-1/3  md:w-[80%] lg:w-[70%] text-start text-white font-bold px-5'>
+       <div className='ml-[100%]'>
+        <div class="rounded-md text-center h-12 w-12 border-4 border-t-4 border-blue-500 animate-spin absolute"></div>
+        <div class="rounded-md text-center h-24 w-24 border-4 border-t-4 border-blue-500 animate-spin absolute"></div>
         </div>
         
-          <h1 className='text-2xl md:text-4xl lg:text-4xl'>Welcome to <a  data-aos="fade-up-right"
+          <h1 className='relative text-xl md:text-xl lg:text-2xl'>Welcome to <a  data-aos="fade-up-right"
           className='text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-blue-800 to-white'>"SpY D Technology"</a> Cyber Security Solutions</h1>
-          <p className='text-xl'>"At Spy D Technology, we understand the critical importance of safeguarding your digital assets against evolving cyber threats.  </p>
-          <p className='text-lg md:w-[700px]'>" Our comprehensive cyber security solutions are designed to protect your business, your data,
+          <p className='text-lg md:text-lg'>"At Spy D Technology, we understand the critical importance of safeguarding your digital assets against evolving cyber threats.  </p>
+          <p className='text-lg md:text-lg md:w-3/2'>" Our comprehensive cyber security solutions are designed to protect your business, your data,
             and your reputation in an increasingly complex online landscape.".</p>
         </div>
       </div>

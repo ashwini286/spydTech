@@ -9,18 +9,18 @@ function Aiproducts() {
   return (
     <>
    
-<section class="bg-blue-600 py-20 w-full ">
-    <div class="container mx-auto px-4">
-        <div class="flex flex-col md:flex-row items-center justify-between ">
-            <div class="md:w-1/2 mb-8 md:mb-0">
-                <h1 class="text-white font-bold text-5xl leading-tight mb-6" data-aos="fade-up-right">SpY D Technology Discover's Best Ai Products</h1>
-                <p class="text-white text-xl mb-8" data-aos="fade-up-right">In addition to our AI solutions, we also offer a range of AI products designed to meet your specific business needs. Our AI products include:</p>
+<section class="bg-blue-600 py-20 px-2 ">
+    <div class="container">
+        <div class="flex flex-col md:flex-row items-start justify-between ">
+            <div class="md:w-1/2 w-3/4 mb-8 md:mb-0">
+                <h1 class="text-white font-bold text-4xl md:text-4xl leading-tight mb-6" data-aos="fade-up-right">SpY D Technology Discover's Best Ai Products</h1>
+                <p class="text-white  text-sm md:text-xl mb-8" data-aos="fade-up-right">In addition to our AI solutions, we also offer a range of AI products designed to meet your specific business needs. Our AI products include:</p>
                 <a href="#"
                     class="px-6 py-3 bg-white text-blue-600 font-bold rounded-full hover:bg-blue-700 transition duration-200" data-aos="fade-up-right"
                     >Explore more
                     now</a>
             </div>
-            <div class="w-full md:w-3/5 bg-gray-100" data-aos="fade-up-left">
+            <div class="w-1/2 md:w-1/2 bg-gray-100 md:justify-center" data-aos="fade-up-left">
             <div class="loader max-auto ">
   <div class="box box0">
     <div></div>

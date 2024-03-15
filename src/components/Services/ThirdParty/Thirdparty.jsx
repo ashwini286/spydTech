@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Navbarupp from "../../Home/Navbar/Navbarupp";
 import IMG from "../../assets/Blue.webp";
 import UniqueTeam13 from "../UniqueTeam/UniqueTeam13";
@@ -6,6 +8,9 @@ import Footer1 from "../UniqueTeam/Footer1";
 import { FaCheckCircle } from "react-icons/fa";
 
 function Thirdparty() {
+   useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
       <Navbarupp />
@@ -17,10 +22,10 @@ function Thirdparty() {
           alt="Background 2"
         />
         <div class="absolute inset-0 m-auto flex flex-col items-center justify-center w-[90%] md:w-[60%]">
-          <div class="text-4xl text-white font-bold w-full text-center">
+          <div class="text-4xl text-white font-bold w-full text-center" data-aos="fade-up-right">
           Third-Party Integrations
           </div>
-          <div class="text-xl text-white text-center my-4">
+          <div class="text-xl text-white text-center my-4" data-aos="fade-up-right" data-aos-delay="75">
           Building Cost-Effective Digital Business Capabilities around the
             ERPNext, focusing on the right balance of Digitization, Flexibility,
             and Process mapping.
@@ -29,11 +34,11 @@ function Thirdparty() {
       </div>
       <UniqueTeam13 />
     <div className="flex flex-col justify-center items-center  md:px-8">
-    <div className="text-center  text-2xl md:text-4xl tracking-wider pb-5 font-bold">
+    <div className="text-center  text-2xl md:text-4xl tracking-wider pb-5 font-bold" data-aos="fade-up-right" >
         What is Third-Party Integration?
       </div>
       <div>
-        <ul class="pb-5 pl-4 font-medium">
+        <ul class="pb-5 pl-4 font-medium" data-aos="fade-up-right">
           <li class="flex items-start lg:col-span-1">
             <div class="flex-shrink-0">
               <svg
@@ -104,12 +109,12 @@ function Thirdparty() {
       </div>
     </div>
 
-   <div className="flex flex-col justify-center items-center pt-4 md:px-8">
-   <h1 className="text-center  text-2xl md:text-4xl tracking-wider pb-5 font-bold">
+   <div className="flex flex-col justify-center items-center pt-4 md:px-8" data-aos="fade-up-right">
+   <h1 className="text-center  text-2xl md:text-4xl tracking-wider pb-5 font-bold" data-aos="fade-up-right">
         Benefits of Third-Party Integration With ERP System
       </h1>
       <div>
-        <ul class="pb-5 pl-4 font-medium">
+        <ul class="pb-5 pl-4 font-medium" data-aos="fade-up-right">
           <li class="flex items-start lg:col-span-1">
             <div class="flex-shrink-0">
               <svg
@@ -205,12 +210,12 @@ function Thirdparty() {
       </div>
    </div>
 
-    <div className="flex flex-col justify-center items-center pt-4 md:px-8 ">
-    <h1 className="text-center  text-2xl md:text-4xl tracking-wider pb-5 font-bold">
+    <div className="flex flex-col justify-center items-center pt-4 md:px-8 " data-aos="fade-up-right">
+    <h1 className="text-center  text-2xl md:text-4xl tracking-wider pb-5 font-bold" data-aos="fade-up-right">
         Cutting the Edge benefits with ERPNext
       </h1>
       <div>
-        <ul class="pb-5 pl-4 font-medium">
+        <ul class="pb-5 pl-4 font-medium" data-aos="fade-up-right">
           <li class="flex items-start lg:col-span-1">
             <div class="flex-shrink-0">
               <svg
@@ -237,11 +242,11 @@ function Thirdparty() {
 
     </div>
     <div className="flex flex-col justify-center  pt-4 md:px-8 ">
-    <div className="text-center text-2xl md:text-4xl tracking-wider pb-5 font-bold">
+    <div className="text-center text-2xl md:text-4xl tracking-wider pb-5 font-bold" data-aos="fade-up-right">
         ERPNext & Cutting the edge advantage:
       </div>
       <div>
-        <ul class="pb-5 pl-4 font-medium">
+        <ul class="pb-5 pl-4 font-medium" data-aos="fade-up-right">
           <li class="flex items-start lg:col-span-1">
             <div class="flex-shrink-0">
               <svg
@@ -304,7 +309,7 @@ function Thirdparty() {
 
 <div className="flex flex-col justify-center  pt-4 md:px-8">
     
-<div className="text-center  text-2xl md:text-4xl tracking-wider pb-5 font-bold ">
+<div className="text-center  text-2xl md:text-4xl tracking-wider pb-5 font-bold " data-aos="fade-up-right">
         Our Excellencies APIs (Third-Party & Custom) Integration Projects:
       </div>
       <div className="tracking-wider pb-5 pl-[40px]">
@@ -315,7 +320,7 @@ function Thirdparty() {
       </div>
 
       <div>
-        <ul class="pb-5 pl-4 font-medium">
+        <ul class="pb-5 pl-4 font-medium" data-aos="fade-up-right">
           <li class="flex items-start lg:col-span-1">
             <div class="flex-shrink-0">
               <svg

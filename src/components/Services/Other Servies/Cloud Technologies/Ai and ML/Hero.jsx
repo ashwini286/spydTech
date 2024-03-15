@@ -1,6 +1,11 @@
-import React from "react";
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Hero() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div className="hero bg-blue-900 relative h-full overflow-hidden font-montserrat">
       <div className="hero__title absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-5xl z-10">
@@ -37,12 +42,12 @@ function Hero() {
       
       <div className="container max-w-10xl p-10 mx-auto space-y-10 lg:px-8 lg:max-w-8xl text-white">
         <div className="">
-          <h2 className="text-3xl font-bold text-center sm:text-5xl">New Features</h2>
-          <p className="max-w-3xl mx-auto mt-4 text-xl text-center">Explore the latest features that enhance your learning experience and make it even more exciting.</p>
+          <h2 className="text-3xl font-bold text-center sm:text-5xl" data-aos="fade-up-right">Our Services</h2>
+          <p className="max-w-3xl mx-auto mt-4 text-xl text-center" data-aos="fade-up-right">Explore the latest features that enhance your learning experience and make it even more exciting.</p>
         </div>
         <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center ">
           <div>
-            <div className="mt-4 space-y-12">
+            <div className="mt-4 space-y-12"  data-aos="fade-up-right">
               <div className="flex">
                 <div className="flex-shrink-0">
                   <div className="flex items-center justify-center w-12 h-12 rounded-md dark:bg-emerald-400 dark:text-gray-900">
@@ -54,13 +59,13 @@ function Hero() {
                     </svg>
                   </div>
                 </div>
-                <div className="ml-4">
-                  <h4 className="text-lg font-medium leading">Advanced Learning Algorithms</h4>
-                  <p className="mt-2">Discover our improved learning algorithms that adapt to your preferences and provide even more personalized learning suggestions.</p>
+                <div className="ml-4" data-aos="fade-up-right">
+                  <h4 className="text-lg font-medium leading">Predictive Analytics</h4>
+                  <p className="mt-2">Anticipate future trends and make proactive decisions based on predictive analytics.</p>
                 </div>
               </div>
               <div className="flex">
-                <div className="flex-shrink-0">
+                <div className="flex-shrink-0"  data-aos="fade-up-right">
                   <div className="flex items-center justify-center w-12 h-12 rounded-md dark:bg-emerald-400 dark:text-gray-900">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-bookmark-plus">
                       <path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z"></path>
@@ -69,13 +74,13 @@ function Hero() {
                     </svg>
                   </div>
                 </div>
-                <div className="ml-4">
-                  <h4 className="text-lg font-medium leading">Interactive Learning Resources</h4>
-                  <p className="mt-2">Access an extensive library of interactive resources that make your learning journey engaging and interactive.</p>
+                <div className="ml-4" data-aos="fade-up-right">
+                  <h4 className="text-lg font-medium leading">Anomaly Detection</h4>
+                  <p className="mt-2">Identify unusual patterns or behaviors in your data to detect potential threats or opportunities.</p>
                 </div>
               </div>
               <div className="flex">
-                <div className="flex-shrink-0">
+                <div className="flex-shrink-0"  data-aos="fade-up-right">
                   <div className="flex items-center justify-center w-12 h-12 rounded-md dark:bg-emerald-400 dark:text-gray-900">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-video">
                       <path d="m22 8-6 4 6 4V8Z"></path>
@@ -83,13 +88,13 @@ function Hero() {
                     </svg>
                   </div>
                 </div>
-                <div className="ml-4">
-                  <h4 className="text-lg font-medium leading">Enhanced Video Streaming</h4>
-                  <p className="mt-2">Experience seamless video integration with enhanced streaming capabilities, providing a better and more uninterrupted learning experience.</p>
+                <div className="ml-4" data-aos="fade-up-right">
+                  <h4 className="text-lg font-medium leading">Recommendation Systems</h4>
+                  <p className="mt-2">Deliver personalized recommendations to your customers, increasing engagement and conversion rates.</p>
                 </div>
               </div>
               <div className="flex">
-                <div className="flex-shrink-0">
+                <div className="flex-shrink-0"  data-aos="fade-up-right">
                   <div className="flex items-center justify-center w-12 h-12 rounded-md dark:bg-emerald-400 dark:text-gray-900">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-file-question">
                       <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
@@ -98,14 +103,14 @@ function Hero() {
                     </svg>
                   </div>
                 </div>
-                <div className="ml-4">
-                  <h4 className="text-lg font-medium leading">Advanced Quiz Generation</h4>
-                  <p className="mt-2">Take your knowledge testing to the next level with advanced quiz generation, providing more customization options for your quizzes.</p>
+                <div className="ml-4" data-aos="fade-up-right">
+                  <h4 className="text-lg font-medium leading" data-aos="fade-up-right">Natural Language Processing</h4>
+                  <p className="mt-2">Analyze and interpret human language to extract valuable insights from text data.</p>
                 </div>
               </div>
             </div>
           </div>
-          <div aria-hidden="true" className="mt-10 lg:mt-0  ">
+          <div aria-hidden="true" className="mt-10 lg:mt-0  " data-aos="fade-up-right">
             <img width="600" height="600" src="https://images.unsplash.com/photo-1516542076529-1ea3854896f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHwxNHx8Y29tcHV0ZXJ8ZW58MHwwfHx8MTY5OTE3MDk1N3ww&ixlib=rb-4.0.3&q=80&w=1080" className="mx-auto h-full rounded-lg shadow-lg dark:bg-gray-500" style={{ color: 'transparent' }} />
           </div>
         </div>

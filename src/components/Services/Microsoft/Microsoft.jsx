@@ -28,18 +28,19 @@ function Microsoft() {
           <h1 className="text-2xl font-bold md:text-4xl py-4">
           Elevate Your Business with "SpY D Technologies" Microsoft Solutions
           </h1>
-          <p className="text-lg md:w-[700px]">
-            Welcome to Spyd Technology, where innovation meets expertise in
-            Microsoft technology solutions. With our comprehensive suite of
-            services, we empower businesses to unlock their full potential and
-            thrive in today's digital landscape. Explore how Spyd can transform
-            your business with Microsoft technology:
-          </p>
+         
         </div>
       </div>
+      <h1 className="text-xl  text-center py-5 pt-5 font-bold">
+             Where innovation meets expertise in
+            Microsoft technology solutions. With our comprehensive suite of
+            services, we empower businesses to unlock their full potential and
+            thrive in today's digital landscape. Explore how SpY D Technology can transform
+            your business with Microsoft technology:
+          </h1>
 
-      <div className='flex items-center justify-center py-8'>
-        <div className='text-center md:text-2xl text-xl md:pt-16 w-[850px] md:mt-8 font-bold'>Empower Your Business with Cutting-Edge Microsoft Solutions: <br /> <span className="text-blue-600 md:text-4xl text-2xl mx-auto border-b-2 border-cyan-800 w-1/2">  Transformative Technologies for Seamless Success </span> </div>
+      <div className='flex items-center justify-center '>
+        <div className='text-center md:text-2xl text-xl md:pt-16 w-[850px]  font-bold'>Empower Your Business with Cutting-Edge Microsoft Solutions: <br /> <span className="text-blue-600 md:text-4xl text-2xl mx-auto border-b-2 border-cyan-800 w-1/2">  Transformative Technologies for Seamless Success </span> </div>
       </div>
       {/* <div className='relative'>
   <img
@@ -62,7 +63,7 @@ function Microsoft() {
         business with Microsoft technology:
       </h1> */}
       
-
+     
       <div class="max-w-screen-xl mx-auto p-16">
         <div class="sm:grid lg:grid-cols-3 sm:grid-cols-2 gap-10">
           <div class="hover:bg-gray-900 hover:text-white transition duration-300 max-w-sm rounded overflow-hidden shadow-lg">

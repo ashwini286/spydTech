@@ -1,11 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import IMG from '../../assets/decore.png';
 
 const UniqueTeam = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
       <div className=' p-8'>
-        <div className='flex justify-center items-center flex-col lg:flex-row mb-10 '>
+        <div className='flex justify-center items-center flex-col lg:flex-row mb-10 ' data-aos="fade-up-right">
           <h1 className='text-3xl font-bold text-center w-full  pb-8'>Conceptualize, Design, and Deliver Exceptional Execution with <p className='text-blue-900'>Our ERPNext Consultancy</p><img
             className='w-[100%]' src={IMG} /></h1>
 

@@ -15,17 +15,20 @@ import Hero from "./Hero";
 
 
 function Machine() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
  
   return (
     <>
     <Navbarupp />
     <section className="relative w-full bg-black">
     {/* <img className="h-[50vh] w-full md:h-[550px] object-cover" src={IMG1} alt="Image 1" /> */}
-    <img className=" w-[100%] object-cover md:w-full " src={IMG2} alt="Image 2" />
-    <div className="space-y-2 z-10 absolute top-[45%] w-full text-center">
+    <img className=" w-[100%] object-cover md:h-[550px] h-[550px]  md:w-full " src={IMG2} alt="Image 2" />
+    <div className="space-y-2 z-10 absolute top-1/3 w-full text-center">
         <h1 className="font-light text-4xl md:text-2xl lg:text-6xl bg-gradient-to-r from-pink-600 via-purple-500 to-indigo-400 inline-block text-transparent 
-        bg-clip-text transform rotate-0 md:rotate-360" data-aos="fly-in-left">Machine Learning</h1>
-        <h3 className="font-light text-2xl text-white">Explore</h3>
+        bg-clip-text transform rotate-0 md:rotate-360" data-aos="fade-up-right">Welcome to "SpY D Technology" Machine Learning</h1>
+        <h3 className="font-light text-2xl text-white" data-aos="fade-up-right">At SpY D Technology, we are committed to revolutionizing the world of machine learning. Our cutting-edge technology is designed to empower businesses of all sizes to harness the power of data and make informed decisions that drive success.</h3>
     </div>
       <style jsx>{`
         .video-docker video {
@@ -112,24 +115,23 @@ data-aos="fade-out"
 class="relative flex flex-col items-center mx-auto lg:flex-row-reverse lg:max-w-5xl lg:mt-12 xl:max-w-6xl bg-gray-800 p-10">
 
     {/* <!-- Image Column --> */}
-    <div class="w-full   lg:w-full items-center   lg:h-auto">
-        <img class="h-full w-full md:mr-[50%]  md:w- object-cover md:ml-64 transform motion-safe:hover:scale-110 " src="https://www.tensorflow.org/static/site-assets/images/marketing/resources/edu-hero.svg" alt="Winding mountain road" />
+    <div class="w-full   lg:w-full items-end    lg:h-auto" data-aos="fade-up-right" >
+        <img class="h-full w-full md:mr-[50%] items-end  md:w-1/2 object-cover md:ml-[60%] transform motion-safe:hover:scale-110 " src="https://www.tensorflow.org/static/site-assets/images/marketing/resources/edu-hero.svg" alt="Winding mountain road" />
     </div>
     {/* <!-- Close Image Column --> */}
 
     {/* <!-- Text Column --> */}
     <div
-    data-aos="fade-in"
+    data-aos="fade-Zoom"
         class="max-w-lg bg-white md:max-w-2xl md:z-10 md:shadow-lg md:absolute md:top-0 md:mt-48 lg:w-3/5 lg:left-0 lg:mt-20 lg:ml-20 xl:mt-24 xl:ml-12 ">
         {/* <!-- Text Wrapper --> */}
         <div class="flex flex-col p-12 md:px-16">
-            <h2 class="text-2xl font-medium uppercase text-green-800 lg:text-4xl">Master in ML</h2>
+            <h2 class="text-2xl font-medium uppercase text-green-800 lg:text-4xl">Our Mission</h2>
             <p class="mt-4">
-            To become an expert in machine learning, you first need a strong foundation in four learning areas:
-             coding, math, ML theory, and how to build your own ML project from start to finish.
+            Our mission is simple: to democratize machine learning.
+             We believe that every business should have access to the tools and resources they need to thrive in today's data-driven world. 
             </p>
-            <p>Begin with TensorFlow's curated curriculums to improve these four skills, 
-              or choose your own learning path by exploring our resource library below.</p>
+            <p>That's why we've developed a range of innovative solutions that are accessible, affordable, and easy to implement.</p>
             {/* <!-- Button Container --> */}
             <div class="mt-8">
                 <a href="#"
@@ -148,9 +150,9 @@ class="relative flex flex-col items-center mx-auto lg:flex-row-reverse lg:max-w-
     <div class="mx-auto max-w-8xl px-6 lg:px-8">
       <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
         <div>
-          <h2 class="text-4xl font-semibold leading-8 tracking-tight text-indigo-600">The four areas of machine learning education</h2>
+          <h2 class="text-4xl font-semibold leading-8 tracking-tight text-indigo-600"  data-aos="fade-up-right">The four areas of machine learning education</h2>
         
-          <p class="mt-6 text-base leading-7 text-gray-600">When beginning your educational path, it's important to first understand how to learn ML. 
+          <p class="mt-6 text-base leading-7 text-gray-600"  data-aos="fade-up-right">When beginning your educational path, it's important to first understand how to learn ML. 
           We've broken the learning process into four areas of knowledge, with each area providing a foundational piece of the ML puzzle. 
           To help you on your path, we've identified books, videos, and online courses that will uplevel your abilities,
            and prepare you to use ML for your projects. Start with our guided curriculums designed to increase your knowledge, 
@@ -166,7 +168,7 @@ class="relative flex flex-col items-center mx-auto lg:flex-row-reverse lg:max-w-
           
            
           
-            <div class="relative pl-9">
+            <div class="relative pl-9"  data-aos="fade-up-right">
               <dt class="font-semibold text-gray-900">
                 <svg class="absolute top-1 left-0 h-5 w-5 text-indigo-500" x-description="Heroicon name: mini/check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
   <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd"></path>
@@ -177,7 +179,7 @@ Coding skills:
                parameter tuning, and parsing results needed to test and optimize your model.</dd>
             </div>
           
-            <div class="relative pl-9">
+            <div class="relative pl-9"  data-aos="fade-up-right">
               <dt class="font-semibold text-gray-900">
                 <svg class="absolute top-1 left-0 h-5 w-5 text-indigo-500" x-description="Heroicon name: mini/check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
   <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd"></path>
@@ -188,7 +190,7 @@ Math and stats:
                familiarity with the underlying math concepts is crucial to the process.</dd>
             </div>
           
-            <div class="relative pl-9">
+            <div class="relative pl-9"  data-aos="fade-up-right">
               <dt class="font-semibold text-gray-900">
                 <svg class="absolute top-1 left-0 h-5 w-5 text-indigo-500" x-description="Heroicon name: mini/check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
   <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd"></path>
@@ -199,7 +201,7 @@ ML theory:
                and help you troubleshoot when something goes wrong.</dd>
             </div>
           
-            <div class="relative pl-9">
+            <div class="relative pl-9"  data-aos="fade-up-right">
               <dt class="font-semibold text-gray-900">
                 <svg class="absolute top-1 left-0 h-5 w-5 text-indigo-500" x-description="Heroicon name: mini/check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
   <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd"></path>

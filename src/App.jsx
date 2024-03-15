@@ -122,7 +122,7 @@ const App = () => {
 
 
           <Route path="/Advanced Technologies" element={<AIandML />} />
-          <Route path="/Ai" element={<Ai />} />
+          {/* <Route path="/Ai" element={<Ai />} /> */}
           <Route path="/Ai2" element={<Ai2 />} />
           <Route path="/machine" element={<Machine />} />
           

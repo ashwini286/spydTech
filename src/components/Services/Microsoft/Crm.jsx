@@ -7,7 +7,7 @@ function Crm() {
       <div className="container w-full  p-6 mx-auto space-y-6 md:max-w-2xl lg:px-8 lg:max-w-7xl overflow-hidden">
         <div>
          
-          <p className="max-w-5xl mx-auto mt-4 md:text-2xl text-lg text-center font-bold pb-4">Welcome to the future of customer relationship management with Microsoft Dynamics CRM, powered by "SpY D Technology".
+          <p className="max-w-5xl mx-auto mt-4 md:text-2xl text-lg text-center font-bold pb-4">The future of customer relationship management with Microsoft Dynamics CRM, powered by "SpY D Technology".
          Our innovative solutions are designed to empower businesses of all sizes to build stronger customer connections, streamline processes, and drive growth. Explore how Microsoft Dynamics CRM can transform your business:
    </p>
         </div>

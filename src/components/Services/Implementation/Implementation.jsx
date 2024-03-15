@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { Card, CardBody, CardHeader } from "@material-tailwind/react";
 import Navbarupp from "../../Home/Navbar/Navbarupp";
 import Footer1 from "../UniqueTeam/Footer1";
@@ -24,6 +26,9 @@ import { Bs7Circle } from "react-icons/bs";
 import { Bs8Circle } from "react-icons/bs";
 
 const Implementation = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
       <Navbarupp />
@@ -43,11 +48,11 @@ const Implementation = () => {
           alt="Background 2"
           style={{filter:"brightness(90%)"}}
         />
-        <div class="absolute inset-0 m-auto flex flex-col items-center justify-center w-[90%] md:w-[60%]">
-          <div class="text-4xl text-white font-bold w-full text-center">
+        <div  class="absolute inset-0 m-auto flex flex-col items-center justify-center w-[90%] md:w-[60%]">
+          <div class="text-4xl text-white font-bold w-full text-center" data-aos="fade-up-right">
           ERPNext Implementation
           </div>
-          <div class="text-xl text-white text-center my-4">
+          <div class="text-xl text-white text-center my-4" data-aos="fade-up-right">
           Building Cost-Effective Digital Business Capabilities around the ERPNext, 
         focusing on the right balance of Digitization, Flexibility, and Process mapping.
           </div>
@@ -243,19 +248,19 @@ const Implementation = () => {
       </div>
 
       <div className="container mx-auto mt-10">
-        <h1 className="text-3xl font-bold mb-8">Implementation Services</h1>
+        <h1 className="text-3xl font-bold mb-8" data-aos="fade-up-right">Implementation Services</h1>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Card 1 */}
           <Card>
-            <CardHeader color="blue" contentPosition="top">
+            <CardHeader color="blue" contentPosition="top" data-aos="fade-up-right">
               <img
                 src="https://veritis.com/wp-content/uploads/2020/11/portfolio-of-cloud-implementation-services-1.jpg"
                 alt="Card Image"
                 className="w-full h-52 object-cover"
               />
             </CardHeader>
-            <CardBody>
+            <CardBody data-aos="fade-up-right">
               <h2 className="text-xl font-semibold mb-2">
                 Cloud Implementation
               </h2>
@@ -268,14 +273,14 @@ const Implementation = () => {
 
           {/* Card 2 */}
           <Card>
-            <CardHeader color="green" contentPosition="top">
+            <CardHeader color="green" contentPosition="top" data-aos="fade-up-right">
               <img
                 src="https://www.acumatica.com/media/2022/11/erp_implementaion_process_v1.webp"
                 alt="Card Image"
                 className="w-full h-52 object-cover"
               />
             </CardHeader>
-            <CardBody>
+            <CardBody data-aos="fade-up-right">
               <h2 className="text-xl font-semibold mb-2">ERP Implementation</h2>
               <p className=" text-black">
                 Implement state-of-the-art Enterprise Resource Planning systems
@@ -286,14 +291,14 @@ const Implementation = () => {
 
           {/* Card 3 */}
           <Card>
-            <CardHeader color="red" contentPosition="top">
+            <CardHeader color="red" contentPosition="top" data-aos="fade-up-right">
               <img
                 src="https://www.intellectsoft.net/blog/wp-content/uploads/Enterprise-System-Integration-min.jpg"
                 alt="Card Image"
                 className="w-full h-52 object-cover"
               />
             </CardHeader>
-            <CardBody>
+            <CardBody data-aos="fade-up-right">
               <h2 className="text-xl font-semibold mb-2">
                 Software Integration
               </h2>
