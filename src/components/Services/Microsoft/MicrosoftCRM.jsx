@@ -22,25 +22,25 @@ function MicrosoftCRM() {
     <>
       <Navbarupp />
 
-  <div className='relative'>
+      <div className="relative">
         <img
-          className='w-full h-[85vh] rounded-b-2xl'
+          className="w-full h-[85vh] rounded-b-2xl"
           src="https://cdn1.interfaz.io/wp-content/uploads/2023/03/Microsoft_Dynamics365_blog-1170x617.jpg"
         />
-         <div class="absolute inset-0 h-[85vh] bg-black bg-opacity-50 rounded-b-2xl"></div>
-         <div className='absolute -mt-[20%] text-4xl text-white font-bold p-10' data-aos="fade-up">
-          <h1>Revolutionize Customer Relationships with Microsoft Dynamics CRM by "SpY D Technology"</h1>
-        <a></a>
+        <div class="absolute inset-0 h-[85vh] bg-black bg-opacity-50 rounded-b-2xl"></div>
+        <div
+          className="absolute -mt-[20%] text-4xl text-white font-bold p-10"
+          data-aos="fade-up"
+        >
+          <h1>
+            Revolutionize Customer Relationships with Microsoft Dynamics CRM by
+            "SpY D Technology"
+          </h1>
+          <a></a>
         </div>
-
       </div>
 
-
-     
-
-     
-
-     <Crm />
+      <Crm />
 
 
 
@@ -50,88 +50,97 @@ function MicrosoftCRM() {
       <div className='' data-aos="fade-left">
         <div className='flex flex-wrap p-10 '>
           <div className='w-full md:w-1/3 lg:w-1/3 xl:w-1/3'>
-            <div className="flex flex-col  items-center">
+            <div className="flex flex-col items-center">
               <img src={IMG2} className='mx-auto w-48 md:ml-20 p-4' alt="Image 2" />
               <p className='text-center'>Enhancing the existing functionality</p>
             </div>
-            <div className="w-full md:w-1/3 lg:w-1/3 xl:w-1/3">
-              <div className="flex flex-col items-center">
+
+            <div className="flex justify-center items-center flex-col gap-4">
+              <div>
+                {" "}
                 <img
                   src={IMG3}
                   className="mx-auto w-48 md:ml-20 p-4"
-                  alt="Image 3"
+                  alt="Image 2"
                 />
-                <p className="text-center">
-                  Increase in-house capability to deploy single tenant and
-                  multi-tenant solutions
-                </p>
+              </div>
+              <div className="text-center">
+                {" "}
+                Increase in-house capability to deploy single tenant and
+                multi-tenant solutions
               </div>
             </div>
-            <div className="w-full md:w-1/3 lg:w-1/3 xl:w-1/3">
-              <div className="flex flex-col items-center">
+
+            <div className="flex justify-center items-center flex-col gap-4">
+              <div>
+                {" "}
                 <img
                   src={IMG4}
-                  className="mx-auto w-48 md:ml-20 p-4"
-                  alt="Image 4"
+                  className="mx-auto w-48 md:ml-20 p-4 "
+                  alt="Image 2"
                 />
-                <p className="text-center">
-                  Offer user-friendly design with special settings installation
-                </p>
+              </div>
+              <div className="text-center">
+                {" "}
+                Offer user-friendly design with special settings installation
               </div>
             </div>
-          </div>
-          <div className="flex flex-wrap p-10 ">
-            <div className="w-full md:w-1/3 lg:w-1/3 xl:w-1/3">
-              <div className="flex flex-col items-center">
+
+            <div className="flex justify-center items-center flex-col gap-4">
+              <div>
+                {" "}
                 <img
                   src={IMG5}
                   className="mx-auto w-48 md:ml-20 p-4"
-                  alt="Image 5"
+                  alt="Image 2"
                 />
-                <p className="text-center">
-                  Provide workflow customizations specific to your company’s
-                  business processes
-                </p>
+              </div>
+              <div className="text-center">
+                {" "}
+                Provide workflow customizations specific to your company’s
+                business processes
               </div>
             </div>
-            <div className="w-full md:w-1/3 lg:w-1/3 xl:w-1/3">
-              <div className="flex flex-col items-center">
+
+            <div className="flex justify-center items-center flex-col gap-4">
+              <div>
+                {" "}
                 <img
                   src={IMG6}
                   className="mx-auto w-48 md:ml-20 p-4"
-                  alt="Image 6"
+                  alt="Image 2"
                 />
-                <p className="text-center">
-                  Extending the solutions to WCF web services
-                </p>
+              </div>
+              <div className="text-center">
+                {" "}
+                Extending the solutions to WCF web services
               </div>
             </div>
-            <div className="w-full md:w-1/3 lg:w-1/3 xl:w-1/3">
-              <div className="flex flex-col items-center">
+
+            <div className="flex justify-center items-center flex-col gap-4">
+              <div>
+                {" "}
                 <img
                   src={IMG7}
                   className="mx-auto w-48 md:ml-20 p-4"
-                  alt="Image 7"
+                  alt="Image 2"
                 />
-                <p className="text-center ">
-                  Offer advanced customization that requires integration with
-                  third-party solutions
-                </p>
+              </div>
+              <div className="text-center">
+                {" "}
+                Offer advanced customization that requires integration with
+                third-party solutions
               </div>
             </div>
           </div>
         </div>
       </div>
-      </div>
 
-
-
-
-      
-<div class="w-full max-w-2xl my-4 mx-auto">
-
-<div class="border-2 border-indigo-500 p-4 md:p-6 rounded-lg text-center">
-    <h2 class="text-2xl md:text-3xl font-bold mb-4" data-aos="fade-up">Microsoft CRM</h2>
+      <div class="w-full max-w-2xl my-4 mx-auto">
+        <div class="border-2 border-indigo-500 p-4 md:p-6 rounded-lg text-center">
+          <h2 class="text-2xl md:text-3xl font-bold mb-4" data-aos="fade-up">
+            Microsoft CRM
+          </h2>
 
           <p class="text-lg mb-4 text-gray-700" data-aos="fade-down">
             <strong>SpY D Technology</strong>.
@@ -162,7 +171,7 @@ function MicrosoftCRM() {
       >
         The key benefits of CRM solutions include
       </h1>
-      <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-start md:ml-10">
+      <div className="flex flex-col gap-4 lg:flex-row items-center justify-center lg:justify-start md:ml-10">
         <img
           src={IMG8}
           className="p-5 lg:pl-0"
@@ -207,7 +216,7 @@ function MicrosoftCRM() {
           </div>
         </div>
       </div>
-      <div class="min-h-screen flex flex-col p-8 sm:p-16 md:p-24 justify-center bg-white">
+      <div class="min-h-screen flex flex-col gap-4 p-8 sm:p-16 md:p-24 justify-center bg-white">
         <div data-theme="teal" class="mx-auto max-w-6xl">
           <h2 class="sr-only" data-aos="fade-down">
             Featured case study

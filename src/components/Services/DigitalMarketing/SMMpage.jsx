@@ -39,21 +39,21 @@ function SMMpage() {
           low-cost budgeting: Facebook, Instagram & LinkedIn{" "}
         </div>
       </div>
-      <div className=" text-center p-10 space-y-4" data-aos="fade-up">
-        <h1 className="text-3xl font-bold">
+      <div className=" text-center md:p-10 space-y-4" data-aos="fade-up">
+        <h1 className="text-3xl font-bold py-8">
           WE CAN{" "}
           <span className='text-blue-600 text-4xl mx-auto border-b-2 border-cyan-800 w-1/2"'>
             HELP YOU OUT!
           </span>
         </h1>
 
-        <div className="bg-[#2b2d42] rounded-xl">
-          <div className="flex flex-col md:flex-row  items-center justify-center">
+        <div className="bg-[#2b2d42] rounded-xl w-full">
+          <div className="flex flex-col md:flex-row  items-center justify-center ">
             <div
-              className="md:w-[720px] pt-8 w-full md:h-[500px] text-center md:text-left flex flex-row items-center justify-center "
+              className="md:w-[720px] pt-8  md:h-[500px] text-left flex flex-row items-center justify-center "
               data-aos="fade-up"
             >
-              <div className=" text-white w-full">
+              <div className=" text-white w-full pl-4">
                 <div>
                   The pervasive influence of social media on the lives of
                   individuals worldwide, including those in Cyprus, is
