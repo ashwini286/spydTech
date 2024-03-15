@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
 import Navbarupp from "../../../Home/Navbar/Navbarupp";
-import ApprochUs from "../../../Home/APProchUs/Approch";
 
 import CarouselComponent from "./CarouselComponent";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Client2 from "../../../Home/WhatClientSay/Client2";
+import Approch from "../../../Home/APProchUs/Approch"
 
 function Cyber() {
   useEffect(() => {
@@ -244,7 +244,7 @@ function Cyber() {
       </div>
 
       <Client2 />
-      <ApprochUs />
+      <Approch />
     </>
   );
 }

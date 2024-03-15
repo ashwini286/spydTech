@@ -7,7 +7,7 @@ import LogoFull from "../../assets/spylogo1.png";
 import { LuMapPin } from "react-icons/lu";
 import { FiPhoneCall } from "react-icons/fi";
 import { MdOutlineMarkEmailRead } from "react-icons/md";
-import SocialIcons from "./Socialicons";
+import SocialIcons from "./SocialIcon";
 const ApprochUs = () => {
   return (
     <>
