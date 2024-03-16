@@ -23,7 +23,9 @@ const HybridApp = () => {
         alt="Background Image"
       />
       <div className='md:px-16 px-4 py-4' data-aos="fade-up">
-        <div><h1 className='text-black  text-3xl text-center'>Hybrid Mobile Application Development</h1></div>
+      <div className='flex items-center justify-center pt-8'>
+        <div className='text-center md:text-2xl text-xl w-[850px]  font-bold'>Empowering Innovation: <br /> <span className="text-[#14213d] md:text-4xl text-2xl mx-auto border-b-2 border-[#14213d] w-1/2"> Unleashing the Potential of Hybrid Mobile App Development</span> </div>
+      </div>
         <br />
         <p className='text-black pt-4' data-aos="fade-down">
           Hybrid mobile applications are those applications that run seamlessly across multiple operating systems including but not limited to Android, IOS making it the most popular app in the world.
