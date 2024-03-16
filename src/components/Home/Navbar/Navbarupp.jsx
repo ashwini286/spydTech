@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 // import { useWindowScroll } from 'react-use';
 import { useLocation } from 'react-router-dom';
 import { FaAngleRight  } from "react-icons/fa6";
+import { FaPerson } from "react-icons/fa6";
 import {
   Navbar,
   Collapse,
@@ -271,7 +272,7 @@ const companyMenu = [
   },
   {
     title: "What makes us different",
-    color: "green",
+    color: "cyan",
     icon: DvrOutlinedIcon,
 
   },
@@ -279,6 +280,12 @@ const companyMenu = [
     title: "Our Core Values",
     color: 'blue',
     icon: ModelTrainingRoundedIcon,
+
+  },
+  {
+    title: "Staffing-Services",
+    color: 'orange',
+    icon: FaPerson ,
 
   },
 ]
@@ -338,21 +345,21 @@ function Company({ isSticky }) {
               />
               <ChevronDownIcon
                 strokeWidth={2.5}
-                className={`block h-3 w-3 transition-transform lg:hidden ${isMobileMenuOpen ? "rotate-180" : ""
+                className={`block h-3 w-6 transition-transform lg:hidden ${isMobileMenuOpen ? "rotate-180" : ""
                   }`}
               />
             </ListItem>
           </Typography>
         </MenuHandler>
-        <MenuList className="hidden max-w-screen-xl lg:block">
-          <ul className="grid grid-cols-1 gap-y-2 md:grid-cols-2 lg:grid-cols-4 md:overflow-x-auto overflow-x-auto">
+        <MenuList className="hidden max-w-screen-2xl lg:block">
+          <ul className="grid grid-cols-1 gap-y-2 md:grid-cols-2 lg:grid-cols-5 md:overflow-x-auto overflow-x-auto">
             {renderItems}
           </ul>
         </MenuList>
       </Menu>
       <div className="block lg:hidden">
         <Collapse open={isMobileMenuOpen}>
-          <div className="grid grid-cols-1 gap-y-2 md:grid-cols-2 lg:grid-cols-4 md:overflow-y-auto bg-white">
+          <div className="grid grid-cols-1 gap-y-2 md:grid-cols-2 lg:grid-cols-5 md:overflow-y-auto bg-white">
             {renderItems}
           </div>
         </Collapse>
