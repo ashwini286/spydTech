@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Navbarupp from "../../Home/Navbar/Navbarupp";
 import Backend1 from '../../assets/backend/backend.png'
 import Java from './Java/Java';
@@ -8,6 +10,13 @@ import Help from './HowSpydTechHelp/Help'
 import Approch from '../../Home/APProchUs/Approch';
 
 const Backend = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+ 
   return (
     <>
      <div>

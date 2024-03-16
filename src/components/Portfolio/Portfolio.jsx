@@ -1,10 +1,19 @@
-import React from "react";
+import React, { useEffect } from 'react'
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Navbarupp from "../Home/Navbar/Navbarupp";
 import Card from "./Card";
 import Approch from "../Home/APProchUs/Approch";
 
 
 const Portfolio = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
      <div>

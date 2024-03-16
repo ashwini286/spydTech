@@ -24,6 +24,13 @@ import Footer3 from "../../UniqueTeam/Footer3"
 
 
 function Amazon() {
+    useEffect(() => {
+        AOS.init();
+      }, []);
+    
+      useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
    
     return (
         <>

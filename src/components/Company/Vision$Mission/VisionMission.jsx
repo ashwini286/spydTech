@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Navbarupp from "../../Home/Navbar/Navbarupp";
 import VerifiedOutlinedIcon from '@mui/icons-material/VerifiedOutlined';
 import Approch from '../../Home/APProchUs/Approch';
@@ -6,6 +8,13 @@ import Approch from '../../Home/APProchUs/Approch';
 import Mision from '../../assets/vision&Mision/mission1.jpg'
 import { Link } from 'react-router-dom';
 const VisionMission = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
      <div>

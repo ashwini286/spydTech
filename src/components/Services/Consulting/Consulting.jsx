@@ -16,6 +16,9 @@ const Consulting = () => {
   useEffect(() => {
     AOS.init();
   }, []);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <>

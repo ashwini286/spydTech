@@ -6,6 +6,9 @@ const AngularJs = () => {
     useEffect(() => {
         AOS.init();
     });
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     return (
         <>  <>
             <div className='flex flex-col md:flex-row  items-center justify-center'>

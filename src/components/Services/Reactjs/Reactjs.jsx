@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from "react";
 import Navbarupp from "../../Home/Navbar/Navbarupp";
 import Development from '../Reactjs/ReactDevelopmentCompany/Development';
 import Benefits from './ReactImmenseBenefits/Benefits';
@@ -7,6 +7,9 @@ import Benefits from './ReactImmenseBenefits/Benefits';
 import Approch from '../../Home/APProchUs/Approch';
 
 const Reactjs = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <>
