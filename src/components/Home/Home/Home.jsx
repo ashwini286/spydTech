@@ -20,6 +20,11 @@ const Home = () => {
     AOS.init();
   }, []);
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+
   return (
     <>
       <Navbarupp />

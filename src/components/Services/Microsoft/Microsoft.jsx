@@ -9,10 +9,15 @@ import IMG3 from "../../assets/Microsoft/DotNet.png";
 import { Link } from "react-router-dom";
 import IMG4 from "../../assets/Microsoft/power-bi2.png";
 
+
 function Microsoft() {
   useEffect(() => {
     AOS.init();
   });
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <Navbarupp />
@@ -326,7 +331,7 @@ function Microsoft() {
       <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div class="relative isolate overflow-hidden bg-blue-800 px-6 py-24 shadow-2xl sm:rounded-3xl sm:px-24 xl:py-32">
           <h2 class="mx-auto max-w-2xl text-center text-3xl font-bold tracking-tight text-white sm:text-4xl">
-            Experience the power of Microsoft technology with Spyd Technology by
+            Experience the power of Microsoft technology with SpY D Technology by
             your side. Get Started Today!
           </h2>
           <p class="mx-auto mt-2 max-w-xl text-center text-lg leading-8 text-gray-200">
