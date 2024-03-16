@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react'
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Hero from '../../assets/Java/python.png';
 import Navbarupp from "../../Home/Navbar/Navbarupp";
 import PythonAppDevelopment from './PythonAppDevelopment/PythonAppDevelopment';
@@ -6,6 +8,13 @@ import PythonExpertise from './PythonExpertise/pythonExpertise';
 import Approch from '../../Home/APProchUs/Approch';
 
 const Python = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
      <div>

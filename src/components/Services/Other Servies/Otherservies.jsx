@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Navbarupp from '../../Home/Navbar/Navbarupp'
 import Approch from '../../Home/APProchUs/Approch'
 import { SiOpenai } from "react-icons/si";
@@ -7,6 +9,13 @@ import { IoSettingsOutline } from "react-icons/io5";
 import { CiLock } from "react-icons/ci";
 
 function Otherservies() {
+    useEffect(() => {
+        AOS.init();
+      }, []);
+    
+      useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
   return (
     <>
     <Navbarupp />

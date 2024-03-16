@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Navbarupp from "../../Home/Navbar/Navbarupp";
 import IMG from "../../assets/e-commerce-Mobile.webp";
 import Approch from "../../Home/APProchUs/Approch";
@@ -12,6 +14,13 @@ import { PiNumberSix } from "react-icons/pi";
 import IMG23 from "../../assets/MOBILEanimation.gif";
 
 function MobileCommerce() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Navbarupp />
@@ -22,7 +31,7 @@ function MobileCommerce() {
           alt="Background Image"
         />
       </div>
-      <div className="flex items-center justify-center pt-8">
+      <div className="flex items-center justify-center pt-8" data-aos="fade-up-right">
         <div className="text-center text-2xl md:pt-16 w-[850px] md:mt-8 font-bold ">
         Elevate Your Shopping Experience with Seamless E-Commerce{" "}
           <span className="text-blue-600 text-4xl mx-auto border-b-2 border-cyan-800 w-1/2">
@@ -33,34 +42,34 @@ function MobileCommerce() {
       </div>
       <div className="flex  flex-row-reverse md:flex-col">
         <div className="p-5 grid  md:grid-flow-col-dense ">
-          <div>
+          <div data-aos="fade-up-right">
             <img src={IMG23} className="sm:pl-8 w-[80%] h-[30rem]" />
           </div>
 
           <div className="sm:w-full lg:mt-8 text-left mt-4 space-y-3   text-black pl-4">
-            <p>
+            <p data-aos="fade-up-right">
               India is the fastest growing country in E-Commerce niche with
               revenue expected to surpass US$ 120 Billion by 2020.
             </p>
-            <p>
+            <p data-aos="fade-up-right">
               About 65 Crore Indians use mobile phone and about 30 Crores of
               them use smart phone, which is expected to grow to 53 Crore smart
               phones users by the end 2019.
             </p>
-            <p>
+            <p data-aos="fade-up-right">
               And increasing number of start-ups coming up in India in
               E-Commerce sector offering virtually everything online from
               apparels, electronic, home appliance, medicines and food, mobile
               commerce is posed to play a significant role in driving overall
               e-commerce growth in India.
             </p>
-            <p>
+            <p data-aos="fade-up-right">
               We at SpyD technology have hired, trained and nurtured exceptional
               talented manpower to meet the growing demands of M-Commerce. We
               offer turnkey solutions by bundling E-Commerce and M-Commerce to
               ensure the products are accessible to users on multiple platforms.
             </p>
-            <p>
+            <p data-aos="fade-up-right">
               We offer Mobile Commerce solutions for native operating systems
               such as Android, IOS and also build hybrid apps accessible on
               multiple devices irrespective of the operating system. Our time
@@ -72,20 +81,20 @@ function MobileCommerce() {
         </div>
       </div>
       <div className="bg-[#2dd4bf] w-[100%] p-5">
-        <h1 className="text-white text-4xl ml-[0%] text-center tracking-widest pb-2">
+        <h1 className="text-white text-4xl ml-[0%] text-center tracking-widest pb-2" data-aos="fade-up-right">
           Mobile eCommerce
         </h1>
-        <p className="text-white text-1xl ml-[0%] text-center tracking-widest pb-10">
+        <p className="text-white text-1xl ml-[0%] text-center tracking-widest pb-10" data-aos="fade-up-right">
           as per with latest technology
         </p>
         <div className="w-full text-left space-y-2 text-white pt-5 pl-4 tracking-wide">
-          <p className="sm:line-clamp-3">
+          <p className="sm:line-clamp-3" data-aos="fade-up-right">
             Expertise mobile commerce solutions fully integrates with your
             existing e Commerce website that includes product catalogue,
             inventory, shipping methods, payments and checkout as well as all
             other functionalities.
           </p>
-          <p className="sm:pl-7.5">
+          <p className="sm:pl-7.5" data-aos="fade-up-right">
             Designing a new store & integrating your existing online store with
             a mobile app with e Commerce features, helps you with the perfect
             solution for your business. If you are looking at expanding your
@@ -99,11 +108,11 @@ function MobileCommerce() {
       </div>
       <div className="grid lg:grid-flow-col pl-4">
         <div className="">
-          <img src={IMG1} className="w-[80%] h-[100%] text-center pl-8" />
+          <img src={IMG1} className="w-[80%] h-[100%] text-center pl-8" data-aos="fade-up-right" />
         </div>
         <div className="">
-          <div className="grid sm:grid-flow-row lg:grid-flow-row pb-4">
-            <h1 className="text-2xl lg:mt-16 pt-2  pl-4 ml-2">
+          <div className="grid sm:grid-flow-row lg:grid-flow-row pb-4" data-aos="fade-up-right">
+            <h1 className="text-2xl lg:mt-16 pt-2  pl-4 ml-2" >
               Our Mobile Commerce Development Services Include
             </h1>
 

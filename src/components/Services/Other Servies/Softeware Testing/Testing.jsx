@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import AOS from "aos";
+import "aos/dist/aos.css";
 import IMG1 from "../../../assets/Software testing/testing-1.png"
 import Navbarupp from '../../../Home/Navbar/Navbarupp'
 import IMG2 from "../../../assets/Software testing/etl-testing-introduction2.png"
@@ -8,6 +10,13 @@ import IMG4 from "../../../assets/Software testing/QA testing2.png"
 import IMG5 from "../../../assets/Software testing/Manual testing 1.png"
 
 function Testing() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
     <Navbarupp />

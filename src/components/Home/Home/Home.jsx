@@ -71,7 +71,9 @@ const Home = () => {
                   >
                     Contact Us
                   </Button>
+                  
                 </div>
+              
               </div>
             </div>
           </div>
@@ -238,16 +240,15 @@ const Home = () => {
                   color="white"
                   className="text-2xl md:text-5xl font-bold mb-4"
                 >
-                  Mobility Solutions with Cutting Edge Technologies
+                 Empower Your Business with Artificial Inteligency,cloud technologies and testing solutions
                 </Typography>
                 <Typography
                   variant="lead"
                   color="white"
                   className="text-sm md:text-xl mb-8 opacity-80 font-sans"
                 >
-                  Our Core Expertise is in ideating, conceptualizing, designing,
-                  developing and deploying state-of-the-art mobile applications
-                  for Android, IOS and Hybrid Platforms.
+                 Our SpY D technology expert in Artificial Inteligency and cloud technologies.
+We give the soloutions for the software testing.
                 </Typography>
                 <div className="flex flex-col md:flex-row gap-4 ">
                   <Button

@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from 'react'
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Navbarupp from "../../Home/Navbar/Navbarupp";
 import PhpSolution from "./PhpWebDevloSolution/PhpSolution";
 import TechnicalSkills from "./TechnicalSkills/TechnicalSkills";
@@ -6,6 +8,13 @@ import Approch from "../../Home/APProchUs/Approch";
 
 import IMG from "../../assets/PhpImg/TechnicalSkill/0_fzIHZCdJmB6Y_8GC.webp";
 const Php = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <div>

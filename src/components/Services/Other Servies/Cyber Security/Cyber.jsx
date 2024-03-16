@@ -1,15 +1,20 @@
-import React, { useEffect } from "react";
+import React, { useEffect } from 'react'
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Navbarupp from "../../../Home/Navbar/Navbarupp";
 
 import CarouselComponent from "./CarouselComponent";
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 import Client2 from "../../../Home/WhatClientSay/Client2";
 import Approch from "../../../Home/APProchUs/Approch"
 
 function Cyber() {
   useEffect(() => {
     AOS.init();
+  }, []);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
   }, []);
   return (
     <>
