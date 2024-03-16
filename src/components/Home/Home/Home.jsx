@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Carousel } from "@material-tailwind/react";
 import { Typography, Button } from "@material-tailwind/react";
 import Navbarupp from "../Navbar/Navbarupp";
@@ -15,6 +15,7 @@ import IMG2 from "../../assets/Main2.avif";
 import IMG3 from "../../assets/Main3.webp";
 import Welcome from "./Welcom";
 import ChatBot from "./ChatBot";
+import Loading from "./Loading";
 const Home = () => {
   useEffect(() => {
     AOS.init();
@@ -23,13 +24,27 @@ const Home = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+  const [isLoading, setIsLoading] = useState(true);
 
+  useEffect(() => {
+    // Simulate a delay to mimic loading
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 2000); // Adjust the delay as needed
+
+    return () => clearTimeout(timer);
+  }, []);
 
   return (
     <>
-      <Navbarupp />
-
-      <div className=" max-w-screen mx-auto min-h-screen relative">
+    
+    {isLoading ? (
+      <Loading />
+    ) : (
+     
+      <div>
+         <Navbarupp />
+       <div className=" max-w-screen mx-auto min-h-screen relative">
         <Carousel className=" w-[100%] mx-auto top-0 ">
           <div className="flex relative  h-screen items-center justify-center">
             <img
@@ -273,19 +288,14 @@ We give the soloutions for the software testing.
           </div>
         </Carousel>
       </div>
-
-      <Welcome />
-      <Services1 />
-
-      <OurWorks />
-      <WhatClientSay />
-      <Industry />
-      <div>
+        {/* <Welcome /> */}
+        <Services1 />
+        <OurWorks />
+        <WhatClientSay />
+        <Industry />
+        <ApprochUs />
         <ChatBot />
-      </div>
-
-      <ApprochUs />
-      <style>
+        <style>
         {`
          .animate-left-to-right {
           animation: slideInLeft 0.5s ease forwards;
@@ -319,7 +329,9 @@ We give the soloutions for the software testing.
 }
     `}
       </style>
-    </>
+      </div>
+    )}
+  </>
   );
 };
 
