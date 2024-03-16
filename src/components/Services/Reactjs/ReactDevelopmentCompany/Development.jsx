@@ -26,7 +26,7 @@ const Development = () => {
 
 
 
-            <img src="https://media.licdn.com/dms/image/D5612AQFq2QKHH_ztKw/article-cover_image-shrink_720_1280/0/1682659691383?e=2147483647&v=beta&t=CrLBCdOpc9ifAnvIWa_3beZHYvlKs09bjl6LpmNlnhM" alt="" className='h-[320px] shadow-xl' />
+            <img src="https://media.licdn.com/dms/image/D5612AQFq2QKHH_ztKw/article-cover_image-shrink_720_1280/0/1682659691383?e=2147483647&v=beta&t=CrLBCdOpc9ifAnvIWa_3beZHYvlKs09bjl6LpmNlnhM" alt="" className=' shadow-xl' />
           </div>
 
         </div>
