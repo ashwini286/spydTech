@@ -21,8 +21,8 @@ const Php = () => {
             <p>
             PHP has emerged as a valuable asset for developers globally. PHP, being an open-source scripting language, provides pre-built code, relieving developers from the need to write everything from scratch. This eliminates the laborious process of manual coding, saving time, and facilitating swift development.
             </p>
-            <Link to ='/PHP'>
-            <button className='bg-[#ff8a00] text-white py-2 px-4 rounded-md  shadow-lg shadow-orange-700 mt-4 hover:bg-[#FF4500]'>Read More</button>
+            <Link to = '/PHP'>
+            <button className='bg-[#f18701] text-white py-2 px-4 rounded-md  shadow-lg shadow-orange-700 mt-4 hover:bg-[#FF4500]'>Read More</button>
             </Link>
         
         </div>
