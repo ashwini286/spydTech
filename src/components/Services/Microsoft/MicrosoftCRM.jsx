@@ -259,7 +259,7 @@ function MicrosoftCRM() {
 
       <div class="mx-auto max-w-6xl sm:px-6 lg:px-5">
         <div
-          class="relative isolate overflow-hidden bg-blue-800 px-6 py-24 shadow-2xl sm:rounded-3xl  "
+          class="relative isolate overflow-hidden bg-blue-800 px-6 py-24 md:shadow-2xl rounded-3xl  "
           data-aos="fade-up"
         >
           <h2 class="mx-auto max-w-2xl text-center text-xl md:text-3xl font-bold tracking-tight text-white sm:text-4xl">
