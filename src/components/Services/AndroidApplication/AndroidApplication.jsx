@@ -27,7 +27,9 @@ const AndroidApplication = () => {
       />
 
       <div className='md:px-16 px-4 py-4'>
-        <div><h1 className='text-black md:text-4xl text-2xl' data-aos="fade-up">Cost Effective, Convenient and Cool Apps to Appease Your Mobile Users</h1></div>
+      <div className='flex items-center justify-center pt-8'>
+        <div className='text-center md:text-2xl text-xl w-[850px]  font-bold'>Crafting Exceptional Android Experiences: <br /> <span className="text-[#14213d] md:text-4xl text-2xl mx-auto border-b-2 border-[#14213d] w-1/2"> Building Powerful Mobile Solutions for Today's Users </span> </div>
+      </div>
         <br />
         <p className='text-black pt-4' data-aos="fade-down">
           Android is Google owned, open source mobile operating system extensively used by all mobile manufacturers all around the world. Predominantly, overwhelming majority of over 80% smart phones in the world run on Android operating system.

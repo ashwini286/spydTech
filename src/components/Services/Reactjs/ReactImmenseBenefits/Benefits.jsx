@@ -10,7 +10,7 @@ const Benefits = () => {
   return (
     <>
       <div className='mt-4 md:px-20 py-8 bg-gray-300 mb-8'  data-aos="fade-up">
-        <div className='md:text-5xl md:font-extrabold text-2xl font-bold pl-12 pb-4'>
+        <div className='md:text-5xl md:font-extrabold text-2xl font-bold text-center py-4'>
           The immense benefits of ReactJS
         </div>
         <div className='grid grid-cols-1 md:grid-cols-2 md:px-8 text-black'>
@@ -31,7 +31,7 @@ const Benefits = () => {
     <p><TaskAltOutlinedIcon color="primary" /></p>
     <p>Continuous Improvement: Supported by Facebook and a vibrant community, React receives regular updates and introduces new features seamlessly.</p>
   </div>
-  <div className='flex items-center w-[89%] gap-4 pl-2'>
+  <div className='flex items-center w-[89%] gap-4 pb-8 pl-2'>
     <p><TaskAltOutlinedIcon color="primary" /></p>
     <p>Enhanced User Experience: React delivers a smooth and responsive user interface, elevating user satisfaction.</p>
   </div>

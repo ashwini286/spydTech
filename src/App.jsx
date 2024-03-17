@@ -35,21 +35,21 @@ import Microsoft from "./components/Services/Microsoft/Microsoft";
 import PowerBI from "./components/Services/Microsoft/PowerBI";
 import CloudTech from "./components/Services/Other Servies/Cloud Technologies/CloudTech";
 import Amazon from "./components/Services/Other Servies/Cloud Technologies/Amazon";
-
+import StaffingServices from "./components/Company/Staffing-Services/StaffingServices";
 import Azure from "./components/Services/Other Servies/Cloud Technologies/Azure";
 import Google from "./components/Services/Other Servies/Cloud Technologies/Google";
 
-import AboutUs from './components/Company/AboutUs/AboutUS'
-import MakesUsDifferent from './components/Company/WhatMakesUsDifferent/MakesUsDifferent';
+import AboutUs from "./components/Company/AboutUs/AboutUS";
+import MakesUsDifferent from "./components/Company/WhatMakesUsDifferent/MakesUsDifferent";
 import VisionMission from "./components/Company/Vision$Mission/VisionMission";
-import OurCore from './components/Company/OurCoreValues/OurCore';
-import Mobile from './components/Services/Mobile/Mobile'
+import OurCore from "./components/Company/OurCoreValues/OurCore";
+import Mobile from "./components/Services/Mobile/Mobile";
 import Testing from "./components/Services/Other Servies/Softeware Testing/Testing";
 import AIandML from "./components/Services/Other Servies/Cloud Technologies/Ai and ML/AIandML";
 import Ai from "./components/Services/Other Servies/Cloud Technologies/Ai and ML/Ai";
 import Machine from "./components/Services/Other Servies/Cloud Technologies/Ai and ML/Machine";
 import Otherservies from "./components/Services/Other Servies/Otherservies";
-import Form from './components/careers/form/Form2'
+import Form from "./components/careers/form/Form2";
 import Cyber from "./components/Services/Other Servies/Cyber Security/Cyber";
 import Ai2 from "./components/Services/Other Servies/Cloud Technologies/Ai and ML/Ai2";
 
@@ -120,27 +120,23 @@ const App = () => {
 
           <Route path="/Software Testing" element={<Testing />} />
 
-
           <Route path="/Advanced Technologies" element={<AIandML />} />
           {/* <Route path="/Ai" element={<Ai />} /> */}
           <Route path="/Ai2" element={<Ai2 />} />
           <Route path="/machine" element={<Machine />} />
-          
-
-
-
 
           {/* company */}
           <Route path="/About Us" element={<AboutUs />} />
           <Route path="/Vision & Mission" element={<VisionMission />} />
-          <Route path="/What makes us different" element={<MakesUsDifferent />} />
+          <Route
+            path="/What makes us different"
+            element={<MakesUsDifferent />}
+          />
           <Route path="/Our Core Values" element={<OurCore />} />
+          <Route path="/Staffing-Services" element={<StaffingServices />} />
 
-
-
-{/* form */}
-<Route path="/applyForm" element={<Form />} />
-
+          {/* form */}
+          <Route path="/applyForm" element={<Form />} />
         </Routes>
       </BrowserRouter>
     </>

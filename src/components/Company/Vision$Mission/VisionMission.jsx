@@ -22,12 +22,12 @@ const VisionMission = () => {
       </div>
       <img
         // src={Mision}
-        src="https://media.licdn.com/dms/image/C4D12AQHPv5hmq5G8ww/article-inline_image-shrink_1500_2232/0/1586261849362?e=1712188800&v=beta&t=roodMyJsySE8nOmLb58CT7y8QJUEJOPTLVhf6iiLOA8"
+        src="https://www.libertyinsurance.in/images/about-us-banner.jpg"
         // className=" object-cover w-full h-[550px]"
-        className=" object-cover w-full"
+        className=" object-cover w-full h-[550px]"
         alt="Background Image"
       />
-
+ <div className="absolute inset-0 bg-gradient-to-t from-transparent to-black opacity-70"></div>
       <div>
         <div className='bg-blue-gray-50 pl-4  text-black  mt-16 pb-16 '>
           <div className='text-center py-8 text-xl font-bold underline decoration-slate-200 '> MISSION & VISION </div>
