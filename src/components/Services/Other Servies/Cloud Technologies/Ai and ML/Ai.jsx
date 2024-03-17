@@ -17,6 +17,7 @@ function Ai() {
   return (
     <>
       <Navbarupp />
+      
       <div className="w-full mx-auto  relative " >
         <img
           src={IMG}

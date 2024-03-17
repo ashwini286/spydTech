@@ -18,7 +18,13 @@ function AIandML() {
   return (
     <>
     <Navbarupp />
-    <div className="min-h-screen bg-gray-900 flex flex-col items-center text-center justify-center">
+    <img
+        src="https://cdn-gcp.new.marutitech.com/robot_humanoid_using_tablet_computer_big_data_analytic_1_94eab7101e.jpg"
+        className=" object-cover w-full md:h-[550px]"
+        alt="Background Image"
+      />
+      <div className="absolute inset-0 bg-gradient-to-t from-transparent to-black opacity-70"></div>
+    <div className=" bg-gray-900 flex flex-col items-center text-center justify-center py-12">
     <h1 data-aos="fade-up-right" className="text-5xl font-bold mb-8 animate-pulse  bg-gradient-to-r from-pink-600 via-purple-500 to-indigo-400 inline-block text-transparent bg-clip-text">
         AI and Machine Learning 
     </h1>

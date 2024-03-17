@@ -72,13 +72,16 @@ const Home = () => {
                   applications catering to myriad industry
                 </Typography>
                 <div className="flex flex-col md:flex-row gap-4">
-                  <Button
+                <Link to = "/ERPNext TECHNOLOGY">
+                <Button
                     size="lg"
                     className="font-sans bg-blue-500 hover:bg-blue-600 rounded-none w-[56] animate-buttons"
                   >
                     Explore
                   </Button>
-                  <Button
+                </Link>
+                 <Link to = "/contact">
+                 <Button
                     size="lg"
                     color="white"
                     variant="text"
@@ -86,6 +89,7 @@ const Home = () => {
                   >
                     Contact Us
                   </Button>
+                 </Link>
                   
                 </div>
               
@@ -120,12 +124,14 @@ const Home = () => {
                   for Android, IOS and Hybrid Platforms.
                 </Typography>
                 <div className="flex flex-col md:flex-row gap-4">
-                  <Button
+                 <Link to = "/MOBILE">
+                 <Button
                     size="lg"
                     className="font-sans bg-blue-500 hover:bg-blue-600 rounded-none "
                   >
                     Explore
                   </Button>
+                 </Link>
                   <Link to="/contact">
                     <Button
                       size="lg"
@@ -169,12 +175,14 @@ const Home = () => {
                   Websites that drives business growth for our clients.
                 </Typography>
                 <div className="flex flex-col md:flex-row gap-4">
-                  <Button
+                <Link to = "/DIGITAL MARKETING">
+                <Button
                     size="lg"
                     className="font-sans bg-blue-500 hover:bg-blue-600 rounded-none"
                   >
                     Explore
                   </Button>
+                </Link>
                   <Link to="/contact">
                     <Button
                       size="lg"
@@ -219,12 +227,14 @@ const Home = () => {
                      Explore how SpY D Technology can transform your business with Microsoft technology
                 </Typography>
                 <div className="flex flex-col md:flex-row gap-4">
+                  <Link to = "/MICROSOFT TECHNOLOGY">
                   <Button
                     size="lg"
                     className=" bg-blue-500 hover:bg-blue-600 rounded-none font-sans"
                   >
                     Explore
                   </Button>
+                  </Link>
                   <Link to="/contact">
                     <Button
                       size="lg"
@@ -266,12 +276,14 @@ const Home = () => {
 We give the soloutions for the software testing.
                 </Typography>
                 <div className="flex flex-col md:flex-row gap-4 ">
-                  <Button
+               <Link to = '/OTHER SERVICES'>
+               <Button
                     size="lg"
                     className=" bg-blue-500 hover:bg-blue-600 rounded-none font-sans"
                   >
                     Explore
                   </Button>
+               </Link>
                   <Link to="/contact">
                     <Button
                       size="lg"
