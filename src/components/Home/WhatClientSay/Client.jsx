@@ -113,7 +113,9 @@ function Client() {
         .slider-wave {
           margin: auto; 
          overflow: hidden;
-         background: linear-gradient(315deg, rgb(255, 105, 104) 3%, rgb(6, 149, 255) 38%, rgb(163, 52, 250) 68%, rgb(255, 105, 104) 98%);
+         background: linear-gradient(315deg, #393932, #414833);
+
+        //  background: linear-gradient(315deg, rgb(255, 105, 104) 3%, rgb(6, 149, 255) 38%, rgb(163, 52, 250) 68%, rgb(255, 105, 104) 98%);
          animation: gradient 15s ease infinite;
          background-size: 400% 400%;
          background-attachment: fixed;

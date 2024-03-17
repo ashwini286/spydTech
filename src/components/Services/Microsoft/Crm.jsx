@@ -1,39 +1,57 @@
-import React from 'react';
+import React from "react";
 import IMG1 from "../../assets/Microsoft/CRM (21).jpg";
 
 function Crm() {
   return (
     <>
-      <div className="container w-full  p-6 mx-auto space-y-6 md:max-w-2xl lg:px-8 lg:max-w-7xl overflow-hidden">
-        <div>
-         
-          <p className="max-w-5xl mx-auto mt-4 md:text-2xl text-lg text-center font-bold pb-4">The future of customer relationship management with Microsoft Dynamics CRM, powered by "SpY D Technology".
-         Our innovative solutions are designed to empower businesses of all sizes to build stronger customer connections, streamline processes, and drive growth. Explore how Microsoft Dynamics CRM can transform your business:
-   </p>
+      <div className="md:mt-8 mt-28 pb-8 px-8 font-semibold text-xl text-center" >
+        The future of customer relationship management with Microsoft Dynamics
+        CRM, powered by "SpY D Technology". Our innovative solutions are
+        designed to empower businesses of all sizes to build stronger customer
+        connections, streamline processes, and drive growth. Explore how
+        Microsoft Dynamics CRM can transform your business:
+      </div>
+      <div className="flex justify-center items-center lg:flex-row flex-col px-12 gap-8">
+        <div className="flex justify-center items-center flex-col gap-4 text-md ">
+          <div>
+            Building strong, meaningful relationships with customers lies at the
+            core of every successful enterprise. At SPY D Technology, we
+            specialize in crafting comprehensive and scalable CRM solutions
+            designed to help businesses attract, engage, and retain their valued
+            clientele.
+          </div>
+          <div>
+            Our team comprises skilled technologists with extensive experience
+            across various cutting-edge platforms, including Salesforce and
+            Microsoft Technologies. Leveraging our expertise, we develop and
+            implement CRM platforms that offer a wide array of services,
+            including sales, marketing, customer service, social engagement, and
+            analytics.
+          </div>
+          <div>
+            Our CRM services extend beyond mere development and deployment. We
+            provide comprehensive training, manual documentation, and ongoing
+            maintenance support to ensure seamless operations.
+          </div>
+          <div>
+            What sets us apart at SPY D Technology is our commitment to holistic
+            business integration. In addition to building and deploying CRM
+            applications, we excel in seamlessly integrating these new solutions
+            with existing systems, facilitating smooth and efficient operations.
+          </div>
+          <div>
+            We pride ourselves on utilizing and implementing state-of-the-art
+            technologies that seamlessly integrate with existing
+            infrastructures, ensuring a streamlined integration process and
+            optimal operational efficiency.
+          </div>
         </div>
-        <div className="grid gap-6 lg:grid-cols-2">
-          <div className="space-y-4">
-            <div>
-              <h4 className="text-lg font-medium leading-6">Creating, Engaging, Building, Nurturing Customer Relations is at the heart of any business. We take care of the entire gamut of building robust, scalable CRM platforms to help our customers attract, engage, build and retain customers.</h4>
-            </div>
-            <div>
-              <h4 className="text-lg font-medium leading-6">Our team of high-powered technologists possesses deep expertise in multiple state-of-the-art technologies such as Salesforce, Microsoft Technologies to build and deploy CRM platforms that offer a plethora of services such as sales, marketing, customer service, social engagement, and analytics.</h4>
-            </div>
-            <div>
-              <h4 className="text-lg font-medium leading-6">Our services in CRM are not just confined to building and deployment but we also provide training, manual documentation, and maintenance services.</h4>
-            </div>
-            <div>
-              <h4 className="text-lg font-medium leading-6">The best part of Aspirant Soft Solutions is that we go beyond building and deploying Customer Relationship Management applications. We excel in business integration services and integrate the new CRM applications with the existing applications seamlessly for smooth operations.</h4>
-            </div>
-            <div>
-              <h4 className="text-lg font-medium leading-6">We use, implement and leverage state-of-the-art technologies that are in consonance with the existing technologies to ensure the integration process is smooth for efficient operations.</h4>
-            </div>
-          </div>
-          <div aria-hidden="true" className="lg:flex lg:items-center">
-            <img src={IMG1} alt="Microsoft CRM" className="w-full rounded-lg shadow-lg lg:w-auto" />
-          </div>
+
+        <div className="lg:w-[1000px] pb-8">
+          <img src={IMG1} alt="Microsoft CRM" className="w-full " />
         </div>
       </div>
+    
     </>
   );
 }

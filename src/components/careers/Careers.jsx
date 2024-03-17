@@ -6,7 +6,7 @@ import Card from './CarrerCard/Card';
 import JobPost from './JobPost/JobPost';
 import { Link } from 'react-router-dom';
 import Approch from '../Home/APProchUs/Approch';
-
+import ChatBot from '../Home/Home/ChatBot';
 function careers() {
   useEffect(() => {
     AOS.init();
@@ -42,6 +42,7 @@ function careers() {
           <button className='bg-[#008080] text-white py-2 px-8 rounded-md  shadow-lg shadow-cyan-700 mt-4 hover:bg-[#008080] hover:scale-105 transition-all duration-500'>Apply Now</button>
         </div>
       </Link>
+      <ChatBot />
       <Approch />
 
 

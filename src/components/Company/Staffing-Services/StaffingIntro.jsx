@@ -43,7 +43,7 @@ const StaffingIntro = () => {
 
         {/* Our Staffing Solutions: */}
         <div>
-          <div className="text-2xl text-[#005f73] font-bold text-center mx-auto border-b-2 border-[#005f73]">
+          <div className="text-2xl text-[#005f73] font-bold text-center mx-auto border-b-2 border-[#005f73]  pt-8">
             Spy D Technology Staffing Solutions:
           </div>
           <div>
@@ -83,7 +83,7 @@ const StaffingIntro = () => {
 
         {/*  our Approch */}
         <div>
-          <div className="text-2xl text-[#005f73] font-bold text-center mx-auto border-b-2 border-[#005f73]">
+          <div className="text-2xl text-[#005f73] font-bold text-center mx-auto border-b-2 border-[#005f73]  pt-8">
             Spy D Technology Approach:
           </div>
           <div>
@@ -110,7 +110,7 @@ const StaffingIntro = () => {
               cultivate long-term relationships, fostering a network of
               satisfied clients and empowered professionals.
             </li>
-            <li>
+            <li className="pb-4 text-md ">
               <span className="font-bold"> Strategic Partnerships:</span> We
               consider our clients as partners in success. As your strategic
               staffing partner, we collaborate closely with you to comprehend
@@ -125,11 +125,11 @@ const StaffingIntro = () => {
         </div>
 
         <div>
-          <div className="text-2xl text-[#005f73] font-bold text-center mx-auto border-b-2 border-[#005f73] pt-8">
+          <div className="text-2xl text-[#005f73] font-bold text-center mx-auto border-b-2 border-[#005f73] ">
             Why Choose Spy D Technology for Staffing Services:
           </div>
           <div>
-            <li className="py-4 text-md ">
+            <li className="pt-8 pb-4 text-md ">
               <span className="font-bold"> Extensive Network:</span> At Spy D
               Technology, we boast an expansive network of professionals
               spanning diverse industries. From entry-level specialists to

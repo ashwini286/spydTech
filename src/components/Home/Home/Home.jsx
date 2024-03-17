@@ -71,7 +71,7 @@ const Home = () => {
                   exposure in design and developing enterprise and custom web
                   applications catering to myriad industry
                 </Typography>
-                <div className="flex flex-col md:flex-row gap-4">
+                <div className="flex flex-row gap-4">
                 <Link to = "/ERPNext TECHNOLOGY">
                 <Button
                     size="lg"
@@ -123,7 +123,7 @@ const Home = () => {
                   developing and deploying state-of-the-art mobile applications
                   for Android, IOS and Hybrid Platforms.
                 </Typography>
-                <div className="flex flex-col md:flex-row gap-4">
+                <div className="flex flex-row gap-4">
                  <Link to = "/MOBILE">
                  <Button
                     size="lg"
@@ -174,7 +174,7 @@ const Home = () => {
                   based E-Commerce Platforms, Web Portals, Web Applications and
                   Websites that drives business growth for our clients.
                 </Typography>
-                <div className="flex flex-col md:flex-row gap-4">
+                <div className="flex flex-row gap-4">
                 <Link to = "/DIGITAL MARKETING">
                 <Button
                     size="lg"
@@ -226,7 +226,7 @@ const Home = () => {
                     we empower businesses to unlock their full potential and thrive in today's digital landscape.
                      Explore how SpY D Technology can transform your business with Microsoft technology
                 </Typography>
-                <div className="flex flex-col md:flex-row gap-4">
+                <div className="flex flex-row gap-4">
                   <Link to = "/MICROSOFT TECHNOLOGY">
                   <Button
                     size="lg"
@@ -275,7 +275,7 @@ const Home = () => {
                  Our SpY D technology expert in Artificial Inteligency and cloud technologies.
 We give the soloutions for the software testing.
                 </Typography>
-                <div className="flex flex-col md:flex-row gap-4 ">
+                <div className="flex flex-row gap-4 ">
                <Link to = '/OTHER SERVICES'>
                <Button
                     size="lg"
