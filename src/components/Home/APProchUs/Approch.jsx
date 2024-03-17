@@ -192,7 +192,8 @@ const ApprochUs = () => {
         .slider {
           margin: auto;
          overflow: hidden;
-         background: linear-gradient(315deg, rgb(255, 0, 0) 3%, rgb(0, 255, 0) 38%, rgb(0, 0, 255) 68%, rgb(255, 0, 0) 98%);
+         background: linear-gradient(360deg, #67b99a,#358f80, #036666);
+        //  background: linear-gradient(315deg, rgb(255, 0, 0) 3%, rgb(0, 255, 0) 38%, rgb(0, 0, 255) 68%, rgb(255, 0, 0) 98%);
          animation: gradient 15s ease infinite;
          background-size: 400% 400%;
          background-attachment: fixed;

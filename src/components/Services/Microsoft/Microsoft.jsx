@@ -24,7 +24,7 @@ function Microsoft() {
       <div className="relative w-full">
         <img
           src="https://4kwallpapers.com/images/wallpapers/windows-logo-m1-chip-black-background-gradient-windows-10-5k-3440x1440-5918.jpg"
-          className=" w-full object-cover md:h-[490px] h-[415px] "
+          className=" w-full object-cover  "
           alt="Background 1"
           style={{ filter: "brightness(100%)" }}
         />
