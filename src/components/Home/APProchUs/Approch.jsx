@@ -7,6 +7,7 @@ import LogoFull from "../../assets/spylogo1.png";
 import { LuMapPin } from "react-icons/lu";
 import { FiPhoneCall } from "react-icons/fi";
 import { MdOutlineMarkEmailRead } from "react-icons/md";
+import Location from './Location'
 import SocialIcons from "./SocialIcon";
 const ApprochUs = () => {
   return (
@@ -74,7 +75,7 @@ const ApprochUs = () => {
                     <div className="  ">
                       <div className="  flex justify-center items-center flex-row  text-white w-full gap-8">
                         <div className="text-[40px]  ">
-                          <LuMapPin />
+                         <Location />
                         </div>
                         <div className="">REACH US</div>
                       </div>

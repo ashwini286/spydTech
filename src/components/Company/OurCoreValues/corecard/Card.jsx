@@ -2,7 +2,7 @@ import React from 'react'
 
 const Card = () => {
   return (
-    <div className='md:p-24 leading-8 p-8'>
+    <div className='md:px-32 leading-8 p-8'>
       <div>
         <div className=' w-56'><p className='text-4xl  font-extrabold border-b-4 border-[#140152] '> Our Values</p></div>
         <div className='md:pt-16 pt-8'>

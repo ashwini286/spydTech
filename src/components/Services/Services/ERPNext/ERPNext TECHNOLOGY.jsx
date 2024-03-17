@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Navbarupp from "../../../Home/Navbar/Navbarupp";
-
+import { Link } from 'react-router-dom';
 import IMG from "../../../assets/Blue.webp";
 
 import IMG12 from "../../../assets/ERPNXT1.jpg";
@@ -73,9 +73,11 @@ function ERPNext() {
               foundation. At Akhilam, you are assured that you are working with
               an experienced, dedicated team of Consultants.
             </p>
-            <button data-aos="fade-up-right" className="mt-4  bg-blue-900 text-white font-bold py-2 px-4 rounded hover:bg-blue-700">
+           <Link to = '/Consulting'>
+           <button data-aos="fade-up-right" className="mt-4  bg-blue-900 text-white font-bold py-2 px-4 rounded hover:bg-blue-700">
               Learn More
             </button>
+           </Link>
           </div>
 
           {/* Card 2 */}
@@ -90,9 +92,11 @@ function ERPNext() {
               together perfectly; creating a larger picture of how items relate
               with each other within the system.
             </p>
+            <Link to = '/Implementation'>
             <button data-aos="fade-up-right"  className="mt-4 bg-blue-900  text-white font-bold py-2 px-4 rounded hover:bg-blue-700">
               Learn More
             </button>
+            </Link>
           </div>
 
           {/* Card 3 */}
@@ -106,9 +110,11 @@ function ERPNext() {
               quality results. And, our standard process allows clients to scale
               ERPNext solutions with the latest and future versions.
             </p>
-            <button data-aos="fade-up-right" className="mt-4  bg-blue-900 text-white font-bold py-2 px-4 rounded hover:bg-blue-700">
+          <Link to = '/Implementation'>
+          <button data-aos="fade-up-right" className="mt-4  bg-blue-900 text-white font-bold py-2 px-4 rounded hover:bg-blue-700">
               Learn More
             </button>
+          </Link>
           </div>
 
           {/* Card 4 */}
@@ -122,9 +128,11 @@ function ERPNext() {
               Also, it allows customizing the website's appearance and layout
               for any screen size with Bootstrap’s cutting-edge technology.
             </p>
-            <button data-aos="fade-up-right"  className="mt-4  bg-blue-900 text-white font-bold py-2 px-4 rounded hover:bg-blue-700">
+          <Link to = '/Third-Party Integrations'>
+          <button data-aos="fade-up-right"  className="mt-4  bg-blue-900 text-white font-bold py-2 px-4 rounded hover:bg-blue-700">
               Learn More
             </button>
+          </Link>
           </div>
 
           {/* Card 5 */}
@@ -140,9 +148,11 @@ function ERPNext() {
               for a cohesive, future-proofed operation. And, it helps to
               centralize data on a single, unified data hub rather than silos.
             </p>
-            <button data-aos="fade-up-right" className="mt-4  bg-blue-900 text-white font-bold py-2 px-4 rounded hover:bg-blue-700">
+           <Link to = '/Implementation'>
+           <button data-aos="fade-up-right" className="mt-4  bg-blue-900 text-white font-bold py-2 px-4 rounded hover:bg-blue-700">
               Learn More
             </button>
+           </Link>
           </div>
 
           {/* Card 6 */}
@@ -158,9 +168,11 @@ function ERPNext() {
               months to develop own. By utilizing third-party integrations, We
               incorporate superior features to your ERPNext.
             </p>
+            <Link to = '/Third-Party Integrations'>
             <button data-aos="fade-up-right" className="mt-4  bg-blue-900 text-white font-bold py-2 px-4 rounded hover:bg-blue-700">
               Learn More
             </button>
+            </Link>
           </div>
 
           {/* Card 7 */}
@@ -176,9 +188,11 @@ function ERPNext() {
               ERPNext systems with powerful tools like PowerBI, Tableau, and
               Metabase.
             </p>
+            <Link to = '/Third-Party Integrations'>
             <button data-aos="fade-up-right" className="mt-4  bg-blue-900 text-white font-bold py-2 px-4 rounded hover:bg-blue-700">
               Learn More
             </button>
+            </Link>
           </div>
         </div>
       </div>

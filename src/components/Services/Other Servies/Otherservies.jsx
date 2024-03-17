@@ -19,6 +19,12 @@ function Otherservies() {
   return (
     <>
     <Navbarupp />
+    <img
+        src="https://d3g5ywftkpzr0e.cloudfront.net/wp-content/uploads/2023/07/13220529/Artificial-Intelligence-in-Indonesia-The-current-state-and-its-opportunities.jpeg"
+        className=" object-cover w-full md:h-[550px]"
+        alt="Background Image"
+      />
+      <div className="absolute inset-0 bg-gradient-to-t from-transparent to-black opacity-70"></div>
     <div class="relative overflow-hidden bg-gray-900 pt-16 pb-32 space-y-24">
     <div class="relative">
         <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 ">
