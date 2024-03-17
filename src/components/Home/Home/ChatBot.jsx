@@ -7,30 +7,28 @@ const ChatBot = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   // Function to handle bot responses
-  // Function to handle bot responses
-const handleBotResponse = (userMessage) => {
-  // Convert user's message to lowercase for case-insensitive matching
-  const lowercaseMessage = userMessage.toLowerCase();
+  const handleBotResponse = (userMessage) => {
+    // Convert user's message to lowercase for case-insensitive matching
+    const lowercaseMessage = userMessage.toLowerCase();
 
-  // Default response if no specific pattern is matched
-  let botResponse = `You said: "${userMessage}". I'm just a simple bot, I don't know how to respond to that yet!`;
+    // Default response if no specific pattern is matched
+    let botResponse = `You said: "${userMessage}". I'm just a simple bot, I don't know how to respond to that yet!`;
 
-  // Check for specific keywords or patterns in the user's message
-  if (lowercaseMessage.includes("hello") || lowercaseMessage.includes("hi")) {
-    botResponse = "Hello! How can I assist you today?";
-  } else if (lowercaseMessage.includes("how are you")) {
-    botResponse = "I'm just a bot, so I don't have feelings, but thank you for asking!";
-  } else if (lowercaseMessage.includes("help")) {
-    botResponse = "Sure, I'm here to help. What do you need assistance with?";
-  } else if (lowercaseMessage.includes("bye") || lowercaseMessage.includes("goodbye")) {
-    botResponse = "Goodbye! Feel free to reach out if you need assistance later.";
-  } else if (lowercaseMessage.includes("thanks") || lowercaseMessage.includes("thank you")) {
-    botResponse = "You're welcome!";
-  }
-  
-  return botResponse;
-};
+    // Check for specific keywords or patterns in the user's message
+    if (lowercaseMessage.includes("hello") || lowercaseMessage.includes("hi")) {
+      botResponse = "Hello! How can I assist you today?";
+    } else if (lowercaseMessage.includes("how are you")) {
+      botResponse = "I'm just a bot, so I don't have feelings, but thank you for asking!";
+    } else if (lowercaseMessage.includes("help")) {
+      botResponse = "Sure, I'm here to help. What do you need assistance with?";
+    } else if (lowercaseMessage.includes("bye") || lowercaseMessage.includes("goodbye")) {
+      botResponse = "Goodbye! Feel free to reach out if you need assistance later.";
+    } else if (lowercaseMessage.includes("thanks") || lowercaseMessage.includes("thank you")) {
+      botResponse = "You're welcome!";
+    }
 
+    return botResponse;
+  };
 
   // Function to handle sending user messages
   const handleMessageSubmit = (e) => {
@@ -44,6 +42,11 @@ const handleBotResponse = (userMessage) => {
     // Get bot response and add it to the list
     const botResponse = handleBotResponse(inputValue);
     setMessages([...messages, { text: botResponse, sender: 'bot' }]);
+  };
+
+  // Function to handle closing the chat window
+  const handleCloseChat = () => {
+    setIsOpen(false);
   };
 
   return (
@@ -90,6 +93,13 @@ const handleBotResponse = (userMessage) => {
                 className="ml-2 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 focus:outline-none focus:ring focus:border-blue-300"
               >
                 Send
+              </button>
+              <button
+                type="button"
+                onClick={handleCloseChat}
+                className="ml-2 px-4 py-2 bg-gray-300 text-gray-700 rounded-lg hover:bg-gray-400 focus:outline-none focus:ring focus:border-blue-300"
+              >
+                Close
               </button>
             </form>
           </div>

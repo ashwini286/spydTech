@@ -46,13 +46,13 @@ function MicrosoftCRM() {
 
       <Crm />
 
-      <div className="bg-[#7b87f1] py-10 gap-10 ">
+      <div className="bg-[#7b87f1] py-10  ">
         <h1 className="text-4xl text-center pt-10 " data-aos="fade-up">
           Our CRM Services include
         </h1>
         <div className="container " data-aos="fade-left">
         {/* First row */}
-    <div className="flex flex-col md:flex-row py-10">
+    <div className="flex flex-col md:flex-row py-10 p-20">
           <div className="">
             <div className="flex flex-col items-center">
               <img src={IMG2} className="img" alt="Image 2" />
@@ -62,34 +62,34 @@ function MicrosoftCRM() {
           <div className="">
             <div className="flex flex-col items-center">
               <img src={IMG3} className="img" alt="Image 3" />
-              <p className="text-center w-2/4">Increase in-house capability to deploy single tenant and multi-tenant solutions</p>
+              <p className="text-center ">Increase in-house capability to deploy single tenant and multi-tenant solutions</p>
             </div>
           </div>
           <div className="col-md-4">
             <div className="flex flex-col items-center">
               <img src={IMG4} className="img" alt="Image 4" />
-              <p className="text-center w-3/2">Offer user-friendly design with special settings installation</p>
+              <p className="text-center">Offer user-friendly design with special settings installation</p>
             </div>
           </div>
   </div>
         {/* Second row */}
-        <div className="flex flex-col md:flex-row gap-20  py-10">
+        <div className="flex flex-col md:flex-row gap-30  py-10">
           <div className="col-md-4">
             <div className="flex flex-col items-center">
               <img src={IMG5} className="img" alt="Image 5" />
-              <p className="text-center w-3/2">Provide workflow customizations specific to your company’s business processes</p>
+              <p className="text-center ">Provide workflow customizations specific to your company’s business processes</p>
             </div>
           </div>
           <div className="col-md-4">
             <div className="flex flex-col items-center">
               <img src={IMG6} className="img" alt="Image 6" />
-              <p className="text-center w-3/2">Extending the solutions to WCF web services</p>
+              <p className="text-center ">Extending the solutions to WCF web services</p>
             </div>
           </div>
           <div className="col-md-4">
             <div className="flex flex-col items-center">
               <img src={IMG7} className="img" alt="Image 7" />
-              <p className="text-center w-3/2 ">Offer advanced customization that requires integration with third-party solutions</p>
+              <p className="text-center  ">Offer advanced customization that requires integration with third-party solutions</p>
             </div>
           </div>
         </div>
