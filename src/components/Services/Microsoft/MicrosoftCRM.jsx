@@ -46,104 +46,54 @@ function MicrosoftCRM() {
 
       <Crm />
 
-      <div className="bg-[#7b87f1] ">
+      <div className="bg-[#7b87f1] py-10 gap-10 ">
         <h1 className="text-4xl text-center pt-10 " data-aos="fade-up">
           Our CRM Services include
         </h1>
-        <div className="" data-aos="fade-left">
-          <div className="flex flex-wrap p-10 ">
-            <div className="w-full md:w-1/3 lg:w-1/3 xl:w-1/3">
-              <div className="flex flex-col items-center">
-                <img
-                  src={IMG2}
-                  className="mx-auto w-48 md:ml-20 p-4"
-                  alt="Image 2"
-                />
-                <p className="text-center">
-                  Enhancing the existing functionality
-                </p>
-              </div>
-
-              <div className="flex justify-center items-center flex-col gap-4">
-                <div>
-                  {" "}
-                  <img
-                    src={IMG3}
-                    className="mx-auto w-48 md:ml-20 p-4"
-                    alt="Image 2"
-                  />
-                </div>
-                <div className="text-center">
-                  {" "}
-                  Increase in-house capability to deploy single tenant and
-                  multi-tenant solutions
-                </div>
-              </div>
-
-              <div className="flex justify-center items-center flex-col gap-4">
-                <div>
-                  {" "}
-                  <img
-                    src={IMG4}
-                    className="mx-auto w-48 md:ml-20 p-4 "
-                    alt="Image 2"
-                  />
-                </div>
-                <div className="text-center">
-                  {" "}
-                  Offer user-friendly design with special settings installation
-                </div>
-              </div>
-
-              <div className="flex justify-center items-center flex-col gap-4">
-                <div>
-                  {" "}
-                  <img
-                    src={IMG5}
-                    className="mx-auto w-48 md:ml-20 p-4"
-                    alt="Image 2"
-                  />
-                </div>
-                <div className="text-center">
-                  {" "}
-                  Provide workflow customizations specific to your company’s
-                  business processes
-                </div>
-              </div>
-
-              <div className="flex justify-center items-center flex-col gap-4">
-                <div>
-                  {" "}
-                  <img
-                    src={IMG6}
-                    className="mx-auto w-48 md:ml-20 p-4"
-                    alt="Image 2"
-                  />
-                </div>
-                <div className="text-center">
-                  {" "}
-                  Extending the solutions to WCF web services
-                </div>
-              </div>
-
-              <div className="flex justify-center items-center flex-col gap-4">
-                <div>
-                  {" "}
-                  <img
-                    src={IMG7}
-                    className="mx-auto w-48 md:ml-20 p-4"
-                    alt="Image 2"
-                  />
-                </div>
-                <div className="text-center">
-                  {" "}
-                  Offer advanced customization that requires integration with
-                  third-party solutions
-                </div>
-              </div>
+        <div className="container " data-aos="fade-left">
+        {/* First row */}
+    <div className="flex flex-col md:flex-row py-10">
+          <div className="">
+            <div className="flex flex-col items-center">
+              <img src={IMG2} className="img" alt="Image 2" />
+              <p className="text-center">Enhancing the existing functionality</p>
+            </div>
+          </div>
+          <div className="">
+            <div className="flex flex-col items-center">
+              <img src={IMG3} className="img" alt="Image 3" />
+              <p className="text-center w-2/4">Increase in-house capability to deploy single tenant and multi-tenant solutions</p>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="flex flex-col items-center">
+              <img src={IMG4} className="img" alt="Image 4" />
+              <p className="text-center w-3/2">Offer user-friendly design with special settings installation</p>
+            </div>
+          </div>
+  </div>
+        {/* Second row */}
+        <div className="flex flex-col md:flex-row gap-20  py-10">
+          <div className="col-md-4">
+            <div className="flex flex-col items-center">
+              <img src={IMG5} className="img" alt="Image 5" />
+              <p className="text-center w-3/2">Provide workflow customizations specific to your company’s business processes</p>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="flex flex-col items-center">
+              <img src={IMG6} className="img" alt="Image 6" />
+              <p className="text-center w-3/2">Extending the solutions to WCF web services</p>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="flex flex-col items-center">
+              <img src={IMG7} className="img" alt="Image 7" />
+              <p className="text-center w-3/2 ">Offer advanced customization that requires integration with third-party solutions</p>
             </div>
           </div>
         </div>
+      </div>
         </div>
 
         <div class="w-full max-w-2xl my-4 mx-auto">
