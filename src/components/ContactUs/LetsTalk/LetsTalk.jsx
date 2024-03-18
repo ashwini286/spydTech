@@ -128,20 +128,27 @@ const LetsTalk = () => {
                     <div className="text-[20px] text-xl">
                       <MdOutlineMarkEmailRead />
                     </div>
-                    <div className="ml-3">info@spyd.com</div>
+                    <div className="ml-3"> info@spydtech.com</div>
+                  </div>
+
+                  <div className="flex flex-row xs:text-[10px] text-[15px] text-white  pt-2">
+                    <div className="text-[20px] text-xl">
+                      <MdOutlineMarkEmailRead />
+                    </div>
+                    <div className="ml-3">careers@spydtech.com</div>
                   </div>
                   <div className="flex flex-row xs:text-[10px] text-[15px] text-white  pt-2">
                     <div className="text-[20px]">
                       <FaPhoneAlt />
                     </div>
-                    <div className="ml-3">040-43334849</div>
+                    <div className="ml-3">+91 6305207832</div>
                   </div>
-                  <div className="flex  flex-row font-poppins xs:text-[10px] text-[15px] text-white w-full pt-2">
+                  {/* <div className="flex  flex-row font-poppins xs:text-[10px] text-[15px] text-white w-full pt-2">
                     <div className="text-[20px]">
                       <FaPhoneAlt />
                     </div>
-                    <div className="ml-3">040-43334849</div>
-                  </div>
+                    <div className="ml-3"></div>
+                  </div> */}
                 </div>
                 <br />
                 <div className="bg-[#2F4052] h-[100px] lg:w-[300px] w-full">
@@ -152,7 +159,7 @@ const LetsTalk = () => {
                     <div className="text-[20px] text-xl">
                       <MdOutlineMarkEmailRead />
                     </div>
-                    <div className="ml-3">info@spyd.com</div>
+                    <div className="ml-3">careers@spydtech.com</div>
                   </div>
                 </div>
               </div>
