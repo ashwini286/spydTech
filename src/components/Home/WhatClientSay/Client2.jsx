@@ -1,11 +1,11 @@
-import React from 'react'
-import { Carousel } from 'flowbite-react';
+import React from "react";
+import { Carousel } from "flowbite-react";
 // import Card1 from '../../Services/UniqueTeam/ERPCard'
 function Client2() {
   return (
     <>
   
-    <div className="h-56 sm:h-64 xl:h-80 2xl:h-96 slider-wave ">
+    <div className="h-56 sm:h-64 xl:h-80 2xl:h-96 slider-wave p-10">
       <Carousel>
       <div
           className="flex h-full items-center justify-center bg-cover bg-center sm:bg-cover md:bg-cover slider-wave ">
@@ -28,7 +28,7 @@ function Client2() {
                     fill="currentColor"></path>
             </svg>
             <blockquote>
-                <p class="text-sm font-medium text-gray-900 md:text-2xl dark:text-white">
+                <p class="text-xl font-medium text-gray-900 md:text-2xl dark:text-white">
                     "Landwind is just awesome. It
                     contains tons of predesigned components and pages starting from login screen to complex dashboard.
                     Perfect choice for your next SaaS application."</p>
@@ -49,25 +49,23 @@ function Client2() {
               </p>
             </div>
 
-            <div>
-              <h1 className="opacity-8 pt-4 md:pt-8 text-md md:text-2xl text-white">
-              SpY D Technology Private Limited is an innovative company. The entire team demonstrated exceptional cooperation and professionalism.
-              </h1>
               <div>
-             
+                <h1 className="opacity-8 pt-4 md:pt-8 text-md md:text-2xl text-white">
+                  SpY D Technology Private Limited is an innovative company. The
+                  entire team demonstrated exceptional cooperation and
+                  professionalism.
+                </h1>
+                <div></div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div
-          className="flex h-full items-center justify-center bg-cover bg-center sm:bg-cover md:bg-cover slider-wave ">
-          <div className='wave'>
-            <div className='wave'>
-              <div className='wave'>
+          <div className="flex h-full items-center justify-center bg-cover bg-center sm:bg-cover md:bg-cover slider-wave ">
+            <div className="wave">
+              <div className="wave">
+                <div className="wave"></div>
               </div>
             </div>
-          </div>
 
           <div className="flex flex-col text-center max-w-screen-lg p-4 sm:p-6 md:p-8 lg:p-12 mx-auto">
 
@@ -81,7 +79,7 @@ function Client2() {
                     fill="currentColor"></path>
             </svg>
             <blockquote>
-                <p class="text-sm font-medium text-gray-900 md:text-2xl dark:text-white">
+                <p class="text-xl font-medium text-gray-900 md:text-2xl dark:text-white">
                     "Landwind is just awesome. It
                     contains tons of predesigned components and pages starting from login screen to complex dashboard.
                     Perfect choice for your next SaaS application."</p>
@@ -102,26 +100,23 @@ function Client2() {
               </p>
             </div>
 
-            <div>
-              <h1 className="opacity-8 pt-4 md:pt-8 text-md md:text-2xl text-white">
-              SpY D Technology Private Limited is renowned for its commitment to innovation. The team's high level of cooperation and professionalism is commendable.
-              </h1>
               <div>
-           
+                <h1 className="opacity-8 pt-4 md:pt-8 text-md md:text-2xl text-white">
+                  SpY D Technology Private Limited is renowned for its
+                  commitment to innovation. The team's high level of cooperation
+                  and professionalism is commendable.
+                </h1>
+                <div></div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div
-          className="flex h-full items-center justify-center bg-cover bg-center sm:bg-cover md:bg-cover slider-wave "
-        >
-          <div className='wave'>
-            <div className='wave'>
-              <div className='wave'>
+          <div className="flex h-full items-center justify-center bg-cover bg-center sm:bg-cover md:bg-cover slider-wave ">
+            <div className="wave">
+              <div className="wave">
+                <div className="wave"></div>
               </div>
             </div>
-          </div>
 
           <div className="flex flex-col text-center max-w-screen-lg p-4 sm:p-6 md:p-8 lg:p-12 mx-auto">
           <section class="bg-transparent  mt-20">
@@ -134,7 +129,7 @@ function Client2() {
                     fill="currentColor"></path>
             </svg>
             <blockquote>
-                <p class="text-sm font-medium text-gray-900 md:text-2xl dark:text-white">
+                <p class="text-xl font-medium text-gray-900 md:text-2xl dark:text-white">
                     "Landwind is just awesome. It
                     contains tons of predesigned components and pages starting from login screen to complex dashboard.
                     Perfect choice for your next SaaS application."</p>
@@ -156,20 +151,18 @@ function Client2() {
               </p>
             </div>
 
-            <div>
-              <h1 className="opacity-8 pt-4 md:pt-8 text-md md:text-2xl text-white">
-                SpY D Technology Private Limited is a company that believes in innovation. The entire team was so
-                cooperative and polite.
-              </h1>
               <div>
-           
+                <h1 className="opacity-8 pt-4 md:pt-8 text-md md:text-2xl text-white">
+                  SpY D Technology Private Limited is a company that believes in
+                  innovation. The entire team was so cooperative and polite.
+                </h1>
+                <div></div>
               </div>
             </div>
           </div>
-        </div>
-      </Carousel>
-      <style>
-        {`
+        </Carousel>
+        <style>
+          {`
         .slider-wave {
           margin: auto; 
          overflow: hidden;
@@ -237,12 +230,10 @@ function Client2() {
   }
 }
     `}
-      </style>
-    </div>
-   
-   
+        </style>
+      </div>
     </>
   );
 }
 
-export default Client2
+export default Client2;
