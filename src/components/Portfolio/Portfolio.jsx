@@ -4,7 +4,7 @@ import "aos/dist/aos.css";
 import Navbarupp from "../Home/Navbar/Navbarupp";
 import Card from "./Card";
 import Approch from "../Home/APProchUs/Approch";
-
+import Chatbot from '../Home/Home/ChatBot'
 
 const Portfolio = () => {
   useEffect(() => {
@@ -32,6 +32,7 @@ const Portfolio = () => {
       </div>
     </header>
       <Card />
+      <Chatbot />
       <Approch />
    
     </>

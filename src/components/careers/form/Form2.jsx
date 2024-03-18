@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { useForm, Controller } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
@@ -16,6 +16,9 @@ const Form2 = () => {
   const [isRightVisible, setRightVisible] = useState(true);
   const [formData, setFormData] = useState({});
   const [isFormValid, setIsFormValid] = useState(false);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   // Validation Of all Field
   const schema = yup.object({
     firstName: yup
@@ -417,7 +420,7 @@ const Form2 = () => {
                   </div>
                 </div>
               ) : (
-                <div className= "mr-8 bg-gradient-to-r from-teal-500 via-cyan-500 to-purple-800 rounded-3xl h-[566px] flex flex-col items-center justify-center text-white">
+                <div className= "mr-8 bg-gradient-to-r from-teal-500 via-cyan-500 to-purple-800 rounded-r-3xl h-[566px] flex flex-col items-center justify-center text-white">
                   <div className="text-center flex flex-col justify-center items-center gap-4">
                     <div className=" ">
                       <img src={tech} alt="Logo" className="w-80 h-60" />

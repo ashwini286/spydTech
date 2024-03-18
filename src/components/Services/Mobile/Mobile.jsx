@@ -1,10 +1,13 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import Navbarupp from '../../Home/Navbar/Navbarupp'
 import Help from './HowSpydTechHelp/Help'
 import MobileCard from './MobileCard/Card'
 import Approch from '../../Home/APProchUs/Approch';
 
 const Mobile = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <div>

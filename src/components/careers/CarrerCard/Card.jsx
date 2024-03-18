@@ -1,7 +1,10 @@
-import React from "react";
+import React,{useEffect} from "react";
 import girl from "../../assets/carrer/girl.svg";
 import { IoLocation } from "react-icons/io5";
 const Card = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <div className=" pt-[130px]">
