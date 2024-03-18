@@ -9,7 +9,7 @@ function Aboutspyd() {
   return (
     <>
       <div className='items-center'>
-        <div className="product-card w-full md:w-[700px] lg:w-[700px] mx-auto rounded-md shadow-xl overflow-hidden z-[200] relative cursor-pointer snap-start shrink-0 py-8 px-6 bg-white flex flex-col items-center justify-center gap-3 transition-all duration-300 group">
+        <div className="product-card w-full md:w-[700px] lg:w-[700px] mx-auto rounded-md  overflow-hidden z-[200] relative cursor-pointer snap-start shrink-0 py-8 px-6 bg-white flex flex-col items-center justify-center gap-3 transition-all duration-300 group">
           <div className="para uppercase text-center leading-none z-40">
             <p  data-aos="fade-up-right" style={{ WebkitTextStroke: "1px rgb(207, 205, 205)", WebkitTextFillColor: "transparent" }} className="z-10 font-bold text-lg -mb-5 tracking-wider text-gray-500">
               About SpY D Technology

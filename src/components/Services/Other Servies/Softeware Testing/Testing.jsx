@@ -28,11 +28,11 @@ function Testing() {
         />
     </div>
     <div className='p-10 flex flex-col md:flex-row md:mt-5  gap-8' >
-        <img 
+        <img  data-aos="fade-up"
         src={IMG2}
         className='shadow-xl  rounded-2xl'
         />
-        <div className='md:p-10'>
+        <div className='md:p-10' data-aos="fade-right">
         <h1 className='text-4xl'>ETL Testing  </h1>
         <p>ETL in testing means an extract, transform and load process that reads data from multiple source systems,
              transports it to a data transformation layer for further processing which includes cleaning, 
@@ -41,7 +41,7 @@ function Testing() {
 
     </div>
              <div className='p-10 flex flex-col-reverse md:flex-row md:mt-5  gap-8'>
-                <div className='md:p-5'>
+                <div className='md:p-5' data-aos="fade-left">
                     <h1 className='text-4xl'>Selenium Testing</h1>
                     <p>Selenium is a free (open-source) automated testing framework used to validate web applications across different browsers and platforms.
                          You can use multiple programming languages like Java, C#, Python, etc to create Selenium Test Scripts.
@@ -50,6 +50,7 @@ function Testing() {
                 <img 
                 src={IMG3}
                 className='shadow-xl rounded-2xl'
+                data-aos="fade-up"
                 />
              </div>
 
@@ -57,8 +58,9 @@ function Testing() {
         <img 
         src={IMG4}
         className='shadow-xl  rounded-2xl items-center'
+        data-aos="fade-up"
         />
-        <div className='md:p-10'>
+        <div className='md:p-10' data-aos="fade-right">
         <h1 className='text-4xl'>QA Testing  </h1>
         <p>Quality assurance testing, or QA testing, 
             is a vital step in the software development cycle. 
@@ -70,7 +72,7 @@ function Testing() {
     
 
     <div className='p-10 flex flex-col-reverse md:flex-row md:mt-5 gap-8'>
-                <div className='md:p-5'>
+                <div className='md:p-5' data-aos="fade-left">
                     <h1 className='text-4xl'>Manual Testing</h1>
                     <p>Manual testing is the process of manually testing software for defects. 
                         It requires a tester to play the role of an end user where by they use most of 
@@ -79,6 +81,7 @@ function Testing() {
                 <img 
                 src={IMG5}
                 className='shadow-xl rounded-2xl'
+                data-aos="fade-up"
                 />
              </div>
 

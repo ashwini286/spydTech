@@ -67,7 +67,7 @@ function AIandML() {
      data-te-animation="[fade-in_3s_ease-in-out]"
      data-aos="fade-up"
     src={IMG3}
-    className='shadow-2xl w-1/2'
+    className='shadow-2xl w-3/2 md:w-1/2 md:pt-0 pt-10'
     />
    </div>
    </div>

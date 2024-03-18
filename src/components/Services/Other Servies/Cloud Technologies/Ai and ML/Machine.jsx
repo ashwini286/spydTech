@@ -27,12 +27,11 @@ function Machine() {
     <Navbarupp />
     <section className="relative w-full bg-black">
     {/* <img className="h-[50vh] w-full md:h-[550px] object-cover" src={IMG1} alt="Image 1" /> */}
-    <img className=" w-[100%] object-cover md:h-[550px] h-[550px]  md:w-full " src={IMG2} alt="Image 2" />
-    <div className="space-y-2 z-10 absolute top-1/3 w-full text-center">
+    <img className=" w-[100%] object-cover   md:w-full " src={IMG2} alt="Image 2" />
+    <div className="space-y-2 z-10 absolute top-1/3 md:top-1/2 w-full text-center">
         <h1 className="font-light text-4xl md:text-2xl lg:text-6xl bg-gradient-to-r from-pink-600 via-purple-500 to-indigo-400 inline-block text-transparent 
-        bg-clip-text transform rotate-0 md:rotate-360" data-aos="fade-up-right">Welcome to "SpY D Technology" Machine Learning</h1>
-        <h3 className="font-light text-2xl text-white" data-aos="fade-up-right">At SpY D Technology, we are committed to revolutionizing the world of machine learning. Our cutting-edge technology is designed to empower businesses of all sizes to harness the power of data and make informed decisions that drive success.</h3>
-    </div>
+        bg-clip-text transform rotate-0 md:rotate-360" data-aos="fade-up-right"> "SpY D Technology" Machine Learning</h1>
+       </div>
       <style jsx>{`
         .video-docker video {
           top: 50%;
@@ -52,7 +51,9 @@ function Machine() {
         }
       `}</style>
     </section> 
-
+    <h3 className="bg-gray-800 font-light text-xs md:text-2xl text-white p-10" data-aos="fade-up-right">"At SpY D Technology, we are committed to revolutionizing the world of machine learning. 
+    Our cutting-edge technology is designed to empower businesses of all sizes to harness the power of data and make informed decisions that drive success".</h3>
+   
     <h1 className='bg-gray-800 text-4xl text-center text-gray-300 pt-5'
     data-aos="fade-right">Programming Langauges Use Machine Learning</h1>
     <div class="grid grid-cols-4 gap-8 p-8 md:p-16 bg-gray-800">

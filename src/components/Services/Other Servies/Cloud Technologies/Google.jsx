@@ -26,7 +26,8 @@ function Google() {
     <Navbarupp />
     <div className='relative'>
         <img 
-        src={IMG1}
+        // src={IMG1}
+        src='https://www.simplilearn.com/ice9/free_resources_article_thumb/Mastering_The_Future_With_A_Master_Degree_In_Cloud_Computing.jpg'
         className='w-full md:h-[500px] h-[500px] object-cover'
         />
     </div>

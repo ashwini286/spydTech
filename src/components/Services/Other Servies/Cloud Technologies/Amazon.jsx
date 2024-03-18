@@ -180,7 +180,7 @@ function Amazon() {
                 </div>
             </div>
 
-            <Footer3 />
+            <Approch />
         </>
     )
 }

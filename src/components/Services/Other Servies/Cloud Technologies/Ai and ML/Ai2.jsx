@@ -23,18 +23,17 @@ function Ai2() {
     src='https://www.bhmpics.com/downloads/abstract-background-Wallpapers/19.v1016-c-08_1-ksh6mza3.jpg'
     />
      <div className="absolute inset-0 md:h-[550px] w-full bg-black bg-opacity-50 rounded-lg"></div>
-     <div className='absolute top-1/2 left-[35%] transform -translate-x-1/2 -translate-y-1/2 md:left-[35%] md:w-[50%] lg:w-[50%] text-start text-white font-bold px-5'>
-  <h1 className='text-2xl md:text-4xl lg:text-4xl ' >
+     <div className=' absolute top-1/2 left-[35%] transform -translate-x-1/2 -translate-y-1/2 md:left-[35%] justify-center  text-center text-white font-bold px-5'>
+  <h1 className='text-xs md:text-4xl lg:text-4xl ' >
     Unlock the Power of Artificial Intelligence with 
-    <a href="#" class="relative inline-block  btn-shine">"SpY D Technology"</a>
+    <a href="#" class="relative inline-block mt-3 md:mt-16 -ml-10 -md:ml-10 btn-shine">"SpY D Technology"</a>
   </h1>
 </div>
 <style>
   {`
   .btn-shine {
       position: absolute;
-      top: 85%;
-      left: 80%;
+     
       transform: translate(-50%, -50%);
       text-align: center;
       color: #fff;
@@ -57,6 +56,7 @@ function Ai2() {
     }
     .md\:text-4xl {
       font-size: 2rem; /* Adjusted font size for mobile view */
+
     }
     .lg\:text-4xl {
       font-size: 2.25rem; /* Adjusted font size for mobile view */
@@ -236,7 +236,7 @@ function Ai2() {
      </p>
   </div>
   <button data-aos="fade-up-right"
-    class="hover:bg-gray-700 bg-gray-800 text-gray-100 mt-6 rounded p-2 px-6  ravi"
+    class="hover:bg-gray-700 bg-gray-800 text-gray-100 mt-0 rounded p-2 px-6  ravi"
   >
     Explore
   </button>

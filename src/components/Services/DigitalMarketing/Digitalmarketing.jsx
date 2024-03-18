@@ -32,7 +32,7 @@ function Digitalmarketing() {
         />
         <div className="absolute inset-0 md:h-[580px] w-full lg:w-full lg:max-w-none sm:w-full bg-black bg-opacity-70 rounded-lg"></div>
         <div className='absolute top-1/2 left-[35%] transform -translate-x-1/2 -translate-y-1/2 md:left-[35%] md:w-[50%] lg:w-[50%] text-start text-white font-bold px-5'>
-          <h1 className='text-2xl md:text-4xl lg:text-4xl'  data-aos="fade-up-right">The Future of Surveillance with "SpY D Technology"</h1>
+          <h1 className='text-2xl md:text-4xl lg:text-4xl '  data-aos="fade-up-right">The Future of Surveillance with "SpY D Technology"</h1>
           
          
           </div>
@@ -58,7 +58,7 @@ Say goodbye to outdated methods and hello to unprecedented security and intellig
                     towards user search queries, and as a consequence, search engines rank them better.
                   </p>
                   <div className="mt-6"  data-aos="fade-up-right">
-                    <Link to="/Seo Services" className="inline-flex rounded-lg bg-pink-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700">
+                    <Link to="/Seo Services" className="bg-[#8543ee] text-white py-2 px-4 rounded-md  shadow-lg shadow-purple-600 mt-4 hover:bg-[#3a0ca3] ">
                       Learn More
                     </Link>
                   </div>
@@ -92,7 +92,7 @@ Say goodbye to outdated methods and hello to unprecedented security and intellig
                     Social media sites, such as YouTube, Facebook, Pinterest and LinkedIn, also use the pay per click model.
                   </p>
                   <div className="mt-6"  data-aos="fade-up-right">
-                    <Link to="/PPC Management Services" className="inline-flex rounded-lg bg-pink-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700">
+                    <Link to="/PPC Management Services" className="bg-[#8543ee] text-white py-2 px-4 rounded-md  shadow-lg shadow-purple-600 mt-4 hover:bg-[#3a0ca3] ">
                       Learn More
                     </Link>
                   </div>
@@ -129,7 +129,7 @@ Say goodbye to outdated methods and hello to unprecedented security and intellig
                     to track the success of their efforts and identify even more ways to engage.
                   </p>
                   <div className="mt-6"  data-aos="fade-up-right">
-                    <Link to="/SMM & Content Writing" className="inline-flex rounded-lg bg-pink-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700">
+                    <Link to="/SMM & Content Writing" className="bg-[#8543ee] text-white py-2 px-4 rounded-md  shadow-lg shadow-purple-600 mt-4 hover:bg-[#3a0ca3] ">
                       Learn More
                     </Link>
                   </div>
@@ -164,7 +164,7 @@ Say goodbye to outdated methods and hello to unprecedented security and intellig
                   one of the most essential aspect of a business plan.
                 </p>
                 <div className="mt-6"  data-aos="fade-up-right">
-                  <Link to="/PPC Management Services" className="inline-flex rounded-lg bg-pink-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700">
+                  <Link to="/PPC Management Services" className="bg-[#8543ee] text-white py-2 px-4 rounded-md  shadow-lg shadow-purple-600 mt-4 hover:bg-[#3a0ca3] ">
                     Learn More
                   </Link>
                 </div>
@@ -181,7 +181,7 @@ Say goodbye to outdated methods and hello to unprecedented security and intellig
             </div>
           </div>
         </div>
-        <div className='p-10'>
+        <div className=''>
           <div  data-aos="fade-up-right" class="p-10 flex flex-1 w-full flex-col items-center justify-center text-center  bg-gradient-to-r from-green-50/50 via-teal-50 to-green-50/50 dark:from-gray-800 dark:via-gray-700 dark:to-gray-800">
             <a href="" class="border border-white-700 dark:border-gray-900 rounded-lg py-2 px-4 text-white-400 dark:text-gray-900 text-sm mb-5 md:mb-10 transition duration-300 ease-in-out hover:text-gray-500 dark:hover:text-gray-900">
               Get Started Today
@@ -197,7 +197,7 @@ Say goodbye to outdated methods and hello to unprecedented security and intellig
               </span>
             </h1>
             <h2  data-aos="fade-up-right" class="mx-auto mt-8 max-w-xl text-base sm:text-lg text-white-500 dark:text-gray-300 leading-7 md:leading-9">
-              Experience the future of surveillance with Spyd. Contact us to learn more about our products and services, and discover how Spyd can transform your security infrastructure for the better. Don't settle for outdated technology – embrace the future with Spyd.
+              Experience the future of surveillance with SpY D. Contact us to learn more about our products and services, and discover how SpY D can transform your security infrastructure for the better. Don't settle for outdated technology – embrace the future with SpY D.
             </h2>
             <a  data-aos="fade-up-right"  class="bg-orange-600 dark:bg-gray-800 rounded-xl text-white dark:text-gray-300 font-medium px-4 py-3 mt-8 md:mt-12 hover:bg-orange-500 dark:hover:bg-gray-600 transition" href="">Get started</a>
           </div>

@@ -5,7 +5,7 @@ function Client2() {
   return (
     <>
   
-    <div className="h-56 sm:h-64 xl:h-80 2xl:h-96 slider-wave p-10">
+    <div className="h-56 sm:h-64 xl:h-80 2xl:h-96 slider-wave ">
       <Carousel>
       <div
           className="flex h-full items-center justify-center bg-cover bg-center sm:bg-cover md:bg-cover slider-wave ">
@@ -28,7 +28,7 @@ function Client2() {
                     fill="currentColor"></path>
             </svg>
             <blockquote>
-                <p class="text-xl font-medium text-gray-900 md:text-2xl dark:text-white">
+                <p class="text-sm font-medium text-gray-900 md:text-2xl dark:text-white">
                     "Landwind is just awesome. It
                     contains tons of predesigned components and pages starting from login screen to complex dashboard.
                     Perfect choice for your next SaaS application."</p>
@@ -81,7 +81,7 @@ function Client2() {
                     fill="currentColor"></path>
             </svg>
             <blockquote>
-                <p class="text-xl font-medium text-gray-900 md:text-2xl dark:text-white">
+                <p class="text-sm font-medium text-gray-900 md:text-2xl dark:text-white">
                     "Landwind is just awesome. It
                     contains tons of predesigned components and pages starting from login screen to complex dashboard.
                     Perfect choice for your next SaaS application."</p>
@@ -134,7 +134,7 @@ function Client2() {
                     fill="currentColor"></path>
             </svg>
             <blockquote>
-                <p class="text-xl font-medium text-gray-900 md:text-2xl dark:text-white">
+                <p class="text-sm font-medium text-gray-900 md:text-2xl dark:text-white">
                     "Landwind is just awesome. It
                     contains tons of predesigned components and pages starting from login screen to complex dashboard.
                     Perfect choice for your next SaaS application."</p>

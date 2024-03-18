@@ -42,7 +42,7 @@ function ASP() {
     alt="ASP.NET Development"
   />
   <div className="absolute inset-0 h-[50vh]  md:h-[550px] bg-black bg-opacity-75 rounded-b-lg"></div>
-  <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 md:left-[35%] md:w-[50%] lg:w-[50%] text-center text-white font-bold md:p-10">
+  <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 md:left-[35%] md:w-[50%] lg:w-[50%] text-start text-white font-bold md:p-10">
     <h1 className="text-lg md:text-4xl">
       Unleash Innovation with <a className='text-transparent bg-clip-text bg-gradient-to-r from-[#b91c1c] via-blue-800 to-[#701a75]'>"SpY D Technology’s,</a> .NET Development Solutions
     </h1>

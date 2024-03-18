@@ -52,7 +52,7 @@ function PPCManagement() {
         </p>
       </div>
 
-      <div className="bg-[#4d7c0f] rounded-2xl ">
+      <div className="bg-[#0d9488] rounded-2xl ">
         <div class="max-w-screen-2xl mx-auto py-8 px-4 lg:py-16 lg:px-6  rounded-2xl ">
           <div class="text-center mb-10">
             <h2
@@ -66,8 +66,9 @@ function PPCManagement() {
           <div class="flex flex-col md:flex-row">
             <div class="mr-0 md:mr-8 mb-6 md:mb-0" data-aos="fade-up">
               <img
-                class="w-3/1 md:w-3/1 mx-auto h-full shadow-2xl "
-                src={IMG1}
+                class="w-3/1 md:w-4/5 mx-auto h-full shadow-2xl  rounded-sm"
+                // src={IMG1}
+                src="https://blog.hubspot.com/hs-fs/hubfs/PPC%20marketing.jpg?width=595&height=400&name=PPC%20marketing.jpg"
                 alt="can_help_banner"
               />
             </div>
@@ -194,14 +195,14 @@ function PPCManagement() {
           <div className="flex items-center justify-center md:flex-row flex-col my-16 w-full" data-aos="fade-down">
           <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4">
 
-              <div class="w-full shadow-xl p-4">
+              <div class="w-full shadow-xl p-4 hover:bg-[#0d9488]">
                 <div class="flex items-center justify-center mb-6">
                 <div><FaRegCircleCheck className="w-6 h-6 text-indigo-500" /></div>
                   <div class="ml-4 text-xl">PPC Landing Page Creation</div>
                 </div>
               </div>
 
-              <div className="w-full shadow-xl p-4 ">
+              <div className="w-full shadow-xl p-4 hover:bg-[#0d9488] ">
                 <div class="flex items-center justify-center mb-6">
                 <div><FaRegCircleCheck className="w-6 h-6 text-indigo-500" /></div>
                   <div class="ml-4 text-xl">
@@ -210,7 +211,7 @@ function PPCManagement() {
                 </div>
               </div>
 
-              <div class="w-full shadow-xl p-4  ">
+              <div class="w-full shadow-xl p-4  hover:bg-[#0d9488]">
                 <div class="flex items-center mb-6 justify-center">
                 <div><FaRegCircleCheck className="w-6 h-6 text-indigo-500" /></div>
                   <div class="ml-4 text-xl">
@@ -218,7 +219,7 @@ function PPCManagement() {
                   </div>
                 </div>
               </div>
-              <div class="w-full shadow-xl p-4  ">
+              <div class="w-full shadow-xl p-4 hover:bg-[#0d9488] ">
                 <div class="flex items-center justify-center mb-6">
                 <div><FaRegCircleCheck className="w-6 h-6 text-indigo-500" /></div>
                   <div class="ml-4 text-xl">
@@ -226,14 +227,14 @@ function PPCManagement() {
                   </div>
                 </div>
               </div>
-              <div class="w-full shadow-xl p-4">
+              <div class="w-full shadow-xl p-4 hover:bg-[#0d9488]">
                 <div class="flex items-center justify-center mb-6">
                 <div><FaRegCircleCheck className="w-6 h-6 text-indigo-500" /></div>
                   <div class="ml-4 text-xl">Increased Paid Traffic</div>
                 </div>
               </div>
 
-              <div class="w-full shadow-xl p-4 ">
+              <div class="w-full shadow-xl p-4 hover:bg-[#0d9488]">
                 <div class="flex items-center justify-center mb-6">
                 <div><FaRegCircleCheck className="w-6 h-6 text-indigo-500" /></div>
                   <div class="ml-4 text-xl">Better Leads And Sales</div>
@@ -242,7 +243,7 @@ function PPCManagement() {
 
       
 
-              <div class="w-full shadow-xl p-4  ">
+              <div class="w-full shadow-xl p-4  hover:bg-[#0d9488]">
                 <div class="flex items-center justify-center mb-6">
                 <div><FaRegCircleCheck className="w-6 h-6 text-indigo-500" /></div>
                   <div class="ml-4 text-xl">
@@ -270,7 +271,7 @@ function PPCManagement() {
       <div class="p-4 w-full h-full">
         <div
           data-aos="fade-down"
-          class="mx-auto flex h-[500px] max-w-[90rem] flex-col items-center justify-center rounded-2xl bg-blue-500 bg-opacity-5 px-4 text-blue-500 dark:bg-opacity-20 md:h-[400px] lg:h-[500px]  relative border-4 shadow-xl p-4lue-500"
+          class="mx-auto flex h-[500px] max-w-[90rem] flex-col items-center justify-center rounded-2xl bg-blue-500 bg-opacity-5 px-4 text-[#0d9488] dark:bg-opacity-20 md:h-[400px] lg:h-[500px]  relative border-4 shadow-xl p-4lue-500"
         >
           <div class="pointer-events-none absolute left-0 top-0 z-[-1] h-full w-full rounded-xl bg-white dark:bg-black"></div>
           <span class=" text-center text-4xl font-bold">Why Choose Us</span>

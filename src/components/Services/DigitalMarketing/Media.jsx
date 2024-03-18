@@ -15,12 +15,12 @@ function Media() {
             data-te-animation-init
             data-te-animation-start="onScroll"
           >
-            <h1>
-              FACEBOOK
-              <a className="p-2 cursor-pointer relative before:absolute  before:bg-[#1e40af] before:bottom-0 before:left-0 before:h-full before:w-full before:origin-bottom before:scale-y-[0.35] hover:before:scale-y-100 before:transition-transform before:ease-in-out before:duration-500 rounded-lg">
-                <span class="relative">MARKETING:</span>
-              </a>
-            </h1>
+           <h1 class="text-3xl md:text-4xl lg:text-5xl xl:text-6xl mb-4"> 
+  FACEBOOK
+  <a class="block md:inline-block p-2 cursor-pointer relative before:absolute before:bg-[#1e40af] before:bottom-0 before:left-0 before:h-full before:w-full before:origin-bottom before:scale-y-[0.35] hover:before:scale-y-100 before:transition-transform before:ease-in-out before:duration-500 rounded-lg">
+    <span class="relative">MARKETING:</span>
+  </a>
+</h1>
           </div>
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div
@@ -80,9 +80,9 @@ function Media() {
               data-te-animation-start="onScroll"
               data-aos="fade-down"
             >
-              <h1 className="text-4xl font-bold">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl mb-4 font-bold">
                 INSTAGRAM
-                <a className="p-2 cursor-pointer relative before:absolute  before:bg-[#ec4899] before:bottom-0 before:left-0 before:h-full before:w-full before:origin-bottom before:scale-y-[0.35] hover:before:scale-y-100 before:transition-transform before:ease-in-out before:duration-500 rounded-lg">
+                <a className=" block md:inline-block p-2 cursor-pointer relative before:absolute  before:bg-[#ec4899] before:bottom-0 before:left-0 before:h-full before:w-full before:origin-bottom before:scale-y-[0.35] hover:before:scale-y-100 before:transition-transform before:ease-in-out before:duration-500 rounded-lg">
                   <span class="relative">MARKETING:</span>
                 </a>
               </h1>
@@ -144,9 +144,9 @@ function Media() {
             data-te-animation-start="onScroll"
             data-aos="fade-down"
           >
-            <h1>
+            <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl mb-4">
               LINKEDIN
-              <a className="p-2 cursor-pointer relative before:absolute  before:bg-[#60a5fa] before:bottom-0 before:left-0 before:h-full before:w-full before:origin-bottom before:scale-y-[0.35] hover:before:scale-y-100 before:transition-transform before:ease-in-out before:duration-500 rounded-lg">
+              <a className="block md:inline-block p-2 cursor-pointer relative before:absolute  before:bg-[#60a5fa] before:bottom-0 before:left-0 before:h-full before:w-full before:origin-bottom before:scale-y-[0.35] hover:before:scale-y-100 before:transition-transform before:ease-in-out before:duration-500 rounded-lg">
                 <span class="relative">MARKETING:</span>
               </a>
             </h1>

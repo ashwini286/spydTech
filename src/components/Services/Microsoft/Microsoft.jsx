@@ -24,13 +24,13 @@ function Microsoft() {
       <div className="relative w-full">
         <img
           src="https://4kwallpapers.com/images/wallpapers/windows-logo-m1-chip-black-background-gradient-windows-10-5k-3440x1440-5918.jpg"
-          className=" w-full object-cover  "
+          className=" w-full object-cover md:h-[490px] h-[415px]  "
           alt="Background 1"
           style={{ filter: "brightness(100%)" }}
         />
         <div class="absolute inset-0 md:h-[490px] h-[415px] bg-black bg-opacity-50 "></div>
-        <div className="absolute inset-0  flex flex-col  items-center justify-center text-center text-white">
-          <h1 className="text-2xl font-bold md:text-4xl py-4">
+        <div className="absolute inset-0  flex flex-col  items-center justify-center text-start text-white">
+          <h1 className="text-2xl font-bold md:text-4xl p-10">
           Elevate Your Business with "SpY D Technologies" Microsoft Solutions
           </h1>
          
@@ -45,7 +45,7 @@ function Microsoft() {
           </h1>
 
       <div className='flex items-center justify-center '>
-        <div className='text-center md:text-2xl text-xl md:pt-16 w-[850px]  font-bold'>Empower Your Business with Cutting-Edge Microsoft Solutions: <br /> <span className="text-blue-600 md:text-4xl text-2xl mx-auto border-b-2 border-cyan-800 w-1/2">  Transformative Technologies for Seamless Success </span> </div>
+        <div className='text-center md:text-2xl text-xl md:pt-16 w-[850px]  font-bold'>Empower Your Business with Cutting-Edge Microsoft Solutions: <br /> <span className="text-[#0369a1] md:text-4xl text-2xl mx-auto border-b-2 border-cyan-800 w-1/2">  Transformative Technologies for Seamless Success </span> </div>
       </div>
       {/* <div className='relative'>
   <img
@@ -283,7 +283,7 @@ function Microsoft() {
             they need them.
           </p>
           <Link to="/Dynamics CRM">
-          <button className='bg-[#4361ee] text-white py-2 px-4 rounded-md  shadow-lg shadow-blue-600 mt-4 hover:bg-[#3a0ca3]'>Read More</button>
+          <button className='bg-[#0369a1] text-white py-2 px-4 rounded-md  shadow-lg shadow-[#0369a1] mt-4 hover:bg-[#3a0ca3]'>Read More</button>
           </Link>
         </div>
       </div>
@@ -300,7 +300,7 @@ function Microsoft() {
             Windows, iOS, Android, and many more.
           </p>
           <Link to="/ASP.NET Web Application">
-          <button className='bg-[#4361ee] text-white py-2 px-4 rounded-md  shadow-lg shadow-blue-600 mt-4 hover:bg-[#3a0ca3]'>Read More</button>
+          <button className='bg-[#0369a1] text-white py-2 px-4 rounded-md  shadow-lg shadow-[#0369a1] mt-4 hover:bg-[#3a0ca3]'>Read More</button>
           </Link>
         </div>
         <img src={IMG3} data-aos="fade-up" />
@@ -323,13 +323,13 @@ function Microsoft() {
             competition.
           </p>
           <Link to="/PowerBI" data-aos="fade-down">
-          <button className='bg-[#4361ee] text-white py-2 px-4 rounded-md  shadow-lg shadow-blue-600 mt-4 hover:bg-[#3a0ca3]'>Read More</button>
+          <button className='bg-[#0369a1] text-white py-2 px-4 rounded-md  shadow-lg shadow-[#0369a1] mt-4 hover:bg-[#3a0ca3]'>Read More</button>
           </Link>
         </div>
       </div>
 
       <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
-        <div class="relative isolate overflow-hidden bg-blue-800 px-6 py-24 shadow-2xl sm:rounded-3xl sm:px-24 xl:py-32">
+        <div class="relative isolate overflow-hidden bg-[#0369a1] px-6 py-24 shadow-2xl sm:rounded-3xl sm:px-24 xl:py-32">
           <h2 class="mx-auto max-w-2xl text-center text-3xl font-bold tracking-tight text-white sm:text-4xl">
             Experience the power of Microsoft technology with SpY D Technology by
             your side. Get Started Today!

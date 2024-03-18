@@ -35,17 +35,17 @@ useEffect(() => {
     
   <h1 className='text-2xl md:text-4xl lg:text-3xl flex-wrap ' >
    
-  <a href="#" data-aos="fade-up-right"  className=" text-xl md:text-4xl lg:text-4xl  ">Welcome to SpY D Technology:</a>
-    Unlock the Power of Artificial Intelligence with 
+  <a href="#" data-aos="fade-up-right"  className=" text-xl md:text-4xl lg:text-4xl  ">Unlock the Power of Azure cloud with</a>
+ "SpY D Technology"
     
   </h1>
 </div>
     </div>
-
-    <div className="relative transition-all duration-300 cursor-pointer filter scale hover:scale-75 border-4 border-gray-500 shadow-3 scale shadow-2xl overflow-hidden shyam">
+    <Aboutspyd />    
+    <div className="relative py-10 transition-all duration-300 cursor-pointer filter scale hover:scale-75 border-4 border-gray-500 shadow-3 scale shadow-2xl overflow-hidden shyam">
     <img 
         src={IMG2}
-        className="w-full md:h-[550px] object-cover"
+        className="w-full md:h-[650px] h-[650px] object-cover"
         alt="Your Alt Text"
     />
     <figcaption className="absolute px-4 text-4xl text-gray-900 bottom-12 md:bottom-52 pl-10">
@@ -57,7 +57,7 @@ useEffect(() => {
                 data-aos="fade-up-right"
             />
              </div>
-             <p data-aos="fade-up-right" className='text-lg md:text-sm lg:text-4xl'>Develop your skills with the next app on Azure</p>
+             <p data-aos="fade-up-right" className='text-lg md:text-sm lg:text-4xl text-blue-800'>Develop your skills with the next app on Azure</p>
       
     </figcaption>
 </div>
@@ -101,7 +101,7 @@ useEffect(() => {
     </div>
 </div>
 
-    <Aboutspyd />    
+    
   
 
 

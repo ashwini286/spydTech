@@ -23,28 +23,29 @@ function Cyber() {
         <img
           src="https://png.pngtree.com/thumb_back/fh260/back_our/20190623/ourmid/pngtree-blue-business-tech-business-card-background-image_239798.jpg"
           data-aos=""
-          className="inset-0 h-[85vh] w-full lg:w-full xl:w-full sm:w-full "
+          className="inset-0 h-[70vh] w-full lg:w-full xl:w-full sm:w-full "
           alt="Background 1"
         />
-        <div className="absolute inset-0 h-[80vh] w-full lg:w-full lg:max-w-none sm:w-full bg-black bg-opacity-50 rounded-lg"></div>
+        <div className="absolute inset-0 h-[70vh] w-full lg:w-full lg:max-w-none sm:w-full bg-black bg-opacity-50 rounded-lg"></div>
         <div className='absolute top-1/2 left-[35%] transform -translate-x-1/2 -translate-y-1/2 md:left-[35%] md:w-[50%] lg:w-[50%] text-start text-white font-bold px-5'>
-        <div className='ml-[125%]'>
+        <div className='ml-[50%] md:ml-[125%]'>
         <div class="rounded-md h-12 w-12 border-4 border-t-4 border-blue-500 animate-spin absolute"></div>
         <div class="rounded-md h-44 w-44 border-4 border-t-4 border-blue-500 animate-spin absolute"></div>
         </div>
         
-          <h1 className='text-2xl md:text-4xl lg:text-4xl'>Welcome to <a  data-aos="fade-up-right"
+          <h1 className='text-2xl md:text-4xl lg:text-4xl'>The <a  data-aos="fade-up-right"
           className='text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-blue-800 to-white'>"SpY D Technology"</a> Cyber Security Solutions</h1>
-          <p className='text-xl'>"At Spy D Technology, we understand the critical importance of safeguarding your digital assets against evolving cyber threats.  </p>
-          <p className='text-lg md:w-[700px]'>" Our comprehensive cyber security solutions are designed to protect your business, your data,
-            and your reputation in an increasingly complex online landscape.".</p>
+          <p className='text-lg md:text-xl'>"At Spy D Technology, we understand the critical importance of safeguarding your digital assets against evolving cyber threats.  </p>
+          
         </div>
       </div>
-
+      
       <div
         className="text-center items-center bg-gradient-to-br from-blue-500 to-gray-900 text-white font-bold py-4 relative pt-10"
         data-aos="fade-up"
       >
+        <p className='text-lg md:2xl text-center p-10'>" Our comprehensive cyber security solutions are designed to protect your business, your data,
+            and your reputation in an increasingly complex online landscape.".</p>
         <h1 className="text-4xl">Cyber Security Solutions</h1>
         <div class="rounded-md text-center h-12 w-12 border-4 border-t-4 border-blue-500 animate-spin absolute"></div>
         <div class="rounded-md text-center h-24 w-24 border-4 border-t-4 border-blue-500 animate-spin absolute"></div>
@@ -201,11 +202,11 @@ function Cyber() {
           <div class="container mx-auto py-16 dark:text-white">
             <div class="text-center" data-aos="fade-up">
               <h1 className="text-gray-100 text-2xl font-bold"> WE ARE</h1>
-              <h2 class="font-bold text-2xl md:text-4xl my-4">
+              <h2 class="font-bold text-xl md:text-4xl my-4">
                 <a>SpY D Technology</a> Spend 30,000 Hours Per Year to Virus
                 Threats
               </h2>
-              <div class="max-w-2xl md:max-w-4xl mx-auto dark:text-gray-300">
+              <div class="max-w-xl md:max-w-4xl mx-auto dark:text-gray-300">
                 <p>
                   "Fugiat nulla pariatur excepteur sint occaecat cupidatat non
                   proident, sunt in culpa rui officia deserunt mollit anim id
