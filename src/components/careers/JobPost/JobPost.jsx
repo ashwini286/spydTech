@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import JobDes from "./JobDes";
 
 const JobPost = () => {
@@ -9,6 +9,9 @@ const JobPost = () => {
   const [showInMobileForJava, setShowInMobileForJava] = useState(false);
   const [showInMobileForPhp, setShowInMobileForPhp] = useState(false);
   const [showInMobileForBusiness, setShowInMobileForBusiness] = useState(false);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <div className="flex md:flex-row justify-between flex-col  w-full h-full ">

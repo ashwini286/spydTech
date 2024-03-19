@@ -5,7 +5,7 @@ import Navbarupp from "../Home/Navbar/Navbarupp";
 import ReadyToTest from "./ReadyToTestDrive/ReadyToTest";
 import PowerfulFeatures from "./PowerfulFeatures/PowerfulFeatures";
 import Approch from "../Home/APProchUs/Approch";
-
+import ChatBot from '../Home/Home/ChatBot';
 const TryADemo = () => {
   useEffect(() => {
     AOS.init();
@@ -42,6 +42,7 @@ const TryADemo = () => {
 
       <ReadyToTest />
       <PowerfulFeatures />
+      <ChatBot />
       <Approch />
     </>
   );
