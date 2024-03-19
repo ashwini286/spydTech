@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react';
 import Navbarupp from '../../Home/Navbar/Navbarupp'
 import Testimonial from './Testmonial'
 import { TbArrowsShuffle2 } from "react-icons/tb";
@@ -9,6 +9,7 @@ import { AiOutlineSearch } from "react-icons/ai";
 import { FaRegChartBar } from "react-icons/fa";
 
 function Staffing2() {
+    const [isHovered, setIsHovered] = useState(false);
   return (
    <>
    <Navbarupp />
@@ -41,9 +42,11 @@ function Staffing2() {
             
             <div class="relative  ">
                
-                <div class=" overflow-hidden cursor-pointer bg-gray-100  hover:bg-[#0284c7] hover:text-white  transition-all duration-300  shadow-md rounded-xl h-56">
+                <div class=" overflow-hidden cursor-pointer bg-gray-100  hover:bg-[#0284c7] hover:text-white  transition-all duration-300  shadow-md rounded-xl h-56"
+                onMouseEnter={() => setIsHovered(true)}
+                onMouseLeave={() => setIsHovered(false)}>
                     <div class="p-4 flex  ">
-                    <TbJumpRope className='icon text-8xl mt-10 transition-all duration-300 hover:animate-rotate hover:rotate-X-180' />
+                    <TbJumpRope className={`text-8xl mt-10 ${isHovered ? 'rotate-icon' : '180deg'}`} />
                       <div className='items-center ml-10 p-2 '>
                         <h3 class="mt-6 text-2xl font-bold  sm:mt-10 ">Integrations</h3>
                         <p class="mt-6 text-base  ">Explore our industry Integrations marketplace and partners</p>
@@ -113,7 +116,15 @@ function Staffing2() {
     
 </div>
 
+<style jsx>{`
 
+/* Add this CSS to your stylesheet */
+.rotate-icon {
+  transform: rotateY(180deg); /* Adjust the degree of rotation as needed */
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+`}</style>
 
     <Testimonial />
    </>
