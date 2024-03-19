@@ -32,8 +32,9 @@ const Portfolio = () => {
       </div>
     </header>
       <Card />
-      <Chatbot />
+    
       <Approch />
+      <Chatbot />
    
     </>
   );
