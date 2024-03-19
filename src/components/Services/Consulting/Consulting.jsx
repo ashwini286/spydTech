@@ -9,6 +9,7 @@ import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeli
 import 'react-vertical-timeline-component/style.min.css';
 
 import { HomeIcon, BellIcon, CurrencyDollarIcon } from "@heroicons/react/24/solid";
+import ChatBot from '../../Home/Home/ChatBot';
 
 
 
@@ -194,6 +195,7 @@ const Consulting = () => {
 
 
       <Footer1 />
+      <ChatBot />
     </>
   );
 };

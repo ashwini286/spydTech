@@ -7,6 +7,7 @@ import IMG3 from "../../../../assets/AI and ML/ML-1.png"
 import { Link } from 'react-router-dom'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import ChatBot from '../../../../Home/Home/ChatBot';
 
 function AIandML() {
   useEffect(() => {
@@ -72,6 +73,7 @@ function AIandML() {
    </div>
    </div>
     <Approch />
+    <ChatBot />
     </>
   )
 }

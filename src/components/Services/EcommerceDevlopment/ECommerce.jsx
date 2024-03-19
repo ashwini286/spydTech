@@ -11,6 +11,7 @@ import { TbTargetArrow } from "react-icons/tb";
 import { GrGroup } from "react-icons/gr";
 import { SiAmazonsimpleemailservice } from "react-icons/si";
 import { TbSocial } from "react-icons/tb";
+import ChatBot from '../../Home/Home/ChatBot';
 
 function ECommerce() {
   useEffect(() => {
@@ -152,6 +153,7 @@ function ECommerce() {
       </div>
       {/* </div> */}
       <Approch />
+      <ChatBot />
     </>
   );
 }

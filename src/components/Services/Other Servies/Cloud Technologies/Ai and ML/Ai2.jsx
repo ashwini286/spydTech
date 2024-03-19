@@ -5,6 +5,7 @@ import Aiproducts from './Aiproducts'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Client2 from '../../../../Home/WhatClientSay/Client2';
+import ChatBot from '../../../../Home/Home/ChatBot';
 
 function Ai2() {
   useEffect(() => {
@@ -366,8 +367,10 @@ function Ai2() {
 </div>
     </ul>
 </div>
+
     <Client2 />
     <ApprochUs />
+    <ChatBot />
     </>
   )
 }

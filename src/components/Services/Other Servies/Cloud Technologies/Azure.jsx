@@ -10,6 +10,7 @@ import IMG3 from "../../../assets/Azure/Azure5.png"
 import Approch from '../../../Home/APProchUs/Approch'
 import Aboutspyd from './Aboutspyd';
 import AZfeature from './AZfeature';
+import ChatBot from '../../../Home/Home/ChatBot';
 
 function Azure() {
  
@@ -151,6 +152,7 @@ useEffect(() => {
 </section>
 <AZfeature />
     <Approch />
+    <ChatBot />
     </>
   )
 }

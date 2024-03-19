@@ -7,6 +7,7 @@ import CarouselComponent from "./CarouselComponent";
 
 import Client2 from "../../../Home/WhatClientSay/Client2";
 import Approch from "../../../Home/APProchUs/Approch"
+import ChatBot from '../../../Home/Home/ChatBot';
 
 function Cyber() {
   useEffect(() => {
@@ -251,6 +252,7 @@ function Cyber() {
 
       <Client2 />
       <Approch />
+      <ChatBot />
     </>
   );
 }

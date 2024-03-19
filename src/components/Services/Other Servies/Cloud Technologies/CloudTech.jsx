@@ -8,6 +8,7 @@ import Navbarupp from '../../../Home/Navbar/Navbarupp'
 import { Link } from 'react-router-dom'
 import Approch from '../../../Home/APProchUs/Approch'
 import AnimatedFooter from '../../UniqueTeam/AnimatedFooter'
+import ChatBot from '../../../Home/Home/ChatBot';
 
 function CloudTech() {
    useEffect(() => {
@@ -87,6 +88,7 @@ function CloudTech() {
     </div>
 
     <Approch />
+    <ChatBot />
     {/* <AnimatedFooter /> */}
 
     </>

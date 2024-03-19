@@ -5,6 +5,7 @@ import Navbarupp from '../../Home/Navbar/Navbarupp'
 import Approch from '../../Home/APProchUs/Approch'
 import IMG from "../../assets/digital-marketing.webp"
 import IMG1 from "../../assets/Steps-For-SEO-Process.webp"
+import ChatBot from '../../Home/Home/ChatBot';
 
 function SeoServices() {
     useEffect(() => {
@@ -677,6 +678,7 @@ function SeoServices() {
 
 </div>
       <Approch />
+      <ChatBot />
     </>
   )
 }

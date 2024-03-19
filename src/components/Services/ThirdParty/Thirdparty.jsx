@@ -6,6 +6,7 @@ import IMG from "../../assets/Blue.webp";
 import UniqueTeam13 from "../UniqueTeam/UniqueTeam13";
 import Footer1 from "../UniqueTeam/Footer1";
 import { FaCheckCircle } from "react-icons/fa";
+import ChatBot from '../../Home/Home/ChatBot';
 
 function Thirdparty() {
    useEffect(() => {
@@ -440,6 +441,7 @@ function Thirdparty() {
 
 </div>
       <Footer1 />
+      <ChatBot />
     </>
   );
 }

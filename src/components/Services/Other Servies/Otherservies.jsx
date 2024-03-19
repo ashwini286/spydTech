@@ -7,6 +7,7 @@ import { SiOpenai } from "react-icons/si";
 import { CiCloudOn } from "react-icons/ci";
 import { IoSettingsOutline } from "react-icons/io5";
 import { CiLock } from "react-icons/ci";
+import ChatBot from '../../Home/Home/ChatBot';
 
 function Otherservies() {
     useEffect(() => {
@@ -186,6 +187,7 @@ function Otherservies() {
 
 
 <Approch />
+<ChatBot />
     </>
   )
 }

@@ -8,6 +8,7 @@ import Approch from '../../../Home/APProchUs/Approch'
 import IMG3 from "../../../assets/Software testing/selenium testing.webp"
 import IMG4 from "../../../assets/Software testing/QA testing2.png"
 import IMG5 from "../../../assets/Software testing/Manual testing 1.png"
+import ChatBot from '../../../Home/Home/ChatBot';
 
 function Testing() {
   useEffect(() => {
@@ -87,6 +88,7 @@ function Testing() {
 
 
     <Approch />
+    <ChatBot />
     </>
   )
 }

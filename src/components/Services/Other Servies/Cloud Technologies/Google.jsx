@@ -13,6 +13,7 @@ import IMG7 from "../../../assets/Google cloud/machine learning.webp"
 import "./google.css"
 import Approch from '../../../Home/APProchUs/Approch'
 import GCP1 from './GCP1';
+import ChatBot from '../../../Home/Home/ChatBot';
 
 function Google() {
     useEffect(() => {
@@ -125,6 +126,7 @@ function Google() {
 </style>
 <GCP1 />
     <Approch />
+    <ChatBot />
     </>
   )
 }

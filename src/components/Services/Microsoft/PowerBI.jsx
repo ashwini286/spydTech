@@ -11,6 +11,7 @@ import IMG6 from "../../assets/PowerBi/Powerbi bg.avif";
 import PowerBIcontent from './PowerBIcontent';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import ChatBot from '../../Home/Home/ChatBot';
 
 function PowerBI() {
   useEffect(() => {
@@ -103,6 +104,7 @@ function PowerBI() {
       </div>
 
       <Approch />
+      <ChatBot />
     </>
   )
 }

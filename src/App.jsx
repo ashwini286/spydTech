@@ -52,6 +52,7 @@ import Otherservies from "./components/Services/Other Servies/Otherservies";
 import Form from "./components/careers/form/Form2";
 import Cyber from "./components/Services/Other Servies/Cyber Security/Cyber";
 import Ai2 from "./components/Services/Other Servies/Cloud Technologies/Ai and ML/Ai2";
+import Staffing2 from "./components/Company/Staffing-Services/Staffing2";
 
 const App = () => {
   return (
@@ -133,8 +134,8 @@ const App = () => {
             element={<MakesUsDifferent />}
           />
           <Route path="/Our Core Values" element={<OurCore />} />
-          <Route path="/Staffing-Services" element={<StaffingServices />} />
-
+          {/* <Route path="/Staffing-Services" element={<StaffingServices />} /> */}
+          <Route path="/Staffing-Services" element={<Staffing2 />} />
           {/* form */}
           <Route path="/applyForm" element={<Form />} />
         </Routes>

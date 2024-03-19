@@ -8,6 +8,7 @@ import IMG2 from "../../assets/Microsoft/CRM-Main.jpg";
 import IMG3 from "../../assets/Microsoft/DotNet.png";
 import { Link } from "react-router-dom";
 import IMG4 from "../../assets/Microsoft/power-bi2.png";
+import ChatBot from "../../Home/Home/ChatBot";
 
 
 function Microsoft() {
@@ -377,6 +378,7 @@ function Microsoft() {
       </div>
 
       <Approch />
+      <ChatBot />
     </>
   );
 }

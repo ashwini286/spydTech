@@ -24,6 +24,7 @@ import { Bs5Circle } from "react-icons/bs";
 import { Bs6Circle } from "react-icons/bs";
 import { Bs7Circle } from "react-icons/bs";
 import { Bs8Circle } from "react-icons/bs";
+import ChatBot from '../../Home/Home/ChatBot';
 
 const Implementation = () => {
   useEffect(() => {
@@ -314,6 +315,7 @@ const Implementation = () => {
         </div>
       </div>
       <Footer1 />
+      <ChatBot />
     </>
   );
 };

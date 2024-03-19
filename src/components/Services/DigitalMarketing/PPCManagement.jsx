@@ -8,6 +8,7 @@ import { FaRegCircleCheck } from "react-icons/fa6";
 import { FaCheck } from "react-icons/fa6";
 import IMG from "../../assets/PPC-2.jpg";
 import IMG1 from "../../assets/Digital-marketing-PPC1.jpg";
+import ChatBot from "../../Home/Home/ChatBot";
 
 function PPCManagement() {
   useEffect(() => {
@@ -460,6 +461,7 @@ function PPCManagement() {
       </div>
 
       <Approch />
+      <ChatBot />
     </>
   );
 }

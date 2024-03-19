@@ -23,6 +23,7 @@ import { PiIntersectThreeFill } from "react-icons/pi";
 import { AiOutlineCloudSync } from "react-icons/ai";
 import { RiCustomerService2Fill } from "react-icons/ri";
 import { PiCubeFocusThin } from "react-icons/pi";
+import ChatBot from "../../Home/Home/ChatBot";
 
 function ASP() {
 
@@ -491,6 +492,7 @@ function ASP() {
       </div>
       </div>
       <Approch />
+      <ChatBot />
 
     </>
   )

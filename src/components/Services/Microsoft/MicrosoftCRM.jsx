@@ -13,6 +13,7 @@ import IMG6 from "../../assets/Microsoft/CMR sevices5.png";
 import IMG7 from "../../assets/Microsoft/CMR sevices6.png";
 import IMG8 from "../../assets/Microsoft/dynamic-crm.png";
 import Crm from "./Crm";
+import ChatBot from "../../Home/Home/ChatBot";
 
 function MicrosoftCRM() {
   useEffect(() => {
@@ -296,6 +297,7 @@ function MicrosoftCRM() {
       </div>
 
       <Approch />
+      <ChatBot />
     </>
   );
 }

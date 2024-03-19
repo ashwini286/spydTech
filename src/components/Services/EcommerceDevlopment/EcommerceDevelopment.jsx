@@ -7,6 +7,7 @@ import IMG from "../../assets/Ecommerce development.png"
 import Approch from "../../Home/APProchUs/Approch"
 import { BsCheck2Square } from "react-icons/bs";
 import IMG1 from "../../assets/ecommerce-big-icon.png"
+import ChatBot from '../../Home/Home/ChatBot';
 
 function EcommerceDevelopment() {
    useEffect(() => {
@@ -188,6 +189,7 @@ function EcommerceDevelopment() {
 
 
          <Approch />
+         <ChatBot />
        
       </>
    )

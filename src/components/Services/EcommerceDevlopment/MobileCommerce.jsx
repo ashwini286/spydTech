@@ -12,6 +12,7 @@ import { PiNumberFour } from "react-icons/pi";
 import { PiNumberFive } from "react-icons/pi";
 import { PiNumberSix } from "react-icons/pi";
 import IMG23 from "../../assets/MOBILEanimation.gif";
+import ChatBot from '../../Home/Home/ChatBot';
 
 function MobileCommerce() {
   useEffect(() => {
@@ -194,7 +195,8 @@ function MobileCommerce() {
           </div>
         </div>
       </div>
-      <Approch />=
+      <Approch />
+      <ChatBot />
     </>
   );
 }

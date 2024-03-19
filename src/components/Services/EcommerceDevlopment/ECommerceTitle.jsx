@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import Navbarupp from "../../Home/Navbar/Navbarupp";
 import Approch from "../../Home/APProchUs/Approch";
 import BlurCircularIcon from "@mui/icons-material/BlurCircular";
+import ChatBot from "../../Home/Home/ChatBot";
 const ECommerceTitle = () => {
   useEffect(() => {
     AOS.init();
@@ -207,6 +208,7 @@ const ECommerceTitle = () => {
       </div>
 
       <Approch />
+      <ChatBot />
     </>
   );
 };

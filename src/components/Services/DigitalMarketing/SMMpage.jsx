@@ -9,6 +9,7 @@ import Welcome from "../../Home/Home/Welcom";
 import Media from "./Media";
 import MediaProcess from "./MediaProcess";
 import People from "../../assets/Digital marketing/people.svg";
+import ChatBot from "../../Home/Home/ChatBot";
 
 function SMMpage() {
   useEffect(() => {
@@ -99,6 +100,7 @@ function SMMpage() {
       <MediaProcess />
 
       <Approch />
+      <ChatBot />
     </>
   );
 }

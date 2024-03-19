@@ -11,6 +11,7 @@ import "aos/dist/aos.css";
 import "./According.css";
 import Features from "./Features";
 import Hero from "./Hero";
+import ChatBot from "../../../../Home/Home/ChatBot";
 
 
 
@@ -224,6 +225,7 @@ Build your own projects:
 
   {/* <Features /> */}
 <Approch />
+<ChatBot />
     </>
   )
 }
