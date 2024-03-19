@@ -18,7 +18,7 @@ function CarousalSaffing() {
           <p className='text-center py-5'>{person.quote}</p>
         </blockquote>
         <figcaption className="flex items-center space-x-4">
-          <img src={person.imageUrl} alt="" className="flex-none w-20 h-20 rounded-full border-2 border-pink-700 object-cover" loading="lazy" decoding="async" />
+          <img src={person.imageUrl} alt="" className="flex-none w-20 h-20 rounded-full border-2 border-[#0284c7] object-cover" loading="lazy" decoding="async" />
           <div className="flex-auto">
             <div className="text-base text-slate-900 font-semibold dark:text-slate-200">{person.name}</div>
             <div className="mt-0.5 dark:text-slate-300">{person.role}</div>
