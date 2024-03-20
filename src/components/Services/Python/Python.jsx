@@ -1,12 +1,12 @@
-import React, { useEffect } from 'react'
+import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Hero from '../../assets/Java/python.png';
+import Hero from "../../assets/Java/python.png";
 import Navbarupp from "../../Home/Navbar/Navbarupp";
-import PythonAppDevelopment from './PythonAppDevelopment/PythonAppDevelopment';
-import PythonExpertise from './PythonExpertise/pythonExpertise';
-import Approch from '../../Home/APProchUs/Approch';
-
+import PythonAppDevelopment from "./PythonAppDevelopment/PythonAppDevelopment";
+import PythonExpertise from "./PythonExpertise/pythonExpertise";
+import Approch from "../../Home/APProchUs/Approch";
+import ChatBot from "../../Home/Home/ChatBot";
 const Python = () => {
   useEffect(() => {
     AOS.init();
@@ -17,7 +17,7 @@ const Python = () => {
   }, []);
   return (
     <>
-     <div>
+      <div>
         <Navbarupp />
       </div>
       <img
@@ -29,9 +29,9 @@ const Python = () => {
       <PythonAppDevelopment />
       <PythonExpertise />
       <Approch />
-    
+      <ChatBot />
     </>
-  )
-}
+  );
+};
 
-export default Python
+export default Python;

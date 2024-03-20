@@ -5,7 +5,7 @@ import Navbarupp from "../../Home/Navbar/Navbarupp";
 import PhpSolution from "./PhpWebDevloSolution/PhpSolution";
 import TechnicalSkills from "./TechnicalSkills/TechnicalSkills";
 import Approch from "../../Home/APProchUs/Approch";
-
+import ChatBot from '../../Home/Home/ChatBot';
 import IMG from "../../assets/PhpImg/TechnicalSkill/0_fzIHZCdJmB6Y_8GC.webp";
 const Php = () => {
   useEffect(() => {
@@ -29,7 +29,7 @@ const Php = () => {
       <PhpSolution />
       <TechnicalSkills />
       <Approch />
-   
+   <ChatBot />
     </>
   );
 };

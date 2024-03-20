@@ -1,10 +1,10 @@
-import React,{useEffect} from 'react'
+import React, { useEffect } from "react";
 import Navbarupp from "../../Home/Navbar/Navbarupp";
-import NextJs from '../../assets/Nextjs.png'
-import WhyGoNextjs from './WhyGoNextJs/WhyGoNextjs';
-
-import WhyChoose from './WhyChooseNext/WhyChoose';
-import Approch from '../../Home/APProchUs/Approch';
+import NextJs from "../../assets/Nextjs.png";
+import WhyGoNextjs from "./WhyGoNextJs/WhyGoNextjs";
+import ChatBot from "../../Home/Home/ChatBot";
+import WhyChoose from "./WhyChooseNext/WhyChoose";
+import Approch from "../../Home/APProchUs/Approch";
 
 const NextJS = () => {
   useEffect(() => {
@@ -13,25 +13,18 @@ const NextJS = () => {
 
   return (
     <>
-   <div>
+      <div>
         <Navbarupp />
       </div>
 
-
-      <img
-        src={NextJs}
-        className="w-full"
-        alt="Background Image"
-      />
-<WhyGoNextjs />
+      <img src={NextJs} className="w-full" alt="Background Image" />
+      <WhyGoNextjs />
       <WhyChoose />
 
-    
-    <Approch />
-
-
+      <Approch />
+      <ChatBot />
     </>
-  )
-}
+  );
+};
 
-export default NextJS
+export default NextJS;

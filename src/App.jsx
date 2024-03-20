@@ -35,7 +35,7 @@ import Microsoft from "./components/Services/Microsoft/Microsoft";
 import PowerBI from "./components/Services/Microsoft/PowerBI";
 import CloudTech from "./components/Services/Other Servies/Cloud Technologies/CloudTech";
 import Amazon from "./components/Services/Other Servies/Cloud Technologies/Amazon";
-import StaffingServices from "./components/Company/Staffing-Services/StaffingServices";
+// import StaffingServices from "./components/Company/Staffing-Services/StaffingServices";
 import Azure from "./components/Services/Other Servies/Cloud Technologies/Azure";
 import Google from "./components/Services/Other Servies/Cloud Technologies/Google";
 

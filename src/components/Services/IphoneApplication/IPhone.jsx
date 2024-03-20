@@ -6,7 +6,7 @@ import Iphone from '../../assets/IPhoneApplication/Iphone.png'
 import HowWeDevelop from './HowWeDevelopPowerfulIOS/HowWeDevelop';
 import OurProvenMethodology from './OurProvenMethodology/OurProvenMethodology';
 import Approch from '../../Home/APProchUs/Approch';
-
+import ChatBot from "../../Home/Home/ChatBot";
 import AOS from "aos";
 import "aos/dist/aos.css";
 const IPhone = () => {
@@ -48,7 +48,7 @@ const IPhone = () => {
       <HowWeDevelop />
       <OurProvenMethodology />
       <Approch />
-     
+     <ChatBot />
 
     </>
   )

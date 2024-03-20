@@ -3,7 +3,7 @@ import Navbarupp from '../../Home/Navbar/Navbarupp'
 import Help from './HowSpydTechHelp/Help'
 import MobileCard from './MobileCard/Card'
 import Approch from '../../Home/APProchUs/Approch';
-
+import ChatBot from '../../Home/Home/ChatBot';
 const Mobile = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -21,7 +21,7 @@ const Mobile = () => {
       <MobileCard />
       <Help />
       <Approch />
-     
+     <ChatBot />
     </>
   )
 }

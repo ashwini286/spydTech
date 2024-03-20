@@ -18,7 +18,7 @@ function Staffing2() {
         className=" object-cover w-full md:h-[400px]"
         alt="Background Image"
       />
-      <div className="flex justify-center items-center flex-col gap-4 py-20">
+      <div className="flex justify-center items-center flex-col gap-4 py-8">
         <div className="text-3xl text-center font-bold tracking-normal text-[#0284c7] md:text-6xl md:leading-none">
           Drive Your Candidate Experience.
         </div>
