@@ -7,28 +7,15 @@ import { MdGroup } from "react-icons/md";
 import { BsMegaphone } from "react-icons/bs";
 import { AiOutlineSearch } from "react-icons/ai";
 import { FaRegChartBar } from "react-icons/fa";
-import Overview from './Overview';
 
 function Staffing2() {
-    const [isHovered1, setIsHovered1] = useState(false);
-    const [isHovered2, setIsHovered2] = useState(false);
-    const [isHovered3, setIsHovered3] = useState(false);
-    const [isHovered4, setIsHovered4] = useState(false);
-    const [isHovered5, setIsHovered5] = useState(false);
-    const [isHovered6, setIsHovered6] = useState(false);
   return (
-   <>
-   <Navbarupp />
-   <div class="text-center md:w-1/2 w-full md:ml-[20%]">
-    <h1 class="text-3xl text-center font-bold tracking-normal text-gray-900 sm:text-5xl md:text-6xl md:leading-none">
-        <span class="block  text-center">Drive Your Candidate Experience.</span>
-    </h1>
-    <p
-        class="max-w-sm mx-auto mt-1 font-normal text-gray-500  sm:mt-5 sm:text-md md:mt-5 md:text-xl sm:max-w-2xl md:max-w-2xl">
-       Drive & convert top talent with technology-enabled staffing websites, job boards, and career portals.</p>
-    <div class="max-w-md mx-auto mt-3 sm:flex sm:justify-center md:mt-6">
-        <div class="rounded-full shadow">
-            <button type="button" class="flex items-center justify-center w-full px-8 py-3 text-base font-normal text-white bg-[#BF1A83] border border-transparent rounded-full text-md hover:bg-[#172554] md:py-2 md:text-xl md:px-5">SEE ALL FEATURES</button>
+    <>
+      <Navbarupp />
+
+      <div className="flex justify-center items-center h-screen flex-col gap-4">
+        <div className="text-3xl text-center font-bold tracking-normal text-gray-900  md:text-6xl md:leading-none">
+          Drive Your Candidate Experience.
         </div>
     </div>
 </div>
@@ -42,8 +29,6 @@ function Staffing2() {
     </h1>
    
 </div>
-
-
 <div
             class="grid max-w-4xl lg:max-w-6xl grid-cols-1 mx-auto mt-8 text-center gap-y-4 sm:gap-x-8 sm:grid-cols-2 lg:grid-cols-3 sm:mt-12 lg:mt-20 sm:text-left">
             
@@ -62,11 +47,9 @@ function Staffing2() {
                     </div>
                 </div>
             </div>
-            <div class="overflow-hidden cursor-pointer bg-gray-100  hover:bg-[#0284c7] hover:text-white  transition-all duration-300  shadow-md rounded-xl h-56"
-             onMouseEnter={() => setIsHovered2(true)}
-             onMouseLeave={() => setIsHovered2(false)}>
+            <div class="overflow-hidden cursor-pointer bg-gray-100  hover:bg-[#0284c7] hover:text-white  transition-all duration-300  shadow-md rounded-xl h-56">
                 <div class="p-4 flex">
-                    <MdGroup className={`text-8xl mt-10 ${isHovered2 ? 'rotate-icon' : '360deg'}`} />
+                    <MdGroup className='text-8xl mt-10 ' />
                   <div  className='items-center ml-10 p-2'>
                     <h3 class="mt-6 text-2xl font-bold  sm:mt-10">Job Manager</h3>
                     <p class="mt-6 text-base">Manage your job listings through our Management system</p>
@@ -75,11 +58,9 @@ function Staffing2() {
             </div>
             <div class="relative">
                
-                <div class="relative overflow-hidden cursor-pointer bg-gray-100  hover:bg-[#0284c7] hover:text-white shadow-md transition-all duration-300 rounded-xl h-56"
-                 onMouseEnter={() => setIsHovered3(true)}
-                 onMouseLeave={() => setIsHovered3(false)}>
+                <div class="relative overflow-hidden cursor-pointer bg-gray-100  hover:bg-[#0284c7] hover:text-white  transition-all duration-300 rounded-xl h-56">
                     <div class="p-4 flex">
-                        <TbArrowsShuffle2  className={`text-8xl mt-10 ${isHovered3 ? 'rotate-icon' : '360deg'}`}/>
+                        <TbArrowsShuffle2  className='text-8xl mt-10 '/>
                         <div className='items-center ml-10 p-2'>
                         <h3 class="mt-6 text-2xl font-bold  sm:mt-10">Apply workflow</h3>
                         <p class="mt-6 text-base ">Customize your Candidate application workflow to suite your business needs.</p>
@@ -87,11 +68,9 @@ function Staffing2() {
                     </div>
                 </div>
             </div>
-            <div class="overflow-hidden cursor-pointer bg-gray-100  hover:bg-[#0284c7] hover:text-white  transition-all duration-300 shadow-md rounded-xl h-56"
-             onMouseEnter={() => setIsHovered4(true)}
-             onMouseLeave={() => setIsHovered4(false)}>
+            <div class="overflow-hidden cursor-pointer bg-gray-100  hover:bg-[#0284c7] hover:text-white  transition-all duration-300 shadow-md rounded-xl h-56">
                 <div class="p-4 flex">
-                    <BsMegaphone   className={`text-8xl mt-10 ${isHovered4 ? 'rotate-icon' : '360deg'}`}/>
+                    <BsMegaphone   className='text-8xl mt-10 '/>
                     <div  className='items-center ml-10 p-2'>
                     <h3 class="mt-6 text-2xl font-bold  sm:mt-10">Job Alerts</h3>
                     <p class="mt-6 text-base ">Inteligent Job alerts that bring active job seekers back to your jobs</p>
@@ -100,11 +79,9 @@ function Staffing2() {
             </div>
             <div class="relative">
                
-                <div class="relative overflow-hidden cursor-pointer bg-gray-100  hover:bg-[#0284c7] hover:text-white  transition-all duration-300 shadow-md rounded-xl h-56"
-                 onMouseEnter={() => setIsHovered5(true)}
-                 onMouseLeave={() => setIsHovered5(false)}>
+                <div class="relative overflow-hidden cursor-pointer bg-gray-100  hover:bg-[#0284c7] hover:text-white  transition-all duration-300 shadow-md rounded-xl h-56">
                     <div class="p-4 flex">
-                        <AiOutlineSearch   className={`text-8xl mt-10 ${isHovered5 ? 'rotate-icon' : '360deg'}`}/>
+                        <AiOutlineSearch   className='text-8xl mt-10 '/>
                         <div className='items-center ml-10 p-2'>
                         <h3 class="mt-6 text-2xl font-bold  sm:mt-10">Job Search
                         </h3>
@@ -113,24 +90,26 @@ function Staffing2() {
                     </div>
                 </div>
             </div>
-            <div class="overflow-hidden cursor-pointer bg-gray-100  hover:bg-[#0284c7] hover:text-white  transition-all duration-300 shadow-md rounded-xl h-56"
-             onMouseEnter={() => setIsHovered6(true)}
-             onMouseLeave={() => setIsHovered6(false)}>
+            <div class="overflow-hidden cursor-pointer bg-gray-100  hover:bg-[#0284c7] hover:text-white  transition-all duration-300 shadow-md rounded-xl h-56">
                 <div class="p-4 flex">
-                    <FaRegChartBar  className={`text-8xl mt-10 ${isHovered6 ? 'rotate-icon' : '360deg'}`} />
+                    <FaRegChartBar  className='text-8xl mt-10' />
                     <div className='items-center ml-10 p-2'>
                     <h3 class="mt-6 text-2xl font-bold  sm:mt-10">Reports & Anaytics</h3>
-                    <p class="mt-[] text-base ">Traffic, Conversations, Source Tracking and more to ensure and measured ROI</p>
+                    <p class="mt-6 text-base ">Traffic, Conversations, Source Tracking and more to ensure and measured ROI</p>
                     </div>
                 </div>
             </div>
             
         </div>
-        <div class="max-w-md mx-auto mt-3 sm:flex sm:justify-center md:mt-6 items-center">
         <div class="rounded-full shadow">
-            <button type="button" class="flex items-center justify-center w-full px-8 py-3 text-base font-normal text-white bg-[#BF1A83] border border-transparent rounded-full text-md hover:bg-[#172554] md:py-4 md:text-2xl md:px-10">Start for free</button>
+          <button
+            type="button"
+            class="flex items-center justify-center w-full px-8 py-3 text-base font-normal text-white bg-[#0284c7] border border-transparent rounded-full text-md hover:bg-[#172554] md:py-2 md:text-xl md:px-5"
+          >
+            SEE ALL FEATURES
+          </button>
         </div>
-    </div>
+        <div className="absolute inset-0 bg-gradient-to-t from-transparent to-black opacity-70"></div>
     
 </div>
 
@@ -143,11 +122,10 @@ function Staffing2() {
 }
 
 `}</style>
-<Overview />
 
-    <Testimonial />
-   </>
-  )
+      <Testimonial />
+    </>
+  );
 }
 
-export default Staffing2
+export default Staffing2;
