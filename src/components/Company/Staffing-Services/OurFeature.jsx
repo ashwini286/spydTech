@@ -51,7 +51,7 @@ const OurFeature = () => {
               </div>
             </div>
             <div
-              className=" relative cursor-pointer bg-gray-100  hover:bg-[#0284c7] hover:text-white  transition-all duration-300  shadow-md rounded-xl h-52"
+              className=" cursor-pointer bg-gray-100  hover:bg-[#0284c7] hover:text-white  transition-all duration-300  shadow-md rounded-xl h-52"
               onMouseEnter={() => setIsHovered2(true)}
             onMouseLeave={() => setIsHovered2(false)}
             >
@@ -74,7 +74,7 @@ const OurFeature = () => {
               </div>
             </div > 
             <div
-              className=" relative cursor-pointer bg-gray-100  hover:bg-[#0284c7] hover:text-white  transition-all duration-300  shadow-md rounded-xl h-52"
+              className=" cursor-pointer bg-gray-100  hover:bg-[#0284c7] hover:text-white  transition-all duration-300  shadow-md rounded-xl h-52"
               onMouseEnter={() => setIsHovered3(true)}
               onMouseLeave={() => setIsHovered3(false)}
             >
@@ -97,9 +97,9 @@ const OurFeature = () => {
                 </div>
               </div>
             </div>
-            <div className="relative">
+           
             <div
-              className="overflow-hidden cursor-pointer bg-gray-100  hover:bg-[#0284c7] hover:text-white  transition-all duration-300  shadow-md rounded-xl h-52"
+              className="cursor-pointer bg-gray-100  hover:bg-[#0284c7] hover:text-white  transition-all duration-300  shadow-md rounded-xl h-52"
               onMouseEnter={() => setIsHovered4(true)}
               onMouseLeave={() => setIsHovered4(false)}
             >
@@ -122,7 +122,7 @@ const OurFeature = () => {
                 </div>
               </div>
             </div>
-            </div>
+         
             <div
               className=" relative cursor-pointer bg-gray-100  hover:bg-[#0284c7] hover:text-white  transition-all duration-300  shadow-md rounded-xl h-52"
               onMouseEnter={() => setIsHovered5(true)}

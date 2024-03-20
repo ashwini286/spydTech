@@ -1,13 +1,16 @@
-import React, { useState } from "react";
+import React, { useEffect } from "react";
 import Navbarupp from "../../Home/Navbar/Navbarupp";
 import Testimonial from "./Testmonial";
 import OurFeature from "./OurFeature";
-
+import ApprochUs from '../../Home/APProchUs/Approch';
+import Workflows from "./Workflows";
 function Staffing2() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Navbarupp />
-
       <div className="flex justify-center items-center h-screen flex-col gap-4">
         <div className="text-3xl text-center font-bold tracking-normal text-gray-900  md:text-6xl md:leading-none">
           Drive Your Candidate Experience.
@@ -26,12 +29,12 @@ function Staffing2() {
           </button>
         </div>
         <div className="absolute inset-0 bg-gradient-to-t from-transparent to-black opacity-70"></div>
-    
       </div>
-<OurFeature />
-      
+      <OurFeature />
 
       <Testimonial />
+      <Workflows />
+      <ApprochUs />
     </>
   );
 }
