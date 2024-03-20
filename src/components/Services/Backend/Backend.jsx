@@ -8,7 +8,7 @@ import Pyhton from './Python/Python';
 import Php from './Php/Php';
 import Help from './HowSpydTechHelp/Help'
 import Approch from '../../Home/APProchUs/Approch';
-
+import ChatBot from '../../Home/Home/ChatBot';
 const Backend = () => {
   useEffect(() => {
     AOS.init();
@@ -35,6 +35,7 @@ const Backend = () => {
       <Pyhton />
       <Help />
       <Approch />
+      <ChatBot />
     </>
   )
 }

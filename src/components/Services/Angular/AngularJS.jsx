@@ -5,7 +5,7 @@ import Navbarupp from "../../Home/Navbar/Navbarupp";
 import Development from './DevelopmentCompany/Development';
 import Benefits from './ImmenseBenefits/Benefits';
 import Approch from '../../Home/APProchUs/Approch';
-
+import ChatBot from '../../Home/Home/ChatBot';
 function AngularJS() {
   useEffect(() => {
     AOS.init();
@@ -30,6 +30,7 @@ function AngularJS() {
       <Benefits />
 
       <Approch />
+      <ChatBot />
     </>
   );
 }
