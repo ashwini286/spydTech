@@ -7,6 +7,7 @@ import { MdGroup } from "react-icons/md";
 import { BsMegaphone } from "react-icons/bs";
 import { AiOutlineSearch } from "react-icons/ai";
 import { FaRegChartBar } from "react-icons/fa";
+import Overview from './Overview';
 
 function Staffing2() {
     const [isHovered1, setIsHovered1] = useState(false);
@@ -41,6 +42,8 @@ function Staffing2() {
     </h1>
    
 </div>
+
+
 <div
             class="grid max-w-4xl lg:max-w-6xl grid-cols-1 mx-auto mt-8 text-center gap-y-4 sm:gap-x-8 sm:grid-cols-2 lg:grid-cols-3 sm:mt-12 lg:mt-20 sm:text-left">
             
@@ -59,9 +62,11 @@ function Staffing2() {
                     </div>
                 </div>
             </div>
-            <div class="overflow-hidden cursor-pointer bg-gray-100  hover:bg-[#0284c7] hover:text-white  transition-all duration-300  shadow-md rounded-xl h-56">
+            <div class="overflow-hidden cursor-pointer bg-gray-100  hover:bg-[#0284c7] hover:text-white  transition-all duration-300  shadow-md rounded-xl h-56"
+             onMouseEnter={() => setIsHovered2(true)}
+             onMouseLeave={() => setIsHovered2(false)}>
                 <div class="p-4 flex">
-                    <MdGroup className='text-8xl mt-10 ' />
+                    <MdGroup className={`text-8xl mt-10 ${isHovered2 ? 'rotate-icon' : '360deg'}`} />
                   <div  className='items-center ml-10 p-2'>
                     <h3 class="mt-6 text-2xl font-bold  sm:mt-10">Job Manager</h3>
                     <p class="mt-6 text-base">Manage your job listings through our Management system</p>
@@ -70,9 +75,11 @@ function Staffing2() {
             </div>
             <div class="relative">
                
-                <div class="relative overflow-hidden cursor-pointer bg-gray-100  hover:bg-[#0284c7] hover:text-white  transition-all duration-300 rounded-xl h-56">
+                <div class="relative overflow-hidden cursor-pointer bg-gray-100  hover:bg-[#0284c7] hover:text-white shadow-md transition-all duration-300 rounded-xl h-56"
+                 onMouseEnter={() => setIsHovered3(true)}
+                 onMouseLeave={() => setIsHovered3(false)}>
                     <div class="p-4 flex">
-                        <TbArrowsShuffle2  className='text-8xl mt-10 '/>
+                        <TbArrowsShuffle2  className={`text-8xl mt-10 ${isHovered3 ? 'rotate-icon' : '360deg'}`}/>
                         <div className='items-center ml-10 p-2'>
                         <h3 class="mt-6 text-2xl font-bold  sm:mt-10">Apply workflow</h3>
                         <p class="mt-6 text-base ">Customize your Candidate application workflow to suite your business needs.</p>
@@ -80,9 +87,11 @@ function Staffing2() {
                     </div>
                 </div>
             </div>
-            <div class="overflow-hidden cursor-pointer bg-gray-100  hover:bg-[#0284c7] hover:text-white  transition-all duration-300 shadow-md rounded-xl h-56">
+            <div class="overflow-hidden cursor-pointer bg-gray-100  hover:bg-[#0284c7] hover:text-white  transition-all duration-300 shadow-md rounded-xl h-56"
+             onMouseEnter={() => setIsHovered4(true)}
+             onMouseLeave={() => setIsHovered4(false)}>
                 <div class="p-4 flex">
-                    <BsMegaphone   className='text-8xl mt-10 '/>
+                    <BsMegaphone   className={`text-8xl mt-10 ${isHovered4 ? 'rotate-icon' : '360deg'}`}/>
                     <div  className='items-center ml-10 p-2'>
                     <h3 class="mt-6 text-2xl font-bold  sm:mt-10">Job Alerts</h3>
                     <p class="mt-6 text-base ">Inteligent Job alerts that bring active job seekers back to your jobs</p>
@@ -91,9 +100,11 @@ function Staffing2() {
             </div>
             <div class="relative">
                
-                <div class="relative overflow-hidden cursor-pointer bg-gray-100  hover:bg-[#0284c7] hover:text-white  transition-all duration-300 shadow-md rounded-xl h-56">
+                <div class="relative overflow-hidden cursor-pointer bg-gray-100  hover:bg-[#0284c7] hover:text-white  transition-all duration-300 shadow-md rounded-xl h-56"
+                 onMouseEnter={() => setIsHovered5(true)}
+                 onMouseLeave={() => setIsHovered5(false)}>
                     <div class="p-4 flex">
-                        <AiOutlineSearch   className='text-8xl mt-10 '/>
+                        <AiOutlineSearch   className={`text-8xl mt-10 ${isHovered5 ? 'rotate-icon' : '360deg'}`}/>
                         <div className='items-center ml-10 p-2'>
                         <h3 class="mt-6 text-2xl font-bold  sm:mt-10">Job Search
                         </h3>
@@ -102,12 +113,14 @@ function Staffing2() {
                     </div>
                 </div>
             </div>
-            <div class="overflow-hidden cursor-pointer bg-gray-100  hover:bg-[#0284c7] hover:text-white  transition-all duration-300 shadow-md rounded-xl h-56">
+            <div class="overflow-hidden cursor-pointer bg-gray-100  hover:bg-[#0284c7] hover:text-white  transition-all duration-300 shadow-md rounded-xl h-56"
+             onMouseEnter={() => setIsHovered6(true)}
+             onMouseLeave={() => setIsHovered6(false)}>
                 <div class="p-4 flex">
-                    <FaRegChartBar  className='text-8xl mt-10' />
+                    <FaRegChartBar  className={`text-8xl mt-10 ${isHovered6 ? 'rotate-icon' : '360deg'}`} />
                     <div className='items-center ml-10 p-2'>
                     <h3 class="mt-6 text-2xl font-bold  sm:mt-10">Reports & Anaytics</h3>
-                    <p class="mt-6 text-base ">Traffic, Conversations, Source Tracking and more to ensure and measured ROI</p>
+                    <p class="mt-[] text-base ">Traffic, Conversations, Source Tracking and more to ensure and measured ROI</p>
                     </div>
                 </div>
             </div>
@@ -130,6 +143,7 @@ function Staffing2() {
 }
 
 `}</style>
+<Overview />
 
     <Testimonial />
    </>
