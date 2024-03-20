@@ -7,7 +7,7 @@ import Help from './HowSpydTechHelp/Help'
 import AngularJs from './AngularJs/AngularJs';
 import NextJs from './NextJs/Next';
 import Approch from '../../Home/APProchUs/Approch';
-
+import ChatBot from '../../Home/Home/ChatBot';
 const Frontend = () => {
   useEffect(() => {
     AOS.init();
@@ -40,7 +40,7 @@ const Frontend = () => {
 
       <Approch />
 
- 
+ <ChatBot />
     </>
   )
 }

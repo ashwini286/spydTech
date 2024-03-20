@@ -5,7 +5,7 @@ import Navbarupp from "../../Home/Navbar/Navbarupp";
 import Makeus from '../../../components/assets/Company/makeus.jpg'
 import MakeUs from './makeus/MakeUs';
 import Approch from '../../Home/APProchUs/Approch';
-
+import ChatBot from '../../Home/Home/ChatBot';
 const MakesUsDifferent = () => {
   useEffect(() => {
     AOS.init();
@@ -27,7 +27,7 @@ const MakesUsDifferent = () => {
       />
 <MakeUs />
 <Approch />
-
+<ChatBot />
     </>
   )
 }

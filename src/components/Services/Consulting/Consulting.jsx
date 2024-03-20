@@ -45,16 +45,6 @@ const Consulting = () => {
           </div>
         </div>
       </div>
-      {/* <div class="relative h-screen w-full rounded-b-2xl ">
-    <img src={IMG} alt="Background Image" class="absolute inset-0 w-full h-[80vh] rounded-b-2xl  object-cover filter blur-sm" />
-    <div class="absolute inset-0 h-[80vh] bg-black bg-opacity-50 rounded-b-2xl "></div>
-    <div class="absolute inset-0  flex flex-col md:flex-row items-center justify-center ml-10">
-        <h1 class="text-4xl text-white font-bold w-full p-10">ERPNext Consultancy</h1>
-        <p class="text-xl text-white mt-4 -ml-10 p-10">Building Cost-Effective Digital Business Capabilities around the ERPNext, 
-        focusing on the right balance of Digitization, Flexibility, and Process mapping.</p>
-    </div>
-</div> */}
-
       <UniqueTeam />
       {/* My code */}
       <div className='flex flex-col md:flex-row'>

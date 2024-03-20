@@ -1,10 +1,10 @@
-import React, { useEffect } from 'react'
+import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Navbarupp from "../../Home/Navbar/Navbarupp";
-import Card from './AboutUsCard/Card';
-
-import Approch from '../../Home/APProchUs/Approch';
+import Card from "./AboutUsCard/Card";
+import ChatBot from "../../Home/Home/ChatBot";
+import Approch from "../../Home/APProchUs/Approch";
 
 const AboutUS = () => {
   useEffect(() => {
@@ -16,24 +16,21 @@ const AboutUS = () => {
   }, []);
   return (
     <>
-    
-    <div>
-      <Navbarupp />
-      </div> 
-    
+      <div>
+        <Navbarupp />
+      </div>
+
       <img
         src="https://ygfindia.com/wp-content/uploads/2023/07/Banner-1536x618.jpg"
         className=" object-cover w-full"
         alt="Background Image"
       />
       <Card />
-  
-<Approch />
 
-     
-
+      <Approch />
+      <ChatBot />
     </>
-  )
-}
+  );
+};
 
-export default AboutUS
+export default AboutUS;

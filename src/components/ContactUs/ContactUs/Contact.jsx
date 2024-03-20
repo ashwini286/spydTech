@@ -4,7 +4,7 @@ import "aos/dist/aos.css";
 import Navbarupp from '../../Home/Navbar/Navbarupp';
 import GetInTouch from '../GetInTouch/GetInTouch';
 import LetsTalk from '../LetsTalk/LetsTalk';
-
+import ChatBot from '../../Home/Home/ChatBot';
 const Contact = () => {
   useEffect(() => {
     AOS.init();
@@ -30,7 +30,7 @@ const Contact = () => {
     </div>
     <GetInTouch />
     <LetsTalk />
-
+<ChatBot />
     </>
   )
 }

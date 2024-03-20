@@ -5,7 +5,7 @@ import OurCapabilities from './OurCapabilities/OurCapabilities';
 
 import OurProvenMethodology from '../IphoneApplication/OurProvenMethodology/OurProvenMethodology';
 import Approch from '../../Home/APProchUs/Approch';
-
+import ChatBot from '../../Home/Home/ChatBot';
 import AOS from "aos";
 import "aos/dist/aos.css";
 const AndroidApplication = () => {
@@ -44,7 +44,7 @@ const AndroidApplication = () => {
       <OurCapabilities />
       <OurProvenMethodology />
       <Approch />
-
+      <ChatBot />
     </>
   )
 }

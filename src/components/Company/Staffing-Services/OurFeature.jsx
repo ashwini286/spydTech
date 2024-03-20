@@ -5,6 +5,7 @@ import { MdGroup } from "react-icons/md";
 import { BsMegaphone } from "react-icons/bs";
 import { AiOutlineSearch } from "react-icons/ai";
 import { FaRegChartBar } from "react-icons/fa";
+
 const OurFeature = () => {
   const [isHovered1, setIsHovered1] = useState(false);
   const [isHovered2, setIsHovered2] = useState(false);
@@ -14,13 +15,14 @@ const OurFeature = () => {
   const [isHovered6, setIsHovered6] = useState(false);
   return (
     <>
+
       <div className="bg-gray-50 p-10">
         <div class=" w-full pt-20">
           <p className="text-lg text-gray-500 py-5 text-center">
             Our Features --
           </p>
-          <h1 class="text-3xl font-bold tracking-normal text-gray-900  md:text-4xl w-full">
-            <span class="block text-center">
+          <h1 class="text-2xl font-bold tracking-normal text-gray-900  md:text-5xl w-full">
+            <span class="block text-center text-[#0284c7]">
               Your Candidate Experience Platform
             </span>
           </h1>
