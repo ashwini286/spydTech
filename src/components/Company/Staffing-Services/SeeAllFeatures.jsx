@@ -5,27 +5,28 @@ import { MdGroup } from "react-icons/md";
 import { BsMegaphone } from "react-icons/bs";
 import { AiOutlineSearch } from "react-icons/ai";
 import { FaRegChartBar } from "react-icons/fa";
-const OurFeature = () => {
-  const [isHovered1, setIsHovered1] = useState(false);
+
+function SeeAllFeatures() {
+    const [isHovered1, setIsHovered1] = useState(false);
   const [isHovered2, setIsHovered2] = useState(false);
   const [isHovered3, setIsHovered3] = useState(false);
   const [isHovered4, setIsHovered4] = useState(false);
   const [isHovered5, setIsHovered5] = useState(false);
   const [isHovered6, setIsHovered6] = useState(false);
+ 
   return (
     <>
-      <div className="bg-gray-50 p-10">
+     <div className="bg-gray-50 p-10">
         <div class=" w-full pt-20">
-          <p className="text-lg text-gray-500 py-5 text-center">
-            Our Features --
-          </p>
+          
           <h1 class="text-3xl font-bold tracking-normal text-gray-900  md:text-4xl w-full">
             <span class="block text-center">
-              Your Candidate Experience Platform
+            Rich Features That Attract & Convert Candidates
             </span>
           </h1>
         </div>
-        <div className="flex justify-center items-center md:flex-row flex-col pt-12">
+        </div>
+     <div className="flex justify-center items-center md:flex-row flex-col pt-12">
           <div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div
               className="relative cursor-pointer bg-gray-100  hover:bg-[#0284c7] hover:text-white  transition-all duration-300  shadow-md rounded-xl h-52"
@@ -172,30 +173,11 @@ const OurFeature = () => {
             </div>
           </div>
         </div>
-        <div class="max-w-md mx-auto mt-3 sm:flex sm:justify-center md:mt-6 items-center">
-        <div class="rounded-full shadow">
-  <a
-    href="/SeeAllFeatures"
-    class="flex items-center justify-center w-full px-8 py-3 text-base font-normal text-white bg-[#0284c7] border border-transparent rounded-full text-md hover:bg-[#172554] md:py-4 md:text-2xl md:px-10"
-  >
-    See all Features
-  </a>
-</div>
+        
 
-        </div>
-      </div>
-
-      <style jsx>{`
-        /* Add this CSS to your stylesheet */
-        .rotate-icon {
-          transform: rotateY(
-            360deg
-          ); /* Adjust the degree of rotation as needed */
-          transition: transform 0.3s ease; /* Add a smooth transition effect */
-        }
-      `}</style>
+    
     </>
-  );
-};
+  )
+}
 
-export default OurFeature;
+export default SeeAllFeatures
