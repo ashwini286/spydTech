@@ -1,6 +1,6 @@
-import React, { useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { Card, CardBody, CardHeader } from "@material-tailwind/react";
 import Navbarupp from "../../Home/Navbar/Navbarupp";
 import Footer1 from "../UniqueTeam/Footer1";
@@ -24,7 +24,7 @@ import { Bs5Circle } from "react-icons/bs";
 import { Bs6Circle } from "react-icons/bs";
 import { Bs7Circle } from "react-icons/bs";
 import { Bs8Circle } from "react-icons/bs";
-import ChatBot from '../../Home/Home/ChatBot';
+import ChatBot from "../../Home/Home/ChatBot";
 
 const Implementation = () => {
   useEffect(() => {
@@ -36,29 +36,28 @@ const Implementation = () => {
   return (
     <>
       <Navbarupp />
-      {/* <div class="relative h-screen w-full rounded-b-2xl ">
-    <img src={IMG} alt="Background Image" class="absolute inset-0 w-full h-[80vh] rounded-b-2xl  object-cover filter blur-sm" />
-    <div class="absolute inset-0 h-[80vh] bg-black bg-opacity-50 rounded-b-2xl "></div>
-    <div class="absolute inset-0  flex flex-col md:flex-row items-center justify-center ml-10">
-        <h1 class="text-4xl text-white font-bold w-full p-10">ERPNext Implementation</h1>
-        <p class="text-xl text-white mt-4 -ml-10 p-10">Building Cost-Effective Digital Business Capabilities around the ERPNext, 
-        focusing on the right balance of Digitization, Flexibility, and Process mapping.</p>
-    </div>
-</div> */}
+
       <div className="h-[550px] relative">
         <img
           src={IMG}
           className=" w-full object-cover h-[550px] rounded-b-2xl "
           alt="Background 2"
-          style={{filter:"brightness(90%)"}}
+          style={{ filter: "brightness(90%)" }}
         />
-        <div  class="absolute inset-0 m-auto flex flex-col items-center justify-center w-[90%] md:w-[60%]">
-          <div class="text-4xl text-white font-bold w-full text-center" data-aos="fade-up-right">
-          ERPNext Implementation
+        <div class="absolute inset-0 m-auto flex flex-col items-center justify-center w-[90%] md:w-[60%]">
+          <div
+            class="text-4xl text-white font-bold w-full text-center"
+            data-aos="fade-up-right"
+          >
+            ERPNext Implementation
           </div>
-          <div class="text-xl text-white text-center my-4" data-aos="fade-up-right">
-          Building Cost-Effective Digital Business Capabilities around the ERPNext, 
-        focusing on the right balance of Digitization, Flexibility, and Process mapping.
+          <div
+            class="text-xl text-white text-center my-4"
+            data-aos="fade-up-right"
+          >
+            Building Cost-Effective Digital Business Capabilities around the
+            ERPNext, focusing on the right balance of Digitization, Flexibility,
+            and Process mapping.
           </div>
         </div>
       </div>
@@ -252,12 +251,18 @@ const Implementation = () => {
       </div>
 
       <div className="container mx-auto mt-10">
-        <h1 className="text-3xl font-bold mb-8" data-aos="fade-up-right">Implementation Services</h1>
+        <h1 className="text-3xl font-bold mb-8" data-aos="fade-up-right">
+          Implementation Services
+        </h1>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Card 1 */}
           <Card>
-            <CardHeader color="blue" contentPosition="top" data-aos="fade-up-right">
+            <CardHeader
+              color="blue"
+              contentPosition="top"
+              data-aos="fade-up-right"
+            >
               <img
                 src="https://veritis.com/wp-content/uploads/2020/11/portfolio-of-cloud-implementation-services-1.jpg"
                 alt="Card Image"
@@ -277,7 +282,11 @@ const Implementation = () => {
 
           {/* Card 2 */}
           <Card>
-            <CardHeader color="green" contentPosition="top" data-aos="fade-up-right">
+            <CardHeader
+              color="green"
+              contentPosition="top"
+              data-aos="fade-up-right"
+            >
               <img
                 src="https://www.acumatica.com/media/2022/11/erp_implementaion_process_v1.webp"
                 alt="Card Image"
@@ -295,7 +304,11 @@ const Implementation = () => {
 
           {/* Card 3 */}
           <Card>
-            <CardHeader color="red" contentPosition="top" data-aos="fade-up-right">
+            <CardHeader
+              color="red"
+              contentPosition="top"
+              data-aos="fade-up-right"
+            >
               <img
                 src="https://www.intellectsoft.net/blog/wp-content/uploads/Enterprise-System-Integration-min.jpg"
                 alt="Card Image"

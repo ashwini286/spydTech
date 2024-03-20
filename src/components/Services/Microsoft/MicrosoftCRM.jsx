@@ -67,48 +67,61 @@ function MicrosoftCRM() {
           Our CRM Services include
         </h1>
         <div className="container ml-[0] md:ml-[15%]" data-aos="fade-left">
-        {/* First row */}
-    <div className=" py-10">
-      <div className="flex flex-col md:flex-row space-x-10 ">
-            <div className="flex flex-col items-center w-3/2 md:w-64">
-              <img src={IMG2} className="img" alt="Image 2" />
-              <p className="text-center w-full">
-                Enhancing the existing functionality
-              </p>
-            </div>
+          {/* First row */}
+          <div className=" py-10">
+            <div className="flex flex-col md:flex-row space-x-10 ">
+              <div className="flex flex-col items-center w-3/2 md:w-64">
+                <img src={IMG2} className="img" alt="Image 2" />
+                <p className="text-center w-full">
+                  Enhancing the existing functionality
+                </p>
+              </div>
 
-            <div className="flex flex-col items-center w-3/4 md:w-64">
-              <img src={IMG3} className="img" alt="Image 3" />
-              <p className="text-center w-3/2">Increase in-house capability to deploy single tenant and multi-tenant solutions</p>
-            </div>
+              <div className="flex flex-col items-center w-3/4 md:w-64">
+                <img src={IMG3} className="img" alt="Image 3" />
+                <p className="text-center w-3/2">
+                  Increase in-house capability to deploy single tenant and
+                  multi-tenant solutions
+                </p>
+              </div>
 
-            <div className="flex flex-col items-center w-3/4   md:w-64">
-              <img src={IMG4} className="img" alt="Image 4" />
-              <p className="text-center w-3/2">Offer user-friendly design with special settings installation</p>
+              <div className="flex flex-col items-center w-3/4   md:w-64">
+                <img src={IMG4} className="img" alt="Image 4" />
+                <p className="text-center w-3/2">
+                  Offer user-friendly design with special settings installation
+                </p>
+              </div>
             </div>
-    </div>
-  </div>
-        {/* Second row */}
-        <div className="   py-10">
-          <div className="flex flex-col md:flex-row space-x-10  col-md-4">
-            <div className="flex flex-col items-center w-3/2 md:w-64">
-              <img src={IMG5} className="img" alt="Image 5" />
-              <p className="text-center w-3/2">Provide workflow customizations specific to your company’s business processes</p>
-            </div>
+          </div>
+          {/* Second row */}
+          <div className="   py-10">
+            <div className="flex flex-col md:flex-row space-x-10  col-md-4">
+              <div className="flex flex-col items-center w-3/2 md:w-64">
+                <img src={IMG5} className="img" alt="Image 5" />
+                <p className="text-center w-3/2">
+                  Provide workflow customizations specific to your company’s
+                  business processes
+                </p>
+              </div>
 
-            <div className="flex flex-col items-center w-3/4 md:w-64">
-              <img src={IMG6} className="img" alt="Image 6" />
-              <p className="text-center w-3/2">Extending the solutions to WCF web services</p>
-            </div>
+              <div className="flex flex-col items-center w-3/4 md:w-64">
+                <img src={IMG6} className="img" alt="Image 6" />
+                <p className="text-center w-3/2">
+                  Extending the solutions to WCF web services
+                </p>
+              </div>
 
-            <div className="flex flex-col items-center w-3/4 md:w-64">
-              <img src={IMG7} className="img" alt="Image 7" />
-              <p className="text-center w-3/2 ">Offer advanced customization that requires integration with third-party solutions</p>
+              <div className="flex flex-col items-center w-3/4 md:w-64">
+                <img src={IMG7} className="img" alt="Image 7" />
+                <p className="text-center w-3/2 ">
+                  Offer advanced customization that requires integration with
+                  third-party solutions
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-        </div>
 
       <div class="w-full max-w-2xl my-4 mx-auto">
         <div class="border-2 border-indigo-500 p-4 md:p-6 rounded-lg text-center">
@@ -146,14 +159,14 @@ function MicrosoftCRM() {
         The key benefits of CRM solutions include
       </h1>
       <div className="flex flex-col gap-4 lg:flex-row items-center justify-center py-12">
-       <div>
-       <img
-          src={IMG8}
-          className="p-5 lg:pl-0"
-          alt="Key Benefits Image"
-          data-aos="fade-up"
-        />
-       </div>
+        <div>
+          <img
+            src={IMG8}
+            className="p-5 lg:pl-0"
+            alt="Key Benefits Image"
+            data-aos="fade-up"
+          />
+        </div>
 
         <div
           className="ml-0 lg:ml-10 mt-2 space-y-5 lg:space-y-0  text-black"
