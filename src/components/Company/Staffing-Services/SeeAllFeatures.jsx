@@ -5,7 +5,7 @@ import { MdGroup } from "react-icons/md";
 import { BsMegaphone } from "react-icons/bs";
 import { AiOutlineSearch } from "react-icons/ai";
 import { FaRegChartBar } from "react-icons/fa";
-
+import Navbarupp from "../../Home/Navbar/Navbarupp";
 function SeeAllFeatures() {
     const [isHovered1, setIsHovered1] = useState(false);
   const [isHovered2, setIsHovered2] = useState(false);
@@ -16,6 +16,7 @@ function SeeAllFeatures() {
  
   return (
     <>
+    <Navbarupp />
      <div className="bg-gray-50 p-10">
         <div class=" w-full pt-20">
           
@@ -173,8 +174,16 @@ function SeeAllFeatures() {
             </div>
           </div>
         </div>
-        
-
+        <div className="absolute inset-0 bg-gradient-to-t from-transparent to-[#38a3a5] opacity-40"></div>
+        <style jsx>{`
+        /* Add this CSS to your stylesheet */
+        .rotate-icon {
+          transform: rotateY(
+            360deg
+          ); /* Adjust the degree of rotation as needed */
+          transition: transform 0.3s ease; /* Add a smooth transition effect */
+        }
+      `}</style>
     
     </>
   )

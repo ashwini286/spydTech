@@ -12,7 +12,7 @@ function Staffing2() {
       <Navbarupp />
 
       <div className="flex justify-center items-center h-screen flex-col gap-4">
-        <div className="text-3xl text-center font-bold tracking-normal text-gray-900 md:text-6xl md:leading-none">
+        <div className="text-3xl text-center font-bold tracking-normal text-[#0284c7] md:text-6xl md:leading-none">
           Drive Your Candidate Experience.
         </div>
         <div className="font-normal text-gray-500 text-md md:text-xl px-8 text-center">
@@ -28,6 +28,7 @@ function Staffing2() {
           </div>
         </div>
          </div>
+         <div className="absolute inset-0 bg-gradient-to-t from-transparent to-[#38a3a5] opacity-40"></div>
 <OurFeature />
       
 
