@@ -6,21 +6,33 @@ import "slick-carousel/slick/slick-theme.css";
 function Testimonial() {
   const data = [
     {
-      name: "John Doe",
-      role: "Front End Developer",
-      quote: "I may not show it but I can't live without it.",
-      imageUrl:
-        "https://images.unsplash.com/photo-1632910121591-29e2484c0259?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw4fHxjb2RlcnxlbnwwfDB8fHwxNzEwMTY0NjIzfDA&ixlib=rb-4.0.3&q=80&w=1080",
+      name: "Alice Brown",
+      role: "UI/UX Designer",
+      quote: "Designing interfaces that inspire and create seamless user experiences is my passion.",
+      imageUrl: "https://images.unsplash.com/photo-1632910121591-29e2484c0259?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw4fHxjb2RlcnxlbnwwfDB8fHwxNzEwMTY0NjIzfDA&ixlib=rb-4.0.3&q=80&w=1080",
     },
     {
-      name: "Jane Smith",
-      role: "Web Developer",
-      quote: "I am the developer.",
-      imageUrl:
-        "https://images.unsplash.com/photo-1632910121591-29e2484c0259?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw4fHxjb2RlcnxlbnwwfDB8fHwxNzEwMTY0NjIzfDA&ixlib=rb-4.0.3&q=80&w=1080",
+      name: "Bob Johnson",
+      role: "Backend Developer",
+      quote: "Building robust server-side solutions that handle complex tasks efficiently drives my dedication to coding.",
+      imageUrl: "https://media.istockphoto.com/id/1278976856/photo/happy-student-girl-at-high-school.jpg?s=612x612&w=0&k=20&c=XiJQHTm-LKgCr0s3hURY0ATGFfMZQH4B8gE6h2TlK4U=",
+    },
+    {
+      name: "Eve Clark",
+      role: "Software Engineer",
+      quote: "Crafting elegant code for complex problems while ensuring scalability and performance is my expertise.",
+      imageUrl: "https://media.istockphoto.com/id/1278979696/photo/happy-smiling-college-girl-studying-on-laptop.webp?b=1&s=170667a&w=0&k=20&c=2CoG_BFtJBobXJB-YuIspVtLrJfGr1tXs5Dq6Rf5tL4=",
+    },
+    {
+      name: "Grace Wilson",
+      role: "Front End Developer",
+      quote: "Bringing designs to life with code and making them interactive and engaging for users is what drives me forward.",
+      imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTFRCSM3S5-aKGZjBaU0h0j67SzKugBmNKyXFtTMoIxQ_5MgOtko9hrRob1ochMGgdO7A&usqp=CAU",
     },
     // Add more data objects as needed
   ];
+  
+  
   const settings = {
     dots: true,
     arrows: true, // Keep arrows as true to display arrow buttons
@@ -64,8 +76,8 @@ function Testimonial() {
                       <div key={index}>
                         <div className="text-sm leading-6">
                           <figure className="relative flex flex-col-reverse bg-slate-100 rounded-lg p-6 dark:bg-slate-800 dark:highlight-white/5">
-                            <blockquote className="mt-6 text-slate-700 dark:text-slate-300 border-4 border-[#0284c7] h-[250px] w-[100%] rounded-xl">
-                              <p className="text-center py-5">{person.quote}</p>
+                            <blockquote className="flex justify-center items-center mt-8 text-slate-700 dark:text-slate-300 border-4 border-[#0284c7] h-[250px] w-[100%] rounded-xl">
+                              <p className="text-center px-8 text-xl">{person.quote}</p>
                             </blockquote>
                             <figcaption className="flex items-center space-x-4">
                               <img
