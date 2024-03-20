@@ -3,10 +3,10 @@ import CountingAnimation from "./CountingAnimation";
 function Overview() {
   return (
     <>
-      <div class="bg-white dark:bg-gray-900 h-screen">
+      <div class=" dark:bg-gray-900">
         <div class="container mx-auto py-16 dark:text-white">
           <div class="text-center">
-            <h2 class="font-bold text-2xl md:text-4xl my-4">
+            <h2 class="font-bold text-2xl md:text-4xl my-4 text-[#0284c7]">
               Solutions That Funnel Results
             </h2>
             <div class="max-w-2xl md:max-w-4xl mx-auto dark:text-gray-300">
@@ -18,8 +18,8 @@ function Overview() {
               </p>
             </div>
           </div>
-          <div class="grid grid-cols-1 md:grid-cols-2 mx-auto max-w-xl md:max-w-2xl gap-4 my-4">
-            <div class="p-4 border flex flex-col items-center rounded max-w-sm dark:bg-gray-800">
+          <div class="grid grid-cols-1 md:grid-cols-2 mx-auto md:max-w-2xl gap-4 my-4">
+            <div class="p-4 border border-[#0284c7] shadow-md shadow-[#0284c7] flex flex-col items-center rounded max-w-sm dark:bg-gray-800">
               <div class="text-4xl font-bold flex justify-center items-center flex-row gap-x-2 ">
                 <div>
                   <CountingAnimation start={0} end={150} duration={3000} />
@@ -28,14 +28,14 @@ function Overview() {
               </div>
               <div class="text-300 text-uppercase">Features Analyzed</div>
             </div>
-            <div class="p-4 border flex flex-col items-center rounded max-w-sm dark:bg-gray-800">
+            <div class="p-4 border border-[#0284c7] shadow-md shadow-[#0284c7] flex flex-col items-center rounded max-w-sm dark:bg-gray-800">
               <div class="text-4xl font-bold flex justify-center items-center flex-row gap-x-2 ">
                 <CountingAnimation start={0} end={60} duration={3000} />
                 <span class="text-teal-500">+</span>
               </div>
               <div class="text-300 text-uppercase">Modules</div>
             </div>
-            <div class="p-4 border flex flex-col items-center rounded max-w-sm dark:bg-gray-800">
+            <div class="p-4 border border-[#0284c7] shadow-md shadow-[#0284c7] flex flex-col items-center rounded max-w-sm dark:bg-gray-800">
               <div class="text-4xl font-bold flex justify-center items-center flex-row gap-x-2 ">
                 <div>
                   <CountingAnimation start={0} end={5} duration={3000} />
@@ -44,7 +44,7 @@ function Overview() {
               </div>
               <div class="text-300 text-uppercase">Functionalities</div>
             </div>
-            <div class="p-4 border flex flex-col items-center rounded max-w-sm dark:bg-gray-800">
+            <div class="p-4 border border-[#0284c7] shadow-md shadow-[#0284c7] flex flex-col items-center rounded max-w-sm dark:bg-gray-800">
               <div class="text-4xl font-bold flex justify-center items-center flex-row gap-x-2">
                 <div>
                   {" "}

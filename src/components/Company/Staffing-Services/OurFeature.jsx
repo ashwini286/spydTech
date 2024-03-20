@@ -21,8 +21,8 @@ const OurFeature = () => {
           <p className="text-lg text-gray-500 py-5 text-center">
             Our Features --
           </p>
-          <h1 class="text-3xl font-bold tracking-normal text-gray-900  md:text-4xl w-full">
-            <span class="block text-center">
+          <h1 class="text-2xl font-bold tracking-normal text-gray-900  md:text-5xl w-full">
+            <span class="block text-center text-[#0284c7]">
               Your Candidate Experience Platform
             </span>
           </h1>

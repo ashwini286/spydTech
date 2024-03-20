@@ -49,7 +49,7 @@ function Testimonial() {
           <div className="grid overflow-hidden md:grid-cols-2 bg-white rounded-xl ">
             <aside className="p-8 space-y-4 md:p-16">
               <h1>Our Testimonials</h1>
-              <h2 className="text-2xl font-bold  md:text-5xl  ">
+              <h2 className="text-2xl font-bold  md:text-5xl  text-[#0284c7]">
                 What Our Customers Say!
               </h2>
               <p className=" md:text-lg text-gray-500">
