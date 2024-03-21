@@ -18,7 +18,7 @@ import { PiVirtualRealityBold } from "react-icons/pi";
 import { TbDeviceGamepad2 } from "react-icons/tb";
 import { FaInternetExplorer } from "react-icons/fa6";
 import "./Amazon.css"
-import Footer3 from "../../UniqueTeam/Footer3"
+// import Footer3 from "../../UniqueTeam/Footer3"
 import ChatBot from '../../../Home/Home/ChatBot';
 
 

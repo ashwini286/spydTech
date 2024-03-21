@@ -164,7 +164,6 @@ function SpdApproch() {
           width: 100%;
           height: 100%;
           padding: 1rem;
-          border: 1px solid white;
           border-radius: 0.25rem;
           text-decoration: none;
           color: inherit;

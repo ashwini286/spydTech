@@ -3,6 +3,7 @@ import Wave from "react-wavify";
 import IMG from "../../assets/decore.png";
 import { Button } from "@material-tailwind/react";
 import LogoFull from "../../assets/spylogo1.png";
+import { Link } from "react-router-dom";
 import { LuMapPin } from "react-icons/lu";
 import { FiPhoneCall } from "react-icons/fi";
 import { MdOutlineMarkEmailRead } from "react-icons/md";
@@ -94,6 +95,12 @@ const ApprochUs = () => {
                         </div>
                         <div className="">info@spydtech.com</div>
                       </div>
+                      <div className="pt-2 ml-[58px] flex justify-center items-center  flex-row  text-white gap-4 ">
+                        <div className="text-2xl">
+                          <MdOutlineMarkEmailRead />
+                        </div>
+                        <div className="">careers@spydtech.com</div>
+                      </div>
                     </div>
                     <div className="text-black flex flex-row justify-center items-center ">
                       <SocialIcons />
@@ -105,22 +112,31 @@ const ApprochUs = () => {
                     <div className="text-xl font-bold mb-4 ">Main</div>
                     <div>
                       <ul className="text-center">
-                        <li className="mb-4 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-6 hover:after:w-10 after:transition-all after:duration-300 cursor-pointer">
-                          Home
-                        </li>
-                        <li className="mb-4 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-2 hover:after:w-16 after:transition-all after:duration-300 cursor-pointer">
-                          About Us
-                        </li>
-                        <li className="mb-4 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-[5.5rem] after:transition-all after:duration-300 cursor-pointer">
-                          Our Services
-                        </li>
-
-                        <li className="mb-4 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-2 hover:after:w-[4.5rem] after:transition-all after:duration-300 cursor-pointer">
-                          Resources
-                        </li>
-                        <li className="mb-4 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-2 hover:after:w-[4.5rem] after:transition-all after:duration-300 cursor-pointer">
-                          Contact Us
-                        </li>
+                        <Link to="/">
+                          <li className="mb-4 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-6 hover:after:w-10 after:transition-all after:duration-300 cursor-pointer">
+                            Home
+                          </li>
+                        </Link>
+                        <Link to="/About Us">
+                          <li className="mb-4 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-2 hover:after:w-16 after:transition-all after:duration-300 cursor-pointer">
+                            About Us
+                          </li>
+                        </Link>
+                        <Link to="/OTHER SERVICES">
+                          <li className="mb-4 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-[5.5rem] after:transition-all after:duration-300 cursor-pointer">
+                            Our Services
+                          </li>
+                        </Link>
+                        <Link to="">
+                          <li className="mb-4 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-2 hover:after:w-[4.5rem] after:transition-all after:duration-300 cursor-pointer">
+                            Resources
+                          </li>
+                        </Link>
+                        <Link to="/contact">
+                          <li className="mb-4 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-2 hover:after:w-[4.5rem] after:transition-all after:duration-300 cursor-pointer">
+                            Contact Us
+                          </li>
+                        </Link>
                       </ul>
                     </div>
                   </div>
@@ -129,50 +145,67 @@ const ApprochUs = () => {
                     <div className="text-2xl font-bold mb-4">Service</div>
 
                     <ul className="text-center">
-                      <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-4 hover:after:w-16 after:transition-all after:duration-300 cursor-pointer">
-                        ERPNext
-                      </li>
-                      <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-6 hover:after:w-14 after:transition-all after:duration-300 cursor-pointer">
-                        Design
-                      </li>
+                      <Link to="/ERPNext TECHNOLOGY">
+                        <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-4 hover:after:w-16 after:transition-all after:duration-300 cursor-pointer">
+                          ERPNext
+                        </li>
+                      </Link>
+                      <Link to="/Frontend">
+                        <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-6 hover:after:w-14 after:transition-all after:duration-300 cursor-pointer">
+                          Design
+                        </li>
+                      </Link>
                       <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-4 hover:after:w-[4.5rem] after:transition-all after:duration-300 cursor-pointer">
                         Resources
                       </li>
-                      <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-2 hover:after:w-20 after:transition-all after:duration-300 cursor-pointer">
-                        Technology
-                      </li>
-                      <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-24 after:transition-all after:duration-300 cursor-pointer">
-                        Data Analytics
-                      </li>
+                      <Link to="/Cloud Technologies">
+                        <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-2 hover:after:w-20 after:transition-all after:duration-300 cursor-pointer">
+                          Technology
+                        </li>
+                      </Link>
+                      <Link to="/Advanced Technologies">
+                        <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-24 after:transition-all after:duration-300 cursor-pointer">
+                          Data Analytics
+                        </li>
+                      </Link>
                     </ul>
                   </div>
 
                   {/* Focus Section */}
-
-                  {/* Industry Section */}
-                  <div className=" mb-4  flex justify-center items-center flex-col ">
-                    <div className="text-2xl font-bold mb-4">Industry</div>
+                  <div className=" mb-4  flex justify-center items-center flex-col  ">
+                    <div className="text-2xl font-bold mb-4">Focus</div>
 
                     <ul className="text-center">
-                      <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-[6.5rem] after:transition-all after:duration-300 cursor-pointer">
-                        Manufacturing
-                      </li>
-                      <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-6 hover:after:w-14 after:transition-all after:duration-300 cursor-pointer">
-                        Logistic
-                      </li>
-                      {/* <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-36 after:transition-all after:duration-300 cursor-pointer">Tele-Communication</li> */}
-                      <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-8 hover:after:w-10 after:transition-all after:duration-300 cursor-pointer">
-                        Retail
-                      </li>
-                      <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-2 hover:after:w-20 after:transition-all after:duration-300 cursor-pointer">
-                        Distribution
-                      </li>
-                      <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-2 hover:after:w-20 after:transition-all after:duration-300 cursor-pointer">
-                        Automotive
-                      </li>
-                      <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-6 hover:after:w-12 after:transition-all after:duration-300 cursor-pointer">
-                        Startup
-                      </li>
+                      <Link to="/Consulting">
+                        <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-8 hover:after:w-40 after:transition-all after:duration-300 cursor-pointer">
+                          ERPNext Consultation
+                        </li>
+                      </Link>
+                      <Link to="/Implementation">
+                        <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-6 hover:after:w-44 after:transition-all after:duration-300 cursor-pointer">
+                          ERPNext Implementation
+                        </li>
+                      </Link>
+                      <Link to="/ERPNext TECHNOLOGY">
+                        <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-8 hover:after:w-40 after:transition-all after:duration-300 cursor-pointer">
+                          ERPNext Development
+                        </li>
+                      </Link>
+                      <Link to="/ERPNext TECHNOLOGY">
+                        <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-6 hover:after:w-44 after:transition-all after:duration-300 cursor-pointer">
+                          Headless Ecommerce with ERPNext
+                        </li>
+                      </Link>
+                      <Link to="/ERPNext TECHNOLOGY">
+                        <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-8 hover:after:w-40 after:transition-all after:duration-300 cursor-pointer">
+                          Websites with ERPNext
+                        </li>
+                      </Link>
+                      <Link to="/Third-Party Integrations">
+                        <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-8 hover:after:w-40 after:transition-all after:duration-300 cursor-pointer">
+                          Third-Party Integrations
+                        </li>
+                      </Link>
                     </ul>
                   </div>
                 </div>

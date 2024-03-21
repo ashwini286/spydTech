@@ -7,7 +7,7 @@ import IMG4 from "../../../assets/Google cloud/google-cloud-logo-1.png"
 import Navbarupp from '../../../Home/Navbar/Navbarupp'
 import { Link } from 'react-router-dom'
 import Approch from '../../../Home/APProchUs/Approch'
-import AnimatedFooter from '../../UniqueTeam/AnimatedFooter'
+// import AnimatedFooter from '../../UniqueTeam/AnimatedFooter'
 import ChatBot from '../../../Home/Home/ChatBot';
 
 function CloudTech() {
