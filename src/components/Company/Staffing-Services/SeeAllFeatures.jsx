@@ -29,34 +29,34 @@ import Navbarupp from "../../Home/Navbar/Navbarupp";
 import ApprochUs from "../../Home/APProchUs/Approch";
 
 const features = [
-  { Icon: TbJumpRope, title: "Integrations", description: "Explore our industry Integrations marketplace and partners" },
-  { Icon: MdGroup, title: "Job Manager", description: "Manage your job listings through our Management system" },
+  { Icon: TbJumpRope, title: "Partner Integrations", description: "Explore our industry Integrations marketplace and partners." },
+  { Icon: MdGroup, title: "Job Manager", description: "Manage your job listings through our Management system." },
   { Icon: TbArrowsShuffle2, title: "Apply workflow", description: "Customize your Candidate application workflow to suite your business needs." },
-  { Icon: BsMegaphone, title: "Job Alerts", description: "Intelligent Job alerts that bring active job seekers back to your jobs" },
-  { Icon: AiOutlineSearch, title: "Job Search", description: "Powerful job search solutions embedded on your website" },
-  { Icon: FaRegChartBar, title: "Reports & Analytics", description: "Traffic, Conversations, Source Tracking and more to ensure and measured ROI" },
+  { Icon: BsMegaphone, title: "Job Alerts", description: "Intelligent Job alerts that bring active job seekers back to your jobs." },
+  { Icon: AiOutlineSearch, title: "Job Search", description: "Powerful job search solutions embedded on your website." },
+  { Icon: FaRegChartBar, title: "Reports & Analytics", description: "Traffic, Conversations, Source Tracking and more to ensure and measured ROI." },
 
-  { Icon: BsPhone, title: "Text Alerts", description: "Explore our industry Integrations marketplace and partners" },
-  { Icon: BsBrowserChrome, title: "Job Manager", description: "Manage your job listings through our Management system" },
-  { Icon: FaBrain, title: "Apply workflow", description: "Customize your Candidate application workflow to suite your business needs." },
-  { Icon: AiFillEye, title: "Job Alerts", description: "Intelligent Job alerts that bring active job seekers back to your jobs" },
-  { Icon: MdLibraryBooks, title: "Job Search", description: "Powerful job search solutions embedded on your website" },
-  { Icon: ImPower, title: "Reports & Analytics", description: "Traffic, Conversations, Source Tracking and more to ensure and measured ROI" },
+  { Icon: BsPhone, title: "Text Alerts", description: "Integrated text alerts to job seekers based on their job search" },
+  { Icon: BsBrowserChrome, title: "In Browser Alerts", description: "Push job alerts to any desktop or mobile browser based on  search criteria." },
+  { Icon: FaBrain, title: "Learning Engine", description: "Technology to serve related jobs alerts based on visitors search history." },
+  { Icon: AiFillEye, title: "SEO Landing Pages", description: "Maximize job exposure by automated SEO landing pages for jobs & locations." },
+  { Icon: MdLibraryBooks, title: "Blogs & News", description: "Showcase your latest blogs and news through the website CMS." },
+  { Icon: ImPower, title: "Page Speed", description: "Using the latest CDN and Edge Catching techniques for high speed page delivery." },
 
 
-  { Icon: AiOutlineGoogle, title: "Integrations", description: "Explore our industry Integrations marketplace and partners" },
-  { Icon: GrWheelchair, title: "Job Manager", description: "Manage your job listings through our Management system" },
-  { Icon: FaDatabase, title: "Apply workflow", description: "Customize your Candidate application workflow to suite your business needs." },
-  { Icon: AiOutlineApartment, title: "Job Alerts", description: "Intelligent Job alerts that bring active job seekers back to your jobs" },
-  { Icon: PiNotePencilBold, title: "Job Search", description: "Powerful job search solutions embedded on your website" },
-  { Icon: BsCodeSlash, title: "Reports & Analytics", description: "Traffic, Conversations, Source Tracking and more to ensure and measured ROI" },
+  { Icon: AiOutlineGoogle, title: "AMP", description: "Accelerated mobile Pages for maximum load Speed and performance in Google." },
+  { Icon: GrWheelchair, title: "ADA", description: "Ensuring your site is Americans with Disabilities Act compliant." },
+  { Icon: FaDatabase, title: "Data Compliance", description: "Ensuring your site is data compliant based on local data laws(GDPR etc)." },
+  { Icon: AiOutlineApartment, title: "Job Syndication", description: "Distribution of your jobs to a wider aggregator network globally." },
+  { Icon: PiNotePencilBold, title: "CMS Site Control", description: "Powerful page editors to easily drag and drop design components on pages." },
+  { Icon: BsCodeSlash, title: "Job SEO", description: "Automated job SEO and schema markup for Google for jobs presence" },
 
-  { Icon: BiGitBranch, title: "Integrations", description: "Explore our industry Integrations marketplace and partners" },
-  { Icon: AiOutlinePlus, title: "Job Manager", description: "Manage your job listings through our Management system" },
-  { Icon: BsFiletypeXml, title: "Apply workflow", description: "Customize your Candidate application workflow to suite your business needs." },
-  { Icon: AiOutlineExclamation, title: "Job Alerts", description: "Intelligent Job alerts that bring active job seekers back to your jobs" },
-  { Icon: BsDropbox, title: "Job Search", description: "Powerful job search solutions embedded on your website" },
-  { Icon: FiUser, title: "Reports & Analytics", description: "Traffic, Conversations, Source Tracking and more to ensure and measured ROI" }
+  { Icon: BiGitBranch, title: "UTM Tracking", description: "Track your campaigns through to job application and ATS push" },
+  { Icon: AiOutlinePlus, title: "Related Jobs", description: "Display related jobs to users based on specific search trigger for better engagement." },
+  { Icon: BsFiletypeXml, title: "XML Feeds", description: "Industry standard XML feeds for indeed, Linkedin, and many more." },
+  { Icon: AiOutlineExclamation, title: "Quick Apply", description: "Convert faster with quick apply technology such as LinkedIn, indeed apply etc." },
+  { Icon: BsDropbox, title: "Drive/Dropbox", description: "Attach using Google Drive or Dropbox integrations on your application froms." },
+  { Icon: FiUser, title: "Candidate Portal", description: "Fully integrated candidate portal functionality for profile management and data synch." }
  
 ];
 
@@ -89,12 +89,16 @@ function SeeAllFeatures() {
           {features.map((feature, index) => (
             <div
               key={index}
-              data-aos="fade-DropIn"
-              className={`relative cursor-pointer bg-gray-100 hover:bg-[#0284c7] hover:text-white transition-all duration-300  rounded-xl h-52`}
+              // data-aos="zoomIn"
+              //   data-aos-delay={`${1.5 + index * 200}`}
+              data-aos="fade-down-zoomIn"
+              className={`relative cursor-pointer bg-gray-100 hover:bg-[#0284c7] hover:text-white transition-all duration-300  rounded-xl h-52 `}
               onMouseEnter={() => setHoveredIndex(index)}
               onMouseLeave={() => setHoveredIndex(null)}
+             
+             
             >
-              <div className="flex justify-center items-center md:flex-row flex-col md:gap-8 gap-4">
+              <div className="flex justify-center items-center md:flex-row flex-col md:gap-8 gap-4 " >
                 <div>
                   <feature.Icon
                     className={`text-4xl md:text-6xl mt-10 md:ml-4 ${
@@ -120,7 +124,21 @@ function SeeAllFeatures() {
             360deg
           ); /* Adjust the degree of rotation as needed */
           transition: transform 0.3s ease; /* Add a smooth transition effect */
-        }
+         
+         
+          @keyframes zoomIn {
+            from {
+              opacity: 0;
+              transform: scale(0);
+            }
+            to {
+              opacity: 1;
+              transform: scale(75);
+            }
+          }
+          
+         
+          
       `}</style>
       <div class="max-w-md mx-auto mt-3 sm:flex sm:justify-center md:mt-6 items-center">
         <div class="rounded-full shadow">

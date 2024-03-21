@@ -35,10 +35,10 @@ function careers() {
       <Card />
       <JobPost />
       
-      <ChatBot />
+     
       <Approch />
 
-
+      <ChatBot />
 
     </>
   );

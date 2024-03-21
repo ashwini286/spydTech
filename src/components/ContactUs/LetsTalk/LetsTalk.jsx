@@ -10,6 +10,7 @@ import {
 } from "@material-tailwind/react";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdOutlineMarkEmailRead } from "react-icons/md";
+import ChatBot from "../../Home/Home/ChatBot";
 const LetsTalk = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -35,12 +36,14 @@ const LetsTalk = () => {
 
   return (
     <>
+    <ChatBot />
       <div
         style={{
           backgroundImage:
             'url("https://www.aspirantsoftsolutions.com/img/slides/footer-bg.jpg")',
           position: "relative",
         }}
+        
       >
         <div
           style={{
@@ -122,7 +125,7 @@ const LetsTalk = () => {
               <div className="w-full flex justify-center items-center flex-col">
                 <div className="h-[180px] lg:w-[300px] bg-[#2F4052] pt-6 pl-4 w-full">
                   <div className="text-white text-xl">
-                    <h1>General Inquiries</h1>
+                    <h1>General Enquiries</h1>
                   </div>
                   <div className="flex flex-row xs:text-[10px] text-[15px] text-white  pt-2">
                     <div className="text-[20px] text-xl">
@@ -172,6 +175,7 @@ const LetsTalk = () => {
             </div>
           </section>
         </div>
+        
 
         {/* Background overlay */}
         <div
@@ -187,6 +191,7 @@ const LetsTalk = () => {
           }}
         />
       </div>
+      
     </>
   );
 };

@@ -101,8 +101,8 @@ function ERPNext() {
           </div>
 
           {/* Card 3 */}
-          <div className="bg-white p-4 rounded-lg hover:scale-105 transition-all duration-500" data-aos="fade-up-right">
-            <img src={IMG2} className="w-[85%]" alt="Background Image" />
+          <div className="bg-white p-4 rounded-lg hover:scale-105 transition-all duration-500" >
+            <img src={IMG2} className="w-[85%]" alt="Background Image"  data-aos="fade-up-right"/>
             <h3 className="text-xl font-bold mb-2 p-5" data-aos="fade-up-right">ERPNext Development</h3>
             <p className="w-[100%]  text-justify tracking-wider" data-aos="fade-up-right">
               For the out of box requirement, Our technical team prepares
@@ -119,8 +119,8 @@ function ERPNext() {
           </div>
 
           {/* Card 4 */}
-          <div className="bg-white p-4 rounded-lg hover:scale-105 transition-all duration-500 " data-aos="fade-up-right">
-            <img src={IMG3} className="w-[85%]" alt="Background Image" />
+          <div className="bg-white p-4 rounded-lg hover:scale-105 transition-all duration-500 " >
+            <img src={IMG3} className="w-[85%]" alt="Background Image"  data-aos="fade-up-right"/>
             <h2 className="text-xl font-bold mb-2 p-5" data-aos="fade-up-right">Website with ERPNext</h2>
             <p className="w-[100%]  tracking-wider" data-aos="fade-up-right">
               We help small businesses and NGOs to start their digital
@@ -137,7 +137,7 @@ function ERPNext() {
           </div>
 
           {/* Card 5 */}
-          <div className="bg-white p-4 rounded-lg hover:scale-105 transition-all duration-500 " data-aos="fade-up-right">
+          <div className="bg-white p-4 rounded-lg hover:scale-105 transition-all duration-500 " >
             <img src={IMG4} className="w-[85%]" alt="Background Image" data-aos="fade-up-right"  />
             <h2 className="text-xl font-bold mb-2 p-5" data-aos="fade-up-right">
               Ecommerce with ERPNext
@@ -157,7 +157,7 @@ function ERPNext() {
           </div>
 
           {/* Card 6 */}
-          <div className="bg-white p-4 rounded-lg hover:scale-105 transition-all duration-500" data-aos="fade-up-right" >
+          <div className="bg-white p-4 rounded-lg hover:scale-105 transition-all duration-500"  >
             <img src={IMG5} className="w-[85%]" alt="Background Image" data-aos="fade-up-right" />
             <h2 className="text-xl font-bold mb-2 p-5" data-aos="fade-up-right">
               Third-Party Integrations with ERPNext
@@ -177,7 +177,7 @@ function ERPNext() {
           </div>
 
           {/* Card 7 */}
-          <div className="bg-white p-4 rounded-lg hover:scale-105 transition-all duration-500" data-aos="fade-up-right">
+          <div className="bg-white p-4 rounded-lg hover:scale-105 transition-all duration-500" >
             <img src={IMG6} className="w-[85%]" alt="Background Image" data-aos="fade-up-right" />
             <h2 className="text-xl font-bold mb-2 p-5" data-aos="fade-up-right">
               Data Analysis with BI Tools & ERPNext

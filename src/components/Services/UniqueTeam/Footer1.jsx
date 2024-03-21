@@ -7,6 +7,7 @@ import { LuMapPin } from "react-icons/lu";
 import { FiPhoneCall } from "react-icons/fi";
 import { MdOutlineMarkEmailRead } from "react-icons/md";
 import SocialIcons from "../../Home/APProchUs/SocialIcon";
+import { Link } from "react-router-dom";
 import {
   Card,
   CardHeader,
@@ -65,7 +66,10 @@ function Footer1() {
                         <div className="text-[40px]  ">
                           <LuMapPin />
                         </div>
-                        <div className="">REACH US</div>
+                        <Link href="Contact Us">
+                         <div className="">REACH US</div>
+                        </Link>
+
                       </div>
                       <div className="text-white w-52 ml-16 mt-4 ">
                         Meera complex Plot, No-852, 2nd floor Madhapur
