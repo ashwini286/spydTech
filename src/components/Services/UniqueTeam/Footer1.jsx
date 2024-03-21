@@ -144,7 +144,7 @@ function Footer1() {
                             Our Services
                           </li>
                         </Link>
-                        <Link to="">
+                        <Link to="/SeeAllFeatures">
                           <li className="mb-4 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-2 hover:after:w-[4.5rem] after:transition-all after:duration-300 cursor-pointer">
                             Resources
                           </li>
@@ -172,9 +172,11 @@ function Footer1() {
                           Design
                         </li>
                       </Link>
+                      <Link to = "/SeeAllFeatures">
                       <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-4 hover:after:w-[4.5rem] after:transition-all after:duration-300 cursor-pointer">
                         Resources
                       </li>
+                      </Link>
                       <Link to="/Cloud Technologies">
                         <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-2 hover:after:w-20 after:transition-all after:duration-300 cursor-pointer">
                           Technology
