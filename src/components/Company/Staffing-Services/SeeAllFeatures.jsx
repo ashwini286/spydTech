@@ -1,6 +1,4 @@
-import React, { useState, useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import React, { useState } from "react";
 import { TbArrowsShuffle2 } from "react-icons/tb";
 import { TbJumpRope } from "react-icons/tb";
 import { MdGroup } from "react-icons/md";
@@ -73,32 +71,120 @@ function SeeAllFeatures() {
   return (
     <> 
     <Navbarupp />
-    <div className="w-full py-20 bg-[#0284c7]">
-        <h1 className="text-3xl font-bold tracking-normal text-gray-900 md:text-4xl w-full">
-          <span className="block text-center text-white">The Features of SpY D Technology</span>
-        </h1>
-      </div>
-       <div className="bg-gray-100 p-10">
-      <div className="w-full pt-20">
-        <h1 className="text-3xl font-bold tracking-normal text-gray-900 md:text-4xl w-full">
-          <span className="block text-center">Rich Features That Attract & Convert Candidates</span>
-        </h1>
-      </div>
-      <div className="flex justify-center items-center md:flex-row flex-col pt-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {features.map((feature, index) => (
+     <div className="bg-gray-50 p-10">
+        <div class=" w-full pt-20">
+          
+          <h1 class="text-3xl font-bold tracking-normal text-gray-900  md:text-4xl w-full">
+            <span class="block text-center">
+            Rich Features That Attract & Convert Candidates
+            </span>
+          </h1>
+        </div>
+        </div>
+     <div className="flex justify-center items-center md:flex-row flex-col pt-12">
+          <div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div
-              key={index}
-              // data-aos="zoomIn"
-              //   data-aos-delay={`${1.5 + index * 200}`}
-              data-aos="fade-down-zoomIn"
-              className={`relative cursor-pointer bg-gray-100 hover:bg-[#0284c7] hover:text-white transition-all duration-300  rounded-xl h-52 `}
-              onMouseEnter={() => setHoveredIndex(index)}
-              onMouseLeave={() => setHoveredIndex(null)}
-             
-             
+              className="relative cursor-pointer bg-gray-100  hover:bg-[#0284c7] hover:text-white  transition-all duration-300  shadow-md rounded-xl h-52"
+              onMouseEnter={() => setIsHovered1(true)}
+              onMouseLeave={() => setIsHovered1(false)}
             >
-              <div className="flex justify-center items-center md:flex-row flex-col md:gap-8 gap-4 " >
+              <div className=" flex justify-center items-center md:flex-row flex-col md:gap-8 gap-4">
+                <div>
+                  <TbJumpRope
+                    className={`text-4xl md:text-6xl mt-10 md:ml-4 ${
+                      isHovered1 ? "rotate-icon" : "360deg"
+                    }`}
+                  />
+                </div>
+                <div>
+                  <div className="flex justify-center items-center md:items-start md:justify-start flex-col md:mt-12 md:gap-4 gap-2">
+                    <div class=" text-2xl font-bold">Integrations</div>
+                    <div class=" md:text-base text-center md:text-left md:w-[250px] px-4 md:px-0">
+                      Explore our industry Integrations marketplace and partners
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className=" cursor-pointer bg-gray-100  hover:bg-[#0284c7] hover:text-white  transition-all duration-300  shadow-md rounded-xl h-52"
+              onMouseEnter={() => setIsHovered2(true)}
+            onMouseLeave={() => setIsHovered2(false)}
+            >
+              <div className=" flex justify-center items-center md:flex-row flex-col md:gap-8 gap-4">
+                <div>
+                  <MdGroup
+                    className={`text-4xl md:text-6xl mt-10 md:ml-4 ${
+                      isHovered2 ? "rotate-icon" : "360deg"
+                    }`}
+                  />
+                </div>
+                <div>
+                  <div className="flex justify-center items-center md:items-start md:justify-start flex-col md:mt-12 md:gap-4 gap-2">
+                    <div class=" text-2xl font-bold">Job Manager</div>
+                    <div class=" md:text-base text-center md:text-left md:w-[250px] px-4 md:px-0">
+                    Manage your job listings through our Management system
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div > 
+            <div
+              className=" cursor-pointer bg-gray-100  hover:bg-[#0284c7] hover:text-white  transition-all duration-300  shadow-md rounded-xl h-52"
+              onMouseEnter={() => setIsHovered3(true)}
+              onMouseLeave={() => setIsHovered3(false)}
+            >
+              <div className=" flex justify-center items-center md:flex-row flex-col md:gap-8 gap-4">
+                <div>
+                  <TbArrowsShuffle2
+                    className={`text-4xl md:text-6xl mt-10 md:ml-4 ${
+                      isHovered3 ? "rotate-icon" : "360deg"
+                    }`}
+                  />
+                </div>
+                <div>
+                  <div className="flex justify-center items-center md:items-start md:justify-start flex-col md:mt-12 md:gap-4 gap-2">
+                    <div class=" text-2xl font-bold">Apply workflow</div>
+                    <div class=" md:text-base text-center md:text-left md:w-[250px] px-4 md:px-0">
+                    Customize your Candidate application workflow to suite your
+                    business needs.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+           
+            <div
+              className="cursor-pointer bg-gray-100  hover:bg-[#0284c7] hover:text-white  transition-all duration-300  shadow-md rounded-xl h-52"
+              onMouseEnter={() => setIsHovered4(true)}
+              onMouseLeave={() => setIsHovered4(false)}
+            >
+              <div className=" flex justify-center items-center md:flex-row flex-col md:gap-8 gap-4">
+                <div>
+                  <BsMegaphone
+                    className={`text-4xl md:text-6xl mt-10 md:ml-4 ${
+                      isHovered4 ? "rotate-icon" : "360deg"
+                    }`}
+                  />
+                </div>
+                <div>
+                  <div className="flex justify-center items-center md:items-start md:justify-start flex-col md:mt-12 md:gap-4 gap-2">
+                    <div class=" text-2xl font-bold">Job Alerts</div>
+                    <div class=" md:text-base text-center md:text-left md:w-[250px] px-4 md:px-0">
+                    Inteligent Job alerts that bring active job seekers back to
+                  your jobs
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+         
+            <div
+              className=" relative cursor-pointer bg-gray-100  hover:bg-[#0284c7] hover:text-white  transition-all duration-300  shadow-md rounded-xl h-52"
+              onMouseEnter={() => setIsHovered5(true)}
+              onMouseLeave={() => setIsHovered5(false)}
+            >
+              <div className=" flex justify-center items-center md:flex-row flex-col md:gap-8 gap-4">
                 <div>
                   <feature.Icon
                     className={`text-4xl md:text-6xl mt-10 md:ml-4 ${
@@ -158,4 +244,4 @@ function SeeAllFeatures() {
   );
 }
 
-export default SeeAllFeatures;
+export default SeeAllFeatures

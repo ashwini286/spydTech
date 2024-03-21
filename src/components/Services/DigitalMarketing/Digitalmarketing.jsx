@@ -10,7 +10,7 @@ import IMG3 from "../../assets/Digital marketing/SEO.png";
 import IMG4 from "../../assets/Digital marketing/ppc.jpg";
 import IMG5 from "../../assets/Digital marketing/SMM1.png";
 import IMG6 from "../../assets/Digital marketing/contentwriting 2.jpg";
-import AnimatedFooter from '../UniqueTeam/AnimatedFooter';
+// import AnimatedFooter from '../UniqueTeam/AnimatedFooter';
 import ChatBot from '../../Home/Home/ChatBot';
 
 function Digitalmarketing() {

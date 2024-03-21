@@ -6,8 +6,8 @@ import AccordionItem from "./AccordionItem";
 import IMG1 from "../../../../assets/AI and ML/AI-01.webp";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import "./According.css";
-import AnimatedFooter from "../../../UniqueTeam/AnimatedFooter";
+// import "./According.css";
+// import AnimatedFooter from "../../../UniqueTeam/AnimatedFooter";
 
 function Ai() {
   useEffect(() => {
