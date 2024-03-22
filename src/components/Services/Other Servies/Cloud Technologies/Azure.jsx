@@ -136,7 +136,7 @@ useEffect(() => {
 <section class="bg-indigo-600 text-white py-20 px-4">
     <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
         <div class="md:w-1/2 mb-10 md:mb-0">
-            <h2 class="text-4xl font-bold leading-tight mb-4" data-aos="fade-up-right">Why Choose SPYD on Azure Cloud ?</h2>
+            <h2 class="text-4xl font-bold leading-tight mb-4" data-aos="fade-up-right">Why Choose SpY D on Azure Cloud ?</h2>
             <p class="text-xl mb-4" data-aos="fade-up-right">Unleash the Full Potential of SPYD with Azure Cloud</p>
             <p class="text-xs mb-4" data-aos="fade-up-right">How SPYD seamlessly integrates with Azure services for enhanced performance, scalability, and security.</p>
             <p class="text-xs mb-4" data-aos="fade-up-right">Testimonials or case studies showcasing successful implementations of SPYD on Azure Cloud.</p>

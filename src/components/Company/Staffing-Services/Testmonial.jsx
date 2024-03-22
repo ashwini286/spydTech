@@ -2,6 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { Link } from "react-router-dom";
 
 function Testimonial() {
   const data = [
@@ -58,13 +59,17 @@ function Testimonial() {
                 results.
               </p>
               <div class="max-w-md mx-auto mt-3 sm:flex justify-center md:justify-start md:mt-6">
+                
                 <div class="rounded-full shadow">
-                  <button
+                <Link to="/TryADemo">
+                <button
                     type="button"
                     class="flex justify-center  md:justify-start w-full px-8 py-3 text-base font-normal text-white bg-[#0284c7] border border-transparent rounded-full text-md hover:bg-[#172554] md:py-2 md:text-2xl md:px-5"
                   >
                     Start for free
                   </button>
+                </Link>
+                 
                 </div>
               </div>
             </aside>

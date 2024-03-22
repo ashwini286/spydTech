@@ -3,7 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { Card, CardBody, CardHeader } from "@material-tailwind/react";
 import Navbarupp from "../../Home/Navbar/Navbarupp";
-import Footer1 from "../UniqueTeam/Footer1";
+// import Footer1 from "../UniqueTeam/Footer1";
 import IMG from "../../assets/Blue.webp";
 import UniqueTeam14 from "../UniqueTeam/UniqueTeam14";
 import {
@@ -25,6 +25,7 @@ import { Bs6Circle } from "react-icons/bs";
 import { Bs7Circle } from "react-icons/bs";
 import { Bs8Circle } from "react-icons/bs";
 import ChatBot from "../../Home/Home/ChatBot";
+import ApprochUs from "../../Home/APProchUs/Approch";
 
 const Implementation = () => {
   useEffect(() => {
@@ -327,7 +328,8 @@ const Implementation = () => {
           </Card>
         </div>
       </div>
-      <Footer1 />
+      {/* <Footer1 /> */}
+      <ApprochUs />
       <ChatBot />
     </>
   );

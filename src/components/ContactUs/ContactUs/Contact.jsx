@@ -30,7 +30,7 @@ const Contact = () => {
     </div>
     <GetInTouch />
     <LetsTalk />
-<ChatBot />
+    <ChatBot />
     </>
   )
 }

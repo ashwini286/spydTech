@@ -1,4 +1,6 @@
 import React,{useEffect} from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Wave from "react-wavify";
 import IMG from "../../assets/decore.png";
 // import { Button } from "@material-tailwind/react";
@@ -9,11 +11,6 @@ import { FiPhoneCall } from "react-icons/fi";
 import { MdOutlineMarkEmailRead } from "react-icons/md";
 import Location from "../../Home/APProchUs/Location";
 import SocialIcons from "../../Home/APProchUs/SocialIcon";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-
-// import IMG from "../../assets/decore.png"
-
 import {
   Card,
   
@@ -30,20 +27,20 @@ function Footer1() {
   return (
     <>
       <div className="relative pt-24 lg:py-0.5">
-        <div className="  w-full md:w-[80%] py-8  h-full  ml-auto mr-auto shadow-inner slider rounded-xl mb-24">
+        <div className="  w-full md:w-[80%] py-8  h-full  ml-auto mr-auto shadow-inner bg-[#0c4a6e] rounded-xl mb-24">
           <div className=" text-center flex justify-center items-center flex-col">
-            <div className=" w-full text-2xl md:text-3xl  text-white">
+            <div className=" w-full text-2xl md:text-3xl text-white ">
               Let’s Ignite Conversations in the World of Innovative Technology!
             </div>
             <img
               src={IMG}
               alt="talk"
-              className="w-[27%] h-4 md:w-[40%] md:h-6 md:ml-[600px] "
+              className="w-[27%] h-4 md:w-[40%] md:h-6 md:ml-[500px] "
             />
           </div>
 
-          <div className="flex justify-center items-center flex-col pt-8">
-            <p className="text-center px-8 text-white">
+          <div className="flex justify-center items-center flex-col pt-8 text-white">
+            <p className="text-center px-8 ">
               Join us in a dialogue that transcends boundaries. At the heart of
               our passion lies innovation, where ideas meet execution, crafting
               a seamless and beautiful experience. Your thoughts matter—let's
@@ -94,7 +91,10 @@ function Footer1() {
                         <div className="text-[40px]  ">
                           <Location />
                         </div>
-                        <div className="">REACH US</div>
+                        <Link href="Contact Us">
+                         <div className="">REACH US</div>
+                        </Link>
+
                       </div>
                       <div className="text-white w-52 ml-16 mt-4 ">
                         Meera complex Plot, No-852, 2nd floor Madhapur
@@ -146,7 +146,7 @@ function Footer1() {
                         </Link>
                         <Link to="/SeeAllFeatures">
                           <li className="mb-4 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-2 hover:after:w-[4.5rem] after:transition-all after:duration-300 cursor-pointer">
-                            Resources
+                            Resources Management
                           </li>
                         </Link>
                         <Link to="/contact">
@@ -169,7 +169,7 @@ function Footer1() {
                       </Link>
                       <Link to="/Frontend">
                         <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-6 hover:after:w-14 after:transition-all after:duration-300 cursor-pointer">
-                          Design
+                          Web Development
                         </li>
                       </Link>
                       <Link to = "/SeeAllFeatures">

@@ -6,6 +6,7 @@ import Workflows from "./Workflows";
 import ApprochUs from "../../Home/APProchUs/Approch";
 import Overview from "./Overview";
 import Chatbot from "../../Home/Home/ChatBot";
+import { Link } from "react-router-dom";
 function Staffing2() {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -28,14 +29,18 @@ function Staffing2() {
         </div>
         <div className="max-w-md mx-auto mt-3 sm:flex sm:justify-center md:mt-6 items-center">
           <div className="rounded-full shadow">
+            <Link to="/TryADemo">
             <button
               type="button"
+              
               className="flex items-center justify-center w-full px-8 py-3 
                text-base font-normal text-white bg-[#0284c7] border border-transparent 
                rounded-full text-md hover:bg-[#172554] md:py-2 md:text-xl md:px-5"
             >
               Book a Demo
             </button>
+             </Link>
+            
           </div>
         </div>
       </div>

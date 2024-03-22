@@ -4,9 +4,10 @@ import 'aos/dist/aos.css';
 import Navbarupp from "../../Home/Navbar/Navbarupp";
 import IMG from "../../assets/Blue.webp";
 import UniqueTeam13 from "../UniqueTeam/UniqueTeam13";
-import Footer1 from "../UniqueTeam/Footer1";
+// import Footer1 from "../UniqueTeam/Footer1";
 import { FaCheckCircle } from "react-icons/fa";
 import ChatBot from '../../Home/Home/ChatBot';
+import ApprochUs from '../../Home/APProchUs/Approch';
 
 function Thirdparty() {
    useEffect(() => {
@@ -440,7 +441,8 @@ function Thirdparty() {
       </div>
 
 </div>
-      <Footer1 />
+      {/* <Footer1 /> */}
+      <ApprochUs />
       <ChatBot />
     </>
   );

@@ -17,49 +17,27 @@ function Overview() {
                 percentages of conversion and results.
               </p>
             </div>
-          </div>
-          <div className="flex justify-center items-center md:flex-row flex-col ">
-
-          <div class="grid grid-cols-1 md:grid-cols-2 mx-auto md:max-w-4xl gap-4 my-4">
-            <div class="p-4 border border-[#0284c7] shadow-md shadow-[#0284c7] flex flex-col items-center rounded max-w-sm dark:bg-gray-800 md:w-[300px] w-[200px]">
-              <div class="text-4xl font-bold flex justify-center items-center flex-row gap-x-2 ">
-                <div>
-                  <CountingAnimation start={0} end={150} duration={3000} />
-                </div>
-                <div class="text-yellow-500">+</div>
-              </div>
-              <div class="text-300 text-uppercase">Features Analyzed</div>
-            </div>
-            <div class="p-4 border border-[#0284c7] shadow-md shadow-[#0284c7] flex flex-col items-center rounded max-w-sm dark:bg-gray-800">
-              <div class="text-4xl font-bold flex justify-center items-center flex-row gap-x-2 ">
-                <CountingAnimation start={0} end={60} duration={3000} />
-                <span class="text-teal-500">+</span>
-              </div>
-              <div class="text-300 text-uppercase">Modules</div>
-            </div>
-            <div class="p-4 border border-[#0284c7] shadow-md shadow-[#0284c7] flex flex-col items-center rounded max-w-sm dark:bg-gray-800">
-              <div class="text-4xl font-bold flex justify-center items-center flex-row gap-x-2 ">
-                <div>
-                  <CountingAnimation start={0} end={5} duration={3000} />
-                </div>
-                <div class="text-pink-500">+</div>
-              </div>
-              <div class="text-300 text-uppercase">Functionalities</div>
-            </div>
-            <div class="p-4 border border-[#0284c7] shadow-md shadow-[#0284c7] flex flex-col items-center rounded max-w-sm dark:bg-gray-800">
-              <div class="text-4xl font-bold flex justify-center items-center flex-row gap-x-2">
-                <div>
-                  {" "}
-                  <CountingAnimation start={0} end={4} duration={3000} />
-                </div>
-                <div class="text-violet-500">+</div>
-              </div>
-              <div class="text-300 text-uppercase">File Formats Supported</div>
-            </div>
-          </div>
-          </div>
         </div>
-      </div>
+        <div class="grid grid-cols-2 mx-auto max-w-xl md:max-w-2xl gap-4 my-4">
+            <div class="p-4 border flex flex-col items-center rounded max-w-sm dark:bg-gray-800">
+                <div class="text-4xl font-bold">150<span class="text-yellow-500">+</span></div>
+                <div class="text-300 text-uppercase">Applications Processed</div>
+            </div>
+            <div class="p-4 border flex flex-col items-center rounded max-w-sm dark:bg-gray-800">
+                <div class="text-4xl font-bold">60<span class="text-teal-500">+</span></div>
+                <div class="text-300 text-uppercase">Jobs Posted</div>
+            </div>
+            <div class="p-4 border flex flex-col items-center rounded max-w-sm dark:bg-gray-800">
+                <div class="text-4xl font-bold">5<span class="text-pink-500">+</span></div>
+                <div class="text-300 text-uppercase">Visitors Served</div>
+            </div>
+            <div class="p-4 border flex flex-col items-center rounded max-w-sm dark:bg-gray-800">
+                <div class="text-4xl font-bold">4<span class="text-violet-500">+</span></div>
+                <div class="text-300 text-uppercase">Conversion Uplift</div>
+            </div>
+        </div>
+    </div>
+</div>
     </>
   );
 }
