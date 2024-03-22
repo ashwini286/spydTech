@@ -15,7 +15,7 @@ import Java from "./components/Services/Java/Java";
 import Python from "./components/Services/Python/Python";
 import Consulting from "./components/Services/Consulting/Consulting";
 import Implementation from "./components/Services/Implementation/Implementation";
-import ERPNext from "./components/Services/Services/ERPNext/ERPNext TECHNOLOGY";
+import ERPNext from "./components/Services/ERPNext/ERPNext TECHNOLOGY";
 import Thirdparty from "./components/Services/ThirdParty/Thirdparty";
 import EcommerceDevelopment from "./components/Services/EcommerceDevlopment/EcommerceDevelopment";
 import MobileCommerce from "./components/Services/EcommerceDevlopment/MobileCommerce";
