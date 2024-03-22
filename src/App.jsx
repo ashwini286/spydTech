@@ -3,7 +3,6 @@ import Home from "./components/Home/Home/Home";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Contact from "./components/ContactUs/ContactUs/Contact";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
-
 import Frontend from "./components/Services/Frontend/Frontend";
 import AngularJS from "./components/Services/Angular/AngularJS";
 import Reactjs from "./components/Services/Reactjs/Reactjs";
@@ -38,7 +37,6 @@ import Amazon from "./components/Services/Other Servies/Cloud Technologies/Amazo
 // import StaffingServices from "./components/Company/Staffing-Services/StaffingServices";
 import Azure from "./components/Services/Other Servies/Cloud Technologies/Azure";
 import Google from "./components/Services/Other Servies/Cloud Technologies/Google";
-
 import AboutUs from "./components/Company/AboutUs/AboutUS";
 import MakesUsDifferent from "./components/Company/WhatMakesUsDifferent/MakesUsDifferent";
 import VisionMission from "./components/Company/Vision$Mission/VisionMission";
@@ -138,7 +136,7 @@ const App = () => {
           {/* <Route path="/Staffing-Services" element={<StaffingServices />} /> */}
           <Route path="/Staffing-Services" element={<Staffing2 />} />
           <Route path="/SeeAllFeatures" element={<SeeAllFeatures />} />
-          
+
           {/* form */}
           <Route path="/applyForm" element={<Form />} />
         </Routes>
