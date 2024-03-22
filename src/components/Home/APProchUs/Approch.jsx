@@ -13,16 +13,19 @@ const ApprochUs = () => {
   return (
     <>
       <div className="relative pt-24 lg:py-0.5">
-        <div className="  w-full md:w-[80%] py-8  h-full  ml-auto mr-auto shadow-inner bg-[#0c4a6e]   rounded-xl mb-24">
+        <div className="  w-full md:w-[80%] py-8  h-full  ml-auto mr-auto shadow-inner bg-[#0c4a6e]   rounded-xl mb-[12px]4">
           <div className=" text-center flex justify-center items-center flex-col">
             <div className=" w-full text-2xl md:text-3xl  text-white">
               Let’s Ignite Conversations in the World of Innovative Technology!
             </div>
+            
+
             <img
               src={IMG}
               alt="talk"
-              className="w-[27%] h-4 md:w-[40%] md:h-6 md:ml-[500px] "
+              className="lg:w-[27%] h-4 md:w-[40%] md:h-6 lg:ml-[500px] w-[27%] "
             />
+              
           </div>
 
           <div className="flex justify-center items-center flex-col pt-8">
@@ -139,32 +142,32 @@ const ApprochUs = () => {
                     </div>
                   </div>
                   {/* Service Section */}
-                  <div className=" mb-4  flex justify-center items-center flex-col -mt-14  ">
+                  <div className=" mb-4  flex justify-center items-center flex-col -mt-4  ">
                     <div className="text-2xl font-bold mb-4">Service</div>
 
                     <ul className="text-center">
                       <Link to="/ERPNext TECHNOLOGY">
-                        <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-8 hover:after:w-[4rem] after:transition-all after:duration-300 cursor-pointer">
+                        <li className="mb-[12px] relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-8 hover:after:w-[4rem] after:transition-all after:duration-300 cursor-pointer">
                           ERPNext
                         </li>
                       </Link>
                       <Link to="/Frontend">
-                        <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-[8rem] after:transition-all after:duration-300 cursor-pointer">
+                        <li className="mb-[12px] relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-[8rem] after:transition-all after:duration-300 cursor-pointer">
                           Web Development
                         </li>
                       </Link >
                       <Link to = "/SeeAllFeatures">
-                      <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-2 hover:after:w-[6.5rem] after:transition-all after:duration-300 cursor-pointer">
+                      <li className="mb-[12px] relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-2 hover:after:w-[6.5rem] after:transition-all after:duration-300 cursor-pointer">
                         Staffing Service
                       </li>
                       </Link>
                       <Link to="/DIGITAL MARKETING">
-                        <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-2 hover:after:w-[6.5rem] after:transition-all after:duration-300 cursor-pointer">
+                        <li className="mb-[12px] relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-2 hover:after:w-[6.5rem] after:transition-all after:duration-300 cursor-pointer">
                           Digital Marketing
                         </li>
                       </Link>
                       <Link to="/Advanced Technologies">
-                        <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-4 hover:after:w-24 after:transition-all after:duration-300 cursor-pointer">
+                        <li className="mb-[12px] relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-4 hover:after:w-24 after:transition-all after:duration-300 cursor-pointer">
                           Data Science
                         </li>
                       </Link>
@@ -177,32 +180,32 @@ const ApprochUs = () => {
 
                     <ul className="text-center">
                       <Link to="/Consulting">
-                        <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-10 hover:after:w-40 after:transition-all after:duration-300 cursor-pointer">
+                        <li className="mb-[12px] relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-10 hover:after:w-40 after:transition-all after:duration-300 cursor-pointer">
                           ERPNext Consultation
                         </li>
                       </Link>
                       <Link to="/Implementation">
-                        <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-8 hover:after:w-44 after:transition-all after:duration-300 cursor-pointer">
+                        <li className="mb-[12px] relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-8 hover:after:w-44 after:transition-all after:duration-300 cursor-pointer">
                           ERPNext Implementation
                         </li>
                       </Link>
                       <Link to="/ERPNext TECHNOLOGY">
-                        <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-10 hover:after:w-40 after:transition-all after:duration-300 cursor-pointer">
+                        <li className="mb-[12px] relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-10 hover:after:w-40 after:transition-all after:duration-300 cursor-pointer">
                           ERPNext Development
                         </li>
                       </Link>
                       <Link to="/ERPNext TECHNOLOGY">
-                        <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-6 hover:after:w-[12rem] after:transition-all after:duration-300 cursor-pointer">
+                        <li className="mb-[12px] relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-6 hover:after:w-[12rem] after:transition-all after:duration-300 cursor-pointer">
                           Headless Ecommerce with ERPNext
                         </li>
                       </Link>
                       <Link to="/ERPNext TECHNOLOGY">
-                        <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-10 hover:after:w-40 after:transition-all after:duration-300 cursor-pointer">
+                        <li className="mb-[12px] relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-10 hover:after:w-40 after:transition-all after:duration-300 cursor-pointer">
                           Websites with ERPNext
                         </li>
                       </Link>
                       <Link to="/Third-Party Integrations">
-                        <li className="mb-2 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-10 hover:after:w-40 after:transition-all after:duration-300 cursor-pointer">
+                        <li className="mb-[12px] relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-10 hover:after:w-40 after:transition-all after:duration-300 cursor-pointer">
                           Third-Party Integrations
                         </li>
                       </Link>
