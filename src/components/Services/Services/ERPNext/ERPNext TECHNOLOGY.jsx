@@ -14,8 +14,9 @@ import IMG5 from "../../../assets/ERPNXT6.jpg";
 import IMG6 from "../../../assets/ERPNXT7.jpg";
 import UniqueTeam12 from "../../UniqueTeam/UniqueTeam12";
 // import LatestPost from "../../UniqueTeam/LatestPost";
-import Footer1 from "../../UniqueTeam/Footer1";
+// import Footer1 from "../../UniqueTeam/Footer1";
 import ChatBot from '../../../Home/Home/ChatBot';
+import ApprochUs from '../../../Home/APProchUs/Approch';
 
 function ERPNext() {
   useEffect(() => {
@@ -199,7 +200,7 @@ function ERPNext() {
       </div>
 
       {/* <LatestPost /> */}
-      <Footer1 />
+     <ApprochUs />
       <ChatBot />
     </>
   );

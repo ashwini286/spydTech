@@ -144,7 +144,7 @@ const LetsTalk = () => {
                     <div className="text-[20px]">
                       <FaPhoneAlt />
                     </div>
-                    <div className="ml-3">+91 6305207832</div>
+                    <div className="ml-3">+91 </div>
                   </div>
                   {/* <div className="flex  flex-row font-poppins xs:text-[10px] text-[15px] text-white w-full pt-2">
                     <div className="text-[20px]">

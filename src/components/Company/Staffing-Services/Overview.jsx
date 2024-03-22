@@ -21,19 +21,19 @@ function Overview() {
         <div class="grid grid-cols-2 mx-auto max-w-xl md:max-w-2xl gap-4 my-4">
             <div class="p-4 border flex flex-col items-center rounded max-w-sm dark:bg-gray-800">
                 <div class="text-4xl font-bold">150<span class="text-yellow-500">+</span></div>
-                <div class="text-300 text-uppercase">Features Analyzed</div>
+                <div class="text-300 text-uppercase">Applications Processed</div>
             </div>
             <div class="p-4 border flex flex-col items-center rounded max-w-sm dark:bg-gray-800">
                 <div class="text-4xl font-bold">60<span class="text-teal-500">+</span></div>
-                <div class="text-300 text-uppercase">Modules</div>
+                <div class="text-300 text-uppercase">Jobs Posted</div>
             </div>
             <div class="p-4 border flex flex-col items-center rounded max-w-sm dark:bg-gray-800">
                 <div class="text-4xl font-bold">5<span class="text-pink-500">+</span></div>
-                <div class="text-300 text-uppercase">Functionalities</div>
+                <div class="text-300 text-uppercase">Visitors Served</div>
             </div>
             <div class="p-4 border flex flex-col items-center rounded max-w-sm dark:bg-gray-800">
                 <div class="text-4xl font-bold">4<span class="text-violet-500">+</span></div>
-                <div class="text-300 text-uppercase">File Formats Supported</div>
+                <div class="text-300 text-uppercase">Conversion Uplift</div>
             </div>
         </div>
     </div>

@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Navbarupp from '../../Home/Navbar/Navbarupp';
-import Footer1 from '../UniqueTeam/Footer1'
+// import Footer1 from '../UniqueTeam/Footer1'
 import IMG from '../../assets/Blue.webp';
 import UniqueTeam from '../UniqueTeam/UniqueTeam';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
@@ -10,6 +10,7 @@ import 'react-vertical-timeline-component/style.min.css';
 
 import { HomeIcon, BellIcon, CurrencyDollarIcon } from "@heroicons/react/24/solid";
 import ChatBot from '../../Home/Home/ChatBot';
+import ApprochUs from '../../Home/APProchUs/Approch';
 
 
 
@@ -184,7 +185,8 @@ const Consulting = () => {
 
 
 
-      <Footer1 />
+      {/* <Footer1 /> */}
+      <ApprochUs />
       <ChatBot />
     </>
   );

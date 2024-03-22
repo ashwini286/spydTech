@@ -42,8 +42,9 @@ const TryADemo = () => {
 
       <ReadyToTest />
       <PowerfulFeatures />
-      <ChatBot />
+     
       <Approch />
+      <ChatBot />
     </>
   );
 };

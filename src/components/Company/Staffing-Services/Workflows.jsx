@@ -1,6 +1,7 @@
 import React,{useState} from "react";
 import { HiArrowRightOnRectangle } from "react-icons/hi2";
 import { HiArrowLeftOnRectangle } from "react-icons/hi2";
+import { Link } from "react-router-dom";
 const Workflows = () => {
     const [rotate1, setRotate1] = useState(false)
     const [rotate2, setRotate2] = useState(false)
@@ -61,12 +62,15 @@ const Workflows = () => {
             </div>
             <div class="max-w-md mx-auto mt-3 flex md:justify-center justify-start md:mt-6 md:items-center items-start">
           <div class="rounded-full shadow">
+            <Link to="/TryADemo"> 
             <button
               type="button"
               class=" w-full px-8 py-3 text-base font-normal text-white bg-[#0284c7] border border-transparent rounded-full text-md hover:bg-[#172554] md:py-4 md:text-2xl md:px-10"
             >
               Book A Demo
             </button>
+            </Link>
+            
           </div>
         </div>
            </div>

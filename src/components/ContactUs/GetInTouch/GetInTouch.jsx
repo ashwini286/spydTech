@@ -38,7 +38,7 @@ const GetInTouch = () => {
               <p>
                 <FaPhoneAlt />
               </p>
-              <p className="py-1">+91 6305207832</p>
+              <p className="py-1">+91 </p>
             </div>
           </div>
         </div>
