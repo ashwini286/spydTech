@@ -20,7 +20,7 @@ const OurWork = () => {
   return (
     <div className='px-4 lg:px-14 max-w-screen-2xl mx-auto my-12'>
       <div className='text-center md:w-1/2 mx-auto'>
-        <h2 className='text-4xl  text-black  mb-4 md:w-4/5 text-center mx-auto '>Our Works </h2>
+        <h2 className='text-4xl font-semibold text-[#522D5B]  mb-4  text-center mx-auto'>Our Works </h2>
         <p className=' text-lg  text-black mb-8 md:w-3/4 mx-auto  ' data-aos="fade-right">
           Our works are for clients who are spreading values and principles
           to the world to become a better place.
@@ -45,7 +45,7 @@ const OurWork = () => {
       <div className='flex justify-center items-center m-10' data-aos="fade-up">
      <Link to = "/portfolio">
      <button className='bg-blue-500 text-white py-2 px-8 rounded-md  shadow-lg shadow-blue-700 mt-4 hover:bg-blue-800'>
-          view all
+          View All
         </button>
      </Link>
       </div>

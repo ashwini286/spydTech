@@ -18,14 +18,12 @@ const ApprochUs = () => {
             <div className=" w-full text-2xl md:text-3xl  text-white">
               Let’s Ignite Conversations in the World of Innovative Technology!
             </div>
-            
 
             <img
               src={IMG}
               alt="talk"
               className="lg:w-[27%] h-4 md:w-[40%] md:h-6 lg:ml-[500px] w-[27%] "
             />
-              
           </div>
 
           <div className="flex justify-center items-center flex-col pt-8">
@@ -86,10 +84,7 @@ const ApprochUs = () => {
                         Meera complex Plot, No-852, 2nd floor Madhapur
                         Hyderabad, Telangana - 500081
                       </div>
-                      <div className="flex justify-center items-center  flex-row  text-white w-full leading-[80.8px] gap-8">
-                       
-                        
-                      </div>
+                      <div className="flex justify-center items-center  flex-row  text-white w-full leading-[80.8px] gap-8"></div>
                       <div className="ml-8 flex justify-center items-center  flex-row  text-white gap-4 ">
                         <div className="text-2xl">
                           <MdOutlineMarkEmailRead />
@@ -155,11 +150,11 @@ const ApprochUs = () => {
                         <li className="mb-[12px] relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-[8rem] after:transition-all after:duration-300 cursor-pointer">
                           Web Development
                         </li>
-                      </Link >
-                      <Link to = "/SeeAllFeatures">
-                      <li className="mb-[12px] relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-2 hover:after:w-[6.5rem] after:transition-all after:duration-300 cursor-pointer">
-                        Staffing Service
-                      </li>
+                      </Link>
+                      <Link to="/SeeAllFeatures">
+                        <li className="mb-[12px] relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-2 hover:after:w-[6.5rem] after:transition-all after:duration-300 cursor-pointer">
+                          Staffing Service
+                        </li>
                       </Link>
                       <Link to="/DIGITAL MARKETING">
                         <li className="mb-[12px] relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-2 hover:after:w-[6.5rem] after:transition-all after:duration-300 cursor-pointer">

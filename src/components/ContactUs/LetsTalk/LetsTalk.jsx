@@ -36,14 +36,13 @@ const LetsTalk = () => {
 
   return (
     <>
-    <ChatBot />
+      <ChatBot />
       <div
         style={{
           backgroundImage:
             'url("https://www.aspirantsoftsolutions.com/img/slides/footer-bg.jpg")',
           position: "relative",
         }}
-        
       >
         <div
           style={{
@@ -61,42 +60,34 @@ const LetsTalk = () => {
               }}
             >
               <div className={layout.sectionImg}>
-                <Card color="transparent" shadow={false}>
-                  <Typography
-                    color="white"
-                    className="mb-[-15px] font-normal lg:text-[30px]  mr-[250px] flex-row"
-                  >
+                <div color="transparent" shadow={false}>
+                  <div className="mb-[-15px] font-normal lg:text-[30px]  mr-[250px] flex-row text-white">
                     Let's talk
-                  </Typography>
+                  </div>
                   <form className="mt-8 mb-2 w-80 max-w-screen-lg sm:w-80">
-                    <div className="mb-1 flex flex-col gap-6">
-                      <Input
-                        color="white"
-                        label="Name"
-                        className="rounded-none "
+                    <div className="mb-1 flex flex-col gap-6 text-white">
+                      <input
+                        placeholder=" Name"
+                        className="rounded-md bg-transparent focus:bg-transparent border border-white text-white md:h-[45px]"
                         onChange={(e) => setName(e.target.value)}
                         value={name}
                       />
-                      <Input
-                        color="white"
-                        label="Email"
-                        className="rounded-none "
+                      <input
+                        placeholder=" Email"
+                        className="rounded-md bg-transparent focus:bg-transparent border border-white text-white md:h-[45px]"
                         onChange={(e) => setEmail(e.target.value)}
                         value={email}
                       />
-                      <Input
-                        color="white"
-                        label="Phone No"
-                        className="rounded-none "
+                      <input
+                        placeholder=" Phone No"
+                        className="rounded-md bg-transparent focus:bg-transparent border border-white text-white md:h-[45px]"
                         onChange={(e) => setPhoneNo(e.target.value)}
                         value={phoneNo}
                       />
                       <div className="w-86 border-0">
-                        <Textarea
-                          color="blue"
-                          label="Message"
-                          variant="outlined"
-                          className="rounded-none "
+                        <textarea
+                          placeholder="Message"
+                          className="rounded-md bg-transparent border border-white text-white focus:border-white w-[323px]"
                           onChange={(e) => setMassage(e.target.value)}
                           value={massage}
                         />
@@ -106,7 +97,7 @@ const LetsTalk = () => {
                       Send Message
                     </Button>
                   </form>
-                </Card>
+                </div>
               </div>
             </div>
 
@@ -175,7 +166,6 @@ const LetsTalk = () => {
             </div>
           </section>
         </div>
-        
 
         {/* Background overlay */}
         <div
@@ -191,7 +181,6 @@ const LetsTalk = () => {
           }}
         />
       </div>
-      
     </>
   );
 };
