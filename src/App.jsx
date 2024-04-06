@@ -64,85 +64,85 @@ const App = () => {
           <Route path="/careers" element={<Careers />} />
           {/* //services */}
           {/* //ERPNext */}
-          <Route path="/ERPNext TECHNOLOGY" element={<ERPNext />} />
-
-          <Route path="/Consulting" element={<Consulting />} />
-          <Route path="/Implementation" element={<Implementation />} />
-          <Route path="/Third-Party Integrations" element={<Thirdparty />} />
-
-          {/* //Ecommerce Development */}
-          <Route path="/ECOMMERCE SOLUTIONS" element={<ECommerceTitle />} />
+          <Route path="/services/ERPNext TECHNOLOGY" element={<ERPNext />} />
+          <Route path="/services/Consulting" element={<Consulting />} />
+          <Route path="/services/Implementation" element={<Implementation />} />
+          <Route path="/services/Third-Party Integrations" element={<Thirdparty />} />
+          {/* //Ecommer/servicesce Development */}
+          <Route path="/services/ECOMMERCE SOLUTIONS" element={<ECommerceTitle />} />
           <Route
-            path="/Magento eCommerce Development"
+            path="/services/Magento eCommerce Development"
             element={<EcommerceDevelopment />}
           />
           <Route
-            path="/Mobile Commerce (mCommerce)"
+            path="/services/Mobile Commerce (mCommerce)"
             element={<MobileCommerce />}
           />
-          <Route path="/eCommerce" element={<ECommerce />} />
-          {/* // Angular */}
-          <Route path="/Frontend" element={<Frontend />} />
-          <Route path="/Angular JS" element={<AngularJS />} />
-          <Route path="/React JS" element={<Reactjs />} />
-          <Route path="/Next JS" element={<NextJS />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/services/eCommerce" element={<ECommerce />} />
+          {/* // Angula/servicesr */}
+          <Route path="/services/Frontend" element={<Frontend />} />
+          <Route path="/services/Angular JS" element={<AngularJS />} />
+          <Route path="/services/React JS" element={<Reactjs />} />
+          <Route path="/services/Next JS" element={<NextJS />} />
           {/* Backend */}
-          <Route path="/BACKEND" element={<Backend />} />
-          <Route path="/PHP" element={<Php />} />
-          <Route path="/Java" element={<Java />} />
-          <Route path="/Python" element={<Python />} />
-          {/* // Digital marketing */}
-          <Route path="/DIGITAL MARKETING" element={<Digitalmarketing />} />
-          <Route path="/Seo Services" element={<SeoServices />} />
-          <Route path="/PPC Management Services" element={<PPCManagement />} />
-          <Route path="/SMM & Content Writing" element={<SMMpage />} />
+          <Route path="/services/BACKEND" element={<Backend />} />
+          <Route path="/services/PHP" element={<Php />} />
+          <Route path="/services/Java" element={<Java />} />
+          <Route path="/services/Python" element={<Python />} />
+          {/* // Digita/servicesl marketing */}
+          <Route path="/services/DIGITAL MARKETING" element={<Digitalmarketing />} />
+          <Route path="/services/Seo Services" element={<SeoServices />} />
+          <Route path="/services/PPC Management Services" element={<PPCManagement />} />
+          <Route path="/services/SMM & Content Writing" element={<SMMpage />} />
           {/* // Microsoft// */}
-          <Route path="/MICROSOFT TECHNOLOGY" element={<Microsoft />} />
-          <Route path="/Dynamics CRM" element={<MicrosoftCRM />} />
-          <Route path="/ASP.NET Web Application" element={<ASP />} />
-          <Route path="/PowerBI" element={<PowerBI />} />
+          <Route path="/services/MICROSOFT TECHNOLOGY" element={<Microsoft />} />
+          <Route path="/services/Dynamics CRM" element={<MicrosoftCRM />} />
+          <Route path="/services/ASP.NET Web Application" element={<ASP />} />
+          <Route path="/services/PowerBI" element={<PowerBI />} />
 
           {/* Mobile */}
-          <Route path="/MOBILE" element={<Mobile />} />
-          <Route path="/IPhone Application" element={<IPhone />} />
-          <Route path="/Android Application" element={<AndroidApplication />} />
-          <Route path="/Hybrid App" element={<HybridApp />} />
+          <Route path="/services/MOBILE" element={<Mobile />} />
+          <Route path="/services/IPhone Application" element={<IPhone />} />
+          <Route path="/services/Android Application" element={<AndroidApplication />} />
+          <Route path="/services/Hybrid App" element={<HybridApp />} />
 
-          {/* // other Servies  // */}
-          <Route path="/OTHER SERVICES" element={<Otherservies />} />
-          <Route path="/Cloud Technologies" element={<CloudTech />} />
-          <Route path="/Amazon" element={<Amazon />} />
-          <Route path="/Azure" element={<Azure />} />
-          <Route path="/Google" element={<Google />} />
+          {/* // other /servicesServies  // */}
+          <Route path="/services/OTHER SERVICES" element={<Otherservies />} />
+          <Route path="/services/Cloud Technologies" element={<CloudTech />} />
+          <Route path="/services/Amazon" element={<Amazon />} />
+          <Route path="/services/Azure" element={<Azure />} />
+          <Route path="/services/Google" element={<Google />} />
 
-          <Route path="/Cyber" element={<Cyber />} />
+          <Route path="/services/Cyber" element={<Cyber />} />
 
-          <Route path="/Software Testing" element={<Testing />} />
+          <Route path="/services/Software Testing" element={<Testing />} />
 
-          <Route path="/Advanced Technologies" element={<AIandML />} />
+          <Route path="/services/Advanced Technologies" element={<AIandML />} />
           {/* <Route path="/Ai" element={<Ai />} /> */}
-          <Route path="/Ai2" element={<Ai2 />} />
-          <Route path="/machine" element={<Machine />} />
+          <Route path="/services/Ai2" element={<Ai2 />} />
+          <Route path="/services/machine" element={<Machine />} />
 
           {/* company */}
-          <Route path="/About Us" element={<AboutUs />} />
-          <Route path="/Vision & Mission" element={<VisionMission />} />
+          <Route path="/company/About Us" element={<AboutUs />} />
+          <Route path="/company/Vision & Mission" element={<VisionMission />} />
           <Route
-            path="/What makes us different"
+            path="/company/What makes us different"
             element={<MakesUsDifferent />}
           />
-          <Route path="/Our Core Values" element={<OurCore />} />
+          <Route path="/company/Our Core Values" element={<OurCore />} />
           {/* <Route path="/Staffing-Services" element={<StaffingServices />} /> */}
-          <Route path="/Staffing-Services" element={<Staffing2 />} />
-          <Route path="/SeeAllFeatures" element={<SeeAllFeatures />} />
+          <Route path="/company/Staffing-Services" element={<Staffing2 />} />
+          <Route path="/company/SeeAllFeatures" element={<SeeAllFeatures />} />
 
           {/* form */}
           <Route path="/applyForm" element={<Form />} />
+
+          {/* contact */}
+          <Route path="contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
     </>
   );
 };
 
-export default App;
+export default App;
