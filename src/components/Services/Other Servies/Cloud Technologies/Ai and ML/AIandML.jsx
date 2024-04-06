@@ -46,7 +46,7 @@ function AIandML() {
         <p className='text-xl' data-aos="fade-up-right">Artificial intelligence is the intelligence of machines or software, as opposed to the intelligence of other living beings,
              primarily of humans. It is a field of study in computer science that develops and studies intelligent machines.
               Such machines may be called AIs.</p>
-              <Link to="/Ai2" data-aos="fade-up-right">
+              <Link to="/services/Ai2" data-aos="fade-up-right">
        <button className='bg-blue-500 rounded-md p-3 hover:bg-blue-800 hover:text-white mt-2'>Read More</button>
        </Link>
     </div>
@@ -58,7 +58,7 @@ function AIandML() {
         <h1 className='text-4xl'>About Machine Learning...?</h1>
         <p className='text-xl'>Machine Learning is a field of study in artificial intelligence concerned 
         with the development and study of statistical algorithms that can learn from data and generalize to unseen data, and thus perform tasks without explicit instructions. Recently, artificial neural networks have been able to surpass many previous approaches in performance.</p>
-              <Link to="/machine">
+              <Link to="/services/machine">
        <button className='bg-blue-500 rounded-md p-3 hover:bg-blue-800 hover:text-white mt-2'>Read More</button>
        </Link>
     </div>

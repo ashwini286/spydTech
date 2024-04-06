@@ -83,7 +83,6 @@ function SMMpage() {
               </div>
             </div>
 
-           
             <div
               className="md:w-[500px] md:h-[450px] text-white flex justify-center items-justify flex-col "
               data-aos="fade-down"
@@ -94,7 +93,6 @@ function SMMpage() {
             </div>
           </div>
         </div>
-        
       </div>
       <Media />
       <MediaProcess />
