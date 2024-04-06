@@ -67,9 +67,15 @@ const App = () => {
           <Route path="/services/ERPNext TECHNOLOGY" element={<ERPNext />} />
           <Route path="/services/Consulting" element={<Consulting />} />
           <Route path="/services/Implementation" element={<Implementation />} />
-          <Route path="/services/Third-Party Integrations" element={<Thirdparty />} />
+          <Route
+            path="/services/Third-Party Integrations"
+            element={<Thirdparty />}
+          />
           {/* //Ecommer/servicesce Development */}
-          <Route path="/services/ECOMMERCE SOLUTIONS" element={<ECommerceTitle />} />
+          <Route
+            path="/services/ECOMMERCE SOLUTIONS"
+            element={<ECommerceTitle />}
+          />
           <Route
             path="/services/Magento eCommerce Development"
             element={<EcommerceDevelopment />}
@@ -90,12 +96,21 @@ const App = () => {
           <Route path="/services/Java" element={<Java />} />
           <Route path="/services/Python" element={<Python />} />
           {/* // Digita/servicesl marketing */}
-          <Route path="/services/DIGITAL MARKETING" element={<Digitalmarketing />} />
+          <Route
+            path="/services/DIGITAL MARKETING"
+            element={<Digitalmarketing />}
+          />
           <Route path="/services/Seo Services" element={<SeoServices />} />
-          <Route path="/services/PPC Management Services" element={<PPCManagement />} />
+          <Route
+            path="/services/PPC Management Services"
+            element={<PPCManagement />}
+          />
           <Route path="/services/SMM & Content Writing" element={<SMMpage />} />
           {/* // Microsoft// */}
-          <Route path="/services/MICROSOFT TECHNOLOGY" element={<Microsoft />} />
+          <Route
+            path="/services/MICROSOFT TECHNOLOGY"
+            element={<Microsoft />}
+          />
           <Route path="/services/Dynamics CRM" element={<MicrosoftCRM />} />
           <Route path="/services/ASP.NET Web Application" element={<ASP />} />
           <Route path="/services/PowerBI" element={<PowerBI />} />
@@ -103,7 +118,10 @@ const App = () => {
           {/* Mobile */}
           <Route path="/services/MOBILE" element={<Mobile />} />
           <Route path="/services/IPhone Application" element={<IPhone />} />
-          <Route path="/services/Android Application" element={<AndroidApplication />} />
+          <Route
+            path="/services/Android Application"
+            element={<AndroidApplication />}
+          />
           <Route path="/services/Hybrid App" element={<HybridApp />} />
 
           {/* // other /servicesServies  // */}
@@ -145,4 +163,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default App;
