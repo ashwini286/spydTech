@@ -92,7 +92,7 @@ const App = () => {
           <Route path="/services/Next JS" element={<NextJS />} />
           {/* Backend */}
           <Route path="/services/BACKEND" element={<Backend />} />
-          <Route path="/services/PHP" element={<Php />} />
+          <Route path="/services/php" element={<Php />} />
           <Route path="/services/Java" element={<Java />} />
           <Route path="/services/Python" element={<Python />} />
           {/* // Digita/servicesl marketing */}
