@@ -33,6 +33,12 @@ module.exports =withMT( {
 		}
 		
 	},
+	
+		display:'swap',
+        family: {
+            sans: ['Poppins','sans-serif'],
+        },
+	
 	plugins: [
 		require('flowbite/plugin'),
 	],

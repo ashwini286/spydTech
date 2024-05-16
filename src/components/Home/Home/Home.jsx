@@ -7,7 +7,7 @@ import OurWorks from "../OurWorks/OurWork";
 import WhatClientSay from "../WhatClientSay/Client";
 import Industry from "../Industry/Industry";
 import ApprochUs from "../APProchUs/Approch";
-import { Link } from "react-router-dom";
+  
 import AOS from "aos";
 import "aos/dist/aos.css";
 import IMG1 from "../../assets/Digital-Marketing-Explained_Blog-scaled.jpeg";
@@ -16,6 +16,8 @@ import IMG3 from "../../assets/Main3.webp";
 import Welcome from "./Welcom";
 import ChatBot from "./ChatBot";
 import Loading from "./Loading";
+import { Link } from 'react-router-dom';
+
 const Home = () => {
   useEffect(() => {
     AOS.init();

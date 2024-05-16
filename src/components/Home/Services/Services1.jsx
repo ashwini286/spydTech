@@ -53,7 +53,7 @@ const Services1 = () => {
                 {text.split("").map((letter, index) => (
                   <span
                     key={index}
-                    className="animated-letter md:text-4xl text-2xl"
+                    className="animated-letter md:text-4xl text-2xl font-sans"
                     style={{ animationDelay: `${index * 100}ms` }}
                   >
                     {letter}
@@ -61,7 +61,7 @@ const Services1 = () => {
                 ))}
               </h1>
 
-              <p className="text-black px-4 md:text-xl">
+              <p className="text-black px-4 md:text-xl font-sans">
                 SpY D Technology private limited is India’s leading, one stop,
                 full scale, full service software and information technology
                 that thrives on cutting edge, state of the art, emerging
@@ -80,7 +80,7 @@ const Services1 = () => {
               className="mt-16 md:w-2/2 mx-auto text-center w-full"
               data-aos="fade-down"
             >
-              <p className="text-black">
+              <p className="text-black font-sans">
                 We are one stop, full service, and turnkey solutions provider
                 for
               </p>
