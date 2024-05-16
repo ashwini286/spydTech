@@ -9,7 +9,7 @@ const Workflows = () => {
     <>
       <div className="bg-gray-100 flex justify-center items-center lg:flex-row flex-col gap-16 pb-16 pl-8 md:pl-0">
         <div>
-          <img src="https://media.licdn.com/dms/image/sync/D4E27AQE_OaCQ76sdIA/articleshare-shrink_480/0/1709711949599?e=1711465200&v=beta&t=4ABMsOsVv-EX08ycxbmztZBqHG2BrJmGSfofwZAfLY4" />
+          <img src="https://informaticsalliance.org/wp-content/uploads/2021/12/servicesv2.png" />
         </div>
         <div >
           <div>
