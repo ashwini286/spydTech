@@ -165,7 +165,7 @@ const Slider = () => {
                 </div>
                 <div className="flex items-center gap-4">
                   <div>
-                    <PiPaperPlaneRightFill className="text-[#522D5B]" />
+                    <PiPaperPlaneRightFill className="text-[#522D5B] text-slide" />
                   </div>
                   <div>
                     <p className="text-slide">{slide.line1}</p>
@@ -173,7 +173,7 @@ const Slider = () => {
                 </div>
                 <div className="flex items-center gap-4 pt-4">
                   <div>
-                    <PiPaperPlaneRightFill className="text-[#522D5B]" />
+                    <PiPaperPlaneRightFill className="text-[#522D5B] text-slide" />
                   </div>
                   <div>
                     <p className="text-slide">{slide.line2}</p>

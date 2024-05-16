@@ -43,7 +43,7 @@ const Python = () => {
             <p>
             Python has emerged as a valuable asset for developers globally. Python, being an open-source programming language, provides pre-built code, relieving developers from the need to write everything from scratch. This eliminates the laborious process of manual coding, saving time, and facilitating swift development.
             </p>
-            <Link to = '/Python'>
+            <Link to = '/services/Python'>
             <button className='bg-[#f18701] text-white py-2 px-4 rounded-md  shadow-lg shadow-orange-700 mt-4 hover:bg-[#FF4500]'>Read More</button>
             </Link>
         

@@ -1,13 +1,13 @@
-import React from 'react'
+import React from "react";
 
 const Location = () => {
   return (
     <>
-    <div class="center-body">
-    <div class="loader-shape-3"></div>
-  </div>
- <style>
- {`
+      <div class="center-body">
+        <div class="loader-shape-3"></div>
+      </div>
+      <style>
+        {`
  .center-body {
     
     display: flex;
@@ -65,9 +65,9 @@ const Location = () => {
 
 
 `}
-</style>
+      </style>
     </>
-  )
-}
+  );
+};
 
-export default Location
+export default Location;

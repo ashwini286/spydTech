@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 // import { useWindowScroll } from 'react-use';
-import { useLocation } from 'react-router-dom';
-import { FaAngleRight  } from "react-icons/fa6";
+import { useLocation } from "react-router-dom";
+import { FaAngleRight } from "react-icons/fa6";
 import { FaPerson } from "react-icons/fa6";
 import {
   Navbar,
@@ -21,11 +21,11 @@ import {
   Bars3Icon,
   XMarkIcon,
 } from "@heroicons/react/24/outline";
-import GroupsOutlinedIcon from '@mui/icons-material/GroupsOutlined';
-import PodcastsOutlinedIcon from '@mui/icons-material/PodcastsOutlined';
-import DvrOutlinedIcon from '@mui/icons-material/DvrOutlined';
-import ModelTrainingIcon from '@mui/icons-material/DvrOutlined';
-import ModelTrainingRoundedIcon from '@mui/icons-material/ModelTrainingRounded';
+import GroupsOutlinedIcon from "@mui/icons-material/GroupsOutlined";
+import PodcastsOutlinedIcon from "@mui/icons-material/PodcastsOutlined";
+import DvrOutlinedIcon from "@mui/icons-material/DvrOutlined";
+import ModelTrainingIcon from "@mui/icons-material/DvrOutlined";
+import ModelTrainingRoundedIcon from "@mui/icons-material/ModelTrainingRounded";
 import {
   Bars4Icon,
   GlobeAmericasIcon,
@@ -37,15 +37,15 @@ import {
   TagIcon,
   UserGroupIcon,
 } from "@heroicons/react/24/solid";
-import logo22 from '../../assets/spylogo1.png';
-import LogoFull from '../../assets/logo2.png';
-import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
-import PhoneIphoneIcon from '@mui/icons-material/PhoneIphone';
-import MicrosoftIcon from '@mui/icons-material/Microsoft';
-import DevicesIcon from '@mui/icons-material/Devices';
-import LocalFireDepartmentIcon from '@mui/icons-material/LocalFireDepartment';
-import CloudQueueIcon from '@mui/icons-material/CloudQueue';
-import IntegrationInstructionsIcon from '@mui/icons-material/IntegrationInstructions';
+import logo22 from "../../assets/spylogo1.png";
+import LogoFull from "../../assets/logo2.png";
+import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
+import PhoneIphoneIcon from "@mui/icons-material/PhoneIphone";
+import MicrosoftIcon from "@mui/icons-material/Microsoft";
+import DevicesIcon from "@mui/icons-material/Devices";
+import LocalFireDepartmentIcon from "@mui/icons-material/LocalFireDepartment";
+import CloudQueueIcon from "@mui/icons-material/CloudQueue";
+import IntegrationInstructionsIcon from "@mui/icons-material/IntegrationInstructions";
 import { TbSquareLetterE } from "react-icons/tb";
 import { Link } from "react-router-dom";
 const navListMenuItems = [
@@ -53,93 +53,94 @@ const navListMenuItems = [
     title: "ERPNext TECHNOLOGY",
     // description: "Read insightful articles, tips, and expert opinions.",
     icon: TbSquareLetterE,
-    color: 'blue', // Add a color property for the icon
+    color: "blue", // Add a color property for the icon
     Type1: "Consulting",
     Type2: "Implementation",
-    Type3: "Third-Party Integrations"
-   
+    Type3: "Third-Party Integrations",
   },
   {
     title: "ECOMMERCE SOLUTIONS",
     // description: "Find the perfect solution for your needs.",
     icon: ShoppingCartIcon,
-    color: 'blue',
-     // Add a color property for the icon
+    color: "blue",
+    // Add a color property for the icon
     Type1: "Magento eCommerce Development",
     Type2: "Mobile Commerce (mCommerce)",
-    Type3: "eCommerce"
+    Type3: "eCommerce",
   },
   {
     title: "FRONTEND",
     // description: "Meet and learn about our dedication",
     icon: DevicesIcon,
-    color: 'orange',
+    color: "orange",
     Type1: "Angular JS",
     Type2: "React JS",
-    Type3: "NEXT JS"
+    Type3: "NEXT JS",
   },
   {
     title: "MOBILE",
     // description: "Find the perfect solution for your needs.",
     icon: PhoneIphoneIcon,
-    color: 'green', // Add a color property for the icon
+    color: "green", // Add a color property for the icon
     Type1: "IPhone Application",
     Type2: "Android Application",
-    Type3: "Hybrid App"
+    Type3: "Hybrid App",
   },
   {
     title: "BACKEND",
     // description: "Learn how we can help you achieve your goals.",
     icon: IntegrationInstructionsIcon,
-    color: 'red', // Add a color property for the icon
+    color: "red", // Add a color property for the icon
     Type1: "Java",
     Type2: "PHP",
-    Type3: "Python"
+    Type3: "Python",
   },
   {
     title: "DIGITAL MARKETING",
     // description: "Reach out to us for assistance or inquiries",
     icon: GlobeAmericasIcon,
-    color: 'purple', // Add a color property for the icon
+    color: "purple", // Add a color property for the icon
     Type1: "Seo Services",
     Type2: "PPC Management Services",
-    Type3: "SMM & Content Writing"
-    
+    Type3: "SMM & Content Writing",
   },
   {
     title: "MICROSOFT TECHNOLOGY",
     // description: "Find the perfect solution for your needs.",
     icon: MicrosoftIcon,
-    color: 'teal', // Add a color property for the icon
+    color: "teal", // Add a color property for the icon
     Type1: "Dynamics CRM",
     Type2: "ASP.NET Web Application",
-    Type3: "PowerBI"
+    Type3: "PowerBI",
   },
-  
+
   {
     title: "OTHER SERVICES",
     // description: "Find the perfect solution for your needs.",
     icon: CloudQueueIcon,
-    color: 'cyan', // Add a color property for the icon
+    color: "cyan", // Add a color property for the icon
     Type1: "Cloud Technologies",
     Type2: "Software Testing",
-    Type3: "Advanced Technologies"
-    
+    Type3: "Advanced Technologies",
   },
 ];
 
-
 function NavListMenu({ isSticky }) {
+  const location = useLocation();
+  const path = location.pathname;
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(true);
-  const renderItems = navListMenuItems.map(({ icon: IconComponent, title, Type1, Type2, Type3, color }, key) => (
-    <Link to={`/${title.toLowerCase()}`} key={key}>
-      <MenuItem className="flex items-center ">
-        <div className={`flex items-center justify-center rounded-lg !bg-${color}-500 p-2`}>
-          {React.createElement(IconComponent, {
-            strokeWidth: 3,
-            className: `h-8 text-${color}-500 w-8`,
-          })}
+  const renderItems = navListMenuItems.map(
+    ({ icon: IconComponent, title, Type1, Type2, Type3, color }, key) => (
+      <Link to={`/services/${title.toLowerCase()}`} key={key}>
+        <MenuItem className="flex items-center ">
+          <div
+            className={`flex items-center justify-center rounded-lg !bg-${color}-500 p-2`}
+          >
+            {React.createElement(IconComponent, {
+              strokeWidth: 3,
+              className: `h-8 text-${color}-500 w-8`,
+            })}
           </div>
           <div>
             <Typography
@@ -148,27 +149,24 @@ function NavListMenu({ isSticky }) {
               className="flex items-start text-xm font-light"
             >
               {title}
-
             </Typography>
-
-
           </div>
-
         </MenuItem>
-        <div className='px-7'>
+        <div className="px-7">
           <Typography
             variant="paragraph"
             className="text-xs !font-normal text-blue-gray-500  leading-10"
           >
-           <Link to={`/${Type1.toLowerCase()}`} key={key}> 
-            <div className='flex justify-start items-center'>
-              <div>
-                <FaAngleRight  className='mr-3 ' style={{color:"#FF5A1F"}} />
+            <Link to={`/services/${Type1.toLowerCase()}`} key={key}>
+              <div className="flex justify-start items-center">
+                <div>
+                  <FaAngleRight
+                    className="mr-3 "
+                    style={{ color: "#FF5A1F" }}
+                  />
+                </div>
+                <div className="mb-0">{Type1}</div>
               </div>
-              <div className='mb-0'>
-                {Type1}
-              </div>
-            </div>
             </Link>
             <hr />
           </Typography>
@@ -176,15 +174,13 @@ function NavListMenu({ isSticky }) {
             variant="paragraph"
             className="text-xs !font-normal text-blue-gray-500 leading-10"
           >
-            <Link to={`/${Type2.toLowerCase()}`} key={key}> 
-            <div className='flex justify-start items-center'>
-              <div>
-                <FaAngleRight style={{color:"#FF5A1F"}} className='mr-3' />
+            <Link to={`/services/${Type2.toLowerCase()}`} key={key}>
+              <div className="flex justify-start items-center">
+                <div>
+                  <FaAngleRight style={{ color: "#FF5A1F" }} className="mr-3" />
+                </div>
+                <div>{Type2}</div>
               </div>
-              <div>
-                {Type2}
-              </div>
-            </div>
             </Link>
             <hr />
           </Typography>
@@ -192,16 +188,13 @@ function NavListMenu({ isSticky }) {
             variant="paragraph"
             className="text-xs !font-normal text-blue-gray-500 leading-10"
           >
-          <Link to={`/${Type3.toLowerCase()}`} key={key}> 
-
-            <div className='flex justify-start items-center'>
-              <div>
-                <FaAngleRight style={{color:"#FF5A1F"}} className='mr-3' />
+            <Link to={`/services/${Type3.toLowerCase()}`} key={key}>
+              <div className="flex justify-start items-center">
+                <div>
+                  <FaAngleRight style={{ color: "#FF5A1F" }} className="mr-3" />
+                </div>
+                <div>{Type3}</div>
               </div>
-              <div>
-                {Type3}
-              </div>
-            </div>
             </Link>
             <hr />
           </Typography>
@@ -222,20 +215,24 @@ function NavListMenu({ isSticky }) {
         <MenuHandler>
           <Typography as="div" variant="small" className="font-medium">
             <ListItem
-              className={`flex items-center gap-2 py-2 pr-4 font-medium text-${isSticky ? 'black' : 'white'} `}
+              className={`flex items-center gap-2 py-2 bg-transparent ${
+                path.includes("services") ? "bg-blue-400" : ""
+              } pr-4 font-medium text-${isSticky ? "black" : "white"} `}
               selected={isMenuOpen || isMobileMenuOpen}
               onClick={() => setIsMobileMenuOpen((cur) => !cur)}
             >
               Services
               <ChevronDownIcon
                 strokeWidth={2.5}
-                className={`hidden h-3 w-3 transition-transform lg:block ${isMenuOpen ? "rotate-180" : ""
-                  }`}
+                className={`hidden h-3 w-3 transition-transform lg:block ${
+                  isMenuOpen ? "rotate-180" : ""
+                }`}
               />
               <ChevronDownIcon
                 strokeWidth={2.5}
-                className={`block h-3 w-3 transition-transform lg:hidden ${isMobileMenuOpen ? "rotate-180" : ""
-                  }`}
+                className={`block h-3 w-3 transition-transform lg:hidden ${
+                  isMobileMenuOpen ? "rotate-180" : ""
+                }`}
               />
             </ListItem>
           </Typography>
@@ -247,13 +244,12 @@ function NavListMenu({ isSticky }) {
         </MenuList>
       </Menu>
       <div className="block lg:hidden">
-  <Collapse open={isMobileMenuOpen}>
-    <div className="grid grid-cols-1 gap-y-2 md:grid-cols-2 lg:grid-cols-4 overflow-visible bg-white">
-      {renderItems}
-    </div>
-  </Collapse>
-</div>
-
+        <Collapse open={isMobileMenuOpen}>
+          <div className="grid grid-cols-1 gap-y-2 md:grid-cols-2 lg:grid-cols-4 overflow-visible bg-white">
+            {renderItems}
+          </div>
+        </Collapse>
+      </div>
     </React.Fragment>
   );
 }
@@ -261,66 +257,60 @@ function NavListMenu({ isSticky }) {
 const companyMenu = [
   {
     title: "About Us",
-    color:"pink",
+    color: "pink",
     icon: GroupsOutlinedIcon,
   },
   {
     title: "Vision & Mission",
-    color:"green",
+    color: "green",
     icon: PodcastsOutlinedIcon,
-
   },
   {
     title: "What makes us different",
     color: "cyan",
     icon: DvrOutlinedIcon,
-
   },
   {
     title: "Our Core Values",
-    color: 'blue',
+    color: "blue",
     icon: ModelTrainingRoundedIcon,
-
   },
   {
     title: "Staffing-Services",
-    color: 'orange',
-    icon: FaPerson ,
-
+    color: "orange",
+    icon: FaPerson,
   },
-]
+];
 
 function Company({ isSticky }) {
+  const location = useLocation();
+  const path = location.pathname;
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
-  const renderItems = companyMenu.map(
-    ({ icon, title,color }, key) => (
-      <Link to={`/${title.toLowerCase()}`} key={key}>
-        <MenuItem className="flex items-center gap-3">
-          <div className={`flex items-center justify-center rounded-lg !bg-${color}-500 p-2`}>
-            {" "}
-            {React.createElement(icon, {
-              strokeWidth: 2,
-              className: `h-6 text-${color}-500 w-6`,
-            })}
-          </div>
-          <div>
-            <Typography
-              variant="h6"
-              color=""
-              className="flex items-center text-sm font-bold"
-            >
-              {title}
-
-            </Typography>
-
-
-          </div>
-
-        </MenuItem>
-
-      </Link>
-    ))
+  const renderItems = companyMenu.map(({ icon, title, color }, key) => (
+    <Link to={`/company/${title.toLowerCase()}`} key={key}>
+      <MenuItem className="flex items-center gap-3">
+        <div
+          className={`flex items-center justify-center rounded-lg !bg-${color}-500 p-2`}
+        >
+          {" "}
+          {React.createElement(icon, {
+            strokeWidth: 2,
+            className: `h-6 text-${color}-500 w-6`,
+          })}
+        </div>
+        <div>
+          <Typography
+            variant="h6"
+            color=""
+            className={`flex items-center text-sm font-bold`}
+          >
+            {title}
+          </Typography>
+        </div>
+      </MenuItem>
+    </Link>
+  ));
   return (
     <React.Fragment>
       <Menu
@@ -333,20 +323,24 @@ function Company({ isSticky }) {
         <MenuHandler>
           <Typography as="div" variant="small" className="font-medium">
             <ListItem
-              className={`flex items-center gap-2 py-2 pr-4 font-medium text-${isSticky ? 'black' : 'white'}`}
+              className={`flex items-center gap-2 ${
+                path.includes("company") ? "bg-blue-400" : ""
+              } py-2 pr-4 font-medium text-${isSticky ? "black" : "white"}`}
               selected={isMenuOpen || isMobileMenuOpen}
               onClick={() => setIsMobileMenuOpen((cur) => !cur)}
             >
               Company
               <ChevronDownIcon
                 strokeWidth={2.5}
-                className={`hidden h-3 w-3 transition-transform lg:block ${isMenuOpen ? "rotate-180" : ""
-                  }`}
+                className={`hidden h-3 w-3 transition-transform lg:block ${
+                  isMenuOpen ? "rotate-180" : ""
+                }`}
               />
               <ChevronDownIcon
                 strokeWidth={2.5}
-                className={`block h-3 w-6 transition-transform lg:hidden ${isMobileMenuOpen ? "rotate-180" : ""
-                  }`}
+                className={`block h-3 w-6 transition-transform lg:hidden ${
+                  isMobileMenuOpen ? "rotate-180" : ""
+                }`}
               />
             </ListItem>
           </Typography>
@@ -365,14 +359,15 @@ function Company({ isSticky }) {
         </Collapse>
       </div>
     </React.Fragment>
-  )
-
+  );
 }
 
 function NavList({ isSticky }) {
+  const location = useLocation();
+  const path = location.pathname;
   return (
-    <List className= "mt-4 mb-6 p-0 lg:mt-0 lg:mb-0 lg:flex-row lg:p-1 " >
-      <Link to='/'>
+    <List className="mt-4 mb-6 p-0 lg:mt-0 lg:mb-0 lg:flex-row lg:p-1 ">
+      <Link to="/">
         <Typography
           as="a"
           href="#"
@@ -380,12 +375,18 @@ function NavList({ isSticky }) {
           color={isSticky ? "black" : "white"}
           className="font-medium"
         >
-          <ListItem className={`flex items-center gap-2 py-2 pr-4 text-${isSticky ? 'black' : 'white'}`}>Home</ListItem>
+          <ListItem
+            className={`flex items-center gap-2 py-2 ${
+              path === "/" ? "bg-blue-400" : ""
+            } pr-4 text-${isSticky ? "black" : "white"}`}
+          >
+            Home
+          </ListItem>
         </Typography>
       </Link>
       <Company isSticky={isSticky} />
       <NavListMenu isSticky={isSticky} />
-      <Link to='/portfolio'>
+      <Link to="/portfolio">
         <Typography
           as="a"
           href="#"
@@ -393,37 +394,49 @@ function NavList({ isSticky }) {
           color={isSticky ? "black" : "white"}
           className="font-medium"
         >
-          <ListItem className={`flex items-center gap-2 py-2 pr-4 text-${isSticky ? 'black' : 'white'}`}>portfolio
+          <ListItem
+            className={`flex items-center gap-2 py-2 ${
+              path === "/portfolio" ? "bg-blue-400" : ""
+            } pr-4 text-${isSticky ? "black" : "white"}`}
+          >
+            portfolio
           </ListItem>
-
         </Typography>
       </Link>
-     <Link to = '/careers'>
-     <Typography
-        as="a"
-        href="#"
-        variant="small"
-        color={isSticky ? "black" : "white"}
-        className="font-medium"
-      >
-        <ListItem className={`flex items-center gap-2 py-2 pr-4 text-${isSticky ? 'black' : 'white'}`}>Careers
-        </ListItem>
-      </Typography>
+      <Link to="/careers">
+        <Typography
+          as="a"
+          href="#"
+          variant="small"
+          color={isSticky ? "black" : "white"}
+          className="font-medium"
+        >
+          <ListItem
+            className={`flex items-center gap-2 py-2 ${
+              path === "/careers" ? "bg-blue-400" : ""
+            } pr-4 text-${isSticky ? "black" : "white"}`}
+          >
+            Careers
+          </ListItem>
+        </Typography>
+      </Link>
 
-     </Link>
-
-      <Link to='/contact'>
-      <Typography
-        as="a"
-        href="#"
-        variant="small"
-        color={isSticky ? "black" : "white"}
-        className="font-medium"
-      >
-        <ListItem className={`flex items-center gap-2 py-2 pr-4 text-${isSticky ? 'black' : 'white'}`}>
-          Contact Us
-        </ListItem>
-      </Typography>
+      <Link to="/contact">
+        <Typography
+          as="a"
+          href="#"
+          variant="small"
+          color={isSticky ? "black" : "white"}
+          className="font-medium"
+        >
+          <ListItem
+            className={`flex items-center gap-2 py-2 ${
+              path === "/contact" ? "bg-blue-400" : ""
+            } pr-4 text-${isSticky ? "black" : "white"}`}
+          >
+            Contact Us
+          </ListItem>
+        </Typography>
       </Link>
     </List>
   );
@@ -442,41 +455,43 @@ const Navbarupp = () => {
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     // Cleanup the event listener on component unmount
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
   const location = useLocation();
   const path = location.pathname;
   return (
     <Navbar
-      className='fixed top-0 w-full z-10 rounded-none py-0 max-w-screen-4xl shadow-none'
+      className="fixed top-0 w-full z-10 rounded-none py-0 max-w-screen-4xl shadow-none"
       // style={{padding: "0px"}}
-      color={path === "/contact" ? "gray" : (isSticky ? "white" : "transparent")}
-    >
-      <div className="flex items-center justify-between" >
+      color={path === "/contact" ? "gray" : isSticky ? "white" : "transparent"}
+    >
+      <div className="flex items-center justify-between">
         <Typography
           as="a"
           href="#"
           variant="h6"
           className="mr-4 cursor-pointer py-1.5 lg:ml-2"
         >
-          {isSticky ? <img src={LogoFull} alt="sorry" /> : <img src={logo22} alt="sorry" />}
+          {isSticky ? (
+            <img src={LogoFull} alt="sorry" />
+          ) : (
+            <img src={logo22} alt="sorry" />
+          )}
         </Typography>
         <div className="hidden lg:block">
           <NavList isSticky={isSticky} />
         </div>
         <div className="hidden gap-2 lg:flex text-white">
-        <Link to = '/TryADemo'>
-        <Button variant="gradient" size="sm">
-            Try a Demo
-          </Button>
-
-        </Link>
-       
+          <Link to="/TryADemo">
+            <Button variant="gradient" size="sm">
+              Try a Demo
+            </Button>
+          </Link>
         </div>
         <IconButton
           variant="text"
@@ -484,22 +499,26 @@ const Navbarupp = () => {
           className="lg:hidden"
           onClick={() => setOpenNav(!openNav)}
         >
-          {openNav ? <XMarkIcon className="h-6 w-6" strokeWidth={2}  /> : <Bars3Icon className="h-6 w-6 " strokeWidth={2} />}
+          {openNav ? (
+            <XMarkIcon className="h-6 w-6" strokeWidth={2} />
+          ) : (
+            <Bars3Icon className="h-6 w-6 " strokeWidth={2} />
+          )}
         </IconButton>
       </div>
-      <div className='max-h-[80vh] overflow-y-scroll lg:overflow-hidden'>
-      <Collapse open={openNav}  className={isSticky ? "" : "bg-gray-400"}>
-        <NavList isSticky={isSticky} />
-        <div className="flex w-full flex-nowrap items-center gap-2 lg:hidden text-white pb-6 pl-2">
-          <Link to = '/TryADemo'>
-          <Button variant="gradient" size="sm" >
-            Try a Demo
-          </Button></Link>
-        </div>
-      </Collapse>
+      <div className="max-h-[80vh] overflow-y-scroll lg:overflow-hidden">
+        <Collapse open={openNav} className={isSticky ? "" : "bg-gray-400"}>
+          <NavList isSticky={isSticky} />
+          <div className="flex w-full flex-nowrap items-center gap-2 lg:hidden text-white pb-6 pl-2">
+            <Link to="/TryADemo">
+              <Button variant="gradient" size="sm">
+                Try a Demo
+              </Button>
+            </Link>
+          </div>
+        </Collapse>
       </div>
-      
     </Navbar>
   );
 };
-export default Navbarupp
+export default Navbarupp;

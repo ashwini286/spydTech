@@ -1,4 +1,4 @@
-// const withMT = require("@material-tailwind/react/utils/withMT"); 
+// const withMT = require("@material-tailwind/react/utils/withMT");
 // module.exports = withMT({
 //   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
 //   theme: {
@@ -7,7 +7,7 @@
 //   plugins: [],
 // });
 
-//  @type {import('tailwindcss').Config } 
+//  @type {import('tailwindcss').Config }
 const withMT = require("@material-tailwind/react/utils/withMT");
 module.exports =withMT( {
 	content: [
@@ -33,17 +33,7 @@ module.exports =withMT( {
 		}
 		
 	},
-	
-		display:'swap',
-        family: {
-            sans: ['Poppins','sans-serif'],
-        },
-	
 	plugins: [
 		require('flowbite/plugin'),
 	],
 });
-
-
-
-

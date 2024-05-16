@@ -1,6 +1,5 @@
 {
   "name": "spyd",
-  "homepage": "https://spydtech.com/",
   "private": true,
   "version": "0.0.0",
   "type": "module",

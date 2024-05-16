@@ -59,7 +59,7 @@ Say goodbye to outdated methods and hello to unprecedented security and intellig
                     towards user search queries, and as a consequence, search engines rank them better.
                   </p>
                   <div className="mt-6"  data-aos="fade-up-right">
-                    <Link to="/Seo Services" className="bg-[#8543ee] text-white py-2 px-4 rounded-md  shadow-lg shadow-purple-600 mt-4 hover:bg-[#3a0ca3] ">
+                    <Link to="/services/Seo Services" className="bg-[#8543ee] text-white py-2 px-4 rounded-md  shadow-lg shadow-purple-600 mt-4 hover:bg-[#3a0ca3] ">
                       Learn More
                     </Link>
                   </div>
@@ -93,7 +93,7 @@ Say goodbye to outdated methods and hello to unprecedented security and intellig
                     Social media sites, such as YouTube, Facebook, Pinterest and LinkedIn, also use the pay per click model.
                   </p>
                   <div className="mt-6"  data-aos="fade-up-right">
-                    <Link to="/PPC Management Services" className="bg-[#8543ee] text-white py-2 px-4 rounded-md  shadow-lg shadow-purple-600 mt-4 hover:bg-[#3a0ca3] ">
+                    <Link to="/services/PPC Management Services" className="bg-[#8543ee] text-white py-2 px-4 rounded-md  shadow-lg shadow-purple-600 mt-4 hover:bg-[#3a0ca3] ">
                       Learn More
                     </Link>
                   </div>
@@ -130,7 +130,7 @@ Say goodbye to outdated methods and hello to unprecedented security and intellig
                     to track the success of their efforts and identify even more ways to engage.
                   </p>
                   <div className="mt-6"  data-aos="fade-up-right">
-                    <Link to="/SMM & Content Writing" className="bg-[#8543ee] text-white py-2 px-4 rounded-md  shadow-lg shadow-purple-600 mt-4 hover:bg-[#3a0ca3] ">
+                    <Link to="/services/SMM & Content Writing" className="bg-[#8543ee] text-white py-2 px-4 rounded-md  shadow-lg shadow-purple-600 mt-4 hover:bg-[#3a0ca3] ">
                       Learn More
                     </Link>
                   </div>
@@ -165,7 +165,7 @@ Say goodbye to outdated methods and hello to unprecedented security and intellig
                   one of the most essential aspect of a business plan.
                 </p>
                 <div className="mt-6"  data-aos="fade-up-right">
-                  <Link to="/PPC Management Services" className="bg-[#8543ee] text-white py-2 px-4 rounded-md  shadow-lg shadow-purple-600 mt-4 hover:bg-[#3a0ca3] ">
+                  <Link to="/services/PPC Management Services" className="bg-[#8543ee] text-white py-2 px-4 rounded-md  shadow-lg shadow-purple-600 mt-4 hover:bg-[#3a0ca3] ">
                     Learn More
                   </Link>
                 </div>

@@ -17,7 +17,8 @@ const OurProvenMethodology = () => {
         <div data-aos="fade-up">
           <p className='text-center text-3xl text-black py-8'>Our Proven Methodology</p>
         </div>
-        <div className='grid lg:grid-cols-6 md:px-20 px-4 pb-8 gap-4' data-aos="fade-down">
+        <div className='flex justify-center items-center md:flex-row flex-col'>
+        <div className='grid lg:grid-cols-6 md:grid-cols-2 md:px-20 px-4 pb-8 gap-12' data-aos="fade-down">
 
           <di v className='relative inset-0 flex w-[160px] h-[160px] items-center justify-center hover:-translate-y-4 transition-all duration-300'>
             <img src={bg1} alt='Background 1' className=' shadow-2xl rounded-full hover:bg-blue-gray-500' />
@@ -67,6 +68,8 @@ const OurProvenMethodology = () => {
             </div>
           </div>
 
+
+        </div>
 
         </div>
       </div>
