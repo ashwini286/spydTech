@@ -177,7 +177,7 @@ const OurFeature = () => {
         <div class="max-w-md mx-auto mt-3 sm:flex sm:justify-center md:mt-6 items-center">
         <div class="rounded-full shadow">
   <a
-    href="/company/SeeAllFeatures"
+    href="/company/see_all_features"
     class="flex items-center justify-center w-full px-8 py-3 text-base font-normal text-white bg-[#0284c7] border border-transparent rounded-full text-md hover:bg-[#172554] md:py-4 md:text-2xl md:px-10"
   >
     See all Features

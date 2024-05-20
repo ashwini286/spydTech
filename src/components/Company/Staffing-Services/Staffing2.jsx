@@ -46,7 +46,7 @@ function Staffing2() {
 
 <div class="max-w-md mx-auto mt-3 flex md:justify-center justify-start md:mt-6 md:items-center items-start">
           <div class="rounded-full shadow">
-            <Link to="/TryADemo"> 
+            <Link to="/try_a_demo"> 
             <button
               type="button"
               class=" w-full px-8 py-3 text-base font-normal text-white bg-[#0284c7] border border-transparent rounded-full text-md hover:bg-[#172554] md:py-4 md:text-2xl md:px-10"
