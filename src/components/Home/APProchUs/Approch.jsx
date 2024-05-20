@@ -104,8 +104,8 @@ const ApprochUs = () => {
                   </div>
 
                   {/* Main Section */}
-                  <div className=" mb-4  flex justify-center items-center flex-col  w-48 -mt-4">
-                    <div className="text-2xl font-bold mb-4 ">Main</div>
+                  <div className=" mb-4 md:pb-0 pb-16  flex justify-center items-center flex-col  w-48 -mt-4">
+                    <div className="text-2xl font-bold mb-4  ">Main</div>
                     <div>
                       <ul className="text-center">
                         <Link to="/">
@@ -137,7 +137,7 @@ const ApprochUs = () => {
                     </div>
                   </div>
                   {/* Service Section */}
-                  <div className=" mb-4  flex justify-center items-center flex-col -mt-4  ">
+                  <div className=" mb-4  flex justify-center items-center flex-col -mt-14  ">
                     <div className="text-2xl font-bold mb-4">Service</div>
 
                     <ul className="text-center">
@@ -170,7 +170,7 @@ const ApprochUs = () => {
                   </div>
 
                   {/* Focus Section */}
-                  <div className=" mb-4  flex justify-center items-center flex-col  ">
+                  <div className=" mb-4  flex justify-center items-center flex-col -mt-[10%]  ">
                     <div className="text-2xl font-bold mb-4">Focus</div>
 
                     <ul className="text-center">
