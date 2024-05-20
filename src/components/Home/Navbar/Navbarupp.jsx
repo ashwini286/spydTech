@@ -524,7 +524,7 @@ const Navbarupp = () => {
           <NavList isSticky={isSticky} />
         </div>
         <div className="hidden gap-2 lg:flex text-white">
-          <Link to="/TryADemo">
+          <Link to="/try_a_demo">
             <Button variant="gradient" size="sm">
               Try a Demo
             </Button>

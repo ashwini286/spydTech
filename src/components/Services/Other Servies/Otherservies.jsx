@@ -40,7 +40,7 @@ function Otherservies() {
 
                     <div class="mt-6">
                         <h2 class="text-3xl font-bold tracking-tight text-white">
-                            What is AI and ML ?:
+                            What is AI and ML ?: 
                         </h2>
                         <p class="mt-4 text-lg text-gray-300">
                         Machine learning is a field of study in artificial intelligence concerned with the development and study of 
@@ -48,7 +48,7 @@ function Otherservies() {
                         </p>
                         <div class="mt-6">
                             <a class="inline-flex rounded-lg bg-pink-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700"
-                                href="/services/Advanced Technologies">
+                                href="/services/advanced_technologies">
                                 Learn More
                             </a>
                         </div>
@@ -87,7 +87,7 @@ function Otherservies() {
                         </p>
                         <div class="mt-6">
                             <a class="inline-flex rounded-lg bg-pink-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700"
-                                href="/services/Cloud Technologies">
+                                href="/services/cloud_technologies">
                                 Learn More
                             </a>
                         </div>
@@ -127,7 +127,7 @@ function Otherservies() {
                         </p>
                         <div class="mt-6">
                             <a class="inline-flex rounded-lg bg-pink-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700"
-                                href="/services/SoftwareTesting">
+                                href="/services/software_testing">
                                 Learn More
                             </a>
                         </div>
@@ -164,7 +164,7 @@ function Otherservies() {
                         </p>
                         <div class="mt-6">
                             <a class="inline-flex rounded-lg bg-pink-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700"
-                                href="/services/Cyber">
+                                href="/services/cyber">
                                 Learn More
                             </a>
                         </div>
