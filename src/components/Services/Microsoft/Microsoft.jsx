@@ -286,7 +286,7 @@ function Microsoft() {
             business teams have access to the insights they need, the moment
             they need them.
           </p>
-          <Link to="/services/Dynamics CRM">
+          <Link to="/services/dynamics_crm">
             <button className="bg-[#0369a1] text-white py-2 px-4 rounded-md  shadow-lg shadow-[#0369a1] mt-4 hover:bg-[#3a0ca3]">
               Read More
             </button>
@@ -305,7 +305,7 @@ function Microsoft() {
             allows .NET code to execute in different places—Linux, macOS,
             Windows, iOS, Android, and many more.
           </p>
-          <Link to="/services/ASP.NET Web Application">
+          <Link to="/services/asp.net_web_application">
             <button className="bg-[#0369a1] text-white py-2 px-4 rounded-md  shadow-lg shadow-[#0369a1] mt-4 hover:bg-[#3a0ca3]">
               Read More
             </button>
@@ -330,7 +330,7 @@ function Microsoft() {
             you to drive strategic initiatives and stay ahead of the
             competition.
           </p>
-          <Link to="/services/PowerBI" data-aos="fade-down">
+          <Link to="/services/powerBI" data-aos="fade-down">
             <button className="bg-[#0369a1] text-white py-2 px-4 rounded-md  shadow-lg shadow-[#0369a1] mt-4 hover:bg-[#3a0ca3]">
               Read More
             </button>

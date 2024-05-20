@@ -53,7 +53,7 @@ const ECommerceTitle = () => {
               is the platform of choice for businesses looking to thrive in the
               competitive world of eCommerce.
             </p>
-            <Link to="/services/Magento eCommerce Development">
+            <Link to="/services/magento_eCommerce_development">
               <button className="bg-[#ff8a00] text-white py-2 px-4 rounded-md  shadow-lg shadow-orange-700 mt-4 hover:bg-[#FF4500] ">
                 Read More
               </button>
@@ -104,7 +104,7 @@ const ECommerceTitle = () => {
             the power of mCommerce to stay ahead in the competitive digital
             landscape.
           </div>
-          <Link to="/services/Mobile Commerce (mCommerce)">
+          <Link to="/services/mobile_commerce_(mCommerce)">
             <button className="bg-[#ff8a00] text-white py-2 px-4 rounded-md  shadow-lg shadow-orange-700 mt-4 hover:bg-[#FF4500]">
               Read More
             </button>

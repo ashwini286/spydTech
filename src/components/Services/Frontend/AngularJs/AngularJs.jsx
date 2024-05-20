@@ -19,7 +19,7 @@ const AngularJs = () => {
                     <div className='py-4  text-[#4d4545] md:leading-8'>
                         <p>
                             Angular is a comprehensive and open-source front-end web application framework developed and maintained by Google. Initially released in 2010 as AngularJS, it underwent a complete rewrite, resulting in the release of Angular 2+ in 2016. Angular is designed to simplify and streamline the process of building dynamic, single-page web applications with a focus on modularity, testability, and maintainability.</p>
-                        <Link to='/services/Angular JS'>
+                        <Link to='/services/angular_js'>
                             <button className='bg-[#4361ee] text-white py-2 px-4 rounded-md  shadow-lg shadow-blue-600 mt-4 hover:bg-[#3a0ca3]'>Read More</button>
                         </Link>
 
