@@ -159,7 +159,7 @@ const App = () => {
           <Route path="/applyForm" element={<Form />} />
 
           {/* contact */}
-          <Route path="contact" element={<Contact />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
     </>

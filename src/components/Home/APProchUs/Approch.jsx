@@ -104,106 +104,95 @@ const ApprochUs = () => {
                   </div>
 
                   {/* Main Section */}
-                  <div className=" mb-4 md:pb-0 pb-16  flex justify-center items-center flex-col  w-48 -mt-4">
-                    <div className="text-2xl font-bold mb-4  ">Main</div>
+                  <div className="mb-4 md:pb-0 pb-16 flex justify-center items-center flex-col w-48 -mt-4">
+                    <div className="text-2xl font-bold mb-4">Main</div>
                     <div>
                       <ul className="text-center">
-                        <Link to="/">
-                          <li className="mb-4 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-16 hover:after:w-10 after:transition-all after:duration-300 cursor-pointer">
-                            Home
-                          </li>
-                        </Link>
-                        <Link to="/About Us">
-                          <li className="mb-4 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-14 hover:after:w-16 after:transition-all after:duration-300 cursor-pointer">
-                            About Us
-                          </li>
-                        </Link>
-                        <Link to="/OTHER SERVICES">
-                          <li className="mb-4 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-10 hover:after:w-[5.5rem] after:transition-all after:duration-300 cursor-pointer">
+                        <li className="mb-4 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-16 hover:after:w-10 after:transition-all after:duration-300 cursor-pointer">
+                          <Link to="/">Home</Link>
+                        </li>
+                        <li className="mb-4 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-14 hover:after:w-16 after:transition-all after:duration-300 cursor-pointer">
+                          <Link to="/company/about_us">About Us</Link>
+                        </li>
+                        <li className="mb-4 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-10 hover:after:w-[5.5rem] after:transition-all after:duration-300 cursor-pointer">
+                          <Link to="/services/other_services">
                             Our Services
-                          </li>
-                        </Link>
-                        <Link to="/Staffing-Services">
-                          <li className="mb-4 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-[10.5rem] after:transition-all after:duration-300 cursor-pointer">
+                          </Link>
+                        </li>
+                        <li className="mb-4 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-[10.5rem] after:transition-all after:duration-300 cursor-pointer">
+                          <Link to="/company/staffing_services">
                             Resources Management
-                          </li>
-                        </Link>
-                        <Link to="/contact">
-                          <li className="mb-4 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-12 hover:after:w-[4.5rem] after:transition-all after:duration-300 cursor-pointer">
-                            Contact Us
-                          </li>
-                        </Link>
+                          </Link>
+                        </li>
+                        <li className="mb-4 relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-12 hover:after:w-[4.5rem] after:transition-all after:duration-300 cursor-pointer">
+                          <Link to="/contact">Contact Us</Link>
+                        </li>
                       </ul>
                     </div>
                   </div>
-                  {/* Service Section */}
-                  <div className=" mb-4  flex justify-center items-center flex-col -mt-14  ">
-                    <div className="text-2xl font-bold mb-4">Service</div>
 
+                  {/* Service Section */}
+                  <div className="mb-4 flex justify-center items-center flex-col -mt-14">
+                    <div className="text-2xl font-bold mb-4">Service</div>
                     <ul className="text-center">
-                      <Link to="/ERPNext TECHNOLOGY">
-                        <li className="mb-[12px] relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-8 hover:after:w-[4rem] after:transition-all after:duration-300 cursor-pointer">
-                          ERPNext
-                        </li>
-                      </Link>
-                      <Link to="/Frontend">
-                        <li className="mb-[12px] relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-[8rem] after:transition-all after:duration-300 cursor-pointer">
-                          Web Development
-                        </li>
-                      </Link>
-                      <Link to="/SeeAllFeatures">
-                        <li className="mb-[12px] relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-2 hover:after:w-[6.5rem] after:transition-all after:duration-300 cursor-pointer">
+                      <li className="mb-[12px] relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-8 hover:after:w-[4rem] after:transition-all after:duration-300 cursor-pointer">
+                        <Link to="/services/eRPNext_technology">ERPNext</Link>
+                      </li>
+                      <li className="mb-[12px] relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-[8rem] after:transition-all after:duration-300 cursor-pointer">
+                        <Link to="/services/frontend">Web Development</Link>
+                      </li>
+                      <li className="mb-[12px] relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-2 hover:after:w-[6.5rem] after:transition-all after:duration-300 cursor-pointer">
+                        <Link to="/company/staffing_services">
                           Staffing Service
-                        </li>
-                      </Link>
-                      <Link to="/DIGITAL MARKETING">
-                        <li className="mb-[12px] relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-2 hover:after:w-[6.5rem] after:transition-all after:duration-300 cursor-pointer">
+                        </Link>
+                      </li>
+                      <li className="mb-[12px] relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-2 hover:after:w-[6.5rem] after:transition-all after:duration-300 cursor-pointer">
+                        <Link to="/services/digital_marketing">
                           Digital Marketing
-                        </li>
-                      </Link>
-                      <Link to="/Advanced Technologies">
-                        <li className="mb-[12px] relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-4 hover:after:w-24 after:transition-all after:duration-300 cursor-pointer">
+                        </Link>
+                      </li>
+                      <li className="mb-[12px] relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-4 hover:after:w-24 after:transition-all after:duration-300 cursor-pointer">
+                        <Link to="/services/advanced_technologies">
                           Data Science
-                        </li>
-                      </Link>
+                        </Link>
+                      </li>
                     </ul>
                   </div>
 
                   {/* Focus Section */}
-                  <div className=" mb-4  flex justify-center items-center flex-col -mt-[10%]  ">
+                  <div className="mb-4 flex justify-center items-center flex-col -mt-[10%]">
                     <div className="text-2xl font-bold mb-4">Focus</div>
-
                     <ul className="text-center">
-                      <Link to="/Consulting">
-                        <li className="mb-[12px] relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-10 hover:after:w-40 after:transition-all after:duration-300 cursor-pointer">
+                      <li className="mb-[12px] relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-10 hover:after:w-40 after:transition-all after:duration-300 cursor-pointer">
+                        <Link to="/services/consulting">
                           ERPNext Consultation
-                        </li>
-                      </Link>
-                      <Link to="/Implementation">
-                        <li className="mb-[12px] relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-8 hover:after:w-44 after:transition-all after:duration-300 cursor-pointer">
+                        </Link>
+                      </li>
+                      <li className="mb-[12px] relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-8 hover:after:w-44 after:transition-all after:duration-300 cursor-pointer">
+                        <Link to="/services/implementation">
                           ERPNext Implementation
-                        </li>
-                      </Link>
-                      <Link to="/ERPNext TECHNOLOGY">
-                        <li className="mb-[12px] relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-10 hover:after:w-40 after:transition-all after:duration-300 cursor-pointer">
+                        </Link>
+                      </li>
+                      <li className="mb-[12px] relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-10 hover:after:w-40 after:transition-all after:duration-300 cursor-pointer">
+                        <Link to="/services/eRPNext_technology">
                           ERPNext Development
-                        </li>
-                      </Link>
-                      <Link to="/ERPNext TECHNOLOGY">
-                        <li className="mb-[12px] relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-6 hover:after:w-[12rem] after:transition-all after:duration-300 cursor-pointer">
+                        </Link>
+                      </li>
+                      <li className="mb-[12px] relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-6 hover:after:w-[12rem] after:transition-all after:duration-300 cursor-pointer">
+                        <Link to="/services/eRPNext_technology">
                           Headless Ecommerce with ERPNext
-                        </li>
-                      </Link>
-                      <Link to="/ERPNext TECHNOLOGY">
-                        <li className="mb-[12px] relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-10 hover:after:w-40 after:transition-all after:duration-300 cursor-pointer">
+                        </Link>
+                      </li>
+                      <li className="mb-[12px] relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-10 hover:after:w-40 after:transition-all after:duration-300 cursor-pointer">
+                        <Link to="/services/eRPNext_technology">
                           Websites with ERPNext
-                        </li>
-                      </Link>
-                      <Link to="/Third-Party Integrations">
-                        <li className="mb-[12px] relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-10 hover:after:w-40 after:transition-all after:duration-300 cursor-pointer">
+                        </Link>
+                      </li>
+                      <li className="mb-[12px] relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-10 hover:after:w-40 after:transition-all after:duration-300 cursor-pointer">
+                        <Link to="/services/third_party_integrations">
                           Third-Party Integrations
-                        </li>
-                      </Link>
+                        </Link>
+                      </li>
                     </ul>
                   </div>
                 </div>
