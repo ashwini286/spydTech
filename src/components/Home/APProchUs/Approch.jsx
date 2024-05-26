@@ -170,7 +170,7 @@ const ApprochUs = () => {
                       </li>
                       <li className="mb-[12px] relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-8 hover:after:w-44 after:transition-all after:duration-300 cursor-pointer">
                         <Link to="/services/implementation">
-                          ERPNext Implementation
+                          ERPNext Implementation 
                         </Link>
                       </li>
                       <li className="mb-[12px] relative after:bg-white after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-10 hover:after:w-40 after:transition-all after:duration-300 cursor-pointer">

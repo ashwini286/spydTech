@@ -16,6 +16,7 @@ import UniqueTeam12 from "../UniqueTeam/UniqueTeam12";
 // import LatestPost from "../../UniqueTeam/LatestPost";
 import Footer1 from "../UniqueTeam/Footer1";
 import ChatBot from "../../Home/Home/ChatBot";
+import Approch from "../../Home/APProchUs/Approch";
 
 function ERPNext() {
   useEffect(() => {
@@ -282,8 +283,7 @@ function ERPNext() {
         </div>
       </div>
 
-      {/* <LatestPost /> */}
-      <Footer1 />
+       <Approch />
       <ChatBot />
     </>
   );
