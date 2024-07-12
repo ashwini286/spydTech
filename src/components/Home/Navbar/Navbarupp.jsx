@@ -51,15 +51,20 @@ import { Link } from "react-router-dom";
 const navListMenuItems = [
   {
     title: "ERPNext TECHNOLOGY",
+    title1: "eRPNext_technology",
     // description: "Read insightful articles, tips, and expert opinions.",
     icon: TbSquareLetterE,
     color: "blue", // Add a color property for the icon
     Type1: "Consulting",
+    type1link: "consulting",
+    type2link: "implementation",
+    type3link: "third_party_integrations",
     Type2: "Implementation",
     Type3: "Third-Party Integrations",
   },
   {
     title: "ECOMMERCE SOLUTIONS",
+    title1: "ecommerce_solutions",
     // description: "Find the perfect solution for your needs.",
     icon: ShoppingCartIcon,
     color: "blue",
@@ -67,61 +72,88 @@ const navListMenuItems = [
     Type1: "Magento eCommerce Development",
     Type2: "Mobile Commerce (mCommerce)",
     Type3: "eCommerce",
+    type1link: "magento_eCommerce_development",
+    type2link: "mobile_commerce_(mCommerce)",
+    type3link: "eCommerce"
   },
   {
     title: "FRONTEND",
+    title1: "frontend",
     // description: "Meet and learn about our dedication",
     icon: DevicesIcon,
     color: "orange",
     Type1: "Angular JS",
     Type2: "React JS",
     Type3: "NEXT JS",
+    type1link: "angular_js",
+    type2link: "react_js",
+    type3link: "next_js",
   },
   {
     title: "MOBILE",
+    title1: "mobile",
     // description: "Find the perfect solution for your needs.",
     icon: PhoneIphoneIcon,
     color: "green", // Add a color property for the icon
     Type1: "IPhone Application",
     Type2: "Android Application",
     Type3: "Hybrid App",
+    type1link: "iphone_application",
+    type2link: "android_application",
+    type3link: "Hybrid_App"
   },
   {
     title: "BACKEND",
+    title1: "backend",
     // description: "Learn how we can help you achieve your goals.",
     icon: IntegrationInstructionsIcon,
     color: "red", // Add a color property for the icon
     Type1: "Java",
     Type2: "PHP",
     Type3: "Python",
+    type1link: "java",
+    type2link: "php",
+    type3link: "python"
   },
   {
     title: "DIGITAL MARKETING",
+    title1: "digital_marketing",
     // description: "Reach out to us for assistance or inquiries",
     icon: GlobeAmericasIcon,
     color: "purple", // Add a color property for the icon
     Type1: "Seo Services",
     Type2: "PPC Management Services",
     Type3: "SMM & Content Writing",
+    type1link: "seo_services",
+    type2link: "ppc_management_services",
+    type3link: "smm_&_content_writing",
   },
   {
     title: "MICROSOFT TECHNOLOGY",
+    title1: "microsoft_tecgnology",
     // description: "Find the perfect solution for your needs.",
     icon: MicrosoftIcon,
     color: "teal", // Add a color property for the icon
     Type1: "Dynamics CRM",
     Type2: "ASP.NET Web Application",
     Type3: "PowerBI",
+    type1link: "dynamics_crm",
+    type2link: "asp.net_web_application",
+    type3link: "powerBI"
   },
 
   {
     title: "OTHER SERVICES",
+    title1: "other_services",
     // description: "Find the perfect solution for your needs.",
     icon: CloudQueueIcon,
     color: "cyan", // Add a color property for the icon
     Type1: "Cloud Technologies",
     Type2: "Software Testing",
     Type3: "Advanced Technologies",
+    type1link: "cloud_technologies",
+    type2link: "software_testing",
+    type3link: "advanced_technologies"
   },
 ];
 
@@ -131,8 +163,8 @@ function NavListMenu({ isSticky }) {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(true);
   const renderItems = navListMenuItems.map(
-    ({ icon: IconComponent, title, Type1, Type2, Type3, color }, key) => (
-      <Link to={`/services/${title.toLowerCase()}`} key={key}>
+    ({ icon: IconComponent, title, Type1, Type2, Type3, color, title1, type1link , type2link, type3link }, key) => (
+      <Link to={`/services/${title1}`} key={key}>
         <MenuItem className="flex items-center ">
           <div
             className={`flex items-center justify-center rounded-lg !bg-${color}-500 p-2`}
@@ -157,7 +189,7 @@ function NavListMenu({ isSticky }) {
             variant="paragraph"
             className="text-xs !font-normal text-blue-gray-500  leading-10"
           >
-            <Link to={`/services/${Type1.toLowerCase()}`} key={key}>
+            <Link to={`/services/${type1link}`} key={key}>
               <div className="flex justify-start items-center">
                 <div>
                   <FaAngleRight
@@ -174,7 +206,7 @@ function NavListMenu({ isSticky }) {
             variant="paragraph"
             className="text-xs !font-normal text-blue-gray-500 leading-10"
           >
-            <Link to={`/services/${Type2.toLowerCase()}`} key={key}>
+            <Link to={`/services/${type2link}`} key={key}>
               <div className="flex justify-start items-center">
                 <div>
                   <FaAngleRight style={{ color: "#FF5A1F" }} className="mr-3" />
@@ -188,7 +220,7 @@ function NavListMenu({ isSticky }) {
             variant="paragraph"
             className="text-xs !font-normal text-blue-gray-500 leading-10"
           >
-            <Link to={`/services/${Type3.toLowerCase()}`} key={key}>
+            <Link to={`/services/${type3link}`} key={key}>
               <div className="flex justify-start items-center">
                 <div>
                   <FaAngleRight style={{ color: "#FF5A1F" }} className="mr-3" />
@@ -257,26 +289,31 @@ function NavListMenu({ isSticky }) {
 const companyMenu = [
   {
     title: "About Us",
+    link: "about_us",
     color: "pink",
     icon: GroupsOutlinedIcon,
   },
   {
     title: "Vision & Mission",
+    link: "vision_&_mission",
     color: "green",
     icon: PodcastsOutlinedIcon,
   },
   {
     title: "What makes us different",
+    link: "what_makes_us_different",
     color: "cyan",
     icon: DvrOutlinedIcon,
   },
   {
     title: "Our Core Values",
+    link: "our_core_values",
     color: "blue",
     icon: ModelTrainingRoundedIcon,
   },
   {
     title: "Staffing-Services",
+    link: "staffing_services",
     color: "orange",
     icon: FaPerson,
   },
@@ -287,8 +324,8 @@ function Company({ isSticky }) {
   const path = location.pathname;
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
-  const renderItems = companyMenu.map(({ icon, title, color }, key) => (
-    <Link to={`/company/${title.toLowerCase()}`} key={key}>
+  const renderItems = companyMenu.map(({ icon, title, color, link }, key) => (
+    <Link to={`/company/${link}`} key={key}>
       <MenuItem className="flex items-center gap-3">
         <div
           className={`flex items-center justify-center rounded-lg !bg-${color}-500 p-2`}
@@ -487,7 +524,7 @@ const Navbarupp = () => {
           <NavList isSticky={isSticky} />
         </div>
         <div className="hidden gap-2 lg:flex text-white">
-          <Link to="/TryADemo">
+          <Link to="/try_a_demo">
             <Button variant="gradient" size="sm">
               Try a Demo
             </Button>

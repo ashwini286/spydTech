@@ -8,6 +8,7 @@ import { CiCloudOn } from "react-icons/ci";
 import { IoSettingsOutline } from "react-icons/io5";
 import { CiLock } from "react-icons/ci";
 import ChatBot from '../../Home/Home/ChatBot';
+import { Link } from 'react-router-dom';
 
 function Otherservies() {
     useEffect(() => {
@@ -40,18 +41,18 @@ function Otherservies() {
 
                     <div class="mt-6">
                         <h2 class="text-3xl font-bold tracking-tight text-white">
-                            What is AI and ML ?:
+                            What is AI and ML ?: 
                         </h2>
                         <p class="mt-4 text-lg text-gray-300">
                         Machine learning is a field of study in artificial intelligence concerned with the development and study of 
                         statistical algorithms that can learn from data and generalize to unseen data, and thus perform tasks without explicit
                         </p>
-                        <div class="mt-6">
-                            <a class="inline-flex rounded-lg bg-pink-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700"
-                                href="/services/Advanced Technologies">
+                        <Link to="/services/advanced_technologies" class="mt-6">
+                            <button class="inline-flex rounded-lg bg-pink-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700"
+                              >
                                 Learn More
-                            </a>
-                        </div>
+                            </button>
+                        </Link>
                     </div>
                 </div>
             </div>
@@ -85,12 +86,12 @@ function Otherservies() {
                         especially data storage and computing power, without direct active management by the user. 
                         Large clouds often have functions distributed over multiple locations, each of which is a data center.
                         </p>
-                        <div class="mt-6">
-                            <a class="inline-flex rounded-lg bg-pink-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700"
-                                href="/services/Cloud Technologies">
+                        <Link  to="/services/cloud_technologies" class="mt-6">
+                            <button class="inline-flex rounded-lg bg-pink-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700"
+                               >
                                 Learn More
-                            </a>
-                        </div>
+                            </button>
+                        </Link>
                     </div>
                 </div>
             </div>
@@ -125,12 +126,12 @@ function Otherservies() {
                         independent view of the software to allow the business to appreciate and understand 
                         the risks of software implementation.
                         </p>
-                        <div class="mt-6">
-                            <a class="inline-flex rounded-lg bg-pink-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700"
-                                href="/Software Testing">
+                        <Link  to="/services/software_testing" class="mt-6">
+                            <button class="inline-flex rounded-lg bg-pink-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700"
+                               >
                                 Learn More
-                            </a>
-                        </div>
+                            </button>
+                        </Link>
                     </div>
                 </div>
             </div>
@@ -162,12 +163,12 @@ function Otherservies() {
                         Cyber security is the practice of defending computers, servers, mobile devices, electronic systems, networks, and data from malicious attacks. It's also known as information technology security or electronic information security.
                          The term applies in a variety of contexts, from business to mobile computing.
                         </p>
-                        <div class="mt-6">
-                            <a class="inline-flex rounded-lg bg-pink-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700"
-                                href="/services/Cyber">
+                        <Link  to="/services/cyber" class="mt-6">
+                            <button class="inline-flex rounded-lg bg-pink-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700"
+                               >
                                 Learn More
-                            </a>
-                        </div>
+                            </button>
+                        </Link>
                     </div>
                 </div>
             </div>

@@ -41,7 +41,7 @@ function CloudTech() {
     <p data-aos="fade-down">Amazon Web Services, Inc. is a subsidiary of Amazon that provides on-demand cloud computing platforms and APIs to individuals,
          companies, and governments, on a metered, pay-as-you-go basis. Clients will often use this in combination with autoscaling.</p>
         
-         <Link to="/Amazon" data-aos="fade-down">
+         <Link to="/services/Amazon" data-aos="fade-down">
        <button className='bg-blue-500 rounded-md p-3 hover:bg-blue-800 hover:text-white mt-2'>Read More</button>
        </Link>
     </div>
@@ -61,7 +61,7 @@ function CloudTech() {
     <p data-aos="fade-down">Microsoft Azure, often referred to as Azure, is a cloud computing platform run by Microsoft. 
         It offers access, management, and the development of applications and services through global data centers.</p>
         
-        <Link to="/Azure" data-aos="fade-up">
+        <Link to="/services/Azure" data-aos="fade-up">
        <button className='bg-blue-500 rounded-md p-3 hover:bg-blue-800 hover:text-white mt-2'>Read More</button>
        </Link>
     </div>
@@ -81,7 +81,7 @@ function CloudTech() {
     <p data-aos="fade-down">Google Cloud Platform, offered by Google, is a suite of cloud computing services that provides a series of modular 
         cloud services including computing, data storage, data analytics, and machine learning, alongside a set of management tools.</p>
         
-       <Link to="/Google" data-aos="fade-down">
+       <Link to="/services/Google" data-aos="fade-down">
        <button className='bg-blue-500 rounded-md p-3 hover:bg-blue-800 hover:text-white mt-2'>Read More</button>
        </Link>
     </div>
